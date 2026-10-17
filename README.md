@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/assets/softspace-cover.svg" width="100%" alt="SoftSpace â€” exploring affordable passive headphones and glasses-friendly cushions. Research in progress." />
+  <img src=".github/assets/softspace-cover.svg" width="100%" alt="SoftSpace — exploring affordable passive headphones and glasses-friendly cushions. Research in progress." />
 </p>
 
 <p align="center">
@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="SoftSpace/README.md"><strong>Explore SoftSpace</strong></a> &nbsp; Â· &nbsp;
-  <a href="SoftSpace%20Flex/README.md"><strong>Explore SoftSpace Flex</strong></a> &nbsp; Â· &nbsp;
-  <a href="#the-evidence-so-far">Test results</a> &nbsp; Â· &nbsp;
+  <a href="SoftSpace/README.md"><strong>Explore SoftSpace</strong></a> &nbsp; · &nbsp;
+  <a href="SoftSpace%20Flex/README.md"><strong>Explore SoftSpace Flex</strong></a> &nbsp; · &nbsp;
+  <a href="#the-evidence-so-far">Test results</a> &nbsp; · &nbsp;
   <a href="#start-with-the-reports">Read the reports</a>
 </p>
 
@@ -42,8 +42,8 @@ This repository makes the work inspectable: actual CAD, illustrated reports, num
     <td><strong>A replacement-cushion concept</strong><br/>A softer zone around glasses arms with a continuous cover. The first intended host is the Sony WH-CH720N; its mounting dimensions are still required.</td>
   </tr>
   <tr>
-    <td><a href="SoftSpace/README.md">Open product overview â†’</a><br/><a href="SoftSpace/reports/SoftSpace_Report.docx">Download illustrated Word report â†’</a></td>
-    <td><a href="SoftSpace%20Flex/README.md">Open product overview â†’</a><br/><a href="SoftSpace%20Flex/reports/SoftSpace_Flex_Report.docx">Download illustrated Word report â†’</a></td>
+    <td><a href="SoftSpace/README.md">Open product overview →</a><br/><a href="SoftSpace/reports/SoftSpace_Report.docx">Download illustrated Word report →</a></td>
+    <td><a href="SoftSpace%20Flex/README.md">Open product overview →</a><br/><a href="SoftSpace%20Flex/reports/SoftSpace_Flex_Report.docx">Download illustrated Word report →</a></td>
   </tr>
 </table>
 
@@ -82,11 +82,11 @@ The latest standalone geometry is **V19**. The numerical results are conditional
 | Outward load | 0.39% | 0.41% | Pass, below 5% |
 | Inward load | 0.37% | 0.34% | Pass, below 5% |
 
-These percentages describe **how much computed displacement changed between two meshes**. They are not comfort scores or improvements over another headphone. The fixtures use an assumed elastic PA66 reference, an ideal pivot, 140 N prescribed **joint preload**, friction coefficient 0.2 and a Â±2 N side load. They are separate static cases, not a folding-cycle or load-reversal test.
+These percentages describe **how much computed displacement changed between two meshes**. They are not comfort scores or improvements over another headphone. The fixtures use an assumed elastic PA66 reference, an ideal pivot, 140 N prescribed **joint preload**, friction coefficient 0.2 and a ±2 N side load. They are separate static cases, not a folding-cycle or load-reversal test.
 
 All eight higher-order cases have saved-result audits. Passing these selected checks does not establish convergence of every stress, qualify the real fastener, calibrate the proposed hinge torque, or prove real sound isolation.
 
-**Read the evidence:** [outward results](SoftSpace/engineering/evidence/engineering-v19-results/quadratic-contact/status.json) Â· [inward results](SoftSpace/engineering/evidence/engineering-v19-results/quadratic-inward/status.json) Â· [inward audits](SoftSpace/engineering/evidence/engineering-v19-results/quadratic-inward/verification.json) Â· [full workstream status](SoftSpace/engineering/evidence/engineering-v19-results/workstream_status.csv).
+**Read the evidence:** [outward results](SoftSpace/engineering/evidence/engineering-v19-results/quadratic-contact/status.json) · [inward results](SoftSpace/engineering/evidence/engineering-v19-results/quadratic-inward/status.json) · [inward audits](SoftSpace/engineering/evidence/engineering-v19-results/quadratic-inward/verification.json) · [full workstream status](SoftSpace/engineering/evidence/engineering-v19-results/workstream_status.csv).
 
 ## A closer look at the fold
 
@@ -118,26 +118,26 @@ Bundle SHA-256: `13eb06a9162fab0dbcf2a6b495e84aa301b0f2840df34c2888a1e1d3e588914
 
 ```text
 SoftSpace/
-â”œâ”€â”€ README.md
-â”œâ”€â”€ reports/                  Illustrated SoftSpace report
-â”œâ”€â”€ CAD/
-â”‚   â”œâ”€â”€ V19/                  Six current assemblies and 18 saved poses
-â”‚   â””â”€â”€ V10-native/           Earlier editable Fusion archives
-â”œâ”€â”€ media/                    Saved CAD views and research figures
-â””â”€â”€ engineering/
-    â”œâ”€â”€ evidence/             Recorded results, arrays, failures and blank forms
-    â”œâ”€â”€ CAD/                  Current V19 analysis-source CAD
-    â”œâ”€â”€ sources/              Simulation, CAD and report-authoring scripts
-    â”œâ”€â”€ figures/              Figures used in the living reports
-    â”œâ”€â”€ tools/                Workspace preparation and repository verification
-    â””â”€â”€ publication_manifest.json
+├── README.md
+├── reports/                  Illustrated SoftSpace report
+├── CAD/
+│   ├── V19/                  Six current assemblies and 18 saved poses
+│   └── V10-native/           Earlier editable Fusion archives
+├── media/                    Saved CAD views and research figures
+└── engineering/
+    ├── evidence/             Recorded results, arrays, failures and blank forms
+    ├── CAD/                  Current V19 analysis-source CAD
+    ├── sources/              Simulation, CAD and report-authoring scripts
+    ├── figures/              Figures used in the living reports
+    ├── tools/                Workspace preparation and repository verification
+    └── publication_manifest.json
 
 SoftSpace Flex/
-â”œâ”€â”€ README.md
-â”œâ”€â”€ reports/                  Illustrated SoftSpace Flex report
-â”œâ”€â”€ CAD/generic-V8/           Generic cushion candidates; Sony fit unverified
-â”œâ”€â”€ measurements/            Blank measurement and sample-test records
-â””â”€â”€ media/                    Cushion view and measurement guide
+├── README.md
+├── reports/                  Illustrated SoftSpace Flex report
+├── CAD/generic-V8/           Generic cushion candidates; Sony fit unverified
+├── measurements/            Blank measurement and sample-test records
+└── media/                    Cushion view and measurement guide
 ```
 
 Shared calculations live in `SoftSpace/engineering` so both routes refer to the same evidence. Historical technical filenames are preserved there for traceability. Installed libraries, cached wheels, temporary screenshots and duplicate release ZIPs are excluded.
@@ -147,10 +147,10 @@ Shared calculations live in `SoftSpace/engineering` so both routes refer to the 
 
 | Stage | Main focus |
 | :--- | :--- |
-| V1â€“V9 | Cushion concepts, continuous-cover exploration, extendable sizes and early structural screens |
+| V1–V9 | Cushion concepts, continuous-cover exploration, extendable sizes and early structural screens |
 | V10 | Native Fusion candidates and actual-width component fixtures |
-| V11â€“V14 | Materials, folding geometry, locks and service-cap experiments; rejected routes retained |
-| V15â€“V17 | Retention, packing, index holes and entry pilots |
+| V11–V14 | Materials, folding geometry, locks and service-cap experiments; rejected routes retained |
+| V15–V17 | Retention, packing, index holes and entry pilots |
 | V18 | Passive hinge and wearing-stop proposal; handling and material screens |
 | V19 | Parallel disc-spring proposal, revised pin/nuts, six-size exports and coupled joint calculations |
 
@@ -176,4 +176,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the evidence format and report-update
 
 ---
 
-<p align="center"><strong>SoftSpace Â· SoftSpace Flex</strong><br/>Built around a comfort question. Documented with evidence.<br/><sub>Working names; trademark clearance is incomplete. No open-source licence has been selected.</sub></p>
+<p align="center"><strong>SoftSpace · SoftSpace Flex</strong><br/>Built around a comfort question. Documented with evidence.<br/><sub>Working names; trademark clearance is incomplete. No open-source licence has been selected.</sub></p>
