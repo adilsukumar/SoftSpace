@@ -1,0 +1,641 @@
+{
+  "status": "complete",
+  "sizes": [
+    {
+      "name": "adult_small",
+      "fillet_radius_mm": 0.5,
+      "entry_edges": [
+        [
+          95.41014234182589,
+          8.3,
+          97.33353617791306
+        ],
+        [
+          95.41014234182589,
+          -8.3,
+          97.33353617791306
+        ],
+        [
+          100.0101423418259,
+          8.3,
+          97.0
+        ],
+        [
+          100.0101423418259,
+          -8.3,
+          97.0
+        ],
+        [
+          -95.41014234182589,
+          8.3,
+          97.33353617791306
+        ],
+        [
+          -95.41014234182589,
+          -8.3,
+          97.33353617791306
+        ],
+        [
+          -100.0101423418259,
+          -8.3,
+          97.0
+        ],
+        [
+          -100.0101423418259,
+          8.3,
+          97.0
+        ]
+      ],
+      "original_band_volume_mm3": 27806.24718045779,
+      "new_band_volume_mm3": 27820.950765538375,
+      "static_band_intersections": [],
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 5,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 10,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 20,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 25,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 30,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "body_count": 28
+    },
+    {
+      "name": "child_small",
+      "fillet_radius_mm": 0.5,
+      "entry_edges": [
+        [
+          84.1532714693459,
+          8.3,
+          97.0
+        ],
+        [
+          88.75327146934592,
+          8.3,
+          97.0
+        ],
+        [
+          88.75327146934592,
+          -8.3,
+          97.0
+        ],
+        [
+          84.1532714693459,
+          -8.3,
+          97.0
+        ],
+        [
+          -88.75327146934592,
+          8.3,
+          97.0
+        ],
+        [
+          -84.1532714693459,
+          8.3,
+          97.0
+        ],
+        [
+          -84.1532714693459,
+          -8.3,
+          97.0
+        ],
+        [
+          -88.75327146934592,
+          -8.3,
+          97.0
+        ]
+      ],
+      "original_band_volume_mm3": 19251.968675887838,
+      "new_band_volume_mm3": 19266.561600776826,
+      "static_band_intersections": [],
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 5,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 10,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 20,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 25,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 30,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "body_count": 28
+    },
+    {
+      "name": "child_medium",
+      "fillet_radius_mm": 0.5,
+      "entry_edges": [
+        [
+          89.75212939903139,
+          8.3,
+          97.0
+        ],
+        [
+          94.3521293990314,
+          8.3,
+          97.0
+        ],
+        [
+          94.3521293990314,
+          -8.3,
+          97.0
+        ],
+        [
+          89.75212939903139,
+          -8.3,
+          97.0
+        ],
+        [
+          -94.3521293990314,
+          8.3,
+          97.0
+        ],
+        [
+          -89.75212939903139,
+          8.3,
+          97.0
+        ],
+        [
+          -89.75212939903139,
+          -8.3,
+          97.0
+        ],
+        [
+          -94.3521293990314,
+          -8.3,
+          97.0
+        ]
+      ],
+      "original_band_volume_mm3": 20027.73436064675,
+      "new_band_volume_mm3": 20042.32728553574,
+      "static_band_intersections": [],
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 5,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 10,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 20,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 25,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 30,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "body_count": 28
+    },
+    {
+      "name": "child_large",
+      "fillet_radius_mm": 0.5,
+      "entry_edges": [
+        [
+          95.01587325154796,
+          8.3,
+          97.0
+        ],
+        [
+          99.61587325154797,
+          8.3,
+          97.0
+        ],
+        [
+          99.61587325154797,
+          -8.3,
+          97.0
+        ],
+        [
+          95.01587325154796,
+          -8.3,
+          97.0
+        ],
+        [
+          -99.61587325154797,
+          8.3,
+          97.0
+        ],
+        [
+          -95.01587325154796,
+          8.3,
+          97.0
+        ],
+        [
+          -95.01587325154796,
+          -8.3,
+          97.0
+        ],
+        [
+          -99.61587325154797,
+          -8.3,
+          97.0
+        ]
+      ],
+      "original_band_volume_mm3": 20760.539848853354,
+      "new_band_volume_mm3": 20775.13277374234,
+      "static_band_intersections": [],
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 5,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 10,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 20,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 25,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 30,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "body_count": 28
+    },
+    {
+      "name": "adult_medium",
+      "fillet_radius_mm": 0.5,
+      "entry_edges": [
+        [
+          103.63561566993594,
+          8.3,
+          97.16879373726003
+        ],
+        [
+          103.63561566993594,
+          -8.3,
+          97.16879373726003
+        ],
+        [
+          108.23561566993595,
+          8.3,
+          97.0
+        ],
+        [
+          108.23561566993595,
+          -8.3,
+          97.0
+        ],
+        [
+          -103.63561566993594,
+          8.3,
+          97.16879373726003
+        ],
+        [
+          -103.63561566993594,
+          -8.3,
+          97.16879373726003
+        ],
+        [
+          -108.23561566993595,
+          -8.3,
+          97.0
+        ],
+        [
+          -108.23561566993595,
+          8.3,
+          97.0
+        ]
+      ],
+      "original_band_volume_mm3": 29315.518878429615,
+      "new_band_volume_mm3": 29330.34343458579,
+      "static_band_intersections": [],
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 5,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 10,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 20,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 25,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 30,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "body_count": 28
+    },
+    {
+      "name": "adult_large",
+      "fillet_radius_mm": 0.5,
+      "entry_edges": [
+        [
+          111.73480940661022,
+          8.3,
+          97.03972595990288
+        ],
+        [
+          111.73480940661022,
+          -8.3,
+          97.03972595990288
+        ],
+        [
+          116.33480940661023,
+          8.3,
+          97.0
+        ],
+        [
+          116.33480940661023,
+          -8.3,
+          97.0
+        ],
+        [
+          -111.73480940661022,
+          8.3,
+          97.03972595990288
+        ],
+        [
+          -111.73480940661022,
+          -8.3,
+          97.03972595990288
+        ],
+        [
+          -116.33480940661023,
+          -8.3,
+          97.0
+        ],
+        [
+          -116.33480940661023,
+          8.3,
+          97.0
+        ]
+      ],
+      "original_band_volume_mm3": 30820.063704299344,
+      "new_band_volume_mm3": 30834.66209627448,
+      "static_band_intersections": [],
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 5,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 10,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 20,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 25,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 30,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "body_count": 28
+    }
+  ],
+  "files": [
+    "${WORKSPACE}\\OwnPassiveDefender_V9_adult_small_20261013_164243.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_adult_small_20261013_164243_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_adult_small_20261013_164243_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_adult_small_20261013_164243.f3d",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_child_small_20261013_180418.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_child_small_20261013_180418_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_child_small_20261013_180418_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_child_small_20261013_180418.f3d",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_child_medium_20261013_180418.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_child_medium_20261013_180418_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_child_medium_20261013_180418_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_child_medium_20261013_180418.f3d",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_child_large_20261013_180418.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_child_large_20261013_180418_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_child_large_20261013_180418_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_child_large_20261013_180418.f3d",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_adult_medium_20261013_180418.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_adult_medium_20261013_180418_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_adult_medium_20261013_180418_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_adult_medium_20261013_180418.f3d",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_adult_large_20261013_180418.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_adult_large_20261013_180418_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_adult_large_20261013_180418_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_adult_large_20261013_180418.f3d"
+  ],
+  "STEP_checks": [
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_small_20261013_164243.step",
+      "solids": 28,
+      "volume_mm3": 444410.22708890407,
+      "pass": true,
+      "sha256": "292e8679c63915f23879715bd962e54b9b212699741921a6686a395d2d57bd86"
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_small_20261013_164243_Extension_0.step",
+      "solids": 28,
+      "volume_mm3": 444410.22708890395,
+      "pass": true,
+      "sha256": "005a931d3e102c7b1ceed7c11278d79abdd8c71331669e50d9bd1e6d00d031f4"
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_small_20261013_164243_Extension_30.step",
+      "solids": 28,
+      "volume_mm3": 444410.227088904,
+      "pass": true,
+      "sha256": "7a8c13903b366f8e898d6f781cf8a6d847589b922c7e788aa1cdc6ff0516aa6e"
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_small_20261013_180418.step",
+      "solids": 28,
+      "volume_mm3": 334606.1608282635,
+      "pass": true,
+      "sha256": "a31862f9198f264f63dbef63d50956c5d5d02c39c80d641f213795311cc1c974"
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_small_20261013_180418_Extension_0.step",
+      "solids": 28,
+      "volume_mm3": 334606.1608282634,
+      "pass": true,
+      "sha256": "ff91f82cd5a285c8a910f3e9f1b656c7adb6de81b6af540c8a2fc1790c7858a2"
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_small_20261013_180418_Extension_30.step",
+      "solids": 28,
+      "volume_mm3": 334606.1608282635,
+      "pass": true,
+      "sha256": "d10ce163d4991c201306704964e474b5481d1110ba641e6aabaa1cdc34eb7334"
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_medium_20261013_180418.step",
+      "solids": 28,
+      "volume_mm3": 337225.04019533424,
+      "pass": true,
+      "sha256": "597c14bb220eb407c67751c5979df17372fd8e6c16a97b6eaf32a51aa76598f3"
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_medium_20261013_180418_Extension_0.step",
+      "solids": 28,
+      "volume_mm3": 337225.0401953347,
+      "pass": true,
+      "sha256": "cda4615ed2c976fe6e6bbb442eea6259be07f3248ac682e973db481e88390520"
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_medium_20261013_180418_Extension_30.step",
+      "solids": 28,
+      "volume_mm3": 337225.0401953342,
+      "pass": true,
+      "sha256": "88ea09a5aab9276edc755ea1442384177c3897acff7093e95e46e3823e7e3665"
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_large_20261013_180418.step",
+      "solids": 28,
+      "volume_mm3": 339698.2009978465,
+      "pass": true,
+      "sha256": "da74d3b0d97c24f6cb7f37fba0894caf0cc43b1d2a29832d45585290ff983b3b"
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_large_20261013_180418_Extension_0.step",
+      "solids": 28,
+      "volume_mm3": 339698.20099784626,
+      "pass": true,
+      "sha256": "d1629a6dafcfab9cac25a642c29c29138c010e2f3f067f335f20003b67ae5238"
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_large_20261013_180418_Extension_30.step",
+      "solids": 28,
+      "volume_mm3": 339698.20099784655,
+      "pass": true,
+      "sha256": "d3d7e39ab26c0564fb1e6af263e943454a1d220104ebebafc0378ce0660496d7"
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_medium_20261013_180418.step",
+      "solids": 28,
+      "volume_mm3": 448902.55453537556,
+      "pass": true,
+      "sha256": "a72ff41a0f131b7336330d57a6e157dfb49c3817d9b0faa88e4bf4d35029e51a"
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_medium_20261013_180418_Extension_0.step",
+      "solids": 28,
+      "volume_mm3": 448902.5545353756,
+      "pass": true,
+      "sha256": "50af2ac51963a11356ba1e9376671b644dde2d9b6fa290f8a00e004265ca8709"
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_medium_20261013_180418_Extension_30.step",
+      "solids": 28,
+      "volume_mm3": 448902.5545353755,
+      "pass": true,
+      "sha256": "bb9a9afe031fea5f439fa70710a3e8efcada238f15b44b77e213b5b6aab176ad"
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_large_20261013_180418.step",
+      "solids": 28,
+      "volume_mm3": 453368.0897847957,
+      "pass": true,
+      "sha256": "33b10b421558a927bfd80a40653a64577dd4f1e9ff4f56cf49bb7453814f4741"
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_large_20261013_180418_Extension_0.step",
+      "solids": 28,
+      "volume_mm3": 453368.08978479484,
+      "pass": true,
+      "sha256": "564543a7d3f6d5dd8162153d0e35274c1febd38f6a6f65250f989b8702e69e38"
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_large_20261013_180418_Extension_30.step",
+      "solids": 28,
+      "volume_mm3": 453368.0897847956,
+      "pass": true,
+      "sha256": "2dea67f21950387f4201e80d688bff903bb45b9ba9483526dfedc69002d07b50"
+    }
+  ],
+  "all_available_STEP_pass": true,
+  "replacements": "V8 replacement pads unchanged; no V9-specific pad or leakage test"
+}

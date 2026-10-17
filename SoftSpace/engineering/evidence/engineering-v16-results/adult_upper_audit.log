@@ -1,0 +1,2 @@
+{"phase": "nominal", "angles": [0, 0], "stroke": 0, "pass": false, "overlaps": [{"parts": ["LeftFork", "LeftLockPin"], "intersection_mm3": 15.205308443374609}, {"parts": ["LeftFork", "LeftSpringSpace"], "intersection_mm3": 22.361891326340984}, {"parts": ["RightFork", "RightLockPin"], "intersection_mm3": 15.205308443374609}, {"parts": ["RightFork", "RightSpringSpace"], "intersection_mm3": 22.361891365407697}]}
+{"case_count": 1, "complete_sampled_motion_pass": false, "index_blocking_pass": false, "retention_blocking_pass": false}

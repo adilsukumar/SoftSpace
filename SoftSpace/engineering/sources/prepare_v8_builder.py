@@ -1,0 +1,12 @@
+from pathlib import Path
+p=Path(__file__).parent;s=(p/'CushionNext'/'EngineeringV6.py').read_text()
+s=s.replace('V6','V8').replace('cad_v6_report','cad_v8_report').replace('cad_v6_audit','cad_v8_audit').replace('extendable-recipes.json','lower-crown-recipes.json')
+s=s.replace("c['contour_fraction']=recipe['contour_fraction'];band_z=110", "c['contour_fraction']=recipe['contour_fraction'];c['band_arch_height']=recipe['arch_height_mm'];band_z=110")
+s=s.replace("pa=math.radians(35);", "pa=min(math.radians(35),.75*alpha);")
+s=s.replace('pri=pro-.5','pri=pro-.8').replace('SoftCrownPadding_5mm_Assumed','SoftCrownPadding_8mm_Assumed')
+s=s.replace('            pb.finishEdit()','            pb.finishEdit();design.timeline.moveToEnd()')
+s=s.replace('                pose_occ.isLightBulbOn=False', '                pose_occ.isLightBulbOn=True\n                for k in range(pose.bRepBodies.count):pose.bRepBodies.item(k).isVisible=True')
+s=s.replace("            if not design.exportManager.execute(design.exportManager.createFusionArchiveExportOptions", "            for k in range(root.occurrences.count):\n                if '_Extension_' in root.occurrences.item(k).component.name:root.occurrences.item(k).isLightBulbOn=False\n            if not design.exportManager.execute(design.exportManager.createFusionArchiveExportOptions")
+f=p/'CushionNext'/'EngineeringV8.py';f.write_text(s);compile(s,str(f),'exec')
+runner=p/'CushionNext'/'CushionNext.py';runner.write_text(runner.read_text(encoding='utf-8-sig').replace('RefineBandV7.py','EngineeringV8.py'))
+print('Prepared lower-crown builder; actual recipe values read on run')

@@ -1,0 +1,399 @@
+{
+  "status": "complete",
+  "date": "2026-10-14",
+  "unique_CAD_files": 42,
+  "all_match": true,
+  "checks": [
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "recorded_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "evidence": [
+        "native_all_pose_pairs.json",
+        "native_local_band_comparison.json"
+      ],
+      "current_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835_Extension_0.step",
+      "recorded_sha256": "15fdd09d163ebe99f7b53a9df4e9764a2133add2f4d1ee7199b12c4793a77258",
+      "evidence": [
+        "native_all_pose_pairs.json"
+      ],
+      "current_sha256": "15fdd09d163ebe99f7b53a9df4e9764a2133add2f4d1ee7199b12c4793a77258",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835_Extension_30.step",
+      "recorded_sha256": "2972acf68d8330ac7306cf2de201dcdcfdfe92992504264ec40a2236a798e7b6",
+      "evidence": [
+        "native_all_pose_pairs.json"
+      ],
+      "current_sha256": "2972acf68d8330ac7306cf2de201dcdcfdfe92992504264ec40a2236a798e7b6",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "recorded_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "evidence": [
+        "native_all_pose_pairs.json",
+        "native_local_band_comparison.json"
+      ],
+      "current_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835_Extension_0.step",
+      "recorded_sha256": "2d0621e11c585574f6233544aa3aebdcc58c222b37eee944d90f4d2845c43a98",
+      "evidence": [
+        "native_all_pose_pairs.json"
+      ],
+      "current_sha256": "2d0621e11c585574f6233544aa3aebdcc58c222b37eee944d90f4d2845c43a98",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835_Extension_30.step",
+      "recorded_sha256": "93f824cbbd2a7ec43d3ee6400a664d0785a94282fa640ab5a9fb7573d23dc4df",
+      "evidence": [
+        "native_all_pose_pairs.json"
+      ],
+      "current_sha256": "93f824cbbd2a7ec43d3ee6400a664d0785a94282fa640ab5a9fb7573d23dc4df",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "recorded_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "evidence": [
+        "native_all_pose_pairs.json",
+        "native_local_band_comparison.json"
+      ],
+      "current_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835_Extension_0.step",
+      "recorded_sha256": "ec3bc833a19466574b32b814d24023211bdf3e81187150142b2706818954bc1e",
+      "evidence": [
+        "native_all_pose_pairs.json"
+      ],
+      "current_sha256": "ec3bc833a19466574b32b814d24023211bdf3e81187150142b2706818954bc1e",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835_Extension_30.step",
+      "recorded_sha256": "5b616d8a3a9ec7fd546c56f260563d93744cae7b9e5d14419969009108b9d0bd",
+      "evidence": [
+        "native_all_pose_pairs.json"
+      ],
+      "current_sha256": "5b616d8a3a9ec7fd546c56f260563d93744cae7b9e5d14419969009108b9d0bd",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "recorded_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "evidence": [
+        "native_all_pose_pairs.json",
+        "native_local_band_comparison.json"
+      ],
+      "current_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835_Extension_0.step",
+      "recorded_sha256": "6ffa923027fef27e0dd8effa9684a197286e720d057c61c9f632f35dff05cd38",
+      "evidence": [
+        "native_all_pose_pairs.json"
+      ],
+      "current_sha256": "6ffa923027fef27e0dd8effa9684a197286e720d057c61c9f632f35dff05cd38",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835_Extension_30.step",
+      "recorded_sha256": "00f8ded54def525c3dd2df2a1bc14adae410e91b2b651e63a98a801789706758",
+      "evidence": [
+        "native_all_pose_pairs.json"
+      ],
+      "current_sha256": "00f8ded54def525c3dd2df2a1bc14adae410e91b2b651e63a98a801789706758",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "recorded_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "evidence": [
+        "native_all_pose_pairs.json",
+        "native_local_band_comparison.json"
+      ],
+      "current_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835_Extension_0.step",
+      "recorded_sha256": "45999ab37d93e0eedbaba9b7c277de5d1ccbb71be3d3fac6857bd7b78699b2df",
+      "evidence": [
+        "native_all_pose_pairs.json"
+      ],
+      "current_sha256": "45999ab37d93e0eedbaba9b7c277de5d1ccbb71be3d3fac6857bd7b78699b2df",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835_Extension_30.step",
+      "recorded_sha256": "c0cf6ce547bf34fd40748c030bea35855cda9ee6971ec6d2053b7cb57a2c9367",
+      "evidence": [
+        "native_all_pose_pairs.json"
+      ],
+      "current_sha256": "c0cf6ce547bf34fd40748c030bea35855cda9ee6971ec6d2053b7cb57a2c9367",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "recorded_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "evidence": [
+        "native_all_pose_pairs.json",
+        "native_local_band_comparison.json"
+      ],
+      "current_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835_Extension_0.step",
+      "recorded_sha256": "6eeeac200063a03ef9043ef607d625247b43ff0193c2855be8fc898a440f00cd",
+      "evidence": [
+        "native_all_pose_pairs.json"
+      ],
+      "current_sha256": "6eeeac200063a03ef9043ef607d625247b43ff0193c2855be8fc898a440f00cd",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835_Extension_30.step",
+      "recorded_sha256": "fb4973b2a946cad7e5d812c990f4667f4eb8d75798a25f8ef01a3d7e40c47649",
+      "evidence": [
+        "native_all_pose_pairs.json"
+      ],
+      "current_sha256": "fb4973b2a946cad7e5d812c990f4667f4eb8d75798a25f8ef01a3d7e40c47649",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_small.step",
+      "recorded_sha256": "e905cf77b9b8ac88a292dc7b46c6dc3a7f2dea34c5781a6a1667949372658f0e",
+      "evidence": [
+        "all_pose_pairs.json",
+        "native_local_band_comparison.json"
+      ],
+      "current_sha256": "e905cf77b9b8ac88a292dc7b46c6dc3a7f2dea34c5781a6a1667949372658f0e",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_small_Extension_0.step",
+      "recorded_sha256": "fad1ba7ad44141010743c0d9bb9f8a49ce9d41ea6bd34f20c82eb64a7f19dc55",
+      "evidence": [
+        "all_pose_pairs.json"
+      ],
+      "current_sha256": "fad1ba7ad44141010743c0d9bb9f8a49ce9d41ea6bd34f20c82eb64a7f19dc55",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_small_Extension_30.step",
+      "recorded_sha256": "74a28405f0bb996b92cd34264716f15ec408c9d04e028308ac3012ce64877dcd",
+      "evidence": [
+        "all_pose_pairs.json"
+      ],
+      "current_sha256": "74a28405f0bb996b92cd34264716f15ec408c9d04e028308ac3012ce64877dcd",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_small.step",
+      "recorded_sha256": "a5f0d3d1312b34f38ddcd352d60f67ec52a479a28158b69f3086a7445d74c088",
+      "evidence": [
+        "all_pose_pairs.json",
+        "native_local_band_comparison.json"
+      ],
+      "current_sha256": "a5f0d3d1312b34f38ddcd352d60f67ec52a479a28158b69f3086a7445d74c088",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_small_Extension_0.step",
+      "recorded_sha256": "6c49f6ba668d25ef99e319088ce27aa2ce1f80aa213476affae780190a01124e",
+      "evidence": [
+        "all_pose_pairs.json"
+      ],
+      "current_sha256": "6c49f6ba668d25ef99e319088ce27aa2ce1f80aa213476affae780190a01124e",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_small_Extension_30.step",
+      "recorded_sha256": "4139fa0773bf3f2d1d3341480e54478df3fb251b6fb5a6200eae7ee89b90f4d4",
+      "evidence": [
+        "all_pose_pairs.json"
+      ],
+      "current_sha256": "4139fa0773bf3f2d1d3341480e54478df3fb251b6fb5a6200eae7ee89b90f4d4",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_medium.step",
+      "recorded_sha256": "56478788fee9b98109fcf2a5a08c029a1f760fd908848644342e6b81b350b496",
+      "evidence": [
+        "all_pose_pairs.json",
+        "native_local_band_comparison.json"
+      ],
+      "current_sha256": "56478788fee9b98109fcf2a5a08c029a1f760fd908848644342e6b81b350b496",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_medium_Extension_0.step",
+      "recorded_sha256": "4563cfaff36f8d9a5f6eff856cc087d3f65af8f6256aced119b6b17ecd13fb36",
+      "evidence": [
+        "all_pose_pairs.json"
+      ],
+      "current_sha256": "4563cfaff36f8d9a5f6eff856cc087d3f65af8f6256aced119b6b17ecd13fb36",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_medium_Extension_30.step",
+      "recorded_sha256": "28069544f64f30a24b75ebfbc431dd4c91fa5b68dd526f519202b7bdaa953756",
+      "evidence": [
+        "all_pose_pairs.json"
+      ],
+      "current_sha256": "28069544f64f30a24b75ebfbc431dd4c91fa5b68dd526f519202b7bdaa953756",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_large.step",
+      "recorded_sha256": "344282cc773d1cda9307efd032ff012603c9b34661746f2c0ca185e5f198ac49",
+      "evidence": [
+        "all_pose_pairs.json",
+        "native_local_band_comparison.json"
+      ],
+      "current_sha256": "344282cc773d1cda9307efd032ff012603c9b34661746f2c0ca185e5f198ac49",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_large_Extension_0.step",
+      "recorded_sha256": "a9c3de1208b5463eaf06fc92c5deccf32af24f60359afc0a042c7e27df5bedc6",
+      "evidence": [
+        "all_pose_pairs.json"
+      ],
+      "current_sha256": "a9c3de1208b5463eaf06fc92c5deccf32af24f60359afc0a042c7e27df5bedc6",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_large_Extension_30.step",
+      "recorded_sha256": "dce47a39e68f7f85de324c0e9e2c01b790c315f659701a2fb014f75a3787a78d",
+      "evidence": [
+        "all_pose_pairs.json"
+      ],
+      "current_sha256": "dce47a39e68f7f85de324c0e9e2c01b790c315f659701a2fb014f75a3787a78d",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_medium.step",
+      "recorded_sha256": "e511e626656f3ac190aff2398bbe889db4e37031483a129f0441fedfe7bd9ac3",
+      "evidence": [
+        "all_pose_pairs.json",
+        "native_local_band_comparison.json"
+      ],
+      "current_sha256": "e511e626656f3ac190aff2398bbe889db4e37031483a129f0441fedfe7bd9ac3",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_medium_Extension_0.step",
+      "recorded_sha256": "1be0b58ac3569df68ef452c29a9c3eaf53c6f34c719bc0c5ed0389558f262685",
+      "evidence": [
+        "all_pose_pairs.json"
+      ],
+      "current_sha256": "1be0b58ac3569df68ef452c29a9c3eaf53c6f34c719bc0c5ed0389558f262685",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_medium_Extension_30.step",
+      "recorded_sha256": "68c70a21eb72a26029d4a01ab666bb0f1a146b253742aac0a91c3ed7c4877a9f",
+      "evidence": [
+        "all_pose_pairs.json"
+      ],
+      "current_sha256": "68c70a21eb72a26029d4a01ab666bb0f1a146b253742aac0a91c3ed7c4877a9f",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_large.step",
+      "recorded_sha256": "e08b5f2d7e3cb61825f89fc9d1f167da6ba8025886936f2c7f46d53ec48e98f3",
+      "evidence": [
+        "all_pose_pairs.json",
+        "native_local_band_comparison.json"
+      ],
+      "current_sha256": "e08b5f2d7e3cb61825f89fc9d1f167da6ba8025886936f2c7f46d53ec48e98f3",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_large_Extension_0.step",
+      "recorded_sha256": "bf1fbfc1110002092cbe3d88cdccd74621b99515f5dad77a45fbfba01cc0627f",
+      "evidence": [
+        "all_pose_pairs.json"
+      ],
+      "current_sha256": "bf1fbfc1110002092cbe3d88cdccd74621b99515f5dad77a45fbfba01cc0627f",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_large_Extension_30.step",
+      "recorded_sha256": "110b0501ec8800443a5c2d56b92d092fd89661fa27cb20ed612008039501255e",
+      "evidence": [
+        "all_pose_pairs.json"
+      ],
+      "current_sha256": "110b0501ec8800443a5c2d56b92d092fd89661fa27cb20ed612008039501255e",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.f3d",
+      "recorded_sha256": "17c9ae00357e6b2d932b7fc001e4ec74e4c7cddcede79474d0bac7b809a3de68",
+      "evidence": [
+        "native_archive_reopen.json"
+      ],
+      "current_sha256": "17c9ae00357e6b2d932b7fc001e4ec74e4c7cddcede79474d0bac7b809a3de68",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.f3d",
+      "recorded_sha256": "315c5747276122be01eab1f9e1ab4b5de38792d4ed5e24841ccaf87d0d0d6363",
+      "evidence": [
+        "native_archive_reopen.json"
+      ],
+      "current_sha256": "315c5747276122be01eab1f9e1ab4b5de38792d4ed5e24841ccaf87d0d0d6363",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.f3d",
+      "recorded_sha256": "9be7cd943ea115773be8814aebab8773f008df7a1fd7025c7cbf8178cd4aceb2",
+      "evidence": [
+        "native_archive_reopen.json"
+      ],
+      "current_sha256": "9be7cd943ea115773be8814aebab8773f008df7a1fd7025c7cbf8178cd4aceb2",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.f3d",
+      "recorded_sha256": "a826841cbd1bd01c59806ee410c7dd1f64842e90511fcce21df1c74af541a349",
+      "evidence": [
+        "native_archive_reopen.json"
+      ],
+      "current_sha256": "a826841cbd1bd01c59806ee410c7dd1f64842e90511fcce21df1c74af541a349",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.f3d",
+      "recorded_sha256": "acf9a17f77808ed9e5993359908c811f9955630310088e9b23fcb65557014a34",
+      "evidence": [
+        "native_archive_reopen.json"
+      ],
+      "current_sha256": "acf9a17f77808ed9e5993359908c811f9955630310088e9b23fcb65557014a34",
+      "match": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.f3d",
+      "recorded_sha256": "7e2972e25e1c64cb82118c8b33b3b35e9420d5ce0b0738741af15c3f410b46f4",
+      "evidence": [
+        "native_archive_reopen.json"
+      ],
+      "current_sha256": "7e2972e25e1c64cb82118c8b33b3b35e9420d5ce0b0738741af15c3f410b46f4",
+      "match": true
+    }
+  ],
+  "scope": "Current file identity only. The geometry, overlap and native reopening outcomes remain the separately recorded tests; no new physical pass is added."
+}

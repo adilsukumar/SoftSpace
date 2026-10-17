@@ -1,0 +1,44 @@
+{
+  "revision": "V19",
+  "measured": false,
+  "foam": {
+    "strain": [],
+    "compression_stress_kPa": [],
+    "unloading_stress_kPa": [],
+    "temperature_C": null,
+    "loading_rate_mm_min": null,
+    "sample_thickness_mm": null,
+    "lot": null
+  },
+  "cover": {
+    "biaxial_stretch_data": [],
+    "friction_dry": null,
+    "friction_wet": null,
+    "airflow_resistance": null,
+    "water_vapour_permeance": null,
+    "lot": null
+  },
+  "band": {
+    "force_width_points": [],
+    "creep_time_force_points": [],
+    "lot": null
+  },
+  "hinge": {
+    "breakaway_and_running_torque_points": [],
+    "cycle_torque_points": [],
+    "spring_height_preload_points": []
+  },
+  "acoustic": {
+    "original_pad_reseated_spectra": [],
+    "new_pad_reseated_spectra": [],
+    "outgoing_matched_inside_level_spectra": []
+  },
+  "thermal": {
+    "time_temperature_humidity_points": []
+  },
+  "Sony_mount": {
+    "dimensions_mm": null,
+    "shape_reference": null
+  },
+  "note": "Blank form. No measurements were performed. Do not replace missing measured data with invented constants."
+}

@@ -1,0 +1,47 @@
+{
+  "updated": "15 October 2026",
+  "design_status": "V16 indexed folding candidates with V10 native archives",
+  "documents": [
+    {
+      "path": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
+      "sha256": "991dcdee4274876126268ecfd5758eeb64732132b0d6a93bc3d5707351b21b87",
+      "bytes": 6213631
+    },
+    {
+      "path": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
+      "sha256": "5a75ed700f7a36ede667860f3a5b9d921e272a623b3afd41e75873fdce608a65",
+      "bytes": 1447942
+    }
+  ],
+  "market_checked": "2026-10-13",
+  "future_rule": "Update both documents after every meaningful project edit or new result; preserve user edits and history; do not silently regenerate over user edits."
+}
+{'sha256': '991dcdee4274876126268ecfd5758eeb64732132b0d6a93bc3d5707351b21b87', 'approximate_pages': 54, 'images': 27, 'tables': 30, 'zip_integrity': 'pass', 'native_page_render': 'unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure'}
+{'sha256': '5a75ed700f7a36ede667860f3a5b9d921e272a623b3afd41e75873fdce608a65', 'approximate_pages': 29, 'images': 12, 'tables': 18, 'zip_integrity': 'pass', 'native_page_render': 'unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure'}
+[
+  {
+    "document": "Ear_Defender_Project.docx",
+    "paragraphs": 440,
+    "tables": 30,
+    "embedded_images": 27,
+    "source_links": 33,
+    "structure_and_hashes": "pass"
+  },
+  {
+    "document": "Glasses_Friendly_Headphone_Cushions.docx",
+    "paragraphs": 222,
+    "tables": 18,
+    "embedded_images": 12,
+    "source_links": 19,
+    "structure_and_hashes": "pass"
+  }
+]
+{
+  "unchanged_prior_page_images": 81,
+  "changed_prior_page_images": [
+    "Ear_Defender_Project\\page-50.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-27.png"
+  ],
+  "added_page_images": [],
+  "scope": "Pixel hash comparison of approximate previews only; native Word remains unverified"
+}

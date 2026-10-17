@@ -1,0 +1,1741 @@
+{
+  "family": "child",
+  "mesh_mm": 6,
+  "nodes": 917,
+  "tet4": 3502,
+  "volume_m3": 0.00014778691246787585,
+  "back_area_m2": 0.004919722585269905,
+  "maximum_relative_residual": 6.853121413140462e-11,
+  "low_frequency_transfer_last_scenario_db": -40.5881829823864,
+  "static_lumped_limit_last_scenario_db": -40.586040140280076,
+  "rows": [
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 31.5,
+      "model_pressure_transfer_db": -36.20375461799388,
+      "relative_residual": 6.624483216426277e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 35.438560576537576,
+      "model_pressure_transfer_db": -36.202568733159744,
+      "relative_residual": 5.366746399974943e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 39.86957383291818,
+      "model_pressure_transfer_db": -36.20106714612933,
+      "relative_residual": 4.11642509119365e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 44.854612934559,
+      "model_pressure_transfer_db": -36.19916583138833,
+      "relative_residual": 3.24565637877841e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 50.46294976566712,
+      "model_pressure_transfer_db": -36.196758379788186,
+      "relative_residual": 2.768417123032304e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 56.77251752829737,
+      "model_pressure_transfer_db": -36.19371001939251,
+      "relative_residual": 2.0283965265770007e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 63.87099369870183,
+      "model_pressure_transfer_db": -36.1898500292409,
+      "relative_residual": 1.560237015607438e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 71.85701838968552,
+      "model_pressure_transfer_db": -36.184962107630916,
+      "relative_residual": 1.1639151571211276e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 80.84156504927758,
+      "model_pressure_transfer_db": -36.17877213318518,
+      "relative_residual": 8.987553916195328e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 90.94948254288656,
+      "model_pressure_transfer_db": -36.170932596905644,
+      "relative_residual": 8.070305004573103e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 102.32123004764547,
+      "model_pressure_transfer_db": -36.161002774133244,
+      "relative_residual": 6.16246865815543e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 115.11482886696258,
+      "model_pressure_transfer_db": -36.14842342851507,
+      "relative_residual": 4.95658769677591e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 129.50805828760653,
+      "model_pressure_transfer_db": -36.13248447336055,
+      "relative_residual": 3.693228459640595e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 145.70092599286045,
+      "model_pressure_transfer_db": -36.112283520937545,
+      "relative_residual": 3.1444693948169334e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 163.91844736049535,
+      "model_pressure_transfer_db": -36.086672577039735,
+      "relative_residual": 2.5324461408839987e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 184.4137722665683,
+      "model_pressure_transfer_db": -36.054189206085326,
+      "relative_residual": 2.028779685527127e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 207.471702844971,
+      "model_pressure_transfer_db": -36.01296718032767,
+      "relative_residual": 1.535689619893662e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 233.41265108536192,
+      "model_pressure_transfer_db": -35.96061974334164,
+      "relative_residual": 1.2141376262997449e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 262.5970912640898,
+      "model_pressure_transfer_db": -35.89408585458892,
+      "relative_residual": 9.03042417167544e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 295.43056907888933,
+      "model_pressure_transfer_db": -35.809425626805734,
+      "relative_residual": 7.808183542876939e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 332.3693370940691,
+      "model_pressure_transfer_db": -35.7015447507864,
+      "relative_residual": 6.032008109089292e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 373.92669480608953,
+      "model_pressure_transfer_db": -35.5638174951494,
+      "relative_residual": 4.706181938956433e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 420.68012143079585,
+      "model_pressure_transfer_db": -35.38756109594481,
+      "relative_residual": 3.596447682150064e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 473.27930052922045,
+      "model_pressure_transfer_db": -35.16128577683281,
+      "relative_residual": 2.816332269960893e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 532.4551479817814,
+      "model_pressure_transfer_db": -34.86959395335639,
+      "relative_residual": 2.299132702539329e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 599.0299687632261,
+      "model_pressure_transfer_db": -34.4915080641612,
+      "relative_residual": 1.8068110913311728e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 673.9288836564134,
+      "model_pressure_transfer_db": -33.997822433712194,
+      "relative_residual": 1.3615770372094737e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 758.1926846900358,
+      "model_pressure_transfer_db": -33.34669283504603,
+      "relative_residual": 1.0934466547403295e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 852.9922979389045,
+      "model_pressure_transfer_db": -32.47583200934328,
+      "relative_residual": 9.338673384772949e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 959.6450546612018,
+      "model_pressure_transfer_db": -31.287678580919923,
+      "relative_residual": 6.798924795387262e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 1079.632996875736,
+      "model_pressure_transfer_db": -29.61899432504594,
+      "relative_residual": 5.767642180540333e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 1214.623471752685,
+      "model_pressure_transfer_db": -27.176628618457652,
+      "relative_residual": 4.4273241177436944e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 1366.4923009965685,
+      "model_pressure_transfer_db": -23.47142127050104,
+      "relative_residual": 3.763936042538804e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 1537.349847182194,
+      "model_pressure_transfer_db": -19.60035763635503,
+      "relative_residual": 3.03552187791232e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 1729.5703392602215,
+      "model_pressure_transfer_db": -23.03143145693994,
+      "relative_residual": 2.5383695738918174e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 1945.824864738284,
+      "model_pressure_transfer_db": -27.68064251559354,
+      "relative_residual": 2.7777849049614705e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 2189.118486995578,
+      "model_pressure_transfer_db": -30.72513960501517,
+      "relative_residual": 1.73484503750272e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 2462.8320035114634,
+      "model_pressure_transfer_db": -32.43445429110635,
+      "relative_residual": 1.3357011571107443e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 2770.768925278613,
+      "model_pressure_transfer_db": -32.74153245942047,
+      "relative_residual": 1.4945404075291516e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 3117.2083302245765,
+      "model_pressure_transfer_db": -30.774959376494728,
+      "relative_residual": 1.8059268932420804e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 3506.9643250905115,
+      "model_pressure_transfer_db": -21.5216393673653,
+      "relative_residual": 5.932570060431756e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 3945.452942046867,
+      "model_pressure_transfer_db": -33.05299370699498,
+      "relative_residual": 1.8844138081062537e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 4438.7673996382955,
+      "model_pressure_transfer_db": -38.791821947912524,
+      "relative_residual": 1.6255610406002553e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 4993.762773880696,
+      "model_pressure_transfer_db": -46.05850664905343,
+      "relative_residual": 9.325455149554091e-15
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 5618.151256096165,
+      "model_pressure_transfer_db": -53.08792826259441,
+      "relative_residual": 9.167737070330008e-15
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 6320.609321184592,
+      "model_pressure_transfer_db": -42.44419386543255,
+      "relative_residual": 1.06840913513649e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 7110.898295537404,
+      "model_pressure_transfer_db": -44.64975829692697,
+      "relative_residual": 7.413175024396643e-15
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 8000.0,
+      "model_pressure_transfer_db": -37.268040518903746,
+      "relative_residual": 1.5912456405651126e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 31.5,
+      "model_pressure_transfer_db": -36.20366921348193,
+      "relative_residual": 6.853121413140462e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 35.438560576537576,
+      "model_pressure_transfer_db": -36.20246345123445,
+      "relative_residual": 5.178309397650908e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 39.86957383291818,
+      "model_pressure_transfer_db": -36.200937048085905,
+      "relative_residual": 4.1131526872542596e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 44.854612934559,
+      "model_pressure_transfer_db": -36.199004703651106,
+      "relative_residual": 3.410594381737122e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 50.46294976566712,
+      "model_pressure_transfer_db": -36.196558396743875,
+      "relative_residual": 2.4562474858976964e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 56.77251752829737,
+      "model_pressure_transfer_db": -36.19346131466908,
+      "relative_residual": 2.0291879710232555e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 63.87099369870183,
+      "model_pressure_transfer_db": -36.18954015021864,
+      "relative_residual": 1.523607956134749e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 71.85701838968552,
+      "model_pressure_transfer_db": -36.18457531934973,
+      "relative_residual": 1.2264913519361378e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 80.84156504927758,
+      "model_pressure_transfer_db": -36.17828852841642,
+      "relative_residual": 1.019679550409649e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 90.94948254288656,
+      "model_pressure_transfer_db": -36.17032695472381,
+      "relative_residual": 7.467271790550736e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 102.32123004764547,
+      "model_pressure_transfer_db": -36.16024309038877,
+      "relative_residual": 6.331132706184836e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 115.11482886696258,
+      "model_pressure_transfer_db": -36.147469015321356,
+      "relative_residual": 5.142410702061891e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 129.50805828760653,
+      "model_pressure_transfer_db": -36.13128348716378,
+      "relative_residual": 3.659918899847216e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 145.70092599286045,
+      "model_pressure_transfer_db": -36.110769725069346,
+      "relative_residual": 3.428077957491012e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 163.91844736049535,
+      "model_pressure_transfer_db": -36.0847610657201,
+      "relative_residual": 2.380198473486061e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 184.4137722665683,
+      "model_pressure_transfer_db": -36.051770698553995,
+      "relative_residual": 1.984117186123401e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 207.471702844971,
+      "model_pressure_transfer_db": -36.00990031244643,
+      "relative_residual": 1.5989988976455818e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 233.41265108536192,
+      "model_pressure_transfer_db": -35.95672049923525,
+      "relative_residual": 1.1346499926458177e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 262.5970912640898,
+      "model_pressure_transfer_db": -35.889112821825485,
+      "relative_residual": 9.349192655586104e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 295.43056907888933,
+      "model_pressure_transfer_db": -35.80305899780967,
+      "relative_residual": 7.745362016389626e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 332.3693370940691,
+      "model_pressure_transfer_db": -35.69335569277382,
+      "relative_residual": 5.889089468078378e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 373.92669480608953,
+      "model_pressure_transfer_db": -35.55322221046177,
+      "relative_residual": 4.487249770245467e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 420.68012143079585,
+      "model_pressure_transfer_db": -35.37374966435385,
+      "relative_residual": 3.783301046425496e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 473.27930052922045,
+      "model_pressure_transfer_db": -35.14310773625302,
+      "relative_residual": 2.7864775222095424e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 532.4551479817814,
+      "model_pressure_transfer_db": -34.8453660945781,
+      "relative_residual": 2.239932242781419e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 599.0299687632261,
+      "model_pressure_transfer_db": -34.45867440318618,
+      "relative_residual": 1.956330656856117e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 673.9288836564134,
+      "model_pressure_transfer_db": -33.95231391644669,
+      "relative_residual": 1.3900167132142149e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 758.1926846900358,
+      "model_pressure_transfer_db": -33.281624892330164,
+      "relative_residual": 1.1689220636688423e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 852.9922979389045,
+      "model_pressure_transfer_db": -32.378581392035755,
+      "relative_residual": 8.309241090212107e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 959.6450546612018,
+      "model_pressure_transfer_db": -31.132409084850536,
+      "relative_residual": 6.6006125048275e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 1079.632996875736,
+      "model_pressure_transfer_db": -29.34373078269765,
+      "relative_residual": 5.6230039934075023e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 1214.623471752685,
+      "model_pressure_transfer_db": -26.59087394088004,
+      "relative_residual": 4.303562099599205e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 1366.4923009965685,
+      "model_pressure_transfer_db": -21.673276215073468,
+      "relative_residual": 3.40990028002857e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 1537.349847182194,
+      "model_pressure_transfer_db": -8.709364785035103,
+      "relative_residual": 2.593954876727087e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 1729.5703392602215,
+      "model_pressure_transfer_db": -20.475802320827047,
+      "relative_residual": 2.7983248025172747e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 1945.824864738284,
+      "model_pressure_transfer_db": -26.95533035467466,
+      "relative_residual": 2.397866718591869e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 2189.118486995578,
+      "model_pressure_transfer_db": -30.4055560231583,
+      "relative_residual": 1.7320646992889425e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 2462.8320035114634,
+      "model_pressure_transfer_db": -32.260444779200775,
+      "relative_residual": 1.5441153009587278e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 2770.768925278613,
+      "model_pressure_transfer_db": -32.634868805314056,
+      "relative_residual": 1.562757032801863e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 3117.2083302245765,
+      "model_pressure_transfer_db": -30.704173543957975,
+      "relative_residual": 2.171247275132939e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 3506.9643250905115,
+      "model_pressure_transfer_db": -21.457360370226063,
+      "relative_residual": 5.5170463045759093e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 3945.452942046867,
+      "model_pressure_transfer_db": -33.015856436592465,
+      "relative_residual": 1.739961919663142e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 4438.7673996382955,
+      "model_pressure_transfer_db": -38.75961161051964,
+      "relative_residual": 1.4359783344740637e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 4993.762773880696,
+      "model_pressure_transfer_db": -46.03911650323604,
+      "relative_residual": 9.22420148767734e-15
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 5618.151256096165,
+      "model_pressure_transfer_db": -53.076674491424065,
+      "relative_residual": 8.167208220815347e-15
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 6320.609321184592,
+      "model_pressure_transfer_db": -42.429761102572684,
+      "relative_residual": 1.1305040593011252e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 7110.898295537404,
+      "model_pressure_transfer_db": -44.641021053356155,
+      "relative_residual": 8.239308309490336e-15
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 1500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 8000.0,
+      "model_pressure_transfer_db": -37.259578397588335,
+      "relative_residual": 1.7173727947977314e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 31.5,
+      "model_pressure_transfer_db": -40.588232087127906,
+      "relative_residual": 6.582246600953628e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 35.438560576537576,
+      "model_pressure_transfer_db": -40.587410822536626,
+      "relative_residual": 5.363782343883362e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 39.86957383291818,
+      "model_pressure_transfer_db": -40.58637107094367,
+      "relative_residual": 4.175231262932141e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 44.854612934559,
+      "model_pressure_transfer_db": -40.58505471960799,
+      "relative_residual": 3.359795638295326e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 50.46294976566712,
+      "model_pressure_transfer_db": -40.583388192382714,
+      "relative_residual": 2.6698892817681774e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 56.77251752829737,
+      "model_pressure_transfer_db": -40.58127832815656,
+      "relative_residual": 2.0966395739913006e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 63.87099369870183,
+      "model_pressure_transfer_db": -40.578607157964406,
+      "relative_residual": 1.4969598359243233e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 71.85701838968552,
+      "model_pressure_transfer_db": -40.57522528228061,
+      "relative_residual": 1.2033507646213141e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 80.84156504927758,
+      "model_pressure_transfer_db": -40.57094347038458,
+      "relative_residual": 1.0117947697428802e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 90.94948254288656,
+      "model_pressure_transfer_db": -40.56552199786499,
+      "relative_residual": 8.183252996342043e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 102.32123004764547,
+      "model_pressure_transfer_db": -40.558657103454614,
+      "relative_residual": 5.887227548532448e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 115.11482886696258,
+      "model_pressure_transfer_db": -40.54996377093039,
+      "relative_residual": 5.242817483168218e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 129.50805828760653,
+      "model_pressure_transfer_db": -40.53895381304541,
+      "relative_residual": 4.027598605053024e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 145.70092599286045,
+      "model_pressure_transfer_db": -40.52500793432355,
+      "relative_residual": 3.3194908581218062e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 163.91844736049535,
+      "model_pressure_transfer_db": -40.50734005154065,
+      "relative_residual": 2.5323194673819735e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 184.4137722665683,
+      "model_pressure_transfer_db": -40.48495161855641,
+      "relative_residual": 1.920051074028232e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 207.471702844971,
+      "model_pressure_transfer_db": -40.456572980990835,
+      "relative_residual": 1.5402775368886293e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 233.41265108536192,
+      "model_pressure_transfer_db": -40.42058779519812,
+      "relative_residual": 1.2338763688215411e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 262.5970912640898,
+      "model_pressure_transfer_db": -40.37493516169671,
+      "relative_residual": 9.221964915404653e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 295.43056907888933,
+      "model_pressure_transfer_db": -40.316982152778216,
+      "relative_residual": 7.514446864790659e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 332.3693370940691,
+      "model_pressure_transfer_db": -40.24335654881811,
+      "relative_residual": 5.635298269685047e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 373.92669480608953,
+      "model_pressure_transfer_db": -40.149725332530004,
+      "relative_residual": 4.78426455145746e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 420.68012143079585,
+      "model_pressure_transfer_db": -40.030497971479505,
+      "relative_residual": 3.6206873199522674e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 473.27930052922045,
+      "model_pressure_transfer_db": -39.87842326346626,
+      "relative_residual": 2.7954419833711033e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 532.4551479817814,
+      "model_pressure_transfer_db": -39.68403185971561,
+      "relative_residual": 2.340374058482438e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 599.0299687632261,
+      "model_pressure_transfer_db": -39.43484853874752,
+      "relative_residual": 1.9399714743900642e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 673.9288836564134,
+      "model_pressure_transfer_db": -39.11424918612068,
+      "relative_residual": 1.3507194878878694e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 758.1926846900358,
+      "model_pressure_transfer_db": -38.69974744927428,
+      "relative_residual": 1.0865263736397081e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 852.9922979389045,
+      "model_pressure_transfer_db": -38.16032254053083,
+      "relative_residual": 8.760567908735054e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 959.6450546612018,
+      "model_pressure_transfer_db": -37.45204514197786,
+      "relative_residual": 7.558530702336116e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 1079.632996875736,
+      "model_pressure_transfer_db": -36.51048526222984,
+      "relative_residual": 5.813450752181598e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 1214.623471752685,
+      "model_pressure_transfer_db": -35.236582065204885,
+      "relative_residual": 4.508730618303065e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 1366.4923009965685,
+      "model_pressure_transfer_db": -33.46824776300204,
+      "relative_residual": 3.745253974679441e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 1537.349847182194,
+      "model_pressure_transfer_db": -30.92055780305118,
+      "relative_residual": 3.0040374204206976e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 1729.5703392602215,
+      "model_pressure_transfer_db": -27.100966769121012,
+      "relative_residual": 2.994234517281393e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 1945.824864738284,
+      "model_pressure_transfer_db": -22.43006085691234,
+      "relative_residual": 1.9563313706773006e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 2189.118486995578,
+      "model_pressure_transfer_db": -24.239033564166267,
+      "relative_residual": 1.5452680885021466e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 2462.8320035114634,
+      "model_pressure_transfer_db": -28.15212332928631,
+      "relative_residual": 1.3896736202513877e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 2770.768925278613,
+      "model_pressure_transfer_db": -29.87482348539707,
+      "relative_residual": 1.469348395894608e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 3117.2083302245765,
+      "model_pressure_transfer_db": -28.775092243083137,
+      "relative_residual": 1.9008377669545653e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 3506.9643250905115,
+      "model_pressure_transfer_db": -20.116213943922187,
+      "relative_residual": 5.300486889000943e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 3945.452942046867,
+      "model_pressure_transfer_db": -31.954519672414126,
+      "relative_residual": 2.0114839513368452e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 4438.7673996382955,
+      "model_pressure_transfer_db": -37.97551341254004,
+      "relative_residual": 1.6076563162552637e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 4993.762773880696,
+      "model_pressure_transfer_db": -45.435510300537516,
+      "relative_residual": 9.224831558025402e-15
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 5618.151256096165,
+      "model_pressure_transfer_db": -52.605790008735084,
+      "relative_residual": 8.740791446502884e-15
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 6320.609321184592,
+      "model_pressure_transfer_db": -42.07481118820701,
+      "relative_residual": 1.182412574136104e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 7110.898295537404,
+      "model_pressure_transfer_db": -44.36400120146714,
+      "relative_residual": 7.766154846735139e-15
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 5,
+      "frequency_Hz": 8000.0,
+      "model_pressure_transfer_db": -37.048225134096526,
+      "relative_residual": 1.7038238988429503e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 31.5,
+      "model_pressure_transfer_db": -40.5881829823864,
+      "relative_residual": 6.495661397236444e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 35.438560576537576,
+      "model_pressure_transfer_db": -40.58734999741962,
+      "relative_residual": 5.1528902289268984e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 39.86957383291818,
+      "model_pressure_transfer_db": -40.586295573915166,
+      "relative_residual": 4.1709463842820334e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 44.854612934559,
+      "model_pressure_transfer_db": -40.5849608332432,
+      "relative_residual": 3.271699251503416e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 50.46294976566712,
+      "model_pressure_transfer_db": -40.58327123106615,
+      "relative_residual": 2.7008830100117875e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 56.77251752829737,
+      "model_pressure_transfer_db": -40.58113238135081,
+      "relative_residual": 2.1322838916240813e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 63.87099369870183,
+      "model_pressure_transfer_db": -40.57842476428868,
+      "relative_residual": 1.575238976222964e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 71.85701838968552,
+      "model_pressure_transfer_db": -40.57499701514353,
+      "relative_residual": 1.2737273348220766e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 80.84156504927758,
+      "model_pressure_transfer_db": -40.57065741031558,
+      "relative_residual": 1.0214689019921566e-11
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 90.94948254288656,
+      "model_pressure_transfer_db": -40.56516305937885,
+      "relative_residual": 8.179292445134961e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 102.32123004764547,
+      "model_pressure_transfer_db": -40.55820617427259,
+      "relative_residual": 6.034520387696507e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 115.11482886696258,
+      "model_pressure_transfer_db": -40.54939660814625,
+      "relative_residual": 4.762083561532436e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 129.50805828760653,
+      "model_pressure_transfer_db": -40.538239622470556,
+      "relative_residual": 4.029131699287222e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 145.70092599286045,
+      "model_pressure_transfer_db": -40.52410753397598,
+      "relative_residual": 3.210539440228249e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 163.91844736049535,
+      "model_pressure_transfer_db": -40.50620348467209,
+      "relative_residual": 2.451525670489583e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 184.4137722665683,
+      "model_pressure_transfer_db": -40.48351503037236,
+      "relative_residual": 2.087047247539628e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 207.471702844971,
+      "model_pressure_transfer_db": -40.454754498338275,
+      "relative_residual": 1.4370020329723154e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 233.41265108536192,
+      "model_pressure_transfer_db": -40.41828203665155,
+      "relative_residual": 1.1569711680703818e-12
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 262.5970912640898,
+      "model_pressure_transfer_db": -40.37200583452815,
+      "relative_residual": 9.453900874420696e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 295.43056907888933,
+      "model_pressure_transfer_db": -40.313251925673235,
+      "relative_residual": 6.801126064365981e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 332.3693370940691,
+      "model_pressure_transfer_db": -40.23859295956497,
+      "relative_residual": 6.41077234331432e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 373.92669480608953,
+      "model_pressure_transfer_db": -40.14362078068019,
+      "relative_residual": 4.4739538422238377e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 420.68012143079585,
+      "model_pressure_transfer_db": -40.02264063904974,
+      "relative_residual": 3.737641750807892e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 473.27930052922045,
+      "model_pressure_transfer_db": -39.86825368264704,
+      "relative_residual": 3.0070542608675636e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 532.4551479817814,
+      "model_pressure_transfer_db": -39.67077596255661,
+      "relative_residual": 2.26415298454077e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 599.0299687632261,
+      "model_pressure_transfer_db": -39.41741060428737,
+      "relative_residual": 1.8700690864706168e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 673.9288836564134,
+      "model_pressure_transfer_db": -39.09103318600869,
+      "relative_residual": 1.3938711875258896e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 758.1926846900358,
+      "model_pressure_transfer_db": -38.66834345338668,
+      "relative_residual": 1.1705279492978052e-13
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 852.9922979389045,
+      "model_pressure_transfer_db": -38.116921784696835,
+      "relative_residual": 8.603049978645409e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 959.6450546612018,
+      "model_pressure_transfer_db": -37.39026425306042,
+      "relative_residual": 6.970796009571865e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 1079.632996875736,
+      "model_pressure_transfer_db": -36.41876762426597,
+      "relative_residual": 5.868350407778287e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 1214.623471752685,
+      "model_pressure_transfer_db": -35.09168979993359,
+      "relative_residual": 4.3750096356877415e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 1366.4923009965685,
+      "model_pressure_transfer_db": -33.21588371803121,
+      "relative_residual": 3.5295842956863813e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 1537.349847182194,
+      "model_pressure_transfer_db": -30.400796148834655,
+      "relative_residual": 3.5374900876801024e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 1729.5703392602215,
+      "model_pressure_transfer_db": -25.613186543229688,
+      "relative_residual": 2.7385253174075825e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 1945.824864738284,
+      "model_pressure_transfer_db": -13.961728152794366,
+      "relative_residual": 1.7046914354297748e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 2189.118486995578,
+      "model_pressure_transfer_db": -20.998375028472335,
+      "relative_residual": 1.842052100433691e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 2462.8320035114634,
+      "model_pressure_transfer_db": -27.31546567367758,
+      "relative_residual": 1.4395575297138523e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 2770.768925278613,
+      "model_pressure_transfer_db": -29.521724575919293,
+      "relative_residual": 1.4277216236440454e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 3117.2083302245765,
+      "model_pressure_transfer_db": -28.58653096013645,
+      "relative_residual": 1.702641324799846e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 3506.9643250905115,
+      "model_pressure_transfer_db": -19.976334602595028,
+      "relative_residual": 5.5566567752104704e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 3945.452942046867,
+      "model_pressure_transfer_db": -31.87498775165716,
+      "relative_residual": 2.3852630462414492e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 4438.7673996382955,
+      "model_pressure_transfer_db": -37.91331879339352,
+      "relative_residual": 1.3798966313761499e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 4993.762773880696,
+      "model_pressure_transfer_db": -45.39818684599468,
+      "relative_residual": 8.815506467926688e-15
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 5618.151256096165,
+      "model_pressure_transfer_db": -52.58335139957775,
+      "relative_residual": 1.2680883990655273e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 6320.609321184592,
+      "model_pressure_transfer_db": -42.049912016740684,
+      "relative_residual": 1.2396660640934065e-14
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 7110.898295537404,
+      "model_pressure_transfer_db": -44.348543466878986,
+      "relative_residual": 7.89699758749502e-15
+    },
+    {
+      "family": "child",
+      "mesh_mm": 6,
+      "panel_E_MPa": 2500.0,
+      "panel_Q": 20,
+      "frequency_Hz": 8000.0,
+      "model_pressure_transfer_db": -37.0341842846839,
+      "relative_residual": 1.8026801643469497e-14
+    }
+  ]
+}

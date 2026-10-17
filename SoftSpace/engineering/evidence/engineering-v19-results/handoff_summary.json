@@ -1,0 +1,99 @@
+{
+  "revision": "V19 prototype handoff",
+  "physical_measurements": 0,
+  "proposed_holding_window_Nmm": [
+    128,
+    192
+  ],
+  "target_Nmm": 160,
+  "worst_assumed_one_g_moment_Nmm": 55.767304980165854,
+  "minimum_static_equivalent_g_threshold": 2.2952516720240355,
+  "all_2g_scenarios_below_chosen_minimum": true,
+  "required_preload_at_target_mu01_N": 196.584399593126,
+  "required_preload_at_target_mu03_N": 65.52813319770867,
+  "catalogue_pair_reference_force_N": 236,
+  "static_comparison_count": 72,
+  "fold_force_at65mm_N": [
+    1.9692307692307693,
+    2.953846153846154
+  ],
+  "proposed_radial_clearance_budget": {
+    "nominal_mm": 0.15,
+    "pin_and_bore_diameter_error_consumption_mm": 0.03,
+    "axis_error_mm": 0.04,
+    "growth_or_coating_mm": 0.02,
+    "remaining_mm": 0.06,
+    "status": "Proposed allocation, not demonstrated production capability"
+  },
+  "foam_reference_points": [
+    {
+      "family": "child",
+      "reference_grade": "PORON 4701-30",
+      "density_kg_m3": 240,
+      "typical_25_percent_compression_kPa": 21,
+      "ideal_full_annulus_area_mm2": 3078.4171888215105,
+      "ideal_uniform_25_percent_force_N": 64.64676096525172,
+      "source": "https://rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/poron/english/data-sheets/17-006-poron-4701-30-very-soft.pdf",
+      "checked": "2026-10-16",
+      "scope": "Reference point force calculation only; no curve fit, full cushion material selection or comfort pass"
+    },
+    {
+      "family": "child",
+      "reference_grade": "PORON 4701-30",
+      "density_kg_m3": 320,
+      "typical_25_percent_compression_kPa": 35,
+      "ideal_full_annulus_area_mm2": 3078.4171888215105,
+      "ideal_uniform_25_percent_force_N": 107.74460160875287,
+      "source": "https://rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/poron/english/data-sheets/17-006-poron-4701-30-very-soft.pdf",
+      "checked": "2026-10-16",
+      "scope": "Reference point force calculation only; no curve fit, full cushion material selection or comfort pass"
+    },
+    {
+      "family": "child",
+      "reference_grade": "PORON 4701-30",
+      "density_kg_m3": 400,
+      "typical_25_percent_compression_kPa": 62,
+      "ideal_full_annulus_area_mm2": 3078.4171888215105,
+      "ideal_uniform_25_percent_force_N": 190.86186570693366,
+      "source": "https://rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/poron/english/data-sheets/17-006-poron-4701-30-very-soft.pdf",
+      "checked": "2026-10-16",
+      "scope": "Reference point force calculation only; no curve fit, full cushion material selection or comfort pass"
+    },
+    {
+      "family": "adult",
+      "reference_grade": "PORON 4701-30",
+      "density_kg_m3": 240,
+      "typical_25_percent_compression_kPa": 21,
+      "ideal_full_annulus_area_mm2": 4260.785036431157,
+      "ideal_uniform_25_percent_force_N": 89.47648576505429,
+      "source": "https://rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/poron/english/data-sheets/17-006-poron-4701-30-very-soft.pdf",
+      "checked": "2026-10-16",
+      "scope": "Reference point force calculation only; no curve fit, full cushion material selection or comfort pass"
+    },
+    {
+      "family": "adult",
+      "reference_grade": "PORON 4701-30",
+      "density_kg_m3": 320,
+      "typical_25_percent_compression_kPa": 35,
+      "ideal_full_annulus_area_mm2": 4260.785036431157,
+      "ideal_uniform_25_percent_force_N": 149.12747627509052,
+      "source": "https://rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/poron/english/data-sheets/17-006-poron-4701-30-very-soft.pdf",
+      "checked": "2026-10-16",
+      "scope": "Reference point force calculation only; no curve fit, full cushion material selection or comfort pass"
+    },
+    {
+      "family": "adult",
+      "reference_grade": "PORON 4701-30",
+      "density_kg_m3": 400,
+      "typical_25_percent_compression_kPa": 62,
+      "ideal_full_annulus_area_mm2": 4260.785036431157,
+      "ideal_uniform_25_percent_force_N": 264.16867225873176,
+      "source": "https://rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/poron/english/data-sheets/17-006-poron-4701-30-very-soft.pdf",
+      "checked": "2026-10-16",
+      "scope": "Reference point force calculation only; no curve fit, full cushion material selection or comfort pass"
+    }
+  ],
+  "scope": "Hardware outside the rotating fork is changed; moving cup and fork mass is identical to V18. Density assumptions and mass calculation are inherited with provenance.",
+  "mass_source_sha256": "1143b4f81e9b05753339ca3bea1b8c244d41c7b7a14b3cfc4e8e539b6e20aac4",
+  "manufacturing_release": false
+}

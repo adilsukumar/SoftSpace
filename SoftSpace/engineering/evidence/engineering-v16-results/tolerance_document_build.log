@@ -1,0 +1,46 @@
+{
+  "updated": "15 October 2026",
+  "design_status": "V16 indexed folding candidates with V10 native archives",
+  "documents": [
+    {
+      "path": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
+      "sha256": "9408ffe3417b9dfa4c07864c974fc63c896f10783acfafa9f0a5712fbb9c2e23",
+      "bytes": 6280935
+    },
+    {
+      "path": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
+      "sha256": "92595e812671c4a4b5bcdbbb1ad4419ef4dcda921959bd8706e6d70959b344c1",
+      "bytes": 1515351
+    }
+  ],
+  "market_checked": "2026-10-13",
+  "future_rule": "Update both documents after every meaningful project edit or new result; preserve user edits and history; do not silently regenerate over user edits."
+}
+{'sha256': '9408ffe3417b9dfa4c07864c974fc63c896f10783acfafa9f0a5712fbb9c2e23', 'approximate_pages': 55, 'images': 28, 'tables': 31, 'zip_integrity': 'pass', 'native_page_render': 'unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure'}
+{'sha256': '92595e812671c4a4b5bcdbbb1ad4419ef4dcda921959bd8706e6d70959b344c1', 'approximate_pages': 30, 'images': 13, 'tables': 19, 'zip_integrity': 'pass', 'native_page_render': 'unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure'}
+[
+  {
+    "document": "Ear_Defender_Project.docx",
+    "paragraphs": 451,
+    "tables": 31,
+    "embedded_images": 28,
+    "source_links": 33,
+    "structure_and_hashes": "pass"
+  },
+  {
+    "document": "Glasses_Friendly_Headphone_Cushions.docx",
+    "paragraphs": 234,
+    "tables": 19,
+    "embedded_images": 13,
+    "source_links": 19,
+    "structure_and_hashes": "pass"
+  }
+]
+{
+  "unchanged_prior_page_images": 85,
+  "changed_prior_page_images": [
+    "Glasses_Friendly_Headphone_Cushions\\page-30.png"
+  ],
+  "added_page_images": [],
+  "scope": "Pixel hash comparison of approximate previews only; native Word remains unverified"
+}

@@ -1,0 +1,72 @@
+{
+  "updated": "2026-10-14",
+  "revision": "V10",
+  "tests": [
+    {
+      "test": "Native CAD and archive checks",
+      "status": "Recorded pass for six archives and 18 STEP poses",
+      "scope_or_prerequisite": "Geometry evidence only"
+    },
+    {
+      "test": "Intermediate travel",
+      "status": "Pass",
+      "scope_or_prerequisite": "42 sampled rigid poses; not a continuous sweep or loaded contact"
+    },
+    {
+      "test": "Dimensional tolerance",
+      "status": "Not established",
+      "scope_or_prerequisite": "Guide to tongue loses positive clearance at assumed 0.2 mm error per part"
+    },
+    {
+      "test": "Band stress and displacement refinement",
+      "status": "Recorded chosen 5 percent comparisons pass for six sizes",
+      "scope_or_prerequisite": "Assumed linear materials and ideal fixtures"
+    },
+    {
+      "test": "Headband force",
+      "status": "Two recorded 54 case screens",
+      "scope_or_prerequisite": "Reduced assumed band slider foam models; not measured worn forces"
+    },
+    {
+      "test": "Lock clamp and end stops",
+      "status": "Geometric stop found; loaded validation open",
+      "scope_or_prerequisite": "12 contact brackets near 31 mm and 36 diagnostic overtravel poses; threads torque friction stop strength and wear remain open"
+    },
+    {
+      "test": "Full worn contact",
+      "status": "Input and solver work required",
+      "scope_or_prerequisite": "Measured heads nonlinear foam cover skin joints and glasses"
+    },
+    {
+      "test": "Foam cover and band material behaviour",
+      "status": "Physical input required",
+      "scope_or_prerequisite": "Compression recovery stretch friction strength creep and fatigue"
+    },
+    {
+      "test": "Acoustics and music leakage",
+      "status": "Measured geometry properties and laboratory tests required",
+      "scope_or_prerequisite": "Earlier cavity model is not a real seal or Sony acoustic result"
+    },
+    {
+      "test": "Heat moisture and cleaning",
+      "status": "Physical input and sample tests required",
+      "scope_or_prerequisite": "Earlier assumed cases included saturation"
+    },
+    {
+      "test": "Sony mount and ANC compatibility",
+      "status": "User measurements and sample tests required",
+      "scope_or_prerequisite": "User owns WH CH720N and will measure later"
+    },
+    {
+      "test": "Comfort and sensory acceptance",
+      "status": "Voluntary wearer trials required",
+      "scope_or_prerequisite": "No simulation can establish individual preference or perceived comfort"
+    },
+    {
+      "test": "Cost and production yield",
+      "status": "Supplier evidence required",
+      "scope_or_prerequisite": "No supplier quote or demonstrated manufacturing tolerance"
+    }
+  ],
+  "scope": "No physical tests performed by this batch; unfinished tests are explicitly open"
+}

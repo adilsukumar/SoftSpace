@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "${WORKSPACE}\audit_v16_indexed_rivet.py", line 10, in <module>
+    cube=BRepPrimAPI_MakeBox(gp_Pnt(R+8,-15.75 if upper else -7.75,74 if upper else 56),1,1,1).Shape();v=common(parts['RightTongue'],cube);d=common(parts['RightTongue'],moved(cube,(0,100,0)));rv=common(rotate(parts['RightTongue'],R,65,60),rotate(cube,R,65,60));out['new_plate_query_controls']={'embedded_cube_mm3':v,'disjoint_cube_mm3':d,'rotated_embedded_cube_mm3':rv,'pass':abs(v-1)<1e-5 and d<1e-5 and abs(rv-1)<1e-5};assert out['new_plate_query_controls']['pass'];persist()
+                                                                                                                                                                                                                                                                                                                                                                                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+AssertionError

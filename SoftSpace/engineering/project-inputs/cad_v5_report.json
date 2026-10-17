@@ -1,0 +1,3284 @@
+{
+  "status": "complete",
+  "files": [
+    "${WORKSPACE}\\ReplacementCushion_V5_child_small_20261013_002134.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_child_small_20261013_002134_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_child_small_20261013_002134_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_child_small_20261013_002134.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_child_small_20261013_002134.f3d",
+    "${WORKSPACE}\\ReplacementCushion_V5_child_medium_20261013_002134.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_child_medium_20261013_002134_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_child_medium_20261013_002134_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_child_medium_20261013_002134.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_child_medium_20261013_002134.f3d",
+    "${WORKSPACE}\\ReplacementCushion_V5_child_large_20261013_002134.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_child_large_20261013_002134_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_child_large_20261013_002134_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_child_large_20261013_002134.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_child_large_20261013_002134.f3d",
+    "${WORKSPACE}\\ReplacementCushion_V5_adult_small_20261013_002134.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_adult_small_20261013_002134_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_adult_small_20261013_002134_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_adult_small_20261013_002134.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_adult_small_20261013_002134.f3d",
+    "${WORKSPACE}\\ReplacementCushion_V5_adult_medium_20261013_002134.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_adult_medium_20261013_002134_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_adult_medium_20261013_002134_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_adult_medium_20261013_002134.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_adult_medium_20261013_002134.f3d",
+    "${WORKSPACE}\\ReplacementCushion_V5_adult_large_20261013_002134.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_adult_large_20261013_002134_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_adult_large_20261013_002134_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_adult_large_20261013_002134.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V5_adult_large_20261013_002134.f3d"
+  ],
+  "workspaces": [
+    {
+      "id": "TSplineEnvironment",
+      "name": "Form"
+    },
+    {
+      "id": "FusionSolidEnvironment",
+      "name": "Design"
+    },
+    {
+      "id": "GenerativeEnvironment",
+      "name": "Generative Design"
+    },
+    {
+      "id": "EditModelWMEnv",
+      "name": "Edit Model"
+    },
+    {
+      "id": "ExploreEnvironment",
+      "name": "Explore"
+    },
+    {
+      "id": "FusionSurfaceEnvironment",
+      "name": "Surface"
+    },
+    {
+      "id": "FusionSheetMetalEnvironment",
+      "name": "Sheet Metal"
+    },
+    {
+      "id": "PCBEnvironment",
+      "name": "PCB"
+    },
+    {
+      "id": "PCB3DEnvironment",
+      "name": "3D PCB"
+    },
+    {
+      "id": "Package3DEnvironment",
+      "name": "Package"
+    },
+    {
+      "id": "FusionRenderEnvironment",
+      "name": "Render"
+    },
+    {
+      "id": "Publisher3DEnvironment",
+      "name": "Animation"
+    },
+    {
+      "id": "SimulationEnvironment",
+      "name": "Simulation"
+    },
+    {
+      "id": "SimplifyWMEnv",
+      "name": "Simplify"
+    },
+    {
+      "id": "SimCompareEnvironment",
+      "name": "Compare"
+    },
+    {
+      "id": "CAMEnvironment",
+      "name": "Manufacture"
+    },
+    {
+      "id": "DebugEnvironment",
+      "name": "Debug"
+    },
+    {
+      "id": "FusionModelingEnvironment",
+      "name": "Modeling"
+    },
+    {
+      "id": "FusionAssembleEnvironment",
+      "name": "Assemble"
+    },
+    {
+      "id": "FusionVisualizationEnvironment",
+      "name": "Visualization"
+    },
+    {
+      "id": "ResultsViewerEnvironmentDora",
+      "name": "ResultsViewerDora"
+    },
+    {
+      "id": "ResultsViewerEnvironmentHawkeye",
+      "name": "ResultsViewerHawkeye"
+    },
+    {
+      "id": "MfgWorkingModelEnv",
+      "name": "Prepare"
+    },
+    {
+      "id": "MachineBuilderEnvironment",
+      "name": "Machine Builder"
+    },
+    {
+      "id": "FusionDocumentationEnvironment",
+      "name": "Drawing"
+    },
+    {
+      "id": "FusionDrawingsBlockEditorEnv",
+      "name": "Drawings Block Editor"
+    },
+    {
+      "id": "FusionDrawingsSketchEnv",
+      "name": "Drawings Sketch Editor"
+    },
+    {
+      "id": "FusionDrawingsSketchSymbolEnv",
+      "name": "Drawings Sketch Symbol Editor"
+    },
+    {
+      "id": "FusionDrawingsViewSketchEnv",
+      "name": "Drawings Sketch Editor"
+    },
+    {
+      "id": "ElectronEmptyLbrEnvironment",
+      "name": "Electronics Library"
+    },
+    {
+      "id": "ElectronDeviceEnvironment",
+      "name": "Electronics Library - Component"
+    },
+    {
+      "id": "ElectronFootprintEnvironment",
+      "name": "Electronics Library - Footprint"
+    },
+    {
+      "id": "ElectronSymbolEnvironment",
+      "name": "Electronics Library - Symbol"
+    },
+    {
+      "id": "ElectronPackageEnvironment",
+      "name": "Electronics 3D Package"
+    },
+    {
+      "id": "PCBDesignEnvironement",
+      "name": "Electronics Design"
+    },
+    {
+      "id": "SchEditorEnvironement",
+      "name": "Schematic Editor"
+    },
+    {
+      "id": "BoardLayoutEnvironement",
+      "name": "PCB Editor"
+    },
+    {
+      "id": "ParaMeshEnvironment",
+      "name": "ParaMesh"
+    }
+  ],
+  "stages": [
+    "child: doc created",
+    "child: curved cushion and solid wrap complete",
+    "child: doc created",
+    "child: curved cushion and solid wrap complete",
+    "child: doc created",
+    "child: curved cushion and solid wrap complete",
+    "adult: doc created",
+    "adult: curved cushion and solid wrap complete",
+    "adult: doc created",
+    "adult: curved cushion and solid wrap complete",
+    "adult: doc created",
+    "adult: curved cushion and solid wrap complete"
+  ],
+  "child_small_articulation": [
+    {
+      "side": "Left",
+      "angle_deg": -8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 0,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 0,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    }
+  ],
+  "child_small_slider_travel": [
+    {
+      "extension_mm": 0,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 5,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 10,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 15,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 20,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 25,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 30,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    }
+  ],
+  "child_small": {
+    "foam_volume_mm3": 74188.14525904474,
+    "analytic_foam_volume_mm3": 74182.93542897489,
+    "cover_volume_mm3": 3294.1453845957653,
+    "child_uses_own_scaled_pad": true,
+    "own_product_bodies": 28,
+    "configuration": "unloaded rest band, not a worn head pose",
+    "production_ready": false
+  },
+  "child_medium_articulation": [
+    {
+      "side": "Left",
+      "angle_deg": -8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 0,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 0,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    }
+  ],
+  "child_medium_slider_travel": [
+    {
+      "extension_mm": 0,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 5,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 10,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 15,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 20,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 25,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 30,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    }
+  ],
+  "child_medium": {
+    "foam_volume_mm3": 74188.14525904474,
+    "analytic_foam_volume_mm3": 74182.93542897489,
+    "cover_volume_mm3": 3294.1453845957653,
+    "child_uses_own_scaled_pad": true,
+    "own_product_bodies": 28,
+    "configuration": "unloaded rest band, not a worn head pose",
+    "production_ready": false
+  },
+  "child_large_articulation": [
+    {
+      "side": "Left",
+      "angle_deg": -8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 0,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 0,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    }
+  ],
+  "child_large_slider_travel": [
+    {
+      "extension_mm": 0,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 5,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 10,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 15,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 20,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 25,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 30,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    }
+  ],
+  "child_large": {
+    "foam_volume_mm3": 74188.14525904474,
+    "analytic_foam_volume_mm3": 74182.93542897489,
+    "cover_volume_mm3": 3294.1453845957653,
+    "child_uses_own_scaled_pad": true,
+    "own_product_bodies": 28,
+    "configuration": "unloaded rest band, not a worn head pose",
+    "production_ready": false
+  },
+  "adult_small_articulation": [
+    {
+      "side": "Left",
+      "angle_deg": -8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 0,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 0,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    }
+  ],
+  "adult_small_slider_travel": [
+    {
+      "extension_mm": 0,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 5,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 10,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 15,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 20,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 25,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 30,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    }
+  ],
+  "adult_small": {
+    "foam_volume_mm3": 104948.28301329946,
+    "analytic_foam_volume_mm3": 104957.03638119921,
+    "cover_volume_mm3": 4187.589766772149,
+    "child_uses_own_scaled_pad": false,
+    "own_product_bodies": 28,
+    "configuration": "unloaded rest band, not a worn head pose",
+    "production_ready": false
+  },
+  "adult_medium_articulation": [
+    {
+      "side": "Left",
+      "angle_deg": -8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 0,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 0,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    }
+  ],
+  "adult_medium_slider_travel": [
+    {
+      "extension_mm": 0,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 5,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 10,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 15,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 20,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 25,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 30,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    }
+  ],
+  "adult_medium": {
+    "foam_volume_mm3": 104948.28301329946,
+    "analytic_foam_volume_mm3": 104957.03638119921,
+    "cover_volume_mm3": 4187.589766772149,
+    "child_uses_own_scaled_pad": false,
+    "own_product_bodies": 28,
+    "configuration": "unloaded rest band, not a worn head pose",
+    "production_ready": false
+  },
+  "adult_large_articulation": [
+    {
+      "side": "Left",
+      "angle_deg": -8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": -1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 0,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Left",
+      "angle_deg": 8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "LeftMainFoam": 0.0,
+        "LeftSoftGlassesZone": 0.0,
+        "LeftContinuousCover_SolidWrap": 0.0,
+        "LeftMountCarrier_InterfaceBlank": 0.0,
+        "LeftClosedCup": 0.0,
+        "LeftAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": -1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 0,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 1,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 2,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 3,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 4,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 5,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 6,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 7,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    },
+    {
+      "side": "Right",
+      "angle_deg": 8,
+      "fork_overlap_mm3": 0.0,
+      "body_overlaps_mm3": {
+        "RightMainFoam": 0.0,
+        "RightSoftGlassesZone": 0.0,
+        "RightContinuousCover_SolidWrap": 0.0,
+        "RightMountCarrier_InterfaceBlank": 0.0,
+        "RightClosedCup": 0.0,
+        "RightAbsorberLiner_Assumed": 0.0
+      }
+    }
+  ],
+  "adult_large_slider_travel": [
+    {
+      "extension_mm": 0,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 5,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 10,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 15,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 20,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 25,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    },
+    {
+      "extension_mm": 30,
+      "moving_band_overlap_mm3": 0.0,
+      "tongue_engagement_mm": 34
+    }
+  ],
+  "adult_large": {
+    "foam_volume_mm3": 104948.28301329946,
+    "analytic_foam_volume_mm3": 104957.03638119921,
+    "cover_volume_mm3": 4187.589766772149,
+    "child_uses_own_scaled_pad": false,
+    "own_product_bodies": 28,
+    "configuration": "unloaded rest band, not a worn head pose",
+    "production_ready": false
+  },
+  "recipes": [
+    {
+      "name": "child_small",
+      "family": "child",
+      "band_halfspan_mm": 79.06490095542989,
+      "arch_height_mm": 60,
+      "band_thickness_mm": 3.0,
+      "band_width_mm": 24,
+      "contour_fraction": 1,
+      "foam_multiplier": 1,
+      "extension_range_mm": [
+        0,
+        30
+      ],
+      "reference_extension_mm": 15,
+      "target_comparison_force_N": 2,
+      "reference_head_width_mm": 120,
+      "tongue_thickness_mm": 4,
+      "tongue_width_mm": 16,
+      "guide_internal_clearance_mm": 0.3,
+      "minimum_engagement_mm": 30,
+      "detent_pitch_mm": 5
+    },
+    {
+      "name": "child_medium",
+      "family": "child",
+      "band_halfspan_mm": 84.5591980330646,
+      "arch_height_mm": 60,
+      "band_thickness_mm": 3.0,
+      "band_width_mm": 24,
+      "contour_fraction": 1,
+      "foam_multiplier": 1,
+      "extension_range_mm": [
+        0,
+        30
+      ],
+      "reference_extension_mm": 15,
+      "target_comparison_force_N": 2,
+      "reference_head_width_mm": 130,
+      "tongue_thickness_mm": 4,
+      "tongue_width_mm": 16,
+      "guide_internal_clearance_mm": 0.3,
+      "minimum_engagement_mm": 30,
+      "detent_pitch_mm": 5
+    },
+    {
+      "name": "child_large",
+      "family": "child",
+      "band_halfspan_mm": 89.71847258626477,
+      "arch_height_mm": 60,
+      "band_thickness_mm": 3.0,
+      "band_width_mm": 24,
+      "contour_fraction": 1,
+      "foam_multiplier": 1,
+      "extension_range_mm": [
+        0,
+        30
+      ],
+      "reference_extension_mm": 15,
+      "target_comparison_force_N": 2,
+      "reference_head_width_mm": 140,
+      "tongue_thickness_mm": 4,
+      "tongue_width_mm": 16,
+      "guide_internal_clearance_mm": 0.3,
+      "minimum_engagement_mm": 30,
+      "detent_pitch_mm": 5
+    },
+    {
+      "name": "adult_small",
+      "family": "adult",
+      "band_halfspan_mm": 93.28074857351534,
+      "arch_height_mm": 70,
+      "band_thickness_mm": 3.6,
+      "band_width_mm": 28,
+      "contour_fraction": 1,
+      "foam_multiplier": 1,
+      "extension_range_mm": [
+        0,
+        30
+      ],
+      "reference_extension_mm": 15,
+      "target_comparison_force_N": 2,
+      "reference_head_width_mm": 140,
+      "tongue_thickness_mm": 4,
+      "tongue_width_mm": 16,
+      "guide_internal_clearance_mm": 0.3,
+      "minimum_engagement_mm": 30,
+      "detent_pitch_mm": 5
+    },
+    {
+      "name": "adult_medium",
+      "family": "adult",
+      "band_halfspan_mm": 101.4146691672504,
+      "arch_height_mm": 70,
+      "band_thickness_mm": 3.6,
+      "band_width_mm": 28,
+      "contour_fraction": 1,
+      "foam_multiplier": 1,
+      "extension_range_mm": [
+        0,
+        30
+      ],
+      "reference_extension_mm": 15,
+      "target_comparison_force_N": 2,
+      "reference_head_width_mm": 155,
+      "tongue_thickness_mm": 4,
+      "tongue_width_mm": 16,
+      "guide_internal_clearance_mm": 0.3,
+      "minimum_engagement_mm": 30,
+      "detent_pitch_mm": 5
+    },
+    {
+      "name": "adult_large",
+      "family": "adult",
+      "band_halfspan_mm": 109.41643553576063,
+      "arch_height_mm": 70,
+      "band_thickness_mm": 3.6,
+      "band_width_mm": 28,
+      "contour_fraction": 1,
+      "foam_multiplier": 1,
+      "extension_range_mm": [
+        0,
+        30
+      ],
+      "reference_extension_mm": 15,
+      "target_comparison_force_N": 2,
+      "reference_head_width_mm": 170,
+      "tongue_thickness_mm": 4,
+      "tongue_width_mm": 16,
+      "guide_internal_clearance_mm": 0.3,
+      "minimum_engagement_mm": 30,
+      "detent_pitch_mm": 5
+    }
+  ],
+  "limitations": [
+    "Six provisional widths, each with 30 mm crown-to-cup slider travel and clamp knob.",
+    "Guide friction, threads, pull-out, fatigue, child access, pinch risk and retention need physical validation.",
+    "Slider section model omits overlap stiffness, guide notches and 3D torsion.",
+    "Band coordinates are unloaded; no population coverage or measured comfort/attenuation established.",
+    "Crown padding and child ear fit remain geometric assumptions; cover/foam properties unmeasured."
+  ]
+}

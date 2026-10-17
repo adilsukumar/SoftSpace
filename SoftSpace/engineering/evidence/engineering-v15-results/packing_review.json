@@ -1,0 +1,134 @@
+{
+  "revision": "V15 finite packing search on V14 parts",
+  "sizes": [
+    {
+      "size": "child_large",
+      "source": "${WORKSPACE}\\EarDefender_V14_child_large_Latched.step",
+      "source_sha256": "171a7479ee9e5dcb8d6c6814bbbbf87e185f9c94ab2a72293d5c36b76a139573",
+      "ranked_boxes": 30625,
+      "new_endpoint_checks": 53,
+      "new_clear_endpoint_improves_previous_V14_fold": true,
+      "previous_clear_fold_angles_deg": [
+        60,
+        45
+      ],
+      "previous_clear_fold_extension_mm": [
+        0,
+        30
+      ],
+      "previous_clear_fold_proof": {
+        "pass": true,
+        "overlaps": [],
+        "errors": [],
+        "boolean_count": 30,
+        "bbox_dimensions_mm": [
+          244.18498137010346,
+          81.625,
+          185.3554156524015
+        ],
+        "size": "child_large",
+        "phase": "folding released",
+        "angles_deg": [
+          60,
+          45
+        ]
+      },
+      "best_recorded_box_mm": [
+        246.9930820522148,
+        81.625,
+        171.1030983993062
+      ],
+      "best_recorded_source": "new search endpoint",
+      "change_from_retracted_unfolded_percent": -3.932034914479865,
+      "change_from_nominal_percent": -5.239971811491739
+    },
+    {
+      "size": "child_medium",
+      "source": "${WORKSPACE}\\EarDefender_V14_child_medium_Latched.step",
+      "source_sha256": "396d0ad3cd597de1dea05eed85a894507d375b4fe036a95e9e05370754e30477",
+      "ranked_boxes": 30625,
+      "new_endpoint_checks": 61,
+      "new_clear_endpoint_improves_previous_V14_fold": false,
+      "previous_clear_fold_angles_deg": [
+        60,
+        45
+      ],
+      "previous_clear_fold_extension_mm": [
+        0,
+        30
+      ],
+      "previous_clear_fold_proof": {
+        "pass": true,
+        "overlaps": [],
+        "errors": [],
+        "boolean_count": 41,
+        "bbox_dimensions_mm": [
+          233.65749366508328,
+          81.625,
+          185.35541565240612
+        ],
+        "size": "child_medium",
+        "phase": "folding released",
+        "angles_deg": [
+          60,
+          45
+        ]
+      },
+      "best_recorded_box_mm": [
+        233.65749366508328,
+        81.625,
+        185.35541565240612
+      ],
+      "best_recorded_source": "previous V14 checked endpoint",
+      "change_from_retracted_unfolded_percent": 2.662579481482008,
+      "change_from_nominal_percent": 1.2648588622651058
+    },
+    {
+      "size": "child_small",
+      "source": "${WORKSPACE}\\EarDefender_V14_child_small_Latched.step",
+      "source_sha256": "76c3bf039bb4155bbcfb6b982637f1eea2494c727119289ff7cade88f2b80e3c",
+      "ranked_boxes": 30625,
+      "new_endpoint_checks": 65,
+      "new_clear_endpoint_improves_previous_V14_fold": false,
+      "previous_clear_fold_angles_deg": [
+        75,
+        45
+      ],
+      "previous_clear_fold_extension_mm": [
+        0,
+        30
+      ],
+      "previous_clear_fold_proof": {
+        "pass": true,
+        "overlaps": [],
+        "errors": [],
+        "boolean_count": 26,
+        "bbox_dimensions_mm": [
+          218.35360591785354,
+          81.625,
+          185.3554156524072
+        ],
+        "size": "child_small",
+        "phase": "folding released",
+        "angles_deg": [
+          75,
+          45
+        ]
+      },
+      "best_recorded_box_mm": [
+        218.35360591785354,
+        81.625,
+        185.3554156524072
+      ],
+      "best_recorded_source": "previous V14 checked endpoint",
+      "change_from_retracted_unfolded_percent": 0.5117517623177026,
+      "change_from_nominal_percent": -0.85668597440548
+    }
+  ],
+  "limits": [
+    "Previous source-matched V14 clear endpoint retained whenever a new endpoint is worse",
+    "Finite sampled search, not global optimum or new path proof",
+    "Held6mm pin release; no stable folded storage latch established",
+    "Axis aligned CAD boxes, not physical carrying or travel survival"
+  ]
+}

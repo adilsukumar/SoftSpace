@@ -1,0 +1,199 @@
+{
+  "preload_N": 140,
+  "side_force_N": 2,
+  "assumed_mu": 0.2,
+  "normal_penalty_N_mm3": 10000,
+  "tangential_penalty_N_mm3": 1000,
+  "iterations": 21,
+  "relative_free_residual": 8.210131163276652e-07,
+  "maximum_numerical_penetration_mm": 0.0005773919264849979,
+  "maximum_pivot_constraint_error_mm": 0.00024652407844858896,
+  "stop_reaction_N": 4.187812233819963,
+  "washer_normal_sum_N": 278.94140474836377,
+  "washer_quadrature_area_mm2": 160.18240054170997,
+  "stop_quadrature_area_mm2": 32.0,
+  "global_force_balance_error_N": 1.2301001725272831e-09,
+  "cup_mean_displacement_x_mm": 0.34148251807484215,
+  "component_stresses": [
+    {
+      "peak_element_MPa": 2.294500984589131,
+      "volume_weighted_mean_MPa": 1.070586888957575
+    },
+    {
+      "peak_element_MPa": 2.541037920049777,
+      "volume_weighted_mean_MPa": 0.43959504829219515
+    }
+  ],
+  "history": [
+    {
+      "iteration": 0,
+      "relative_u_change": 1.0,
+      "relative_equilibrium_residual": 0.0725499097016328,
+      "active": 1947,
+      "slip_points": 336
+    },
+    {
+      "iteration": 1,
+      "relative_u_change": 0.003542834768056274,
+      "relative_equilibrium_residual": 0.07673082920369073,
+      "active": 1899,
+      "slip_points": 344
+    },
+    {
+      "iteration": 2,
+      "relative_u_change": 0.0037914244624510044,
+      "relative_equilibrium_residual": 0.0519256840936379,
+      "active": 1875,
+      "slip_points": 353
+    },
+    {
+      "iteration": 3,
+      "relative_u_change": 0.0006725135516966978,
+      "relative_equilibrium_residual": 0.020625933695560206,
+      "active": 1860,
+      "slip_points": 366
+    },
+    {
+      "iteration": 4,
+      "relative_u_change": 0.0001533928443810742,
+      "relative_equilibrium_residual": 0.0064300903950303984,
+      "active": 1855,
+      "slip_points": 377
+    },
+    {
+      "iteration": 5,
+      "relative_u_change": 4.189711067804387e-05,
+      "relative_equilibrium_residual": 0.001555612134762699,
+      "active": 1855,
+      "slip_points": 382
+    },
+    {
+      "iteration": 6,
+      "relative_u_change": 3.2377480865685252e-06,
+      "relative_equilibrium_residual": 0.0009148188161042059,
+      "active": 1855,
+      "slip_points": 383
+    },
+    {
+      "iteration": 7,
+      "relative_u_change": 1.9525446438479526e-06,
+      "relative_equilibrium_residual": 0.000541656654788921,
+      "active": 1855,
+      "slip_points": 386
+    },
+    {
+      "iteration": 8,
+      "relative_u_change": 1.1776587783381668e-06,
+      "relative_equilibrium_residual": 0.00032270909936994995,
+      "active": 1855,
+      "slip_points": 387
+    },
+    {
+      "iteration": 9,
+      "relative_u_change": 7.105207913276975e-07,
+      "relative_equilibrium_residual": 0.0001932674562264057,
+      "active": 1855,
+      "slip_points": 387
+    },
+    {
+      "iteration": 10,
+      "relative_u_change": 4.289594746876903e-07,
+      "relative_equilibrium_residual": 0.00011625189098834728,
+      "active": 1855,
+      "slip_points": 387
+    },
+    {
+      "iteration": 11,
+      "relative_u_change": 2.5925899072301006e-07,
+      "relative_equilibrium_residual": 7.017990462904795e-05,
+      "active": 1855,
+      "slip_points": 387
+    },
+    {
+      "iteration": 12,
+      "relative_u_change": 1.5689380204041673e-07,
+      "relative_equilibrium_residual": 4.249427892749294e-05,
+      "active": 1855,
+      "slip_points": 387
+    },
+    {
+      "iteration": 13,
+      "relative_u_change": 9.50820268375206e-08,
+      "relative_equilibrium_residual": 2.5795287272069115e-05,
+      "active": 1855,
+      "slip_points": 387
+    },
+    {
+      "iteration": 14,
+      "relative_u_change": 5.773346334825228e-08,
+      "relative_equilibrium_residual": 1.569191488512505e-05,
+      "active": 1855,
+      "slip_points": 387
+    },
+    {
+      "iteration": 15,
+      "relative_u_change": 3.5088338407942864e-08,
+      "relative_equilibrium_residual": 9.563301884031715e-06,
+      "active": 1855,
+      "slip_points": 387
+    },
+    {
+      "iteration": 16,
+      "relative_u_change": 2.1363389549751692e-08,
+      "relative_equilibrium_residual": 5.837617905393693e-06,
+      "active": 1855,
+      "slip_points": 387
+    },
+    {
+      "iteration": 17,
+      "relative_u_change": 1.3019461456360502e-08,
+      "relative_equilibrium_residual": 3.56845859393863e-06,
+      "active": 1855,
+      "slip_points": 387
+    },
+    {
+      "iteration": 18,
+      "relative_u_change": 7.952578930694988e-09,
+      "relative_equilibrium_residual": 2.184139451960097e-06,
+      "active": 1855,
+      "slip_points": 387
+    },
+    {
+      "iteration": 19,
+      "relative_u_change": 4.8559834242488355e-09,
+      "relative_equilibrium_residual": 1.3383945527693546e-06,
+      "active": 1855,
+      "slip_points": 387
+    },
+    {
+      "iteration": 20,
+      "relative_u_change": 2.970018913408431e-09,
+      "relative_equilibrium_residual": 8.21013116324427e-07,
+      "active": 1855,
+      "slip_points": 387
+    }
+  ],
+  "coulomb_bound_error_MPa": 5.551115123125783e-17,
+  "converged": true,
+  "size": "adult_small",
+  "mesh_max_mm": 3.0,
+  "source": "${WORKSPACE}\\EarDefender_V19_adult_small_ParallelDisc.step",
+  "source_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d",
+  "nodes": 18727,
+  "seconds": 350.6617078781128,
+  "bulk_element": "Tet10",
+  "contact_interpolation": "Tri3 subtriangles of quadratic boundary faces",
+  "boundary_partitions": "washer annulus and preload footprint",
+  "stress_sampling": "centroid only",
+  "quadrature": "27 positive Duffy Gauss points",
+  "elastic_E_MPa": 3500,
+  "assumed_nu": 0.35,
+  "exact_CAD_component_volumes_mm3": [
+    7090.544431168587,
+    6125.079589122672
+  ],
+  "quadrature_component_volumes_mm3": [
+    7090.5176632726325,
+    6125.094571592457
+  ]
+}

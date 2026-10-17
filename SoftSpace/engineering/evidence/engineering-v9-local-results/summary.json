@@ -1,0 +1,87 @@
+{
+  "status": "error",
+  "revision": "V9Local STEP-only corner experiment",
+  "cases": [
+    {
+      "size": "adult_small",
+      "meshes": [
+        {
+          "nodes": 13500,
+          "tet10_elements": 7036,
+          "cg_iterations": 4086,
+          "relative_free_residual": 6.029529032507624e-08,
+          "minimum_quadrature_jacobian_mm3": 0.02691929671329411,
+          "max_von_mises_centroid_MPa": 3.0291029997318275,
+          "strain_energy_Nmm": 1.6634114051020619,
+          "reaction_sum_N": [
+            -1.0000000004144285,
+            -1.1613078832960072e-10,
+            -7.962871508004898e-11
+          ],
+          "size": "adult_small",
+          "mesh_max_mm": 3,
+          "seconds": 9.019155740737915,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 4.568997854904144,
+          "guide_mean_x_displacement_mm": 3.326822811419396
+        },
+        {
+          "nodes": 28365,
+          "tet10_elements": 15500,
+          "cg_iterations": 6045,
+          "relative_free_residual": 1.1059191146175013e-07,
+          "minimum_quadrature_jacobian_mm3": 0.016602771973624586,
+          "max_von_mises_centroid_MPa": 3.6650056461929186,
+          "strain_energy_Nmm": 1.664202771335236,
+          "reaction_sum_N": [
+            -0.9999999996935212,
+            1.7621125664171845e-10,
+            -7.550241981103822e-10
+          ],
+          "size": "adult_small",
+          "mesh_max_mm": 2,
+          "seconds": 31.55659770965576,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 4.570471048983116,
+          "guide_mean_x_displacement_mm": 3.328405542811697
+        },
+        {
+          "nodes": 55097,
+          "tet10_elements": 31409,
+          "cg_iterations": 6562,
+          "relative_free_residual": 1.483995132976879e-07,
+          "minimum_quadrature_jacobian_mm3": 0.005276637820604589,
+          "max_von_mises_centroid_MPa": 3.8836281370540804,
+          "strain_energy_Nmm": 1.6643717700675094,
+          "reaction_sum_N": [
+            -0.9999999998116803,
+            -2.794187810509618e-10,
+            -7.36191999614437e-10
+          ],
+          "size": "adult_small",
+          "mesh_max_mm": 1.5,
+          "seconds": 76.68812608718872,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 4.570778486347854,
+          "guide_mean_x_displacement_mm": 3.3287435401101795
+        }
+      ],
+      "deflection_relative_mesh_change": 0.00010154931366845865,
+      "stress_relative_mesh_change": 0.05965133807863543,
+      "deflection_gate_5pct": true,
+      "stress_gate_5pct": false
+    }
+  ],
+  "limitations": [
+    "No matching Fusion archive",
+    "Assumed E2000MPa and ideal2N/side; no material validation",
+    "No slider motion/contact verification for this fillet revision"
+  ],
+  "error": "Traceback (most recent call last):\n  File \"${WORKSPACE}\\run_local_v9_checks.py\", line 10, in <module>\n    subprocess.run([sys.executable,str(P/'local_slot_fillet.py'),size],check=True)\n  File \"${USER_HOME}\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['C:\\\\Users\\\\adils\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe', 'C:\\\\Users\\\\adils\\\\Downloads\\\\EarDefenderProject\\\\local_slot_fillet.py', 'adult_large']' returned non-zero exit status 1.\n"
+}

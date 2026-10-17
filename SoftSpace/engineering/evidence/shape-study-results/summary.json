@@ -1,0 +1,212 @@
+{
+  "case_count": 9216,
+  "nominal_comparison": [
+    {
+      "head": "adult_medium",
+      "width_mm": 155,
+      "pad_scale": 1,
+      "foam": "medium",
+      "cover": "compliant",
+      "arm": "standard",
+      "zone_stiffness_ratio": 0.5,
+      "pad_force_N": 2,
+      "peak_pressure_kPa": 1.358901691696704,
+      "arm_peak_pressure_kPa": 1.1924392749512915,
+      "mean_contact_pressure_kPa": 0.6624200566432653,
+      "contact_area_fraction": 0.7086093823337473,
+      "max_compression_mm": 5.292445398384361,
+      "max_strain": 0.26462226991921806,
+      "gap_area_fraction_over_0_1mm": 0.2819763738752601,
+      "max_surface_gap_mm": 3.3247182255582093,
+      "force_residual_N": 2.290168055196773e-12,
+      "approach_mm": 2.3901425821189832,
+      "angular_lanes_without_contact_fraction": 0.0,
+      "shape": "flat_R5",
+      "imposed_tilt_deg": 0,
+      "mount": "fixed"
+    },
+    {
+      "head": "adult_medium",
+      "width_mm": 155,
+      "pad_scale": 1,
+      "foam": "medium",
+      "cover": "compliant",
+      "arm": "standard",
+      "zone_stiffness_ratio": 0.5,
+      "pad_force_N": 2,
+      "peak_pressure_kPa": 1.3995694994105619,
+      "arm_peak_pressure_kPa": 1.206486760085902,
+      "mean_contact_pressure_kPa": 0.7410304815101216,
+      "contact_area_fraction": 0.6334382712933768,
+      "max_compression_mm": 5.390794024906764,
+      "max_strain": 0.2695397012453382,
+      "gap_area_fraction_over_0_1mm": 0.3384734804873194,
+      "max_surface_gap_mm": 1.791500908373612,
+      "force_residual_N": 7.442935157087049e-13,
+      "approach_mm": 2.490874518825308,
+      "angular_lanes_without_contact_fraction": 0.0,
+      "shape": "flat_R2",
+      "imposed_tilt_deg": 0,
+      "mount": "fixed"
+    },
+    {
+      "head": "adult_medium",
+      "width_mm": 155,
+      "pad_scale": 1,
+      "foam": "medium",
+      "cover": "compliant",
+      "arm": "standard",
+      "zone_stiffness_ratio": 0.5,
+      "pad_force_N": 2,
+      "peak_pressure_kPa": 1.1108158965569335,
+      "arm_peak_pressure_kPa": 1.1108158965569335,
+      "mean_contact_pressure_kPa": 0.5322135216276723,
+      "contact_area_fraction": 0.8819713293790616,
+      "max_compression_mm": 4.712144059075284,
+      "max_strain": 0.2356072029537642,
+      "gap_area_fraction_over_0_1mm": 0.11802867062093837,
+      "max_surface_gap_mm": 0.5522061228572195,
+      "force_residual_N": 2.8128610551902966e-12,
+      "approach_mm": 1.7621843060345554,
+      "angular_lanes_without_contact_fraction": 0.0,
+      "shape": "half_contour_R2",
+      "imposed_tilt_deg": 0,
+      "mount": "fixed"
+    },
+    {
+      "head": "adult_medium",
+      "width_mm": 155,
+      "pad_scale": 1,
+      "foam": "medium",
+      "cover": "compliant",
+      "arm": "standard",
+      "zone_stiffness_ratio": 0.5,
+      "pad_force_N": 2,
+      "peak_pressure_kPa": 0.9786729754791934,
+      "arm_peak_pressure_kPa": 0.9786729754791934,
+      "mean_contact_pressure_kPa": 0.4693970671834701,
+      "contact_area_fraction": 1.0,
+      "max_compression_mm": 3.834629599517143,
+      "max_strain": 0.19173147997585716,
+      "gap_area_fraction_over_0_1mm": 0.0,
+      "max_surface_gap_mm": 0.0,
+      "force_residual_N": 4.2310599468464716e-12,
+      "approach_mm": 0.8346295995171431,
+      "angular_lanes_without_contact_fraction": 0.0,
+      "shape": "reference_contour_R2",
+      "imposed_tilt_deg": 0,
+      "mount": "fixed"
+    }
+  ],
+  "grid_refinement": [
+    {
+      "shape": "flat_R5",
+      "angular_points": 96,
+      "radial_points": 10,
+      "peak_kPa": 1.358901691696704,
+      "contact_fraction": 0.7086093823337473,
+      "lanes_without_contact": 0.0
+    },
+    {
+      "shape": "flat_R5",
+      "angular_points": 192,
+      "radial_points": 20,
+      "peak_kPa": 1.3666230821438414,
+      "contact_fraction": 0.6771727432093255,
+      "lanes_without_contact": 0.0
+    },
+    {
+      "shape": "flat_R5",
+      "angular_points": 384,
+      "radial_points": 30,
+      "peak_kPa": 1.364329928214918,
+      "contact_fraction": 0.6755210094692417,
+      "lanes_without_contact": 0.0
+    },
+    {
+      "shape": "flat_R2",
+      "angular_points": 96,
+      "radial_points": 10,
+      "peak_kPa": 1.3995694994105619,
+      "contact_fraction": 0.6334382712933768,
+      "lanes_without_contact": 0.0
+    },
+    {
+      "shape": "flat_R2",
+      "angular_points": 192,
+      "radial_points": 20,
+      "peak_kPa": 1.4557528294716902,
+      "contact_fraction": 0.6397137633635045,
+      "lanes_without_contact": 0.0
+    },
+    {
+      "shape": "flat_R2",
+      "angular_points": 384,
+      "radial_points": 30,
+      "peak_kPa": 1.4648449075156769,
+      "contact_fraction": 0.6427244088131444,
+      "lanes_without_contact": 0.0
+    },
+    {
+      "shape": "half_contour_R2",
+      "angular_points": 96,
+      "radial_points": 10,
+      "peak_kPa": 1.1108158965569335,
+      "contact_fraction": 0.8819713293790616,
+      "lanes_without_contact": 0.0
+    },
+    {
+      "shape": "half_contour_R2",
+      "angular_points": 192,
+      "radial_points": 20,
+      "peak_kPa": 1.118249043291986,
+      "contact_fraction": 0.867785714700939,
+      "lanes_without_contact": 0.0
+    },
+    {
+      "shape": "half_contour_R2",
+      "angular_points": 384,
+      "radial_points": 30,
+      "peak_kPa": 1.1206726957349153,
+      "contact_fraction": 0.8795720735749994,
+      "lanes_without_contact": 0.0
+    },
+    {
+      "shape": "reference_contour_R2",
+      "angular_points": 96,
+      "radial_points": 10,
+      "peak_kPa": 0.9786729754791934,
+      "contact_fraction": 1.0,
+      "lanes_without_contact": 0.0
+    },
+    {
+      "shape": "reference_contour_R2",
+      "angular_points": 192,
+      "radial_points": 20,
+      "peak_kPa": 0.9822045156946129,
+      "contact_fraction": 1.0,
+      "lanes_without_contact": 0.0
+    },
+    {
+      "shape": "reference_contour_R2",
+      "angular_points": 384,
+      "radial_points": 30,
+      "peak_kPa": 0.9815125797292047,
+      "contact_fraction": 0.9352827445711612,
+      "lanes_without_contact": 0.0
+    }
+  ],
+  "validated": false,
+  "model": "independent nonlinear springs, scalar cover resistance",
+  "reference_curvatures_mm": {
+    "adult": [
+      140,
+      200
+    ],
+    "child": [
+      110,
+      170
+    ]
+  },
+  "max_force_residual_N": 4.929834318545545e-12
+}

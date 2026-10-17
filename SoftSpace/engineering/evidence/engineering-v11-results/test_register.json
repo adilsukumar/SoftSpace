@@ -1,0 +1,69 @@
+{
+  "updated": "2026-10-14",
+  "native_CAD": "V10",
+  "new_study": "V11 materials and folding",
+  "overall_status": "Product and physical validation incomplete",
+  "tests": [
+    {
+      "test": "Material breadth",
+      "status": "Register only for unscreened families",
+      "result": "70 candidate families; not a finite claim to every formulation"
+    },
+    {
+      "test": "Specific structural references",
+      "status": "Limited linear analytical screen complete",
+      "result": "60 grade/size combinations and 240 imposed-load calculations; not nonlinear, fatigue, creep or drop tests"
+    },
+    {
+      "test": "Foam references",
+      "status": "Individual datapoint calculations complete",
+      "result": "14 flat ring proxy cases; no complete material law or comfort result"
+    },
+    {
+      "test": "Cover candidates",
+      "status": "Manufacturer data and hypotheses only",
+      "result": "Film and spacer textiles require physical friction, stretch, seam, vapour and acoustic checks"
+    },
+    {
+      "test": "Folding geometry",
+      "status": "Chosen sampled sequences pass",
+      "result": "150 samples at5degree intervals, six exported STEP files; no continuous or loaded-motion pass"
+    },
+    {
+      "test": "Folded STEP exports",
+      "status": "Independent import and volume checks pass",
+      "result": "28 positive-volume solids in each of six candidates"
+    },
+    {
+      "test": "Latch and angular stops",
+      "status": "Unfinished design",
+      "result": "Final rigidity, retention, play, pinch clearance and release force not established"
+    },
+    {
+      "test": "Manufacturing tolerances",
+      "status": "Unresolved",
+      "result": "Earlier0.217mm guide/tongue gap does not guarantee clearance for assumed0.2mm per part error"
+    },
+    {
+      "test": "Durability",
+      "status": "Not physically tested",
+      "result": "Repeated folding, fatigue, drops, packed compression, cleaning and ageing need final hardware and samples"
+    },
+    {
+      "test": "Comfort and sound",
+      "status": "Not validated",
+      "result": "Material samples, calibrated acoustics and voluntary wearer feedback still needed"
+    },
+    {
+      "test": "Sony WH CH720N fit",
+      "status": "Awaiting deferred measurements",
+      "result": "Generic replacement pad remains unchanged; mount, force, ANC and sound tests open"
+    }
+  ],
+  "evidence_SHA256": {
+    "materials_screen.json": "8e8147fc14c1f8af76cd62adc677e01204d8f27902c4dd94c2501d3552db63c7",
+    "fine_fold_paths.json": "0fe3a90fb9defda9e1b21006af81d43059a1159cc67017022dc618a6e4f7df49",
+    "export_verification.json": "c645e9a482d1f1942b3fb10af4989aab1283b451ece7d22c35b34e6961e4b004",
+    "folding_summary.json": "f2e2f4b99dba4f64fef1f80aae3067dd1676021ccdacbe7fa36dafccf9827b69"
+  }
+}

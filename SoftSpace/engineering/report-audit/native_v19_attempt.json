@@ -1,0 +1,17 @@
+{
+  "attempts": [
+    {
+      "document": "Ear_Defender_Project.docx",
+      "return_code": 1,
+      "native_render_pass": false,
+      "log": "${WORKSPACE}\\documents\\qa\\Ear_Defender_Project_native_v19.log"
+    },
+    {
+      "document": "Glasses_Friendly_Headphone_Cushions.docx",
+      "return_code": 1,
+      "native_render_pass": false,
+      "log": "${WORKSPACE}\\documents\\qa\\Glasses_Friendly_Headphone_Cushions_native_v19.log"
+    }
+  ],
+  "scope": "Native renderer attempted. Failed attempts do not establish Word pagination. Approximate ReportLab previews remain a separate fallback."
+}

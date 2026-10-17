@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "simulation_run": false,
+  "files": [
+    "${WORKSPACE}\\ContinuousCover_Adult_R5_20261012_134958.f3d",
+    "${WORKSPACE}\\ContinuousCover_Adult_R5_20261012_134958.step"
+  ],
+  "surface_faces_connected": true,
+  "cover_body_count": 1,
+  "cover_representation": "connected surface sheet; not volumetric solid",
+  "cover_area_mm2": 5656.62779854175,
+  "selected_contact_faces": 3,
+  "cover_thickness_mm": 0.20000000000000004,
+  "limitations": [
+    "Adult flat R5 reference only; curved contact candidates remain numerical.",
+    "0.2 mm is shell-thickness metadata, not modelled solid thickness; solid thicken could not be verified.",
+    "Contact-face cover is continuous; sidewall wrap, seam and mounting skirt are not modelled.",
+    "No material, skin, pressure, thermal or acoustic result is generated.",
+    "No brand mounting interface or child fit validated."
+  ]
+}

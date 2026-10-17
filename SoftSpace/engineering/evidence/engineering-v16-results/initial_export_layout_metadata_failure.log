@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "${WORKSPACE}\export_verify_v16.py", line 8, in <module>
+    size=row['size'];variant=row['variant'];R=recipes[size]['band_halfspan_mm'];upper=row['layout'].startswith('upper')
+                                                                                      ~~~^^^^^^^^^^
+KeyError: 'layout'

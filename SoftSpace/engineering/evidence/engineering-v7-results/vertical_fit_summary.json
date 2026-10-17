@@ -1,0 +1,4111 @@
+{
+  "status": "complete",
+  "case_count": 90,
+  "synthetic_height_ranges_mm": {
+    "child": [
+      105,
+      145
+    ],
+    "adult": [
+      130,
+      170
+    ]
+  },
+  "rows": [
+    {
+      "size": "child_small",
+      "family": "child",
+      "extension_mm": 0,
+      "synthetic_width_mm": 120,
+      "synthetic_height_above_ear_mm": 105,
+      "comparison_force_N": 2.914562045366884,
+      "crown_gap_mm": 35.37368948402633,
+      "minimum_vertical_gap_mm": 35.37368948402633,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_small",
+      "family": "child",
+      "extension_mm": 0,
+      "synthetic_width_mm": 120,
+      "synthetic_height_above_ear_mm": 115,
+      "comparison_force_N": 2.914562045366884,
+      "crown_gap_mm": 25.37368948402633,
+      "minimum_vertical_gap_mm": 25.37368948402633,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_small",
+      "family": "child",
+      "extension_mm": 0,
+      "synthetic_width_mm": 120,
+      "synthetic_height_above_ear_mm": 125,
+      "comparison_force_N": 2.914562045366884,
+      "crown_gap_mm": 15.373689484026329,
+      "minimum_vertical_gap_mm": 15.373689484026329,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_small",
+      "family": "child",
+      "extension_mm": 0,
+      "synthetic_width_mm": 120,
+      "synthetic_height_above_ear_mm": 135,
+      "comparison_force_N": 2.914562045366884,
+      "crown_gap_mm": 5.373689484026329,
+      "minimum_vertical_gap_mm": 5.373689484026329,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_small",
+      "family": "child",
+      "extension_mm": 0,
+      "synthetic_width_mm": 120,
+      "synthetic_height_above_ear_mm": 145,
+      "comparison_force_N": 2.914562045366884,
+      "crown_gap_mm": -4.626310515973671,
+      "minimum_vertical_gap_mm": -4.626310515973671,
+      "classification": "pad compression geometric candidate"
+    },
+    {
+      "size": "child_small",
+      "family": "child",
+      "extension_mm": 15,
+      "synthetic_width_mm": 120,
+      "synthetic_height_above_ear_mm": 105,
+      "comparison_force_N": 2.0001369344896363,
+      "crown_gap_mm": 51.626633280297085,
+      "minimum_vertical_gap_mm": 51.626633280297085,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_small",
+      "family": "child",
+      "extension_mm": 15,
+      "synthetic_width_mm": 120,
+      "synthetic_height_above_ear_mm": 115,
+      "comparison_force_N": 2.0001369344896363,
+      "crown_gap_mm": 41.626633280297085,
+      "minimum_vertical_gap_mm": 41.626633280297085,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_small",
+      "family": "child",
+      "extension_mm": 15,
+      "synthetic_width_mm": 120,
+      "synthetic_height_above_ear_mm": 125,
+      "comparison_force_N": 2.0001369344896363,
+      "crown_gap_mm": 31.626633280297085,
+      "minimum_vertical_gap_mm": 31.626633280297085,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_small",
+      "family": "child",
+      "extension_mm": 15,
+      "synthetic_width_mm": 120,
+      "synthetic_height_above_ear_mm": 135,
+      "comparison_force_N": 2.0001369344896363,
+      "crown_gap_mm": 21.626633280297085,
+      "minimum_vertical_gap_mm": 21.626633280297085,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_small",
+      "family": "child",
+      "extension_mm": 15,
+      "synthetic_width_mm": 120,
+      "synthetic_height_above_ear_mm": 145,
+      "comparison_force_N": 2.0001369344896363,
+      "crown_gap_mm": 11.626633280297085,
+      "minimum_vertical_gap_mm": 11.626633280297085,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_small",
+      "family": "child",
+      "extension_mm": 30,
+      "synthetic_width_mm": 120,
+      "synthetic_height_above_ear_mm": 105,
+      "comparison_force_N": 1.4391047390573206,
+      "crown_gap_mm": 67.62177590096894,
+      "minimum_vertical_gap_mm": 67.62177590096894,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_small",
+      "family": "child",
+      "extension_mm": 30,
+      "synthetic_width_mm": 120,
+      "synthetic_height_above_ear_mm": 115,
+      "comparison_force_N": 1.4391047390573206,
+      "crown_gap_mm": 57.62177590096894,
+      "minimum_vertical_gap_mm": 57.62177590096894,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_small",
+      "family": "child",
+      "extension_mm": 30,
+      "synthetic_width_mm": 120,
+      "synthetic_height_above_ear_mm": 125,
+      "comparison_force_N": 1.4391047390573206,
+      "crown_gap_mm": 47.62177590096894,
+      "minimum_vertical_gap_mm": 47.62177590096894,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_small",
+      "family": "child",
+      "extension_mm": 30,
+      "synthetic_width_mm": 120,
+      "synthetic_height_above_ear_mm": 135,
+      "comparison_force_N": 1.4391047390573206,
+      "crown_gap_mm": 37.62177590096894,
+      "minimum_vertical_gap_mm": 37.62177590096894,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_small",
+      "family": "child",
+      "extension_mm": 30,
+      "synthetic_width_mm": 120,
+      "synthetic_height_above_ear_mm": 145,
+      "comparison_force_N": 1.4391047390573206,
+      "crown_gap_mm": 27.62177590096894,
+      "minimum_vertical_gap_mm": 27.62177590096894,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_medium",
+      "family": "child",
+      "extension_mm": 0,
+      "synthetic_width_mm": 130,
+      "synthetic_height_above_ear_mm": 105,
+      "comparison_force_N": 2.9287966404614663,
+      "crown_gap_mm": 34.417811414894516,
+      "minimum_vertical_gap_mm": 34.417811414894516,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_medium",
+      "family": "child",
+      "extension_mm": 0,
+      "synthetic_width_mm": 130,
+      "synthetic_height_above_ear_mm": 115,
+      "comparison_force_N": 2.9287966404614663,
+      "crown_gap_mm": 24.417811414894516,
+      "minimum_vertical_gap_mm": 24.417811414894516,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_medium",
+      "family": "child",
+      "extension_mm": 0,
+      "synthetic_width_mm": 130,
+      "synthetic_height_above_ear_mm": 125,
+      "comparison_force_N": 2.9287966404614663,
+      "crown_gap_mm": 14.417811414894516,
+      "minimum_vertical_gap_mm": 14.417811414894516,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_medium",
+      "family": "child",
+      "extension_mm": 0,
+      "synthetic_width_mm": 130,
+      "synthetic_height_above_ear_mm": 135,
+      "comparison_force_N": 2.9287966404614663,
+      "crown_gap_mm": 4.417811414894516,
+      "minimum_vertical_gap_mm": 4.417811414894516,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_medium",
+      "family": "child",
+      "extension_mm": 0,
+      "synthetic_width_mm": 130,
+      "synthetic_height_above_ear_mm": 145,
+      "comparison_force_N": 2.9287966404614663,
+      "crown_gap_mm": -5.582188585105484,
+      "minimum_vertical_gap_mm": -5.582188585105484,
+      "classification": "rigid band intersection possible"
+    },
+    {
+      "size": "child_medium",
+      "family": "child",
+      "extension_mm": 15,
+      "synthetic_width_mm": 130,
+      "synthetic_height_above_ear_mm": 105,
+      "comparison_force_N": 2.0001537743588322,
+      "crown_gap_mm": 50.83405996438185,
+      "minimum_vertical_gap_mm": 50.83405996438185,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_medium",
+      "family": "child",
+      "extension_mm": 15,
+      "synthetic_width_mm": 130,
+      "synthetic_height_above_ear_mm": 115,
+      "comparison_force_N": 2.0001537743588322,
+      "crown_gap_mm": 40.83405996438185,
+      "minimum_vertical_gap_mm": 40.83405996438185,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_medium",
+      "family": "child",
+      "extension_mm": 15,
+      "synthetic_width_mm": 130,
+      "synthetic_height_above_ear_mm": 125,
+      "comparison_force_N": 2.0001537743588322,
+      "crown_gap_mm": 30.83405996438185,
+      "minimum_vertical_gap_mm": 30.83405996438185,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_medium",
+      "family": "child",
+      "extension_mm": 15,
+      "synthetic_width_mm": 130,
+      "synthetic_height_above_ear_mm": 135,
+      "comparison_force_N": 2.0001537743588322,
+      "crown_gap_mm": 20.83405996438185,
+      "minimum_vertical_gap_mm": 20.83405996438185,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_medium",
+      "family": "child",
+      "extension_mm": 15,
+      "synthetic_width_mm": 130,
+      "synthetic_height_above_ear_mm": 145,
+      "comparison_force_N": 2.0001537743588322,
+      "crown_gap_mm": 10.83405996438185,
+      "minimum_vertical_gap_mm": 10.83405996438185,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_medium",
+      "family": "child",
+      "extension_mm": 30,
+      "synthetic_width_mm": 130,
+      "synthetic_height_above_ear_mm": 105,
+      "comparison_force_N": 1.4354044289449766,
+      "crown_gap_mm": 66.95158112410508,
+      "minimum_vertical_gap_mm": 66.95158112410508,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_medium",
+      "family": "child",
+      "extension_mm": 30,
+      "synthetic_width_mm": 130,
+      "synthetic_height_above_ear_mm": 115,
+      "comparison_force_N": 1.4354044289449766,
+      "crown_gap_mm": 56.951581124105076,
+      "minimum_vertical_gap_mm": 56.951581124105076,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_medium",
+      "family": "child",
+      "extension_mm": 30,
+      "synthetic_width_mm": 130,
+      "synthetic_height_above_ear_mm": 125,
+      "comparison_force_N": 1.4354044289449766,
+      "crown_gap_mm": 46.951581124105076,
+      "minimum_vertical_gap_mm": 46.951581124105076,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_medium",
+      "family": "child",
+      "extension_mm": 30,
+      "synthetic_width_mm": 130,
+      "synthetic_height_above_ear_mm": 135,
+      "comparison_force_N": 1.4354044289449766,
+      "crown_gap_mm": 36.951581124105076,
+      "minimum_vertical_gap_mm": 36.951581124105076,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_medium",
+      "family": "child",
+      "extension_mm": 30,
+      "synthetic_width_mm": 130,
+      "synthetic_height_above_ear_mm": 145,
+      "comparison_force_N": 1.4354044289449766,
+      "crown_gap_mm": 26.951581124105076,
+      "minimum_vertical_gap_mm": 26.951581124105076,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_large",
+      "family": "child",
+      "extension_mm": 0,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 105,
+      "comparison_force_N": 2.9427566849989515,
+      "crown_gap_mm": 33.48272938722374,
+      "minimum_vertical_gap_mm": 33.48272938722374,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_large",
+      "family": "child",
+      "extension_mm": 0,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 115,
+      "comparison_force_N": 2.9427566849989515,
+      "crown_gap_mm": 23.482729387223742,
+      "minimum_vertical_gap_mm": 23.482729387223742,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_large",
+      "family": "child",
+      "extension_mm": 0,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 125,
+      "comparison_force_N": 2.9427566849989515,
+      "crown_gap_mm": 13.482729387223742,
+      "minimum_vertical_gap_mm": 13.482729387223742,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_large",
+      "family": "child",
+      "extension_mm": 0,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 135,
+      "comparison_force_N": 2.9427566849989515,
+      "crown_gap_mm": 3.482729387223742,
+      "minimum_vertical_gap_mm": 3.482729387223742,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_large",
+      "family": "child",
+      "extension_mm": 0,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 145,
+      "comparison_force_N": 2.9427566849989515,
+      "crown_gap_mm": -6.517270612776258,
+      "minimum_vertical_gap_mm": -6.517270612776258,
+      "classification": "rigid band intersection possible"
+    },
+    {
+      "size": "child_large",
+      "family": "child",
+      "extension_mm": 15,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 105,
+      "comparison_force_N": 2.000116578029777,
+      "crown_gap_mm": 50.0599257066977,
+      "minimum_vertical_gap_mm": 50.0599257066977,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_large",
+      "family": "child",
+      "extension_mm": 15,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 115,
+      "comparison_force_N": 2.000116578029777,
+      "crown_gap_mm": 40.0599257066977,
+      "minimum_vertical_gap_mm": 40.0599257066977,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_large",
+      "family": "child",
+      "extension_mm": 15,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 125,
+      "comparison_force_N": 2.000116578029777,
+      "crown_gap_mm": 30.059925706697697,
+      "minimum_vertical_gap_mm": 30.059925706697697,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_large",
+      "family": "child",
+      "extension_mm": 15,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 135,
+      "comparison_force_N": 2.000116578029777,
+      "crown_gap_mm": 20.059925706697697,
+      "minimum_vertical_gap_mm": 20.059925706697697,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_large",
+      "family": "child",
+      "extension_mm": 15,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 145,
+      "comparison_force_N": 2.000116578029777,
+      "crown_gap_mm": 10.059925706697697,
+      "minimum_vertical_gap_mm": 10.059925706697697,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_large",
+      "family": "child",
+      "extension_mm": 30,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 105,
+      "comparison_force_N": 1.4316323176447079,
+      "crown_gap_mm": 66.29810788272394,
+      "minimum_vertical_gap_mm": 66.29810788272394,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_large",
+      "family": "child",
+      "extension_mm": 30,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 115,
+      "comparison_force_N": 1.4316323176447079,
+      "crown_gap_mm": 56.29810788272394,
+      "minimum_vertical_gap_mm": 56.29810788272394,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_large",
+      "family": "child",
+      "extension_mm": 30,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 125,
+      "comparison_force_N": 1.4316323176447079,
+      "crown_gap_mm": 46.29810788272394,
+      "minimum_vertical_gap_mm": 46.29810788272394,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_large",
+      "family": "child",
+      "extension_mm": 30,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 135,
+      "comparison_force_N": 1.4316323176447079,
+      "crown_gap_mm": 36.29810788272394,
+      "minimum_vertical_gap_mm": 36.29810788272394,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "child_large",
+      "family": "child",
+      "extension_mm": 30,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 145,
+      "comparison_force_N": 1.4316323176447079,
+      "crown_gap_mm": 26.29810788272394,
+      "minimum_vertical_gap_mm": 26.29810788272394,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_small",
+      "family": "adult",
+      "extension_mm": 0,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 130,
+      "comparison_force_N": 2.8122658025410923,
+      "crown_gap_mm": 22.374271897877122,
+      "minimum_vertical_gap_mm": 22.374271897877122,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_small",
+      "family": "adult",
+      "extension_mm": 0,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 140,
+      "comparison_force_N": 2.8122658025410923,
+      "crown_gap_mm": 12.374271897877122,
+      "minimum_vertical_gap_mm": 12.374271897877122,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_small",
+      "family": "adult",
+      "extension_mm": 0,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 150,
+      "comparison_force_N": 2.8122658025410923,
+      "crown_gap_mm": 2.3742718978771222,
+      "minimum_vertical_gap_mm": 2.3742718978771222,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_small",
+      "family": "adult",
+      "extension_mm": 0,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 160,
+      "comparison_force_N": 2.8122658025410923,
+      "crown_gap_mm": -7.625728102122878,
+      "minimum_vertical_gap_mm": -7.625728102122878,
+      "classification": "rigid band intersection possible"
+    },
+    {
+      "size": "adult_small",
+      "family": "adult",
+      "extension_mm": 0,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 170,
+      "comparison_force_N": 2.8122658025410923,
+      "crown_gap_mm": -17.625728102122878,
+      "minimum_vertical_gap_mm": -17.625728102122878,
+      "classification": "rigid band intersection possible"
+    },
+    {
+      "size": "adult_small",
+      "family": "adult",
+      "extension_mm": 15,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 130,
+      "comparison_force_N": 2.000239568445198,
+      "crown_gap_mm": 38.24351761196971,
+      "minimum_vertical_gap_mm": 38.24351761196971,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_small",
+      "family": "adult",
+      "extension_mm": 15,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 140,
+      "comparison_force_N": 2.000239568445198,
+      "crown_gap_mm": 28.243517611969708,
+      "minimum_vertical_gap_mm": 28.243517611969708,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_small",
+      "family": "adult",
+      "extension_mm": 15,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 150,
+      "comparison_force_N": 2.000239568445198,
+      "crown_gap_mm": 18.243517611969708,
+      "minimum_vertical_gap_mm": 18.243517611969708,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_small",
+      "family": "adult",
+      "extension_mm": 15,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 160,
+      "comparison_force_N": 2.000239568445198,
+      "crown_gap_mm": 8.243517611969708,
+      "minimum_vertical_gap_mm": 8.243517611969708,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_small",
+      "family": "adult",
+      "extension_mm": 15,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 170,
+      "comparison_force_N": 2.000239568445198,
+      "crown_gap_mm": -1.7564823880302924,
+      "minimum_vertical_gap_mm": -1.7564823880302924,
+      "classification": "pad compression geometric candidate"
+    },
+    {
+      "size": "adult_small",
+      "family": "adult",
+      "extension_mm": 30,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 130,
+      "comparison_force_N": 1.4712420627425908,
+      "crown_gap_mm": 53.95321905677571,
+      "minimum_vertical_gap_mm": 53.95321905677571,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_small",
+      "family": "adult",
+      "extension_mm": 30,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 140,
+      "comparison_force_N": 1.4712420627425908,
+      "crown_gap_mm": 43.95321905677571,
+      "minimum_vertical_gap_mm": 43.95321905677571,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_small",
+      "family": "adult",
+      "extension_mm": 30,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 150,
+      "comparison_force_N": 1.4712420627425908,
+      "crown_gap_mm": 33.95321905677571,
+      "minimum_vertical_gap_mm": 33.95321905677571,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_small",
+      "family": "adult",
+      "extension_mm": 30,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 160,
+      "comparison_force_N": 1.4712420627425908,
+      "crown_gap_mm": 23.95321905677571,
+      "minimum_vertical_gap_mm": 23.95321905677571,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_small",
+      "family": "adult",
+      "extension_mm": 30,
+      "synthetic_width_mm": 140,
+      "synthetic_height_above_ear_mm": 170,
+      "comparison_force_N": 1.4712420627425908,
+      "crown_gap_mm": 13.953219056775708,
+      "minimum_vertical_gap_mm": 13.953219056775708,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_medium",
+      "family": "adult",
+      "extension_mm": 0,
+      "synthetic_width_mm": 155,
+      "synthetic_height_above_ear_mm": 130,
+      "comparison_force_N": 2.822429521215048,
+      "crown_gap_mm": 21.47111551785582,
+      "minimum_vertical_gap_mm": 21.47111551785582,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_medium",
+      "family": "adult",
+      "extension_mm": 0,
+      "synthetic_width_mm": 155,
+      "synthetic_height_above_ear_mm": 140,
+      "comparison_force_N": 2.822429521215048,
+      "crown_gap_mm": 11.471115517855822,
+      "minimum_vertical_gap_mm": 11.471115517855822,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_medium",
+      "family": "adult",
+      "extension_mm": 0,
+      "synthetic_width_mm": 155,
+      "synthetic_height_above_ear_mm": 150,
+      "comparison_force_N": 2.822429521215048,
+      "crown_gap_mm": 1.4711155178558215,
+      "minimum_vertical_gap_mm": 1.4711155178558215,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_medium",
+      "family": "adult",
+      "extension_mm": 0,
+      "synthetic_width_mm": 155,
+      "synthetic_height_above_ear_mm": 160,
+      "comparison_force_N": 2.822429521215048,
+      "crown_gap_mm": -8.528884482144178,
+      "minimum_vertical_gap_mm": -8.528884482144178,
+      "classification": "rigid band intersection possible"
+    },
+    {
+      "size": "adult_medium",
+      "family": "adult",
+      "extension_mm": 0,
+      "synthetic_width_mm": 155,
+      "synthetic_height_above_ear_mm": 170,
+      "comparison_force_N": 2.822429521215048,
+      "crown_gap_mm": -18.52888448214418,
+      "minimum_vertical_gap_mm": -18.52888448214418,
+      "classification": "rigid band intersection possible"
+    },
+    {
+      "size": "adult_medium",
+      "family": "adult",
+      "extension_mm": 15,
+      "synthetic_width_mm": 155,
+      "synthetic_height_above_ear_mm": 130,
+      "comparison_force_N": 2.000221306225333,
+      "crown_gap_mm": 37.483557563913735,
+      "minimum_vertical_gap_mm": 37.483557563913735,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_medium",
+      "family": "adult",
+      "extension_mm": 15,
+      "synthetic_width_mm": 155,
+      "synthetic_height_above_ear_mm": 140,
+      "comparison_force_N": 2.000221306225333,
+      "crown_gap_mm": 27.483557563913735,
+      "minimum_vertical_gap_mm": 27.483557563913735,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_medium",
+      "family": "adult",
+      "extension_mm": 15,
+      "synthetic_width_mm": 155,
+      "synthetic_height_above_ear_mm": 150,
+      "comparison_force_N": 2.000221306225333,
+      "crown_gap_mm": 17.483557563913735,
+      "minimum_vertical_gap_mm": 17.483557563913735,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_medium",
+      "family": "adult",
+      "extension_mm": 15,
+      "synthetic_width_mm": 155,
+      "synthetic_height_above_ear_mm": 160,
+      "comparison_force_N": 2.000221306225333,
+      "crown_gap_mm": 7.483557563913735,
+      "minimum_vertical_gap_mm": 7.483557563913735,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_medium",
+      "family": "adult",
+      "extension_mm": 15,
+      "synthetic_width_mm": 155,
+      "synthetic_height_above_ear_mm": 170,
+      "comparison_force_N": 2.000221306225333,
+      "crown_gap_mm": -2.5164424360862654,
+      "minimum_vertical_gap_mm": -2.5164424360862654,
+      "classification": "pad compression geometric candidate"
+    },
+    {
+      "size": "adult_medium",
+      "family": "adult",
+      "extension_mm": 30,
+      "synthetic_width_mm": 155,
+      "synthetic_height_above_ear_mm": 130,
+      "comparison_force_N": 1.4682716586463647,
+      "crown_gap_mm": 53.306241210042685,
+      "minimum_vertical_gap_mm": 53.306241210042685,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_medium",
+      "family": "adult",
+      "extension_mm": 30,
+      "synthetic_width_mm": 155,
+      "synthetic_height_above_ear_mm": 140,
+      "comparison_force_N": 1.4682716586463647,
+      "crown_gap_mm": 43.306241210042685,
+      "minimum_vertical_gap_mm": 43.306241210042685,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_medium",
+      "family": "adult",
+      "extension_mm": 30,
+      "synthetic_width_mm": 155,
+      "synthetic_height_above_ear_mm": 150,
+      "comparison_force_N": 1.4682716586463647,
+      "crown_gap_mm": 33.306241210042685,
+      "minimum_vertical_gap_mm": 33.306241210042685,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_medium",
+      "family": "adult",
+      "extension_mm": 30,
+      "synthetic_width_mm": 155,
+      "synthetic_height_above_ear_mm": 160,
+      "comparison_force_N": 1.4682716586463647,
+      "crown_gap_mm": 23.306241210042685,
+      "minimum_vertical_gap_mm": 23.306241210042685,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_medium",
+      "family": "adult",
+      "extension_mm": 30,
+      "synthetic_width_mm": 155,
+      "synthetic_height_above_ear_mm": 170,
+      "comparison_force_N": 1.4682716586463647,
+      "crown_gap_mm": 13.306241210042685,
+      "minimum_vertical_gap_mm": 13.306241210042685,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_large",
+      "family": "adult",
+      "extension_mm": 0,
+      "synthetic_width_mm": 170,
+      "synthetic_height_above_ear_mm": 130,
+      "comparison_force_N": 2.8332229360612153,
+      "crown_gap_mm": 20.52929971570174,
+      "minimum_vertical_gap_mm": 20.52929971570174,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_large",
+      "family": "adult",
+      "extension_mm": 0,
+      "synthetic_width_mm": 170,
+      "synthetic_height_above_ear_mm": 140,
+      "comparison_force_N": 2.8332229360612153,
+      "crown_gap_mm": 10.52929971570174,
+      "minimum_vertical_gap_mm": 10.52929971570174,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_large",
+      "family": "adult",
+      "extension_mm": 0,
+      "synthetic_width_mm": 170,
+      "synthetic_height_above_ear_mm": 150,
+      "comparison_force_N": 2.8332229360612153,
+      "crown_gap_mm": 0.5292997157017396,
+      "minimum_vertical_gap_mm": 0.5292997157017396,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_large",
+      "family": "adult",
+      "extension_mm": 0,
+      "synthetic_width_mm": 170,
+      "synthetic_height_above_ear_mm": 160,
+      "comparison_force_N": 2.8332229360612153,
+      "crown_gap_mm": -9.47070028429826,
+      "minimum_vertical_gap_mm": -9.47070028429826,
+      "classification": "rigid band intersection possible"
+    },
+    {
+      "size": "adult_large",
+      "family": "adult",
+      "extension_mm": 0,
+      "synthetic_width_mm": 170,
+      "synthetic_height_above_ear_mm": 170,
+      "comparison_force_N": 2.8332229360612153,
+      "crown_gap_mm": -19.47070028429826,
+      "minimum_vertical_gap_mm": -19.47070028429826,
+      "classification": "rigid band intersection possible"
+    },
+    {
+      "size": "adult_large",
+      "family": "adult",
+      "extension_mm": 15,
+      "synthetic_width_mm": 170,
+      "synthetic_height_above_ear_mm": 130,
+      "comparison_force_N": 2.0001196883156402,
+      "crown_gap_mm": 36.692758010331204,
+      "minimum_vertical_gap_mm": 36.692758010331204,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_large",
+      "family": "adult",
+      "extension_mm": 15,
+      "synthetic_width_mm": 170,
+      "synthetic_height_above_ear_mm": 140,
+      "comparison_force_N": 2.0001196883156402,
+      "crown_gap_mm": 26.692758010331204,
+      "minimum_vertical_gap_mm": 26.692758010331204,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_large",
+      "family": "adult",
+      "extension_mm": 15,
+      "synthetic_width_mm": 170,
+      "synthetic_height_above_ear_mm": 150,
+      "comparison_force_N": 2.0001196883156402,
+      "crown_gap_mm": 16.692758010331204,
+      "minimum_vertical_gap_mm": 16.692758010331204,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_large",
+      "family": "adult",
+      "extension_mm": 15,
+      "synthetic_width_mm": 170,
+      "synthetic_height_above_ear_mm": 160,
+      "comparison_force_N": 2.0001196883156402,
+      "crown_gap_mm": 6.692758010331204,
+      "minimum_vertical_gap_mm": 6.692758010331204,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_large",
+      "family": "adult",
+      "extension_mm": 15,
+      "synthetic_width_mm": 170,
+      "synthetic_height_above_ear_mm": 170,
+      "comparison_force_N": 2.0001196883156402,
+      "crown_gap_mm": -3.307241989668796,
+      "minimum_vertical_gap_mm": -3.307241989668796,
+      "classification": "pad compression geometric candidate"
+    },
+    {
+      "size": "adult_large",
+      "family": "adult",
+      "extension_mm": 30,
+      "synthetic_width_mm": 170,
+      "synthetic_height_above_ear_mm": 130,
+      "comparison_force_N": 1.4651385857761057,
+      "crown_gap_mm": 52.63253897889865,
+      "minimum_vertical_gap_mm": 52.63253897889865,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_large",
+      "family": "adult",
+      "extension_mm": 30,
+      "synthetic_width_mm": 170,
+      "synthetic_height_above_ear_mm": 140,
+      "comparison_force_N": 1.4651385857761057,
+      "crown_gap_mm": 42.63253897889865,
+      "minimum_vertical_gap_mm": 42.63253897889865,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_large",
+      "family": "adult",
+      "extension_mm": 30,
+      "synthetic_width_mm": 170,
+      "synthetic_height_above_ear_mm": 150,
+      "comparison_force_N": 1.4651385857761057,
+      "crown_gap_mm": 32.63253897889865,
+      "minimum_vertical_gap_mm": 32.63253897889865,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_large",
+      "family": "adult",
+      "extension_mm": 30,
+      "synthetic_width_mm": 170,
+      "synthetic_height_above_ear_mm": 160,
+      "comparison_force_N": 1.4651385857761057,
+      "crown_gap_mm": 22.63253897889865,
+      "minimum_vertical_gap_mm": 22.63253897889865,
+      "classification": "no crown contact in this free shape"
+    },
+    {
+      "size": "adult_large",
+      "family": "adult",
+      "extension_mm": 30,
+      "synthetic_width_mm": 170,
+      "synthetic_height_above_ear_mm": 170,
+      "comparison_force_N": 1.4651385857761057,
+      "crown_gap_mm": 12.632538978898651,
+      "minimum_vertical_gap_mm": 12.632538978898651,
+      "classification": "no crown contact in this free shape"
+    }
+  ],
+  "shapes": [
+    {
+      "size": "child_small",
+      "extension_mm": 0,
+      "band_inner_crown_height_mm": 140.37368948402633,
+      "pad_inner_curve_mm": [
+        [
+          -80.81562788456249,
+          91.43157253145748
+        ],
+        [
+          -78.41969640825722,
+          95.97140605474681
+        ],
+        [
+          -75.85344859256956,
+          100.19303701824218
+        ],
+        [
+          -73.03893514144,
+          104.2584508290948
+        ],
+        [
+          -69.98821532872361,
+          108.15483943493663
+        ],
+        [
+          -66.71379289290567,
+          111.87032202120855
+        ],
+        [
+          -63.22854836200898,
+          115.39392597556147
+        ],
+        [
+          -59.54567803395836,
+          118.71556413814591
+        ],
+        [
+          -55.678639547371624,
+          121.82600931318932
+        ],
+        [
+          -51.64110387943242,
+          124.71686694608015
+        ],
+        [
+          -47.44691352472814,
+          127.38054679494951
+        ],
+        [
+          -43.11004654047938,
+          129.81023434875314
+        ],
+        [
+          -38.64458608803252,
+          131.99986266696615
+        ],
+        [
+          -34.06469505631459,
+          133.9440852406509
+        ],
+        [
+          -29.384595318611343,
+          135.63825040190056
+        ],
+        [
+          -24.618551147994474,
+          137.07837773921202
+        ],
+        [
+          -19.780856297545295,
+          138.26113691060175
+        ],
+        [
+          -14.88582423784379,
+          139.18382918438587
+        ],
+        [
+          -9.947781034804748,
+          139.84437197940767
+        ],
+        [
+          -4.9810603447788635,
+          140.24128662183475
+        ],
+        [
+          -8.529273053456472e-16,
+          140.37368948402633
+        ],
+        [
+          4.981060344778845,
+          140.24128662183475
+        ],
+        [
+          9.94778103480475,
+          139.84437197940767
+        ],
+        [
+          14.885824237843789,
+          139.1838291843859
+        ],
+        [
+          19.78085629754526,
+          138.26113691060178
+        ],
+        [
+          24.618551147994456,
+          137.07837773921202
+        ],
+        [
+          29.384595318611325,
+          135.6382504019006
+        ],
+        [
+          34.06469505631457,
+          133.9440852406509
+        ],
+        [
+          38.64458608803249,
+          131.99986266696615
+        ],
+        [
+          43.11004654047937,
+          129.81023434875314
+        ],
+        [
+          47.44691352472812,
+          127.38054679494951
+        ],
+        [
+          51.641103879432414,
+          124.71686694608015
+        ],
+        [
+          55.67863954737162,
+          121.82600931318932
+        ],
+        [
+          59.545678033958346,
+          118.71556413814594
+        ],
+        [
+          63.22854836200895,
+          115.39392597556149
+        ],
+        [
+          66.71379289290566,
+          111.87032202120854
+        ],
+        [
+          69.98821532872361,
+          108.15483943493663
+        ],
+        [
+          73.03893514143999,
+          104.2584508290948
+        ],
+        [
+          75.85344859256958,
+          100.19303701824217
+        ],
+        [
+          78.41969640825722,
+          95.97140605474681
+        ],
+        [
+          80.81562788456249,
+          91.43157253145748
+        ]
+      ],
+      "width_mm": 120
+    },
+    {
+      "size": "child_small",
+      "extension_mm": 15,
+      "band_inner_crown_height_mm": 156.62663328029709,
+      "pad_inner_curve_mm": [
+        [
+          -79.59816762143994,
+          106.50792624709115
+        ],
+        [
+          -77.32400954948619,
+          111.10972373831513
+        ],
+        [
+          -74.87130486415948,
+          115.39709087694389
+        ],
+        [
+          -72.16594163958598,
+          119.53316153888174
+        ],
+        [
+          -69.21905186951936,
+          123.50426013487836
+        ],
+        [
+          -66.04236130234698,
+          127.29753861433078
+        ],
+        [
+          -62.64812873925943,
+          130.90098066132742
+        ],
+        [
+          -59.04908894960703,
+          134.30340196184946
+        ],
+        [
+          -55.25839933591954,
+          137.4944471931773
+        ],
+        [
+          -51.28959040222341,
+          140.4645843631618
+        ],
+        [
+          -47.156520007886655,
+          143.2050970970525
+        ],
+        [
+          -42.87333132527748,
+          145.7080754343862
+        ],
+        [
+          -38.45441436289283,
+          147.96640565923522
+        ],
+        [
+          -33.914370866005555,
+          149.97375964494844
+        ],
+        [
+          -29.267982363909002,
+          151.72458415028578
+        ],
+        [
+          -24.53018109605,
+          153.21409045828113
+        ],
+        [
+          -19.716023518250758,
+          154.438244702855
+        ],
+        [
+          -14.84066606432913,
+          155.39375918157847
+        ],
+        [
+          -9.91934281725723,
+          156.07808490637422
+        ],
+        [
+          -4.9673447271043205,
+          156.48940559753103
+        ],
+        [
+          1.6180500843507552e-15,
+          156.62663328029709
+        ],
+        [
+          4.967344727104305,
+          156.48940559753103
+        ],
+        [
+          9.919342817257215,
+          156.07808490637422
+        ],
+        [
+          14.840666064329131,
+          155.39375918157847
+        ],
+        [
+          19.716023518250744,
+          154.43824470285503
+        ],
+        [
+          24.53018109604998,
+          153.21409045828113
+        ],
+        [
+          29.26798236390898,
+          151.7245841502858
+        ],
+        [
+          33.91437086600554,
+          149.97375964494844
+        ],
+        [
+          38.454414362892805,
+          147.96640565923522
+        ],
+        [
+          42.873331325277476,
+          145.7080754343862
+        ],
+        [
+          47.156520007886634,
+          143.2050970970525
+        ],
+        [
+          51.2895904022234,
+          140.4645843631618
+        ],
+        [
+          55.258399335919535,
+          137.4944471931773
+        ],
+        [
+          59.04908894960704,
+          134.3034019618495
+        ],
+        [
+          62.6481287392594,
+          130.90098066132745
+        ],
+        [
+          66.04236130234696,
+          127.29753861433078
+        ],
+        [
+          69.21905186951939,
+          123.50426013487836
+        ],
+        [
+          72.16594163958598,
+          119.53316153888174
+        ],
+        [
+          74.8713048641595,
+          115.3970908769439
+        ],
+        [
+          77.32400954948618,
+          111.10972373831513
+        ],
+        [
+          79.59816762143996,
+          106.50792624709113
+        ]
+      ],
+      "width_mm": 120
+    },
+    {
+      "size": "child_small",
+      "extension_mm": 30,
+      "band_inner_crown_height_mm": 172.62177590096894,
+      "pad_inner_curve_mm": [
+        [
+          -78.62155145781472,
+          121.61430821618688
+        ],
+        [
+          -76.44859682845824,
+          126.26368808422285
+        ],
+        [
+          -74.08970237482299,
+          130.6007394318463
+        ],
+        [
+          -71.47374698895209,
+          134.79026754633855
+        ],
+        [
+          -68.61127438818426,
+          138.81790074045904
+        ],
+        [
+          -65.51352705408527,
+          142.67003267694324
+        ],
+        [
+          -62.192390375754144,
+          146.33384161581068
+        ],
+        [
+          -58.66033848283751,
+          149.79730580075378
+        ],
+        [
+          -54.93038197529654,
+          153.0492154191483
+        ],
+        [
+          -51.01601769638577,
+          156.0791815678908
+        ],
+        [
+          -46.93118063817156,
+          158.87764264857168
+        ],
+        [
+          -42.69019801564489,
+          161.43586860120794
+        ],
+        [
+          -38.30774549635266,
+          163.74596336663672
+        ],
+        [
+          -33.798805527657166,
+          165.80086594440976
+        ],
+        [
+          -29.178627663322636,
+          167.59435038628504
+        ],
+        [
+          -24.46269075513255,
+          169.12102503576634
+        ],
+        [
+          -19.666666843623435,
+          170.376331292128
+        ],
+        [
+          -14.806386554698749,
+          171.3565421434349
+        ],
+        [
+          -9.89780578576019,
+          172.05876067762827
+        ],
+        [
+          -4.956973445947176,
+          172.48091874413572
+        ],
+        [
+          -1.7735751827773682e-15,
+          172.62177590096894
+        ],
+        [
+          4.9569734459471535,
+          172.48091874413572
+        ],
+        [
+          9.897805785760186,
+          172.05876067762824
+        ],
+        [
+          14.806386554698745,
+          171.3565421434349
+        ],
+        [
+          19.666666843623414,
+          170.37633129212801
+        ],
+        [
+          24.462690755132513,
+          169.12102503576637
+        ],
+        [
+          29.178627663322597,
+          167.59435038628504
+        ],
+        [
+          33.798805527657166,
+          165.80086594440976
+        ],
+        [
+          38.307745496352645,
+          163.74596336663674
+        ],
+        [
+          42.69019801564486,
+          161.435868601208
+        ],
+        [
+          46.93118063817152,
+          158.87764264857168
+        ],
+        [
+          51.01601769638576,
+          156.0791815678908
+        ],
+        [
+          54.93038197529653,
+          153.0492154191483
+        ],
+        [
+          58.660338482837496,
+          149.7973058007538
+        ],
+        [
+          62.19239037575412,
+          146.33384161581068
+        ],
+        [
+          65.51352705408526,
+          142.67003267694324
+        ],
+        [
+          68.61127438818427,
+          138.81790074045904
+        ],
+        [
+          71.47374698895209,
+          134.79026754633855
+        ],
+        [
+          74.089702374823,
+          130.6007394318463
+        ],
+        [
+          76.44859682845824,
+          126.26368808422285
+        ],
+        [
+          78.62155145781472,
+          121.61430821618688
+        ]
+      ],
+      "width_mm": 120
+    },
+    {
+      "size": "child_medium",
+      "extension_mm": 0,
+      "band_inner_crown_height_mm": 139.41781141489452,
+      "pad_inner_curve_mm": [
+        [
+          -86.73327117714166,
+          91.00932267543882
+        ],
+        [
+          -83.92072487128881,
+          95.55297828528761
+        ],
+        [
+          -80.95776958028446,
+          99.77992136214421
+        ],
+        [
+          -77.76051881874974,
+          103.83804559516567
+        ],
+        [
+          -74.3412336988385,
+          107.7164511848667
+        ],
+        [
+          -70.71244219874305,
+          111.40510663051815
+        ],
+        [
+          -66.88688362082824,
+          114.89481735059795
+        ],
+        [
+          -62.87745993360867,
+          118.1771922981695
+        ],
+        [
+          -58.69719374774202,
+          121.2446094162265
+        ],
+        [
+          -54.35919261117962,
+          124.09018069594994
+        ],
+        [
+          -49.87661925755816,
+          126.70771751991913
+        ],
+        [
+          -45.26266740311189,
+          129.09169689415893
+        ],
+        [
+          -40.53054265908543,
+          131.23722909863145
+        ],
+        [
+          -35.69344810712108,
+          133.14002721617217
+        ],
+        [
+          -30.764574072745393,
+          134.7963789353817
+        ],
+        [
+          -25.757091625362534,
+          136.2031209637987
+        ],
+        [
+          -20.684149330689046,
+          137.35761633374437
+        ],
+        [
+          -15.55887278209051,
+          138.2577348342972
+        ],
+        [
+          -10.394366439721734,
+          138.90183675853163
+        ],
+        [
+          -5.203717309800877,
+          139.28876011490652
+        ],
+        [
+          1.6724143416716687e-15,
+          139.41781141489452
+        ],
+        [
+          5.203717309800881,
+          139.28876011490652
+        ],
+        [
+          10.394366439721718,
+          138.90183675853163
+        ],
+        [
+          15.558872782090512,
+          138.2577348342972
+        ],
+        [
+          20.68414933068903,
+          137.3576163337444
+        ],
+        [
+          25.75709162536254,
+          136.2031209637987
+        ],
+        [
+          30.764574072745408,
+          134.7963789353817
+        ],
+        [
+          35.693448107121064,
+          133.14002721617223
+        ],
+        [
+          40.53054265908539,
+          131.23722909863147
+        ],
+        [
+          45.26266740311189,
+          129.0916968941589
+        ],
+        [
+          49.87661925755818,
+          126.70771751991913
+        ],
+        [
+          54.35919261117962,
+          124.09018069594993
+        ],
+        [
+          58.69719374774203,
+          121.24460941622652
+        ],
+        [
+          62.87745993360866,
+          118.1771922981695
+        ],
+        [
+          66.88688362082824,
+          114.89481735059796
+        ],
+        [
+          70.71244219874305,
+          111.40510663051815
+        ],
+        [
+          74.3412336988385,
+          107.71645118486671
+        ],
+        [
+          77.76051881874974,
+          103.83804559516567
+        ],
+        [
+          80.95776958028446,
+          99.77992136214422
+        ],
+        [
+          83.9207248712888,
+          95.55297828528764
+        ],
+        [
+          86.73327117714167,
+          91.00932267543882
+        ]
+      ],
+      "width_mm": 130
+    },
+    {
+      "size": "child_medium",
+      "extension_mm": 15,
+      "band_inner_crown_height_mm": 155.83405996438185,
+      "pad_inner_curve_mm": [
+        [
+          -85.47066335531007,
+          106.08473476644959
+        ],
+        [
+          -82.78569591860152,
+          110.70458239291388
+        ],
+        [
+          -79.94175011183648,
+          115.01100308774956
+        ],
+        [
+          -76.85854963858982,
+          119.15325406820664
+        ],
+        [
+          -73.54744097612976,
+          123.11945601366028
+        ],
+        [
+          -70.02019862090484,
+          126.8985106642277
+        ],
+        [
+          -66.28897363748385,
+          130.4800930406765
+        ],
+        [
+          -62.3662462839922,
+          133.85464099314228
+        ],
+        [
+          -58.26478270698907,
+          137.0133426728712
+        ],
+        [
+          -53.9975956387686,
+          139.94812248670488
+        ],
+        [
+          -49.57790897748066,
+          142.65162605624081
+        ],
+        [
+          -45.01912608487729,
+          145.11720466361174
+        ],
+        [
+          -40.334801597425475,
+          147.33889962453475
+        ],
+        [
+          -35.53861651344075,
+          149.31142698742772
+        ],
+        [
+          -30.644356291211217,
+          151.03016291557293
+        ],
+        [
+          -25.665891670204104,
+          152.4911300679597
+        ],
+        [
+          -20.617161908796643,
+          153.69098525387605
+        ],
+        [
+          -15.512160116994844,
+          154.6270085967261
+        ],
+        [
+          -10.364920350785923,
+          155.29709440401055
+        ],
+        [
+          -5.189506125655666,
+          155.6997439029113
+        ],
+        [
+          1.1786269073670069e-15,
+          155.83405996438185
+        ],
+        [
+          5.18950612565567,
+          155.6997439029113
+        ],
+        [
+          10.364920350785903,
+          155.29709440401055
+        ],
+        [
+          15.512160116994822,
+          154.6270085967261
+        ],
+        [
+          20.61716190879663,
+          153.69098525387605
+        ],
+        [
+          25.66589167020411,
+          152.4911300679597
+        ],
+        [
+          30.6443562912112,
+          151.03016291557293
+        ],
+        [
+          35.538616513440736,
+          149.3114269874277
+        ],
+        [
+          40.334801597425475,
+          147.33889962453475
+        ],
+        [
+          45.0191260848773,
+          145.11720466361174
+        ],
+        [
+          49.577908977480675,
+          142.65162605624081
+        ],
+        [
+          53.997595638768594,
+          139.9481224867049
+        ],
+        [
+          58.26478270698906,
+          137.0133426728712
+        ],
+        [
+          62.36624628399221,
+          133.85464099314225
+        ],
+        [
+          66.28897363748385,
+          130.48009304067654
+        ],
+        [
+          70.02019862090482,
+          126.89851066422771
+        ],
+        [
+          73.54744097612975,
+          123.11945601366031
+        ],
+        [
+          76.85854963858979,
+          119.15325406820664
+        ],
+        [
+          79.94175011183648,
+          115.01100308774957
+        ],
+        [
+          82.78569591860149,
+          110.70458239291389
+        ],
+        [
+          85.47066335531008,
+          106.08473476644957
+        ]
+      ],
+      "width_mm": 130
+    },
+    {
+      "size": "child_medium",
+      "extension_mm": 30,
+      "band_inner_crown_height_mm": 171.95158112410508,
+      "pad_inner_curve_mm": [
+        [
+          -84.46105030075263,
+          121.19222226540285
+        ],
+        [
+          -81.88166088023624,
+          125.87065775518653
+        ],
+        [
+          -79.13568122529044,
+          130.2372791469612
+        ],
+        [
+          -76.14557530535504,
+          134.44318990251006
+        ],
+        [
+          -72.92212360303235,
+          138.47574840789287
+        ],
+        [
+          -69.47664573550766,
+          142.32304029915406
+        ],
+        [
+          -65.8209521316701,
+          145.97388580986262
+        ],
+        [
+          -61.96729799581296,
+          149.41784425642467
+        ],
+        [
+          -57.928339653023805,
+          152.6452160785242
+        ],
+        [
+          -53.717093322073644,
+          155.6470428395552
+        ],
+        [
+          -49.34689631620984,
+          158.41510557526271
+        ],
+        [
+          -44.83137063085023,
+          160.9419218586794
+        ],
+        [
+          -40.18438883977527,
+          163.22074192645357
+        ],
+        [
+          -35.42004218796699,
+          165.24554418636507
+        ],
+        [
+          -30.552610739632385,
+          167.01103039870617
+        ],
+        [
+          -25.596535414029105,
+          168.51262079568556
+        ],
+        [
+          -20.566391719304875,
+          169.74644937344343
+        ],
+        [
+          -15.476864975484872,
+          170.70935956093965
+        ],
+        [
+          -10.34272680180704,
+          171.39890043911487
+        ],
+        [
+          -5.178812630633448,
+          171.81332365251188
+        ],
+        [
+          -4.268751918018487e-15,
+          171.95158112410508
+        ],
+        [
+          5.178812630633438,
+          171.81332365251188
+        ],
+        [
+          10.342726801807009,
+          171.39890043911487
+        ],
+        [
+          15.476864975484844,
+          170.70935956093965
+        ],
+        [
+          20.566391719304846,
+          169.74644937344343
+        ],
+        [
+          25.5965354140291,
+          168.51262079568556
+        ],
+        [
+          30.552610739632364,
+          167.01103039870617
+        ],
+        [
+          35.42004218796698,
+          165.24554418636507
+        ],
+        [
+          40.18438883977525,
+          163.22074192645357
+        ],
+        [
+          44.831370630850216,
+          160.9419218586794
+        ],
+        [
+          49.34689631620984,
+          158.41510557526271
+        ],
+        [
+          53.71709332207363,
+          155.6470428395552
+        ],
+        [
+          57.9283396530238,
+          152.64521607852421
+        ],
+        [
+          61.96729799581294,
+          149.41784425642467
+        ],
+        [
+          65.82095213167008,
+          145.97388580986265
+        ],
+        [
+          69.47664573550765,
+          142.3230402991541
+        ],
+        [
+          72.92212360303232,
+          138.47574840789287
+        ],
+        [
+          76.14557530535504,
+          134.44318990251003
+        ],
+        [
+          79.13568122529045,
+          130.23727914696124
+        ],
+        [
+          81.88166088023621,
+          125.87065775518657
+        ],
+        [
+          84.46105030075262,
+          121.19222226540285
+        ]
+      ],
+      "width_mm": 130
+    },
+    {
+      "size": "child_large",
+      "extension_mm": 0,
+      "band_inner_crown_height_mm": 138.48272938722374,
+      "pad_inner_curve_mm": [
+        [
+          -92.29144538315998,
+          90.65053639397001
+        ],
+        [
+          -89.09498660183856,
+          95.184214332904
+        ],
+        [
+          -85.76475715272407,
+          99.40348128553806
+        ],
+        [
+          -82.21299650683257,
+          103.44396848499849
+        ],
+        [
+          -78.45202136375423,
+          107.29641947676443
+        ],
+        [
+          -74.49427244817119,
+          110.95238433715022
+        ],
+        [
+          -70.35226991256509,
+          114.40417958460638
+        ],
+        [
+          -66.0385755639027,
+          117.6448474817423
+        ],
+        [
+          -61.5657615351964,
+          120.66811543860976
+        ],
+        [
+          -56.94638498597532,
+          123.4683561422956
+        ],
+        [
+          -52.1929683906641,
+          126.04054895730441
+        ],
+        [
+          -47.317984958717894,
+          128.38024306645568
+        ],
+        [
+          -42.333848723258896,
+          130.48352275361432
+        ],
+        [
+          -37.25290883418542,
+          132.34697516775324
+        ],
+        [
+          -32.08744759571118,
+          133.96766085260822
+        ],
+        [
+          -26.849681795632314,
+          135.34308727731312
+        ],
+        [
+          -21.551766883069796,
+          136.4711855605292
+        ],
+        [
+          -16.205803561919687,
+          137.3502905432073
+        ],
+        [
+          -10.823846377842315,
+          137.97912433265333
+        ],
+        [
+          -5.417913886571139,
+          138.35678341234208
+        ],
+        [
+          5.388425582155142e-16,
+          138.48272938722374
+        ],
+        [
+          5.4179138865711405,
+          138.35678341234208
+        ],
+        [
+          10.823846377842317,
+          137.97912433265333
+        ],
+        [
+          16.205803561919687,
+          137.3502905432073
+        ],
+        [
+          21.5517668830698,
+          136.4711855605292
+        ],
+        [
+          26.84968179563233,
+          135.34308727731312
+        ],
+        [
+          32.08744759571119,
+          133.96766085260822
+        ],
+        [
+          37.25290883418542,
+          132.34697516775324
+        ],
+        [
+          42.333848723258896,
+          130.48352275361432
+        ],
+        [
+          47.31798495871791,
+          128.38024306645568
+        ],
+        [
+          52.1929683906641,
+          126.04054895730441
+        ],
+        [
+          56.9463849859753,
+          123.46835614229563
+        ],
+        [
+          61.565761535196394,
+          120.66811543860976
+        ],
+        [
+          66.0385755639027,
+          117.64484748174229
+        ],
+        [
+          70.3522699125651,
+          114.40417958460638
+        ],
+        [
+          74.49427244817116,
+          110.95238433715024
+        ],
+        [
+          78.45202136375423,
+          107.29641947676443
+        ],
+        [
+          82.21299650683255,
+          103.44396848499848
+        ],
+        [
+          85.76475715272406,
+          99.40348128553809
+        ],
+        [
+          89.09498660183854,
+          95.184214332904
+        ],
+        [
+          92.29144538316,
+          90.65053639397
+        ]
+      ],
+      "width_mm": 140
+    },
+    {
+      "size": "child_large",
+      "extension_mm": 15,
+      "band_inner_crown_height_mm": 155.0599257066977,
+      "pad_inner_curve_mm": [
+        [
+          -90.98848581513693,
+          105.72450230596871
+        ],
+        [
+          -87.92477574861886,
+          110.34847019586036
+        ],
+        [
+          -84.71843225692072,
+          114.66085587167997
+        ],
+        [
+          -81.28508423816392,
+          118.79881878640684
+        ],
+        [
+          -77.63614859146334,
+          122.75201696563754
+        ],
+        [
+          -73.78333745172445,
+          126.51084004241217
+        ],
+        [
+          -69.73861506765968,
+          130.06639284857724
+        ],
+        [
+          -65.51415894664383,
+          133.41047736016756
+        ],
+        [
+          -61.122325159185166,
+          136.53557352472745
+        ],
+        [
+          -56.57561765216158,
+          139.43481945821623
+        ],
+        [
+          -51.886661383146205,
+          142.10199145802673
+        ],
+        [
+          -47.06817905751867,
+          144.5314842374906
+        ],
+        [
+          -42.13297122497397,
+          146.7182917466712
+        ],
+        [
+          -37.09389947183555,
+          148.65798890474431
+        ],
+        [
+          -31.963872429593312,
+          150.34671453117008
+        ],
+        [
+          -26.7558343076851,
+          151.78115572638976
+        ],
+        [
+          -21.482755649122787,
+          152.95853391803698
+        ],
+        [
+          -16.15762600058287,
+          153.8765927556466
+        ],
+        [
+          -10.793448183541127,
+          154.5335880054975
+        ],
+        [
+          -5.403233849502927,
+          154.9282795673968
+        ],
+        [
+          1.6825080421172636e-15,
+          155.0599257066977
+        ],
+        [
+          5.403233849502929,
+          154.9282795673968
+        ],
+        [
+          10.79344818354113,
+          154.5335880054975
+        ],
+        [
+          16.157626000582873,
+          153.8765927556466
+        ],
+        [
+          21.4827556491228,
+          152.95853391803698
+        ],
+        [
+          26.755834307685127,
+          151.78115572638978
+        ],
+        [
+          31.9638724295933,
+          150.3467145311701
+        ],
+        [
+          37.09389947183555,
+          148.65798890474431
+        ],
+        [
+          42.13297122497397,
+          146.71829174667124
+        ],
+        [
+          47.06817905751867,
+          144.5314842374906
+        ],
+        [
+          51.88666138314621,
+          142.10199145802673
+        ],
+        [
+          56.575617652161576,
+          139.43481945821625
+        ],
+        [
+          61.12232515918515,
+          136.53557352472748
+        ],
+        [
+          65.51415894664382,
+          133.41047736016756
+        ],
+        [
+          69.73861506765971,
+          130.06639284857724
+        ],
+        [
+          73.7833374517244,
+          126.51084004241218
+        ],
+        [
+          77.63614859146335,
+          122.75201696563752
+        ],
+        [
+          81.28508423816392,
+          118.79881878640684
+        ],
+        [
+          84.71843225692069,
+          114.66085587167998
+        ],
+        [
+          87.92477574861887,
+          110.34847019586036
+        ],
+        [
+          90.98848581513691,
+          105.72450230596873
+        ]
+      ],
+      "width_mm": 140
+    },
+    {
+      "size": "child_large",
+      "extension_mm": 30,
+      "band_inner_crown_height_mm": 171.29810788272394,
+      "pad_inner_curve_mm": [
+        [
+          -89.94872255319049,
+          120.83291234512626
+        ],
+        [
+          -86.99454649731823,
+          125.52631154251544
+        ],
+        [
+          -83.88993420976063,
+          129.9092879060102
+        ],
+        [
+          -80.55302099388285,
+          134.1209806608823
+        ],
+        [
+          -76.99467918431074,
+          138.15022350696586
+        ],
+        [
+          -73.22619259362287,
+          141.98653592976132
+        ],
+        [
+          -69.25921499355981,
+          145.62012185736467
+        ],
+        [
+          -65.10573121625808,
+          149.0418662709782
+        ],
+        [
+          -60.77802088883451,
+          152.24333015613072
+        ],
+        [
+          -56.28862477547603,
+          155.21674416319044
+        ],
+        [
+          -51.650313665922916,
+          157.9550013247403
+        ],
+        [
+          -46.87605971777438,
+          160.45164915445096
+        ],
+        [
+          -41.97901013223366,
+          162.7008814277259
+        ],
+        [
+          -36.97246301855647,
+          164.69752991901797
+        ],
+        [
+          -31.869845281343515,
+          166.4370563446773
+        ],
+        [
+          -26.684692346691442,
+          167.9155447337684
+        ],
+        [
+          -21.430629527843863,
+          169.12969442270375
+        ],
+        [
+          -16.12135481812919,
+          170.07681384295034
+        ],
+        [
+          -10.770622888413529,
+          170.75481524457354
+        ],
+        [
+          -5.392230057830439,
+          171.16221047205957
+        ],
+        [
+          1.9645916359669474e-15,
+          171.29810788272394
+        ],
+        [
+          5.392230057830442,
+          171.16221047205957
+        ],
+        [
+          10.770622888413516,
+          170.75481524457354
+        ],
+        [
+          16.121354818129195,
+          170.07681384295032
+        ],
+        [
+          21.430629527843877,
+          169.12969442270375
+        ],
+        [
+          26.684692346691456,
+          167.9155447337684
+        ],
+        [
+          31.86984528134352,
+          166.4370563446773
+        ],
+        [
+          36.97246301855647,
+          164.69752991901797
+        ],
+        [
+          41.97901013223366,
+          162.7008814277259
+        ],
+        [
+          46.8760597177744,
+          160.45164915445096
+        ],
+        [
+          51.65031366592292,
+          157.95500132474032
+        ],
+        [
+          56.28862477547601,
+          155.21674416319047
+        ],
+        [
+          60.77802088883452,
+          152.24333015613072
+        ],
+        [
+          65.10573121625808,
+          149.0418662709782
+        ],
+        [
+          69.25921499355984,
+          145.62012185736464
+        ],
+        [
+          73.22619259362284,
+          141.98653592976137
+        ],
+        [
+          76.99467918431073,
+          138.15022350696586
+        ],
+        [
+          80.55302099388285,
+          134.1209806608823
+        ],
+        [
+          83.8899342097606,
+          129.90928790601023
+        ],
+        [
+          86.99454649731823,
+          125.52631154251544
+        ],
+        [
+          89.94872255319049,
+          120.83291234512626
+        ]
+      ],
+      "width_mm": 140
+    },
+    {
+      "size": "adult_small",
+      "extension_mm": 0,
+      "band_inner_crown_height_mm": 152.37427189787712,
+      "pad_inner_curve_mm": [
+        [
+          -92.80873423621063,
+          91.94557682393618
+        ],
+        [
+          -90.29127728702606,
+          97.44057209826381
+        ],
+        [
+          -87.53589773961339,
+          102.58585721904073
+        ],
+        [
+          -84.47006552416389,
+          107.55591818871233
+        ],
+        [
+          -81.10701729774622,
+          112.3333897076667
+        ],
+        [
+          -77.46079182369292,
+          116.90192143409067
+        ],
+        [
+          -73.54615247140325,
+          121.24618980054962
+        ],
+        [
+          -69.37851374524202,
+          125.35190445167875
+        ],
+        [
+          -64.97387207992848,
+          129.2058101063326
+        ],
+        [
+          -60.34874103571836,
+          132.79568462658585
+        ],
+        [
+          -55.520090931329726,
+          136.11033404532677
+        ],
+        [
+          -50.50529286622525,
+          139.13958526557593
+        ],
+        [
+          -45.322067006566506,
+          141.87427709969148
+        ],
+        [
+          -39.98843494072292,
+          144.30625026670472
+        ],
+        [
+          -34.52267585031682,
+          146.4283369123921
+        ],
+        [
+          -28.94328619097643,
+          148.2343501603768
+        ],
+        [
+          -23.268942532742173,
+          149.71907414440597
+        ],
+        [
+          -17.518467172887885,
+          150.87825491265164
+        ],
+        [
+          -11.710796103238254,
+          151.7085925349326
+        ],
+        [
+          -5.864948889378463,
+          152.20773468351786
+        ],
+        [
+          1.5736742557685035e-14,
+          152.37427189787712
+        ],
+        [
+          5.864948889378444,
+          152.20773468351788
+        ],
+        [
+          11.710796103238224,
+          151.7085925349326
+        ],
+        [
+          17.518467172887863,
+          150.8782549126516
+        ],
+        [
+          23.268942532742173,
+          149.71907414440597
+        ],
+        [
+          28.943286190976437,
+          148.2343501603768
+        ],
+        [
+          34.52267585031681,
+          146.42833691239213
+        ],
+        [
+          39.9884349407229,
+          144.30625026670472
+        ],
+        [
+          45.322067006566485,
+          141.87427709969148
+        ],
+        [
+          50.505292866225254,
+          139.13958526557593
+        ],
+        [
+          55.52009093132972,
+          136.11033404532677
+        ],
+        [
+          60.34874103571836,
+          132.79568462658585
+        ],
+        [
+          64.97387207992848,
+          129.2058101063326
+        ],
+        [
+          69.37851374524203,
+          125.35190445167875
+        ],
+        [
+          73.54615247140322,
+          121.24618980054963
+        ],
+        [
+          77.4607918236929,
+          116.9019214340907
+        ],
+        [
+          81.10701729774621,
+          112.33338970766671
+        ],
+        [
+          84.47006552416389,
+          107.55591818871231
+        ],
+        [
+          87.53589773961339,
+          102.58585721904073
+        ],
+        [
+          90.29127728702608,
+          97.44057209826383
+        ],
+        [
+          92.80873423621064,
+          91.94557682393618
+        ]
+      ],
+      "width_mm": 140
+    },
+    {
+      "size": "adult_small",
+      "extension_mm": 15,
+      "band_inner_crown_height_mm": 168.2435176119697,
+      "pad_inner_curve_mm": [
+        [
+          -91.92884415091271,
+          106.9992196980357
+        ],
+        [
+          -89.49826287711379,
+          112.533308531547
+        ],
+        [
+          -86.82460941529328,
+          117.72130341122848
+        ],
+        [
+          -83.83775832250957,
+          122.73801281056656
+        ],
+        [
+          -80.55018642747527,
+          127.56549473770862
+        ],
+        [
+          -76.97527900533782,
+          132.18673260153506
+        ],
+        [
+          -73.12726038789734,
+          136.58566426174275
+        ],
+        [
+          -69.021126192944,
+          140.74720607169027
+        ],
+        [
+          -64.67257747054715,
+          144.65727242207998
+        ],
+        [
+          -60.097956988794486,
+          148.30279129644373
+        ],
+        [
+          -55.314187809782446,
+          151.6717163438477
+        ],
+        [
+          -50.33871423923196,
+          154.75303596115538
+        ],
+        [
+          -45.189445170424015,
+          157.5367798574916
+        ],
+        [
+          -39.88469978555384,
+          160.01402354810594
+        ],
+        [
+          -34.44315552530747,
+          162.17689119445964
+        ],
+        [
+          -28.883798190586045,
+          164.01855717281526
+        ],
+        [
+          -23.225873998884484,
+          165.53324671558107
+        ],
+        [
+          -17.488843381850216,
+          166.71623592877157
+        ],
+        [
+          -11.692336279945403,
+          167.56385144574114
+        ],
+        [
+          -5.856108664832304,
+          168.07346993231207
+        ],
+        [
+          1.5904362473320463e-14,
+          168.2435176119697
+        ],
+        [
+          5.856108664832283,
+          168.0734699323121
+        ],
+        [
+          11.692336279945387,
+          167.56385144574114
+        ],
+        [
+          17.488843381850195,
+          166.71623592877157
+        ],
+        [
+          23.225873998884452,
+          165.5332467155811
+        ],
+        [
+          28.883798190586052,
+          164.01855717281524
+        ],
+        [
+          34.443155525307475,
+          162.17689119445964
+        ],
+        [
+          39.88469978555382,
+          160.01402354810597
+        ],
+        [
+          45.18944517042398,
+          157.5367798574916
+        ],
+        [
+          50.33871423923196,
+          154.75303596115538
+        ],
+        [
+          55.31418780978243,
+          151.6717163438477
+        ],
+        [
+          60.09795698879447,
+          148.30279129644373
+        ],
+        [
+          64.67257747054715,
+          144.65727242207998
+        ],
+        [
+          69.021126192944,
+          140.74720607169027
+        ],
+        [
+          73.1272603878973,
+          136.58566426174278
+        ],
+        [
+          76.9752790053378,
+          132.18673260153508
+        ],
+        [
+          80.55018642747527,
+          127.5654947377086
+        ],
+        [
+          83.83775832250957,
+          122.73801281056657
+        ],
+        [
+          86.82460941529325,
+          117.72130341122849
+        ],
+        [
+          89.49826287711379,
+          112.533308531547
+        ],
+        [
+          91.92884415091271,
+          106.99921969803569
+        ]
+      ],
+      "width_mm": 140
+    },
+    {
+      "size": "adult_small",
+      "extension_mm": 30,
+      "band_inner_crown_height_mm": 183.9532190567757,
+      "pad_inner_curve_mm": [
+        [
+          -91.19934370176317,
+          122.06337419668357
+        ],
+        [
+          -88.84369643461203,
+          127.62927812324519
+        ],
+        [
+          -86.23999598968398,
+          132.85140576427247
+        ],
+        [
+          -83.32009681594616,
+          137.9053678681555
+        ],
+        [
+          -80.09596970729892,
+          142.7727266956669
+        ],
+        [
+          -76.5805730371671,
+          147.43591175851185
+        ],
+        [
+          -72.78778883970149,
+          151.87826068098883
+        ],
+        [
+          -68.73235891087309,
+          156.08405539319267
+        ],
+        [
+          -64.42982124072752,
+          160.03855396633622
+        ],
+        [
+          -59.89644703378784,
+          163.7280184138699
+        ],
+        [
+          -55.14917852149134,
+          167.1397387883321
+        ],
+        [
+          -50.20556771928878,
+          170.2620539037292
+        ],
+        [
+          -45.083716232196416,
+          173.08436900725164
+        ],
+        [
+          -39.802216166656294,
+          175.59717071279877
+        ],
+        [
+          -34.38009216392563,
+          177.79203949266054
+        ],
+        [
+          -28.836744531205262,
+          179.66166000331933
+        ],
+        [
+          -23.1918934115872,
+          181.19982949721592
+        ],
+        [
+          -17.465523902850087,
+          182.40146454498083
+        ],
+        [
+          -11.67783200830928,
+          183.26260626255313
+        ],
+        [
+          -5.849171280448677,
+          183.780424205262
+        ],
+        [
+          -2.5394135013189077e-15,
+          183.9532190567757
+        ],
+        [
+          5.849171280448652,
+          183.780424205262
+        ],
+        [
+          11.677832008309277,
+          183.26260626255313
+        ],
+        [
+          17.465523902850062,
+          182.40146454498083
+        ],
+        [
+          23.191893411587174,
+          181.19982949721592
+        ],
+        [
+          28.836744531205262,
+          179.66166000331933
+        ],
+        [
+          34.380092163925625,
+          177.79203949266056
+        ],
+        [
+          39.80221616665628,
+          175.59717071279877
+        ],
+        [
+          45.083716232196394,
+          173.08436900725167
+        ],
+        [
+          50.20556771928877,
+          170.2620539037292
+        ],
+        [
+          55.149178521491336,
+          167.1397387883321
+        ],
+        [
+          59.896447033787844,
+          163.7280184138699
+        ],
+        [
+          64.42982124072753,
+          160.0385539663362
+        ],
+        [
+          68.73235891087307,
+          156.08405539319273
+        ],
+        [
+          72.78778883970143,
+          151.87826068098883
+        ],
+        [
+          76.58057303716708,
+          147.43591175851188
+        ],
+        [
+          80.0959697072989,
+          142.7727266956669
+        ],
+        [
+          83.32009681594616,
+          137.9053678681555
+        ],
+        [
+          86.23999598968396,
+          132.85140576427244
+        ],
+        [
+          88.84369643461203,
+          127.6292781232452
+        ],
+        [
+          91.19934370176315,
+          122.06337419668358
+        ]
+      ],
+      "width_mm": 140
+    },
+    {
+      "size": "adult_medium",
+      "extension_mm": 0,
+      "band_inner_crown_height_mm": 151.47111551785582,
+      "pad_inner_curve_mm": [
+        [
+          -101.42767566751229,
+          91.42680088924469
+        ],
+        [
+          -98.31263647829945,
+          96.96788973163694
+        ],
+        [
+          -94.98686788481383,
+          102.15664258157626
+        ],
+        [
+          -91.36938735140203,
+          107.1502658680873
+        ],
+        [
+          -87.47386409521906,
+          111.93402493202123
+        ],
+        [
+          -83.3145180949519,
+          116.4941417714624
+        ],
+        [
+          -78.90605564449835,
+          120.81778774930335
+        ],
+        [
+          -74.26360980942738,
+          124.89307279491678
+        ],
+        [
+          -69.40268580365752,
+          128.70903183921195
+        ],
+        [
+          -64.33911122662396,
+          132.25560918188222
+        ],
+        [
+          -59.08899103317486,
+          135.5236414445465
+        ],
+        [
+          -53.668667049143664,
+          138.5048397151351
+        ],
+        [
+          -48.0946817944498,
+          141.19177143845127
+        ],
+        [
+          -42.38374633205825,
+          143.57784255633
+        ],
+        [
+          -36.5527118244869,
+          145.65728034899564
+        ],
+        [
+          -30.61854444907921,
+          147.42511737769408
+        ],
+        [
+          -24.598303298254073,
+          148.87717687786684
+        ],
+        [
+          -18.50912087072167,
+          150.01005990232156
+        ],
+        [
+          -12.368185743588658,
+          150.82113446517764
+        ],
+        [
+          -6.192727002800924,
+          151.30852688984524
+        ],
+        [
+          1.9364947111627407e-15,
+          151.47111551785582
+        ],
+        [
+          6.192727002800927,
+          151.30852688984524
+        ],
+        [
+          12.368185743588661,
+          150.82113446517764
+        ],
+        [
+          18.509120870721674,
+          150.01005990232156
+        ],
+        [
+          24.59830329825409,
+          148.87717687786684
+        ],
+        [
+          30.618544449079206,
+          147.4251173776941
+        ],
+        [
+          36.552711824486884,
+          145.65728034899564
+        ],
+        [
+          42.38374633205826,
+          143.57784255633
+        ],
+        [
+          48.094681794449805,
+          141.19177143845127
+        ],
+        [
+          53.668667049143664,
+          138.5048397151351
+        ],
+        [
+          59.088991033174864,
+          135.5236414445465
+        ],
+        [
+          64.33911122662394,
+          132.25560918188222
+        ],
+        [
+          69.40268580365753,
+          128.70903183921195
+        ],
+        [
+          74.26360980942738,
+          124.89307279491678
+        ],
+        [
+          78.90605564449834,
+          120.81778774930335
+        ],
+        [
+          83.3145180949519,
+          116.4941417714624
+        ],
+        [
+          87.47386409521906,
+          111.93402493202123
+        ],
+        [
+          91.36938735140201,
+          107.15026586808732
+        ],
+        [
+          94.98686788481383,
+          102.15664258157626
+        ],
+        [
+          98.31263647829945,
+          96.96788973163694
+        ],
+        [
+          101.42767566751229,
+          91.42680088924469
+        ]
+      ],
+      "width_mm": 155
+    },
+    {
+      "size": "adult_medium",
+      "extension_mm": 15,
+      "band_inner_crown_height_mm": 167.48355756391373,
+      "pad_inner_curve_mm": [
+        [
+          -100.50284576898176,
+          106.47942473416622
+        ],
+        [
+          -97.48031791273047,
+          112.07159954133205
+        ],
+        [
+          -94.24157088530475,
+          117.31477211376328
+        ],
+        [
+          -90.70788525375286,
+          122.3666058650841
+        ],
+        [
+          -86.89216538599689,
+          127.21168481183986
+        ],
+        [
+          -82.80798550420592,
+          131.83546945093056
+        ],
+        [
+          -78.46953087598786,
+          136.2243074449043
+        ],
+        [
+          -73.89154162704948,
+          140.36544075362
+        ],
+        [
+          -69.08925930434792,
+          144.2470097096038
+        ],
+        [
+          -64.078376258739,
+          147.85805452106675
+        ],
+        [
+          -58.87498786065596,
+          151.1885146679637
+        ],
+        [
+          -53.495547511583204,
+          154.22922663346557
+        ],
+        [
+          -47.95682436808029,
+          156.9719203865358
+        ],
+        [
+          -42.275863653822995,
+          159.40921500162358
+        ],
+        [
+          -36.469949398464166,
+          161.53461376941016
+        ],
+        [
+          -30.556569409919476,
+          163.34249911858615
+        ],
+        [
+          -24.553382258772466,
+          164.82812763324017
+        ],
+        [
+          -18.47818602966153,
+          165.98762541396718
+        ],
+        [
+          -12.348888574555804,
+          166.81798399355512
+        ],
+        [
+          -6.18347898654729,
+          167.31705698030984
+        ],
+        [
+          -1.5114389688038537e-14,
+          167.48355756391373
+        ],
+        [
+          6.18347898654729,
+          167.31705698030981
+        ],
+        [
+          12.348888574555804,
+          166.81798399355512
+        ],
+        [
+          18.47818602966153,
+          165.98762541396715
+        ],
+        [
+          24.55338225877248,
+          164.82812763324017
+        ],
+        [
+          30.55656940991947,
+          163.34249911858615
+        ],
+        [
+          36.46994939846417,
+          161.53461376941016
+        ],
+        [
+          42.275863653823,
+          159.40921500162358
+        ],
+        [
+          47.9568243680803,
+          156.9719203865358
+        ],
+        [
+          53.495547511583204,
+          154.2292266334656
+        ],
+        [
+          58.87498786065595,
+          151.1885146679637
+        ],
+        [
+          64.078376258739,
+          147.85805452106675
+        ],
+        [
+          69.08925930434792,
+          144.2470097096038
+        ],
+        [
+          73.89154162704948,
+          140.36544075361996
+        ],
+        [
+          78.46953087598786,
+          136.2243074449043
+        ],
+        [
+          82.80798550420592,
+          131.83546945093053
+        ],
+        [
+          86.89216538599689,
+          127.21168481183986
+        ],
+        [
+          90.70788525375285,
+          122.3666058650841
+        ],
+        [
+          94.24157088530477,
+          117.31477211376327
+        ],
+        [
+          97.48031791273047,
+          112.07159954133206
+        ],
+        [
+          100.50284576898176,
+          106.47942473416622
+        ]
+      ],
+      "width_mm": 155
+    },
+    {
+      "size": "adult_medium",
+      "extension_mm": 30,
+      "band_inner_crown_height_mm": 183.30624121004269,
+      "pad_inner_curve_mm": [
+        [
+          -99.73849205786266,
+          121.54395530696391
+        ],
+        [
+          -96.79541872123642,
+          127.1777899974016
+        ],
+        [
+          -93.63088612589026,
+          132.46459168223907
+        ],
+        [
+          -90.16798203102799,
+          137.5629525843716
+        ],
+        [
+          -86.41911496204544,
+          142.45689382951028
+        ],
+        [
+          -82.39744972629704,
+          147.1312617733598
+        ],
+        [
+          -78.11685248679618,
+          151.5717508344241
+        ],
+        [
+          -73.59183694641594,
+          155.76492285345878
+        ],
+        [
+          -68.83751181707656,
+          159.6982233111701
+        ],
+        [
+          -63.869529702760445,
+          163.35999473516966
+        ],
+        [
+          -58.704037481746795,
+          166.73948762187257
+        ],
+        [
+          -53.35762823252724,
+          169.8268691894514
+        ],
+        [
+          -47.84729470971112,
+          172.61323026459297
+        ],
+        [
+          -42.190384341040364,
+          175.0905905891016
+        ],
+        [
+          -36.40455568454812,
+          177.2519028127795
+        ],
+        [
+          -30.507736255995965,
+          179.09105541689155
+        ],
+        [
+          -24.51808161106394,
+          180.60287478826672
+        ],
+        [
+          -18.453935544367372,
+          181.7831266380349
+        ],
+        [
+          -12.333791248230831,
+          182.6285169314662
+        ],
+        [
+          -6.17625325825066,
+          183.13669246664583
+        ],
+        [
+          3.1572931879697875e-15,
+          183.30624121004269
+        ],
+        [
+          6.176253258250666,
+          183.13669246664583
+        ],
+        [
+          12.33379124823084,
+          182.6285169314662
+        ],
+        [
+          18.453935544367383,
+          181.7831266380349
+        ],
+        [
+          24.518081611063945,
+          180.60287478826672
+        ],
+        [
+          30.50773625599597,
+          179.09105541689155
+        ],
+        [
+          36.40455568454813,
+          177.2519028127795
+        ],
+        [
+          42.19038434104036,
+          175.0905905891016
+        ],
+        [
+          47.847294709711136,
+          172.61323026459294
+        ],
+        [
+          53.357628232527254,
+          169.8268691894514
+        ],
+        [
+          58.70403748174679,
+          166.73948762187257
+        ],
+        [
+          63.86952970276045,
+          163.35999473516966
+        ],
+        [
+          68.83751181707656,
+          159.69822331117012
+        ],
+        [
+          73.59183694641592,
+          155.76492285345878
+        ],
+        [
+          78.11685248679618,
+          151.5717508344241
+        ],
+        [
+          82.39744972629705,
+          147.1312617733598
+        ],
+        [
+          86.41911496204546,
+          142.45689382951028
+        ],
+        [
+          90.167982031028,
+          137.5629525843716
+        ],
+        [
+          93.63088612589026,
+          132.46459168223907
+        ],
+        [
+          96.79541872123644,
+          127.17778999740159
+        ],
+        [
+          99.73849205786267,
+          121.54395530696391
+        ]
+      ],
+      "width_mm": 155
+    },
+    {
+      "size": "adult_large",
+      "extension_mm": 0,
+      "band_inner_crown_height_mm": 150.52929971570174,
+      "pad_inner_curve_mm": [
+        [
+          -109.91523942305923,
+          90.98051035572642
+        ],
+        [
+          -106.2254011189933,
+          96.5433508344262
+        ],
+        [
+          -102.34811054340771,
+          101.75316107264294
+        ],
+        [
+          -98.19687234161071,
+          106.75168360860786
+        ],
+        [
+          -93.78553459544445,
+          111.52649208102096
+        ],
+        [
+          -89.12829168278408,
+          116.06604768377603
+        ],
+        [
+          -84.23963217188034,
+          120.35967804573228
+        ],
+        [
+          -79.13429200310073,
+          124.3975541772165
+        ],
+        [
+          -73.8272128155304,
+          128.17066613026532
+        ],
+        [
+          -68.33350522340321,
+          131.6707979688937
+        ],
+        [
+          -62.66841680329443,
+          134.89050259417846
+        ],
+        [
+          -56.847304516628014,
+          137.82307691764734
+        ],
+        [
+          -50.88561126249555,
+          140.4625378261216
+        ],
+        [
+          -44.79884623220117,
+          142.80359933234925
+        ],
+        [
+          -38.60256871849692,
+          144.8416512588861
+        ],
+        [
+          -32.31237501835525,
+          146.57273975797904
+        ],
+        [
+          -25.943888057585262,
+          147.99354992778296
+        ],
+        [
+          -19.51274935794525,
+          149.101390745093
+        ],
+        [
+          -13.034612962020741,
+          149.89418249678283
+        ],
+        [
+          -6.525140927486625,
+          150.37044685610866
+        ],
+        [
+          2.0604397207294716e-16,
+          150.52929971570174
+        ],
+        [
+          6.525140927486598,
+          150.37044685610866
+        ],
+        [
+          13.034612962020745,
+          149.89418249678283
+        ],
+        [
+          19.512749357945253,
+          149.101390745093
+        ],
+        [
+          25.943888057585237,
+          147.993549927783
+        ],
+        [
+          32.31237501835522,
+          146.57273975797904
+        ],
+        [
+          38.6025687184969,
+          144.8416512588861
+        ],
+        [
+          44.79884623220118,
+          142.80359933234925
+        ],
+        [
+          50.88561126249553,
+          140.46253782612163
+        ],
+        [
+          56.847304516628014,
+          137.82307691764734
+        ],
+        [
+          62.66841680329441,
+          134.89050259417846
+        ],
+        [
+          68.33350522340322,
+          131.67079796889368
+        ],
+        [
+          73.82721281553039,
+          128.17066613026535
+        ],
+        [
+          79.1342920031007,
+          124.3975541772165
+        ],
+        [
+          84.23963217188034,
+          120.3596780457323
+        ],
+        [
+          89.12829168278407,
+          116.06604768377605
+        ],
+        [
+          93.78553459544443,
+          111.52649208102096
+        ],
+        [
+          98.19687234161071,
+          106.75168360860785
+        ],
+        [
+          102.34811054340771,
+          101.75316107264297
+        ],
+        [
+          106.2254011189933,
+          96.54335083442622
+        ],
+        [
+          109.91523942305923,
+          90.98051035572642
+        ]
+      ],
+      "width_mm": 170
+    },
+    {
+      "size": "adult_large",
+      "extension_mm": 15,
+      "band_inner_crown_height_mm": 166.6927580103312,
+      "pad_inner_curve_mm": [
+        [
+          -108.94694376397351,
+          106.03165971743208
+        ],
+        [
+          -105.35500985275701,
+          111.65826128207522
+        ],
+        [
+          -101.5698160452482,
+          116.93489637523093
+        ],
+        [
+          -97.50698775537873,
+          122.00386103892711
+        ],
+        [
+          -93.17960502722768,
+          126.85194130272585
+        ],
+        [
+          -88.6012249495164,
+          131.46674051480966
+        ],
+        [
+          -83.78583283482621,
+          135.83667665910212
+        ],
+        [
+          -78.74779656933194,
+          139.95097733336377
+        ],
+        [
+          -73.50182413829931,
+          143.7996728460906
+        ],
+        [
+          -68.06292428722335,
+          147.37358786719227
+        ],
+        [
+          -62.44637023775372,
+          150.66433204183727
+        ],
+        [
+          -56.66766634131788,
+          153.66428994918581
+        ],
+        [
+          -50.742517521414804,
+          156.36661075853186
+        ],
+        [
+          -44.68680132765631,
+          158.76519790513385
+        ],
+        [
+          -38.51654240050908,
+          160.8546990771163
+        ],
+        [
+          -32.24788912503986,
+          162.63049677359365
+        ],
+        [
+          -25.89709223450345,
+          164.08869966284107
+        ],
+        [
+          -19.480485110043603,
+          165.22613493809328
+        ],
+        [
+          -13.014465510840243,
+          166.04034183750488
+        ],
+        [
+          -6.515478459486005,
+          166.52956646401378
+        ],
+        [
+          2.688764323605519e-15,
+          166.6927580103312
+        ],
+        [
+          6.5154784594859825,
+          166.52956646401378
+        ],
+        [
+          13.014465510840246,
+          166.04034183750488
+        ],
+        [
+          19.480485110043592,
+          165.22613493809328
+        ],
+        [
+          25.897092234503447,
+          164.08869966284107
+        ],
+        [
+          32.247889125039855,
+          162.63049677359368
+        ],
+        [
+          38.516542400509046,
+          160.8546990771163
+        ],
+        [
+          44.68680132765632,
+          158.76519790513385
+        ],
+        [
+          50.742517521414776,
+          156.3666107585319
+        ],
+        [
+          56.66766634131788,
+          153.66428994918581
+        ],
+        [
+          62.446370237753705,
+          150.66433204183727
+        ],
+        [
+          68.06292428722337,
+          147.37358786719227
+        ],
+        [
+          73.50182413829928,
+          143.79967284609063
+        ],
+        [
+          78.74779656933192,
+          139.95097733336377
+        ],
+        [
+          83.7858328348262,
+          135.83667665910215
+        ],
+        [
+          88.60122494951636,
+          131.46674051480966
+        ],
+        [
+          93.1796050272277,
+          126.85194130272585
+        ],
+        [
+          97.50698775537873,
+          122.0038610389271
+        ],
+        [
+          101.5698160452482,
+          116.93489637523095
+        ],
+        [
+          105.35500985275702,
+          111.65826128207522
+        ],
+        [
+          108.94694376397351,
+          106.03165971743208
+        ]
+      ],
+      "width_mm": 170
+    },
+    {
+      "size": "adult_large",
+      "extension_mm": 30,
+      "band_inner_crown_height_mm": 182.63253897889865,
+      "pad_inner_curve_mm": [
+        [
+          -108.14988846963169,
+          121.09604588004855
+        ],
+        [
+          -104.64160650524218,
+          126.77454872197572
+        ],
+        [
+          -100.93459403880455,
+          132.10472014734572
+        ],
+        [
+          -96.94611365398168,
+          137.22987442321195
+        ],
+        [
+          -92.68875984633672,
+          142.13616847741554
+        ],
+        [
+          -88.17569707775941,
+          146.81053231707435
+        ],
+        [
+          -83.42061336291269,
+          151.24067865625952
+        ],
+        [
+          -78.43767562194405,
+          155.41511006890562
+        ],
+        [
+          -73.24148687277065,
+          159.32312398988165
+        ],
+        [
+          -67.84704529954894,
+          162.95481587807632
+        ],
+        [
+          -62.26970519981281,
+          166.3010808432518
+        ],
+        [
+          -56.52513978129951,
+          169.3536140237076
+        ],
+        [
+          -50.62930575073612,
+          172.10490998485542
+        ],
+        [
+          -44.59840961083343,
+          174.548261389985
+        ],
+        [
+          -38.44887555840551,
+          176.6777571741164
+        ],
+        [
+          -32.19731485584975,
+          178.48828043017167
+        ],
+        [
+          -25.860496530120194,
+          179.9755061939958
+        ],
+        [
+          -19.455319237726126,
+          181.1358992912331
+        ],
+        [
+          -12.998784121106718,
+          181.9667123848925
+        ],
+        [
+          -6.507968470893575,
+          182.4659843377746
+        ],
+        [
+          -1.2423055629612404e-14,
+          182.63253897889865
+        ],
+        [
+          6.507968470893553,
+          182.46598433777456
+        ],
+        [
+          12.998784121106734,
+          181.9667123848925
+        ],
+        [
+          19.45531923772613,
+          181.1358992912331
+        ],
+        [
+          25.860496530120173,
+          179.97550619399584
+        ],
+        [
+          32.197314855849726,
+          178.48828043017167
+        ],
+        [
+          38.448875558405504,
+          176.6777571741164
+        ],
+        [
+          44.59840961083342,
+          174.54826138998502
+        ],
+        [
+          50.62930575073609,
+          172.10490998485545
+        ],
+        [
+          56.525139781299515,
+          169.3536140237076
+        ],
+        [
+          62.2697051998128,
+          166.30108084325184
+        ],
+        [
+          67.84704529954892,
+          162.95481587807635
+        ],
+        [
+          73.24148687277064,
+          159.32312398988165
+        ],
+        [
+          78.43767562194407,
+          155.41511006890565
+        ],
+        [
+          83.42061336291266,
+          151.24067865625955
+        ],
+        [
+          88.1756970777594,
+          146.81053231707435
+        ],
+        [
+          92.68875984633672,
+          142.13616847741554
+        ],
+        [
+          96.9461136539817,
+          137.22987442321195
+        ],
+        [
+          100.93459403880455,
+          132.10472014734574
+        ],
+        [
+          104.64160650524218,
+          126.77454872197572
+        ],
+        [
+          108.14988846963169,
+          121.09604588004855
+        ]
+      ],
+      "width_mm": 170
+    }
+  ],
+  "limitations": [
+    "Hypothetical heights; not anthropometric percentiles",
+    "Coronal ellipse only; no fore-aft depth/pinna/skin geometry",
+    "Band shape solved under lateral endpoint displacement without scalp load",
+    "5mm crown padding is geometric allowance, not known compression-force behavior",
+    "Negative gap needs coupled scalp contact, positive gap needs fit reassessment; neither is a wearable pass/fail certificate"
+  ]
+}

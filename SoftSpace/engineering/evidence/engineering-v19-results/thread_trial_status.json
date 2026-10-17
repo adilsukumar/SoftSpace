@@ -1,0 +1,15 @@
+{
+  "bolt_valid": true,
+  "nut_valid": true,
+  "jam_nut_valid": true,
+  "bolt_nut_overlap_mm3": [
+    0.0,
+    0.0
+  ],
+  "thread_pitch_mm": 0.7,
+  "scope": "Idealised helical prototype only,not certified ISO tolerances or thread strength qualification",
+  "expected_one_connected_bolt_solid": false,
+  "actual_bolt_solids": 2,
+  "accepted_for_final_assembly": false,
+  "superseded_by": "helical_thread_rejection.json"
+}

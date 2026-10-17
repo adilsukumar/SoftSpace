@@ -1,0 +1,26 @@
+{
+  "nodes": 79128,
+  "tet10_elements": 46452,
+  "cg_iterations": 7786,
+  "relative_free_residual": 1.841048322811311e-07,
+  "minimum_quadrature_jacobian_mm3": 0.0037537572536164732,
+  "max_von_mises_centroid_MPa": 4.905282338028808,
+  "strain_energy_Nmm": 1.661213581294307,
+  "reaction_sum_N": [
+    -0.9999999996918494,
+    -3.752319613286457e-10,
+    -1.2004049539321784e-09
+  ],
+  "size": "adult_medium",
+  "mesh_max_mm": 1.25,
+  "source": "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_medium.step",
+  "source_sha256": "e511e626656f3ac190aff2398bbe889db4e37031483a129f0441fedfe7bd9ac3",
+  "source_kind": "V10 STEP-only candidate",
+  "seconds": 129.96071910858154,
+  "E_MPa": 2000,
+  "poisson": 0.35,
+  "load_per_full_side_N": 2,
+  "guide_load_face_z_mm": 82,
+  "max_displacement_mm": 4.842194159907127,
+  "guide_mean_x_displacement_mm": 3.322427164991956
+}

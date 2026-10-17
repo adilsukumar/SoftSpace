@@ -1,0 +1,34 @@
+[
+  {
+    "version": "V9",
+    "size": "adult_small",
+    "slice_y_mm": 9,
+    "slice_thickness_mm": 0.2,
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_small_20261013_164243_Extension_0.step",
+    "sha256": "005a931d3e102c7b1ceed7c11278d79abdd8c71331669e50d9bd1e6d00d031f4"
+  },
+  {
+    "version": "V10",
+    "size": "adult_small",
+    "slice_y_mm": 9,
+    "slice_thickness_mm": 0.2,
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_small_Extension_0.step",
+    "sha256": "fad1ba7ad44141010743c0d9bb9f8a49ce9d41ea6bd34f20c82eb64a7f19dc55"
+  },
+  {
+    "version": "V9",
+    "size": "child_small",
+    "slice_y_mm": 15,
+    "slice_thickness_mm": 0.2,
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_small_20261013_180418_Extension_0.step",
+    "sha256": "ff91f82cd5a285c8a910f3e9f1b656c7adb6de81b6af540c8a2fc1790c7858a2"
+  },
+  {
+    "version": "V10",
+    "size": "child_small",
+    "slice_y_mm": 15,
+    "slice_thickness_mm": 0.2,
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_small_Extension_0.step",
+    "sha256": "6c49f6ba668d25ef99e319088ce27aa2ce1f80aa213476affae780190a01124e"
+  }
+]

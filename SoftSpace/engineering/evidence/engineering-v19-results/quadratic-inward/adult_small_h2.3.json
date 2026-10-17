@@ -1,0 +1,484 @@
+{
+  "preload_N": 140,
+  "side_force_N": -2,
+  "assumed_mu": 0.2,
+  "normal_penalty_N_mm3": 10000,
+  "tangential_penalty_N_mm3": 1000,
+  "iterations": 61,
+  "relative_free_residual": 9.07295162389331e-07,
+  "maximum_numerical_penetration_mm": 0.0006202452670870241,
+  "maximum_pivot_constraint_error_mm": 0.00029332744972860724,
+  "stop_reaction_N": 0.0,
+  "washer_normal_sum_N": 276.55008907728217,
+  "washer_quadrature_area_mm2": 160.06363168123082,
+  "stop_quadrature_area_mm2": 31.999999999999996,
+  "global_force_balance_error_N": 8.051062868669052e-10,
+  "cup_mean_displacement_x_mm": -0.3505788776157826,
+  "component_stresses": [
+    {
+      "peak_element_MPa": 1.8978734774583788,
+      "volume_weighted_mean_MPa": 1.0665318078629562
+    },
+    {
+      "peak_element_MPa": 3.2864652362847657,
+      "volume_weighted_mean_MPa": 0.4422759561313655
+    }
+  ],
+  "history": [
+    {
+      "iteration": 0,
+      "relative_u_change": 1.0,
+      "relative_equilibrium_residual": 0.163792075579318,
+      "active": 2494,
+      "slip_points": 606
+    },
+    {
+      "iteration": 1,
+      "relative_u_change": 0.018286015421512706,
+      "relative_equilibrium_residual": 0.1629220430468068,
+      "active": 2409,
+      "slip_points": 714
+    },
+    {
+      "iteration": 2,
+      "relative_u_change": 0.01637226514944783,
+      "relative_equilibrium_residual": 0.1713561377173558,
+      "active": 2350,
+      "slip_points": 782
+    },
+    {
+      "iteration": 3,
+      "relative_u_change": 0.013402578042135675,
+      "relative_equilibrium_residual": 0.15813033318750463,
+      "active": 2314,
+      "slip_points": 824
+    },
+    {
+      "iteration": 4,
+      "relative_u_change": 0.010341898290095122,
+      "relative_equilibrium_residual": 0.12617743311897492,
+      "active": 2294,
+      "slip_points": 864
+    },
+    {
+      "iteration": 5,
+      "relative_u_change": 0.006910077677877337,
+      "relative_equilibrium_residual": 0.08248207905908889,
+      "active": 2286,
+      "slip_points": 890
+    },
+    {
+      "iteration": 6,
+      "relative_u_change": 0.005450176762515911,
+      "relative_equilibrium_residual": 0.05452651481588735,
+      "active": 2282,
+      "slip_points": 912
+    },
+    {
+      "iteration": 7,
+      "relative_u_change": 0.004875217085357541,
+      "relative_equilibrium_residual": 0.015399117428086282,
+      "active": 2282,
+      "slip_points": 938
+    },
+    {
+      "iteration": 8,
+      "relative_u_change": 0.0001840572940029383,
+      "relative_equilibrium_residual": 0.012385463584821463,
+      "active": 2282,
+      "slip_points": 955
+    },
+    {
+      "iteration": 9,
+      "relative_u_change": 0.0001502969929416381,
+      "relative_equilibrium_residual": 0.0101956510550184,
+      "active": 2282,
+      "slip_points": 969
+    },
+    {
+      "iteration": 10,
+      "relative_u_change": 0.00012497732320585395,
+      "relative_equilibrium_residual": 0.008527194450467354,
+      "active": 2282,
+      "slip_points": 975
+    },
+    {
+      "iteration": 11,
+      "relative_u_change": 0.00010516947622883144,
+      "relative_equilibrium_residual": 0.0071559125812185025,
+      "active": 2282,
+      "slip_points": 982
+    },
+    {
+      "iteration": 12,
+      "relative_u_change": 8.865746356209517e-05,
+      "relative_equilibrium_residual": 0.006007612198770143,
+      "active": 2282,
+      "slip_points": 991
+    },
+    {
+      "iteration": 13,
+      "relative_u_change": 7.47242625775331e-05,
+      "relative_equilibrium_residual": 0.0050406671421746405,
+      "active": 2282,
+      "slip_points": 992
+    },
+    {
+      "iteration": 14,
+      "relative_u_change": 6.29087898361697e-05,
+      "relative_equilibrium_residual": 0.004224525905599709,
+      "active": 2282,
+      "slip_points": 994
+    },
+    {
+      "iteration": 15,
+      "relative_u_change": 5.2896007015132815e-05,
+      "relative_equilibrium_residual": 0.0035358921966007263,
+      "active": 2282,
+      "slip_points": 997
+    },
+    {
+      "iteration": 16,
+      "relative_u_change": 4.441029824257391e-05,
+      "relative_equilibrium_residual": 0.0029570704526595847,
+      "active": 2282,
+      "slip_points": 1004
+    },
+    {
+      "iteration": 17,
+      "relative_u_change": 3.726181694874511e-05,
+      "relative_equilibrium_residual": 0.0024716294738824705,
+      "active": 2282,
+      "slip_points": 1007
+    },
+    {
+      "iteration": 18,
+      "relative_u_change": 3.1233967107760916e-05,
+      "relative_equilibrium_residual": 0.0020643475435365736,
+      "active": 2282,
+      "slip_points": 1008
+    },
+    {
+      "iteration": 19,
+      "relative_u_change": 2.614979216141969e-05,
+      "relative_equilibrium_residual": 0.0017231188043714443,
+      "active": 2282,
+      "slip_points": 1010
+    },
+    {
+      "iteration": 20,
+      "relative_u_change": 2.186775642757027e-05,
+      "relative_equilibrium_residual": 0.0014375437932941937,
+      "active": 2282,
+      "slip_points": 1013
+    },
+    {
+      "iteration": 21,
+      "relative_u_change": 1.8272834092232945e-05,
+      "relative_equilibrium_residual": 0.0011988291173649667,
+      "active": 2282,
+      "slip_points": 1015
+    },
+    {
+      "iteration": 22,
+      "relative_u_change": 1.5259340218192788e-05,
+      "relative_equilibrium_residual": 0.0009995458810116065,
+      "active": 2282,
+      "slip_points": 1016
+    },
+    {
+      "iteration": 23,
+      "relative_u_change": 1.2739246702291204e-05,
+      "relative_equilibrium_residual": 0.0008330700170374875,
+      "active": 2282,
+      "slip_points": 1016
+    },
+    {
+      "iteration": 24,
+      "relative_u_change": 1.0629873505429529e-05,
+      "relative_equilibrium_residual": 0.0006940802890194656,
+      "active": 2282,
+      "slip_points": 1017
+    },
+    {
+      "iteration": 25,
+      "relative_u_change": 8.86507810173786e-06,
+      "relative_equilibrium_residual": 0.0005780879077219904,
+      "active": 2282,
+      "slip_points": 1017
+    },
+    {
+      "iteration": 26,
+      "relative_u_change": 7.388940636573901e-06,
+      "relative_equilibrium_residual": 0.0004813492138040405,
+      "active": 2282,
+      "slip_points": 1018
+    },
+    {
+      "iteration": 27,
+      "relative_u_change": 6.155609515595147e-06,
+      "relative_equilibrium_residual": 0.00040069792647928136,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 28,
+      "relative_u_change": 5.1262499764133e-06,
+      "relative_equilibrium_residual": 0.0003334864991343423,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 29,
+      "relative_u_change": 4.267751220174005e-06,
+      "relative_equilibrium_residual": 0.00027749637577790924,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 30,
+      "relative_u_change": 3.5521050809528134e-06,
+      "relative_equilibrium_residual": 0.00023086949233571013,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 31,
+      "relative_u_change": 2.955844488022626e-06,
+      "relative_equilibrium_residual": 0.0001920510825079237,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 32,
+      "relative_u_change": 2.45924429007493e-06,
+      "relative_equilibrium_residual": 0.0001597413323893794,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 33,
+      "relative_u_change": 2.045770122821483e-06,
+      "relative_equilibrium_residual": 0.00013285447475014025,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 34,
+      "relative_u_change": 1.7016089869427237e-06,
+      "relative_equilibrium_residual": 0.0001104842113932023,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 35,
+      "relative_u_change": 1.4152100696524689e-06,
+      "relative_equilibrium_residual": 9.187453670047353e-05,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 36,
+      "relative_u_change": 1.1769071620617873e-06,
+      "relative_equilibrium_residual": 7.639516298758036e-05,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 37,
+      "relative_u_change": 9.78674611833219e-07,
+      "relative_equilibrium_residual": 6.352086433197391e-05,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 38,
+      "relative_u_change": 8.137682205610589e-07,
+      "relative_equilibrium_residual": 5.2814137069296376e-05,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 39,
+      "relative_u_change": 6.76622975789462e-07,
+      "relative_equilibrium_residual": 4.391067286905967e-05,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 40,
+      "relative_u_change": 5.625757880250691e-07,
+      "relative_equilibrium_residual": 3.65071982301617e-05,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 41,
+      "relative_u_change": 4.6772856560528043e-07,
+      "relative_equilibrium_residual": 3.0351308576767015e-05,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 42,
+      "relative_u_change": 3.888509386779634e-07,
+      "relative_equilibrium_residual": 2.5232977957040312e-05,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 43,
+      "relative_u_change": 3.2329601280508515e-07,
+      "relative_equilibrium_residual": 2.0977472890812005e-05,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 44,
+      "relative_u_change": 2.687490348514912e-07,
+      "relative_equilibrium_residual": 1.7439440534418508e-05,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 45,
+      "relative_u_change": 2.2344822037042964e-07,
+      "relative_equilibrium_residual": 1.449798447514045e-05,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 46,
+      "relative_u_change": 1.8574997710949873e-07,
+      "relative_equilibrium_residual": 1.2052557572728842e-05,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 47,
+      "relative_u_change": 1.5440858985335624e-07,
+      "relative_equilibrium_residual": 1.0019544220280715e-05,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 48,
+      "relative_u_change": 1.2836554272290697e-07,
+      "relative_equilibrium_residual": 8.329414129164642e-06,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 49,
+      "relative_u_change": 1.0671828211097046e-07,
+      "relative_equilibrium_residual": 6.924352243747816e-06,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 50,
+      "relative_u_change": 8.871303442885492e-08,
+      "relative_equilibrium_residual": 5.756287086353876e-06,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 51,
+      "relative_u_change": 7.375027183328962e-08,
+      "relative_equilibrium_residual": 4.785250178843587e-06,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 52,
+      "relative_u_change": 6.129643567110444e-08,
+      "relative_equilibrium_residual": 3.9780115331170744e-06,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 53,
+      "relative_u_change": 5.096299821198406e-08,
+      "relative_equilibrium_residual": 3.306944007543409e-06,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 54,
+      "relative_u_change": 4.2363342194351415e-08,
+      "relative_equilibrium_residual": 2.7490792855750737e-06,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 55,
+      "relative_u_change": 3.521973161994409e-08,
+      "relative_equilibrium_residual": 2.2853222053522225e-06,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 56,
+      "relative_u_change": 2.9270292428629268e-08,
+      "relative_equilibrium_residual": 1.8997982402468017e-06,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 57,
+      "relative_u_change": 2.434345935284632e-08,
+      "relative_equilibrium_residual": 1.5793106298746265e-06,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 58,
+      "relative_u_change": 2.0226700075258765e-08,
+      "relative_equilibrium_residual": 1.3128880321448076e-06,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 59,
+      "relative_u_change": 1.6819452507614836e-08,
+      "relative_equilibrium_residual": 1.0914102654814422e-06,
+      "active": 2282,
+      "slip_points": 1019
+    },
+    {
+      "iteration": 60,
+      "relative_u_change": 1.3983712320018385e-08,
+      "relative_equilibrium_residual": 9.072951623830062e-07,
+      "active": 2282,
+      "slip_points": 1019
+    }
+  ],
+  "coulomb_bound_error_MPa": 1.1102230246251565e-16,
+  "converged": true,
+  "source": "${WORKSPACE}\\EarDefender_V19_adult_small_ParallelDisc.step",
+  "source_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d",
+  "nodes": 29540,
+  "bulk_element": "Tet10",
+  "contact_interpolation": "Tri3 subtriangles of quadratic boundary faces",
+  "boundary_partitions": "washer annulus and preload footprint",
+  "stress_sampling": "centroid only",
+  "quadrature": "27 positive Duffy Gauss points",
+  "elastic_E_MPa": 3500,
+  "assumed_nu": 0.35,
+  "exact_CAD_component_volumes_mm3": [
+    7090.544431168587,
+    6125.079589122672
+  ],
+  "quadrature_component_volumes_mm3": [
+    7090.476118352555,
+    6125.074530790745
+  ],
+  "size": "adult_small",
+  "mesh_max_mm": 2.3,
+  "seconds": 2691.004782438278,
+  "mesh_source": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\adult_small_h2.3.npz",
+  "mesh_source_sha256": "5688428784a096e328a8dc3461330bb13f20e10d6f86bd0ae34c0ba30d75f0b3",
+  "maximum_iterations": 240,
+  "displacement_change_percent": 0.33550984239072434,
+  "chosen_5_percent_gate_pass": true
+}

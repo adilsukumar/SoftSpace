@@ -1,0 +1,2309 @@
+{
+  "revision": "V15 packing experiment on unchanged V14 CAD",
+  "size": "child_medium",
+  "source": "${WORKSPACE}\\EarDefender_V14_child_medium_Latched.step",
+  "source_sha256": "396d0ad3cd597de1dea05eed85a894507d375b4fe036a95e9e05370754e30477",
+  "ranked_pose_count": 30625,
+  "shortlisted_pose_checks": [
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 6.168133941319271
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        20,
+        0
+      ],
+      "angles_deg": [
+        115,
+        90
+      ],
+      "box_mm": [
+        212.3843630489061,
+        81.625,
+        118.78601444507052
+      ],
+      "box_volume_mm3": 2059259.3358904377,
+      "reduction_from_nominal_percent": 41.01227899151048,
+      "reduction_from_retracted_percent": 40.198093746396744
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 6.168133299614311
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        90,
+        115
+      ],
+      "box_mm": [
+        212.38436304890564,
+        81.625,
+        118.78601444509769
+      ],
+      "box_volume_mm3": 2059259.3358909045,
+      "reduction_from_nominal_percent": 41.01227899149711,
+      "reduction_from_retracted_percent": 40.19809374638319
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 6.559215904582585
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        20,
+        0
+      ],
+      "angles_deg": [
+        115,
+        95
+      ],
+      "box_mm": [
+        212.65470666092938,
+        81.625,
+        118.78601444507052
+      ],
+      "box_volume_mm3": 2061880.562797002,
+      "reduction_from_nominal_percent": 40.937193644672654,
+      "reduction_from_retracted_percent": 40.121972024861364
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 6.559164167604138
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        95,
+        115
+      ],
+      "box_mm": [
+        212.65470666092904,
+        81.625,
+        118.78601444509769
+      ],
+      "box_volume_mm3": 2061880.5627974707,
+      "reduction_from_nominal_percent": 40.93719364465923,
+      "reduction_from_retracted_percent": 40.12197202484775
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 6.367280785812415
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        20,
+        0
+      ],
+      "angles_deg": [
+        115,
+        100
+      ],
+      "box_mm": [
+        212.81872752254105,
+        81.625,
+        118.78601444507052
+      ],
+      "box_volume_mm3": 2063470.8940516475,
+      "reduction_from_nominal_percent": 40.891638422595896,
+      "reduction_from_retracted_percent": 40.07578802125147
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 6.366376100690008
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        100,
+        115
+      ],
+      "box_mm": [
+        212.8187275225408,
+        81.625,
+        118.78601444509769
+      ],
+      "box_volume_mm3": 2063470.894052117,
+      "reduction_from_nominal_percent": 40.89163842258245,
+      "reduction_from_retracted_percent": 40.075788021237834
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 4.218322492088266
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        20,
+        0
+      ],
+      "angles_deg": [
+        115,
+        105
+      ],
+      "box_mm": [
+        212.87517733594575,
+        81.625,
+        118.78601444507052
+      ],
+      "box_volume_mm3": 2064018.2262732582,
+      "reduction_from_nominal_percent": 40.87596002802722,
+      "reduction_from_retracted_percent": 40.059893223721176
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 4.218375483861921
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        105,
+        115
+      ],
+      "box_mm": [
+        212.87517733594558,
+        81.625,
+        118.78601444509769
+      ],
+      "box_volume_mm3": 2064018.2262737285,
+      "reduction_from_nominal_percent": 40.87596002801375,
+      "reduction_from_retracted_percent": 40.05989322370752
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 1.996996772992493
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        20,
+        0
+      ],
+      "angles_deg": [
+        120,
+        90
+      ],
+      "box_mm": [
+        212.1188068299103,
+        81.625,
+        119.36129021157626
+      ],
+      "box_volume_mm3": 2066644.965408364,
+      "reduction_from_nominal_percent": 40.80071678276753,
+      "reduction_from_retracted_percent": 39.98361142435163
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 1.996996772290725
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        90,
+        120
+      ],
+      "box_mm": [
+        212.11880682990983,
+        81.625,
+        119.36129021159789
+      ],
+      "box_volume_mm3": 2066644.9654087338,
+      "reduction_from_nominal_percent": 40.80071678275694,
+      "reduction_from_retracted_percent": 39.98361142434089
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 3.911347023135639
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        20,
+        0
+      ],
+      "angles_deg": [
+        120,
+        95
+      ],
+      "box_mm": [
+        212.3891504419336,
+        81.625,
+        119.36129021157626
+      ],
+      "box_volume_mm3": 2069278.886808677,
+      "reduction_from_nominal_percent": 40.725267800693224,
+      "reduction_from_retracted_percent": 39.90712104845986
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 3.911345273416039
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        95,
+        120
+      ],
+      "box_mm": [
+        212.38915044193317,
+        81.625,
+        119.36129021159789
+      ],
+      "box_volume_mm3": 2069278.886809048,
+      "reduction_from_nominal_percent": 40.725267800682595,
+      "reduction_from_retracted_percent": 39.90712104844909
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 3.4708442126447157
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        20,
+        0
+      ],
+      "angles_deg": [
+        120,
+        100
+      ],
+      "box_mm": [
+        212.5531713035453,
+        81.625,
+        119.36129021157626
+      ],
+      "box_volume_mm3": 2070876.9199719676,
+      "reduction_from_nominal_percent": 40.679491956555694,
+      "reduction_from_retracted_percent": 39.860713377626155
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 3.4708442503614947
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        100,
+        120
+      ],
+      "box_mm": [
+        212.55317130354496,
+        81.625,
+        119.36129021159789
+      ],
+      "box_volume_mm3": 2070876.9199723394,
+      "reduction_from_nominal_percent": 40.679491956545036,
+      "reduction_from_retracted_percent": 39.860713377615355
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 2.7655442706102296
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        20,
+        0
+      ],
+      "angles_deg": [
+        120,
+        105
+      ],
+      "box_mm": [
+        212.60962111695,
+        81.625,
+        119.36129021157626
+      ],
+      "box_volume_mm3": 2071426.9029009426,
+      "reduction_from_nominal_percent": 40.66373763216906,
+      "reduction_from_retracted_percent": 39.8447416022473
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 2.76554426482725
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        105,
+        120
+      ],
+      "box_mm": [
+        212.60962111694974,
+        81.625,
+        119.36129021159789
+      ],
+      "box_volume_mm3": 2071426.9029013158,
+      "reduction_from_nominal_percent": 40.66373763215837,
+      "reduction_from_retracted_percent": 39.84474160223647
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 7.888600789768603
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        20,
+        0
+      ],
+      "angles_deg": [
+        110,
+        90
+      ],
+      "box_mm": [
+        212.5435222331352,
+        81.625,
+        119.49855181763635
+      ],
+      "box_volume_mm3": 2073164.243452094,
+      "reduction_from_nominal_percent": 40.61397131185092,
+      "reduction_from_retracted_percent": 39.794288376196675
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 7.888591964922124
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        90,
+        110
+      ],
+      "box_mm": [
+        212.54352223313487,
+        81.625,
+        119.49855181766455
+      ],
+      "box_volume_mm3": 2073164.2434525795,
+      "reduction_from_nominal_percent": 40.613971311837005,
+      "reduction_from_retracted_percent": 39.79428837618257
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 12.741768044590941
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        20,
+        0
+      ],
+      "angles_deg": [
+        110,
+        95
+      ],
+      "box_mm": [
+        212.8138658451585,
+        81.625,
+        119.49855181763635
+      ],
+      "box_volume_mm3": 2075801.1937764497,
+      "reduction_from_nominal_percent": 40.53843556589831,
+      "reduction_from_retracted_percent": 39.71771003885757
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 12.741767341537656
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        95,
+        110
+      ],
+      "box_mm": [
+        212.8138658451582,
+        81.625,
+        119.49855181766455
+      ],
+      "box_volume_mm3": 2075801.1937769363,
+      "reduction_from_nominal_percent": 40.53843556588438,
+      "reduction_from_retracted_percent": 39.717710038843435
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 8.846164605360684
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        20,
+        0
+      ],
+      "angles_deg": [
+        110,
+        100
+      ],
+      "box_mm": [
+        212.97788670677016,
+        81.625,
+        119.49855181763635
+      ],
+      "box_volume_mm3": 2077401.0646259624,
+      "reduction_from_nominal_percent": 40.492607081027145,
+      "reduction_from_retracted_percent": 39.67124900071005
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 8.846176755795575
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        100,
+        110
+      ],
+      "box_mm": [
+        212.97788670677,
+        81.625,
+        119.49855181766455
+      ],
+      "box_volume_mm3": 2077401.0646264507,
+      "reduction_from_nominal_percent": 40.492607081013155,
+      "reduction_from_retracted_percent": 39.67124900069587
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 6.421930278649418
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        20,
+        0
+      ],
+      "angles_deg": [
+        90,
+        90
+      ],
+      "box_mm": [
+        212.1042587980628,
+        81.625,
+        119.9999999999686
+      ],
+      "box_volume_mm3": 2077561.2149264815,
+      "reduction_from_nominal_percent": 40.488019557211274,
+      "reduction_from_retracted_percent": 39.66659815703475
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 0.9210888705521251
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        20,
+        0
+      ],
+      "angles_deg": [
+        115,
+        85
+      ],
+      "box_mm": [
+        214.3106657731347,
+        81.625,
+        118.78601444507052
+      ],
+      "box_volume_mm3": 2077936.5907112437,
+      "reduction_from_nominal_percent": 40.477266874594285,
+      "reduction_from_retracted_percent": 39.65569705919876
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 22.009836004676224
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        75,
+        75
+      ],
+      "box_mm": [
+        222.92101108602924,
+        81.625,
+        107.67934369500945
+      ],
+      "box_volume_mm3": 1959325.5343412783,
+      "reduction_from_nominal_percent": 43.874894254366914,
+      "reduction_from_retracted_percent": 43.100220607084196
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 12.314156475673471
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        70,
+        75
+      ],
+      "box_mm": [
+        224.4502811002988,
+        81.625,
+        116.74593477822022
+      ],
+      "box_volume_mm3": 2138873.5743153132,
+      "reduction_from_nominal_percent": 38.7317199562012,
+      "reduction_from_retracted_percent": 37.886057015638066
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 12.314116040880393
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        75,
+        70
+      ],
+      "box_mm": [
+        224.45028110030128,
+        81.625,
+        116.74593477824841
+      ],
+      "box_volume_mm3": 2138873.5743158534,
+      "reduction_from_nominal_percent": 38.73171995618573,
+      "reduction_from_retracted_percent": 37.88605701562238
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 20.076418984184745
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        70,
+        70
+      ],
+      "box_mm": [
+        225.97955111457085,
+        81.625,
+        116.74593477824841
+      ],
+      "box_volume_mm3": 2153446.5799965775,
+      "reduction_from_nominal_percent": 38.314274528906424,
+      "reduction_from_retracted_percent": 37.462849746696705
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 9.432732572079715
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        65,
+        75
+      ],
+      "box_mm": [
+        225.82248616595263,
+        81.625,
+        125.44915046801395
+      ],
+      "box_volume_mm3": 2312374.1371373893,
+      "reduction_from_nominal_percent": 33.76177633803176,
+      "reduction_from_retracted_percent": 32.84751514186932
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 9.432854733236248
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        75,
+        65
+      ],
+      "box_mm": [
+        225.8224861659575,
+        81.625,
+        125.44915046804115
+      ],
+      "box_volume_mm3": 2312374.137137941,
+      "reduction_from_nominal_percent": 33.76177633801595,
+      "reduction_from_retracted_percent": 32.84751514185329
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 13.440540307299258
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        65,
+        70
+      ],
+      "box_mm": [
+        227.35175618022467,
+        81.625,
+        125.44915046801395
+      ],
+      "box_volume_mm3": 2328033.536206726,
+      "reduction_from_nominal_percent": 33.313211046927606,
+      "reduction_from_retracted_percent": 32.39275847338623
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 13.440628207617806
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        70,
+        65
+      ],
+      "box_mm": [
+        227.35175618022708,
+        81.625,
+        125.44915046804115
+      ],
+      "box_volume_mm3": 2328033.5362072554,
+      "reduction_from_nominal_percent": 33.313211046912436,
+      "reduction_from_retracted_percent": 32.392758473370854
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 8.16216935454844
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        65,
+        65
+      ],
+      "box_mm": [
+        228.7239612458809,
+        81.625,
+        125.44915046804115
+      ],
+      "box_volume_mm3": 2342084.6236721934,
+      "reduction_from_nominal_percent": 32.91071602707597,
+      "reduction_from_retracted_percent": 31.98470796671815
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 5.583349305871176
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        60,
+        75
+      ],
+      "box_mm": [
+        227.027182973881,
+        81.625,
+        133.7227540378172
+      ],
+      "box_volume_mm3": 2478028.8996388465,
+      "reduction_from_nominal_percent": 29.01657657428357,
+      "reduction_from_retracted_percent": 28.03681917710321
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 5.583314274162447
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        75,
+        60
+      ],
+      "box_mm": [
+        227.02718297388822,
+        81.625,
+        133.72275403784317
+      ],
+      "box_volume_mm3": 2478028.8996394067,
+      "reduction_from_nominal_percent": 29.016576574267518,
+      "reduction_from_retracted_percent": 28.036819177086947
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 9.559858208546835
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        60,
+        70
+      ],
+      "box_mm": [
+        228.55645298815307,
+        81.625,
+        133.7227540378172
+      ],
+      "box_volume_mm3": 2494721.06504863,
+      "reduction_from_nominal_percent": 28.538427572329862,
+      "reduction_from_retracted_percent": 27.552070464977618
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 110.01713166137611
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        90,
+        90
+      ],
+      "box_mm": [
+        212.1042587980628,
+        81.625,
+        99.9999999999986
+      ],
+      "box_volume_mm3": 1731301.0124391632,
+      "reduction_from_nominal_percent": 50.40668296433045,
+      "reduction_from_retracted_percent": 49.72216513084985
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 6.184458171096069
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        90,
+        105
+      ],
+      "box_mm": [
+        212.59507308510246,
+        81.625,
+        99.9999999999686
+      ],
+      "box_volume_mm3": 1735307.2840566037,
+      "reduction_from_nominal_percent": 50.29192285212165,
+      "reduction_from_retracted_percent": 49.605821028134365
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 6.184458188026188
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        105,
+        90
+      ],
+      "box_mm": [
+        212.59507308510274,
+        81.625,
+        99.9999999999986
+      ],
+      "box_volume_mm3": 1735307.2840571268,
+      "reduction_from_nominal_percent": 50.291922852106666,
+      "reduction_from_retracted_percent": 49.60582102811918
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 10.689956062525056
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        95,
+        90
+      ],
+      "box_mm": [
+        212.37460241008617,
+        81.625,
+        100.23065861180348
+      ],
+      "box_volume_mm3": 1737506.1769505998,
+      "reduction_from_nominal_percent": 50.2289353117483,
+      "reduction_from_retracted_percent": 49.54196409451915
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 10.689955675630287
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        90,
+        95
+      ],
+      "box_mm": [
+        212.37460241008608,
+        81.625,
+        100.23065861183338
+      ],
+      "box_volume_mm3": 1737506.1769511173,
+      "reduction_from_nominal_percent": 50.228935311733466,
+      "reduction_from_retracted_percent": 49.541964094504124
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftCup",
+            "RightCup"
+          ],
+          "intersection_mm3": 802.6317259429595
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        100,
+        90
+      ],
+      "box_mm": [
+        212.53862327169793,
+        81.625,
+        100.22363305401524
+      ],
+      "box_volume_mm3": 1738726.2026935148,
+      "reduction_from_nominal_percent": 50.193987533733186,
+      "reduction_from_retracted_percent": 49.50653394551694
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftCup",
+            "RightCup"
+          ],
+          "intersection_mm3": 802.6317259548357
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        90,
+        100
+      ],
+      "box_mm": [
+        212.53862327169776,
+        81.625,
+        100.22363305404478
+      ],
+      "box_volume_mm3": 1738726.202694026,
+      "reduction_from_nominal_percent": 50.19398753371854,
+      "reduction_from_retracted_percent": 49.5065339455021
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 15.454474593163823
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        105,
+        105
+      ],
+      "box_mm": [
+        213.0858873721424,
+        81.625,
+        99.97897679536985
+      ],
+      "box_volume_mm3": 1738947.8962271428,
+      "reduction_from_nominal_percent": 50.187637096911985,
+      "reduction_from_retracted_percent": 49.5000958560136
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 26.480841364623913
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        95,
+        95
+      ],
+      "box_mm": [
+        212.64494602210945,
+        81.625,
+        100.23065861183338
+      ],
+      "box_volume_mm3": 1739717.9465810978,
+      "reduction_from_nominal_percent": 50.1655789157738,
+      "reduction_from_retracted_percent": 49.477733214128165
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 9.387432391647046
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        95,
+        100
+      ],
+      "box_mm": [
+        212.80896688372115,
+        81.625,
+        100.23065861180348
+      ],
+      "box_volume_mm3": 1741059.8549677636,
+      "reduction_from_nominal_percent": 50.12713979538134,
+      "reduction_from_retracted_percent": 49.43876353306776
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 9.38743184347528
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        100,
+        95
+      ],
+      "box_mm": [
+        212.8089668837212,
+        81.625,
+        100.23065861183338
+      ],
+      "box_volume_mm3": 1741059.8549682833,
+      "reduction_from_nominal_percent": 50.127139795366446,
+      "reduction_from_retracted_percent": 49.438763533052665
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 7.051866043502112
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        95,
+        105
+      ],
+      "box_mm": [
+        212.86541669712585,
+        81.625,
+        100.23065861180348
+      ],
+      "box_volume_mm3": 1741521.6893790602,
+      "reduction_from_nominal_percent": 50.11391049544282,
+      "reduction_from_retracted_percent": 49.42535163409627
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 16.905675741851184
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        45,
+        60
+      ],
+      "box_mm": [
+        233.65749366507703,
+        81.625,
+        155.35541565238492
+      ],
+      "box_volume_mm3": 2962983.994094631,
+      "reduction_from_nominal_percent": 15.124982001988519,
+      "reduction_from_retracted_percent": 13.953484169027696
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 16.905587663384257
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        20,
+        0
+      ],
+      "angles_deg": [
+        60,
+        45
+      ],
+      "box_mm": [
+        233.65749366508328,
+        81.625,
+        155.35541565240612
+      ],
+      "box_volume_mm3": 2962983.9940951145,
+      "reduction_from_nominal_percent": 15.124982001974674,
+      "reduction_from_retracted_percent": 13.953484169013652
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 13.047795176178493
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        30,
+        0
+      ],
+      "angles_deg": [
+        60,
+        45
+      ],
+      "box_mm": [
+        233.65749366508328,
+        81.625,
+        163.7227540378172
+      ],
+      "box_volume_mm3": 3122568.3227458852,
+      "reduction_from_nominal_percent": 10.5536705155036,
+      "reduction_from_retracted_percent": 9.31907659577279
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 13.047688044369849
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        30
+      ],
+      "angles_deg": [
+        45,
+        60
+      ],
+      "box_mm": [
+        233.65749366507703,
+        81.625,
+        163.72275403784317
+      ],
+      "box_volume_mm3": 3122568.3227462973,
+      "reduction_from_nominal_percent": 10.553670515491786,
+      "reduction_from_retracted_percent": 9.319076595760823
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 424.9933373912105
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightLiner"
+          ],
+          "intersection_mm3": 0.723570944039252
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightCup"
+          ],
+          "intersection_mm3": 74.94137717250447
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightLiner"
+          ],
+          "intersection_mm3": 2.7057132129626034
+        }
+      ],
+      "errors": [],
+      "boolean_count": 26,
+      "bbox_dimensions_mm": [
+        236.46559434719933,
+        81.625,
+        171.1030983993145
+      ],
+      "extension_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        30,
+        60
+      ],
+      "box_mm": [
+        236.46559434719933,
+        81.625,
+        171.1030983993145
+      ],
+      "box_volume_mm3": 3302547.1618799656,
+      "reduction_from_nominal_percent": 5.398155925748305,
+      "reduction_from_retracted_percent": 4.092402384350757
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 5.662863132634497
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        30
+      ],
+      "angles_deg": [
+        30,
+        60
+      ],
+      "box_mm": [
+        236.46559434719933,
+        81.625,
+        171.1030983993145
+      ],
+      "box_volume_mm3": 3302547.1618799656,
+      "reduction_from_nominal_percent": 5.398155925748305,
+      "reduction_from_retracted_percent": 4.092402384350757
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 424.9934020056536
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 74.94139312765319
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 0.7235709509979306
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 2.7057131809847177
+        }
+      ],
+      "errors": [],
+      "boolean_count": 26,
+      "bbox_dimensions_mm": [
+        236.4655943472103,
+        81.625,
+        171.1030983993295
+      ],
+      "extension_mm": [
+        20,
+        0
+      ],
+      "angles_deg": [
+        60,
+        30
+      ],
+      "box_mm": [
+        236.4655943472103,
+        81.625,
+        171.1030983993295
+      ],
+      "box_volume_mm3": 3302547.1618804084,
+      "reduction_from_nominal_percent": 5.398155925735615,
+      "reduction_from_retracted_percent": 4.092402384337901
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 5.662858448884085
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        30,
+        0
+      ],
+      "angles_deg": [
+        60,
+        30
+      ],
+      "box_mm": [
+        236.4655943472103,
+        81.625,
+        171.1030983993295
+      ],
+      "box_volume_mm3": 3302547.1618804084,
+      "reduction_from_nominal_percent": 5.398155925735615,
+      "reduction_from_retracted_percent": 4.092402384337901
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 387.7642492937134
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightCup"
+          ],
+          "intersection_mm3": 49.92270463941646
+        }
+      ],
+      "errors": [],
+      "boolean_count": 42,
+      "bbox_dimensions_mm": [
+        233.65749366507703,
+        81.625,
+        175.35541565238492
+      ],
+      "extension_mm": [
+        20,
+        0
+      ],
+      "angles_deg": [
+        45,
+        60
+      ],
+      "box_mm": [
+        233.65749366507703,
+        81.625,
+        175.35541565238492
+      ],
+      "box_volume_mm3": 3344429.8525028694,
+      "reduction_from_nominal_percent": 4.198421425828968,
+      "reduction_from_retracted_percent": 2.8761084020308747
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 387.76504182701086
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 49.92270445379991
+        }
+      ],
+      "errors": [],
+      "boolean_count": 42,
+      "bbox_dimensions_mm": [
+        233.65749366508328,
+        81.625,
+        175.35541565240612
+      ],
+      "extension_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        60,
+        45
+      ],
+      "box_mm": [
+        233.65749366508328,
+        81.625,
+        175.35541565240612
+      ],
+      "box_volume_mm3": 3344429.852503363,
+      "reduction_from_nominal_percent": 4.198421425814836,
+      "reduction_from_retracted_percent": 2.8761084020165417
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 5.304233339632953
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        20,
+        0
+      ],
+      "angles_deg": [
+        45,
+        45
+      ],
+      "box_mm": [
+        236.18163246842028,
+        81.625,
+        175.35541565238492
+      ],
+      "box_volume_mm3": 3380558.8250145,
+      "reduction_from_nominal_percent": 3.1635028443294133,
+      "reduction_from_retracted_percent": 1.8269052300344368
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 5.304230683834522
+        }
+      ],
+      "errors": [],
+      "early_collision_rejection": true,
+      "extension_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        45,
+        45
+      ],
+      "box_mm": [
+        236.18163246842028,
+        81.625,
+        175.35541565240612
+      ],
+      "box_volume_mm3": 3380558.8250149083,
+      "reduction_from_nominal_percent": 3.1635028443177116,
+      "reduction_from_retracted_percent": 1.8269052300225797
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 41,
+      "bbox_dimensions_mm": [
+        233.65749366507703,
+        81.625,
+        185.35541565238492
+      ],
+      "extension_mm": [
+        30,
+        0
+      ],
+      "angles_deg": [
+        45,
+        60
+      ],
+      "box_mm": [
+        233.65749366507703,
+        81.625,
+        185.35541565238492
+      ],
+      "box_volume_mm3": 3535152.7817069883,
+      "reduction_from_nominal_percent": -1.2648588622508061,
+      "reduction_from_retracted_percent": -2.6625794814675308
+    }
+  ],
+  "best_clear_endpoint": {
+    "pass": true,
+    "overlaps": [],
+    "errors": [],
+    "boolean_count": 41,
+    "bbox_dimensions_mm": [
+      233.65749366507703,
+      81.625,
+      185.35541565238492
+    ],
+    "extension_mm": [
+      30,
+      0
+    ],
+    "angles_deg": [
+      45,
+      60
+    ],
+    "box_mm": [
+      233.65749366507703,
+      81.625,
+      185.35541565238492
+    ],
+    "box_volume_mm3": 3535152.7817069883,
+    "reduction_from_nominal_percent": -1.2648588622508061,
+    "reduction_from_retracted_percent": -2.6625794814675308
+  },
+  "nominal_box_mm": [
+    246.10425879803,
+    77.25,
+    183.62500000000003
+  ],
+  "retracted_unfolded_box_mm": [
+    246.10425879803,
+    77.25,
+    181.125
+  ],
+  "source_solid_validity": [
+    {
+      "part": "LeftMainFoam",
+      "valid": true,
+      "volume_mm3": 70411.65955597798,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftSoftGlassesZone",
+      "valid": true,
+      "volume_mm3": 3788.474731767664,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftContinuousCover",
+      "valid": true,
+      "volume_mm3": 3300.039817215985,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftCarrier",
+      "valid": true,
+      "volume_mm3": 3962.0850678001816,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftCup",
+      "valid": true,
+      "volume_mm3": 34570.3097680209,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftLiner",
+      "valid": true,
+      "volume_mm3": 13650.399470421242,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftFork",
+      "valid": true,
+      "volume_mm3": 10244.434766961831,
+      "self_common_mm3": 10244.434766961831,
+      "positive_common_control_performed": true,
+      "pass": true
+    },
+    {
+      "part": "LeftTongue",
+      "valid": true,
+      "volume_mm3": 6103.324244088147,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftCupPin",
+      "valid": true,
+      "volume_mm3": 379.95474536996227,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftCupPinCap",
+      "valid": true,
+      "volume_mm3": 14.110456357003827,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftForkPin",
+      "valid": true,
+      "volume_mm3": 138.11278828335278,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftForkPinCap",
+      "valid": true,
+      "volume_mm3": 8.57694406013935,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightMainFoam",
+      "valid": true,
+      "volume_mm3": 70411.65955596225,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightSoftGlassesZone",
+      "valid": true,
+      "volume_mm3": 3788.474731766591,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightContinuousCover",
+      "valid": true,
+      "volume_mm3": 3300.0398172397654,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightCarrier",
+      "valid": true,
+      "volume_mm3": 3962.0850678001384,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightCup",
+      "valid": true,
+      "volume_mm3": 34570.30976818642,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightLiner",
+      "valid": true,
+      "volume_mm3": 13650.399470421227,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightFork",
+      "valid": true,
+      "volume_mm3": 10244.434762788573,
+      "self_common_mm3": 10244.434762788573,
+      "positive_common_control_performed": true,
+      "pass": true
+    },
+    {
+      "part": "RightTongue",
+      "valid": true,
+      "volume_mm3": 6103.324244093928,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightCupPin",
+      "valid": true,
+      "volume_mm3": 379.95474536996227,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightCupPinCap",
+      "valid": true,
+      "volume_mm3": 14.110456357003473,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightForkPin",
+      "valid": true,
+      "volume_mm3": 138.11278828335278,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightForkPinCap",
+      "valid": true,
+      "volume_mm3": 8.576944060139388,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftSliderKnob",
+      "valid": true,
+      "volume_mm3": 221.63936171076196,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightSliderKnob",
+      "valid": true,
+      "volume_mm3": 221.63936171076196,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "Band",
+      "valid": true,
+      "volume_mm3": 18796.29551075013,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "CrownPad",
+      "valid": true,
+      "volume_mm3": 31448.50102957733,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftLockPin",
+      "valid": true,
+      "volume_mm3": 186.67343547630543,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftSpringSpace",
+      "valid": true,
+      "volume_mm3": 98.96016858808017,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightLockPin",
+      "valid": true,
+      "volume_mm3": 186.6734354763054,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightSpringSpace",
+      "valid": true,
+      "volume_mm3": 98.96016858808017,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftCapBolt1",
+      "valid": true,
+      "volume_mm3": 24.127431579569453,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftCapNut1",
+      "valid": true,
+      "volume_mm3": 10.286221254638342,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftCapBolt2",
+      "valid": true,
+      "volume_mm3": 24.12743157956943,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftCapNut2",
+      "valid": true,
+      "volume_mm3": 10.28622125463827,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftServiceCap",
+      "valid": true,
+      "volume_mm3": 414.46011526077854,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftPullKnob",
+      "valid": true,
+      "volume_mm3": 139.39246603978216,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightCapBolt1",
+      "valid": true,
+      "volume_mm3": 24.127431579569457,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightCapNut1",
+      "valid": true,
+      "volume_mm3": 10.286221254686293,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightCapBolt2",
+      "valid": true,
+      "volume_mm3": 24.12743157956943,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightCapNut2",
+      "valid": true,
+      "volume_mm3": 10.286221254686227,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightServiceCap",
+      "valid": true,
+      "volume_mm3": 414.4601152620904,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightPullKnob",
+      "valid": true,
+      "volume_mm3": 139.39246603978216,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    }
+  ],
+  "limits": [
+    "Finite endpoint search only; not a continuous folding path",
+    "Original V14 geometry and mechanism unchanged",
+    "No force contact pinch access physical carrying or durability validation",
+    "Baseline nominal extension15mm; also compare fully retracted unfolded pose to avoid attributing slider shrinkage to folding"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "nodes": 28803,
+  "tet10_elements": 15725,
+  "cg_iterations": 5726,
+  "relative_free_residual": 1.0318881508045097e-07,
+  "minimum_quadrature_jacobian_mm3": 0.018859415068183814,
+  "max_von_mises_centroid_MPa": 4.401867279656058,
+  "strain_energy_Nmm": 1.7807194441057261,
+  "reaction_sum_N": [
+    -0.9999999997713842,
+    -1.5417019076833986e-10,
+    1.9558930863805557e-10
+  ],
+  "size": "adult_medium",
+  "mesh_max_mm": 2.0,
+  "seconds": 29.78260040283203,
+  "E_MPa": 2000,
+  "poisson": 0.35,
+  "load_per_full_side_N": 2,
+  "max_displacement_mm": 5.091357619509847,
+  "guide_mean_x_displacement_mm": 3.5614388869057296
+}

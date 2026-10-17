@@ -1,0 +1,13 @@
+{
+  "sources": [
+    {
+      "file": "${WORKSPACE}\\EarDefender_V16_child_large_R16_IndexedRivetCandidate.step",
+      "sha256": "bc0b786d667b51388d1baeebc03dd447b0e037786909f122a34fec1e7c60a0fc"
+    },
+    {
+      "file": "${WORKSPACE}\\EarDefender_V16_adult_small_R16U2_IndexedRivetCandidate.step",
+      "sha256": "7da5759463828c82bbc860dea56d65db871c83f0525bfde8f77003c85ef2d1d3"
+    }
+  ],
+  "method": "Actual STEP surface tessellation and recorded rigid transforms, folded pins at zero release stroke"
+}

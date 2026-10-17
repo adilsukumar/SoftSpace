@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="580" viewBox="0 0 1600 580" role="img" aria-labelledby="title desc">
+  <title id="title">SoftSpace research and design</title>
+  <desc id="desc">SoftSpace and SoftSpace Flex, two comfort-focused headphone projects. Stylized concept illustration, not a manufactured product.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071720"/><stop offset="1" stop-color="#153b42"/></linearGradient>
+    <linearGradient id="mint" x2="1" y2="1"><stop stop-color="#b4ffe2"/><stop offset="1" stop-color="#65bdb7"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#75e5c5" stop-opacity=".17"/><stop offset="1" stop-color="#75e5c5" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#a0e2d1" stroke-opacity=".045"/></pattern>
+  </defs>
+  <rect width="1600" height="580" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="580" rx="28" fill="url(#grid)"/>
+  <circle cx="1240" cy="267" r="325" fill="url(#halo)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="82" y="65" width="252" height="34" rx="17" fill="#74e4bd" fill-opacity=".12" stroke="#74e4bd" stroke-opacity=".35"/>
+    <circle cx="103" cy="82" r="4" fill="#9df3d0"/>
+    <text x="119" y="88" font-size="13" letter-spacing="2" fill="#c3f6e2">RESEARCH IN PROGRESS</text>
+    <text x="78" y="227" font-size="114" font-weight="700" letter-spacing="-5" fill="#f1fbf7">SoftSpace</text>
+    <text x="84" y="285" font-size="30" fill="#bce6da">Comfort starts with the details.</text>
+    <text x="84" y="342" font-size="19" fill="#9bbcb8">Exploring affordable passive headphones and glasses-friendly</text>
+    <text x="84" y="372" font-size="19" fill="#9bbcb8">replacement cushions for people in India.</text>
+    <path d="M84 423H740" stroke="#b8e4d6" stroke-opacity=".17"/>
+    <text x="84" y="465" font-size="16" font-weight="700" fill="#a5efd4">01 / SOFTSPACE</text>
+    <text x="84" y="492" font-size="15" fill="#9bbcb8">Standalone passive headphones</text>
+    <text x="424" y="465" font-size="16" font-weight="700" fill="#f0cbb3">02 / SOFTSPACE FLEX</text>
+    <text x="424" y="492" font-size="15" fill="#9bbcb8">Replacement cushions for glasses users</text>
+    <g transform="translate(905 55)">
+      <circle cx="293" cy="216" r="194" fill="none" stroke="#b0eed9" stroke-opacity=".12" stroke-dasharray="3 11"/>
+      <circle cx="293" cy="216" r="161" fill="none" stroke="#b0eed9" stroke-opacity=".08"/>
+      <path d="M124 265V178c0-105 69-153 169-153s169 48 169 153v87" fill="none" stroke="#284f54" stroke-width="40" stroke-linecap="round"/>
+      <path d="M124 260V178c0-105 69-153 169-153s169 48 169 153v82" fill="none" stroke="url(#mint)" stroke-width="14" stroke-linecap="round"/>
+      <path d="M140 181v57m306-57v57" stroke="#8ac4bb" stroke-width="15" stroke-linecap="round"/>
+      <g transform="rotate(-10 135 298)"><rect x="91" y="223" width="92" height="168" rx="43" fill="#1c444a" stroke="#a0e6cf" stroke-width="2"/><ellipse cx="147" cy="307" rx="28" ry="65" fill="#76c8b8"/><ellipse cx="152" cy="307" rx="17" ry="44" fill="#12333b"/></g>
+      <g transform="rotate(10 451 298)"><rect x="401" y="223" width="92" height="168" rx="43" fill="#1c444a" stroke="#a0e6cf" stroke-width="2"/><ellipse cx="430" cy="307" rx="28" ry="65" fill="#76c8b8"/><ellipse cx="426" cy="307" rx="17" ry="44" fill="#12333b"/></g>
+      <path d="M183 280h44m128 0h46" stroke="#f1c9ae" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="227" cy="280" r="5" fill="#f1c9ae"/><circle cx="355" cy="280" r="5" fill="#f1c9ae"/>
+      <text x="293" y="451" text-anchor="middle" font-size="13" fill="#93b9b1" letter-spacing="2">CONCEPT ILLUSTRATION / V19 RESEARCH</text>
+    </g>
+  </g>
+</svg>

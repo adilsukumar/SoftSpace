@@ -1,0 +1,4199 @@
+{
+  "sources": [
+    {
+      "size": "adult_large",
+      "file": "${WORKSPACE}\\EarDefender_V18_adult_large_FrictionStop.step",
+      "sha256": "b0b177bdd0c19ccdd031ac53d53a31b8574c5b8ad9018797e344c8a5998cec4b"
+    },
+    {
+      "size": "adult_medium",
+      "file": "${WORKSPACE}\\EarDefender_V18_adult_medium_FrictionStop.step",
+      "sha256": "9f6848d3981fe2fb1e24f43f3f65b2e491838fe1e1a99d4c3fa986ef6f1a0217"
+    },
+    {
+      "size": "adult_small",
+      "file": "${WORKSPACE}\\EarDefender_V18_adult_small_FrictionStop.step",
+      "sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d"
+    },
+    {
+      "size": "child_large",
+      "file": "${WORKSPACE}\\EarDefender_V18_child_large_FrictionStop.step",
+      "sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c"
+    },
+    {
+      "size": "child_medium",
+      "file": "${WORKSPACE}\\EarDefender_V18_child_medium_FrictionStop.step",
+      "sha256": "aff177f6c54fe4069bc68a6788ccd49af2d7e6c19555e64ddb5c2800f0da6025"
+    },
+    {
+      "size": "child_small",
+      "file": "${WORKSPACE}\\EarDefender_V18_child_small_FrictionStop.step",
+      "sha256": "2fb80f968c89336e6a292464d754ab9b8be3d2a3013144833502dee4ecf4d403"
+    }
+  ],
+  "manufacturer_reference": {
+    "article": "SCHNORR 000600B",
+    "nominal_force_N": 118,
+    "test_shortening_mm": 0.1875,
+    "test_loaded_height_mm": 0.3625,
+    "source": "https://www.schnorr-group.com/fileadmin/4_Downloads/Brochures/SCHNORR_Produktbroschuere_EN_2024-02.pdf",
+    "scope": "Published calculated reference point for 8 x 4.2 x 0.3 mm disc. Actual spring and assembled preload are unmeasured. CAD shows this reference height, not the position needed for calibrated hinge torque."
+  },
+  "friction_model": "Two uniform-pressure annular friction interfaces; torque=2*mu*F*rmean",
+  "effective_radius_mm": 4.069498910675381,
+  "densities_kg_per_m3": {
+    "MainFoam": [
+      40,
+      60,
+      100
+    ],
+    "SoftGlassesZone": [
+      20,
+      40,
+      80
+    ],
+    "ContinuousCover": [
+      900,
+      1100,
+      1300
+    ],
+    "Carrier": [
+      900,
+      1200,
+      1500
+    ],
+    "Cup": [
+      900,
+      1200,
+      1500
+    ],
+    "Liner": [
+      20,
+      40,
+      80
+    ],
+    "Fork": [
+      900,
+      1200,
+      1500
+    ],
+    "CupPin": [
+      2700,
+      7800,
+      8000
+    ],
+    "CupPinCap": [
+      2700,
+      7800,
+      8000
+    ]
+  },
+  "mass_cases": [
+    {
+      "size": "adult_large",
+      "density_scenario": "low",
+      "assumed_mass_per_moving_side_g": 58.861812375162586,
+      "radial_centre_of_mass_mm": 55.36200337797606,
+      "maximum_gravity_moment_over_orientation_Nmm": 31.957007391605323,
+      "chosen_minimum_torque_exceeds_static_gravity": true
+    },
+    {
+      "size": "adult_large",
+      "density_scenario": "middle",
+      "assumed_mass_per_moving_side_g": 80.66966465421127,
+      "radial_centre_of_mass_mm": 54.828553766016896,
+      "maximum_gravity_moment_over_orientation_Nmm": 43.3748232055982,
+      "chosen_minimum_torque_exceeds_static_gravity": true
+    },
+    {
+      "size": "adult_large",
+      "density_scenario": "high",
+      "assumed_mass_per_moving_side_g": 102.96997950364944,
+      "radial_centre_of_mass_mm": 55.22660615887995,
+      "maximum_gravity_moment_over_orientation_Nmm": 55.767304980165854,
+      "chosen_minimum_torque_exceeds_static_gravity": true
+    },
+    {
+      "size": "adult_medium",
+      "density_scenario": "low",
+      "assumed_mass_per_moving_side_g": 58.861809267913415,
+      "radial_centre_of_mass_mm": 55.36199957983787,
+      "maximum_gravity_moment_over_orientation_Nmm": 31.957003512204174,
+      "chosen_minimum_torque_exceeds_static_gravity": true
+    },
+    {
+      "size": "adult_medium",
+      "density_scenario": "middle",
+      "assumed_mass_per_moving_side_g": 80.66966012337964,
+      "radial_centre_of_mass_mm": 54.8285503505117,
+      "maximum_gravity_moment_over_orientation_Nmm": 43.37481806743738,
+      "chosen_minimum_torque_exceeds_static_gravity": true
+    },
+    {
+      "size": "adult_medium",
+      "density_scenario": "high",
+      "assumed_mass_per_moving_side_g": 102.96997222968766,
+      "radial_centre_of_mass_mm": 55.226602953859526,
+      "maximum_gravity_moment_over_orientation_Nmm": 55.767297804276346,
+      "chosen_minimum_torque_exceeds_static_gravity": true
+    },
+    {
+      "size": "adult_small",
+      "density_scenario": "low",
+      "assumed_mass_per_moving_side_g": 58.86180593926098,
+      "radial_centre_of_mass_mm": 55.36199549191583,
+      "maximum_gravity_moment_over_orientation_Nmm": 31.95699934532595,
+      "chosen_minimum_torque_exceeds_static_gravity": true
+    },
+    {
+      "size": "adult_small",
+      "density_scenario": "middle",
+      "assumed_mass_per_moving_side_g": 80.66965526592277,
+      "radial_centre_of_mass_mm": 54.82854667449162,
+      "maximum_gravity_moment_over_orientation_Nmm": 43.3748125475625,
+      "chosen_minimum_torque_exceeds_static_gravity": true
+    },
+    {
+      "size": "adult_small",
+      "density_scenario": "high",
+      "assumed_mass_per_moving_side_g": 102.96996442303926,
+      "radial_centre_of_mass_mm": 55.22659950439789,
+      "maximum_gravity_moment_over_orientation_Nmm": 55.767290093056275,
+      "chosen_minimum_torque_exceeds_static_gravity": true
+    },
+    {
+      "size": "child_large",
+      "density_scenario": "low",
+      "assumed_mass_per_moving_side_g": 46.656540371516,
+      "radial_centre_of_mass_mm": 51.759862708070614,
+      "maximum_gravity_moment_over_orientation_Nmm": 23.682433341044597,
+      "chosen_minimum_torque_exceeds_static_gravity": true
+    },
+    {
+      "size": "child_large",
+      "density_scenario": "middle",
+      "assumed_mass_per_moving_side_g": 64.23572480955539,
+      "radial_centre_of_mass_mm": 51.090549890775556,
+      "maximum_gravity_moment_over_orientation_Nmm": 32.18384155694261,
+      "chosen_minimum_torque_exceeds_static_gravity": true
+    },
+    {
+      "size": "child_large",
+      "density_scenario": "high",
+      "assumed_mass_per_moving_side_g": 81.64100107487165,
+      "radial_centre_of_mass_mm": 51.52428525454056,
+      "maximum_gravity_moment_over_orientation_Nmm": 41.251616619524995,
+      "chosen_minimum_torque_exceeds_static_gravity": true
+    },
+    {
+      "size": "child_medium",
+      "density_scenario": "low",
+      "assumed_mass_per_moving_side_g": 46.656582729059245,
+      "radial_centre_of_mass_mm": 51.759677620023325,
+      "maximum_gravity_moment_over_orientation_Nmm": 23.682370155276974,
+      "chosen_minimum_torque_exceeds_static_gravity": true
+    },
+    {
+      "size": "child_medium",
+      "density_scenario": "middle",
+      "assumed_mass_per_moving_side_g": 64.23577622401052,
+      "radial_centre_of_mass_mm": 51.09038587746806,
+      "maximum_gravity_moment_over_orientation_Nmm": 32.1837639988021,
+      "chosen_minimum_torque_exceeds_static_gravity": true
+    },
+    {
+      "size": "child_medium",
+      "density_scenario": "high",
+      "assumed_mass_per_moving_side_g": 81.64106090566267,
+      "radial_centre_of_mass_mm": 51.52413269084769,
+      "maximum_gravity_moment_over_orientation_Nmm": 41.251524704511006,
+      "chosen_minimum_torque_exceeds_static_gravity": true
+    },
+    {
+      "size": "child_small",
+      "density_scenario": "low",
+      "assumed_mass_per_moving_side_g": 46.658537942229906,
+      "radial_centre_of_mass_mm": 51.756047930876356,
+      "maximum_gravity_moment_over_orientation_Nmm": 23.68170178515082,
+      "chosen_minimum_torque_exceeds_static_gravity": true
+    },
+    {
+      "size": "child_small",
+      "density_scenario": "middle",
+      "assumed_mass_per_moving_side_g": 64.23816553119919,
+      "radial_centre_of_mass_mm": 51.08717865347276,
+      "maximum_gravity_moment_over_orientation_Nmm": 32.18294067601298,
+      "chosen_minimum_torque_exceeds_static_gravity": true
+    },
+    {
+      "size": "child_small",
+      "density_scenario": "high",
+      "assumed_mass_per_moving_side_g": 81.64388359083252,
+      "radial_centre_of_mass_mm": 51.52115059532271,
+      "maximum_gravity_moment_over_orientation_Nmm": 41.25056332473284,
+      "chosen_minimum_torque_exceeds_static_gravity": true
+    }
+  ],
+  "torque_cases": [
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 28.812052287581697,
+      "fold_force_N": 0.5762410457516339
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 28.812052287581697,
+      "fold_force_N": 0.44326234288587224
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 28.812052287581697,
+      "fold_force_N": 0.28812052287581696
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 38.4160697167756,
+      "fold_force_N": 0.768321394335512
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 38.4160697167756,
+      "fold_force_N": 0.5910164571811631
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 38.4160697167756,
+      "fold_force_N": 0.384160697167756
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 48.0200871459695,
+      "fold_force_N": 0.96040174291939
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 48.0200871459695,
+      "fold_force_N": 0.7387705714764539
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 48.0200871459695,
+      "fold_force_N": 0.480200871459695
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.8865246857717445
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.5762410457516339
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.8865246857717445
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.5762410457516339
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 76.8321394335512,
+      "fold_force_N": 1.536642788671024
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 76.8321394335512,
+      "fold_force_N": 1.1820329143623263
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 76.8321394335512,
+      "fold_force_N": 0.768321394335512
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 96.040174291939,
+      "fold_force_N": 1.92080348583878
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 96.040174291939,
+      "fold_force_N": 1.4775411429529077
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 96.040174291939,
+      "fold_force_N": 0.96040174291939
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.773049371543489
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 86.43615686274508,
+      "fold_force_N": 1.7287231372549017
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 86.43615686274508,
+      "fold_force_N": 1.3297870286576166
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 86.43615686274508,
+      "fold_force_N": 0.8643615686274508
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.773049371543489
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 144.06026143790848,
+      "fold_force_N": 2.8812052287581698
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 144.06026143790848,
+      "fold_force_N": 2.216311714429361
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 144.06026143790848,
+      "fold_force_N": 1.4406026143790849
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 3.4574462745098034
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 2.659574057315233
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 1.7287231372549017
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.773049371543489
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 153.6642788671024,
+      "fold_force_N": 3.073285577342048
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 153.6642788671024,
+      "fold_force_N": 2.3640658287246525
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 153.6642788671024,
+      "fold_force_N": 1.536642788671024
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 192.080348583878,
+      "fold_force_N": 3.84160697167756
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 192.080348583878,
+      "fold_force_N": 2.9550822859058155
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 192.080348583878,
+      "fold_force_N": 1.92080348583878
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 3.546098743086978
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 3.4574462745098034
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 2.659574057315233
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 1.7287231372549017
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 3.546098743086978
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 288.12052287581696,
+      "fold_force_N": 5.7624104575163395
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 288.12052287581696,
+      "fold_force_N": 4.432623428858722
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 288.12052287581696,
+      "fold_force_N": 2.8812052287581698
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 345.7446274509803,
+      "fold_force_N": 6.914892549019607
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 345.7446274509803,
+      "fold_force_N": 5.319148114630466
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 345.7446274509803,
+      "fold_force_N": 3.4574462745098034
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 3.546098743086978
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 307.3285577342048,
+      "fold_force_N": 6.146571154684096
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 307.3285577342048,
+      "fold_force_N": 4.728131657449305
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 307.3285577342048,
+      "fold_force_N": 3.073285577342048
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 384.160697167756,
+      "fold_force_N": 7.68321394335512
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 384.160697167756,
+      "fold_force_N": 5.910164571811631
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 384.160697167756,
+      "fold_force_N": 3.84160697167756
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 460.99283660130715,
+      "fold_force_N": 9.219856732026143
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 460.99283660130715,
+      "fold_force_N": 7.092197486173956
+    },
+    {
+      "size": "adult_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 460.99283660130715,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 28.812052287581697,
+      "fold_force_N": 0.5762410457516339
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 28.812052287581697,
+      "fold_force_N": 0.44326234288587224
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 28.812052287581697,
+      "fold_force_N": 0.28812052287581696
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 38.4160697167756,
+      "fold_force_N": 0.768321394335512
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 38.4160697167756,
+      "fold_force_N": 0.5910164571811631
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 38.4160697167756,
+      "fold_force_N": 0.384160697167756
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 48.0200871459695,
+      "fold_force_N": 0.96040174291939
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 48.0200871459695,
+      "fold_force_N": 0.7387705714764539
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 48.0200871459695,
+      "fold_force_N": 0.480200871459695
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.8865246857717445
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.5762410457516339
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.8865246857717445
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.5762410457516339
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 76.8321394335512,
+      "fold_force_N": 1.536642788671024
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 76.8321394335512,
+      "fold_force_N": 1.1820329143623263
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 76.8321394335512,
+      "fold_force_N": 0.768321394335512
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 96.040174291939,
+      "fold_force_N": 1.92080348583878
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 96.040174291939,
+      "fold_force_N": 1.4775411429529077
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 96.040174291939,
+      "fold_force_N": 0.96040174291939
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.773049371543489
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 86.43615686274508,
+      "fold_force_N": 1.7287231372549017
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 86.43615686274508,
+      "fold_force_N": 1.3297870286576166
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 86.43615686274508,
+      "fold_force_N": 0.8643615686274508
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.773049371543489
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 144.06026143790848,
+      "fold_force_N": 2.8812052287581698
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 144.06026143790848,
+      "fold_force_N": 2.216311714429361
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 144.06026143790848,
+      "fold_force_N": 1.4406026143790849
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 3.4574462745098034
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 2.659574057315233
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 1.7287231372549017
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.773049371543489
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 153.6642788671024,
+      "fold_force_N": 3.073285577342048
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 153.6642788671024,
+      "fold_force_N": 2.3640658287246525
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 153.6642788671024,
+      "fold_force_N": 1.536642788671024
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 192.080348583878,
+      "fold_force_N": 3.84160697167756
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 192.080348583878,
+      "fold_force_N": 2.9550822859058155
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 192.080348583878,
+      "fold_force_N": 1.92080348583878
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 3.546098743086978
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 3.4574462745098034
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 2.659574057315233
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 1.7287231372549017
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 3.546098743086978
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 288.12052287581696,
+      "fold_force_N": 5.7624104575163395
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 288.12052287581696,
+      "fold_force_N": 4.432623428858722
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 288.12052287581696,
+      "fold_force_N": 2.8812052287581698
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 345.7446274509803,
+      "fold_force_N": 6.914892549019607
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 345.7446274509803,
+      "fold_force_N": 5.319148114630466
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 345.7446274509803,
+      "fold_force_N": 3.4574462745098034
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 3.546098743086978
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 307.3285577342048,
+      "fold_force_N": 6.146571154684096
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 307.3285577342048,
+      "fold_force_N": 4.728131657449305
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 307.3285577342048,
+      "fold_force_N": 3.073285577342048
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 384.160697167756,
+      "fold_force_N": 7.68321394335512
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 384.160697167756,
+      "fold_force_N": 5.910164571811631
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 384.160697167756,
+      "fold_force_N": 3.84160697167756
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 460.99283660130715,
+      "fold_force_N": 9.219856732026143
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 460.99283660130715,
+      "fold_force_N": 7.092197486173956
+    },
+    {
+      "size": "adult_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 460.99283660130715,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 28.812052287581697,
+      "fold_force_N": 0.5762410457516339
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 28.812052287581697,
+      "fold_force_N": 0.44326234288587224
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 28.812052287581697,
+      "fold_force_N": 0.28812052287581696
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 38.4160697167756,
+      "fold_force_N": 0.768321394335512
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 38.4160697167756,
+      "fold_force_N": 0.5910164571811631
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 38.4160697167756,
+      "fold_force_N": 0.384160697167756
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 48.0200871459695,
+      "fold_force_N": 0.96040174291939
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 48.0200871459695,
+      "fold_force_N": 0.7387705714764539
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 48.0200871459695,
+      "fold_force_N": 0.480200871459695
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.8865246857717445
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.5762410457516339
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.8865246857717445
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.5762410457516339
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 76.8321394335512,
+      "fold_force_N": 1.536642788671024
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 76.8321394335512,
+      "fold_force_N": 1.1820329143623263
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 76.8321394335512,
+      "fold_force_N": 0.768321394335512
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 96.040174291939,
+      "fold_force_N": 1.92080348583878
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 96.040174291939,
+      "fold_force_N": 1.4775411429529077
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 96.040174291939,
+      "fold_force_N": 0.96040174291939
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.773049371543489
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 86.43615686274508,
+      "fold_force_N": 1.7287231372549017
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 86.43615686274508,
+      "fold_force_N": 1.3297870286576166
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 86.43615686274508,
+      "fold_force_N": 0.8643615686274508
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.773049371543489
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 144.06026143790848,
+      "fold_force_N": 2.8812052287581698
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 144.06026143790848,
+      "fold_force_N": 2.216311714429361
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 144.06026143790848,
+      "fold_force_N": 1.4406026143790849
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 3.4574462745098034
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 2.659574057315233
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 1.7287231372549017
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.773049371543489
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 153.6642788671024,
+      "fold_force_N": 3.073285577342048
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 153.6642788671024,
+      "fold_force_N": 2.3640658287246525
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 153.6642788671024,
+      "fold_force_N": 1.536642788671024
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 192.080348583878,
+      "fold_force_N": 3.84160697167756
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 192.080348583878,
+      "fold_force_N": 2.9550822859058155
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 192.080348583878,
+      "fold_force_N": 1.92080348583878
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 3.546098743086978
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 3.4574462745098034
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 2.659574057315233
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 1.7287231372549017
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 3.546098743086978
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 288.12052287581696,
+      "fold_force_N": 5.7624104575163395
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 288.12052287581696,
+      "fold_force_N": 4.432623428858722
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 288.12052287581696,
+      "fold_force_N": 2.8812052287581698
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 345.7446274509803,
+      "fold_force_N": 6.914892549019607
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 345.7446274509803,
+      "fold_force_N": 5.319148114630466
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 345.7446274509803,
+      "fold_force_N": 3.4574462745098034
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 3.546098743086978
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 307.3285577342048,
+      "fold_force_N": 6.146571154684096
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 307.3285577342048,
+      "fold_force_N": 4.728131657449305
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 307.3285577342048,
+      "fold_force_N": 3.073285577342048
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 384.160697167756,
+      "fold_force_N": 7.68321394335512
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 384.160697167756,
+      "fold_force_N": 5.910164571811631
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 384.160697167756,
+      "fold_force_N": 3.84160697167756
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 460.99283660130715,
+      "fold_force_N": 9.219856732026143
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 460.99283660130715,
+      "fold_force_N": 7.092197486173956
+    },
+    {
+      "size": "adult_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 460.99283660130715,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 28.812052287581697,
+      "fold_force_N": 0.5762410457516339
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 28.812052287581697,
+      "fold_force_N": 0.44326234288587224
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 28.812052287581697,
+      "fold_force_N": 0.28812052287581696
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 38.4160697167756,
+      "fold_force_N": 0.768321394335512
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 38.4160697167756,
+      "fold_force_N": 0.5910164571811631
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 38.4160697167756,
+      "fold_force_N": 0.384160697167756
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 48.0200871459695,
+      "fold_force_N": 0.96040174291939
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 48.0200871459695,
+      "fold_force_N": 0.7387705714764539
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 48.0200871459695,
+      "fold_force_N": 0.480200871459695
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.8865246857717445
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.5762410457516339
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.8865246857717445
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.5762410457516339
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 76.8321394335512,
+      "fold_force_N": 1.536642788671024
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 76.8321394335512,
+      "fold_force_N": 1.1820329143623263
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 76.8321394335512,
+      "fold_force_N": 0.768321394335512
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 96.040174291939,
+      "fold_force_N": 1.92080348583878
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 96.040174291939,
+      "fold_force_N": 1.4775411429529077
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 96.040174291939,
+      "fold_force_N": 0.96040174291939
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.773049371543489
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 86.43615686274508,
+      "fold_force_N": 1.7287231372549017
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 86.43615686274508,
+      "fold_force_N": 1.3297870286576166
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 86.43615686274508,
+      "fold_force_N": 0.8643615686274508
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.773049371543489
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 144.06026143790848,
+      "fold_force_N": 2.8812052287581698
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 144.06026143790848,
+      "fold_force_N": 2.216311714429361
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 144.06026143790848,
+      "fold_force_N": 1.4406026143790849
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 3.4574462745098034
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 2.659574057315233
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 1.7287231372549017
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.773049371543489
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 153.6642788671024,
+      "fold_force_N": 3.073285577342048
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 153.6642788671024,
+      "fold_force_N": 2.3640658287246525
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 153.6642788671024,
+      "fold_force_N": 1.536642788671024
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 192.080348583878,
+      "fold_force_N": 3.84160697167756
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 192.080348583878,
+      "fold_force_N": 2.9550822859058155
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 192.080348583878,
+      "fold_force_N": 1.92080348583878
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 3.546098743086978
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 3.4574462745098034
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 2.659574057315233
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 1.7287231372549017
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 3.546098743086978
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 288.12052287581696,
+      "fold_force_N": 5.7624104575163395
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 288.12052287581696,
+      "fold_force_N": 4.432623428858722
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 288.12052287581696,
+      "fold_force_N": 2.8812052287581698
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 345.7446274509803,
+      "fold_force_N": 6.914892549019607
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 345.7446274509803,
+      "fold_force_N": 5.319148114630466
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 345.7446274509803,
+      "fold_force_N": 3.4574462745098034
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 3.546098743086978
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 307.3285577342048,
+      "fold_force_N": 6.146571154684096
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 307.3285577342048,
+      "fold_force_N": 4.728131657449305
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 307.3285577342048,
+      "fold_force_N": 3.073285577342048
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 384.160697167756,
+      "fold_force_N": 7.68321394335512
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 384.160697167756,
+      "fold_force_N": 5.910164571811631
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 384.160697167756,
+      "fold_force_N": 3.84160697167756
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 460.99283660130715,
+      "fold_force_N": 9.219856732026143
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 460.99283660130715,
+      "fold_force_N": 7.092197486173956
+    },
+    {
+      "size": "child_large",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 460.99283660130715,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 28.812052287581697,
+      "fold_force_N": 0.5762410457516339
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 28.812052287581697,
+      "fold_force_N": 0.44326234288587224
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 28.812052287581697,
+      "fold_force_N": 0.28812052287581696
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 38.4160697167756,
+      "fold_force_N": 0.768321394335512
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 38.4160697167756,
+      "fold_force_N": 0.5910164571811631
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 38.4160697167756,
+      "fold_force_N": 0.384160697167756
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 48.0200871459695,
+      "fold_force_N": 0.96040174291939
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 48.0200871459695,
+      "fold_force_N": 0.7387705714764539
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 48.0200871459695,
+      "fold_force_N": 0.480200871459695
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.8865246857717445
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.5762410457516339
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.8865246857717445
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.5762410457516339
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 76.8321394335512,
+      "fold_force_N": 1.536642788671024
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 76.8321394335512,
+      "fold_force_N": 1.1820329143623263
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 76.8321394335512,
+      "fold_force_N": 0.768321394335512
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 96.040174291939,
+      "fold_force_N": 1.92080348583878
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 96.040174291939,
+      "fold_force_N": 1.4775411429529077
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 96.040174291939,
+      "fold_force_N": 0.96040174291939
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.773049371543489
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 86.43615686274508,
+      "fold_force_N": 1.7287231372549017
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 86.43615686274508,
+      "fold_force_N": 1.3297870286576166
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 86.43615686274508,
+      "fold_force_N": 0.8643615686274508
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.773049371543489
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 144.06026143790848,
+      "fold_force_N": 2.8812052287581698
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 144.06026143790848,
+      "fold_force_N": 2.216311714429361
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 144.06026143790848,
+      "fold_force_N": 1.4406026143790849
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 3.4574462745098034
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 2.659574057315233
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 1.7287231372549017
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.773049371543489
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 153.6642788671024,
+      "fold_force_N": 3.073285577342048
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 153.6642788671024,
+      "fold_force_N": 2.3640658287246525
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 153.6642788671024,
+      "fold_force_N": 1.536642788671024
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 192.080348583878,
+      "fold_force_N": 3.84160697167756
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 192.080348583878,
+      "fold_force_N": 2.9550822859058155
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 192.080348583878,
+      "fold_force_N": 1.92080348583878
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 3.546098743086978
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 3.4574462745098034
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 2.659574057315233
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 1.7287231372549017
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 3.546098743086978
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 288.12052287581696,
+      "fold_force_N": 5.7624104575163395
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 288.12052287581696,
+      "fold_force_N": 4.432623428858722
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 288.12052287581696,
+      "fold_force_N": 2.8812052287581698
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 345.7446274509803,
+      "fold_force_N": 6.914892549019607
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 345.7446274509803,
+      "fold_force_N": 5.319148114630466
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 345.7446274509803,
+      "fold_force_N": 3.4574462745098034
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 3.546098743086978
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 307.3285577342048,
+      "fold_force_N": 6.146571154684096
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 307.3285577342048,
+      "fold_force_N": 4.728131657449305
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 307.3285577342048,
+      "fold_force_N": 3.073285577342048
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 384.160697167756,
+      "fold_force_N": 7.68321394335512
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 384.160697167756,
+      "fold_force_N": 5.910164571811631
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 384.160697167756,
+      "fold_force_N": 3.84160697167756
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 460.99283660130715,
+      "fold_force_N": 9.219856732026143
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 460.99283660130715,
+      "fold_force_N": 7.092197486173956
+    },
+    {
+      "size": "child_medium",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 460.99283660130715,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 28.812052287581697,
+      "fold_force_N": 0.5762410457516339
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 28.812052287581697,
+      "fold_force_N": 0.44326234288587224
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 28.812052287581697,
+      "fold_force_N": 0.28812052287581696
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 38.4160697167756,
+      "fold_force_N": 0.768321394335512
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 38.4160697167756,
+      "fold_force_N": 0.5910164571811631
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 38.4160697167756,
+      "fold_force_N": 0.384160697167756
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 48.0200871459695,
+      "fold_force_N": 0.96040174291939
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 48.0200871459695,
+      "fold_force_N": 0.7387705714764539
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 48.0200871459695,
+      "fold_force_N": 0.480200871459695
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.8865246857717445
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.05,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.5762410457516339
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.8865246857717445
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 57.62410457516339,
+      "fold_force_N": 0.5762410457516339
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 76.8321394335512,
+      "fold_force_N": 1.536642788671024
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 76.8321394335512,
+      "fold_force_N": 1.1820329143623263
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 76.8321394335512,
+      "fold_force_N": 0.768321394335512
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 96.040174291939,
+      "fold_force_N": 1.92080348583878
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 96.040174291939,
+      "fold_force_N": 1.4775411429529077
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 96.040174291939,
+      "fold_force_N": 0.96040174291939
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.773049371543489
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.1,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 86.43615686274508,
+      "fold_force_N": 1.7287231372549017
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 86.43615686274508,
+      "fold_force_N": 1.3297870286576166
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 86.43615686274508,
+      "fold_force_N": 0.8643615686274508
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.773049371543489
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 144.06026143790848,
+      "fold_force_N": 2.8812052287581698
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 144.06026143790848,
+      "fold_force_N": 2.216311714429361
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 144.06026143790848,
+      "fold_force_N": 1.4406026143790849
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 3.4574462745098034
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 2.659574057315233
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.15,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 1.7287231372549017
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.773049371543489
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 115.24820915032679,
+      "fold_force_N": 1.1524820915032679
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 153.6642788671024,
+      "fold_force_N": 3.073285577342048
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 153.6642788671024,
+      "fold_force_N": 2.3640658287246525
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 153.6642788671024,
+      "fold_force_N": 1.536642788671024
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 192.080348583878,
+      "fold_force_N": 3.84160697167756
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 192.080348583878,
+      "fold_force_N": 2.9550822859058155
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 192.080348583878,
+      "fold_force_N": 1.92080348583878
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 3.546098743086978
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.2,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 3.4574462745098034
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 2.659574057315233
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 172.87231372549016,
+      "fold_force_N": 1.7287231372549017
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 3.546098743086978
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 288.12052287581696,
+      "fold_force_N": 5.7624104575163395
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 288.12052287581696,
+      "fold_force_N": 4.432623428858722
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 288.12052287581696,
+      "fold_force_N": 2.8812052287581698
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 345.7446274509803,
+      "fold_force_N": 6.914892549019607
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 345.7446274509803,
+      "fold_force_N": 5.319148114630466
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.3,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 345.7446274509803,
+      "fold_force_N": 3.4574462745098034
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 4.609928366013071
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 3.546098743086978
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.6,
+      "assumed_preload_N": 70.8,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 230.49641830065357,
+      "fold_force_N": 2.3049641830065357
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 307.3285577342048,
+      "fold_force_N": 6.146571154684096
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 307.3285577342048,
+      "fold_force_N": 4.728131657449305
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 0.8,
+      "assumed_preload_N": 94.4,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 307.3285577342048,
+      "fold_force_N": 3.073285577342048
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 384.160697167756,
+      "fold_force_N": 7.68321394335512
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 384.160697167756,
+      "fold_force_N": 5.910164571811631
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1,
+      "assumed_preload_N": 118,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 384.160697167756,
+      "fold_force_N": 3.84160697167756
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 50,
+      "hinge_torque_Nmm": 460.99283660130715,
+      "fold_force_N": 9.219856732026143
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 65,
+      "hinge_torque_Nmm": 460.99283660130715,
+      "fold_force_N": 7.092197486173956
+    },
+    {
+      "size": "child_small",
+      "assumed_mu": 0.4,
+      "preload_fraction_of_catalogue_force": 1.2,
+      "assumed_preload_N": 141.6,
+      "grip_lever_mm": 100,
+      "hinge_torque_Nmm": 460.99283660130715,
+      "fold_force_N": 4.609928366013071
+    }
+  ],
+  "chosen_comparison_window": {
+    "direct_measured_torque_target_Nmm": 80,
+    "chosen_fractional_tolerance": 0.2,
+    "minimum_torque_Nmm": 64,
+    "maximum_torque_Nmm": 96,
+    "maximum_force_at65mm_N": 1.476923076923077,
+    "maximum_force_at50mm_N": 1.92,
+    "scope": "Proposed assembly acceptance criterion only, not achieved by a sample and not a sensory comfort threshold"
+  },
+  "limits": [
+    "Density,coefficient and preload ranges are assumptions,not selected materials or measured properties",
+    "Friction changes with wear,humidity,contamination,creep and manufacturing",
+    "Gravity holding is a static orientation screen,not shake,bag handling or user safety",
+    "Wearing stop is intended to carry outward head reaction;friction still does not lock all directions",
+    "No torque comfort threshold or actual spring preload qualification",
+    "The 80 Nmm target and 20 percent window are chosen comparisons, not validated requirements",
+    "Uniform annular friction omits real pressure, bending, wear, disc spring seating and material creep",
+    "The 7.5 percent reduction is a catalogue reference tolerance, not a measured component guarantee",
+    "Static gravity holding does not establish resistance to shocks or inadvertent folding under an inward load"
+  ],
+  "preload_capacity_comparisons": [
+    {
+      "assumed_mu": 0.05,
+      "preload_for80Nmm_N": 196.584399593126,
+      "nominal_catalogue_point_torque_Nmm": 48.0200871459695,
+      "reference_force_reduced7point5percent_torque_Nmm": 44.418580610021785,
+      "target_within_reference_capacity": false
+    },
+    {
+      "assumed_mu": 0.1,
+      "preload_for80Nmm_N": 98.292199796563,
+      "nominal_catalogue_point_torque_Nmm": 96.040174291939,
+      "reference_force_reduced7point5percent_torque_Nmm": 88.83716122004357,
+      "target_within_reference_capacity": true
+    },
+    {
+      "assumed_mu": 0.15,
+      "preload_for80Nmm_N": 65.52813319770867,
+      "nominal_catalogue_point_torque_Nmm": 144.06026143790848,
+      "reference_force_reduced7point5percent_torque_Nmm": 133.25574183006532,
+      "target_within_reference_capacity": true
+    },
+    {
+      "assumed_mu": 0.2,
+      "preload_for80Nmm_N": 49.1460998982815,
+      "nominal_catalogue_point_torque_Nmm": 192.080348583878,
+      "reference_force_reduced7point5percent_torque_Nmm": 177.67432244008714,
+      "target_within_reference_capacity": true
+    },
+    {
+      "assumed_mu": 0.3,
+      "preload_for80Nmm_N": 32.764066598854335,
+      "nominal_catalogue_point_torque_Nmm": 288.12052287581696,
+      "reference_force_reduced7point5percent_torque_Nmm": 266.51148366013064,
+      "target_within_reference_capacity": true
+    },
+    {
+      "assumed_mu": 0.4,
+      "preload_for80Nmm_N": 24.57304994914075,
+      "nominal_catalogue_point_torque_Nmm": 384.160697167756,
+      "reference_force_reduced7point5percent_torque_Nmm": 355.3486448801743,
+      "target_within_reference_capacity": true
+    }
+  ],
+  "all_18_static_gravity_cases_below_chosen_minimum": true,
+  "calibration_instructions": [
+    "Measure hinge torque directly through its usable angular range after bedding the actual friction pair",
+    "Adjust the nut and remeasure; nut tightening torque alone is not hinge torque",
+    "Qualify a method of locking and retaining the nut and bolt; the CAD threads are envelopes only",
+    "Verify breakaway and running torque, both directions, after time, heat, humidity, cleaning and cycles",
+    "Do not infer spring height or nut position from this single catalogue force point"
+  ]
+}

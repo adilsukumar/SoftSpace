@@ -1,0 +1,9 @@
+{
+  "status": "provisional_digital_prototype",
+  "units": "mm, N, MPa unless stated",
+  "adult": {"pad_outer_width":85,"pad_outer_height":105,"ear_opening_width":50,"ear_opening_height":70,"foam_depth":20,"contour_fraction":0.5,"contour_Rx":140,"contour_Ry":200,"band_radius":100,"band_arch_height":70,"band_end_height":65,"band_thickness":2.3,"band_width":28,"head_breadths":[140,155,170]},
+  "child": {"pad_outer_width":72.25,"pad_outer_height":89.25,"ear_opening_width":42.5,"ear_opening_height":59.5,"foam_depth":20,"contour_fraction":0.5,"contour_Rx":110,"contour_Ry":170,"band_radius":85,"band_arch_height":60,"band_end_height":65,"band_thickness":1.6,"band_width":24,"head_breadths":[120,130,140]},
+  "cover": {"assumed_thickness":0.2,"pretension_N_per_m":[0,1,5,20]},
+  "band": {"assumed_E_MPa":[1500,2000,2500],"assumed_poisson":0.35,"mount_offset_per_side":35,"load_model":"symmetric lateral end forces; planar Euler-Bernoulli circular-cap beam, pinned band ends","band_radius_parameter_means":"horizontal endpoint half-span, not circle radius; circle radius derived from arch height"},
+  "limitations":["No anthropometric population coverage established","Material values require measurement","Reference shape sizes are hypotheses, not autism-specific anatomy","No universal brand compatibility","No safety or attenuation rating","CAD and reduced contact solver omit skin shear and actual fabric in-plane mechanics"]
+}

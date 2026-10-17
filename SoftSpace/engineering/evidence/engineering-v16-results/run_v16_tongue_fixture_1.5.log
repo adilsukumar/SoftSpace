@@ -1,0 +1,2 @@
+{"stage": "index plate fixture solve", "h": 1.5, "nodes": 145187, "elements": 88745}
+{"stage": "linear solve", "cg_iteration": 2000, "nodes": 145187}

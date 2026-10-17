@@ -1,0 +1,9 @@
+{
+  "file": "${WORKSPACE}\\engineering-v10-results\\child_small_h1.25_3d.npz",
+  "elements": 38978,
+  "adaptive_minimum_Jacobian_mm3": 0.006314461886192473,
+  "nonpositive_elements": 0,
+  "pass": true,
+  "seconds": 0.09396576881408691,
+  "method": "Gmsh adaptive minDetJac on saved10-node tetrahedra"
+}

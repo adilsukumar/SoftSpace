@@ -1,0 +1,25 @@
+{
+  "jobs": [
+    {
+      "size": "child_large",
+      "h": 2.0,
+      "exit_code": 0
+    },
+    {
+      "size": "child_large",
+      "h": 1.5,
+      "exit_code": 0
+    },
+    {
+      "size": "adult_small",
+      "h": 2.0,
+      "exit_code": 0
+    },
+    {
+      "size": "adult_small",
+      "h": 1.5,
+      "exit_code": 0
+    }
+  ],
+  "complete": true
+}

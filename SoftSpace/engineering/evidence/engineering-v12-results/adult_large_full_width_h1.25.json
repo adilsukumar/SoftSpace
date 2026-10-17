@@ -1,0 +1,56 @@
+{
+  "nodes": 75213,
+  "tet10_elements": 43268,
+  "assembly_method": "CSR batches of up to2048 elements",
+  "reduced_matrix_storage": true,
+  "coarse_preconditioner_modes": 12,
+  "cg_iterations": 9222,
+  "relative_free_residual": 1.8827607871272624e-07,
+  "minimum_quadrature_jacobian_mm3": 0.11411621110085621,
+  "max_von_mises_centroid_MPa": 3.3931927491176226,
+  "strain_energy_Nmm": 3.5571305747352024,
+  "reaction_sum_N": [
+    -2.0000000006979426,
+    8.518406351216608e-11,
+    5.041560477469023e-10
+  ],
+  "sampled_peak_centroid_xyz_mm": [
+    111.5570742821436,
+    -8.765619475885561,
+    113.9040134287898
+  ],
+  "assumed_E_MPa": 2000,
+  "assumed_Poisson_ratio": 0.35,
+  "ideal_load_per_full_side_N": 2,
+  "size": "adult_large",
+  "mesh_max_mm": 1.25,
+  "source": "${WORKSPACE}\\EarDefender_V12_adult_large_Latched.step",
+  "source_sha256": "b3c9126933a60d301aee7d2bf14300fb510ac840ccbd27f370099873a6fb9de7",
+  "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+  "load_method": "2 N uniform traction integrated over full guide bottom",
+  "load_face_area_mm2": 86.55999999999953,
+  "minimum_adaptive_Jacobian_mm3": 0.11012039460961373,
+  "high_order_mesh_optimized": false,
+  "guide_weighted_x_displacement_mm": 3.5571305743477977,
+  "compliance_mm_per_N": 1.7785652871738988,
+  "restraint_nodes_xyz_mm": [
+    [
+      0.0,
+      14.0,
+      150.0
+    ],
+    [
+      0.0,
+      -14.0,
+      150.00000000000003
+    ]
+  ],
+  "seconds": 260.63028478622437,
+  "limits": [
+    "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+    "Restraints are numerical datums, not scalp contact",
+    "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+    "Peak stress not used as physical strength or comfort result",
+    "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+  ]
+}

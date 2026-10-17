@@ -1,0 +1,396 @@
+{
+  "revision": "V18 friction stop candidate",
+  "size": "adult_small",
+  "source_sha256": "e085c8f5f2aa9c95850731250ee0f4d5a28eede7312353d48732047bcf529199",
+  "validity": [
+    {
+      "part": "LeftMainFoam",
+      "valid": true,
+      "volume_mm3": 99638.83712892835,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftSoftGlassesZone",
+      "valid": true,
+      "volume_mm3": 5328.6694612045885,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftContinuousCover",
+      "valid": true,
+      "volume_mm3": 4191.537987627687,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftCarrier",
+      "valid": true,
+      "volume_mm3": 5427.174599099879,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftCup",
+      "valid": true,
+      "volume_mm3": 43569.178749798455,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftLiner",
+      "valid": true,
+      "volume_mm3": 16201.459355713341,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftCupPin",
+      "valid": true,
+      "volume_mm3": 379.95474536996227,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftCupPinCap",
+      "valid": true,
+      "volume_mm3": 14.110456357003473,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightMainFoam",
+      "valid": true,
+      "volume_mm3": 99638.83712891169,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightSoftGlassesZone",
+      "valid": true,
+      "volume_mm3": 5328.669461205521,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightContinuousCover",
+      "valid": true,
+      "volume_mm3": 4191.537987636306,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightCarrier",
+      "valid": true,
+      "volume_mm3": 5427.174599099938,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightCup",
+      "valid": true,
+      "volume_mm3": 43569.178749811195,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightLiner",
+      "valid": true,
+      "volume_mm3": 16201.459355725303,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightCupPin",
+      "valid": true,
+      "volume_mm3": 379.95474536996227,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightCupPinCap",
+      "valid": true,
+      "volume_mm3": 14.110456357003827,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftSliderKnob",
+      "valid": true,
+      "volume_mm3": 221.63936171076193,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightSliderKnob",
+      "valid": true,
+      "volume_mm3": 221.6393617107619,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "Band",
+      "valid": true,
+      "volume_mm3": 26566.217147601656,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "CrownPad",
+      "valid": true,
+      "volume_mm3": 39850.614968617425,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftFork",
+      "valid": true,
+      "volume_mm3": 6269.079589122335,
+      "self_common_mm3": 6269.079589122335,
+      "positive_common_control_performed": true,
+      "pass": true
+    },
+    {
+      "part": "LeftTongue",
+      "valid": true,
+      "volume_mm3": 10518.544431167984,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftFrictionWasherRear",
+      "valid": true,
+      "volume_mm3": 40.255582864937104,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftFrictionWasherFront",
+      "valid": true,
+      "volume_mm3": 40.255582864937104,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftBackupWasherRear",
+      "valid": true,
+      "volume_mm3": 49.287661744007956,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftBackupWasherFront",
+      "valid": true,
+      "volume_mm3": 49.287661744007956,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftDiscSpring",
+      "valid": true,
+      "volume_mm3": 7.28221177101222,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftHingeBolt",
+      "valid": true,
+      "volume_mm3": 913.7322232965805,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftHingeNut",
+      "valid": true,
+      "volume_mm3": 93.54464530758926,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightFork",
+      "valid": true,
+      "volume_mm3": 6269.079589122652,
+      "self_common_mm3": 6269.079589122652,
+      "positive_common_control_performed": true,
+      "pass": true
+    },
+    {
+      "part": "RightTongue",
+      "valid": true,
+      "volume_mm3": 10518.544431168666,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightFrictionWasherRear",
+      "valid": true,
+      "volume_mm3": 40.255582864937104,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightFrictionWasherFront",
+      "valid": true,
+      "volume_mm3": 40.255582864937104,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightBackupWasherRear",
+      "valid": true,
+      "volume_mm3": 49.28766174400795,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightBackupWasherFront",
+      "valid": true,
+      "volume_mm3": 49.28766174400795,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightDiscSpring",
+      "valid": true,
+      "volume_mm3": 7.282211771002209,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightHingeBolt",
+      "valid": true,
+      "volume_mm3": 913.7322232965805,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightHingeNut",
+      "valid": true,
+      "volume_mm3": 93.5446453079143,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    }
+  ],
+  "case_count": 1,
+  "cases": [
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftCup",
+            "LeftTongue"
+          ],
+          "intersection_mm3": 177.96397893222567
+        },
+        {
+          "parts": [
+            "RightCup",
+            "RightTongue"
+          ],
+          "intersection_mm3": 178.11371651192613
+        }
+      ],
+      "errors": [],
+      "boolean_count": 67,
+      "bbox_dimensions_mm": [
+        243.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "phase": "nominal",
+      "extensions_mm": [
+        15,
+        15
+      ],
+      "angles_deg": [
+        0,
+        0
+      ]
+    }
+  ],
+  "sampled_motion_pass": false,
+  "wearing_stop_queries": [
+    {
+      "side": "Left",
+      "outward_attempt_deg": -0.1,
+      "intersection_mm3": 0.5585059277390295,
+      "block_detected": true
+    },
+    {
+      "side": "Left",
+      "outward_attempt_deg": -1,
+      "intersection_mm3": 5.585620777014879,
+      "block_detected": true
+    },
+    {
+      "side": "Right",
+      "outward_attempt_deg": -0.1,
+      "intersection_mm3": 0.5585059277402262,
+      "block_detected": true
+    },
+    {
+      "side": "Right",
+      "outward_attempt_deg": -1,
+      "intersection_mm3": 5.585620777026669,
+      "block_detected": true
+    }
+  ],
+  "wearing_stop_blocking_pass": true,
+  "nominal_box_mm": [
+    243.42028468362,
+    90.0,
+    206.799999999991
+  ],
+  "retracted_box_mm": [
+    243.42028468362,
+    90.0,
+    191.799999999991
+  ],
+  "folded_box_mm": [
+    234.36690476304568,
+    90.0,
+    195.48124086711874
+  ],
+  "limits": [
+    "Finite rigid geometry checks; no loaded stop force or friction torque proof",
+    "No slider clamp,thread preload,unwanted angle movement,pinch or actual handling qualification"
+  ]
+}

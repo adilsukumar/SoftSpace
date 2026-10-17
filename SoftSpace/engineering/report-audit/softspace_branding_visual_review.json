@@ -1,0 +1,56 @@
+{
+  "status": "Approximate-preview review passed",
+  "reviewed_changed_bodies": {
+    "Ear_Defender_Project": [
+      1
+    ],
+    "Glasses_Friendly_Headphone_Cushions": [
+      1,
+      12
+    ]
+  },
+  "reviewed_header_and_footer_samples": {
+    "Ear_Defender_Project": [
+      1,
+      77
+    ],
+    "Glasses_Friendly_Headphone_Cushions": [
+      1,
+      12,
+      53
+    ]
+  },
+  "unchanged_body_regression": {
+    "scope": "Exact approximate-preview body hashes, excluding top 70 pixel header and bottom 65 pixel footer bands. Compare with the reviewed pre-branding V19 inward-extension reports. Changed headers must be inspected separately.",
+    "documents": [
+      {
+        "document": "Ear_Defender_Project",
+        "unchanged_reviewed_bodies": 76,
+        "pages_requiring_review": [
+          "page-1.png"
+        ]
+      },
+      {
+        "document": "Glasses_Friendly_Headphone_Cushions",
+        "unchanged_reviewed_bodies": 51,
+        "pages_requiring_review": [
+          "page-1.png",
+          "page-12.png"
+        ]
+      }
+    ]
+  },
+  "scope": "Both working-name titles and shared headers updated together. Native Word pagination remains unverified.",
+  "documents": [
+    {
+      "path": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
+      "sha256": "ba8e294211501f5a56a32ac6e5c1b654543bfe018b788d2c19e9cd90ee0de29c",
+      "bytes": 8634471
+    },
+    {
+      "path": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
+      "sha256": "e99f1f41cb774af116525421c65c66ea9080c4c8091ecb61883b8b156e4eebd9",
+      "bytes": 4292689
+    }
+  ]
+}

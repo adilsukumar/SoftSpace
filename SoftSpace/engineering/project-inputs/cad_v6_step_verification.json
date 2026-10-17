@@ -1,0 +1,174 @@
+{
+  "status": "complete",
+  "all_pass": true,
+  "exports": [
+    {
+      "file": "${WORKSPACE}\\ReplacementCushion_V6_child_small_20261013_012708.step",
+      "solid_count": 4,
+      "expected_count": 4,
+      "total_volume_mm3": 81464.35004322008,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V6_child_small_20261013_012708.step",
+      "solid_count": 28,
+      "expected_count": 28,
+      "total_volume_mm3": 320306.6601813042,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\ReplacementCushion_V6_child_medium_20261013_012708.step",
+      "solid_count": 4,
+      "expected_count": 4,
+      "total_volume_mm3": 81464.35004322008,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V6_child_medium_20261013_012708.step",
+      "solid_count": 28,
+      "expected_count": 28,
+      "total_volume_mm3": 322244.4179609444,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\ReplacementCushion_V6_child_large_20261013_012708.step",
+      "solid_count": 4,
+      "expected_count": 4,
+      "total_volume_mm3": 81464.35004322008,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V6_child_large_20261013_012708.step",
+      "solid_count": 28,
+      "expected_count": 28,
+      "total_volume_mm3": 324128.3532085658,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\ReplacementCushion_V6_adult_small_20261013_012708.step",
+      "solid_count": 4,
+      "expected_count": 4,
+      "total_volume_mm3": 114586.07391973046,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V6_adult_small_20261013_012708.step",
+      "solid_count": 28,
+      "expected_count": 28,
+      "total_volume_mm3": 425785.1308896601,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\ReplacementCushion_V6_adult_medium_20261013_012708.step",
+      "solid_count": 4,
+      "expected_count": 4,
+      "total_volume_mm3": 114586.07391973046,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V6_adult_medium_20261013_012708.step",
+      "solid_count": 28,
+      "expected_count": 28,
+      "total_volume_mm3": 429311.8636383379,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\ReplacementCushion_V6_adult_large_20261013_012708.step",
+      "solid_count": 4,
+      "expected_count": 4,
+      "total_volume_mm3": 114586.07391973046,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V6_adult_large_20261013_012708.step",
+      "solid_count": 28,
+      "expected_count": 28,
+      "total_volume_mm3": 432962.5039657005,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V6_child_small_20261013_012708_Extension_0_Verified.step",
+      "solid_count": 28,
+      "expected_count": 28,
+      "total_volume_mm3": 320306.6601813045,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V6_child_small_20261013_012708_Extension_30_Verified.step",
+      "solid_count": 28,
+      "expected_count": 28,
+      "total_volume_mm3": 320306.66018130427,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V6_child_medium_20261013_012708_Extension_0_Verified.step",
+      "solid_count": 28,
+      "expected_count": 28,
+      "total_volume_mm3": 322244.4179609436,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V6_child_medium_20261013_012708_Extension_30_Verified.step",
+      "solid_count": 28,
+      "expected_count": 28,
+      "total_volume_mm3": 322244.4179609444,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V6_child_large_20261013_012708_Extension_0_Verified.step",
+      "solid_count": 28,
+      "expected_count": 28,
+      "total_volume_mm3": 324128.3532085658,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V6_child_large_20261013_012708_Extension_30_Verified.step",
+      "solid_count": 28,
+      "expected_count": 28,
+      "total_volume_mm3": 324128.3532085658,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V6_adult_small_20261013_012708_Extension_0_Verified.step",
+      "solid_count": 28,
+      "expected_count": 28,
+      "total_volume_mm3": 425785.13088965835,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V6_adult_small_20261013_012708_Extension_30_Verified.step",
+      "solid_count": 28,
+      "expected_count": 28,
+      "total_volume_mm3": 425785.1308896601,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V6_adult_medium_20261013_012708_Extension_0_Verified.step",
+      "solid_count": 28,
+      "expected_count": 28,
+      "total_volume_mm3": 429311.8636383378,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V6_adult_medium_20261013_012708_Extension_30_Verified.step",
+      "solid_count": 28,
+      "expected_count": 28,
+      "total_volume_mm3": 429311.8636383378,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V6_adult_large_20261013_012708_Extension_0_Verified.step",
+      "solid_count": 28,
+      "expected_count": 28,
+      "total_volume_mm3": 432962.50396570127,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V6_adult_large_20261013_012708_Extension_30_Verified.step",
+      "solid_count": 28,
+      "expected_count": 28,
+      "total_volume_mm3": 432962.5039657006,
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,2105 @@
+[
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 8.165468094776486
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      20,
+      0
+    ],
+    "angles_deg": [
+      115,
+      90
+    ],
+    "box_mm": [
+      201.18664718953698,
+      81.625,
+      118.78601444505733
+    ],
+    "box_volume_mm3": 1950687.3083029338,
+    "reduction_from_nominal_percent": 41.45871542714828,
+    "reduction_from_retracted_percent": 40.65069217562514
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 8.165468549306281
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      20
+    ],
+    "angles_deg": [
+      90,
+      115
+    ],
+    "box_mm": [
+      201.18664718953448,
+      81.625,
+      118.78601444509357
+    ],
+    "box_volume_mm3": 1950687.3083035047,
+    "reduction_from_nominal_percent": 41.458715427131146,
+    "reduction_from_retracted_percent": 40.65069217560776
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 9.006674686159023
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      20,
+      0
+    ],
+    "angles_deg": [
+      115,
+      95
+    ],
+    "box_mm": [
+      201.45699080156024,
+      81.625,
+      118.78601444505733
+    ],
+    "box_volume_mm3": 1953308.535209498,
+    "reduction_from_nominal_percent": 41.380050851019625,
+    "reduction_from_retracted_percent": 40.57094182204819
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 9.006685776512334
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      20
+    ],
+    "angles_deg": [
+      95,
+      115
+    ],
+    "box_mm": [
+      201.45699080155822,
+      81.625,
+      118.78601444509357
+    ],
+    "box_volume_mm3": 1953308.535210074,
+    "reduction_from_nominal_percent": 41.38005085100234,
+    "reduction_from_retracted_percent": 40.57094182203067
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 15.217144607698074
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      20,
+      0
+    ],
+    "angles_deg": [
+      115,
+      100
+    ],
+    "box_mm": [
+      201.62101166317188,
+      81.625,
+      118.78601444505733
+    ],
+    "box_volume_mm3": 1954898.8664641427,
+    "reduction_from_nominal_percent": 41.33232406562096,
+    "reduction_from_retracted_percent": 40.52255628184762
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 15.220566752242902
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      20
+    ],
+    "angles_deg": [
+      100,
+      115
+    ],
+    "box_mm": [
+      201.62101166317038,
+      81.625,
+      118.78601444509357
+    ],
+    "box_volume_mm3": 1954898.8664647245,
+    "reduction_from_nominal_percent": 41.3323240656035,
+    "reduction_from_retracted_percent": 40.522556281829914
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 9.693341757933212
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      20,
+      0
+    ],
+    "angles_deg": [
+      115,
+      105
+    ],
+    "box_mm": [
+      201.67746147657653,
+      81.625,
+      118.78601444505733
+    ],
+    "box_volume_mm3": 1955446.1986857525,
+    "reduction_from_nominal_percent": 41.31589830060739,
+    "reduction_from_retracted_percent": 40.505903798200315
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 9.693349294855865
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      20
+    ],
+    "angles_deg": [
+      105,
+      115
+    ],
+    "box_mm": [
+      201.67746147657556,
+      81.625,
+      118.78601444509357
+    ],
+    "box_volume_mm3": 1955446.1986863397,
+    "reduction_from_nominal_percent": 41.31589830058977,
+    "reduction_from_retracted_percent": 40.50590379818245
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 4.444796192989794
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      20,
+      0
+    ],
+    "angles_deg": [
+      120,
+      90
+    ],
+    "box_mm": [
+      200.92109097054157,
+      81.625,
+      119.36129021155894
+    ],
+    "box_volume_mm3": 1957547.1279711842,
+    "reduction_from_nominal_percent": 41.252848165077005,
+    "reduction_from_retracted_percent": 40.44198340545074
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 4.444790790936622
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      20
+    ],
+    "angles_deg": [
+      90,
+      120
+    ],
+    "box_mm": [
+      200.92109097053856,
+      81.625,
+      119.36129021159357
+    ],
+    "box_volume_mm3": 1957547.1279717227,
+    "reduction_from_nominal_percent": 41.25284816506084,
+    "reduction_from_retracted_percent": 40.44198340543436
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 6.544105118917609
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      20,
+      0
+    ],
+    "angles_deg": [
+      120,
+      95
+    ],
+    "box_mm": [
+      201.19143458256482,
+      81.625,
+      119.36129021155894
+    ],
+    "box_volume_mm3": 1960181.0493714968,
+    "reduction_from_nominal_percent": 41.17380261965211,
+    "reduction_from_retracted_percent": 40.361846824202175
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 6.544219312473836
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      20
+    ],
+    "angles_deg": [
+      95,
+      120
+    ],
+    "box_mm": [
+      201.19143458256232,
+      81.625,
+      119.36129021159357
+    ],
+    "box_volume_mm3": 1960181.0493720414,
+    "reduction_from_nominal_percent": 41.173802619635765,
+    "reduction_from_retracted_percent": 40.36184682418561
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 8.149971390136042
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      20,
+      0
+    ],
+    "angles_deg": [
+      120,
+      100
+    ],
+    "box_mm": [
+      201.35545544417647,
+      81.625,
+      119.36129021155894
+    ],
+    "box_volume_mm3": 1961779.0825347863,
+    "reduction_from_nominal_percent": 41.125844695401106,
+    "reduction_from_retracted_percent": 40.313226954826945
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 8.149954577169504
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      20
+    ],
+    "angles_deg": [
+      100,
+      120
+    ],
+    "box_mm": [
+      201.35545544417448,
+      81.625,
+      119.36129021159357
+    ],
+    "box_volume_mm3": 1961779.0825353365,
+    "reduction_from_nominal_percent": 41.12584469538459,
+    "reduction_from_retracted_percent": 40.3132269548102
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 7.073881620224169
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      20,
+      0
+    ],
+    "angles_deg": [
+      120,
+      105
+    ],
+    "box_mm": [
+      201.4119052575811,
+      81.625,
+      119.36129021155894
+    ],
+    "box_volume_mm3": 1962329.0654637613,
+    "reduction_from_nominal_percent": 41.10933938108533,
+    "reduction_from_retracted_percent": 40.29649382388845
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 7.073881490893357
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      20
+    ],
+    "angles_deg": [
+      105,
+      120
+    ],
+    "box_mm": [
+      201.41190525757966,
+      81.625,
+      119.36129021159357
+    ],
+    "box_volume_mm3": 1962329.0654643162,
+    "reduction_from_nominal_percent": 41.10933938106868,
+    "reduction_from_retracted_percent": 40.29649382387156
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 10.086327088603483
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      20,
+      0
+    ],
+    "angles_deg": [
+      110,
+      90
+    ],
+    "box_mm": [
+      201.34580637376575,
+      81.625,
+      119.49855181762274
+    ],
+    "box_volume_mm3": 1963940.9470461705,
+    "reduction_from_nominal_percent": 41.06096585755241,
+    "reduction_from_retracted_percent": 40.24745261887129
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 10.086329447384117
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      20
+    ],
+    "angles_deg": [
+      90,
+      110
+    ],
+    "box_mm": [
+      201.3458063737637,
+      81.625,
+      119.49855181766031
+    ],
+    "box_volume_mm3": 1963940.9470467682,
+    "reduction_from_nominal_percent": 41.060965857534484,
+    "reduction_from_retracted_percent": 40.24745261885311
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftCup",
+          "RightCup"
+        ],
+        "intersection_mm3": 1816.29150749368
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      20,
+      0
+    ],
+    "angles_deg": [
+      110,
+      95
+    ],
+    "box_mm": [
+      201.616149985789,
+      81.625,
+      119.49855181762274
+    ],
+    "box_volume_mm3": 1966577.8973705256,
+    "reduction_from_nominal_percent": 40.98182941231823,
+    "reduction_from_retracted_percent": 40.167223883157675
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftCup",
+          "RightCup"
+        ],
+        "intersection_mm3": 1816.291507559918
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      20
+    ],
+    "angles_deg": [
+      95,
+      110
+    ],
+    "box_mm": [
+      201.61614998578744,
+      81.625,
+      119.49855181766031
+    ],
+    "box_volume_mm3": 1966577.8973711287,
+    "reduction_from_nominal_percent": 40.98182941230013,
+    "reduction_from_retracted_percent": 40.167223883139336
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 7.250725053830628
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      20,
+      0
+    ],
+    "angles_deg": [
+      90,
+      90
+    ],
+    "box_mm": [
+      200.9065429386918,
+      81.625,
+      119.9999999999541
+    ],
+    "box_volume_mm3": 1967879.5880837336,
+    "reduction_from_nominal_percent": 40.94276490098245,
+    "reduction_from_retracted_percent": 40.127620179118864
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 11.635180568149938
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      20,
+      0
+    ],
+    "angles_deg": [
+      110,
+      100
+    ],
+    "box_mm": [
+      201.78017084740065,
+      81.625,
+      119.49855181762274
+    ],
+    "box_volume_mm3": 1968177.7682200377,
+    "reduction_from_nominal_percent": 40.93381633801234,
+    "reduction_from_retracted_percent": 40.118548102512165
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 11.635208785524608
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      20
+    ],
+    "angles_deg": [
+      100,
+      110
+    ],
+    "box_mm": [
+      201.78017084739963,
+      81.625,
+      119.49855181766031
+    ],
+    "box_volume_mm3": 1968177.7682206465,
+    "reduction_from_nominal_percent": 40.93381633799407,
+    "reduction_from_retracted_percent": 40.11854810249365
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 7.932642253716637
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      20,
+      0
+    ],
+    "angles_deg": [
+      110,
+      105
+    ],
+    "box_mm": [
+      201.8366206608053,
+      81.625,
+      119.49855181762274
+    ],
+    "box_volume_mm3": 1968728.3836115133,
+    "reduction_from_nominal_percent": 40.91729204312132,
+    "reduction_from_retracted_percent": 40.10179572901672
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 19.11635128959083
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      75,
+      75
+    ],
+    "box_mm": [
+      211.7232952266533,
+      81.625,
+      107.67934369501093
+    ],
+    "box_volume_mm3": 1860905.1543928809,
+    "reduction_from_nominal_percent": 44.153131184733006,
+    "reduction_from_retracted_percent": 43.38229793676521
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 16.747517166599863
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      70,
+      75
+    ],
+    "box_mm": [
+      213.25256524092163,
+      81.625,
+      116.74593477824416
+    ],
+    "box_volume_mm3": 2032166.20720127,
+    "reduction_from_nominal_percent": 39.01348528350223,
+    "reduction_from_retracted_percent": 38.171711443384936
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 16.74892483200628
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      75,
+      70
+    ],
+    "box_mm": [
+      213.25256524092498,
+      81.625,
+      116.7459347782498
+    ],
+    "box_volume_mm3": 2032166.2072014005,
+    "reduction_from_nominal_percent": 39.013485283498305,
+    "reduction_from_retracted_percent": 38.171711443380964
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 15.380018150476758
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      70,
+      70
+    ],
+    "box_mm": [
+      214.78183525519333,
+      81.625,
+      116.7459347782498
+    ],
+    "box_volume_mm3": 2046739.212882113,
+    "reduction_from_nominal_percent": 38.576140728579055,
+    "reduction_from_retracted_percent": 37.72833038666848
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 12.903757832535703
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      65,
+      75
+    ],
+    "box_mm": [
+      214.6247703065743,
+      81.625,
+      125.44915046803706
+    ],
+    "box_volume_mm3": 2197711.912893167,
+    "reduction_from_nominal_percent": 34.04536034339885,
+    "reduction_from_retracted_percent": 33.13501335020905
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 12.904175116544025
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      75,
+      65
+    ],
+    "box_mm": [
+      214.6247703065809,
+      81.625,
+      125.44915046804252
+    ],
+    "box_volume_mm3": 2197711.91289333,
+    "reduction_from_nominal_percent": 34.04536034339396,
+    "reduction_from_retracted_percent": 33.13501335020409
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 16.542290232803538
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      65,
+      70
+    ],
+    "box_mm": [
+      216.154040320846,
+      81.625,
+      125.44915046803706
+    ],
+    "box_volume_mm3": 2213371.3119625035,
+    "reduction_from_nominal_percent": 33.57541247771279,
+    "reduction_from_retracted_percent": 32.65857897153906
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 16.541011725708366
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      70,
+      65
+    ],
+    "box_mm": [
+      216.15404032084922,
+      81.625,
+      125.44915046804252
+    ],
+    "box_volume_mm3": 2213371.3119626325,
+    "reduction_from_nominal_percent": 33.57541247770891,
+    "reduction_from_retracted_percent": 32.65857897153512
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 17.698111480809636
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      65,
+      65
+    ],
+    "box_mm": [
+      217.5262453865019,
+      81.625,
+      125.44915046804252
+    ],
+    "box_volume_mm3": 2227422.3994275588,
+    "reduction_from_nominal_percent": 33.153730998395915,
+    "reduction_from_retracted_percent": 32.231077181948656
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 8.728212075451328
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      60,
+      75
+    ],
+    "box_mm": [
+      215.8294671145016,
+      81.625,
+      133.72275403783928
+    ],
+    "box_volume_mm3": 2355804.4895663727,
+    "reduction_from_nominal_percent": 29.3009082313209,
+    "reduction_from_retracted_percent": 28.32507535666695
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 8.728684735855593
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      75,
+      60
+    ],
+    "box_mm": [
+      215.82946711451123,
+      81.625,
+      133.72275403784448
+    ],
+    "box_volume_mm3": 2355804.4895665697,
+    "reduction_from_nominal_percent": 29.300908231314992,
+    "reduction_from_retracted_percent": 28.325075356660957
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 12.931945446476945
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      60,
+      70
+    ],
+    "box_mm": [
+      217.35873712877327,
+      81.625,
+      133.72275403783928
+    ],
+    "box_volume_mm3": 2372496.6549761556,
+    "reduction_from_nominal_percent": 28.7999664344312,
+    "reduction_from_retracted_percent": 27.81721924926117
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 142.59833007565322
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      90,
+      90
+    ],
+    "box_mm": [
+      200.9065429386918,
+      81.625,
+      99.99999999999409
+    ],
+    "box_volume_mm3": 1639899.656736975,
+    "reduction_from_nominal_percent": 50.78563741746947,
+    "reduction_from_retracted_percent": 50.10635014924958
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 6.89455298663697
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      90,
+      105
+    ],
+    "box_mm": [
+      201.39735722573135,
+      81.625,
+      99.9999999999541
+    ],
+    "box_volume_mm3": 1643905.9283542777,
+    "reduction_from_nominal_percent": 50.665406827037884,
+    "reduction_from_retracted_percent": 49.984460061365525
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 6.894553071425467
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      105,
+      90
+    ],
+    "box_mm": [
+      201.3973572257329,
+      81.625,
+      99.99999999999409
+    ],
+    "box_volume_mm3": 1643905.9283549476,
+    "reduction_from_nominal_percent": 50.66540682701777,
+    "reduction_from_retracted_percent": 49.984460061345146
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 11.48922614560891
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      95,
+      90
+    ],
+    "box_mm": [
+      201.17688655071555,
+      81.625,
+      100.23065861178901
+    ],
+    "box_volume_mm3": 1645893.9961500173,
+    "reduction_from_nominal_percent": 50.60574373183798,
+    "reduction_from_retracted_percent": 49.92397345898551
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 11.489348870042313
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      90,
+      95
+    ],
+    "box_mm": [
+      201.17688655071504,
+      81.625,
+      100.23065861182884
+    ],
+    "box_volume_mm3": 1645893.9961506673,
+    "reduction_from_nominal_percent": 50.60574373181848,
+    "reduction_from_retracted_percent": 49.92397345896573
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 8.506333430315312
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      100,
+      90
+    ],
+    "box_mm": [
+      201.34090741232774,
+      81.625,
+      100.22363305400098
+    ],
+    "box_volume_mm3": 1647120.4433480033,
+    "reduction_from_nominal_percent": 50.56893732307872,
+    "reduction_from_retracted_percent": 49.88665902526064
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 8.506333398585593
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      90,
+      100
+    ],
+    "box_mm": [
+      201.3409074123267,
+      81.625,
+      100.22363305404036
+    ],
+    "box_volume_mm3": 1647120.4433486422,
+    "reduction_from_nominal_percent": 50.56893732305956,
+    "reduction_from_retracted_percent": 49.8866590252412
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 16.82948987760332
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      105,
+      105
+    ],
+    "box_mm": [
+      201.88817151277243,
+      81.625,
+      99.9789767953655
+    ],
+    "box_volume_mm3": 1647565.7560190079,
+    "reduction_from_nominal_percent": 50.55557322536496,
+    "reduction_from_retracted_percent": 49.873110467951086
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 25.548230861709392
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      95,
+      95
+    ],
+    "box_mm": [
+      201.4472301627388,
+      81.625,
+      100.23065861182884
+    ],
+    "box_volume_mm3": 1648105.765780651,
+    "reduction_from_nominal_percent": 50.539367211723565,
+    "reduction_from_retracted_percent": 49.85668076882119
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 10.864587760534778
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      95,
+      100
+    ],
+    "box_mm": [
+      201.61125102435045,
+      81.625,
+      100.23065861178901
+    ],
+    "box_volume_mm3": 1649447.67416718,
+    "reduction_from_nominal_percent": 50.49909574412743,
+    "reduction_from_retracted_percent": 49.81585344936039
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 10.864528580897037
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      100,
+      95
+    ],
+    "box_mm": [
+      201.61125102435096,
+      81.625,
+      100.23065861182884
+    ],
+    "box_volume_mm3": 1649447.6741678398,
+    "reduction_from_nominal_percent": 50.49909574410763,
+    "reduction_from_retracted_percent": 49.81585344934032
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 8.219698099333444
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      0
+    ],
+    "angles_deg": [
+      95,
+      105
+    ],
+    "box_mm": [
+      201.6677008377551,
+      81.625,
+      100.23065861178901
+    ],
+    "box_volume_mm3": 1649909.508578476,
+    "reduction_from_nominal_percent": 50.48523581917579,
+    "reduction_from_retracted_percent": 49.80180222109678
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 18.391941730960937
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      20
+    ],
+    "angles_deg": [
+      45,
+      60
+    ],
+    "box_mm": [
+      222.45977780569353,
+      81.625,
+      155.35541565240294
+    ],
+    "box_volume_mm3": 2820987.038031863,
+    "reduction_from_nominal_percent": 15.340503694863239,
+    "reduction_from_retracted_percent": 14.17198062646936
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 18.391985398149444
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      20,
+      0
+    ],
+    "angles_deg": [
+      60,
+      45
+    ],
+    "box_mm": [
+      222.45977780570183,
+      81.625,
+      155.3554156524072
+    ],
+    "box_volume_mm3": 2820987.0380320456,
+    "reduction_from_nominal_percent": 15.340503694857766,
+    "reduction_from_retracted_percent": 14.17198062646381
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 17.005960127056984
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      30
+    ],
+    "angles_deg": [
+      45,
+      60
+    ],
+    "box_mm": [
+      222.45977780569353,
+      81.625,
+      163.72275403784448
+    ],
+    "box_volume_mm3": 2972923.505962725,
+    "reduction_from_nominal_percent": 10.780800062058727,
+    "reduction_from_retracted_percent": 9.549341125717238
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 17.005162058798724
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      30,
+      0
+    ],
+    "angles_deg": [
+      60,
+      45
+    ],
+    "box_mm": [
+      222.45977780570183,
+      81.625,
+      163.72275403783928
+    ],
+    "box_volume_mm3": 2972923.505962741,
+    "reduction_from_nominal_percent": 10.780800062058237,
+    "reduction_from_retracted_percent": 9.549341125716747
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 4.661645317032746
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      20
+    ],
+    "angles_deg": [
+      30,
+      60
+    ],
+    "box_mm": [
+      225.2678784878135,
+      81.625,
+      171.10309839932725
+    ],
+    "box_volume_mm3": 3146156.6102946945,
+    "reduction_from_nominal_percent": 5.581971723467083,
+    "reduction_from_retracted_percent": 4.278755322134675
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 9.360811004364546
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      30
+    ],
+    "angles_deg": [
+      30,
+      60
+    ],
+    "box_mm": [
+      225.2678784878135,
+      81.625,
+      171.10309839932725
+    ],
+    "box_volume_mm3": 3146156.6102946945,
+    "reduction_from_nominal_percent": 5.581971723467083,
+    "reduction_from_retracted_percent": 4.278755322134675
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 4.661604044554494
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      20,
+      0
+    ],
+    "angles_deg": [
+      60,
+      30
+    ],
+    "box_mm": [
+      225.26787848782817,
+      81.625,
+      171.10309839933024
+    ],
+    "box_volume_mm3": 3146156.6102949544,
+    "reduction_from_nominal_percent": 5.581971723459289,
+    "reduction_from_retracted_percent": 4.27875532212677
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 9.36105380839632
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      30,
+      0
+    ],
+    "angles_deg": [
+      60,
+      30
+    ],
+    "box_mm": [
+      225.26787848782817,
+      81.625,
+      171.10309839933024
+    ],
+    "box_volume_mm3": 3146156.6102949544,
+    "reduction_from_nominal_percent": 5.581971723459289,
+    "reduction_from_retracted_percent": 4.27875532212677
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftMainFoam",
+          "RightCup"
+        ],
+        "intersection_mm3": 960.7091912636854
+      },
+      {
+        "parts": [
+          "LeftMainFoam",
+          "RightLiner"
+        ],
+        "intersection_mm3": 73.40068706559593
+      },
+      {
+        "parts": [
+          "LeftSoftGlassesZone",
+          "RightCup"
+        ],
+        "intersection_mm3": 85.37749296757428
+      },
+      {
+        "parts": [
+          "LeftSoftGlassesZone",
+          "RightLiner"
+        ],
+        "intersection_mm3": 2.44162279199626
+      },
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightCup"
+        ],
+        "intersection_mm3": 82.74762968217914
+      },
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightLiner"
+        ],
+        "intersection_mm3": 16.85109052870039
+      }
+    ],
+    "errors": [],
+    "boolean_count": 45,
+    "bbox_dimensions_mm": [
+      222.45977780569353,
+      81.625,
+      175.35541565240294
+    ],
+    "extension_mm": [
+      20,
+      0
+    ],
+    "angles_deg": [
+      45,
+      60
+    ],
+    "box_mm": [
+      222.45977780569353,
+      81.625,
+      175.35541565240294
+    ],
+    "box_volume_mm3": 3184152.6252996577,
+    "reduction_from_nominal_percent": 4.441688748552453,
+    "reduction_from_retracted_percent": 3.122733451776094
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftCup",
+          "RightMainFoam"
+        ],
+        "intersection_mm3": 960.709193587837
+      },
+      {
+        "parts": [
+          "LeftCup",
+          "RightSoftGlassesZone"
+        ],
+        "intersection_mm3": 85.37749290579782
+      },
+      {
+        "parts": [
+          "LeftCup",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 82.74767415785907
+      },
+      {
+        "parts": [
+          "LeftLiner",
+          "RightMainFoam"
+        ],
+        "intersection_mm3": 73.40068712666186
+      },
+      {
+        "parts": [
+          "LeftLiner",
+          "RightSoftGlassesZone"
+        ],
+        "intersection_mm3": 2.441622797085633
+      },
+      {
+        "parts": [
+          "LeftLiner",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 16.851092759254932
+      }
+    ],
+    "errors": [],
+    "boolean_count": 45,
+    "bbox_dimensions_mm": [
+      222.45977780570183,
+      81.625,
+      175.3554156524072
+    ],
+    "extension_mm": [
+      0,
+      20
+    ],
+    "angles_deg": [
+      60,
+      45
+    ],
+    "box_mm": [
+      222.45977780570183,
+      81.625,
+      175.3554156524072
+    ],
+    "box_volume_mm3": 3184152.6252998537,
+    "reduction_from_nominal_percent": 4.441688748546568,
+    "reduction_from_retracted_percent": 3.122733451770121
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 10.139070985493248
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      20,
+      0
+    ],
+    "angles_deg": [
+      45,
+      45
+    ],
+    "box_mm": [
+      224.98391660903584,
+      81.625,
+      175.35541565240294
+    ],
+    "box_volume_mm3": 3220281.5978112784,
+    "reduction_from_nominal_percent": 3.357436827639726,
+    "reduction_from_retracted_percent": 2.023516010905979
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 10.139094393725983
+      }
+    ],
+    "errors": [],
+    "early_collision_rejection": true,
+    "extension_mm": [
+      0,
+      20
+    ],
+    "angles_deg": [
+      45,
+      45
+    ],
+    "box_mm": [
+      224.98391660903584,
+      81.625,
+      175.3554156524072
+    ],
+    "box_volume_mm3": 3220281.5978113567,
+    "reduction_from_nominal_percent": 3.3574368276373723,
+    "reduction_from_retracted_percent": 2.023516010903592
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightCup"
+        ],
+        "intersection_mm3": 0.065433989257246
+      }
+    ],
+    "errors": [],
+    "boolean_count": 41,
+    "bbox_dimensions_mm": [
+      222.45977780569353,
+      81.625,
+      185.35541565240294
+    ],
+    "extension_mm": [
+      30,
+      0
+    ],
+    "angles_deg": [
+      45,
+      60
+    ],
+    "box_mm": [
+      222.45977780569353,
+      81.625,
+      185.35541565240294
+    ],
+    "box_volume_mm3": 3365735.418933555,
+    "reduction_from_nominal_percent": -1.0077187246029462,
+    "reduction_from_retracted_percent": -2.40189013557055
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftCup",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 0.06543401398352122
+      }
+    ],
+    "errors": [],
+    "boolean_count": 41,
+    "bbox_dimensions_mm": [
+      222.45977780570183,
+      81.625,
+      185.3554156524072
+    ],
+    "extension_mm": [
+      0,
+      30
+    ],
+    "angles_deg": [
+      60,
+      45
+    ],
+    "box_mm": [
+      222.45977780570183,
+      81.625,
+      185.3554156524072
+    ],
+    "box_volume_mm3": 3365735.4189337576,
+    "reduction_from_nominal_percent": -1.0077187246090302,
+    "reduction_from_retracted_percent": -2.401890135576701
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftMainFoam",
+          "RightCarrier"
+        ],
+        "intersection_mm3": 6.4635260102800185
+      },
+      {
+        "parts": [
+          "LeftMainFoam",
+          "RightCup"
+        ],
+        "intersection_mm3": 2127.2737888462457
+      },
+      {
+        "parts": [
+          "LeftMainFoam",
+          "RightLiner"
+        ],
+        "intersection_mm3": 1063.957397913884
+      },
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightCarrier"
+        ],
+        "intersection_mm3": 2.6298326528125946
+      },
+      {
+        "parts": [
+          "LeftContinuousCover",
+          "RightLiner"
+        ],
+        "intersection_mm3": 1130.5799157427832
+      }
+    ],
+    "errors": [],
+    "boolean_count": 45,
+    "bbox_dimensions_mm": [
+      224.98391660903584,
+      81.625,
+      185.35541565240294
+    ],
+    "extension_mm": [
+      30,
+      0
+    ],
+    "angles_deg": [
+      45,
+      45
+    ],
+    "box_mm": [
+      224.98391660903584,
+      81.625,
+      185.35541565240294
+    ],
+    "box_volume_mm3": 3403924.7197434036,
+    "reduction_from_nominal_percent": -2.15380232130844,
+    "reduction_from_retracted_percent": -3.563792691512835
+  },
+  {
+    "pass": false,
+    "overlaps": [
+      {
+        "parts": [
+          "LeftCarrier",
+          "RightMainFoam"
+        ],
+        "intersection_mm3": 6.463526009867112
+      },
+      {
+        "parts": [
+          "LeftCarrier",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 2.6298326526759825
+      },
+      {
+        "parts": [
+          "LeftCup",
+          "RightMainFoam"
+        ],
+        "intersection_mm3": 2127.2745458187965
+      },
+      {
+        "parts": [
+          "LeftLiner",
+          "RightMainFoam"
+        ],
+        "intersection_mm3": 1063.9572748813878
+      },
+      {
+        "parts": [
+          "LeftLiner",
+          "RightContinuousCover"
+        ],
+        "intersection_mm3": 1130.5800635770074
+      }
+    ],
+    "errors": [],
+    "boolean_count": 45,
+    "bbox_dimensions_mm": [
+      224.98391660903584,
+      81.625,
+      185.3554156524072
+    ],
+    "extension_mm": [
+      0,
+      30
+    ],
+    "angles_deg": [
+      45,
+      45
+    ],
+    "box_mm": [
+      224.98391660903584,
+      81.625,
+      185.3554156524072
+    ],
+    "box_volume_mm3": 3403924.719743482,
+    "reduction_from_nominal_percent": -2.1538023213107937,
+    "reduction_from_retracted_percent": -3.5637926915152107
+  },
+  {
+    "pass": true,
+    "overlaps": [],
+    "errors": [],
+    "boolean_count": 33,
+    "bbox_dimensions_mm": [
+      225.2678784878135,
+      81.625,
+      191.10309839932725
+    ],
+    "extension_mm": [
+      20,
+      0
+    ],
+    "angles_deg": [
+      30,
+      60
+    ],
+    "box_mm": [
+      225.2678784878135,
+      81.625,
+      191.10309839932725
+    ],
+    "box_volume_mm3": 3513906.42192605,
+    "reduction_from_nominal_percent": -5.454418518418103,
+    "reduction_from_retracted_percent": -6.909966048002891
+  }
+]

@@ -1,0 +1,257 @@
+{
+  "updated": "2026-10-14",
+  "revision": "V12 local STEP candidate",
+  "native_Fusion_revision": "V10",
+  "product_validation_complete": false,
+  "tests": [
+    {
+      "test": "Six-size CAD export",
+      "status": "Pass recorded geometry checks",
+      "result": "18 local STEP files,32 positive-volume solids each including spring-space envelopes"
+    },
+    {
+      "test": "Independent rigid motion",
+      "status": "Pass sampled checks",
+      "result": "216 poses;42 adjustment,24 release,150 folding; not continuous loaded motion"
+    },
+    {
+      "test": "Collision-query controls",
+      "status": "18 known embedded/disjoint cases pass",
+      "result": "Coincident fork copy/equivalence comparisons still fail and are not accepted as a geometry-transfer proof"
+    },
+    {
+      "test": "Wider guide tolerance arithmetic",
+      "status": "Positive under one assumed error budget",
+      "result": "0.6mm nominal minus0.4mm relative closure leaves0.2mm; not factory validation"
+    },
+    {
+      "test": "Band stiffness and sampled stress mesh comparison",
+      "status": "Pass",
+      "result": "Six V12 ideal fixtures,with earlier failed coarse stress comparisons retained"
+    },
+    {
+      "test": "Band numerical algebra checks",
+      "status": "Pass",
+      "result": "21 saved meshes; residual,work energy,reaction balance,source identity and positive Jacobians"
+    },
+    {
+      "test": "Fork calculations",
+      "status": "Two examples pass chosen mesh and algebra checks",
+      "result": "Four quadratic FE solves; ideal fixed pivot-bore fixture; not full joint contact"
+    },
+    {
+      "test": "Fork material and load screen",
+      "status": "80 conditional cases complete",
+      "result": "Adult20N fixture stress about132MPa exceeds all8 listed plastic typical yield references"
+    },
+    {
+      "test": "Pin and spring calculations",
+      "status": "Conditional equations complete",
+      "result": "36 pin and162 spring cases; no fatigue,set,friction or reliable-return pass"
+    },
+    {
+      "test": "Latch manufacturing assembly",
+      "status": "Unfinished design",
+      "result": "Integral housing needs a specified assembly/service route,retained cap/head and fastening design"
+    },
+    {
+      "test": "Complete joint and worn contact",
+      "status": "Unvalidated",
+      "result": "Final fasteners,torque,friction,actual foam,cover,heads and glasses inputs required"
+    },
+    {
+      "test": "Physical durability comfort and acoustics",
+      "status": "Not performed",
+      "result": "No prototype,fall,fold-cycle,ageing,wearer,real isolation or outgoing-music test"
+    },
+    {
+      "test": "Sony WH CH720N replacement fit",
+      "status": "Measurements deferred by user",
+      "result": "Generic pad remains unchanged and not claimed compatible"
+    },
+    {
+      "test": "Price manufacturing and market superiority",
+      "status": "Not demonstrated",
+      "result": "No production quotes,tolerance capability or matched physical competitor test"
+    }
+  ],
+  "band_mesh_algebra_audits": [
+    {
+      "size": "child_small",
+      "mesh_max_mm": 2.5,
+      "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+      "work_energy_relative_error": 7.617320694773837e-11,
+      "reaction_balance_error_N": 7.055076391839857e-10,
+      "pass": true
+    },
+    {
+      "size": "child_small",
+      "mesh_max_mm": 2.0,
+      "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+      "work_energy_relative_error": 2.251138705468197e-10,
+      "reaction_balance_error_N": 8.169745762264834e-10,
+      "pass": true
+    },
+    {
+      "size": "child_medium",
+      "mesh_max_mm": 2.5,
+      "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+      "work_energy_relative_error": 2.909774195629864e-09,
+      "reaction_balance_error_N": 5.0179385959254424e-09,
+      "pass": true
+    },
+    {
+      "size": "child_medium",
+      "mesh_max_mm": 2.0,
+      "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+      "work_energy_relative_error": 2.016430468036297e-09,
+      "reaction_balance_error_N": 2.060918587649101e-09,
+      "pass": true
+    },
+    {
+      "size": "child_medium",
+      "mesh_max_mm": 1.5,
+      "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+      "work_energy_relative_error": 1.9552643303021064e-09,
+      "reaction_balance_error_N": 1.7567799874292533e-09,
+      "pass": true
+    },
+    {
+      "size": "child_medium",
+      "mesh_max_mm": 1.25,
+      "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+      "work_energy_relative_error": 3.509238939219254e-12,
+      "reaction_balance_error_N": 9.782425898446612e-10,
+      "pass": true
+    },
+    {
+      "size": "child_large",
+      "mesh_max_mm": 2.5,
+      "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5",
+      "work_energy_relative_error": 2.9812726582203586e-11,
+      "reaction_balance_error_N": 5.297269206935881e-10,
+      "pass": true
+    },
+    {
+      "size": "child_large",
+      "mesh_max_mm": 2.0,
+      "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5",
+      "work_energy_relative_error": 1.3932686724613538e-10,
+      "reaction_balance_error_N": 5.744100073265734e-10,
+      "pass": true
+    },
+    {
+      "size": "adult_small",
+      "mesh_max_mm": 2.5,
+      "source_sha256": "f8e015bce1e77e9b13c3dcbf51e4f4da2c7c184cf3388111283a5ed86a3419d0",
+      "work_energy_relative_error": 3.1026880033808e-10,
+      "reaction_balance_error_N": 1.0547946663814946e-09,
+      "pass": true
+    },
+    {
+      "size": "adult_small",
+      "mesh_max_mm": 2.0,
+      "source_sha256": "f8e015bce1e77e9b13c3dcbf51e4f4da2c7c184cf3388111283a5ed86a3419d0",
+      "work_energy_relative_error": 2.685681799438399e-10,
+      "reaction_balance_error_N": 4.399648604713821e-10,
+      "pass": true
+    },
+    {
+      "size": "adult_small",
+      "mesh_max_mm": 1.5,
+      "source_sha256": "f8e015bce1e77e9b13c3dcbf51e4f4da2c7c184cf3388111283a5ed86a3419d0",
+      "work_energy_relative_error": 5.788839711595095e-10,
+      "reaction_balance_error_N": 1.1658899031014099e-09,
+      "pass": true
+    },
+    {
+      "size": "adult_medium",
+      "mesh_max_mm": 2.5,
+      "source_sha256": "7affe57c39b80d0b75af2a0ee4222cfe850d1e7b0d125052e943972701bb5dd6",
+      "work_energy_relative_error": 2.0834060815800344e-11,
+      "reaction_balance_error_N": 7.271588179993168e-10,
+      "pass": true
+    },
+    {
+      "size": "adult_medium",
+      "mesh_max_mm": 2.0,
+      "source_sha256": "7affe57c39b80d0b75af2a0ee4222cfe850d1e7b0d125052e943972701bb5dd6",
+      "work_energy_relative_error": 1.1209262045506527e-10,
+      "reaction_balance_error_N": 3.1598466712985166e-10,
+      "pass": true
+    },
+    {
+      "size": "adult_medium",
+      "mesh_max_mm": 1.5,
+      "source_sha256": "7affe57c39b80d0b75af2a0ee4222cfe850d1e7b0d125052e943972701bb5dd6",
+      "work_energy_relative_error": 4.347568565014509e-11,
+      "reaction_balance_error_N": 5.488625003623008e-10,
+      "pass": true
+    },
+    {
+      "size": "adult_medium",
+      "mesh_max_mm": 1.25,
+      "source_sha256": "7affe57c39b80d0b75af2a0ee4222cfe850d1e7b0d125052e943972701bb5dd6",
+      "work_energy_relative_error": 1.3236176444902696e-10,
+      "reaction_balance_error_N": 4.315457101681352e-10,
+      "pass": true
+    },
+    {
+      "size": "adult_medium",
+      "mesh_max_mm": 1.0,
+      "source_sha256": "7affe57c39b80d0b75af2a0ee4222cfe850d1e7b0d125052e943972701bb5dd6",
+      "work_energy_relative_error": 8.920783038918873e-11,
+      "reaction_balance_error_N": 8.553999835300403e-10,
+      "pass": true
+    },
+    {
+      "size": "adult_large",
+      "mesh_max_mm": 2.5,
+      "source_sha256": "b3c9126933a60d301aee7d2bf14300fb510ac840ccbd27f370099873a6fb9de7",
+      "work_energy_relative_error": 4.45454688050246e-10,
+      "reaction_balance_error_N": 9.51209968674225e-10,
+      "pass": true
+    },
+    {
+      "size": "adult_large",
+      "mesh_max_mm": 2.0,
+      "source_sha256": "b3c9126933a60d301aee7d2bf14300fb510ac840ccbd27f370099873a6fb9de7",
+      "work_energy_relative_error": 3.664777813400727e-10,
+      "reaction_balance_error_N": 8.452847197957057e-10,
+      "pass": true
+    },
+    {
+      "size": "adult_large",
+      "mesh_max_mm": 1.5,
+      "source_sha256": "b3c9126933a60d301aee7d2bf14300fb510ac840ccbd27f370099873a6fb9de7",
+      "work_energy_relative_error": 2.796667822590198e-10,
+      "reaction_balance_error_N": 2.548130693620016e-10,
+      "pass": true
+    },
+    {
+      "size": "adult_large",
+      "mesh_max_mm": 1.25,
+      "source_sha256": "b3c9126933a60d301aee7d2bf14300fb510ac840ccbd27f370099873a6fb9de7",
+      "work_energy_relative_error": 1.0890934893426336e-10,
+      "reaction_balance_error_N": 8.651898680255266e-10,
+      "pass": true
+    },
+    {
+      "size": "adult_large",
+      "mesh_max_mm": 1.0,
+      "source_sha256": "b3c9126933a60d301aee7d2bf14300fb510ac840ccbd27f370099873a6fb9de7",
+      "work_energy_relative_error": 8.003843309217582e-12,
+      "reaction_balance_error_N": 1.0859781106893842e-09,
+      "pass": true
+    }
+  ],
+  "evidence_sha256": {
+    "cad_report.json": "c944293920d0a90c90943cd7c517d7e5bdeb06299ab6530f9750f464ed9562ed",
+    "ocp_motion_audit.json": "340751da61f76e2cc102b999d25d2d48f8d8781211e0a9a67f657ca803105512",
+    "STEP_verification.json": "5c586ebd1e5c90d154e2a0bf7f69553144a97fa5066a6f336fd61e60f9e12384",
+    "kernel_controls.json": "9c1ba985770748d44e19bad35efc860038b42b653b797cd9ba8fb58b3d535259",
+    "fork_mechanics_summary.json": "1e4339df71450ac30add37255b2bc17e2e9d5dbe9370813f067d3b13e752e693",
+    "pin_spring_screen.json": "675745ca61a26a87c8e08c3368d7ef53b968179d022fb652fa7e155a4d2415bf",
+    "band_sizes_summary.json": "928163f0a78af9ab7d8610606550c52caf750663e12d813f9c75dcff82cabb58"
+  }
+}

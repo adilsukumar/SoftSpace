@@ -1,0 +1,21 @@
+{
+  "file": "${WORKSPACE}\\EarDefender_V14_child_large_V15FoldExperiment.step",
+  "sha256": "3ac9e2ff4d29c3b2aabc939b9e8aa360df9370b743eb7dd368132f511479a319",
+  "source": "${WORKSPACE}\\EarDefender_V14_child_large_Latched.step",
+  "source_sha256": "171a7479ee9e5dcb8d6c6814bbbbf87e185f9c94ab2a72293d5c36b76a139573",
+  "part_geometry_revision": "V14",
+  "pose_study_revision": "V15",
+  "expected_solids": 44,
+  "before_export_volume_mm3": 348041.65962205245,
+  "expected_volume_mm3": 348041.6596220558,
+  "extension_mm": [
+    0,
+    20
+  ],
+  "angles_deg": [
+    30,
+    60
+  ],
+  "held_release_stroke_mm": 6,
+  "manufacturing_release": false
+}

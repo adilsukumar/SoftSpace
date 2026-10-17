@@ -1,0 +1,197 @@
+{
+  "status": "complete",
+  "checks": [
+    {
+      "size": "adult_small",
+      "body_count": 28,
+      "static_checks": [
+        {
+          "body_tag": 1,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 2,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 3,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 4,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 5,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 6,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 7,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 8,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 9,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 10,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 11,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 12,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 13,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 14,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 15,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 16,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 17,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 18,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 19,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 20,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 21,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 22,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 23,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 24,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 25,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 26,
+          "volume_mm3": 0
+        },
+        {
+          "body_tag": 27,
+          "volume_mm3": 0
+        }
+      ],
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "tongue_tag": 8,
+          "volume_mm3": 0
+        },
+        {
+          "extension_mm": 0,
+          "tongue_tag": 20,
+          "volume_mm3": 0
+        },
+        {
+          "extension_mm": 5,
+          "tongue_tag": 8,
+          "volume_mm3": 0
+        },
+        {
+          "extension_mm": 5,
+          "tongue_tag": 20,
+          "volume_mm3": 0
+        },
+        {
+          "extension_mm": 10,
+          "tongue_tag": 8,
+          "volume_mm3": 0
+        },
+        {
+          "extension_mm": 10,
+          "tongue_tag": 20,
+          "volume_mm3": 0
+        },
+        {
+          "extension_mm": 15,
+          "tongue_tag": 8,
+          "volume_mm3": 0
+        },
+        {
+          "extension_mm": 15,
+          "tongue_tag": 20,
+          "volume_mm3": 0
+        },
+        {
+          "extension_mm": 20,
+          "tongue_tag": 8,
+          "volume_mm3": 0
+        },
+        {
+          "extension_mm": 20,
+          "tongue_tag": 20,
+          "volume_mm3": 0
+        },
+        {
+          "extension_mm": 25,
+          "tongue_tag": 8,
+          "volume_mm3": 0
+        },
+        {
+          "extension_mm": 25,
+          "tongue_tag": 20,
+          "volume_mm3": 0
+        },
+        {
+          "extension_mm": 30,
+          "tongue_tag": 8,
+          "volume_mm3": 0
+        },
+        {
+          "extension_mm": 30,
+          "tongue_tag": 20,
+          "volume_mm3": 0
+        }
+      ],
+      "gate_0_01mm3": true
+    }
+  ],
+  "all_pass": false,
+  "limitations": [
+    "Discrete geometry only; no friction, tolerances or locking retention",
+    "Checks changed band against static assembly and sliding tongues; original V8 cup-articulation check not rerun"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "unverified",
+  "date": "2026-10-14",
+  "native_Word_PDF_produced": false,
+  "latest_operation": "Launch installed Word through the Windows control API",
+  "latest_error": "GetCursorPos failed: Access is denied. (0x80070005)",
+  "earlier_errors": ["File-name control unavailable in cached app state", "failed to activate captured window"],
+  "document_connector": "No connected Word document session was found",
+  "fallback_scope": "OOXML structure and approximate ReportLab preview checks are separate evidence. They do not verify native Word pagination."
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": 71608,
+  "tet10_elements": 40980,
+  "assembly_method": "CSR batches of up to2048 elements",
+  "reduced_matrix_storage": true,
+  "coarse_preconditioner_modes": 12,
+  "cg_iterations": 8825,
+  "relative_free_residual": 1.5613888089117287e-07,
+  "minimum_quadrature_jacobian_mm3": 0.13619072431877113,
+  "max_von_mises_centroid_MPa": 3.2896684361571937,
+  "strain_energy_Nmm": 3.340841006172698,
+  "reaction_sum_N": [
+    -1.9999999997723164,
+    -1.9724983546460244e-10,
+    -3.0900543365394717e-10
+  ],
+  "sampled_peak_centroid_xyz_mm": [
+    103.59282668425462,
+    -8.739455263925642,
+    114.07117820745171
+  ],
+  "assumed_E_MPa": 2000,
+  "assumed_Poisson_ratio": 0.35,
+  "ideal_load_per_full_side_N": 2,
+  "size": "adult_medium",
+  "mesh_max_mm": 1.25,
+  "source": "${WORKSPACE}\\EarDefender_V12_adult_medium_Latched.step",
+  "source_sha256": "7affe57c39b80d0b75af2a0ee4222cfe850d1e7b0d125052e943972701bb5dd6",
+  "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+  "load_method": "2 N uniform traction integrated over full guide bottom",
+  "load_face_area_mm2": 86.55999999999966,
+  "minimum_adaptive_Jacobian_mm3": 0.12928849524034997,
+  "high_order_mesh_optimized": false,
+  "guide_weighted_x_displacement_mm": 3.3408410057304985,
+  "compliance_mm_per_N": 1.6704205028652492,
+  "restraint_nodes_xyz_mm": [
+    [
+      0.0,
+      14.0,
+      150.00000000000003
+    ],
+    [
+      0.0,
+      -14.0,
+      150.0
+    ]
+  ],
+  "seconds": 193.49439358711243,
+  "limits": [
+    "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+    "Restraints are numerical datums, not scalp contact",
+    "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+    "Peak stress not used as physical strength or comfort result",
+    "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+  ]
+}

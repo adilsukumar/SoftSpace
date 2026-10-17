@@ -1,0 +1,50 @@
+
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******
+
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******
+******        Transferring Shape, ShapeType = 0                      ******
+** WorkSession : Sending all data
+ Step File Name : ${WORKSPACE}\engineering-v19-results\final-CAD\child_HingeBolt_nominal.step(6038 ents)  Write  Done
+
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******
+
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******
+******        Transferring Shape, ShapeType = 0                      ******
+** WorkSession : Sending all data
+ Step File Name : ${WORKSPACE}\engineering-v19-results\final-CAD\child_HingeNut_nominal.step(3171 ents)  Write  Done
+
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******
+
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******
+******        Transferring Shape, ShapeType = 0                      ******
+** WorkSession : Sending all data
+ Step File Name : ${WORKSPACE}\engineering-v19-results\final-CAD\child_JamNut_nominal.step(2133 ents)  Write  Done
+
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******
+
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******
+******        Transferring Shape, ShapeType = 0                      ******
+** WorkSession : Sending all data
+ Step File Name : ${WORKSPACE}\engineering-v19-results\final-CAD\adult_HingeBolt_nominal.step(6056 ents)  Write  Done
+
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******
+
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******
+******        Transferring Shape, ShapeType = 0                      ******
+** WorkSession : Sending all data
+ Step File Name : ${WORKSPACE}\engineering-v19-results\final-CAD\adult_HingeNut_nominal.step(3156 ents)  Write  Done
+Traceback (most recent call last):
+  File "${WORKSPACE}\build_v19_final.py", line 11, in <module>
+    assert BRepCheck_Analyzer(shape).IsValid(),(family,name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('adult', 'JamNut')

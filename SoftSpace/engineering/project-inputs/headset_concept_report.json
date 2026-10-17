@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "force_derived_from_CAD": false,
+  "files": [
+    {
+      "label": "Adult",
+      "f3d": "${WORKSPACE}\\OwnPassiveDefender_Adult_20261012_094718.f3d",
+      "step": "${WORKSPACE}\\OwnPassiveDefender_Adult_20261012_094718.step",
+      "head_breadth_mm": 155,
+      "head_height_mm": 220,
+      "head_depth_mm": 190,
+      "band_width_mm": 28,
+      "band_thickness_mm": 1.7,
+      "uses_current_adult_cushion_geometry": true
+    },
+    {
+      "label": "ChildBand",
+      "f3d": "${WORKSPACE}\\OwnPassiveDefender_ChildBand_20261012_094718.f3d",
+      "step": "${WORKSPACE}\\OwnPassiveDefender_ChildBand_20261012_094718.step",
+      "head_breadth_mm": 130,
+      "head_height_mm": 195,
+      "head_depth_mm": 170,
+      "band_width_mm": 24,
+      "band_thickness_mm": 1.7,
+      "uses_current_adult_cushion_geometry": true
+    }
+  ],
+  "limitations": [
+    "Headband force is prescribed separately in screening; not derived from this curved band.",
+    "ChildBand uses current adult cushions and has not established child ear clearance or fit.",
+    "Mounts, hinges, adjusters, attachment retention and continuous cushion skin are not modelled.",
+    "No acoustic absorption liner or certified hearing protection performance.",
+    "Reference head envelopes differ from reduced-model parabolic contact surfaces.",
+    "Concepts exported locally; they are not production-ready assemblies."
+  ]
+}

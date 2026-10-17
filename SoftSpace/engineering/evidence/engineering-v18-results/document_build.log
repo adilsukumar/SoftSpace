@@ -1,0 +1,49 @@
+{
+  "updated": "16 October 2026",
+  "design_status": "V18 six size passive hinge candidates with V10 native archives",
+  "documents": [
+    {
+      "path": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
+      "sha256": "c5e0231683129b5b2fa62e759d3978fa378b6557ac17d836a02addd7cf070552",
+      "bytes": 7162083
+    },
+    {
+      "path": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
+      "sha256": "3a4343a97f30796013245d4d7ed223eb47529796ec39b70e69394b963d481c04",
+      "bytes": 2756274
+    }
+  ],
+  "market_checked": "2026-10-13",
+  "future_rule": "Update both documents after every meaningful project edit or new result; preserve user edits and history; do not silently regenerate over user edits."
+}
+{'sha256': 'c5e0231683129b5b2fa62e759d3978fa378b6557ac17d836a02addd7cf070552', 'approximate_pages': 64, 'images': 34, 'tables': 40, 'zip_integrity': 'pass', 'native_page_render': 'unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure'}
+{'sha256': '3a4343a97f30796013245d4d7ed223eb47529796ec39b70e69394b963d481c04', 'approximate_pages': 39, 'images': 19, 'tables': 28, 'zip_integrity': 'pass', 'native_page_render': 'unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure'}
+[
+  {
+    "document": "Ear_Defender_Project.docx",
+    "paragraphs": 524,
+    "tables": 40,
+    "embedded_images": 34,
+    "source_links": 35,
+    "structure_and_hashes": "pass"
+  },
+  {
+    "document": "Glasses_Friendly_Headphone_Cushions.docx",
+    "paragraphs": 311,
+    "tables": 28,
+    "embedded_images": 19,
+    "source_links": 22,
+    "structure_and_hashes": "pass"
+  }
+]
+{
+  "unchanged_prior_page_images": 99,
+  "changed_prior_page_images": [
+    "Ear_Defender_Project\\page-1.png",
+    "Ear_Defender_Project\\page-25.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-1.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-11.png"
+  ],
+  "added_page_images": [],
+  "scope": "Pixel hash comparison of approximate previews only; native Word remains unverified"
+}

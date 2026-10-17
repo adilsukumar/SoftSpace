@@ -1,0 +1,1823 @@
+[
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 51,
+    "bbox_dimensions_mm": [
+      234.906543138642,
+      89.6464224018914,
+      190.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "adjustment latched",
+    "extension_mm": 0,
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 49,
+    "bbox_dimensions_mm": [
+      234.906543138642,
+      89.6464224018914,
+      190.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "adjustment latched",
+    "extension_mm": 5,
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 49,
+    "bbox_dimensions_mm": [
+      234.906543138642,
+      89.6464224018914,
+      190.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "adjustment latched",
+    "extension_mm": 10,
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      234.906543138642,
+      89.6464224018914,
+      193.3506858351842
+    ],
+    "size": "child_small",
+    "phase": "adjustment latched",
+    "extension_mm": 15,
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      234.906543138642,
+      89.6464224018914,
+      198.3506858351842
+    ],
+    "size": "child_small",
+    "phase": "adjustment latched",
+    "extension_mm": 20,
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      234.906543138642,
+      89.6464224018914,
+      203.3506858351842
+    ],
+    "size": "child_small",
+    "phase": "adjustment latched",
+    "extension_mm": 25,
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      234.906543138642,
+      89.6464224018914,
+      208.3506858351842
+    ],
+    "size": "child_small",
+    "phase": "adjustment latched",
+    "extension_mm": 30,
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      234.906543138642,
+      89.6464224018914,
+      193.3506858351842
+    ],
+    "size": "child_small",
+    "phase": "release nominal",
+    "stroke_mm": 0,
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      234.906543138642,
+      89.6464224018914,
+      193.3506858351842
+    ],
+    "size": "child_small",
+    "phase": "release nominal",
+    "stroke_mm": 2,
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 45,
+    "bbox_dimensions_mm": [
+      234.906543138642,
+      89.6464224018914,
+      193.3506858351842
+    ],
+    "size": "child_small",
+    "phase": "release nominal",
+    "stroke_mm": 4,
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 45,
+    "bbox_dimensions_mm": [
+      234.906543138642,
+      89.6464224018914,
+      193.3506858351842
+    ],
+    "size": "child_small",
+    "phase": "release nominal",
+    "stroke_mm": 6,
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      234.906543138642,
+      89.6464224018914,
+      220.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      0,
+      0
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 5,
+    "bbox_dimensions_mm": [
+      235.13720175047695,
+      89.6464224018914,
+      220.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      5,
+      0
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 5,
+    "bbox_dimensions_mm": [
+      235.1301761926889,
+      89.6464224018914,
+      220.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      10,
+      0
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 5,
+    "bbox_dimensions_mm": [
+      234.8855199340148,
+      89.6464224018914,
+      220.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      15,
+      0
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 6,
+    "bbox_dimensions_mm": [
+      234.40509495631068,
+      89.6464224018914,
+      220.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      20,
+      0
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 6,
+    "bbox_dimensions_mm": [
+      233.69255758374533,
+      89.6464224018914,
+      220.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      25,
+      0
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 8,
+    "bbox_dimensions_mm": [
+      232.75333065596584,
+      89.6464224018914,
+      220.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      30,
+      0
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 8,
+    "bbox_dimensions_mm": [
+      231.5945622570133,
+      89.6464224018914,
+      220.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      35,
+      0
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 8,
+    "bbox_dimensions_mm": [
+      230.4019422501592,
+      89.6464224018914,
+      220.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      40,
+      0
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 10,
+    "bbox_dimensions_mm": [
+      229.94522997384587,
+      89.6464224018914,
+      220.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      45,
+      0
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 7,
+    "bbox_dimensions_mm": [
+      229.29263074927294,
+      89.6464224018914,
+      220.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      50,
+      0
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 8,
+    "bbox_dimensions_mm": [
+      228.44911125058962,
+      89.6464224018914,
+      220.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      55,
+      0
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 10,
+    "bbox_dimensions_mm": [
+      227.4210911705119,
+      89.6464224018914,
+      220.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      0
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 12,
+    "bbox_dimensions_mm": [
+      226.21639436258462,
+      89.6464224018914,
+      220.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      65,
+      0
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 12,
+    "bbox_dimensions_mm": [
+      224.844189296932,
+      89.6464224018914,
+      220.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      70,
+      0
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 12,
+    "bbox_dimensions_mm": [
+      223.31491928266365,
+      89.6464224018914,
+      220.8506858351842
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      75,
+      0
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 12,
+    "bbox_dimensions_mm": [
+      223.54557789449842,
+      89.6464224018914,
+      219.07967443917576
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      75,
+      5
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 13,
+    "bbox_dimensions_mm": [
+      223.53855233670993,
+      89.6464224018914,
+      216.39479099966974
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      75,
+      10
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 15,
+    "bbox_dimensions_mm": [
+      223.29389607803506,
+      89.6464224018914,
+      212.81646910081773
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      75,
+      15
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 16,
+    "bbox_dimensions_mm": [
+      222.81347110032988,
+      89.6464224018914,
+      208.37194193291978
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      75,
+      20
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 16,
+    "bbox_dimensions_mm": [
+      222.10093372776316,
+      89.6464224018914,
+      204.84594343889145
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      75,
+      25
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 18,
+    "bbox_dimensions_mm": [
+      221.16170679998206,
+      89.6464224018914,
+      201.10309859933028
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      75,
+      30
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 20,
+    "bbox_dimensions_mm": [
+      220.00293840102768,
+      89.6464224018914,
+      196.58318752941378
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      75,
+      35
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 25,
+    "bbox_dimensions_mm": [
+      218.81031839417142,
+      89.6464224018914,
+      191.32060948158093
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      75,
+      40
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 30,
+    "bbox_dimensions_mm": [
+      218.35360611785572,
+      89.6464224018914,
+      185.35541585240725
+    ],
+    "size": "child_small",
+    "phase": "folding released",
+    "angles_deg": [
+      75,
+      45
+    ],
+    "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 51,
+    "bbox_dimensions_mm": [
+      246.10425899803198,
+      89.64642139322132,
+      190.85068533084916
+    ],
+    "size": "child_medium",
+    "phase": "adjustment latched",
+    "extension_mm": 0,
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 49,
+    "bbox_dimensions_mm": [
+      246.10425899803198,
+      89.64642139322132,
+      190.85068533084916
+    ],
+    "size": "child_medium",
+    "phase": "adjustment latched",
+    "extension_mm": 5,
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 49,
+    "bbox_dimensions_mm": [
+      246.10425899803198,
+      89.64642139322132,
+      190.85068533084916
+    ],
+    "size": "child_medium",
+    "phase": "adjustment latched",
+    "extension_mm": 10,
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      246.10425899803198,
+      89.64642139322132,
+      193.3506853308492
+    ],
+    "size": "child_medium",
+    "phase": "adjustment latched",
+    "extension_mm": 15,
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      246.10425899803198,
+      89.64642139322132,
+      198.3506853308492
+    ],
+    "size": "child_medium",
+    "phase": "adjustment latched",
+    "extension_mm": 20,
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      246.10425899803198,
+      89.64642139322132,
+      203.3506853308492
+    ],
+    "size": "child_medium",
+    "phase": "adjustment latched",
+    "extension_mm": 25,
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      246.10425899803198,
+      89.64642139322132,
+      208.3506853308492
+    ],
+    "size": "child_medium",
+    "phase": "adjustment latched",
+    "extension_mm": 30,
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      246.10425899803198,
+      89.64642139322132,
+      193.3506853308492
+    ],
+    "size": "child_medium",
+    "phase": "release nominal",
+    "stroke_mm": 0,
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      246.10425899803198,
+      89.64642139322132,
+      193.3506853308492
+    ],
+    "size": "child_medium",
+    "phase": "release nominal",
+    "stroke_mm": 2,
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 45,
+    "bbox_dimensions_mm": [
+      246.10425899803198,
+      89.64642139322132,
+      193.3506853308492
+    ],
+    "size": "child_medium",
+    "phase": "release nominal",
+    "stroke_mm": 4,
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 45,
+    "bbox_dimensions_mm": [
+      246.10425899803198,
+      89.64642139322132,
+      193.3506853308492
+    ],
+    "size": "child_medium",
+    "phase": "release nominal",
+    "stroke_mm": 6,
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      246.10425899803198,
+      89.64642139322132,
+      220.85068533084916
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      0,
+      0
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 5,
+    "bbox_dimensions_mm": [
+      246.33491760986686,
+      89.64642139322132,
+      220.85068533084916
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      5,
+      0
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 5,
+    "bbox_dimensions_mm": [
+      246.32789205207865,
+      89.64642139322132,
+      220.85068533084916
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      10,
+      0
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 5,
+    "bbox_dimensions_mm": [
+      246.0832357934043,
+      89.64642139322132,
+      220.85068533084916
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      15,
+      0
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 6,
+    "bbox_dimensions_mm": [
+      245.60281081569974,
+      89.64642139322132,
+      220.85068533084916
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      20,
+      0
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 6,
+    "bbox_dimensions_mm": [
+      244.89027344313394,
+      89.64642139322132,
+      220.85068533084916
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      25,
+      0
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 8,
+    "bbox_dimensions_mm": [
+      243.95104651535382,
+      89.64642139322132,
+      220.85068533084916
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      30,
+      0
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 8,
+    "bbox_dimensions_mm": [
+      242.79227811640067,
+      89.64642139322132,
+      220.85068533084916
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      35,
+      0
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 8,
+    "bbox_dimensions_mm": [
+      241.59965810954577,
+      89.64642139322132,
+      220.85068533084916
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      40,
+      0
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 10,
+    "bbox_dimensions_mm": [
+      241.14294583323158,
+      89.64642139322132,
+      220.85068533084916
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      45,
+      0
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 7,
+    "bbox_dimensions_mm": [
+      240.4903466086577,
+      89.64642139322132,
+      220.85068533084916
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      50,
+      0
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 8,
+    "bbox_dimensions_mm": [
+      239.64682710997337,
+      89.64642139322132,
+      220.85068533084916
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      55,
+      0
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 9,
+    "bbox_dimensions_mm": [
+      238.61880702989455,
+      89.64642139322132,
+      220.85068533084916
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      0
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 9,
+    "bbox_dimensions_mm": [
+      238.8494656417293,
+      89.64642139322132,
+      219.07967393484068
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      5
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 12,
+    "bbox_dimensions_mm": [
+      238.84244008394074,
+      89.64642139322132,
+      216.3947904953346
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      10
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 13,
+    "bbox_dimensions_mm": [
+      238.59778382526582,
+      89.64642139322132,
+      212.81646859648254
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      15
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 17,
+    "bbox_dimensions_mm": [
+      238.11735884756047,
+      89.64642139322132,
+      208.37194142858456
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      20
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 21,
+    "bbox_dimensions_mm": [
+      237.4048214749936,
+      89.64642139322132,
+      204.84594343889077
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      25
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 28,
+    "bbox_dimensions_mm": [
+      236.46559454721233,
+      89.64642139322132,
+      201.10309859932948
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      30
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 28,
+    "bbox_dimensions_mm": [
+      235.30682614825776,
+      89.64642139322132,
+      196.58318752941287
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      35
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 35,
+    "bbox_dimensions_mm": [
+      234.11420614140127,
+      89.64642139322132,
+      191.3206094815799
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      40
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 41,
+    "bbox_dimensions_mm": [
+      233.65749386508526,
+      89.64642139322132,
+      185.35541585240614
+    ],
+    "size": "child_medium",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      45
+    ],
+    "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 51,
+    "bbox_dimensions_mm": [
+      256.631746703042,
+      89.6464204908523,
+      190.85068487966464
+    ],
+    "size": "child_large",
+    "phase": "adjustment latched",
+    "extension_mm": 0,
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 49,
+    "bbox_dimensions_mm": [
+      256.631746703042,
+      89.6464204908523,
+      190.85068487966464
+    ],
+    "size": "child_large",
+    "phase": "adjustment latched",
+    "extension_mm": 5,
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 49,
+    "bbox_dimensions_mm": [
+      256.631746703042,
+      89.6464204908523,
+      190.85068487966464
+    ],
+    "size": "child_large",
+    "phase": "adjustment latched",
+    "extension_mm": 10,
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      256.631746703042,
+      89.6464204908523,
+      193.3506848796647
+    ],
+    "size": "child_large",
+    "phase": "adjustment latched",
+    "extension_mm": 15,
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      256.631746703042,
+      89.6464204908523,
+      198.3506848796647
+    ],
+    "size": "child_large",
+    "phase": "adjustment latched",
+    "extension_mm": 20,
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      256.631746703042,
+      89.6464204908523,
+      203.3506848796647
+    ],
+    "size": "child_large",
+    "phase": "adjustment latched",
+    "extension_mm": 25,
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      256.631746703042,
+      89.6464204908523,
+      208.3506848796647
+    ],
+    "size": "child_large",
+    "phase": "adjustment latched",
+    "extension_mm": 30,
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5",
+    "guide_tongue_gaps_mm": [
+      0.5999999999999943,
+      0.5999999999999943
+    ]
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      256.631746703042,
+      89.6464204908523,
+      193.3506848796647
+    ],
+    "size": "child_large",
+    "phase": "release nominal",
+    "stroke_mm": 0,
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      256.631746703042,
+      89.6464204908523,
+      193.3506848796647
+    ],
+    "size": "child_large",
+    "phase": "release nominal",
+    "stroke_mm": 2,
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 45,
+    "bbox_dimensions_mm": [
+      256.631746703042,
+      89.6464204908523,
+      193.3506848796647
+    ],
+    "size": "child_large",
+    "phase": "release nominal",
+    "stroke_mm": 4,
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 45,
+    "bbox_dimensions_mm": [
+      256.631746703042,
+      89.6464204908523,
+      193.3506848796647
+    ],
+    "size": "child_large",
+    "phase": "release nominal",
+    "stroke_mm": 6,
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 47,
+    "bbox_dimensions_mm": [
+      256.631746703042,
+      89.6464204908523,
+      220.85068487966464
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      0,
+      0
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 5,
+    "bbox_dimensions_mm": [
+      256.8624053148769,
+      89.6464204908523,
+      220.85068487966464
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      5,
+      0
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 5,
+    "bbox_dimensions_mm": [
+      256.85537975708894,
+      89.6464204908523,
+      220.85068487966464
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      10,
+      0
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 5,
+    "bbox_dimensions_mm": [
+      256.6107234984148,
+      89.6464204908523,
+      220.85068487966464
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      15,
+      0
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 6,
+    "bbox_dimensions_mm": [
+      256.1302985207107,
+      89.6464204908523,
+      220.85068487966464
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      20,
+      0
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 6,
+    "bbox_dimensions_mm": [
+      255.41776114814544,
+      89.6464204908523,
+      220.85068487966464
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      25,
+      0
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 8,
+    "bbox_dimensions_mm": [
+      254.47853422036604,
+      89.6464204908523,
+      220.85068487966464
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      30,
+      0
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 8,
+    "bbox_dimensions_mm": [
+      253.31976582141363,
+      89.6464204908523,
+      220.85068487966464
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      35,
+      0
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 8,
+    "bbox_dimensions_mm": [
+      252.1271458145596,
+      89.6464204908523,
+      220.85068487966464
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      40,
+      0
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 10,
+    "bbox_dimensions_mm": [
+      251.67043353824636,
+      89.6464204908523,
+      220.85068487966464
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      45,
+      0
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 7,
+    "bbox_dimensions_mm": [
+      251.01783431367357,
+      89.6464204908523,
+      220.85068487966464
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      50,
+      0
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 8,
+    "bbox_dimensions_mm": [
+      250.1743148149904,
+      89.6464204908523,
+      220.85068487966464
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      55,
+      0
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 9,
+    "bbox_dimensions_mm": [
+      249.1462947349128,
+      89.6464204908523,
+      220.85068487966464
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      0
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 9,
+    "bbox_dimensions_mm": [
+      249.37695334674757,
+      89.6464204908523,
+      219.07967348365622
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      5
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 9,
+    "bbox_dimensions_mm": [
+      249.3699277889591,
+      89.6464204908523,
+      216.39479004415017
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      10
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 11,
+    "bbox_dimensions_mm": [
+      249.12527153028424,
+      89.6464204908523,
+      212.81646814529813
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      15
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 13,
+    "bbox_dimensions_mm": [
+      248.6448465525791,
+      89.6464204908523,
+      208.3719409774002
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      20
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 13,
+    "bbox_dimensions_mm": [
+      247.93230918001245,
+      89.6464204908523,
+      204.845943438888
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      25
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 21,
+    "bbox_dimensions_mm": [
+      246.99308225223143,
+      89.6464204908523,
+      201.1030985993262
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      30
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 26,
+    "bbox_dimensions_mm": [
+      245.8343138532771,
+      89.6464204908523,
+      196.5831875294091
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      35
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 28,
+    "bbox_dimensions_mm": [
+      244.641693846421,
+      89.6464204908523,
+      191.32060948157567
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      40
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  },
+  {
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "boolean_count": 30,
+    "bbox_dimensions_mm": [
+      244.18498157010538,
+      89.6464204908523,
+      185.35541585240148
+    ],
+    "size": "child_large",
+    "phase": "folding released",
+    "angles_deg": [
+      60,
+      45
+    ],
+    "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5"
+  }
+]

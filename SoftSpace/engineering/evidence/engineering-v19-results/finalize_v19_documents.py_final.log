@@ -1,0 +1,31 @@
+{
+  "updated": "16 October 2026",
+  "design_status": "V19 six size assembly prototype with conditional joint calculations and V10 native archives",
+  "documents": [
+    {
+      "path": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
+      "sha256": "63c6e5089480593aff4274fab5b7736df76b13c91f2cffc951e673d6802a256c",
+      "bytes": 8632256
+    },
+    {
+      "path": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
+      "sha256": "2494e305e8589a14adbd7edabde7f574afcab7b84ebccc66df26997e6f350580",
+      "bytes": 4290459
+    }
+  ],
+  "market_checked": "2026-10-13",
+  "future_rule": "Update both documents after every meaningful project edit or new result; preserve user edits and history; do not silently regenerate over user edits."
+}
+{'sha256': '63c6e5089480593aff4274fab5b7736df76b13c91f2cffc951e673d6802a256c', 'approximate_pages': 75, 'images': 40, 'tables': 48, 'zip_integrity': 'pass', 'native_page_render': 'unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure'}
+{'sha256': '2494e305e8589a14adbd7edabde7f574afcab7b84ebccc66df26997e6f350580', 'approximate_pages': 51, 'images': 26, 'tables': 36, 'zip_integrity': 'pass', 'native_page_render': 'unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure'}
+Traceback (most recent call last):
+  File "${WORKSPACE}\documents\verify_documents.py", line 11, in <module>
+    assert len(links)>=6 and status['design_status'] in text
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+Traceback (most recent call last):
+  File "${WORKSPACE}\finalize_v19_documents.py", line 6, in <module>
+    subprocess.run([sys.executable,str(D/script)],cwd=P,check=True)
+  File "${USER_HOME}\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['${USER_HOME}\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe', '${WORKSPACE}\\documents\\verify_documents.py']' returned non-zero exit status 1.

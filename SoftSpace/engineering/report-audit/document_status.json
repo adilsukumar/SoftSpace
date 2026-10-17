@@ -1,0 +1,120 @@
+{
+  "updated": "16 October 2026",
+  "design_status": "V19 six size assembly prototype with conditional joint calculations and V10 native archives",
+  "documents": [
+    {
+      "path": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
+      "sha256": "ba8e294211501f5a56a32ac6e5c1b654543bfe018b788d2c19e9cd90ee0de29c",
+      "bytes": 8634471
+    },
+    {
+      "path": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
+      "sha256": "e99f1f41cb774af116525421c65c66ea9080c4c8091ecb61883b8b156e4eebd9",
+      "bytes": 4292689
+    }
+  ],
+  "market_checked": "2026-10-13",
+  "future_rule": "Update both documents after every meaningful project edit or new result; preserve user edits and history; do not silently regenerate over user edits.",
+  "quality_check": {
+    "structural_checks": "pass",
+    "approximate_layout_page_counts": [
+      77,
+      53
+    ],
+    "approximate_previews_match_current_documents": true,
+    "native_Word_layout_verified": false,
+    "reason": "Bundled LibreOffice was unavailable in the recorded renderer check. Native desktop document control is not available for this batch. Approximate previews were used; native Word pagination remains unverified.",
+    "checks": [
+      {
+        "document": "Ear_Defender_Project.docx",
+        "paragraphs": 618,
+        "tables": 50,
+        "embedded_images": 40,
+        "source_links": 37,
+        "structure_and_hashes": "pass"
+      },
+      {
+        "document": "Glasses_Friendly_Headphone_Cushions.docx",
+        "paragraphs": 410,
+        "tables": 38,
+        "embedded_images": 26,
+        "source_links": 24,
+        "structure_and_hashes": "pass"
+      }
+    ],
+    "approximate_preview_visual_review": {
+      "status": "pass",
+      "documents": [
+        {
+          "document": "Ear_Defender_Project.docx",
+          "sha256": "ba8e294211501f5a56a32ac6e5c1b654543bfe018b788d2c19e9cd90ee0de29c",
+          "approximate_pages_reviewed": 77,
+          "result": "no clipping, broken tables or unintended overflow observed in approximate page images"
+        },
+        {
+          "document": "Glasses_Friendly_Headphone_Cushions.docx",
+          "sha256": "e99f1f41cb774af116525421c65c66ea9080c4c8091ecb61883b8b156e4eebd9",
+          "approximate_pages_reviewed": 53,
+          "result": "no clipping, broken tables or unintended overflow observed in approximate page images"
+        }
+      ],
+      "scope": "Approximate ReportLab previews only. Native Word pagination remains unverified."
+    }
+  },
+  "latest_study": {
+    "revision": "V19 parallel disc assembly prototype handoff",
+    "source": "engineering-v19-results/test_register.json",
+    "local_STEP_sizes": 6,
+    "saved_poses": 18,
+    "motion_sample_count": 189,
+    "joint_cases": 22,
+    "joint_array_audits": 22,
+    "quadratic_cases": 4,
+    "quadratic_comparisons": [
+      {
+        "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\child_large_h2.3.json",
+        "size": "child_large",
+        "h": 2.3,
+        "change_percent": 0.3874705729557393,
+        "gate": true
+      },
+      {
+        "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\adult_small_h2.3.json",
+        "size": "adult_small",
+        "h": 2.3,
+        "change_percent": 0.4148024748077628,
+        "gate": true
+      }
+    ],
+    "quadratic_inward_cases": 4,
+    "quadratic_inward_comparisons": [
+      {
+        "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\child_large_h2.3.json",
+        "size": "child_large",
+        "h": 2.3,
+        "converged": true,
+        "change_percent": 0.3674398638910059,
+        "gate": true
+      },
+      {
+        "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\adult_small_h2.3.json",
+        "size": "adult_small",
+        "h": 2.3,
+        "converged": true,
+        "change_percent": 0.33550984239072434,
+        "gate": true
+      }
+    ],
+    "physical_measurements": 0,
+    "all_requested_computer_models_complete": false,
+    "product_complete": false,
+    "manufacturing_release": false,
+    "native_Fusion_revision": "V10"
+  },
+  "publication_branding": {
+    "main": "SoftSpace",
+    "replacement_cushion": "SoftSpace Flex",
+    "trademark_clearance": "Incomplete",
+    "legacy_local_report_filenames_preserved": true
+  }
+}

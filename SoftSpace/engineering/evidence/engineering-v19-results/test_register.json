@@ -1,0 +1,1332 @@
+{
+  "revision": "V19 parallel disc assembly prototype handoff",
+  "updated": "2026-10-16",
+  "sizes": [
+    {
+      "size": "adult_large",
+      "file": "${WORKSPACE}\\EarDefender_V19_adult_large_AssemblyPrototype.step",
+      "sha256": "5d735cd7b2ef0a8e601480ad19ab7a00789b75e36ee7b994a36d89102add538a",
+      "solid_count": 42,
+      "motion_samples": 35,
+      "stop_queries": 4,
+      "folded_box_mm": [
+        258.3461154610902,
+        90.0,
+        171.9602540378442
+      ],
+      "retracted_box_mm": [
+        276.06961881321,
+        90.0,
+        191.8
+      ]
+    },
+    {
+      "size": "adult_medium",
+      "file": "${WORKSPACE}\\EarDefender_V19_adult_medium_AssemblyPrototype.step",
+      "sha256": "3ffa4d86f9949668a241b560246be93d0bb3acd3d63fe1f7340e55b55d819c4b",
+      "solid_count": 42,
+      "motion_samples": 35,
+      "stop_queries": 4,
+      "folded_box_mm": [
+        242.14772798773214,
+        90.0,
+        171.96025403783926
+      ],
+      "retracted_box_mm": [
+        259.87123133983,
+        90.0,
+        191.8
+      ]
+    },
+    {
+      "size": "adult_small",
+      "file": "${WORKSPACE}\\EarDefender_V19_adult_small_AssemblyPrototype.step",
+      "sha256": "035aa0b663212ab25ef478dd2c23e883bcdfd35df3525eacfb5977bd6042285c",
+      "solid_count": 42,
+      "motion_samples": 32,
+      "stop_queries": 4,
+      "folded_box_mm": [
+        229.3478069406188,
+        90.0,
+        194.6025612106784
+      ],
+      "retracted_box_mm": [
+        243.42028468362,
+        90.0,
+        191.799999999991
+      ]
+    },
+    {
+      "size": "child_large",
+      "file": "${WORKSPACE}\\EarDefender_V19_child_large_AssemblyPrototype.step",
+      "sha256": "5b6c1004fae84fdd7b6849d831d570f60b0d5520697ab92ff4f7c2cd29ddaa9b",
+      "solid_count": 42,
+      "motion_samples": 26,
+      "stop_queries": 4,
+      "folded_box_mm": [
+        239.71058482793688,
+        77.25,
+        171.90694597659956
+      ],
+      "retracted_box_mm": [
+        242.63174650304,
+        77.25,
+        181.125
+      ]
+    },
+    {
+      "size": "child_medium",
+      "file": "${WORKSPACE}\\EarDefender_V19_child_medium_AssemblyPrototype.step",
+      "sha256": "ab2a0c221b24772d61a8b1b63c2cbb3002bcee2f0a5bb42cf98d3690eca43b1c",
+      "solid_count": 42,
+      "motion_samples": 29,
+      "stop_queries": 4,
+      "folded_box_mm": [
+        227.5990366150466,
+        77.25,
+        187.11277496528686
+      ],
+      "retracted_box_mm": [
+        232.10425879803,
+        77.25,
+        181.125
+      ]
+    },
+    {
+      "size": "child_small",
+      "file": "${WORKSPACE}\\EarDefender_V19_child_small_AssemblyPrototype.step",
+      "sha256": "1d5fd978aad75a4a4fcf0c4728c25d9b34fba0487c21064ab1da67380b88e467",
+      "solid_count": 42,
+      "motion_samples": 32,
+      "stop_queries": 4,
+      "folded_box_mm": [
+        211.85316301808047,
+        77.25,
+        187.1127749652879
+      ],
+      "retracted_box_mm": [
+        220.90654293864,
+        77.25,
+        181.125
+      ]
+    }
+  ],
+  "motion_sample_count": 189,
+  "stop_query_count": 24,
+  "pose_exports": {
+    "case_count": 18,
+    "all_pass": true,
+    "cases": [
+      {
+        "size": "adult_large",
+        "phase": "Wear",
+        "file": "${WORKSPACE}\\EarDefender_V19_adult_large_Wear.step",
+        "sha256": "f8225e99a47873829e4697af3b7f1980f30bdf4ae165f710a49acd3e7308b1fc",
+        "source_sha256": "5d735cd7b2ef0a8e601480ad19ab7a00789b75e36ee7b994a36d89102add538a",
+        "solid_count": 42,
+        "all_valid": true,
+        "box_mm": [
+          276.06961881321,
+          90.0,
+          206.8
+        ],
+        "box_error_mm": 0.0,
+        "volume_error_mm3": 1.1641532182693481e-10,
+        "pass_result": true
+      },
+      {
+        "size": "adult_large",
+        "phase": "Retracted",
+        "file": "${WORKSPACE}\\EarDefender_V19_adult_large_Retracted.step",
+        "sha256": "211de4c5f7a611d0cdc76da791d1c614047269ca0c013360a87a648ed82ff4d8",
+        "source_sha256": "5d735cd7b2ef0a8e601480ad19ab7a00789b75e36ee7b994a36d89102add538a",
+        "solid_count": 42,
+        "all_valid": true,
+        "box_mm": [
+          276.06961881321,
+          90.0,
+          191.8
+        ],
+        "box_error_mm": 0.0,
+        "volume_error_mm3": 1.1641532182693481e-10,
+        "pass_result": true
+      },
+      {
+        "size": "adult_large",
+        "phase": "Folded",
+        "file": "${WORKSPACE}\\EarDefender_V19_adult_large_Folded.step",
+        "sha256": "105df8fbd6bd4653284bc5fe02fed58021f4b963d77415b73e8313a89ebc65b8",
+        "source_sha256": "5d735cd7b2ef0a8e601480ad19ab7a00789b75e36ee7b994a36d89102add538a",
+        "solid_count": 42,
+        "all_valid": true,
+        "box_mm": [
+          258.34611546116264,
+          90.0,
+          171.9602540378422
+        ],
+        "box_error_mm": 7.241851562866941e-11,
+        "volume_error_mm3": 1.1641532182693481e-10,
+        "pass_result": true
+      },
+      {
+        "size": "adult_medium",
+        "phase": "Wear",
+        "file": "${WORKSPACE}\\EarDefender_V19_adult_medium_Wear.step",
+        "sha256": "8988588485d88ba7684a3b5fbffa95c963f356196d1bfc4ba63a1a2675314fbf",
+        "source_sha256": "3ffa4d86f9949668a241b560246be93d0bb3acd3d63fe1f7340e55b55d819c4b",
+        "solid_count": 42,
+        "all_valid": true,
+        "box_mm": [
+          259.87123133983,
+          90.0,
+          206.8
+        ],
+        "box_error_mm": 0.0,
+        "volume_error_mm3": 5.820766091346741e-11,
+        "pass_result": true
+      },
+      {
+        "size": "adult_medium",
+        "phase": "Retracted",
+        "file": "${WORKSPACE}\\EarDefender_V19_adult_medium_Retracted.step",
+        "sha256": "0701932f6c417acdbad8ea883f3cc478aeabf890c27ae32eab93e7af4ecbeee7",
+        "source_sha256": "3ffa4d86f9949668a241b560246be93d0bb3acd3d63fe1f7340e55b55d819c4b",
+        "solid_count": 42,
+        "all_valid": true,
+        "box_mm": [
+          259.87123133983,
+          90.0,
+          191.8
+        ],
+        "box_error_mm": 0.0,
+        "volume_error_mm3": 5.820766091346741e-11,
+        "pass_result": true
+      },
+      {
+        "size": "adult_medium",
+        "phase": "Folded",
+        "file": "${WORKSPACE}\\EarDefender_V19_adult_medium_Folded.step",
+        "sha256": "47fb59c3b767f713599dac7f178827da45751c52082375df568cff083ccdfa93",
+        "source_sha256": "3ffa4d86f9949668a241b560246be93d0bb3acd3d63fe1f7340e55b55d819c4b",
+        "solid_count": 42,
+        "all_valid": true,
+        "box_mm": [
+          242.14772798779734,
+          90.0,
+          171.96025403784637
+        ],
+        "box_error_mm": 6.519940143334679e-11,
+        "volume_error_mm3": 1.7462298274040222e-10,
+        "pass_result": true
+      },
+      {
+        "size": "adult_small",
+        "phase": "Wear",
+        "file": "${WORKSPACE}\\EarDefender_V19_adult_small_Wear.step",
+        "sha256": "a82039d76d4f660cbb3a9f60b4157c0e494b1ce9323f2b0148a1e7d2a9067019",
+        "source_sha256": "035aa0b663212ab25ef478dd2c23e883bcdfd35df3525eacfb5977bd6042285c",
+        "solid_count": 42,
+        "all_valid": true,
+        "box_mm": [
+          243.42028468362,
+          90.0,
+          206.799999999991
+        ],
+        "box_error_mm": 0.0,
+        "volume_error_mm3": 1.1641532182693481e-10,
+        "pass_result": true
+      },
+      {
+        "size": "adult_small",
+        "phase": "Retracted",
+        "file": "${WORKSPACE}\\EarDefender_V19_adult_small_Retracted.step",
+        "sha256": "0d181cf329450b253df285fc26c1e48f4d80d82c883ed3fd80805bff61d8e1db",
+        "source_sha256": "035aa0b663212ab25ef478dd2c23e883bcdfd35df3525eacfb5977bd6042285c",
+        "solid_count": 42,
+        "all_valid": true,
+        "box_mm": [
+          243.42028468362,
+          90.0,
+          191.799999999991
+        ],
+        "box_error_mm": 0.0,
+        "volume_error_mm3": 1.1641532182693481e-10,
+        "pass_result": true
+      },
+      {
+        "size": "adult_small",
+        "phase": "Folded",
+        "file": "${WORKSPACE}\\EarDefender_V19_adult_small_Folded.step",
+        "sha256": "ec0a783bcfcfd8b489510e1569c6d568784bb7ce6e98aa8bdd0f3108963e275f",
+        "source_sha256": "035aa0b663212ab25ef478dd2c23e883bcdfd35df3525eacfb5977bd6042285c",
+        "solid_count": 42,
+        "all_valid": true,
+        "box_mm": [
+          229.34780694067334,
+          90.0,
+          194.60256121067835
+        ],
+        "box_error_mm": 5.454126039694529e-11,
+        "volume_error_mm3": 0.0,
+        "pass_result": true
+      },
+      {
+        "size": "child_large",
+        "phase": "Wear",
+        "file": "${WORKSPACE}\\EarDefender_V19_child_large_Wear.step",
+        "sha256": "1f28fd3e4dfb15c9bdb197c5117baceaf3774730252262459d4809a08b41acc8",
+        "source_sha256": "5b6c1004fae84fdd7b6849d831d570f60b0d5520697ab92ff4f7c2cd29ddaa9b",
+        "solid_count": 42,
+        "all_valid": true,
+        "box_mm": [
+          242.63174650304,
+          77.25,
+          183.62500000000006
+        ],
+        "box_error_mm": 0.0,
+        "volume_error_mm3": 5.820766091346741e-11,
+        "pass_result": true
+      },
+      {
+        "size": "child_large",
+        "phase": "Retracted",
+        "file": "${WORKSPACE}\\EarDefender_V19_child_large_Retracted.step",
+        "sha256": "084e3fe72a6ee64a94b190775fe4124e6964d52dc977bc74ab86efa6b0d42c62",
+        "source_sha256": "5b6c1004fae84fdd7b6849d831d570f60b0d5520697ab92ff4f7c2cd29ddaa9b",
+        "solid_count": 42,
+        "all_valid": true,
+        "box_mm": [
+          242.63174650304,
+          77.25,
+          181.125
+        ],
+        "box_error_mm": 0.0,
+        "volume_error_mm3": 5.820766091346741e-11,
+        "pass_result": true
+      },
+      {
+        "size": "child_large",
+        "phase": "Folded",
+        "file": "${WORKSPACE}\\EarDefender_V19_child_large_Folded.step",
+        "sha256": "aa8e6ac6ff99d71ca1d0855473c2963e42faeb20df883db81fba0acc4e2db785",
+        "source_sha256": "5b6c1004fae84fdd7b6849d831d570f60b0d5520697ab92ff4f7c2cd29ddaa9b",
+        "solid_count": 42,
+        "all_valid": true,
+        "box_mm": [
+          239.71058482795212,
+          77.25,
+          171.90694597661488
+        ],
+        "box_error_mm": 1.531930138298776e-11,
+        "volume_error_mm3": 1.1641532182693481e-10,
+        "pass_result": true
+      },
+      {
+        "size": "child_medium",
+        "phase": "Wear",
+        "file": "${WORKSPACE}\\EarDefender_V19_child_medium_Wear.step",
+        "sha256": "8fafedd123e3ed0cd84433bf988f99ae36c8f9aa89b22d4425fd6f15fab03876",
+        "source_sha256": "ab2a0c221b24772d61a8b1b63c2cbb3002bcee2f0a5bb42cf98d3690eca43b1c",
+        "solid_count": 42,
+        "all_valid": true,
+        "box_mm": [
+          232.10425879803,
+          77.25,
+          183.62500000000003
+        ],
+        "box_error_mm": 0.0,
+        "volume_error_mm3": 1.1641532182693481e-10,
+        "pass_result": true
+      },
+      {
+        "size": "child_medium",
+        "phase": "Retracted",
+        "file": "${WORKSPACE}\\EarDefender_V19_child_medium_Retracted.step",
+        "sha256": "bf38f3cd0cab359595802e073e2882945c6fd43a966ed184116419f6441a2434",
+        "source_sha256": "ab2a0c221b24772d61a8b1b63c2cbb3002bcee2f0a5bb42cf98d3690eca43b1c",
+        "solid_count": 42,
+        "all_valid": true,
+        "box_mm": [
+          232.10425879803,
+          77.25,
+          181.125
+        ],
+        "box_error_mm": 0.0,
+        "volume_error_mm3": 1.1641532182693481e-10,
+        "pass_result": true
+      },
+      {
+        "size": "child_medium",
+        "phase": "Folded",
+        "file": "${WORKSPACE}\\EarDefender_V19_child_medium_Folded.step",
+        "sha256": "5513ed27184340e6badf6609b4b948bd2b79385973822711bd747fac5eda50a4",
+        "source_sha256": "ab2a0c221b24772d61a8b1b63c2cbb3002bcee2f0a5bb42cf98d3690eca43b1c",
+        "solid_count": 42,
+        "all_valid": true,
+        "box_mm": [
+          227.5990366150626,
+          77.25,
+          187.1127749652872
+        ],
+        "box_error_mm": 1.6001422409317456e-11,
+        "volume_error_mm3": 5.820766091346741e-11,
+        "pass_result": true
+      },
+      {
+        "size": "child_small",
+        "phase": "Wear",
+        "file": "${WORKSPACE}\\EarDefender_V19_child_small_Wear.step",
+        "sha256": "71741340f27d1d7cf85890fe794dcc461cab4023a8d461ff139a2a2786b76fef",
+        "source_sha256": "1d5fd978aad75a4a4fcf0c4728c25d9b34fba0487c21064ab1da67380b88e467",
+        "solid_count": 42,
+        "all_valid": true,
+        "box_mm": [
+          220.90654293864,
+          77.25,
+          183.625
+        ],
+        "box_error_mm": 0.0,
+        "volume_error_mm3": 5.820766091346741e-11,
+        "pass_result": true
+      },
+      {
+        "size": "child_small",
+        "phase": "Retracted",
+        "file": "${WORKSPACE}\\EarDefender_V19_child_small_Retracted.step",
+        "sha256": "581fe2081a62bd80d0183d54a13673d0bc37877bb15ea1b28a483aaf20ac3c3b",
+        "source_sha256": "1d5fd978aad75a4a4fcf0c4728c25d9b34fba0487c21064ab1da67380b88e467",
+        "solid_count": 42,
+        "all_valid": true,
+        "box_mm": [
+          220.90654293864,
+          77.25,
+          181.125
+        ],
+        "box_error_mm": 0.0,
+        "volume_error_mm3": 5.820766091346741e-11,
+        "pass_result": true
+      },
+      {
+        "size": "child_small",
+        "phase": "Folded",
+        "file": "${WORKSPACE}\\EarDefender_V19_child_small_Folded.step",
+        "sha256": "ba28ee8fdb196f500ec95444475465ce7ff2ff9ed264b2586b69d9a26596056b",
+        "source_sha256": "1d5fd978aad75a4a4fcf0c4728c25d9b34fba0487c21064ab1da67380b88e467",
+        "solid_count": 42,
+        "all_valid": true,
+        "box_mm": [
+          211.85316301812932,
+          77.25,
+          187.11277496528757
+        ],
+        "box_error_mm": 4.885691851086449e-11,
+        "volume_error_mm3": 5.820766091346741e-11,
+        "pass_result": true
+      }
+    ],
+    "scope": "OCP import checks count validity volume and pose bounds. No native Fusion feature tree or physical validation."
+  },
+  "joint_cases": [
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h0.8_P140_mu0.2_F2.json",
+      "size": "adult_small",
+      "mesh_mm": 0.8,
+      "preload_N": 140,
+      "mu": 0.2,
+      "side_force_N": 2,
+      "converged": true,
+      "displacement_mm": 0.3046339154864866,
+      "residual": 7.614773443836763e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h1.0_P140_mu0.2_F2.json",
+      "size": "adult_small",
+      "mesh_mm": 1.0,
+      "preload_N": 140,
+      "mu": 0.2,
+      "side_force_N": 2,
+      "converged": true,
+      "displacement_mm": 0.2876526650060315,
+      "residual": 8.117868863166746e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h1.4_P140_mu0.2_F2.json",
+      "size": "adult_small",
+      "mesh_mm": 1.4,
+      "preload_N": 140,
+      "mu": 0.2,
+      "side_force_N": 2,
+      "converged": true,
+      "displacement_mm": 0.2605011958222785,
+      "residual": 7.910899508735936e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h2.0_P140_mu0.2_F-2.json",
+      "size": "adult_small",
+      "mesh_mm": 2.0,
+      "preload_N": 140,
+      "mu": 0.2,
+      "side_force_N": -2,
+      "converged": true,
+      "displacement_mm": -0.22441614534785656,
+      "residual": 9.039033112948061e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h2.0_P140_mu0.2_F2.json",
+      "size": "adult_small",
+      "mesh_mm": 2.0,
+      "preload_N": 140,
+      "mu": 0.2,
+      "side_force_N": 2,
+      "converged": true,
+      "displacement_mm": 0.22152316398374736,
+      "residual": 9.96408528084647e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h3.0_P140_mu0.2_F-2.json",
+      "size": "adult_small",
+      "mesh_mm": 3.0,
+      "preload_N": 140,
+      "mu": 0.2,
+      "side_force_N": -2,
+      "converged": true,
+      "displacement_mm": -0.15559760691147695,
+      "residual": 9.604344087614793e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h3.0_P140_mu0.2_F2.json",
+      "size": "adult_small",
+      "mesh_mm": 3.0,
+      "preload_N": 140,
+      "mu": 0.2,
+      "side_force_N": 2,
+      "converged": true,
+      "displacement_mm": 0.15453400074955392,
+      "residual": 8.267239508470827e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h3.0_P210_mu0.3_F-2.json",
+      "size": "adult_small",
+      "mesh_mm": 3.0,
+      "preload_N": 210,
+      "mu": 0.3,
+      "side_force_N": -2,
+      "converged": true,
+      "displacement_mm": -0.15143936489026588,
+      "residual": 8.440980072149321e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h3.0_P210_mu0.3_F2.json",
+      "size": "adult_small",
+      "mesh_mm": 3.0,
+      "preload_N": 210,
+      "mu": 0.3,
+      "side_force_N": 2,
+      "converged": true,
+      "displacement_mm": 0.15788226811608214,
+      "residual": 9.924719591831938e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h3.0_P70_mu0.1_F-2.json",
+      "size": "adult_small",
+      "mesh_mm": 3.0,
+      "preload_N": 70,
+      "mu": 0.1,
+      "side_force_N": -2,
+      "converged": true,
+      "displacement_mm": -0.18339015431483402,
+      "residual": 9.638080056065981e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h3.0_P70_mu0.1_F2.json",
+      "size": "adult_small",
+      "mesh_mm": 3.0,
+      "preload_N": 70,
+      "mu": 0.1,
+      "side_force_N": 2,
+      "converged": true,
+      "displacement_mm": 0.15117524233294097,
+      "residual": 9.66907074910614e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h0.8_P140_mu0.2_F2.json",
+      "size": "child_large",
+      "mesh_mm": 0.8,
+      "preload_N": 140,
+      "mu": 0.2,
+      "side_force_N": 2,
+      "converged": true,
+      "displacement_mm": 0.23861126697280555,
+      "residual": 6.98003364470374e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h1.0_P140_mu0.2_F2.json",
+      "size": "child_large",
+      "mesh_mm": 1.0,
+      "preload_N": 140,
+      "mu": 0.2,
+      "side_force_N": 2,
+      "converged": true,
+      "displacement_mm": 0.22502655594849708,
+      "residual": 6.830152906663613e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h1.4_P140_mu0.2_F2.json",
+      "size": "child_large",
+      "mesh_mm": 1.4,
+      "preload_N": 140,
+      "mu": 0.2,
+      "side_force_N": 2,
+      "converged": true,
+      "displacement_mm": 0.20367423499627826,
+      "residual": 8.070774442406223e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h2.0_P140_mu0.2_F-2.json",
+      "size": "child_large",
+      "mesh_mm": 2.0,
+      "preload_N": 140,
+      "mu": 0.2,
+      "side_force_N": -2,
+      "converged": true,
+      "displacement_mm": -0.18063730555943108,
+      "residual": 8.109000460101071e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h2.0_P140_mu0.2_F2.json",
+      "size": "child_large",
+      "mesh_mm": 2.0,
+      "preload_N": 140,
+      "mu": 0.2,
+      "side_force_N": 2,
+      "converged": true,
+      "displacement_mm": 0.1733249247316271,
+      "residual": 7.442808110139654e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h3.0_P140_mu0.2_F-2.json",
+      "size": "child_large",
+      "mesh_mm": 3.0,
+      "preload_N": 140,
+      "mu": 0.2,
+      "side_force_N": -2,
+      "converged": true,
+      "displacement_mm": -0.12473926823369072,
+      "residual": 7.824596729700558e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h3.0_P140_mu0.2_F2.json",
+      "size": "child_large",
+      "mesh_mm": 3.0,
+      "preload_N": 140,
+      "mu": 0.2,
+      "side_force_N": 2,
+      "converged": true,
+      "displacement_mm": 0.11915664769235272,
+      "residual": 7.132932304693899e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h3.0_P210_mu0.3_F-2.json",
+      "size": "child_large",
+      "mesh_mm": 3.0,
+      "preload_N": 210,
+      "mu": 0.3,
+      "side_force_N": -2,
+      "converged": true,
+      "displacement_mm": -0.12327474096826427,
+      "residual": 8.85407642669789e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h3.0_P210_mu0.3_F2.json",
+      "size": "child_large",
+      "mesh_mm": 3.0,
+      "preload_N": 210,
+      "mu": 0.3,
+      "side_force_N": 2,
+      "converged": true,
+      "displacement_mm": 0.1206062186431298,
+      "residual": 7.379147098488403e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h3.0_P70_mu0.1_F-2.json",
+      "size": "child_large",
+      "mesh_mm": 3.0,
+      "preload_N": 70,
+      "mu": 0.1,
+      "side_force_N": -2,
+      "converged": true,
+      "displacement_mm": -0.12912508640852025,
+      "residual": 9.764149427348168e-07
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h3.0_P70_mu0.1_F2.json",
+      "size": "child_large",
+      "mesh_mm": 3.0,
+      "preload_N": 70,
+      "mu": 0.1,
+      "side_force_N": 2,
+      "converged": true,
+      "displacement_mm": 0.11773955092640526,
+      "residual": 9.965623836696311e-07
+    }
+  ],
+  "joint_array_audits": 22,
+  "joint_mesh_comparisons": [
+    {
+      "size": "child_large",
+      "from_h": 3.0,
+      "to_h": 2.0,
+      "displacement_change_percent": 45.45971885608093,
+      "chosen_5_percent_gate_pass": false
+    },
+    {
+      "size": "child_large",
+      "from_h": 2.0,
+      "to_h": 1.4,
+      "displacement_change_percent": 17.510066894096976,
+      "chosen_5_percent_gate_pass": false
+    },
+    {
+      "size": "child_large",
+      "from_h": 1.4,
+      "to_h": 1.0,
+      "displacement_change_percent": 10.48356506781969,
+      "chosen_5_percent_gate_pass": false
+    },
+    {
+      "size": "child_large",
+      "from_h": 1.0,
+      "to_h": 0.8,
+      "displacement_change_percent": 6.036936825988515,
+      "chosen_5_percent_gate_pass": false
+    },
+    {
+      "size": "adult_small",
+      "from_h": 3.0,
+      "to_h": 2.0,
+      "displacement_change_percent": 43.34914187768921,
+      "chosen_5_percent_gate_pass": false
+    },
+    {
+      "size": "adult_small",
+      "from_h": 2.0,
+      "to_h": 1.4,
+      "displacement_change_percent": 17.59546547529036,
+      "chosen_5_percent_gate_pass": false
+    },
+    {
+      "size": "adult_small",
+      "from_h": 1.4,
+      "to_h": 1.0,
+      "displacement_change_percent": 10.422781015668159,
+      "chosen_5_percent_gate_pass": false
+    },
+    {
+      "size": "adult_small",
+      "from_h": 1.0,
+      "to_h": 0.8,
+      "displacement_change_percent": 5.903387156207662,
+      "chosen_5_percent_gate_pass": false
+    }
+  ],
+  "retention": {
+    "revision": "V19 prototype handoff",
+    "physical_measurements": 0,
+    "proposed_holding_window_Nmm": [
+      128,
+      192
+    ],
+    "target_Nmm": 160,
+    "worst_assumed_one_g_moment_Nmm": 55.767304980165854,
+    "minimum_static_equivalent_g_threshold": 2.2952516720240355,
+    "all_2g_scenarios_below_chosen_minimum": true,
+    "required_preload_at_target_mu01_N": 196.584399593126,
+    "required_preload_at_target_mu03_N": 65.52813319770867,
+    "catalogue_pair_reference_force_N": 236,
+    "static_comparison_count": 72,
+    "fold_force_at65mm_N": [
+      1.9692307692307693,
+      2.953846153846154
+    ],
+    "proposed_radial_clearance_budget": {
+      "nominal_mm": 0.15,
+      "pin_and_bore_diameter_error_consumption_mm": 0.03,
+      "axis_error_mm": 0.04,
+      "growth_or_coating_mm": 0.02,
+      "remaining_mm": 0.06,
+      "status": "Proposed allocation, not demonstrated production capability"
+    },
+    "foam_reference_points": [
+      {
+        "family": "child",
+        "reference_grade": "PORON 4701-30",
+        "density_kg_m3": 240,
+        "typical_25_percent_compression_kPa": 21,
+        "ideal_full_annulus_area_mm2": 3078.4171888215105,
+        "ideal_uniform_25_percent_force_N": 64.64676096525172,
+        "source": "https://rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/poron/english/data-sheets/17-006-poron-4701-30-very-soft.pdf",
+        "checked": "2026-10-16",
+        "scope": "Reference point force calculation only; no curve fit, full cushion material selection or comfort pass"
+      },
+      {
+        "family": "child",
+        "reference_grade": "PORON 4701-30",
+        "density_kg_m3": 320,
+        "typical_25_percent_compression_kPa": 35,
+        "ideal_full_annulus_area_mm2": 3078.4171888215105,
+        "ideal_uniform_25_percent_force_N": 107.74460160875287,
+        "source": "https://rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/poron/english/data-sheets/17-006-poron-4701-30-very-soft.pdf",
+        "checked": "2026-10-16",
+        "scope": "Reference point force calculation only; no curve fit, full cushion material selection or comfort pass"
+      },
+      {
+        "family": "child",
+        "reference_grade": "PORON 4701-30",
+        "density_kg_m3": 400,
+        "typical_25_percent_compression_kPa": 62,
+        "ideal_full_annulus_area_mm2": 3078.4171888215105,
+        "ideal_uniform_25_percent_force_N": 190.86186570693366,
+        "source": "https://rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/poron/english/data-sheets/17-006-poron-4701-30-very-soft.pdf",
+        "checked": "2026-10-16",
+        "scope": "Reference point force calculation only; no curve fit, full cushion material selection or comfort pass"
+      },
+      {
+        "family": "adult",
+        "reference_grade": "PORON 4701-30",
+        "density_kg_m3": 240,
+        "typical_25_percent_compression_kPa": 21,
+        "ideal_full_annulus_area_mm2": 4260.785036431157,
+        "ideal_uniform_25_percent_force_N": 89.47648576505429,
+        "source": "https://rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/poron/english/data-sheets/17-006-poron-4701-30-very-soft.pdf",
+        "checked": "2026-10-16",
+        "scope": "Reference point force calculation only; no curve fit, full cushion material selection or comfort pass"
+      },
+      {
+        "family": "adult",
+        "reference_grade": "PORON 4701-30",
+        "density_kg_m3": 320,
+        "typical_25_percent_compression_kPa": 35,
+        "ideal_full_annulus_area_mm2": 4260.785036431157,
+        "ideal_uniform_25_percent_force_N": 149.12747627509052,
+        "source": "https://rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/poron/english/data-sheets/17-006-poron-4701-30-very-soft.pdf",
+        "checked": "2026-10-16",
+        "scope": "Reference point force calculation only; no curve fit, full cushion material selection or comfort pass"
+      },
+      {
+        "family": "adult",
+        "reference_grade": "PORON 4701-30",
+        "density_kg_m3": 400,
+        "typical_25_percent_compression_kPa": 62,
+        "ideal_full_annulus_area_mm2": 4260.785036431157,
+        "ideal_uniform_25_percent_force_N": 264.16867225873176,
+        "source": "https://rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/poron/english/data-sheets/17-006-poron-4701-30-very-soft.pdf",
+        "checked": "2026-10-16",
+        "scope": "Reference point force calculation only; no curve fit, full cushion material selection or comfort pass"
+      }
+    ],
+    "scope": "Hardware outside the rotating fork is changed; moving cup and fork mass is identical to V18. Density assumptions and mass calculation are inherited with provenance.",
+    "mass_source_sha256": "1143b4f81e9b05753339ca3bea1b8c244d41c7b7a14b3cfc4e8e539b6e20aac4",
+    "manufacturing_release": false
+  },
+  "workstreams": [
+    {
+      "workstream": "Six size CAD and sampled folding",
+      "status": "Completed finite checks",
+      "scope": "42 solids per size, saved poses and sampled motion only"
+    },
+    {
+      "workstream": "Nominal hardware and dimensions",
+      "status": "Prototype proposal",
+      "scope": "Cosmetic threads; exact helix trial rejected; drive runout locking tool access and supplier drawing remain open"
+    },
+    {
+      "workstream": "Band fork and tongue component fixtures",
+      "status": "Prior conditional results retained",
+      "scope": "V18 flexible geometry unchanged; assumed elastic materials and ideal supports"
+    },
+    {
+      "workstream": "Coupled three dimensional joint",
+      "status": "Development calculation with failures and mesh limits",
+      "scope": "Unilateral contact and limited friction; ideal pivot and prescribed preload; not complete fastener or worn assembly"
+    },
+    {
+      "workstream": "All material families and grades",
+      "status": "Finite reference screen only",
+      "scope": "Historical 70 families and 10 numerical reference grades plus 3 PORON points; no exhaustive testing or final winner"
+    },
+    {
+      "workstream": "Foam cover skin glasses and worn force",
+      "status": "Measurement dependent",
+      "scope": "Reduced earlier proxy models only; actual curves friction shapes force and seam/bond data required"
+    },
+    {
+      "workstream": "Sound reduction music leakage and ANC",
+      "status": "Measurement dependent",
+      "scope": "Existing cavity/lumped models exploratory; no validated attenuation or Sony result"
+    },
+    {
+      "workstream": "Heat moisture ageing and fatigue",
+      "status": "Measurement dependent",
+      "scope": "Earlier thermal and material screens exploratory; actual samples and duty cycles required"
+    },
+    {
+      "workstream": "Sony WH CH720N mount",
+      "status": "Input blocked",
+      "scope": "User deferred original pad and mounting measurements; form prepared"
+    },
+    {
+      "workstream": "Native Fusion editable V19",
+      "status": "Tool blocked",
+      "scope": "No native desktop control or connected document session available this turn; V10 archives retained"
+    },
+    {
+      "workstream": "Two living reports",
+      "status": "Updated together",
+      "scope": "Version history failures CAD pictures and test scope retained; approximate layout QA only"
+    },
+    {
+      "workstream": "Manufacturing and budget",
+      "status": "Supplier input required",
+      "scope": "Production drawings tolerance capability actual materials quotations and tooling not released"
+    },
+    {
+      "workstream": "Autistic comfort sensory acceptance and individual preference",
+      "status": "Physical feedback required",
+      "scope": "Voluntary trials and easy removal; cannot be certified by computer simulation"
+    }
+  ],
+  "physical_measurements": 0,
+  "native_Fusion_revision": "V10",
+  "product_complete": false,
+  "manufacturing_release": false,
+  "all_requested_computer_models_complete": false,
+  "quadratic_contact_model": {
+    "status": {
+      "cases": [
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\child_large_h3.0.json",
+          "size": "child_large",
+          "h": 3.0,
+          "change_percent": null,
+          "gate": null
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\child_large_h2.3.json",
+          "size": "child_large",
+          "h": 2.3,
+          "change_percent": 0.3874705729557393,
+          "gate": true
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\adult_small_h3.0.json",
+          "size": "adult_small",
+          "h": 3.0,
+          "change_percent": null,
+          "gate": null
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\adult_small_h2.3.json",
+          "size": "adult_small",
+          "h": 2.3,
+          "change_percent": 0.4148024748077628,
+          "gate": true
+        }
+      ],
+      "complete": true,
+      "whole_joint_validated": false,
+      "scope": "Higher order bulk and piecewise-linear surface contact, ideal pivot and preload, nominal outward fixture only."
+    },
+    "verification": {
+      "array_audits": [
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\adult_small_h2.3.json",
+          "residual_recomputed": 9.964284398958058e-07,
+          "force_balance_N": 5.704132325834971e-10,
+          "saved_array_error": 0.0,
+          "CAD_volume_error_percent": [
+            0.0009634354131038414,
+            8.258393794369212e-05
+          ],
+          "status": "pass"
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\adult_small_h3.0.json",
+          "residual_recomputed": 8.210131163276652e-07,
+          "force_balance_N": 1.2301001725272831e-09,
+          "saved_array_error": 0.0,
+          "CAD_volume_error_percent": [
+            0.0003775153828322608,
+            0.00024460857313002293
+          ],
+          "status": "pass"
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\child_large_h2.3.json",
+          "residual_recomputed": 9.465282500577826e-07,
+          "force_balance_N": 1.472246025395218e-10,
+          "saved_array_error": 0.0,
+          "CAD_volume_error_percent": [
+            0.0007957417158865887,
+            9.454748631787524e-05
+          ],
+          "status": "pass"
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\child_large_h3.0.json",
+          "residual_recomputed": 7.477033565038914e-07,
+          "force_balance_N": 3.6625916415271475e-10,
+          "saved_array_error": 0.0,
+          "CAD_volume_error_percent": [
+            0.0001846205056388328,
+            0.0002862404073322722
+          ],
+          "status": "pass"
+        }
+      ],
+      "element_controls": {
+        "affine_patch_error": 2.710505431213761e-20,
+        "energy": 0.0005966563786008231,
+        "analytic_energy": 0.000596656378600823,
+        "volume": 0.1666666666666667,
+        "symmetry_error": 2.2737367544323206e-13,
+        "edge_order": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "quadrature_points": 27,
+        "status": "pass"
+      },
+      "mesh_comparisons": [
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\child_large_h2.3.json",
+          "size": "child_large",
+          "h": 2.3,
+          "change_percent": 0.3874705729557393,
+          "gate": true
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\adult_small_h2.3.json",
+          "size": "adult_small",
+          "h": 2.3,
+          "change_percent": 0.4148024748077628,
+          "gate": true
+        }
+      ],
+      "scope": "Same-equation reassembly and saved-array checks, source hashes, reference CAD volumes and analytic element controls. No independent physical validation. Centroid stress samples only."
+    }
+  },
+  "conforming_linear_contact_pilot": {
+    "status": {
+      "cases": [
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\child_large_h3.0.json",
+          "size": "child_large",
+          "h": 3.0,
+          "change_percent": null,
+          "gate": null
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\child_large_h2.0.json",
+          "size": "child_large",
+          "h": 2.0,
+          "change_percent": 43.04322170964983,
+          "gate": false
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\child_large_h1.4.json",
+          "size": "child_large",
+          "h": 1.4,
+          "change_percent": 18.167175945043578,
+          "gate": false
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\child_large_h1.0.json",
+          "size": "child_large",
+          "h": 1.0,
+          "change_percent": 10.249562501676323,
+          "gate": false
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\adult_small_h3.0.json",
+          "size": "adult_small",
+          "h": 3.0,
+          "change_percent": null,
+          "gate": null
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\adult_small_h2.0.json",
+          "size": "adult_small",
+          "h": 2.0,
+          "change_percent": 44.701192745247866,
+          "gate": false
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\adult_small_h1.4.json",
+          "size": "adult_small",
+          "h": 1.4,
+          "change_percent": 16.877358188516812,
+          "gate": false
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\adult_small_h1.0.json",
+          "size": "adult_small",
+          "h": 1.0,
+          "change_percent": 10.521292097739977,
+          "gate": false
+        }
+      ],
+      "complete": true,
+      "scope": "Nominal outward joint numerical variant with geometry-aligned washer annulus partitions. No complete joint or physical validation."
+    },
+    "verification": {
+      "array_audits": [
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\adult_small_h1.0.json",
+          "nodes": 18043,
+          "residual_recomputed": 8.602904196303293e-07,
+          "force_balance_N": 5.3902095883701324e-11,
+          "saved_array_error": 0.0,
+          "affine_strain_patch_error": 5.551115123125783e-17,
+          "source_sha256": "pass",
+          "status": "pass"
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\adult_small_h1.4.json",
+          "nodes": 10032,
+          "residual_recomputed": 8.618741482852705e-07,
+          "force_balance_N": 7.498190610910323e-11,
+          "saved_array_error": 0.0,
+          "affine_strain_patch_error": 3.347474207548995e-17,
+          "source_sha256": "pass",
+          "status": "pass"
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\adult_small_h2.0.json",
+          "nodes": 6049,
+          "residual_recomputed": 9.529619824367927e-07,
+          "force_balance_N": 1.1548429349647273e-11,
+          "saved_array_error": 0.0,
+          "affine_strain_patch_error": 2.7755575615628914e-17,
+          "source_sha256": "pass",
+          "status": "pass"
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\adult_small_h3.0.json",
+          "nodes": 3031,
+          "residual_recomputed": 9.744123026973534e-07,
+          "force_balance_N": 9.619971829267446e-12,
+          "saved_array_error": 0.0,
+          "affine_strain_patch_error": 2.531612072753653e-17,
+          "source_sha256": "pass",
+          "status": "pass"
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\child_large_h1.0.json",
+          "nodes": 13822,
+          "residual_recomputed": 9.279586981326666e-07,
+          "force_balance_N": 2.561687733629953e-11,
+          "saved_array_error": 0.0,
+          "affine_strain_patch_error": 4.4072818311535755e-17,
+          "source_sha256": "pass",
+          "status": "pass"
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\child_large_h1.4.json",
+          "nodes": 7940,
+          "residual_recomputed": 6.285818616847264e-07,
+          "force_balance_N": 3.900344243410797e-11,
+          "saved_array_error": 0.0,
+          "affine_strain_patch_error": 2.7755575615628914e-17,
+          "source_sha256": "pass",
+          "status": "pass"
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\child_large_h2.0.json",
+          "nodes": 4571,
+          "residual_recomputed": 8.810831602471413e-07,
+          "force_balance_N": 4.6478964485623443e-11,
+          "saved_array_error": 0.0,
+          "affine_strain_patch_error": 2.7755575615628914e-17,
+          "source_sha256": "pass",
+          "status": "pass"
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\child_large_h3.0.json",
+          "nodes": 2400,
+          "residual_recomputed": 7.639031161054319e-07,
+          "force_balance_N": 1.3852753431375265e-11,
+          "saved_array_error": 0.0,
+          "affine_strain_patch_error": 1.9596954267675493e-17,
+          "source_sha256": "pass",
+          "status": "pass"
+        }
+      ],
+      "scope": "Same-equation matrix and contact reassembly, affine patch and source checks for the linear conforming pilot. No physical validation."
+    }
+  },
+  "quadratic_inward_model": {
+    "status": {
+      "cases": [
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\child_large_h3.0.json",
+          "size": "child_large",
+          "h": 3.0,
+          "converged": true,
+          "change_percent": null,
+          "gate": null
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\child_large_h2.3.json",
+          "size": "child_large",
+          "h": 2.3,
+          "converged": true,
+          "change_percent": 0.3674398638910059,
+          "gate": true
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\adult_small_h3.0.json",
+          "size": "adult_small",
+          "h": 3.0,
+          "converged": true,
+          "change_percent": null,
+          "gate": null
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\adult_small_h2.3.json",
+          "size": "adult_small",
+          "h": 2.3,
+          "converged": true,
+          "change_percent": 0.33550984239072434,
+          "gate": true
+        }
+      ],
+      "complete": true,
+      "whole_joint_validated": false,
+      "scope": "Inward 2 N reference fixture, 140 N prescribed preload, assumed friction 0.2 and PA66 elastic reference. Same saved Tet10 meshes as outward cases. No resolved bolt, bearing clearance, creep or full worn model."
+    },
+    "verification": {
+      "array_audits": [
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\adult_small_h2.3.json",
+          "residual_recomputed": 9.07295162389331e-07,
+          "force_balance_N": 8.051062868669052e-10,
+          "saved_array_error": 0.0,
+          "CAD_volume_error_percent": [
+            0.0009634354131038414,
+            8.258393794369212e-05
+          ],
+          "status": "pass"
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\adult_small_h3.0.json",
+          "residual_recomputed": 8.430468064605111e-07,
+          "force_balance_N": 2.488329490015652e-09,
+          "saved_array_error": 0.0,
+          "CAD_volume_error_percent": [
+            0.0003775153828322608,
+            0.00024460857313002293
+          ],
+          "status": "pass"
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\child_large_h2.3.json",
+          "residual_recomputed": 9.287121684006472e-07,
+          "force_balance_N": 8.050626524636396e-10,
+          "saved_array_error": 0.0,
+          "CAD_volume_error_percent": [
+            0.0007957417158865887,
+            9.454748631787524e-05
+          ],
+          "status": "pass"
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\child_large_h3.0.json",
+          "residual_recomputed": 7.937453264315863e-07,
+          "force_balance_N": 2.0865243701270302e-10,
+          "saved_array_error": 0.0,
+          "CAD_volume_error_percent": [
+            0.0001846205056388328,
+            0.0002862404073322722
+          ],
+          "status": "pass"
+        }
+      ],
+      "element_controls": {
+        "affine_patch_error": 2.710505431213761e-20,
+        "energy": 0.0005966563786008231,
+        "analytic_energy": 0.000596656378600823,
+        "volume": 0.1666666666666667,
+        "symmetry_error": 2.2737367544323206e-13,
+        "edge_order": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "quadrature_points": 27,
+        "status": "pass"
+      },
+      "mesh_comparisons": [
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\child_large_h2.3.json",
+          "size": "child_large",
+          "h": 2.3,
+          "converged": true,
+          "change_percent": 0.3674398638910059,
+          "gate": true
+        },
+        {
+          "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\adult_small_h2.3.json",
+          "size": "adult_small",
+          "h": 2.3,
+          "converged": true,
+          "change_percent": 0.33550984239072434,
+          "gate": true
+        }
+      ],
+      "scope": "Same-equation reassembly and saved-array checks, source hashes, reference CAD volumes and analytic element controls. No independent physical validation. Centroid stress samples only."
+    }
+  }
+}

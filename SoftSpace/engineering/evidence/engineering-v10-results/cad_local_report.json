@@ -1,0 +1,174 @@
+{
+  "status": "complete STEP-only candidates",
+  "route": "local STEP candidates only",
+  "sizes": [
+    {
+      "name": "adult_small",
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_small_20261013_164243.step",
+      "source_sha256": "292e8679c63915f23879715bd962e54b9b212699741921a6686a395d2d57bd86",
+      "body_count": 28,
+      "band_volume_before_mm3": 27820.95016173994,
+      "band_volume_after_mm3": 27421.53190492969,
+      "nominal_band_bbox_mm": [
+        -101.710142491826,
+        -14.00000015,
+        81.99999985,
+        101.710142491826,
+        14.00000015,
+        151.8000001499995
+      ],
+      "guide_bottom_mm": 82,
+      "clamp_axis_z_mm": 99,
+      "travel_mm": [
+        0,
+        30
+      ],
+      "nominal_guide_engagement_mm": 32
+    },
+    {
+      "name": "child_small",
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V9_child_small_20261013_180418.step",
+      "source_sha256": "a31862f9198f264f63dbef63d50956c5d5d02c39c80d641f213795311cc1c974",
+      "body_count": 28,
+      "band_volume_before_mm3": 19266.561600776833,
+      "band_volume_after_mm3": 18867.14319343049,
+      "nominal_band_bbox_mm": [
+        -90.45327161934591,
+        -12.00000015,
+        81.99999985,
+        90.45327161934591,
+        12.00000015,
+        136.5000001499996
+      ],
+      "guide_bottom_mm": 82,
+      "clamp_axis_z_mm": 99,
+      "travel_mm": [
+        0,
+        30
+      ],
+      "nominal_guide_engagement_mm": 32
+    },
+    {
+      "name": "child_medium",
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V9_child_medium_20261013_180418.step",
+      "source_sha256": "597c14bb220eb407c67751c5979df17372fd8e6c16a97b6eaf32a51aa76598f3",
+      "body_count": 28,
+      "band_volume_before_mm3": 20042.327285535524,
+      "band_volume_after_mm3": 19642.908878189148,
+      "nominal_band_bbox_mm": [
+        -96.0521295490314,
+        -12.00000015,
+        81.99999985,
+        96.0521295490314,
+        12.00000015,
+        136.5000001499996
+      ],
+      "guide_bottom_mm": 82,
+      "clamp_axis_z_mm": 99,
+      "travel_mm": [
+        0,
+        30
+      ],
+      "nominal_guide_engagement_mm": 32
+    },
+    {
+      "name": "child_large",
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V9_child_large_20261013_180418.step",
+      "source_sha256": "da74d3b0d97c24f6cb7f37fba0894caf0cc43b1d2a29832d45585290ff983b3b",
+      "body_count": 28,
+      "band_volume_before_mm3": 20775.13277374208,
+      "band_volume_after_mm3": 20375.714366395696,
+      "nominal_band_bbox_mm": [
+        -101.315873401548,
+        -12.00000015,
+        81.99999985,
+        101.315873401548,
+        12.00000015,
+        136.50000015
+      ],
+      "guide_bottom_mm": 82,
+      "clamp_axis_z_mm": 99,
+      "travel_mm": [
+        0,
+        30
+      ],
+      "nominal_guide_engagement_mm": 32
+    },
+    {
+      "name": "adult_medium",
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_medium_20261013_180418.step",
+      "source_sha256": "a72ff41a0f131b7336330d57a6e157dfb49c3817d9b0faa88e4bf4d35029e51a",
+      "body_count": 28,
+      "band_volume_before_mm3": 29330.183390295577,
+      "band_volume_after_mm3": 28930.764694361984,
+      "nominal_band_bbox_mm": [
+        -109.935615819936,
+        -14.00000015,
+        81.99999985,
+        109.935615819936,
+        14.00000015,
+        151.8000001500003
+      ],
+      "guide_bottom_mm": 82,
+      "clamp_axis_z_mm": 99,
+      "travel_mm": [
+        0,
+        30
+      ],
+      "nominal_guide_engagement_mm": 32
+    },
+    {
+      "name": "adult_large",
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_large_20261013_180418.step",
+      "source_sha256": "33b10b421558a927bfd80a40653a64577dd4f1e9ff4f56cf49bb7453814f4741",
+      "body_count": 28,
+      "band_volume_before_mm3": 30834.66237365347,
+      "band_volume_after_mm3": 30435.24394820412,
+      "nominal_band_bbox_mm": [
+        -118.03480955661,
+        -14.00000015,
+        81.99999985,
+        118.03480955661,
+        14.00000015,
+        151.8000001499999
+      ],
+      "guide_bottom_mm": 82,
+      "clamp_axis_z_mm": 99,
+      "travel_mm": [
+        0,
+        30
+      ],
+      "nominal_guide_engagement_mm": 32
+    }
+  ],
+  "files": [
+    "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_small.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_small_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_small_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_small.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_small_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_small_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_medium.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_medium_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_medium_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_large.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_large_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_large_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_medium.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_medium_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_medium_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_large.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_large_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_large_Extension_30.step"
+  ],
+  "changes": [
+    "Guide lower end trimmed by2mm",
+    "Clamp bore and knob raised4mm",
+    "V9 crown, cushion, fork, pivot and30mm adjustment retained"
+  ],
+  "limitations": [
+    "No native Fusion archive yet",
+    "Locking threads and retention still placeholders",
+    "Structural results must be recalculated for changed guide"
+  ]
+}

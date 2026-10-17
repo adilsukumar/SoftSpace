@@ -18,3 +18,11 @@
 ~$*.docx
 .DS_Store
 Thumbs.db
+
+# Full historical binary records are distributed in the complete research release bundle.
+/SoftSpace/engineering/CAD/*
+!/SoftSpace/engineering/CAD/V19-initial-contact-source/
+!/SoftSpace/engineering/CAD/V19-assembly-prototype/
+/SoftSpace/engineering/evidence/**/*.npz
+!/SoftSpace/engineering/evidence/engineering-v19-results/quadratic-contact/*.npz
+!/SoftSpace/engineering/evidence/engineering-v19-results/quadratic-inward/*.npz

@@ -1,0 +1,470 @@
+{
+  "updated": "2026-10-16",
+  "cases": [
+    {
+      "size": "child_large",
+      "meshes": [
+        {
+          "nodes": 12291,
+          "tet10_elements": 6360,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 3127,
+          "relative_free_residual": 1.0192437583792518e-09,
+          "minimum_quadrature_jacobian_mm3": 0.5705507339839714,
+          "max_von_mises_centroid_MPa": 2.1014015525713443,
+          "strain_energy_Nmm": 0.15967102629309216,
+          "reaction_sum_N": [
+            -1.9999999999885794,
+            3.169834429378646e-12,
+            4.79981736776438
+          ],
+          "size": "child_large",
+          "source": "${WORKSPACE}\\EarDefender_V18_child_large_FrictionStop.step",
+          "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+          "mesh_max_mm": 2.0,
+          "minimum_adaptive_Jacobian_mm3": 0.570550733983815,
+          "cup_force_N": 2,
+          "stop_force_N": 4.799817367758256,
+          "cup_loaded_area_mm2": 157.0755276966235,
+          "stop_loaded_area_mm2": 31.999999999999886,
+          "cup_weighted_x_displacement_mm": 0.16998918059351695,
+          "stop_weighted_z_displacement_mm": 0.004299394544016059,
+          "external_moment_about_pivot_Nmm": [
+            1.4654943925052066e-14,
+            -3.0628277691846506e-14,
+            -0.00012491304189872487
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_nu": 0.35,
+          "seconds": 20.981319665908813,
+          "limits": [
+            "Separate linear elastic fork fixture; two full pivot bore surfaces fixed in all directions",
+            "Uniform 2N total X traction on cup pin bores; downward stop load chosen to balance moment about pivot",
+            "Not a full assembly contact solution; actual pin bearing pressure friction preload stop load sharing and support compliance are omitted",
+            "E2000MPa nu0.35 are assumed; no actual material strength creep drop fatigue child handling or comfort qualification"
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            12.50042501055518,
+            17.75,
+            58.78005959974343
+          ],
+          "array_audit": {
+            "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h2.0.npz",
+            "sha256": "99c0b1705ae0a90b33780dca4e197ac421bc3b2f61e092a402759ac50c3feec8",
+            "work_energy_relative_error": 7.401844860246718e-12,
+            "force_balance_error_N": 1.3340018077101655e-11,
+            "maximum_fixed_displacement_mm": 0.0,
+            "external_moment_Nmm": [
+              1.4654943925052066e-14,
+              -3.0628277691846506e-14,
+              -0.00012491304189872487
+            ],
+            "pass_result": true
+          }
+        },
+        {
+          "nodes": 21788,
+          "tet10_elements": 11939,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 3825,
+          "relative_free_residual": 1.0933908887654792e-09,
+          "minimum_quadrature_jacobian_mm3": 0.38864018999298505,
+          "max_von_mises_centroid_MPa": 1.9731950337041904,
+          "strain_energy_Nmm": 0.16116363617721455,
+          "reaction_sum_N": [
+            -1.9999999999898366,
+            -5.132619561799364e-12,
+            4.799822737368825
+          ],
+          "size": "child_large",
+          "source": "${WORKSPACE}\\EarDefender_V18_child_large_FrictionStop.step",
+          "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+          "mesh_max_mm": 1.5,
+          "minimum_adaptive_Jacobian_mm3": 0.38864018999291505,
+          "cup_force_N": 2,
+          "stop_force_N": 4.799822737386617,
+          "cup_loaded_area_mm2": 157.07413840367602,
+          "stop_loaded_area_mm2": 31.999999999999883,
+          "cup_weighted_x_displacement_mm": 0.17156415627348331,
+          "stop_weighted_z_displacement_mm": 0.004333710082587023,
+          "external_moment_about_pivot_Nmm": [
+            -1.887379141862766e-14,
+            8.379408278358369e-14,
+            -0.00023915511640645176
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_nu": 0.35,
+          "seconds": 31.58599352836609,
+          "limits": [
+            "Separate linear elastic fork fixture; two full pivot bore surfaces fixed in all directions",
+            "Uniform 2N total X traction on cup pin bores; downward stop load chosen to balance moment about pivot",
+            "Not a full assembly contact solution; actual pin bearing pressure friction preload stop load sharing and support compliance are omitted",
+            "E2000MPa nu0.35 are assumed; no actual material strength creep drop fatigue child handling or comfort qualification"
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            12.491427002760219,
+            -17.833333333333332,
+            58.77349334622257
+          ],
+          "array_audit": {
+            "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h1.5.npz",
+            "sha256": "48fcb6c91963cc648c58473186675000fb9ea5ba782cb30d440ab99828c3e114",
+            "work_energy_relative_error": 2.775322719529553e-12,
+            "force_balance_error_N": 2.1120951574114685e-11,
+            "maximum_fixed_displacement_mm": 0.0,
+            "external_moment_Nmm": [
+              -1.887379141862766e-14,
+              8.379408278358369e-14,
+              -0.00023915511640645176
+            ],
+            "pass_result": true
+          }
+        },
+        {
+          "nodes": 31145,
+          "tet10_elements": 17603,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 4270,
+          "relative_free_residual": 1.186755370418145e-09,
+          "minimum_quadrature_jacobian_mm3": 0.30590494972540055,
+          "max_von_mises_centroid_MPa": 2.545060745620724,
+          "strain_energy_Nmm": 0.1619067438112229,
+          "reaction_sum_N": [
+            -2.0000000000005107,
+            8.558946038077831e-13,
+            4.799829398482572
+          ],
+          "size": "child_large",
+          "source": "${WORKSPACE}\\EarDefender_V18_child_large_FrictionStop.step",
+          "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+          "mesh_max_mm": 1.25,
+          "minimum_adaptive_Jacobian_mm3": 0.3059049497253621,
+          "cup_force_N": 2,
+          "stop_force_N": 4.799829398489325,
+          "cup_loaded_area_mm2": 157.07323745806528,
+          "stop_loaded_area_mm2": 31.999999999999876,
+          "cup_weighted_x_displacement_mm": 0.17238285790172633,
+          "stop_weighted_z_displacement_mm": 0.004365202686062028,
+          "external_moment_about_pivot_Nmm": [
+            2.5091040356528538e-14,
+            3.5041414214731503e-14,
+            -6.484108456262377e-05
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_nu": 0.35,
+          "seconds": 47.35826349258423,
+          "limits": [
+            "Separate linear elastic fork fixture; two full pivot bore surfaces fixed in all directions",
+            "Uniform 2N total X traction on cup pin bores; downward stop load chosen to balance moment about pivot",
+            "Not a full assembly contact solution; actual pin bearing pressure friction preload stop load sharing and support compliance are omitted",
+            "E2000MPa nu0.35 are assumed; no actual material strength creep drop fatigue child handling or comfort qualification"
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            12.703994637837102,
+            17.625,
+            58.81549356245567
+          ],
+          "array_audit": {
+            "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h1.25.npz",
+            "sha256": "dbb10cede5c1306e760a0ad53f9222a2bdafaf439d49ab0a73f7cb19686ca2eb",
+            "work_energy_relative_error": 5.9233999874070035e-12,
+            "force_balance_error_N": 6.8251479074382684e-12,
+            "maximum_fixed_displacement_mm": 0.0,
+            "external_moment_Nmm": [
+              2.5091040356528538e-14,
+              3.5041414214731503e-14,
+              -6.484108456262377e-05
+            ],
+            "pass_result": true
+          }
+        },
+        {
+          "nodes": 48633,
+          "tet10_elements": 28551,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 5047,
+          "relative_free_residual": 1.2377224563771904e-09,
+          "minimum_quadrature_jacobian_mm3": 0.24266153267645374,
+          "max_von_mises_centroid_MPa": 2.4860526073448526,
+          "strain_energy_Nmm": 0.1622835690116699,
+          "reaction_sum_N": [
+            -2.000000000039232,
+            1.5620739014786926e-14,
+            4.800107374650921
+          ],
+          "size": "child_large",
+          "source": "${WORKSPACE}\\EarDefender_V18_child_large_FrictionStop.step",
+          "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+          "mesh_max_mm": 1.0,
+          "minimum_adaptive_Jacobian_mm3": 0.24266153267639717,
+          "cup_force_N": 2,
+          "stop_force_N": 4.800107374628736,
+          "cup_loaded_area_mm2": 157.35393270995007,
+          "stop_loaded_area_mm2": 31.999999999999886,
+          "cup_weighted_x_displacement_mm": 0.1727419085027879,
+          "stop_weighted_z_displacement_mm": 0.004357543977480265,
+          "external_moment_about_pivot_Nmm": [
+            2.120525977034049e-14,
+            2.4313884239290928e-14,
+            -0.0008656221885436563
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_nu": 0.35,
+          "seconds": 88.5763566493988,
+          "limits": [
+            "Separate linear elastic fork fixture; two full pivot bore surfaces fixed in all directions",
+            "Uniform 2N total X traction on cup pin bores; downward stop load chosen to balance moment about pivot",
+            "Not a full assembly contact solution; actual pin bearing pressure friction preload stop load sharing and support compliance are omitted",
+            "E2000MPa nu0.35 are assumed; no actual material strength creep drop fatigue child handling or comfort qualification"
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            12.765447874511764,
+            16.62663255615454,
+            58.75900002346282
+          ],
+          "array_audit": {
+            "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h1.0.npz",
+            "sha256": "b90ac0e88804189b50b457fc8b049529805ede8a6fd83ccb44314f9c45658628",
+            "work_energy_relative_error": 2.0458768409856615e-12,
+            "force_balance_error_N": 4.507260469852351e-11,
+            "maximum_fixed_displacement_mm": 0.0,
+            "external_moment_Nmm": [
+              2.120525977034049e-14,
+              2.4313884239290928e-14,
+              -0.0008656221885436563
+            ],
+            "pass_result": true
+          }
+        }
+      ],
+      "cup_displacement_change_fraction": 0.002078537884486642,
+      "sampled_stress_change_fraction": 0.023735675625502273,
+      "chosen_5percent_mesh_comparison_pass": true
+    },
+    {
+      "size": "adult_small",
+      "meshes": [
+        {
+          "nodes": 13243,
+          "tet10_elements": 6868,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 3345,
+          "relative_free_residual": 1.0730554291864198e-09,
+          "minimum_quadrature_jacobian_mm3": 0.52563861282793,
+          "max_von_mises_centroid_MPa": 2.5852505056655266,
+          "strain_energy_Nmm": 0.22630653412225127,
+          "reaction_sum_N": [
+            -1.9999999999873241,
+            1.1567233135663815e-11,
+            5.399817367750114
+          ],
+          "size": "adult_small",
+          "source": "${WORKSPACE}\\EarDefender_V18_adult_small_FrictionStop.step",
+          "source_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+          "mesh_max_mm": 2.0,
+          "minimum_adaptive_Jacobian_mm3": 0.5256386128276402,
+          "cup_force_N": 2,
+          "stop_force_N": 5.3998173677582555,
+          "cup_loaded_area_mm2": 157.0755276966235,
+          "stop_loaded_area_mm2": 31.999999999999865,
+          "cup_weighted_x_displacement_mm": 0.2396119172351037,
+          "stop_weighted_z_displacement_mm": 0.004928086343373367,
+          "external_moment_about_pivot_Nmm": [
+            5.773159728050814e-14,
+            6.407374630867935e-14,
+            -0.00012491304189686525
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_nu": 0.35,
+          "seconds": 16.97417140007019,
+          "limits": [
+            "Separate linear elastic fork fixture; two full pivot bore surfaces fixed in all directions",
+            "Uniform 2N total X traction on cup pin bores; downward stop load chosen to balance moment about pivot",
+            "Not a full assembly contact solution; actual pin bearing pressure friction preload stop load sharing and support compliance are omitted",
+            "E2000MPa nu0.35 are assumed; no actual material strength creep drop fatigue child handling or comfort qualification"
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            12.500499999997054,
+            27.75,
+            61.78327714270422
+          ],
+          "array_audit": {
+            "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_fork_h2.0.npz",
+            "sha256": "2acb2831444a31f4e7aad2a48e0a8f2917a13122fa20a4701dc4cff4a9575fd1",
+            "work_energy_relative_error": 2.330517984798888e-12,
+            "force_balance_error_N": 1.8993633402610192e-11,
+            "maximum_fixed_displacement_mm": 0.0,
+            "external_moment_Nmm": [
+              5.773159728050814e-14,
+              6.407374630867935e-14,
+              -0.00012491304189686525
+            ],
+            "pass_result": true
+          }
+        },
+        {
+          "nodes": 23679,
+          "tet10_elements": 12959,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 4100,
+          "relative_free_residual": 1.1787056166608297e-09,
+          "minimum_quadrature_jacobian_mm3": 0.38864018999387934,
+          "max_von_mises_centroid_MPa": 2.472167869495126,
+          "strain_energy_Nmm": 0.22759132123994097,
+          "reaction_sum_N": [
+            -2.0000000000242646,
+            1.87875858475051e-12,
+            5.399822737397569
+          ],
+          "size": "adult_small",
+          "source": "${WORKSPACE}\\EarDefender_V18_adult_small_FrictionStop.step",
+          "source_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+          "mesh_max_mm": 1.5,
+          "minimum_adaptive_Jacobian_mm3": 0.38864018999377664,
+          "cup_force_N": 2,
+          "stop_force_N": 5.39982273738662,
+          "cup_loaded_area_mm2": 157.074138403676,
+          "stop_loaded_area_mm2": 31.999999999999858,
+          "cup_weighted_x_displacement_mm": 0.24099591516798682,
+          "stop_weighted_z_displacement_mm": 0.004964827394139704,
+          "external_moment_about_pivot_Nmm": [
+            2.1760371282653068e-14,
+            1.887379141862766e-15,
+            -0.0002391551164029962
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_nu": 0.35,
+          "seconds": 38.910587549209595,
+          "limits": [
+            "Separate linear elastic fork fixture; two full pivot bore surfaces fixed in all directions",
+            "Uniform 2N total X traction on cup pin bores; downward stop load chosen to balance moment about pivot",
+            "Not a full assembly contact solution; actual pin bearing pressure friction preload stop load sharing and support compliance are omitted",
+            "E2000MPa nu0.35 are assumed; no actual material strength creep drop fatigue child handling or comfort qualification"
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            12.491427002761203,
+            -27.83333333333333,
+            61.77349334622214
+          ],
+          "array_audit": {
+            "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_fork_h1.5.npz",
+            "sha256": "1b502f9dd28d84553f61050447a42b9535195664679d923fb2a5cb105f5d8c15",
+            "work_energy_relative_error": 1.3217450579261363e-11,
+            "force_balance_error_N": 2.6686943106480737e-11,
+            "maximum_fixed_displacement_mm": 0.0,
+            "external_moment_Nmm": [
+              2.1760371282653068e-14,
+              1.887379141862766e-15,
+              -0.0002391551164029962
+            ],
+            "pass_result": true
+          }
+        }
+      ],
+      "cup_displacement_change_fraction": 0.0057428273500752525,
+      "sampled_stress_change_fraction": 0.045742296696661855,
+      "chosen_5percent_mesh_comparison_pass": true
+    }
+  ],
+  "array_audits": [
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h2.0.npz",
+      "sha256": "99c0b1705ae0a90b33780dca4e197ac421bc3b2f61e092a402759ac50c3feec8",
+      "work_energy_relative_error": 7.401844860246718e-12,
+      "force_balance_error_N": 1.3340018077101655e-11,
+      "maximum_fixed_displacement_mm": 0.0,
+      "external_moment_Nmm": [
+        1.4654943925052066e-14,
+        -3.0628277691846506e-14,
+        -0.00012491304189872487
+      ],
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h1.5.npz",
+      "sha256": "48fcb6c91963cc648c58473186675000fb9ea5ba782cb30d440ab99828c3e114",
+      "work_energy_relative_error": 2.775322719529553e-12,
+      "force_balance_error_N": 2.1120951574114685e-11,
+      "maximum_fixed_displacement_mm": 0.0,
+      "external_moment_Nmm": [
+        -1.887379141862766e-14,
+        8.379408278358369e-14,
+        -0.00023915511640645176
+      ],
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h1.25.npz",
+      "sha256": "dbb10cede5c1306e760a0ad53f9222a2bdafaf439d49ab0a73f7cb19686ca2eb",
+      "work_energy_relative_error": 5.9233999874070035e-12,
+      "force_balance_error_N": 6.8251479074382684e-12,
+      "maximum_fixed_displacement_mm": 0.0,
+      "external_moment_Nmm": [
+        2.5091040356528538e-14,
+        3.5041414214731503e-14,
+        -6.484108456262377e-05
+      ],
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h1.0.npz",
+      "sha256": "b90ac0e88804189b50b457fc8b049529805ede8a6fd83ccb44314f9c45658628",
+      "work_energy_relative_error": 2.0458768409856615e-12,
+      "force_balance_error_N": 4.507260469852351e-11,
+      "maximum_fixed_displacement_mm": 0.0,
+      "external_moment_Nmm": [
+        2.120525977034049e-14,
+        2.4313884239290928e-14,
+        -0.0008656221885436563
+      ],
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_fork_h2.0.npz",
+      "sha256": "2acb2831444a31f4e7aad2a48e0a8f2917a13122fa20a4701dc4cff4a9575fd1",
+      "work_energy_relative_error": 2.330517984798888e-12,
+      "force_balance_error_N": 1.8993633402610192e-11,
+      "maximum_fixed_displacement_mm": 0.0,
+      "external_moment_Nmm": [
+        5.773159728050814e-14,
+        6.407374630867935e-14,
+        -0.00012491304189686525
+      ],
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_fork_h1.5.npz",
+      "sha256": "1b502f9dd28d84553f61050447a42b9535195664679d923fb2a5cb105f5d8c15",
+      "work_energy_relative_error": 1.3217450579261363e-11,
+      "force_balance_error_N": 2.6686943106480737e-11,
+      "maximum_fixed_displacement_mm": 0.0,
+      "external_moment_Nmm": [
+        2.1760371282653068e-14,
+        1.887379141862766e-15,
+        -0.0002391551164029962
+      ],
+      "pass_result": true
+    }
+  ],
+  "all_array_audits_pass": true,
+  "all_chosen_mesh_comparisons_pass": true,
+  "physical_tests_performed": 0,
+  "limits": [
+    "Separate linear elastic fork fixture; two full pivot bore surfaces fixed in all directions",
+    "Uniform 2N total X traction on cup pin bores; downward stop load chosen to balance moment about pivot",
+    "Not a full assembly contact solution; actual pin bearing pressure friction preload stop load sharing and support compliance are omitted",
+    "E2000MPa nu0.35 are assumed; no actual material strength creep drop fatigue child handling or comfort qualification"
+  ]
+}

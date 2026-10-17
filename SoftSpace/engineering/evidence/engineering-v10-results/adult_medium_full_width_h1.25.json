@@ -1,0 +1,56 @@
+{
+  "nodes": 214873,
+  "tet10_elements": 127803,
+  "assembly_method": "CSR batches of up to2048 elements",
+  "reduced_matrix_storage": true,
+  "coarse_preconditioner_modes": 12,
+  "cg_iterations": 11675,
+  "relative_free_residual": 2.93939048880114e-07,
+  "minimum_quadrature_jacobian_mm3": 0.0034171024313165584,
+  "max_von_mises_centroid_MPa": 4.9180302119369825,
+  "strain_energy_Nmm": 3.3228933599433965,
+  "reaction_sum_N": [
+    -2.000000000614367,
+    3.1443119393419243e-12,
+    1.6483114767301861e-09
+  ],
+  "sampled_peak_centroid_xyz_mm": [
+    104.06029316526343,
+    -8.452859749499261,
+    113.97196045920182
+  ],
+  "assumed_E_MPa": 2000,
+  "assumed_Poisson_ratio": 0.35,
+  "ideal_load_per_full_side_N": 2,
+  "size": "adult_medium",
+  "mesh_max_mm": 1.25,
+  "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+  "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+  "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+  "load_method": "2 N uniform traction integrated over full guide bottom",
+  "load_face_area_mm2": 99.85472381958947,
+  "minimum_adaptive_Jacobian_mm3": 0.0033495159456563848,
+  "high_order_mesh_optimized": false,
+  "guide_weighted_x_displacement_mm": 3.3228933610831164,
+  "compliance_mm_per_N": 1.6614466805415582,
+  "restraint_nodes_xyz_mm": [
+    [
+      0.0,
+      14.0,
+      150.0000000000003
+    ],
+    [
+      0.0,
+      -14.0,
+      150.00000000000028
+    ]
+  ],
+  "seconds": 2267.0548973083496,
+  "limits": [
+    "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+    "Restraints are numerical datums, not scalp contact",
+    "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+    "Peak stress not used as physical strength or comfort result",
+    "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+  ]
+}

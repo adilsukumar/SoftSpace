@@ -1,0 +1,17 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "${USER_HOME}\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "gmsh": "4.13.1",
+    "numpy": "2.4.6",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.8",
+    "cadquery-ocp": "7.8.1.1.post1",
+    "vtk": "9.3.1",
+    "python-docx": "1.2.0",
+    "reportlab": "4.4.9",
+    "pypdfium2": "5.14.0"
+  },
+  "thread_policy": "OPENBLAS_NUM_THREADS=1 and Gmsh General.NumThreads=1 for solver batches"
+}

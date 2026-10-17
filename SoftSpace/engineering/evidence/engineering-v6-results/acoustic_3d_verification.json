@@ -1,0 +1,57 @@
+{
+  "status": "complete",
+  "test": "Uniform elliptical tube, rigid side/front walls, uniform compliant back; exact 1D Helmholtz solution",
+  "nodes": 1972,
+  "cases": [
+    {
+      "frequency_Hz": 31.5,
+      "numerical_complex_pressure": [
+        0.03249135632203031,
+        -0.0013852294573802777
+      ],
+      "analytical_complex_pressure": [
+        0.03251433230612141,
+        -0.0013861769531292162
+      ],
+      "relative_complex_error": 0.0007066004885210473
+    },
+    {
+      "frequency_Hz": 125,
+      "numerical_complex_pressure": [
+        0.03313594097814752,
+        -0.0008294368539849824
+      ],
+      "analytical_complex_pressure": [
+        0.033159084303945124,
+        -0.0008300108950100187
+      ],
+      "relative_complex_error": 0.000697944325315195
+    },
+    {
+      "frequency_Hz": 500,
+      "numerical_complex_pressure": [
+        0.04715296032269949,
+        0.00394825594666355
+      ],
+      "analytical_complex_pressure": [
+        0.04717955543157718,
+        0.003950076261627733
+      ],
+      "relative_complex_error": 0.0005630487522710617
+    },
+    {
+      "frequency_Hz": 1000,
+      "numerical_complex_pressure": [
+        -0.09290341761407155,
+        0.08912438154799773
+      ],
+      "analytical_complex_pressure": [
+        -0.09292000757723871,
+        0.08914419494294373
+      ],
+      "relative_complex_error": 0.00020068709789364231
+    }
+  ],
+  "max_relative_complex_error": 0.0007066004885210473,
+  "gate_1pct": true
+}

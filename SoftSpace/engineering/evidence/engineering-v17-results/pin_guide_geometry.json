@@ -1,0 +1,46 @@
+{
+  "rows": [
+    {
+      "size": "child_large",
+      "source": "${WORKSPACE}\\EarDefender_V17_child_large_Entry25_Pilot.step",
+      "source_sha256": "7207ce4fdd19f9335d17ce8c8f6b49ee05e2aeaf20bd7ceaf96de39895074fe4",
+      "front_intervals_relative_y_mm": [
+        [
+          -12.999000000000002,
+          -10.0
+        ]
+      ],
+      "rear_intervals_relative_y_mm": [
+        [
+          -32.0,
+          -21.0
+        ]
+      ],
+      "relative_load_location_mm": -6.35,
+      "pin_radius_mm": 1.1,
+      "guide_radius_mm": 1.15,
+      "meaning": "Cylinder intervals extracted from original saved solids. Adult translated8mm to common local coordinates."
+    },
+    {
+      "size": "adult_small",
+      "source": "${WORKSPACE}\\EarDefender_V17_adult_small_Entry25_Pilot.step",
+      "source_sha256": "5ec4ac21915e0367795dc3b95a95d11cf4ac45185b27ac66db145d560225667a",
+      "front_intervals_relative_y_mm": [
+        [
+          -12.998999999999999,
+          -10.0
+        ]
+      ],
+      "rear_intervals_relative_y_mm": [
+        [
+          -32.0,
+          -21.0
+        ]
+      ],
+      "relative_load_location_mm": -6.35,
+      "pin_radius_mm": 1.1,
+      "guide_radius_mm": 1.15,
+      "meaning": "Cylinder intervals extracted from original saved solids. Adult translated8mm to common local coordinates."
+    }
+  ]
+}

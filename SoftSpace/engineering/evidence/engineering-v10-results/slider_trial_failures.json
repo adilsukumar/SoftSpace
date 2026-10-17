@@ -1,0 +1,10 @@
+{
+ "earlier_load_method":"Equal force at each end-face mesh node",
+ "accepted_for_final_force_screen":false,
+ "issues":[
+  "Shortest exposed segment compliance changed by more than5% through the0.5mm mesh",
+  "Longest segment0.75mm mesh assembly exceeded available memory allocating sparse-matrix index arrays"
+ ],
+ "replacement":"Consistent uniform traction integrated on quadratic surface triangles; memory reduced using32bit indices where safe; displacement comparisons use1/0.75mm for short segment and1.5/1.25mm for longer segments",
+ "limit":"All three accepted compliance comparisons meet the chosen5% criterion; actual joint bearing and locking remain omitted"
+}

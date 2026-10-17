@@ -1,0 +1,36 @@
+{
+  "states": {
+    "CAD and local computational package": "completed for the currently saved provisional revision",
+    "Prototype materials": "assumed; supplier characterization missing",
+    "Peak contact pressure convergence": "not passed: refinement remains mesh-sensitive",
+    "Thermal/moisture design": "not passed: saturation persists for several cover scenarios",
+    "Acoustic attenuation": "not validated; only uncalibrated low-frequency sensitivity model",
+    "Production hardware": "not ready: friction stops, retention, fatigue, drop and assembly validation missing",
+    "Height adjustment and crown padding": "three pin positions and 5 mm crown padding exported; scalp contact and retention strength untested",
+    "Head/ear/scalp fit and sensory acceptance": "not validated",
+    "Replacement brand compatibility": "interface blank only; no brand-specific fit established",
+    "Full Fusion cloud/3D nonlinear study": "not run; local reduced FEM calculations provided"
+  },
+  "verification_passes": [
+    "Positive-volume curved foam and solid cover wrap in adult and child CAD",
+    "Curved foam volume within 0.05% of the analytic target",
+    "Cup/fork clearance sampled at 1 degree increments from -8 to +8 degrees in both assemblies",
+    "Band-to-fork clearance at all three discrete height positions in both assemblies",
+    "Beam analytic small-opening check and consistent tangent derivative check",
+    "Beam 20/40/80-element mesh comparison",
+    "Membrane constant-displacement null mode, mesh area and T=0 analytic foundation check",
+    "Nodal force balance and projected obstacle-equilibrium residual checks",
+    "Iterated common band/contact force and compressed mount separation",
+    "Thermal temperature bounds and conservative water mass balance"
+  ],
+  "saved_cad": [
+    "${WORKSPACE}\\ReplacementCushion_V4_adult_20261012_160114.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V4_adult_20261012_160114.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V4_adult_20261012_160114.f3d",
+    "${WORKSPACE}\\ReplacementCushion_V4_child_20261012_160114.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V4_child_20261012_160114.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V4_child_20261012_160114.f3d"
+  ],
+  "assumed_inputs": true,
+  "production_ready": false
+}

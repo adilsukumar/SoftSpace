@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "archives": [
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.f3d",
+      "sha256": "17c9ae00357e6b2d932b7fc001e4ec74e4c7cddcede79474d0bac7b809a3de68",
+      "component": "OwnPassiveDefender_V10_child_small",
+      "bodies": 28,
+      "all_solid": true,
+      "imported_in_Fusion": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.f3d",
+      "sha256": "315c5747276122be01eab1f9e1ab4b5de38792d4ed5e24841ccaf87d0d0d6363",
+      "component": "OwnPassiveDefender_V10_child_medium",
+      "bodies": 28,
+      "all_solid": true,
+      "imported_in_Fusion": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.f3d",
+      "sha256": "9be7cd943ea115773be8814aebab8773f008df7a1fd7025c7cbf8178cd4aceb2",
+      "component": "OwnPassiveDefender_V10_child_large",
+      "bodies": 28,
+      "all_solid": true,
+      "imported_in_Fusion": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.f3d",
+      "sha256": "a826841cbd1bd01c59806ee410c7dd1f64842e90511fcce21df1c74af541a349",
+      "component": "OwnPassiveDefender_V10_adult_small",
+      "bodies": 28,
+      "all_solid": true,
+      "imported_in_Fusion": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.f3d",
+      "sha256": "acf9a17f77808ed9e5993359908c811f9955630310088e9b23fcb65557014a34",
+      "component": "OwnPassiveDefender_V10_adult_medium",
+      "bodies": 28,
+      "all_solid": true,
+      "imported_in_Fusion": true
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.f3d",
+      "sha256": "7e2972e25e1c64cb82118c8b33b3b35e9420d5ce0b0738741af15c3f410b46f4",
+      "component": "OwnPassiveDefender_V10_adult_large",
+      "bodies": 28,
+      "all_solid": true,
+      "imported_in_Fusion": true
+    }
+  ]
+}

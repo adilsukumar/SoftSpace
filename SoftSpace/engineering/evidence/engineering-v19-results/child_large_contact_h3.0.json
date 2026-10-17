@@ -1,0 +1,157 @@
+{
+  "preload_N": 140,
+  "side_force_N": 2,
+  "assumed_mu": 0.2,
+  "normal_penalty_N_mm3": 10000,
+  "tangential_penalty_N_mm3": 1000,
+  "iterations": 19,
+  "relative_free_residual": 1.551050388366055e-07,
+  "maximum_numerical_penetration_mm": 0.0006577827934145142,
+  "maximum_pivot_constraint_error_mm": 0.00019232201936222296,
+  "stop_reaction_N": 3.8126634650016653,
+  "washer_normal_sum_N": 278.070782911249,
+  "washer_quadrature_area_mm2": 156.70129616409073,
+  "stop_quadrature_area_mm2": 32.00000000000001,
+  "global_force_balance_error_N": 1.0686108697952093e-11,
+  "cup_mean_displacement_x_mm": 0.11915664694161265,
+  "component_stresses": [
+    {
+      "peak_element_MPa": 1.9311929741640326,
+      "volume_weighted_mean_MPa": 0.9579862708774118
+    },
+    {
+      "peak_element_MPa": 1.7510599520755377,
+      "volume_weighted_mean_MPa": 0.3774491491338591
+    }
+  ],
+  "history": [
+    {
+      "iteration": 0,
+      "relative_u_change": 1.0,
+      "active": 521,
+      "slip_points": 34
+    },
+    {
+      "iteration": 1,
+      "relative_u_change": 0.007189107305053178,
+      "active": 506,
+      "slip_points": 34
+    },
+    {
+      "iteration": 2,
+      "relative_u_change": 0.005152277023141955,
+      "active": 502,
+      "slip_points": 30
+    },
+    {
+      "iteration": 3,
+      "relative_u_change": 0.00013583184959434653,
+      "active": 502,
+      "slip_points": 32
+    },
+    {
+      "iteration": 4,
+      "relative_u_change": 2.4895478163611895e-06,
+      "active": 502,
+      "slip_points": 32
+    },
+    {
+      "iteration": 5,
+      "relative_u_change": 1.440495618602987e-06,
+      "active": 502,
+      "slip_points": 32
+    },
+    {
+      "iteration": 6,
+      "relative_u_change": 8.364387077504509e-07,
+      "active": 502,
+      "slip_points": 32
+    },
+    {
+      "iteration": 7,
+      "relative_u_change": 4.875599471840535e-07,
+      "active": 502,
+      "slip_points": 32
+    },
+    {
+      "iteration": 8,
+      "relative_u_change": 2.853138870611311e-07,
+      "active": 502,
+      "slip_points": 32
+    },
+    {
+      "iteration": 9,
+      "relative_u_change": 1.6758589680072258e-07,
+      "active": 502,
+      "slip_points": 32
+    },
+    {
+      "iteration": 10,
+      "relative_u_change": 9.879650857869005e-08,
+      "active": 502,
+      "slip_points": 32
+    },
+    {
+      "iteration": 11,
+      "relative_u_change": 5.8450398891125424e-08,
+      "active": 502,
+      "slip_points": 32
+    },
+    {
+      "iteration": 12,
+      "relative_u_change": 3.468921229606765e-08,
+      "active": 502,
+      "slip_points": 32
+    },
+    {
+      "iteration": 13,
+      "relative_u_change": 2.0645213715168243e-08,
+      "active": 502,
+      "slip_points": 32
+    },
+    {
+      "iteration": 14,
+      "relative_u_change": 1.2323344518374646e-08,
+      "active": 502,
+      "slip_points": 32
+    },
+    {
+      "iteration": 15,
+      "relative_u_change": 7.369894117901049e-09,
+      "active": 502,
+      "slip_points": 32
+    },
+    {
+      "iteration": 16,
+      "relative_u_change": 4.422880128068166e-09,
+      "active": 502,
+      "slip_points": 32
+    },
+    {
+      "iteration": 17,
+      "relative_u_change": 2.6533684692252183e-09,
+      "active": 502,
+      "slip_points": 32
+    },
+    {
+      "iteration": 18,
+      "relative_u_change": 1.5986165508143121e-09,
+      "active": 502,
+      "slip_points": 32
+    }
+  ],
+  "coulomb_bound_error_MPa": 5.551115123125783e-17,
+  "size": "child_large",
+  "mesh_max_mm": 3.0,
+  "source": "${WORKSPACE}\\EarDefender_V19_child_large_ParallelDisc.step",
+  "source_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557",
+  "elastic_E_MPa": 3500,
+  "assumed_nu": 0.35,
+  "seconds": 58.569217681884766,
+  "rigid_translation_controls": [
+    8.010698099954044e-17,
+    8.23051613516486e-17,
+    8.331736986783386e-17
+  ],
+  "scope": "Two flexible 3D solids with unilateral stop and washer contact,Coulomb-limited tangential springs,prescribed bolt preload and ideal distributing revolute pivot. No resolved bolt/thread/disc/washer solids or guide contact."
+}

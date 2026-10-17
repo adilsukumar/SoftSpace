@@ -1,0 +1,12 @@
+workstream,disposition,scope_or_missing_input
+Saved geometry and finite motions,Recorded complete,"Six sizes,189 poses,18 saved pose exports; finite geometry checks only"
+Band tongue and fork fixtures,Recorded complete under assumptions,30 saved FE result arrays and selected mesh comparisons; no complete joint contact
+Material load sensitivity,Recorded complete under assumptions,500 comparisons from10 historically recorded grades and10 V18 fixtures
+Pivot clearance sensitivity,Recorded complete under assumptions,"288 bounded error scenarios;192 have positive margin,not a probability"
+Hinge CAD stack measurements,Recorded complete for nominal CAD only,Six saved STEP assemblies; no real hardware measured
+Equivalent acceleration holding,Recorded complete under assumptions,216 cases; proposed64Nmm exhausted at about1.15g in worst assumed case
+Assembled joint contact and preload,Not run with credible inputs,"Actual materials,friction,preload,contact supports and reviewed loads missing"
+Calibrated worn foam cover and head contact,Not run with credible inputs,"Measured material curves,head geometry and forces missing"
+Calibrated whole-device acoustics and climate,Not run with credible inputs,"Actual seal,acoustic/thermal material properties and physical correlation missing"
+Sony model specific replacement fit,Input deferred,Original pad and mount measurements missing
+Comfort sensory acceptance and life validation,Requires physical tests,"Voluntary feedback,assembled samples,climate,cycles,drop and cleaning tests missing"

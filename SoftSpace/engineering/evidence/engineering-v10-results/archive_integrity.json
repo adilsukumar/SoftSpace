@@ -1,0 +1,79 @@
+{
+  "status": "complete inventory",
+  "archives": [
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.f3d",
+      "bytes": 2314403,
+      "sha256": "17c9ae00357e6b2d932b7fc001e4ec74e4c7cddcede79474d0bac7b809a3de68",
+      "archive_entries": 49,
+      "compression_methods": [
+        0,
+        93
+      ],
+      "zip_integrity": "unverified: That compression method is not supported",
+      "reopened_in_Fusion": false
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.f3d",
+      "bytes": 2316327,
+      "sha256": "315c5747276122be01eab1f9e1ab4b5de38792d4ed5e24841ccaf87d0d0d6363",
+      "archive_entries": 49,
+      "compression_methods": [
+        0,
+        93
+      ],
+      "zip_integrity": "unverified: That compression method is not supported",
+      "reopened_in_Fusion": false
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.f3d",
+      "bytes": 2311810,
+      "sha256": "9be7cd943ea115773be8814aebab8773f008df7a1fd7025c7cbf8178cd4aceb2",
+      "archive_entries": 49,
+      "compression_methods": [
+        0,
+        93
+      ],
+      "zip_integrity": "unverified: That compression method is not supported",
+      "reopened_in_Fusion": false
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.f3d",
+      "bytes": 2355493,
+      "sha256": "a826841cbd1bd01c59806ee410c7dd1f64842e90511fcce21df1c74af541a349",
+      "archive_entries": 49,
+      "compression_methods": [
+        0,
+        93
+      ],
+      "zip_integrity": "unverified: That compression method is not supported",
+      "reopened_in_Fusion": false
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.f3d",
+      "bytes": 2357659,
+      "sha256": "acf9a17f77808ed9e5993359908c811f9955630310088e9b23fcb65557014a34",
+      "archive_entries": 49,
+      "compression_methods": [
+        0,
+        93
+      ],
+      "zip_integrity": "unverified: That compression method is not supported",
+      "reopened_in_Fusion": false
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.f3d",
+      "bytes": 2356991,
+      "sha256": "7e2972e25e1c64cb82118c8b33b3b35e9420d5ce0b0738741af15c3f410b46f4",
+      "archive_entries": 49,
+      "compression_methods": [
+        0,
+        93
+      ],
+      "zip_integrity": "unverified: That compression method is not supported",
+      "reopened_in_Fusion": false
+    }
+  ],
+  "all_archive_integrity_pass": false,
+  "limit": "Native export succeeded and archive directories can be read, but Python cannot decompress the Autodesk compression method. Full integrity and reopening in Fusion remain unchecked."
+}

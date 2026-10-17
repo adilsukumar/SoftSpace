@@ -1,0 +1,7 @@
+{
+  "status": "Failed, not a structural result",
+  "fixture": "adult_small mesh2.0mm",
+  "first_failure": "Load face selector expected y-13 but new geometry starts-12.999; corrected from inspected actual cylinder bounds",
+  "second_failure": "NumPy ArrayMemoryError during CG preconditioner at58151nodes,32224quadratic tetrahedra while CAD tasks were also active",
+  "action": "Wait for export and assembly jobs to finish before rerunning; no failed solve claimed as a pass"
+}

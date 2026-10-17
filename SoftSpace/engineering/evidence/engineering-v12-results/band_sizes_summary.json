@@ -1,0 +1,1241 @@
+{
+  "status": "complete six-size ideal actual-width band fixture study",
+  "cases": [
+    {
+      "size": "child_small",
+      "meshes": [
+        {
+          "nodes": 11894,
+          "tet10_elements": 5821,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 5079,
+          "relative_free_residual": 5.644624416750351e-08,
+          "minimum_quadrature_jacobian_mm3": 0.17919792057377645,
+          "max_von_mises_centroid_MPa": 2.382902250151914,
+          "strain_energy_Nmm": 3.4707168448139005,
+          "reaction_sum_N": [
+            -1.999999999479828,
+            1.3050889653614092e-11,
+            -4.764366609566473e-10
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            84.3310804460037,
+            -9.119498591959328,
+            113.63467886714484
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "child_small",
+          "mesh_max_mm": 2.5,
+          "source": "${WORKSPACE}\\EarDefender_V12_child_small_Latched.step",
+          "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.55999999999939,
+          "minimum_adaptive_Jacobian_mm3": 0.156915625183563,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.470716845078276,
+          "compliance_mm_per_N": 1.735358422539138,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              12.0,
+              135.0
+            ],
+            [
+              0.0,
+              -12.0,
+              135.0
+            ]
+          ],
+          "seconds": 35.22198176383972,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        },
+        {
+          "nodes": 17166,
+          "tet10_elements": 8469,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 5546,
+          "relative_free_residual": 6.240516993189511e-08,
+          "minimum_quadrature_jacobian_mm3": 0.11124698874926663,
+          "max_von_mises_centroid_MPa": 2.403075362665062,
+          "strain_energy_Nmm": 3.4730469634170995,
+          "reaction_sum_N": [
+            -1.9999999999117826,
+            5.763160583362099e-12,
+            8.121772766041951e-10
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            1.2668303847465965,
+            11.575008408905047,
+            136.15050769364285
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "child_small",
+          "mesh_max_mm": 2.0,
+          "source": "${WORKSPACE}\\EarDefender_V12_child_small_Latched.step",
+          "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.5599999999995,
+          "minimum_adaptive_Jacobian_mm3": 0.09647262431517334,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.4730469626352685,
+          "compliance_mm_per_N": 1.7365234813176342,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              12.0,
+              135.0
+            ],
+            [
+              0.0,
+              -12.0,
+              135.0
+            ]
+          ],
+          "seconds": 55.44796586036682,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        }
+      ],
+      "compliance_relative_mesh_change": 0.0006713649257490406,
+      "sampled_peak_stress_relative_mesh_change": 0.008465774251487534,
+      "chosen_compliance_5percent_gate": true,
+      "chosen_sampled_peak_stress_5percent_gate": true
+    },
+    {
+      "size": "child_medium",
+      "meshes": [
+        {
+          "nodes": 12302,
+          "tet10_elements": 6028,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 5579,
+          "relative_free_residual": 2.5100618590209125e-07,
+          "minimum_quadrature_jacobian_mm3": 0.01660405596428557,
+          "max_von_mises_centroid_MPa": 2.9715924766009785,
+          "strain_energy_Nmm": 3.6708297223589224,
+          "reaction_sum_N": [
+            -2.0000000005207745,
+            -4.376073140751482e-11,
+            -4.990649921099433e-09
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            88.70060266113259,
+            8.875143353509882,
+            113.9975209058075
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "child_medium",
+          "mesh_max_mm": 2.5,
+          "source": "${WORKSPACE}\\EarDefender_V12_child_medium_Latched.step",
+          "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.5599999999995,
+          "minimum_adaptive_Jacobian_mm3": 0.01660405596416655,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.670829733040208,
+          "compliance_mm_per_N": 1.835414866520104,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              12.0,
+              135.0
+            ],
+            [
+              0.0,
+              -12.0,
+              135.00000000000003
+            ]
+          ],
+          "seconds": 37.89593052864075,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        },
+        {
+          "nodes": 18027,
+          "tet10_elements": 8938,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 6032,
+          "relative_free_residual": 2.7849666184613247e-07,
+          "minimum_quadrature_jacobian_mm3": 0.013024814494099273,
+          "max_von_mises_centroid_MPa": 3.169687420293239,
+          "strain_energy_Nmm": 3.6724777096633128,
+          "reaction_sum_N": [
+            -2.000000000223376,
+            -2.492503963286898e-10,
+            2.0335591544018428e-09
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            88.33675851921447,
+            9.714814134046033,
+            113.99504181161501
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "child_medium",
+          "mesh_max_mm": 2.0,
+          "source": "${WORKSPACE}\\EarDefender_V12_child_medium_Latched.step",
+          "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.55999999999966,
+          "minimum_adaptive_Jacobian_mm3": 0.013024814494005582,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.672477702258017,
+          "compliance_mm_per_N": 1.8362388511290084,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              12.0,
+              135.0
+            ],
+            [
+              0.0,
+              -12.0,
+              135.00000000000003
+            ]
+          ],
+          "seconds": 60.91560387611389,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        },
+        {
+          "nodes": 35291,
+          "tet10_elements": 18886,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 7389,
+          "relative_free_residual": 3.9252299970438164e-07,
+          "minimum_quadrature_jacobian_mm3": 0.013308151400352805,
+          "max_von_mises_centroid_MPa": 3.4640229601574624,
+          "strain_energy_Nmm": 3.677804379785138,
+          "reaction_sum_N": [
+            -1.9999999996995372,
+            7.255207386292895e-12,
+            -1.7308799532544938e-09
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            88.402129399031,
+            -8.933333333333337,
+            113.9975209058075
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "child_medium",
+          "mesh_max_mm": 1.5,
+          "source": "${WORKSPACE}\\EarDefender_V12_child_medium_Latched.step",
+          "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.5599999999997,
+          "minimum_adaptive_Jacobian_mm3": 0.013308151400181292,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.677804386976218,
+          "compliance_mm_per_N": 1.838902193488109,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              12.0,
+              135.0
+            ],
+            [
+              0.0,
+              -12.0,
+              135.00000000000003
+            ]
+          ],
+          "seconds": 146.99679899215698,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        },
+        {
+          "nodes": 50033,
+          "tet10_elements": 27236,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 8086,
+          "relative_free_residual": 3.6710010174473905e-07,
+          "minimum_quadrature_jacobian_mm3": 0.006966419495703444,
+          "max_von_mises_centroid_MPa": 3.4678693182579585,
+          "strain_energy_Nmm": 3.6787672637813618,
+          "reaction_sum_N": [
+            -2.0000000001400378,
+            -7.520933527878368e-12,
+            9.681381234888375e-10
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            88.63597617595266,
+            -8.794949942378594,
+            113.9975209058075
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "child_medium",
+          "mesh_max_mm": 1.25,
+          "source": "${WORKSPACE}\\EarDefender_V12_child_medium_Latched.step",
+          "source_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.55999999999976,
+          "minimum_adaptive_Jacobian_mm3": 0.006966419495658429,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.678767263768452,
+          "compliance_mm_per_N": 1.839383631884226,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              12.0,
+              135.0
+            ],
+            [
+              0.0,
+              -12.0,
+              135.00000000000003
+            ]
+          ],
+          "seconds": 2981.5415349006653,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        }
+      ],
+      "compliance_relative_mesh_change": 0.00026180750548987497,
+      "sampled_peak_stress_relative_mesh_change": 0.0011103731542014827,
+      "chosen_compliance_5percent_gate": true,
+      "chosen_sampled_peak_stress_5percent_gate": true
+    },
+    {
+      "size": "child_large",
+      "meshes": [
+        {
+          "nodes": 12547,
+          "tet10_elements": 6140,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 5350,
+          "relative_free_residual": 9.527724157271806e-08,
+          "minimum_quadrature_jacobian_mm3": 0.16753393993743548,
+          "max_von_mises_centroid_MPa": 2.596553567285894,
+          "strain_energy_Nmm": 3.8613309875058235,
+          "reaction_sum_N": [
+            -1.9999999997352567,
+            6.244971328956006e-11,
+            -4.5455649660963715e-10
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            93.96434651364945,
+            8.875143353509882,
+            113.9579970893725
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "child_large",
+          "mesh_max_mm": 2.5,
+          "source": "${WORKSPACE}\\EarDefender_V12_child_large_Latched.step",
+          "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.55999999982386,
+          "minimum_adaptive_Jacobian_mm3": 0.139509208157173,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.8613309876209403,
+          "compliance_mm_per_N": 1.9306654938104701,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              12.0,
+              135.00000000000006
+            ],
+            [
+              0.0,
+              -12.0,
+              135.00000000000006
+            ]
+          ],
+          "seconds": 21.560895919799805,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        },
+        {
+          "nodes": 18875,
+          "tet10_elements": 9372,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 5900,
+          "relative_free_residual": 1.11457374236511e-07,
+          "minimum_quadrature_jacobian_mm3": 0.0937797106560326,
+          "max_von_mises_centroid_MPa": 2.5943247618267464,
+          "strain_energy_Nmm": 3.8627609667774583,
+          "reaction_sum_N": [
+            -1.9999999997742677,
+            3.519442294771676e-10,
+            3.9386169499444623e-10
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            93.95050237173137,
+            9.114814134046032,
+            113.9579970893725
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "child_large",
+          "mesh_max_mm": 2.0,
+          "source": "${WORKSPACE}\\EarDefender_V12_child_large_Latched.step",
+          "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.55999999982365,
+          "minimum_adaptive_Jacobian_mm3": 0.07471235771759306,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.862760966239272,
+          "compliance_mm_per_N": 1.931380483119636,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              12.0,
+              135.00000000000006
+            ],
+            [
+              0.0,
+              -12.0,
+              135.00000000000006
+            ]
+          ],
+          "seconds": 38.310500383377075,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        }
+      ],
+      "compliance_relative_mesh_change": 0.0003703330853832565,
+      "sampled_peak_stress_relative_mesh_change": 0.0008583706830578297,
+      "chosen_compliance_5percent_gate": true,
+      "chosen_sampled_peak_stress_5percent_gate": true
+    },
+    {
+      "size": "adult_small",
+      "meshes": [
+        {
+          "nodes": 14014,
+          "tet10_elements": 6851,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 5223,
+          "relative_free_residual": 5.953496133656134e-08,
+          "minimum_quadrature_jacobian_mm3": 0.08929556356910338,
+          "max_von_mises_centroid_MPa": 2.3584212953906545,
+          "strain_energy_Nmm": 3.119192362073256,
+          "reaction_sum_N": [
+            -1.999999998949797,
+            6.685525732395398e-11,
+            7.208152824622616e-11
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            95.49416172492691,
+            8.900866530324379,
+            114.0009694050942
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "adult_small",
+          "mesh_max_mm": 2.5,
+          "source": "${WORKSPACE}\\EarDefender_V12_adult_small_Latched.step",
+          "source_sha256": "f8e015bce1e77e9b13c3dcbf51e4f4da2c7c184cf3388111283a5ed86a3419d0",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.55999999997093,
+          "minimum_adaptive_Jacobian_mm3": 0.08322347363777663,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.1191923611054677,
+          "compliance_mm_per_N": 1.5595961805527339,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              14.0,
+              149.99999999999102
+            ],
+            [
+              0.0,
+              -14.0,
+              149.99999999999102
+            ]
+          ],
+          "seconds": 24.21051001548767,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        },
+        {
+          "nodes": 22875,
+          "tet10_elements": 12064,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 5994,
+          "relative_free_residual": 7.131041809565829e-08,
+          "minimum_quadrature_jacobian_mm3": 0.1546481526823829,
+          "max_von_mises_centroid_MPa": 2.7280943639413016,
+          "strain_energy_Nmm": 3.1208023878592077,
+          "reaction_sum_N": [
+            -1.9999999999139249,
+            -1.764496439615125e-10,
+            -3.9373299412504004e-10
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            95.49416172492691,
+            8.749999390612036,
+            114.10477658424301
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "adult_small",
+          "mesh_max_mm": 2.0,
+          "source": "${WORKSPACE}\\EarDefender_V12_adult_small_Latched.step",
+          "source_sha256": "f8e015bce1e77e9b13c3dcbf51e4f4da2c7c184cf3388111283a5ed86a3419d0",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.55999999997104,
+          "minimum_adaptive_Jacobian_mm3": 0.1398786170676585,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.120802388697356,
+          "compliance_mm_per_N": 1.560401194348678,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              14.0,
+              149.99999999999102
+            ],
+            [
+              0.0,
+              -14.0,
+              149.99999999999102
+            ]
+          ],
+          "seconds": 55.571338415145874,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        },
+        {
+          "nodes": 41984,
+          "tet10_elements": 22778,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 7149,
+          "relative_free_residual": 9.042643140524305e-08,
+          "minimum_quadrature_jacobian_mm3": 0.10751198476465426,
+          "max_von_mises_centroid_MPa": 2.7943297798542104,
+          "strain_energy_Nmm": 3.122374204657894,
+          "reaction_sum_N": [
+            -1.999999999724015,
+            -1.4323191570081935e-10,
+            1.1236619408376558e-09
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            95.46582465138346,
+            8.824573082721727,
+            114.24096217825921
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "adult_small",
+          "mesh_max_mm": 1.5,
+          "source": "${WORKSPACE}\\EarDefender_V12_adult_small_Latched.step",
+          "source_sha256": "f8e015bce1e77e9b13c3dcbf51e4f4da2c7c184cf3388111283a5ed86a3419d0",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.55999999997117,
+          "minimum_adaptive_Jacobian_mm3": 0.0956310790658621,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.1223742028504016,
+          "compliance_mm_per_N": 1.5611871014252008,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              14.0,
+              149.99999999999102
+            ],
+            [
+              0.0,
+              -14.0,
+              149.99999999999102
+            ]
+          ],
+          "seconds": 101.9051353931427,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        }
+      ],
+      "compliance_relative_mesh_change": 0.0005036570590750689,
+      "sampled_peak_stress_relative_mesh_change": 0.024279004710532792,
+      "chosen_compliance_5percent_gate": true,
+      "chosen_sampled_peak_stress_5percent_gate": true
+    },
+    {
+      "size": "adult_medium",
+      "meshes": [
+        {
+          "nodes": 16380,
+          "tet10_elements": 8164,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 5575,
+          "relative_free_residual": 7.016224346645131e-08,
+          "minimum_quadrature_jacobian_mm3": 0.11530471671612348,
+          "max_von_mises_centroid_MPa": 2.395530568604233,
+          "strain_energy_Nmm": 3.3367342797931925,
+          "reaction_sum_N": [
+            -1.999999999329792,
+            -1.6479487900322217e-10,
+            -2.289628348028927e-10
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            103.47323942082866,
+            -8.863417819545656,
+            113.89032427191499
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "adult_medium",
+          "mesh_max_mm": 2.5,
+          "source": "${WORKSPACE}\\EarDefender_V12_adult_medium_Latched.step",
+          "source_sha256": "7affe57c39b80d0b75af2a0ee4222cfe850d1e7b0d125052e943972701bb5dd6",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.55999999999958,
+          "minimum_adaptive_Jacobian_mm3": 0.10647181369047486,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.3367342797236748,
+          "compliance_mm_per_N": 1.6683671398618374,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              14.0,
+              150.00000000000003
+            ],
+            [
+              0.0,
+              -14.0,
+              150.0
+            ]
+          ],
+          "seconds": 31.36785364151001,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        },
+        {
+          "nodes": 24694,
+          "tet10_elements": 13100,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 6241,
+          "relative_free_residual": 8.01323555759243e-08,
+          "minimum_quadrature_jacobian_mm3": 0.14064715252690269,
+          "max_von_mises_centroid_MPa": 2.8210972535751853,
+          "strain_energy_Nmm": 3.338047330025398,
+          "reaction_sum_N": [
+            -1.999999999755432,
+            1.5245081807326087e-10,
+            1.295823665384277e-10
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            103.56922246543655,
+            -8.76627261158729,
+            113.91332671339303
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "adult_medium",
+          "mesh_max_mm": 2.0,
+          "source": "${WORKSPACE}\\EarDefender_V12_adult_medium_Latched.step",
+          "source_sha256": "7affe57c39b80d0b75af2a0ee4222cfe850d1e7b0d125052e943972701bb5dd6",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.55999999999959,
+          "minimum_adaptive_Jacobian_mm3": 0.11789803657188563,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.3380473296512276,
+          "compliance_mm_per_N": 1.6690236648256138,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              14.0,
+              150.00000000000003
+            ],
+            [
+              0.0,
+              -14.0,
+              150.0
+            ]
+          ],
+          "seconds": 55.383758306503296,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        },
+        {
+          "nodes": 44158,
+          "tet10_elements": 24039,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 7504,
+          "relative_free_residual": 9.854845279130976e-08,
+          "minimum_quadrature_jacobian_mm3": 0.10506788139581781,
+          "max_von_mises_centroid_MPa": 3.0740851361744252,
+          "strain_energy_Nmm": 3.3393041120569595,
+          "reaction_sum_N": [
+            -2.0000000001516787,
+            7.471192873073494e-11,
+            5.221702339183038e-10
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            103.58638176468804,
+            -8.751302680363853,
+            114.0079665745011
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "adult_medium",
+          "mesh_max_mm": 1.5,
+          "source": "${WORKSPACE}\\EarDefender_V12_adult_medium_Latched.step",
+          "source_sha256": "7affe57c39b80d0b75af2a0ee4222cfe850d1e7b0d125052e943972701bb5dd6",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.55999999999968,
+          "minimum_adaptive_Jacobian_mm3": 0.09754185740486908,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.339304111911781,
+          "compliance_mm_per_N": 1.6696520559558905,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              14.0,
+              150.00000000000003
+            ],
+            [
+              0.0,
+              -14.0,
+              150.0
+            ]
+          ],
+          "seconds": 125.08504915237427,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        },
+        {
+          "nodes": 71608,
+          "tet10_elements": 40980,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 8825,
+          "relative_free_residual": 1.5613888089117287e-07,
+          "minimum_quadrature_jacobian_mm3": 0.13619072431877113,
+          "max_von_mises_centroid_MPa": 3.2896684361571937,
+          "strain_energy_Nmm": 3.340841006172698,
+          "reaction_sum_N": [
+            -1.9999999997723164,
+            -1.9724983546460244e-10,
+            -3.0900543365394717e-10
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            103.59282668425462,
+            -8.739455263925642,
+            114.07117820745171
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "adult_medium",
+          "mesh_max_mm": 1.25,
+          "source": "${WORKSPACE}\\EarDefender_V12_adult_medium_Latched.step",
+          "source_sha256": "7affe57c39b80d0b75af2a0ee4222cfe850d1e7b0d125052e943972701bb5dd6",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.55999999999966,
+          "minimum_adaptive_Jacobian_mm3": 0.12928849524034997,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.3408410057304985,
+          "compliance_mm_per_N": 1.6704205028652492,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              14.0,
+              150.00000000000003
+            ],
+            [
+              0.0,
+              -14.0,
+              150.0
+            ]
+          ],
+          "seconds": 193.49439358711243,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        },
+        {
+          "nodes": 122225,
+          "tet10_elements": 72683,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 10768,
+          "relative_free_residual": 2.198585575399669e-07,
+          "minimum_quadrature_jacobian_mm3": 0.12926208408789852,
+          "max_von_mises_centroid_MPa": 3.3241364212509734,
+          "strain_energy_Nmm": 3.3415974488067843,
+          "reaction_sum_N": [
+            -2.0000000007743823,
+            -2.6826833983516937e-10,
+            2.450984033108448e-10
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            103.57298003183101,
+            8.740422744885661,
+            114.14254764771835
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "adult_medium",
+          "mesh_max_mm": 1.0,
+          "source": "${WORKSPACE}\\EarDefender_V12_adult_medium_Latched.step",
+          "source_sha256": "7affe57c39b80d0b75af2a0ee4222cfe850d1e7b0d125052e943972701bb5dd6",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.55999999999968,
+          "minimum_adaptive_Jacobian_mm3": 0.12676981785989777,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.341597449104881,
+          "compliance_mm_per_N": 1.6707987245524405,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              14.0,
+              150.00000000000003
+            ],
+            [
+              0.0,
+              -14.0,
+              150.0
+            ]
+          ],
+          "seconds": 482.2889699935913,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        }
+      ],
+      "compliance_relative_mesh_change": 0.00022642303931408314,
+      "sampled_peak_stress_relative_mesh_change": 0.01047764714368693,
+      "chosen_compliance_5percent_gate": true,
+      "chosen_sampled_peak_stress_5percent_gate": true
+    },
+    {
+      "size": "adult_large",
+      "meshes": [
+        {
+          "nodes": 17280,
+          "tet10_elements": 8684,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 5813,
+          "relative_free_residual": 8.160825923988132e-08,
+          "minimum_quadrature_jacobian_mm3": 0.17168833331013636,
+          "max_von_mises_centroid_MPa": 2.3302915622897973,
+          "strain_energy_Nmm": 3.552544695572746,
+          "reaction_sum_N": [
+            -2.0000000000009965,
+            -1.309904900947832e-10,
+            9.421469646109237e-10
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            111.35180846112615,
+            -8.899999999999999,
+            113.7489833610692
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "adult_large",
+          "mesh_max_mm": 2.5,
+          "source": "${WORKSPACE}\\EarDefender_V12_adult_large_Latched.step",
+          "source_sha256": "b3c9126933a60d301aee7d2bf14300fb510ac840ccbd27f370099873a6fb9de7",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.55999999999956,
+          "minimum_adaptive_Jacobian_mm3": 0.14634836821365796,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.5525446939902485,
+          "compliance_mm_per_N": 1.7762723469951243,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              14.0,
+              150.0
+            ],
+            [
+              0.0,
+              -14.0,
+              150.00000000000003
+            ]
+          ],
+          "seconds": 21.632548093795776,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        },
+        {
+          "nodes": 26548,
+          "tet10_elements": 14092,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 6503,
+          "relative_free_residual": 9.098774340499491e-08,
+          "minimum_quadrature_jacobian_mm3": 0.10905847132232196,
+          "max_von_mises_centroid_MPa": 2.72740406048006,
+          "strain_energy_Nmm": 3.5541650846851796,
+          "reaction_sum_N": [
+            -1.9999999995960387,
+            -1.3477033853156282e-10,
+            -7.301770157475476e-10
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            111.63695600973043,
+            8.899999999999999,
+            113.67874582808216
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "adult_large",
+          "mesh_max_mm": 2.0,
+          "source": "${WORKSPACE}\\EarDefender_V12_adult_large_Latched.step",
+          "source_sha256": "b3c9126933a60d301aee7d2bf14300fb510ac840ccbd27f370099873a6fb9de7",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.5599999999995,
+          "minimum_adaptive_Jacobian_mm3": 0.07992150804723896,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.554165083382657,
+          "compliance_mm_per_N": 1.7770825416913285,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              14.0,
+              150.0
+            ],
+            [
+              0.0,
+              -14.0,
+              150.00000000000003
+            ]
+          ],
+          "seconds": 42.17592120170593,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        },
+        {
+          "nodes": 46048,
+          "tet10_elements": 25060,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 7737,
+          "relative_free_residual": 1.163704674892332e-07,
+          "minimum_quadrature_jacobian_mm3": 0.10482873936924623,
+          "max_von_mises_centroid_MPa": 2.957975864941492,
+          "strain_energy_Nmm": 3.555398447148071,
+          "reaction_sum_N": [
+            -1.999999999978653,
+            1.1087725537591244e-10,
+            -2.2842995290456303e-10
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            111.48015086839465,
+            -8.80650394087484,
+            113.90595602963874
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "adult_large",
+          "mesh_max_mm": 1.5,
+          "source": "${WORKSPACE}\\EarDefender_V12_adult_large_Latched.step",
+          "source_sha256": "b3c9126933a60d301aee7d2bf14300fb510ac840ccbd27f370099873a6fb9de7",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.55999999999943,
+          "minimum_adaptive_Jacobian_mm3": 0.09936700588594893,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.555398446153744,
+          "compliance_mm_per_N": 1.777699223076872,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              14.0,
+              150.0
+            ],
+            [
+              0.0,
+              -14.0,
+              150.00000000000003
+            ]
+          ],
+          "seconds": 97.82746982574463,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        },
+        {
+          "nodes": 75213,
+          "tet10_elements": 43268,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 9222,
+          "relative_free_residual": 1.8827607871272624e-07,
+          "minimum_quadrature_jacobian_mm3": 0.11411621110085621,
+          "max_von_mises_centroid_MPa": 3.3931927491176226,
+          "strain_energy_Nmm": 3.5571305747352024,
+          "reaction_sum_N": [
+            -2.0000000006979426,
+            8.518406351216608e-11,
+            5.041560477469023e-10
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            111.5570742821436,
+            -8.765619475885561,
+            113.9040134287898
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "adult_large",
+          "mesh_max_mm": 1.25,
+          "source": "${WORKSPACE}\\EarDefender_V12_adult_large_Latched.step",
+          "source_sha256": "b3c9126933a60d301aee7d2bf14300fb510ac840ccbd27f370099873a6fb9de7",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.55999999999953,
+          "minimum_adaptive_Jacobian_mm3": 0.11012039460961373,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.5571305743477977,
+          "compliance_mm_per_N": 1.7785652871738988,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              14.0,
+              150.0
+            ],
+            [
+              0.0,
+              -14.0,
+              150.00000000000003
+            ]
+          ],
+          "seconds": 260.63028478622437,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        },
+        {
+          "nodes": 127571,
+          "tet10_elements": 75975,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 11012,
+          "relative_free_residual": 2.5925111993372267e-07,
+          "minimum_quadrature_jacobian_mm3": 0.1356353480619651,
+          "max_von_mises_centroid_MPa": 3.548199756940077,
+          "strain_energy_Nmm": 3.5576658657248883,
+          "reaction_sum_N": [
+            -1.9999999992606043,
+            3.7415473668207063e-10,
+            -7.018908419970452e-10
+          ],
+          "sampled_peak_centroid_xyz_mm": [
+            111.63695600973043,
+            8.8,
+            113.90910287092643
+          ],
+          "assumed_E_MPa": 2000,
+          "assumed_Poisson_ratio": 0.35,
+          "ideal_load_per_full_side_N": 2,
+          "size": "adult_large",
+          "mesh_max_mm": 1.0,
+          "source": "${WORKSPACE}\\EarDefender_V12_adult_large_Latched.step",
+          "source_sha256": "b3c9126933a60d301aee7d2bf14300fb510ac840ccbd27f370099873a6fb9de7",
+          "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+          "load_method": "2 N uniform traction integrated over full guide bottom",
+          "load_face_area_mm2": 86.55999999999952,
+          "minimum_adaptive_Jacobian_mm3": 0.11883859043026378,
+          "high_order_mesh_optimized": false,
+          "guide_weighted_x_displacement_mm": 3.5576658656964133,
+          "compliance_mm_per_N": 1.7788329328482066,
+          "restraint_nodes_xyz_mm": [
+            [
+              0.0,
+              14.0,
+              150.0
+            ],
+            [
+              0.0,
+              -14.0,
+              150.00000000000003
+            ]
+          ],
+          "seconds": 691.0364487171173,
+          "limits": [
+            "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+            "Restraints are numerical datums, not scalp contact",
+            "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+            "Peak stress not used as physical strength or comfort result",
+            "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+          ]
+        }
+      ],
+      "compliance_relative_mesh_change": 0.0001504840312795963,
+      "sampled_peak_stress_relative_mesh_change": 0.045681757354563146,
+      "chosen_compliance_5percent_gate": true,
+      "chosen_sampled_peak_stress_5percent_gate": true
+    }
+  ],
+  "all_chosen_mesh_comparisons_pass": true,
+  "limits": [
+    "Actual V12 wider guides, but homogeneous E2000MPa nu0.35 and ideal symmetry datum restraints",
+    "2N guide-bottom traction does not model complete worn contact or clamp, tongue and lock forces",
+    "A chosen mesh comparison is not a continuum stress bound, material qualification, comfort result or durability pass"
+  ]
+}

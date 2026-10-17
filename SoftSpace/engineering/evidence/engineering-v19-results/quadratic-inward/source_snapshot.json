@@ -1,0 +1,9 @@
+{
+  "scope": "Current source snapshot at inward-study closure. STEP and saved mesh hashes are recorded per case.",
+  "sha256": {
+    "v19_contact_assembly.py": "f9facbf861e828ede77ada79424cc4816a111043a3495058105e4275d1810294",
+    "v19_quadratic_joint.py": "710959aaa4f4a423b88c413c6f6b04a633bd5a964dc36edfd7bd9bd806d57125",
+    "v19_quadratic_inward.py": "c091ab1f451974398161b303d4caf5f4f981388bdbf72cea7987a638784e650c",
+    "verify_v19_quadratic.py": "91f9196d668fdb470fd05fc4e36e817d60cb7cb68cc75c56ef25a18866f4fca7"
+  }
+}

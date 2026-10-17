@@ -1,0 +1,14 @@
+"""Finish the static mass and direct hinge torque comparison; no hardware calibration claimed."""
+import json,runpy
+from pathlib import Path
+P=Path(__file__).parent;O=P/'engineering-v18-results'
+runpy.run_path(str(P/'v18_hinge_torque_mass.py'))
+f=O/'torque_and_mass.json';d=json.loads(f.read_text());r=d['effective_radius_mm']
+d['manufacturer_reference'].update(article='SCHNORR 000600B',nominal_force_N=118,test_loaded_height_mm=.3625,scope='Published calculated reference point for 8 x 4.2 x 0.3 mm disc. Actual spring and assembled preload are unmeasured. CAD shows this reference height, not the position needed for calibrated hinge torque.')
+d['chosen_comparison_window']={'direct_measured_torque_target_Nmm':80,'chosen_fractional_tolerance':.2,'minimum_torque_Nmm':64,'maximum_torque_Nmm':96,'maximum_force_at65mm_N':96/65,'maximum_force_at50mm_N':96/50,'scope':'Proposed assembly acceptance criterion only, not achieved by a sample and not a sensory comfort threshold'}
+for q in d['mass_cases']:q['chosen_minimum_torque_exceeds_static_gravity']=q['maximum_gravity_moment_over_orientation_Nmm']<64
+d['preload_capacity_comparisons']=[{'assumed_mu':mu,'preload_for80Nmm_N':80/(2*mu*r),'nominal_catalogue_point_torque_Nmm':2*mu*118*r,'reference_force_reduced7point5percent_torque_Nmm':2*mu*118*.925*r,'target_within_reference_capacity':80/(2*mu*r)<=118*.925} for mu in [.05,.1,.15,.2,.3,.4]]
+d['all_18_static_gravity_cases_below_chosen_minimum']=len(d['mass_cases'])==18 and all(q['chosen_minimum_torque_exceeds_static_gravity'] for q in d['mass_cases'])
+d['calibration_instructions']=['Measure hinge torque directly through its usable angular range after bedding the actual friction pair','Adjust the nut and remeasure; nut tightening torque alone is not hinge torque','Qualify a method of locking and retaining the nut and bolt; the CAD threads are envelopes only','Verify breakaway and running torque, both directions, after time, heat, humidity, cleaning and cycles','Do not infer spring height or nut position from this single catalogue force point']
+d['limits']+=['The 80 Nmm target and 20 percent window are chosen comparisons, not validated requirements','Uniform annular friction omits real pressure, bending, wear, disc spring seating and material creep','The 7.5 percent reduction is a catalogue reference tolerance, not a measured component guarantee','Static gravity holding does not establish resistance to shocks or inadvertent folding under an inward load']
+f.write_text(json.dumps(d,indent=2));print(json.dumps({'sizes':len(d['sources']),'gravity_cases':len(d['mass_cases']),'max_gravity_Nmm':max(q['maximum_gravity_moment_over_orientation_Nmm'] for q in d['mass_cases']),'chosen_minimum_Nmm':64,'all_static_gravity_comparisons_pass':d['all_18_static_gravity_cases_below_chosen_minimum']}))

@@ -1,0 +1,7 @@
+{
+  "repaired": [
+    "${WORKSPACE}\\engineering-v18-results\\superseded-disc-and-adult-clearance\\child_large_stop_h1.5.json",
+    "${WORKSPACE}\\engineering-v18-results\\superseded-disc-and-adult-clearance\\child_large_stop_h2.0.json",
+    "${WORKSPACE}\\engineering-v18-results\\superseded-disc-and-adult-clearance\\torque_and_mass.json"
+  ]
+}

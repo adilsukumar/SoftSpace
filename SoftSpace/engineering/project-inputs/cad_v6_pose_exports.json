@@ -1,0 +1,67 @@
+{
+  "status": "complete",
+  "files": [
+    "${WORKSPACE}\\OwnPassiveDefender_V6_child_small_20261013_012708_Extension_0_Verified.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V6_child_small_20261013_012708_Extension_30_Verified.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V6_child_medium_20261013_012708_Extension_0_Verified.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V6_child_medium_20261013_012708_Extension_30_Verified.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V6_child_large_20261013_012708_Extension_0_Verified.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V6_child_large_20261013_012708_Extension_30_Verified.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V6_adult_small_20261013_012708_Extension_0_Verified.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V6_adult_small_20261013_012708_Extension_30_Verified.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V6_adult_medium_20261013_012708_Extension_0_Verified.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V6_adult_medium_20261013_012708_Extension_30_Verified.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V6_adult_large_20261013_012708_Extension_0_Verified.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V6_adult_large_20261013_012708_Extension_30_Verified.step"
+  ],
+  "pose_body_counts": [
+    {
+      "pose": "child_small_Extension_0",
+      "count": 28
+    },
+    {
+      "pose": "child_small_Extension_30",
+      "count": 28
+    },
+    {
+      "pose": "child_medium_Extension_0",
+      "count": 28
+    },
+    {
+      "pose": "child_medium_Extension_30",
+      "count": 28
+    },
+    {
+      "pose": "child_large_Extension_0",
+      "count": 28
+    },
+    {
+      "pose": "child_large_Extension_30",
+      "count": 28
+    },
+    {
+      "pose": "adult_small_Extension_0",
+      "count": 28
+    },
+    {
+      "pose": "adult_small_Extension_30",
+      "count": 28
+    },
+    {
+      "pose": "adult_medium_Extension_0",
+      "count": 28
+    },
+    {
+      "pose": "adult_medium_Extension_30",
+      "count": 28
+    },
+    {
+      "pose": "adult_large_Extension_0",
+      "count": 28
+    },
+    {
+      "pose": "adult_large_Extension_30",
+      "count": 28
+    }
+  ]
+}

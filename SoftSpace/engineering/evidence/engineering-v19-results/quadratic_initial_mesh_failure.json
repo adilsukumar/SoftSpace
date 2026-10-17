@@ -1,0 +1,9 @@
+{
+  "size": "adult_small",
+  "mesh_mm": 3,
+  "accepted": false,
+  "reason": "Negative or zero curved tetrahedron Jacobian detected before accepted assembly result",
+  "evidence": "quadratic_initial_invalid_mesh.log",
+  "retry": "HighOrder mesh optimization",
+  "physical_failure": false
+}

@@ -1,0 +1,61 @@
+{
+  "thermal_case_count": 216,
+  "acoustic_scenario_count": 60,
+  "acoustic_frequency_rows": 4800,
+  "thermal_nominal_comparison": [
+    {
+      "ambient_C": 32,
+      "ambient_RH_percent": 70,
+      "assumed_cover_WVTR_g_m2_day": 1,
+      "water_source_mg_h": 100,
+      "foam_k_W_mK": 0.05,
+      "temperature_60min_C": 33.41139668172783,
+      "RH_60min_percent": 99.99999999999999,
+      "condensed_mg": 97.29612479218139,
+      "water_balance_error_mg": 3.707092633217649e-13
+    },
+    {
+      "ambient_C": 32,
+      "ambient_RH_percent": 70,
+      "assumed_cover_WVTR_g_m2_day": 100,
+      "water_source_mg_h": 100,
+      "foam_k_W_mK": 0.05,
+      "temperature_60min_C": 33.41139668172783,
+      "RH_60min_percent": 99.99999999999999,
+      "condensed_mg": 81.83985375359961,
+      "water_balance_error_mg": 3.7947076036992655e-13
+    },
+    {
+      "ambient_C": 32,
+      "ambient_RH_percent": 70,
+      "assumed_cover_WVTR_g_m2_day": 500,
+      "water_source_mg_h": 100,
+      "foam_k_W_mK": 0.05,
+      "temperature_60min_C": 33.41139668172783,
+      "RH_60min_percent": 99.99999999999999,
+      "condensed_mg": 19.60178263172931,
+      "water_balance_error_mg": 1.3552527156068805e-14
+    },
+    {
+      "ambient_C": 32,
+      "ambient_RH_percent": 70,
+      "assumed_cover_WVTR_g_m2_day": 1000,
+      "water_source_mg_h": 100,
+      "foam_k_W_mK": 0.05,
+      "temperature_60min_C": 33.41139668172783,
+      "RH_60min_percent": 85.86744138466989,
+      "condensed_mg": 0.0,
+      "water_balance_error_mg": 9.486769009248164e-14
+    }
+  ],
+  "thermal_model": "one heat-capacity node + conservative water-vapor balance with assumed cover permeance",
+  "acoustic_model": "lumped single panel DOF, leak impedance and cavity compliance; hypothetical parameters",
+  "limitations": [
+    "Thermal model omits sweating feedback, evaporation cooling, spatial skin temperatures and wet-material changes.",
+    "WVTR, skin temperature, water source and material conductivity are assumed, not supplier data.",
+    "Acoustic results are limited to illustrative 31.5-250 Hz lumped behaviour; no broadband attenuation, NRR or SNR prediction.",
+    "Panel stiffness and damping are uncalibrated; resonant pressure amplification can occur.",
+    "Hypothetical leak sizes are independent scenarios; NOT inferred from contact gaps.",
+    "No head/ear transfer function, cup modes, real liner absorption, cover acoustic impedance or acoustic testing."
+  ]
+}

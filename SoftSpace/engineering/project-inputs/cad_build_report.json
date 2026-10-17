@@ -1,0 +1,93 @@
+{
+  "status": "complete",
+  "simulation_run": false,
+  "warnings": [],
+  "cushion_before": [
+    {
+      "name": "Cushion",
+      "min_mm": [
+        -42.5,
+        -52.50000000000001,
+        0.0
+      ],
+      "max_mm": [
+        42.5,
+        52.50000000000001,
+        20.0
+      ],
+      "volume_mm3": 75843.93684947754
+    },
+    {
+      "name": "GlassesContactRegion",
+      "min_mm": [
+        -41.72190216398825,
+        -21.999999998431463,
+        0.0
+      ],
+      "max_mm": [
+        -19.443796555451787,
+        -10.000000000000004,
+        20.0
+      ],
+      "volume_mm3": 4123.825819271665
+    }
+  ],
+  "backup": "${WORKSPACE}\\Cushion_partition_backup_20261012_092613.f3d",
+  "arms": [
+    {
+      "name": "ReferenceArm_Thin",
+      "min_mm": [
+        -51.72190216398825,
+        -17.99999999921573,
+        20.2
+      ],
+      "max_mm": [
+        -9.443796555451787,
+        -13.999999999215733,
+        21.7
+      ],
+      "volume_mm3": 253.66863365121856
+    },
+    {
+      "name": "ReferenceArm_Standard",
+      "min_mm": [
+        -51.72190216398825,
+        -19.999999999215735,
+        20.2
+      ],
+      "max_mm": [
+        -9.443796555451787,
+        -11.999999999215731,
+        23.200000000000003
+      ],
+      "volume_mm3": 1014.6745346048763
+    },
+    {
+      "name": "ReferenceArm_Thick",
+      "min_mm": [
+        -51.72190216398825,
+        -20.999999999215735,
+        20.2
+      ],
+      "max_mm": [
+        -9.443796555451787,
+        -10.999999999215733,
+        25.2
+      ],
+      "volume_mm3": 2113.9052804268235
+    }
+  ],
+  "materials_assigned_for_simulation": false,
+  "limitations": [
+    "Straight rectangular arms are simplified references; corner shape and actual frame geometry require refinement.",
+    "No contact-pressure, thermal, acoustic or sensory-outcome simulation has been run.",
+    "Adult and child fit dimensions remain unvalidated.",
+    "A continuous outer skin is not yet modelled. Material interfaces are idealised geometric boundaries.",
+    "Headphone-brand attachment adapters require measured dimensions for each model.",
+    "Foam compression curves, skin properties, friction and headband force are required before meaningful mechanical simulation."
+  ],
+  "exports": [
+    "${WORKSPACE}\\Cushion_with_frame_references_20261012_092613.f3d",
+    "${WORKSPACE}\\Cushion_with_frame_references_20261012_092613.step"
+  ]
+}

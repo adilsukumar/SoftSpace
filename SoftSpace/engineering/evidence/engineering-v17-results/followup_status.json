@@ -1,0 +1,59 @@
+{
+  "jobs": [
+    {
+      "args": [
+        "check_v17_entry_geometry.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "args": [
+        "verify_v17_pilots.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "args": [
+        "render_v17_entry_sections.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "args": [
+        "v16_tongue_fixture.py",
+        "2.0",
+        "guide82",
+        "child_large_Entry25"
+      ],
+      "exit_code": 0
+    },
+    {
+      "args": [
+        "v16_tongue_fixture.py",
+        "1.5",
+        "guide82",
+        "child_large_Entry25"
+      ],
+      "exit_code": 0
+    },
+    {
+      "args": [
+        "v16_tongue_fixture.py",
+        "2.0",
+        "guide82",
+        "adult_small_Entry25"
+      ],
+      "exit_code": 0
+    },
+    {
+      "args": [
+        "v16_tongue_fixture.py",
+        "1.5",
+        "guide82",
+        "adult_small_Entry25"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "complete": true
+}

@@ -1,0 +1,129 @@
+{
+  "status": "complete inventory",
+  "archives": [
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_small_20261013_164243.f3d",
+      "sha256": "589349e7a3fe076cd5a9f4fee272f7dd7b7f01abcd89dae290ccedcdd584338c",
+      "bytes": 1738570,
+      "ZIP_members": 43,
+      "compression_methods": [
+        0,
+        93
+      ],
+      "container_directory_readable": true,
+      "member_integrity": "unverified compression method unsupported by bundled Python",
+      "note": "Not a native reopening or feature-tree test."
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_small_20261013_180418.f3d",
+      "sha256": "445bbb611f4c9445de8028f470887ca146946238aed768b1c6c0874b87668fc4",
+      "bytes": 1713861,
+      "ZIP_members": 43,
+      "compression_methods": [
+        0,
+        93
+      ],
+      "container_directory_readable": true,
+      "member_integrity": "unverified compression method unsupported by bundled Python",
+      "note": "Not a native reopening or feature-tree test."
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_medium_20261013_180418.f3d",
+      "sha256": "25656c6b9cc7b8e1f352342cf8d418ff75d338165631eb2c7cbbf3057fb49c5c",
+      "bytes": 1715653,
+      "ZIP_members": 43,
+      "compression_methods": [
+        0,
+        93
+      ],
+      "container_directory_readable": true,
+      "member_integrity": "unverified compression method unsupported by bundled Python",
+      "note": "Not a native reopening or feature-tree test."
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_large_20261013_180418.f3d",
+      "sha256": "a213dcf781f1695df8d5870a9aa35a2578639c0c6733b55cacf04cc7bec8bb0c",
+      "bytes": 1712572,
+      "ZIP_members": 43,
+      "compression_methods": [
+        0,
+        93
+      ],
+      "container_directory_readable": true,
+      "member_integrity": "unverified compression method unsupported by bundled Python",
+      "note": "Not a native reopening or feature-tree test."
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_medium_20261013_180418.f3d",
+      "sha256": "5474d042b29149d63c99c8d3dce072f944d42a5c735c60ec40a283f5553134bf",
+      "bytes": 1741847,
+      "ZIP_members": 43,
+      "compression_methods": [
+        0,
+        93
+      ],
+      "container_directory_readable": true,
+      "member_integrity": "unverified compression method unsupported by bundled Python",
+      "note": "Not a native reopening or feature-tree test."
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_large_20261013_180418.f3d",
+      "sha256": "7864bdafcd66ecb35032e7baf4c71e185cc6791577c7c70a04363f27d404b93a",
+      "bytes": 1738602,
+      "ZIP_members": 43,
+      "compression_methods": [
+        0,
+        93
+      ],
+      "container_directory_readable": true,
+      "member_integrity": "unverified compression method unsupported by bundled Python",
+      "note": "Not a native reopening or feature-tree test."
+    }
+  ],
+  "pose_volume_checks": [
+    {
+      "size": "adult_small",
+      "STEP_count": 3,
+      "volume_range_mm3": 1.1641532182693481e-10,
+      "pass": true,
+      "note": "Rigid repositioning should preserve assembly volume; this does not test worn fit."
+    },
+    {
+      "size": "child_small",
+      "STEP_count": 3,
+      "volume_range_mm3": 1.1641532182693481e-10,
+      "pass": true,
+      "note": "Rigid repositioning should preserve assembly volume; this does not test worn fit."
+    },
+    {
+      "size": "child_medium",
+      "STEP_count": 3,
+      "volume_range_mm3": 5.238689482212067e-10,
+      "pass": true,
+      "note": "Rigid repositioning should preserve assembly volume; this does not test worn fit."
+    },
+    {
+      "size": "child_large",
+      "STEP_count": 3,
+      "volume_range_mm3": 2.9103830456733704e-10,
+      "pass": true,
+      "note": "Rigid repositioning should preserve assembly volume; this does not test worn fit."
+    },
+    {
+      "size": "adult_medium",
+      "STEP_count": 3,
+      "volume_range_mm3": 1.1641532182693481e-10,
+      "pass": true,
+      "note": "Rigid repositioning should preserve assembly volume; this does not test worn fit."
+    },
+    {
+      "size": "adult_large",
+      "STEP_count": 3,
+      "volume_range_mm3": 8.731149137020111e-10,
+      "pass": true,
+      "note": "Rigid repositioning should preserve assembly volume; this does not test worn fit."
+    }
+  ],
+  "all_pose_volumes_pass": true,
+  "all_archive_members_verified": false
+}

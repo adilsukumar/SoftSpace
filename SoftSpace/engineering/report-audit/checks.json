@@ -1,0 +1,20 @@
+[
+  {
+    "file": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
+    "sha256": "ba8e294211501f5a56a32ac6e5c1b654543bfe018b788d2c19e9cd90ee0de29c",
+    "approximate_pages": 77,
+    "images": 40,
+    "tables": 50,
+    "zip_integrity": "pass",
+    "native_page_render": "unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure"
+  },
+  {
+    "file": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
+    "sha256": "e99f1f41cb774af116525421c65c66ea9080c4c8091ecb61883b8b156e4eebd9",
+    "approximate_pages": 53,
+    "images": 26,
+    "tables": 38,
+    "zip_integrity": "pass",
+    "native_page_render": "unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure"
+  }
+]

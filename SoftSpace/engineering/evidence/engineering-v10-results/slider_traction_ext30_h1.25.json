@@ -1,0 +1,29 @@
+{
+  "nodes": 56632,
+  "tet10_elements": 34686,
+  "cg_iterations": 3055,
+  "relative_free_residual": 1.3930362550335992e-09,
+  "minimum_quadrature_jacobian_mm3": 0.00710166310603462,
+  "max_von_mises_centroid_MPa": 1.3581617006595175,
+  "strain_energy_Nmm": 0.1240013896069301,
+  "reaction_sum_N": [
+    -2.0000000000201705,
+    -6.78444633633343e-13,
+    3.1903435032841513e-12
+  ],
+  "extension_mm": 30,
+  "exposed_length_mm": 32,
+  "mesh_max_mm": 1.25,
+  "load_method": "Consistent uniform traction with quadratic Tri6 surface integration",
+  "load_face_area_mm2": 28.76126024579584,
+  "minimum_adaptive_Jacobian_mm3": 0.0035300387827952953,
+  "high_order_mesh_optimized": true,
+  "tip_mean_x_displacement_mm": 0.1240013896075222,
+  "tip_compliance_mm_per_N": 0.0620006948037611,
+  "source": "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_small.step",
+  "source_sha256": "e905cf77b9b8ac88a292dc7b46c6dc3a7f2dea34c5781a6a1667949372658f0e",
+  "E_MPa": 2000,
+  "poisson": 0.35,
+  "ideal_load_N": 2,
+  "seconds": 41.6873140335083
+}

@@ -1,0 +1,35 @@
+{
+  "cases": [
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\child_large_h3.0.json",
+      "size": "child_large",
+      "h": 3.0,
+      "change_percent": null,
+      "gate": null
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\child_large_h2.3.json",
+      "size": "child_large",
+      "h": 2.3,
+      "change_percent": 0.3874705729557393,
+      "gate": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\adult_small_h3.0.json",
+      "size": "adult_small",
+      "h": 3.0,
+      "change_percent": null,
+      "gate": null
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\adult_small_h2.3.json",
+      "size": "adult_small",
+      "h": 2.3,
+      "change_percent": 0.4148024748077628,
+      "gate": true
+    }
+  ],
+  "complete": true,
+  "whole_joint_validated": false,
+  "scope": "Higher order bulk and piecewise-linear surface contact, ideal pivot and preload, nominal outward fixture only."
+}

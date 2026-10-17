@@ -1,0 +1,27 @@
+{
+  "nodes": 3742,
+  "tet10_elements": 1851,
+  "cg_iterations": 479,
+  "relative_free_residual": 9.68651417717197e-10,
+  "minimum_quadrature_jacobian_mm3": 0.005290562020758303,
+  "max_von_mises_centroid_MPa": 0.7737569274919872,
+  "strain_energy_Nmm": 0.00035482632929129067,
+  "reaction_sum_N": [
+    -2.0000000000000053,
+    -2.1157704058428963e-15,
+    -1.969192783688638e-15
+  ],
+  "extension_mm": 0,
+  "exposed_length_mm": 2,
+  "mesh_max_mm": 1.0,
+  "minimum_adaptive_Jacobian_mm3": 0.0009467085829025215,
+  "high_order_mesh_optimized": true,
+  "tip_mean_x_displacement_mm": 0.00035482632929129294,
+  "tip_compliance_mm_per_N": 0.00017741316464564647,
+  "source": "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_small.step",
+  "source_sha256": "e905cf77b9b8ac88a292dc7b46c6dc3a7f2dea34c5781a6a1667949372658f0e",
+  "E_MPa": 2000,
+  "poisson": 0.35,
+  "ideal_load_N": 2,
+  "seconds": 1.093735694885254
+}

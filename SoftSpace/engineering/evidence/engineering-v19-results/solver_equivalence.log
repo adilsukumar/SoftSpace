@@ -1,0 +1,1 @@
+{"relative_displacement_array_error": 7.982203385332133e-12, "new_seconds": 3.1899309158325195, "old_seconds": 19.683612823486328, "residual": 7.13293238315705e-07, "pass_result": true, "scope": "Woodbury low rank connector versus original direct sparse penalty solve; same equations and saved mesh"}

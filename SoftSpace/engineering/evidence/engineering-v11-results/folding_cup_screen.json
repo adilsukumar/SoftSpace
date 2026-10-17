@@ -1,0 +1,2039 @@
+{
+  "status": "complete exploratory screen",
+  "cases": [
+    {
+      "size": "adult_small",
+      "left_fold_deg": 0,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        243.420284883652,
+        105.48165518938956,
+        218.69079773498208
+      ],
+      "bounding_box_volume_L": 5.615186834637652,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 15,
+      "right_fold_deg": 15,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        245.2182438547847,
+        105.48165518938956,
+        206.16058240990134
+      ],
+      "bounding_box_volume_L": 5.332555035183141,
+      "overlaps": [
+        {
+          "tags": [
+            5,
+            7
+          ],
+          "intersection_mm3": 19.708728845040078
+        },
+        {
+          "tags": [
+            5,
+            8
+          ],
+          "intersection_mm3": 4.4505839927263615
+        },
+        {
+          "tags": [
+            17,
+            19
+          ],
+          "intersection_mm3": 19.70872884502994
+        },
+        {
+          "tags": [
+            17,
+            20
+          ],
+          "intersection_mm3": 4.450584165608039
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 30,
+      "right_fold_deg": 30,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        246.34848811392746,
+        105.48165518938956,
+        189.74228654059905
+      ],
+      "bounding_box_volume_L": 4.930500045423421,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            8
+          ],
+          "intersection_mm3": 1.8428522486325505
+        },
+        {
+          "tags": [
+            3,
+            8
+          ],
+          "intersection_mm3": 4.2360653811594675
+        },
+        {
+          "tags": [
+            4,
+            8
+          ],
+          "intersection_mm3": 66.2805737042492
+        },
+        {
+          "tags": [
+            5,
+            7
+          ],
+          "intersection_mm3": 476.6073507623587
+        },
+        {
+          "tags": [
+            5,
+            8
+          ],
+          "intersection_mm3": 125.66781649162624
+        },
+        {
+          "tags": [
+            5,
+            11
+          ],
+          "intersection_mm3": 55.88338329165914
+        },
+        {
+          "tags": [
+            6,
+            7
+          ],
+          "intersection_mm3": 126.18129355136358
+        },
+        {
+          "tags": [
+            6,
+            8
+          ],
+          "intersection_mm3": 134.20038208404645
+        },
+        {
+          "tags": [
+            6,
+            11
+          ],
+          "intersection_mm3": 36.925658896099876
+        },
+        {
+          "tags": [
+            13,
+            20
+          ],
+          "intersection_mm3": 1.8428522482249117
+        },
+        {
+          "tags": [
+            15,
+            20
+          ],
+          "intersection_mm3": 4.236065384755159
+        },
+        {
+          "tags": [
+            16,
+            20
+          ],
+          "intersection_mm3": 66.28057370424906
+        },
+        {
+          "tags": [
+            17,
+            19
+          ],
+          "intersection_mm3": 476.60735035825735
+        },
+        {
+          "tags": [
+            17,
+            20
+          ],
+          "intersection_mm3": 125.67205291867295
+        },
+        {
+          "tags": [
+            17,
+            23
+          ],
+          "intersection_mm3": 55.81333638446755
+        },
+        {
+          "tags": [
+            18,
+            19
+          ],
+          "intersection_mm3": 126.18129355136361
+        },
+        {
+          "tags": [
+            18,
+            20
+          ],
+          "intersection_mm3": 134.21027113220353
+        },
+        {
+          "tags": [
+            18,
+            23
+          ],
+          "intersection_mm3": 36.92785497566517
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 45,
+      "right_fold_deg": 45,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        249.56242050738288,
+        105.48165518938956,
+        173.36854269492338
+      ],
+      "bounding_box_volume_L": 4.563798106242724,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            7
+          ],
+          "intersection_mm3": 115.1743547154775
+        },
+        {
+          "tags": [
+            1,
+            8
+          ],
+          "intersection_mm3": 904.4832019690276
+        },
+        {
+          "tags": [
+            1,
+            11
+          ],
+          "intersection_mm3": 115.1843978147904
+        },
+        {
+          "tags": [
+            1,
+            27
+          ],
+          "intersection_mm3": 15.004499025721028
+        },
+        {
+          "tags": [
+            3,
+            7
+          ],
+          "intersection_mm3": 18.512624301264648
+        },
+        {
+          "tags": [
+            3,
+            8
+          ],
+          "intersection_mm3": 29.94487601889975
+        },
+        {
+          "tags": [
+            3,
+            11
+          ],
+          "intersection_mm3": 19.588439252249227
+        },
+        {
+          "tags": [
+            3,
+            27
+          ],
+          "intersection_mm3": 6.641461973664738
+        },
+        {
+          "tags": [
+            4,
+            7
+          ],
+          "intersection_mm3": 74.1224128356761
+        },
+        {
+          "tags": [
+            4,
+            8
+          ],
+          "intersection_mm3": 94.65089088187005
+        },
+        {
+          "tags": [
+            4,
+            11
+          ],
+          "intersection_mm3": 28.687727851425368
+        },
+        {
+          "tags": [
+            5,
+            7
+          ],
+          "intersection_mm3": 904.182986746639
+        },
+        {
+          "tags": [
+            5,
+            11
+          ],
+          "intersection_mm3": 2.6871753116067936
+        },
+        {
+          "tags": [
+            5,
+            12
+          ],
+          "intersection_mm3": 0.23312889439957823
+        },
+        {
+          "tags": [
+            6,
+            7
+          ],
+          "intersection_mm3": 395.05811803142626
+        },
+        {
+          "tags": [
+            13,
+            19
+          ],
+          "intersection_mm3": 115.1743254699517
+        },
+        {
+          "tags": [
+            13,
+            20
+          ],
+          "intersection_mm3": 904.4832315326208
+        },
+        {
+          "tags": [
+            13,
+            23
+          ],
+          "intersection_mm3": 115.18439381161352
+        },
+        {
+          "tags": [
+            13,
+            27
+          ],
+          "intersection_mm3": 15.004496471698888
+        },
+        {
+          "tags": [
+            15,
+            19
+          ],
+          "intersection_mm3": 18.512640174691185
+        },
+        {
+          "tags": [
+            15,
+            20
+          ],
+          "intersection_mm3": 29.94507798729744
+        },
+        {
+          "tags": [
+            15,
+            23
+          ],
+          "intersection_mm3": 19.588439412239776
+        },
+        {
+          "tags": [
+            15,
+            27
+          ],
+          "intersection_mm3": 6.641504995988047
+        },
+        {
+          "tags": [
+            16,
+            19
+          ],
+          "intersection_mm3": 74.12192363758054
+        },
+        {
+          "tags": [
+            16,
+            20
+          ],
+          "intersection_mm3": 94.65089088523045
+        },
+        {
+          "tags": [
+            16,
+            23
+          ],
+          "intersection_mm3": 28.68772548470677
+        },
+        {
+          "tags": [
+            17,
+            19
+          ],
+          "intersection_mm3": 904.169246884874
+        },
+        {
+          "tags": [
+            17,
+            23
+          ],
+          "intersection_mm3": 2.687165646999338
+        },
+        {
+          "tags": [
+            17,
+            24
+          ],
+          "intersection_mm3": 0.23312879537960265
+        },
+        {
+          "tags": [
+            18,
+            19
+          ],
+          "intersection_mm3": 395.0581181586624
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 60,
+      "right_fold_deg": 60,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        260.06130103502943,
+        105.48165518938956,
+        153.13974616215523
+      ],
+      "bounding_box_volume_L": 4.2008830363388245,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            7
+          ],
+          "intersection_mm3": 1066.534548036651
+        },
+        {
+          "tags": [
+            1,
+            8
+          ],
+          "intersection_mm3": 1593.8188700745195
+        },
+        {
+          "tags": [
+            1,
+            11
+          ],
+          "intersection_mm3": 142.37116090860735
+        },
+        {
+          "tags": [
+            1,
+            12
+          ],
+          "intersection_mm3": 6.184737212532118
+        },
+        {
+          "tags": [
+            1,
+            25
+          ],
+          "intersection_mm3": 2.642511982031379
+        },
+        {
+          "tags": [
+            1,
+            27
+          ],
+          "intersection_mm3": 1149.5234268464371
+        },
+        {
+          "tags": [
+            3,
+            7
+          ],
+          "intersection_mm3": 48.67662802779161
+        },
+        {
+          "tags": [
+            3,
+            8
+          ],
+          "intersection_mm3": 41.69845159097987
+        },
+        {
+          "tags": [
+            3,
+            11
+          ],
+          "intersection_mm3": 3.6120533168381974
+        },
+        {
+          "tags": [
+            3,
+            12
+          ],
+          "intersection_mm3": 0.5766726972159125
+        },
+        {
+          "tags": [
+            3,
+            25
+          ],
+          "intersection_mm3": 1.847885957127722
+        },
+        {
+          "tags": [
+            3,
+            27
+          ],
+          "intersection_mm3": 27.85997706266983
+        },
+        {
+          "tags": [
+            4,
+            7
+          ],
+          "intersection_mm3": 158.26995903481114
+        },
+        {
+          "tags": [
+            4,
+            11
+          ],
+          "intersection_mm3": 1.8158209605549316
+        },
+        {
+          "tags": [
+            4,
+            12
+          ],
+          "intersection_mm3": 1.8155376216718049
+        },
+        {
+          "tags": [
+            5,
+            7
+          ],
+          "intersection_mm3": 1190.994590619594
+        },
+        {
+          "tags": [
+            6,
+            7
+          ],
+          "intersection_mm3": 942.4110814388409
+        },
+        {
+          "tags": [
+            13,
+            19
+          ],
+          "intersection_mm3": 1066.534547981778
+        },
+        {
+          "tags": [
+            13,
+            20
+          ],
+          "intersection_mm3": 1593.8194111011894
+        },
+        {
+          "tags": [
+            13,
+            23
+          ],
+          "intersection_mm3": 142.36672903180323
+        },
+        {
+          "tags": [
+            13,
+            24
+          ],
+          "intersection_mm3": 6.184736600829385
+        },
+        {
+          "tags": [
+            13,
+            26
+          ],
+          "intersection_mm3": 2.6431630428068704
+        },
+        {
+          "tags": [
+            13,
+            27
+          ],
+          "intersection_mm3": 1149.5278577581767
+        },
+        {
+          "tags": [
+            15,
+            19
+          ],
+          "intersection_mm3": 48.676628027792354
+        },
+        {
+          "tags": [
+            15,
+            20
+          ],
+          "intersection_mm3": 41.70316402383229
+        },
+        {
+          "tags": [
+            15,
+            23
+          ],
+          "intersection_mm3": 3.6113784326275726
+        },
+        {
+          "tags": [
+            15,
+            24
+          ],
+          "intersection_mm3": 0.5766727524483684
+        },
+        {
+          "tags": [
+            15,
+            26
+          ],
+          "intersection_mm3": 1.8477946723430956
+        },
+        {
+          "tags": [
+            15,
+            27
+          ],
+          "intersection_mm3": 27.86002044784042
+        },
+        {
+          "tags": [
+            16,
+            19
+          ],
+          "intersection_mm3": 158.26995903481082
+        },
+        {
+          "tags": [
+            16,
+            23
+          ],
+          "intersection_mm3": 1.8158209484261931
+        },
+        {
+          "tags": [
+            16,
+            24
+          ],
+          "intersection_mm3": 1.8155376093256341
+        },
+        {
+          "tags": [
+            17,
+            19
+          ],
+          "intersection_mm3": 1190.991616360252
+        },
+        {
+          "tags": [
+            18,
+            19
+          ],
+          "intersection_mm3": 942.4103255414549
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 75,
+      "right_fold_deg": 75,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        271.72396896521354,
+        105.48165518938956,
+        130.4344559963358
+      ],
+      "bounding_box_volume_L": 3.7384985518556464,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            7
+          ],
+          "intersection_mm3": 1844.3867330167354
+        },
+        {
+          "tags": [
+            1,
+            11
+          ],
+          "intersection_mm3": 5.512196222119897
+        },
+        {
+          "tags": [
+            1,
+            12
+          ],
+          "intersection_mm3": 2.7004300647599937
+        },
+        {
+          "tags": [
+            1,
+            27
+          ],
+          "intersection_mm3": 34.93039379413173
+        },
+        {
+          "tags": [
+            3,
+            7
+          ],
+          "intersection_mm3": 52.35912993239584
+        },
+        {
+          "tags": [
+            3,
+            11
+          ],
+          "intersection_mm3": 6.958535926100048
+        },
+        {
+          "tags": [
+            3,
+            12
+          ],
+          "intersection_mm3": 0.41065224991131644
+        },
+        {
+          "tags": [
+            3,
+            27
+          ],
+          "intersection_mm3": 13.29971393970893
+        },
+        {
+          "tags": [
+            4,
+            7
+          ],
+          "intersection_mm3": 212.2737662366491
+        },
+        {
+          "tags": [
+            4,
+            11
+          ],
+          "intersection_mm3": 50.83329608653656
+        },
+        {
+          "tags": [
+            4,
+            12
+          ],
+          "intersection_mm3": 2.177874247391437
+        },
+        {
+          "tags": [
+            5,
+            7
+          ],
+          "intersection_mm3": 608.1795449465591
+        },
+        {
+          "tags": [
+            6,
+            7
+          ],
+          "intersection_mm3": 583.632725083892
+        },
+        {
+          "tags": [
+            13,
+            19
+          ],
+          "intersection_mm3": 1844.3867330167357
+        },
+        {
+          "tags": [
+            13,
+            23
+          ],
+          "intersection_mm3": 5.512196243968377
+        },
+        {
+          "tags": [
+            13,
+            24
+          ],
+          "intersection_mm3": 2.7004300713708442
+        },
+        {
+          "tags": [
+            13,
+            27
+          ],
+          "intersection_mm3": 34.931435746817236
+        },
+        {
+          "tags": [
+            15,
+            19
+          ],
+          "intersection_mm3": 52.359129932395405
+        },
+        {
+          "tags": [
+            15,
+            23
+          ],
+          "intersection_mm3": 6.958538888929828
+        },
+        {
+          "tags": [
+            15,
+            24
+          ],
+          "intersection_mm3": 0.4106522499113173
+        },
+        {
+          "tags": [
+            15,
+            27
+          ],
+          "intersection_mm3": 13.30050620059572
+        },
+        {
+          "tags": [
+            16,
+            19
+          ],
+          "intersection_mm3": 212.28031837049792
+        },
+        {
+          "tags": [
+            16,
+            23
+          ],
+          "intersection_mm3": 50.8330973909181
+        },
+        {
+          "tags": [
+            16,
+            24
+          ],
+          "intersection_mm3": 2.177874092158379
+        },
+        {
+          "tags": [
+            17,
+            19
+          ],
+          "intersection_mm3": 608.1795449995221
+        },
+        {
+          "tags": [
+            18,
+            19
+          ],
+          "intersection_mm3": 583.6327323988235
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 90,
+      "right_fold_deg": 90,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        291.7604548854137,
+        105.48165518938956,
+        120.80000019999963
+      ],
+      "bounding_box_volume_L": 3.7176653907298802,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            7
+          ],
+          "intersection_mm3": 1941.9707774385242
+        },
+        {
+          "tags": [
+            3,
+            7
+          ],
+          "intersection_mm3": 43.184548667765426
+        },
+        {
+          "tags": [
+            4,
+            7
+          ],
+          "intersection_mm3": 346.03330492754736
+        },
+        {
+          "tags": [
+            5,
+            7
+          ],
+          "intersection_mm3": 216.00000000000006
+        },
+        {
+          "tags": [
+            6,
+            7
+          ],
+          "intersection_mm3": 107.00313565025786
+        },
+        {
+          "tags": [
+            13,
+            19
+          ],
+          "intersection_mm3": 1941.9707774385242
+        },
+        {
+          "tags": [
+            15,
+            19
+          ],
+          "intersection_mm3": 43.184548667765426
+        },
+        {
+          "tags": [
+            16,
+            19
+          ],
+          "intersection_mm3": 346.033377774752
+        },
+        {
+          "tags": [
+            17,
+            19
+          ],
+          "intersection_mm3": 216.00000000000006
+        },
+        {
+          "tags": [
+            18,
+            19
+          ],
+          "intersection_mm3": 107.00313565025778
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 90,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        267.59036988453283,
+        105.48165518938956,
+        218.69079773498208
+      ],
+      "bounding_box_volume_L": 6.172739148545629,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            7
+          ],
+          "intersection_mm3": 1941.9707774385242
+        },
+        {
+          "tags": [
+            3,
+            7
+          ],
+          "intersection_mm3": 43.184548667765426
+        },
+        {
+          "tags": [
+            4,
+            7
+          ],
+          "intersection_mm3": 346.03330492754736
+        },
+        {
+          "tags": [
+            5,
+            7
+          ],
+          "intersection_mm3": 216.00000000000006
+        },
+        {
+          "tags": [
+            6,
+            7
+          ],
+          "intersection_mm3": 107.00313565025786
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 0,
+      "right_fold_deg": 90,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        267.59036988453283,
+        105.48165518938956,
+        218.69079773498208
+      ],
+      "bounding_box_volume_L": 6.172739148545629,
+      "overlaps": [
+        {
+          "tags": [
+            13,
+            19
+          ],
+          "intersection_mm3": 1941.9707774385242
+        },
+        {
+          "tags": [
+            15,
+            19
+          ],
+          "intersection_mm3": 43.184548667765426
+        },
+        {
+          "tags": [
+            16,
+            19
+          ],
+          "intersection_mm3": 346.033377774752
+        },
+        {
+          "tags": [
+            17,
+            19
+          ],
+          "intersection_mm3": 216.00000000000006
+        },
+        {
+          "tags": [
+            18,
+            19
+          ],
+          "intersection_mm3": 107.00313565025778
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 0,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        220.906543138692,
+        89.64700661747742,
+        193.350977942983
+      ],
+      "bounding_box_volume_L": 3.829047424996362,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 15,
+      "right_fold_deg": 15,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        222.7045021098247,
+        89.64700661747742,
+        181.16260551789372
+      ],
+      "bounding_box_volume_L": 3.61687373270168,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_cup_child_small_L15_R15.step"
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 30,
+      "right_fold_deg": 30,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        223.83474636896747,
+        89.64700661747742,
+        167.62233648579664
+      ],
+      "bounding_box_volume_L": 3.363529078642175,
+      "overlaps": [
+        {
+          "tags": [
+            5,
+            7
+          ],
+          "intersection_mm3": 231.96376345264704
+        },
+        {
+          "tags": [
+            5,
+            8
+          ],
+          "intersection_mm3": 2.6048481624950774
+        },
+        {
+          "tags": [
+            6,
+            7
+          ],
+          "intersection_mm3": 51.29957141141663
+        },
+        {
+          "tags": [
+            17,
+            19
+          ],
+          "intersection_mm3": 231.96376345264702
+        },
+        {
+          "tags": [
+            17,
+            20
+          ],
+          "intersection_mm3": 2.6048609610599285
+        },
+        {
+          "tags": [
+            18,
+            19
+          ],
+          "intersection_mm3": 51.299571411416665
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 45,
+      "right_fold_deg": 45,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        224.22025163767668,
+        89.64700661747742,
+        152.50007679307933
+      ],
+      "bounding_box_volume_L": 3.0653543868988082,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            7
+          ],
+          "intersection_mm3": 63.390907343215254
+        },
+        {
+          "tags": [
+            1,
+            8
+          ],
+          "intersection_mm3": 188.6302531552843
+        },
+        {
+          "tags": [
+            1,
+            11
+          ],
+          "intersection_mm3": 54.28852276429976
+        },
+        {
+          "tags": [
+            3,
+            7
+          ],
+          "intersection_mm3": 14.076572766553923
+        },
+        {
+          "tags": [
+            3,
+            8
+          ],
+          "intersection_mm3": 28.797594206457507
+        },
+        {
+          "tags": [
+            3,
+            11
+          ],
+          "intersection_mm3": 11.117011732270907
+        },
+        {
+          "tags": [
+            4,
+            7
+          ],
+          "intersection_mm3": 59.933546909965855
+        },
+        {
+          "tags": [
+            4,
+            8
+          ],
+          "intersection_mm3": 94.65089088187128
+        },
+        {
+          "tags": [
+            4,
+            11
+          ],
+          "intersection_mm3": 16.02604568958964
+        },
+        {
+          "tags": [
+            5,
+            7
+          ],
+          "intersection_mm3": 278.4124447926384
+        },
+        {
+          "tags": [
+            5,
+            11
+          ],
+          "intersection_mm3": 3.4775839169441976
+        },
+        {
+          "tags": [
+            6,
+            7
+          ],
+          "intersection_mm3": 232.29818812263542
+        },
+        {
+          "tags": [
+            6,
+            8
+          ],
+          "intersection_mm3": 33.26298345118114
+        },
+        {
+          "tags": [
+            13,
+            19
+          ],
+          "intersection_mm3": 63.39091034379138
+        },
+        {
+          "tags": [
+            13,
+            20
+          ],
+          "intersection_mm3": 188.6302150625458
+        },
+        {
+          "tags": [
+            13,
+            23
+          ],
+          "intersection_mm3": 54.28893125910278
+        },
+        {
+          "tags": [
+            15,
+            19
+          ],
+          "intersection_mm3": 14.076560208042059
+        },
+        {
+          "tags": [
+            15,
+            20
+          ],
+          "intersection_mm3": 28.797580241071973
+        },
+        {
+          "tags": [
+            15,
+            23
+          ],
+          "intersection_mm3": 11.116850270908003
+        },
+        {
+          "tags": [
+            16,
+            19
+          ],
+          "intersection_mm3": 59.93354666312488
+        },
+        {
+          "tags": [
+            16,
+            20
+          ],
+          "intersection_mm3": 94.65089087961329
+        },
+        {
+          "tags": [
+            16,
+            23
+          ],
+          "intersection_mm3": 16.025974146171293
+        },
+        {
+          "tags": [
+            17,
+            19
+          ],
+          "intersection_mm3": 278.41503395368295
+        },
+        {
+          "tags": [
+            17,
+            23
+          ],
+          "intersection_mm3": 3.4776231286862402
+        },
+        {
+          "tags": [
+            18,
+            19
+          ],
+          "intersection_mm3": 232.2981881226355
+        },
+        {
+          "tags": [
+            18,
+            20
+          ],
+          "intersection_mm3": 33.262980260796596
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 60,
+      "right_fold_deg": 60,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        223.9076591804644,
+        89.64700661747742,
+        133.9022461621552
+      ],
+      "bounding_box_volume_L": 2.687773109459679,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            7
+          ],
+          "intersection_mm3": 917.7952194847983
+        },
+        {
+          "tags": [
+            1,
+            8
+          ],
+          "intersection_mm3": 1493.872321077451
+        },
+        {
+          "tags": [
+            1,
+            11
+          ],
+          "intersection_mm3": 135.42589974805654
+        },
+        {
+          "tags": [
+            1,
+            12
+          ],
+          "intersection_mm3": 6.184737212532083
+        },
+        {
+          "tags": [
+            1,
+            27
+          ],
+          "intersection_mm3": 466.0289265063055
+        },
+        {
+          "tags": [
+            3,
+            7
+          ],
+          "intersection_mm3": 43.84547696275071
+        },
+        {
+          "tags": [
+            3,
+            8
+          ],
+          "intersection_mm3": 39.38479851804091
+        },
+        {
+          "tags": [
+            3,
+            11
+          ],
+          "intersection_mm3": 0.8712146930498853
+        },
+        {
+          "tags": [
+            3,
+            12
+          ],
+          "intersection_mm3": 0.5766726972158221
+        },
+        {
+          "tags": [
+            3,
+            27
+          ],
+          "intersection_mm3": 30.74868737691851
+        },
+        {
+          "tags": [
+            4,
+            7
+          ],
+          "intersection_mm3": 140.9224788648504
+        },
+        {
+          "tags": [
+            4,
+            8
+          ],
+          "intersection_mm3": 73.45455984773139
+        },
+        {
+          "tags": [
+            4,
+            11
+          ],
+          "intersection_mm3": 1.8158209605550364
+        },
+        {
+          "tags": [
+            4,
+            12
+          ],
+          "intersection_mm3": 1.8155376216719108
+        },
+        {
+          "tags": [
+            5,
+            7
+          ],
+          "intersection_mm3": 711.1565346524593
+        },
+        {
+          "tags": [
+            6,
+            7
+          ],
+          "intersection_mm3": 92.63825382167059
+        },
+        {
+          "tags": [
+            13,
+            19
+          ],
+          "intersection_mm3": 917.7952194872615
+        },
+        {
+          "tags": [
+            13,
+            20
+          ],
+          "intersection_mm3": 1493.8722989853109
+        },
+        {
+          "tags": [
+            13,
+            23
+          ],
+          "intersection_mm3": 135.4257851705308
+        },
+        {
+          "tags": [
+            13,
+            24
+          ],
+          "intersection_mm3": 6.184736600829364
+        },
+        {
+          "tags": [
+            13,
+            27
+          ],
+          "intersection_mm3": 466.0327027052384
+        },
+        {
+          "tags": [
+            15,
+            19
+          ],
+          "intersection_mm3": 43.84547696274987
+        },
+        {
+          "tags": [
+            15,
+            20
+          ],
+          "intersection_mm3": 39.38494143773104
+        },
+        {
+          "tags": [
+            15,
+            23
+          ],
+          "intersection_mm3": 0.871197273437027
+        },
+        {
+          "tags": [
+            15,
+            24
+          ],
+          "intersection_mm3": 0.5766727524482805
+        },
+        {
+          "tags": [
+            15,
+            27
+          ],
+          "intersection_mm3": 30.74829911559722
+        },
+        {
+          "tags": [
+            16,
+            19
+          ],
+          "intersection_mm3": 140.92247886485012
+        },
+        {
+          "tags": [
+            16,
+            20
+          ],
+          "intersection_mm3": 73.4545597868026
+        },
+        {
+          "tags": [
+            16,
+            23
+          ],
+          "intersection_mm3": 1.815820948426301
+        },
+        {
+          "tags": [
+            16,
+            24
+          ],
+          "intersection_mm3": 1.8155376093257436
+        },
+        {
+          "tags": [
+            17,
+            19
+          ],
+          "intersection_mm3": 711.1580643241222
+        },
+        {
+          "tags": [
+            18,
+            19
+          ],
+          "intersection_mm3": 92.63825323405115
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 75,
+      "right_fold_deg": 75,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        231.1538635241513,
+        89.64700661747742,
+        113.09625601615345
+      ],
+      "bounding_box_volume_L": 2.3436091098463714,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            7
+          ],
+          "intersection_mm3": 1715.3541238007151
+        },
+        {
+          "tags": [
+            1,
+            8
+          ],
+          "intersection_mm3": 252.2430613584993
+        },
+        {
+          "tags": [
+            1,
+            11
+          ],
+          "intersection_mm3": 4.505298348548003
+        },
+        {
+          "tags": [
+            1,
+            12
+          ],
+          "intersection_mm3": 2.700430064759953
+        },
+        {
+          "tags": [
+            1,
+            27
+          ],
+          "intersection_mm3": 529.1373726241573
+        },
+        {
+          "tags": [
+            3,
+            7
+          ],
+          "intersection_mm3": 53.407651748091375
+        },
+        {
+          "tags": [
+            3,
+            8
+          ],
+          "intersection_mm3": 46.24438454649124
+        },
+        {
+          "tags": [
+            3,
+            11
+          ],
+          "intersection_mm3": 4.598553477581253
+        },
+        {
+          "tags": [
+            3,
+            12
+          ],
+          "intersection_mm3": 0.4106522499113039
+        },
+        {
+          "tags": [
+            3,
+            27
+          ],
+          "intersection_mm3": 23.755464774185015
+        },
+        {
+          "tags": [
+            4,
+            7
+          ],
+          "intersection_mm3": 177.75462675817207
+        },
+        {
+          "tags": [
+            4,
+            11
+          ],
+          "intersection_mm3": 29.90813916189319
+        },
+        {
+          "tags": [
+            4,
+            12
+          ],
+          "intersection_mm3": 2.1778742473914066
+        },
+        {
+          "tags": [
+            5,
+            7
+          ],
+          "intersection_mm3": 1197.7014396070012
+        },
+        {
+          "tags": [
+            6,
+            7
+          ],
+          "intersection_mm3": 1094.28212983402
+        },
+        {
+          "tags": [
+            13,
+            19
+          ],
+          "intersection_mm3": 1715.3541235372693
+        },
+        {
+          "tags": [
+            13,
+            20
+          ],
+          "intersection_mm3": 252.24240509803442
+        },
+        {
+          "tags": [
+            13,
+            23
+          ],
+          "intersection_mm3": 4.505298623811153
+        },
+        {
+          "tags": [
+            13,
+            24
+          ],
+          "intersection_mm3": 2.7004300713708096
+        },
+        {
+          "tags": [
+            13,
+            27
+          ],
+          "intersection_mm3": 529.1367079858687
+        },
+        {
+          "tags": [
+            15,
+            19
+          ],
+          "intersection_mm3": 53.40765180145883
+        },
+        {
+          "tags": [
+            15,
+            20
+          ],
+          "intersection_mm3": 46.24395560255907
+        },
+        {
+          "tags": [
+            15,
+            23
+          ],
+          "intersection_mm3": 4.5985522536389425
+        },
+        {
+          "tags": [
+            15,
+            24
+          ],
+          "intersection_mm3": 0.4106522499113049
+        },
+        {
+          "tags": [
+            15,
+            27
+          ],
+          "intersection_mm3": 23.75357004614349
+        },
+        {
+          "tags": [
+            16,
+            19
+          ],
+          "intersection_mm3": 177.7663450777106
+        },
+        {
+          "tags": [
+            16,
+            23
+          ],
+          "intersection_mm3": 29.90805216775776
+        },
+        {
+          "tags": [
+            16,
+            24
+          ],
+          "intersection_mm3": 2.1778740921583526
+        },
+        {
+          "tags": [
+            17,
+            19
+          ],
+          "intersection_mm3": 1197.7015523360765
+        },
+        {
+          "tags": [
+            18,
+            19
+          ],
+          "intersection_mm3": 1094.282162662892
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 90,
+      "right_fold_deg": 90,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        250.2832873166856,
+        89.64700661747742,
+        105.5000001999997
+      ],
+      "bounding_box_volume_L": 2.36711906724849,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            7
+          ],
+          "intersection_mm3": 1337.5888617487112
+        },
+        {
+          "tags": [
+            3,
+            7
+          ],
+          "intersection_mm3": 58.03782286582572
+        },
+        {
+          "tags": [
+            4,
+            7
+          ],
+          "intersection_mm3": 237.61785719321733
+        },
+        {
+          "tags": [
+            5,
+            7
+          ],
+          "intersection_mm3": 236.54806481723864
+        },
+        {
+          "tags": [
+            6,
+            7
+          ],
+          "intersection_mm3": 272.4334044894673
+        },
+        {
+          "tags": [
+            13,
+            19
+          ],
+          "intersection_mm3": 1337.5888617487112
+        },
+        {
+          "tags": [
+            15,
+            19
+          ],
+          "intersection_mm3": 58.037822865825774
+        },
+        {
+          "tags": [
+            16,
+            19
+          ],
+          "intersection_mm3": 237.61785719321696
+        },
+        {
+          "tags": [
+            17,
+            19
+          ],
+          "intersection_mm3": 236.54806481723875
+        },
+        {
+          "tags": [
+            18,
+            19
+          ],
+          "intersection_mm3": 272.4334044894678
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 90,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        235.5949152276888,
+        89.64700661747742,
+        193.350977942983
+      ],
+      "bounding_box_volume_L": 4.083645919570834,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            7
+          ],
+          "intersection_mm3": 1337.5888617487112
+        },
+        {
+          "tags": [
+            3,
+            7
+          ],
+          "intersection_mm3": 58.03782286582572
+        },
+        {
+          "tags": [
+            4,
+            7
+          ],
+          "intersection_mm3": 237.61785719321733
+        },
+        {
+          "tags": [
+            5,
+            7
+          ],
+          "intersection_mm3": 236.54806481723864
+        },
+        {
+          "tags": [
+            6,
+            7
+          ],
+          "intersection_mm3": 272.4334044894673
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 0,
+      "right_fold_deg": 90,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        235.5949152276888,
+        89.64700661747742,
+        193.350977942983
+      ],
+      "bounding_box_volume_L": 4.083645919570834,
+      "overlaps": [
+        {
+          "tags": [
+            13,
+            19
+          ],
+          "intersection_mm3": 1337.5888617487112
+        },
+        {
+          "tags": [
+            15,
+            19
+          ],
+          "intersection_mm3": 58.037822865825774
+        },
+        {
+          "tags": [
+            16,
+            19
+          ],
+          "intersection_mm3": 237.61785719321696
+        },
+        {
+          "tags": [
+            17,
+            19
+          ],
+          "intersection_mm3": 236.54806481723875
+        },
+        {
+          "tags": [
+            18,
+            19
+          ],
+          "intersection_mm3": 272.4334044894678
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    }
+  ],
+  "limits": [
+    "Two sizes only; existing fork pivots explored without a new hinge",
+    "Sampled rigid poses, not continuous folding paths or loaded motion",
+    "Pinch protection, latch, play, hinge friction, fatigue, drop and folded bag-compression resistance untested",
+    "Bounding box volume is a packing proxy, not measured carrying comfort",
+    "No material or strength conclusions transfer from the V10 intact-band fixture to a redesigned hinge"
+  ],
+  "pivot_mode": "cup"
+}

@@ -1,0 +1,56 @@
+{
+  "nodes": 12547,
+  "tet10_elements": 6140,
+  "assembly_method": "CSR batches of up to2048 elements",
+  "reduced_matrix_storage": true,
+  "coarse_preconditioner_modes": 12,
+  "cg_iterations": 5350,
+  "relative_free_residual": 9.527724157271806e-08,
+  "minimum_quadrature_jacobian_mm3": 0.16753393993743548,
+  "max_von_mises_centroid_MPa": 2.596553567285894,
+  "strain_energy_Nmm": 3.8613309875058235,
+  "reaction_sum_N": [
+    -1.9999999997352567,
+    6.244971328956006e-11,
+    -4.5455649660963715e-10
+  ],
+  "sampled_peak_centroid_xyz_mm": [
+    93.96434651364945,
+    8.875143353509882,
+    113.9579970893725
+  ],
+  "assumed_E_MPa": 2000,
+  "assumed_Poisson_ratio": 0.35,
+  "ideal_load_per_full_side_N": 2,
+  "size": "child_large",
+  "mesh_max_mm": 2.5,
+  "source": "${WORKSPACE}\\EarDefender_V12_child_large_Latched.step",
+  "source_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5",
+  "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+  "load_method": "2 N uniform traction integrated over full guide bottom",
+  "load_face_area_mm2": 86.55999999982386,
+  "minimum_adaptive_Jacobian_mm3": 0.139509208157173,
+  "high_order_mesh_optimized": false,
+  "guide_weighted_x_displacement_mm": 3.8613309876209403,
+  "compliance_mm_per_N": 1.9306654938104701,
+  "restraint_nodes_xyz_mm": [
+    [
+      0.0,
+      12.0,
+      135.00000000000006
+    ],
+    [
+      0.0,
+      -12.0,
+      135.00000000000006
+    ]
+  ],
+  "seconds": 21.560895919799805,
+  "limits": [
+    "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+    "Restraints are numerical datums, not scalp contact",
+    "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+    "Peak stress not used as physical strength or comfort result",
+    "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+  ]
+}

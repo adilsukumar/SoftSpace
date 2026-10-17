@@ -1,0 +1,10 @@
+{
+ "checked_date":"2026-10-13",
+ "scope":"Two host-specific competitor examples, separate from the earlier29-item sample; not exhaustive",
+ "products":[
+  {"name":"Crysendo memory foam replacement pads","compatibility_claim":"Indexed seller lists WH-CH700N, WH-CH710N and WH-CH720N","features":"Protein leather and memory foam","price_observation":"Indexed INR719–756 from a page crawled about1.3years ago; current live price unverified","source":"https://www.crysendo.com/collections/bestseller-products","source_access":"Official seller search index; direct page could not be opened","india_delivery_and_stock":"Unverified","glasses_pressure_or_leakage":"No matched test reviewed"},
+  {"name":"Geekria PRO extra thick cooling gel pads","compatibility_claim":"Manufacturer lists WH-CH700N, WH-CH710N and WH-CH720N","features":"Memory foam and cooling gel; comfort is a manufacturer claim","price_observation":"USD23.99 for2 pads, shipping extra","source":"https://shop.geekria.com/products/geekria-sport-cooling-gel-infused-cloth-ear-pads-for-sony-wh-ch700n-wh-ch710n-headphone-ear-pad-ear-cushion-ear-cups-ear-cover-earpads-repair-parts-extra-thick-black","source_access":"Manufacturer product page opened2026-10-13","india_delivery_and_stock":"Delivered Indian price and local stock unverified","glasses_pressure_or_leakage":"No matched test reviewed"}
+ ],
+ "our_status":"Generic V8 soft-zone pad; WH-CH720N mount unmeasured, no supplier price or physical test",
+ "conclusion":"Competing pad listings exist. Our proposed difference needs measured glasses pressure and seal improvement at a viable cost; memory foam alone does not establish an advantage."
+}

@@ -1,0 +1,133 @@
+{
+  "cases": [
+    {
+      "size": "child_small",
+      "test": "one cubic mm embedded in known prong",
+      "expected_mm3": 1,
+      "common_mm3": 0.9999999999999999,
+      "pass": true
+    },
+    {
+      "size": "child_small",
+      "test": "known disjoint box",
+      "expected_mm3": 0,
+      "common_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "size": "child_small",
+      "test": "embedded pair rotated by sixty degrees",
+      "expected_mm3": 1,
+      "common_mm3": 0.9999999999999998,
+      "pass": true
+    },
+    {
+      "size": "child_medium",
+      "test": "one cubic mm embedded in known prong",
+      "expected_mm3": 1,
+      "common_mm3": 0.9999999999999998,
+      "pass": true
+    },
+    {
+      "size": "child_medium",
+      "test": "known disjoint box",
+      "expected_mm3": 0,
+      "common_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "size": "child_medium",
+      "test": "embedded pair rotated by sixty degrees",
+      "expected_mm3": 1,
+      "common_mm3": 0.9999999999999988,
+      "pass": true
+    },
+    {
+      "size": "child_large",
+      "test": "one cubic mm embedded in known prong",
+      "expected_mm3": 1,
+      "common_mm3": 0.9999999999999999,
+      "pass": true
+    },
+    {
+      "size": "child_large",
+      "test": "known disjoint box",
+      "expected_mm3": 0,
+      "common_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "size": "child_large",
+      "test": "embedded pair rotated by sixty degrees",
+      "expected_mm3": 1,
+      "common_mm3": 0.9999999999999973,
+      "pass": true
+    },
+    {
+      "size": "adult_small",
+      "test": "one cubic mm embedded in known prong",
+      "expected_mm3": 1,
+      "common_mm3": 0.9999999999999998,
+      "pass": true
+    },
+    {
+      "size": "adult_small",
+      "test": "known disjoint box",
+      "expected_mm3": 0,
+      "common_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "size": "adult_small",
+      "test": "embedded pair rotated by sixty degrees",
+      "expected_mm3": 1,
+      "common_mm3": 1.0000000000000027,
+      "pass": true
+    },
+    {
+      "size": "adult_medium",
+      "test": "one cubic mm embedded in known prong",
+      "expected_mm3": 1,
+      "common_mm3": 0.9999999999999998,
+      "pass": true
+    },
+    {
+      "size": "adult_medium",
+      "test": "known disjoint box",
+      "expected_mm3": 0,
+      "common_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "size": "adult_medium",
+      "test": "embedded pair rotated by sixty degrees",
+      "expected_mm3": 1,
+      "common_mm3": 0.9999999999999987,
+      "pass": true
+    },
+    {
+      "size": "adult_large",
+      "test": "one cubic mm embedded in known prong",
+      "expected_mm3": 1,
+      "common_mm3": 0.9999999999999999,
+      "pass": true
+    },
+    {
+      "size": "adult_large",
+      "test": "known disjoint box",
+      "expected_mm3": 0,
+      "common_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "size": "adult_large",
+      "test": "embedded pair rotated by sixty degrees",
+      "expected_mm3": 1,
+      "common_mm3": 1.0000000000000027,
+      "pass": true
+    }
+  ],
+  "case_count": 18,
+  "all_pass": true,
+  "scope": "Known embedded and disjoint rigid geometry controls; not a proof that every tangential or coincident CAD query is reliable. Coincident independently copied fork comparison still fails and is recorded separately."
+}

@@ -1,0 +1,17 @@
+"""Audit saved FE algebra and record conditional component comparisons."""
+import sys,json,hashlib,math
+from pathlib import Path
+P=Path(__file__).parent;sys.path.insert(0,str(P/'solver-libraries'));import numpy as np
+O=P/'engineering-v12-results';rows=[];grades=json.loads((P/'engineering-v11-results'/'materials_screen.json').read_text())['numeric_grades'];strength=[]
+for size in ['adult_small','child_small']:
+ meshes=[]
+ for h in [2.0,1.5]:
+  f=O/(size+'_fork_h'+str(h)+'.json');r=json.loads(f.read_text());assert hashlib.sha256(Path(r['source']).read_bytes()).hexdigest()==r['source_sha256'];a=np.load(f.with_suffix('.npz'));u=a['u'];force=a['force'];fixed=a['fixed'];work=float(force@u.ravel());energy_error=abs(2*r['strain_energy_Nmm']-work)/max(abs(work),1e-30);balance=np.linalg.norm(np.asarray(r['reaction_sum_N'])+force.reshape(-1,3).sum(axis=0));fixed_error=float(np.max(np.abs(u.ravel()[fixed])));passed=r['relative_free_residual']<1e-6 and energy_error<1e-6 and balance<1e-6 and fixed_error<1e-12 and r['minimum_adaptive_Jacobian_mm3']>0 and np.isfinite(u).all() and np.isfinite(a['vm']).all()
+  r['independent_algebra_audit']={'external_work_Nmm':work,'twice_strain_energy_relative_error':energy_error,'force_balance_error_N':float(balance),'maximum_fixed_displacement_mm':fixed_error,'pass':bool(passed)};meshes.append(r)
+ a,b=meshes;dc=abs(b['weighted_load_direction_displacement_mm']/a['weighted_load_direction_displacement_mm']-1);sc=abs(b['max_von_mises_centroid_MPa']/a['max_von_mises_centroid_MPa']-1)
+ rows.append({'size':size,'meshes':meshes,'displacement_mesh_change_fraction':dc,'sampled_peak_stress_mesh_change_fraction':sc,'chosen_displacement_5percent_gate':dc<.05,'chosen_sampled_peak_stress_5percent_gate':sc<.05,'all_algebra_audits_pass':all(r['independent_algebra_audit']['pass'] for r in meshes)})
+ for g in grades:
+  for load in [2,5,10,20]:
+   stress=b['max_von_mises_centroid_MPa']*load/2;strength.append({'fixture_size':size,'grade':g['grade'],'illustrative_side_load_N':load,'sampled_centroid_peak_MPa':stress,'yield_reference_MPa':g['typical_yield_MPa'],'yield_reference_ratio':g['typical_yield_MPa']/stress,'displacement_mm':b['weighted_load_direction_displacement_mm']*load/2*2000/g['modulus_MPa'],'scope':'Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating'})
+out={'status':'complete two-family ideal fork fixture study','cases':rows,'all_algebra_audits_pass':all(r['all_algebra_audits_pass'] for r in rows),'all_chosen_mesh_comparisons_pass':all(r['chosen_displacement_5percent_gate'] and r['chosen_sampled_peak_stress_5percent_gate'] for r in rows),'conditional_material_load_cases':strength,'conditional_material_load_case_count':len(strength),'limits':['These are two fork fixtures, not two complete worn assemblies','Only displacement and sampled centroid peak comparisons between two meshes; not a bound on continuum corner stress','2000MPa homogeneous isotropic material, nu0.35; selected production grade not qualified','Guide wall was changed in V12; V10 full band stresses must not be relabelled as V12 results','Wear, fatigue, fracture, impacts, fastening and contact remain open']}
+(O/'fork_mechanics_summary.json').write_text(json.dumps(out,indent=2));print(json.dumps({'families':len(rows),'all_mesh_comparisons_pass':out['all_chosen_mesh_comparisons_pass'],'all_algebra_audits_pass':out['all_algebra_audits_pass'],'conditional_grade_load_cases':len(strength)}))

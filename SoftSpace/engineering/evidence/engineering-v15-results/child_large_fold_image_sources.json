@@ -1,0 +1,7 @@
+{
+  "image": "${WORKSPACE}\\documents\\images\\V15_child_large_fold.png",
+  "sources": [
+    "${WORKSPACE}\\EarDefender_V14_child_large_Latched.step"
+  ],
+  "scope": "Actual nominal STEP surfaces tessellated once and moved by the recorded rigid fold transforms; equal scale per size row; no physical product or carrying test"
+}

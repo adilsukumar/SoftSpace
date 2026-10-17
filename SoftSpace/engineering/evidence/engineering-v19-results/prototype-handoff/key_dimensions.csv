@@ -1,0 +1,7 @@
+size,pivot_z_mm,guide_bottom_mm,fork_inside_width_mm,fork_outside_width_mm,pin_diameter_mm,bore_diameter_mm,pin_underhead_mm,plain_shoulder_mm,proposed_thread_pitch_mm,proposed_thread_length_mm,primary_nut_height_mm,jam_nut_height_mm,tip_protrusion_mm,reference_disc_pair_height_mm,slider_stroke_mm,source_sha256
+adult_large,62.0,85,48.0,56.0,4,4.3,65,57,0.7,8,3.2,2.2,1.9375,0.6625,30,5d735cd7b2ef0a8e601480ad19ab7a00789b75e36ee7b994a36d89102add538a
+adult_medium,62.0,85,48.0,56.0,4,4.3,65,57,0.7,8,3.2,2.2,1.9375,0.6625,30,3ffa4d86f9949668a241b560246be93d0bb3acd3d63fe1f7340e55b55d819c4b
+adult_small,62.0,85,48.0,56.0,4,4.3,65,57,0.7,8,3.2,2.2,1.9375,0.6625,30,035aa0b663212ab25ef478dd2c23e883bcdfd35df3525eacfb5977bd6042285c
+child_large,59.0,82,28.0,36.0,4,4.3,45,37,0.7,8,3.2,2.2,1.9375,0.6625,30,5b6c1004fae84fdd7b6849d831d570f60b0d5520697ab92ff4f7c2cd29ddaa9b
+child_medium,59.0,82,28.0,36.0,4,4.3,45,37,0.7,8,3.2,2.2,1.9375,0.6625,30,ab2a0c221b24772d61a8b1b63c2cbb3002bcee2f0a5bb42cf98d3690eca43b1c
+child_small,59.0,82,28.0,36.0,4,4.3,45,37,0.7,8,3.2,2.2,1.9375,0.6625,30,1d5fd978aad75a4a4fcf0c4728c25d9b34fba0487c21064ab1da67380b88e467

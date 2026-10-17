@@ -1,0 +1,12 @@
+{
+  "status": "earlier process failure; verification retry succeeded",
+  "script": "check_streamed_assembly.py",
+  "exit_code": -1073741523,
+  "hex_exit_code": "0xC000012D",
+  "output": "No verification result was produced by this failed process.",
+  "interpretation": "Windows process resource/commitment failure; not a physical test result.",
+  "retry_evidence": "streamed_assembly_verification.json",
+  "retry_displacement_relative_difference": 6.3015983453453396e-12,
+  "retry_stress_vector_relative_difference": 1.3982512827629092e-11,
+  "comparison_limit": 0.000001
+}

@@ -1,0 +1,856 @@
+{
+  "revision": "V15 retention pilot and V14 child packing experiment",
+  "updated": "2026-10-15",
+  "manufacturing_release": false,
+  "native_Fusion_revision": "V10",
+  "latest_six_size_CAD_revision": "V14",
+  "V15_pilot_sizes": [
+    "adult_small"
+  ],
+  "tests": [
+    {
+      "test": "New retention CAD",
+      "status": "One adult-small local STEP pilot with46 valid solids",
+      "limit": "No all-six-size or native Fusion reconstruction"
+    },
+    {
+      "test": "Retention clearance",
+      "status": "Six discrete release and slider endpoint checks pass",
+      "limit": "Cosmetic threads; not flank fit, tightening, pullout, vibration or folding validation"
+    },
+    {
+      "test": "Defined retention method",
+      "status": "M2x0.4 metal knob with separate jam nut candidate",
+      "limit": "Actual grade, coating, thread runout, gauges, tools, torque and child access not qualified"
+    },
+    {
+      "test": "Conditional retention loads",
+      "status": "72 reduced assumed rod calculations recorded",
+      "limit": "No selected material or approved torque; threads and complete joint contact excluded"
+    },
+    {
+      "test": "Child packing",
+      "status": "Finite search on three unchanged V14 child sizes recorded",
+      "limit": "Ranked boxes are not collision checks; only saved shortlist endpoints checked. No continuous new path or global optimum established"
+    },
+    {
+      "test": "New child-large folding sequence",
+      "status": "27 discrete sequence samples pass and export matches intended pose",
+      "limit": "3.93percent less box volume than retracted unfolded. Pins held6mm released; stable storage latch, pinch and real handling unqualified"
+    },
+    {
+      "test": "Product and Sony pad validation",
+      "status": "Still incomplete",
+      "limit": "Sony measurements deferred. Comfort, sensory acceptance, heat, acoustics, leakage, durability and cost not established"
+    }
+  ],
+  "source": {
+    "revision": "V15 retention candidate",
+    "size": "adult_small",
+    "file": "${WORKSPACE}\\EarDefender_V15_adult_small_RetentionCandidate.step",
+    "sha256": "c2665f11f9aa0fc9aa8d331624269f1fa14325dc6fdd6bc032cd972600644473",
+    "source": "${WORKSPACE}\\EarDefender_V14_adult_small_Latched.step",
+    "source_sha256": "833a19ab651d82411c211d2a396f405079728fcb87351a9b0cd3c627c2bed8fb",
+    "solid_count": 46,
+    "part_bounds_mm": {
+      "LeftMainFoam": [
+        -82.71882902839795,
+        -49.352692418057956,
+        -66.89079763497794,
+        -49.18756416899205,
+        52.74082759469995,
+        63.170085100885956
+      ],
+      "LeftSoftGlassesZone": [
+        -82.71064718935102,
+        -41.72240701155101,
+        -22.000504847881015,
+        -55.29375039602899,
+        -19.443291707918984,
+        -9.999495152462986
+      ],
+      "LeftContinuousCover": [
+        -82.91014244182,
+        -42.97637542217,
+        -52.700000100000004,
+        -48.88129256518,
+        43.085920865778,
+        52.949021564896
+      ],
+      "LeftCarrier": [
+        -84.11014244181999,
+        -44.0000001,
+        -54.0000001,
+        -82.91014224182001,
+        44.0000001,
+        54.0000001
+      ],
+      "LeftCup": [
+        -121.71014244179999,
+        -45.0000001,
+        -55.0000001,
+        -82.71014224182001,
+        45.0000001,
+        55.0000001
+      ],
+      "LeftLiner": [
+        -103.71014244179999,
+        -41.7500001,
+        -51.7500001,
+        -84.71014224182001,
+        41.7500001,
+        51.7500001
+      ],
+      "LeftFork": [
+        -128.710142441801,
+        -30.000000100001,
+        30.999999899999,
+        -93.71014224181899,
+        28.000000200001,
+        79.000000100001
+      ],
+      "LeftTongue": [
+        -111.71014244179999,
+        -8.0000001,
+        56.9999999,
+        -95.71014224182,
+        8.0000001,
+        134.0000001
+      ],
+      "LeftCupPin": [
+        -120.95731904267717,
+        -15.0000001,
+        31.752823299122817,
+        -114.46296564092282,
+        14.0000001,
+        38.24717670087718
+      ],
+      "LeftCupPinCap": [
+        -120.95731904267717,
+        13.9999999,
+        31.752823299122817,
+        -114.46296564092282,
+        15.0000001,
+        38.24717670087718
+      ],
+      "LeftForkPin": [
+        -99.87492684240479,
+        -31.0000001,
+        62.83521549941521,
+        -95.54535784123522,
+        30.0000001,
+        67.16478450058479
+      ],
+      "LeftForkPinCap": [
+        -99.87492684240479,
+        29.9999999,
+        62.83521549941521,
+        -95.54535784123522,
+        31.0000001,
+        67.16478450058479
+      ],
+      "RightMainFoam": [
+        49.18756416900147,
+        -52.740827594693535,
+        -66.89079763497352,
+        82.71882902839953,
+        49.35269241805953,
+        63.170085100881536
+      ],
+      "RightSoftGlassesZone": [
+        55.29375039603633,
+        19.44329170792211,
+        -22.000504847879668,
+        82.71064718935567,
+        41.72240701155167,
+        -9.999495152464332
+      ],
+      "RightContinuousCover": [
+        48.881292565189,
+        -43.08592086577,
+        -52.700000100000004,
+        82.910142441826,
+        42.976375422171,
+        52.949021564896
+      ],
+      "RightCarrier": [
+        82.91014224182601,
+        -44.0000001,
+        -54.0000001,
+        84.110142441826,
+        44.0000001,
+        54.0000001
+      ],
+      "RightCup": [
+        82.710142241826,
+        -45.0000001,
+        -55.0000001,
+        121.71014244182,
+        45.0000001,
+        55.0000001
+      ],
+      "RightLiner": [
+        84.710142241826,
+        -41.7500001,
+        -51.7500001,
+        103.71014244182,
+        41.7500001,
+        51.7500001
+      ],
+      "RightFork": [
+        93.71014224182498,
+        -30.000000100001,
+        30.999999899999,
+        128.71014244182098,
+        28.000000200001,
+        79.000000100001
+      ],
+      "RightTongue": [
+        95.710142241826,
+        -8.0000001,
+        56.9999999,
+        111.71014244182,
+        8.0000001,
+        134.0000001
+      ],
+      "RightCupPin": [
+        114.46296564094283,
+        -15.0000001,
+        31.752823299122817,
+        120.95731904269718,
+        14.0000001,
+        38.24717670087718
+      ],
+      "RightCupPinCap": [
+        114.46296564094283,
+        13.9999999,
+        31.752823299122817,
+        120.95731904269718,
+        15.0000001,
+        38.24717670087718
+      ],
+      "RightForkPin": [
+        95.54535784124121,
+        -31.0000001,
+        62.83521549941521,
+        99.87492684241079,
+        30.0000001,
+        67.16478450058479
+      ],
+      "RightForkPinCap": [
+        95.54535784124121,
+        29.9999999,
+        62.83521549941521,
+        99.87492684241079,
+        31.0000001,
+        67.16478450058479
+      ],
+      "LeftSliderKnob": [
+        -102.21014244182,
+        7.9999999,
+        94.4999999,
+        -93.21014224182001,
+        16.0000001,
+        103.5000001
+      ],
+      "RightSliderKnob": [
+        93.210142241826,
+        7.9999999,
+        94.4999999,
+        102.210142441826,
+        16.0000001,
+        103.5000001
+      ],
+      "Band": [
+        -101.71014244179999,
+        -14.0000001,
+        81.9999999,
+        101.71014244182,
+        14.0000001,
+        151.800000099991
+      ],
+      "CrownPad": [
+        -75.70235554050961,
+        -16.0000001,
+        118.8130359039738,
+        75.70235554054958,
+        16.0000001,
+        148.200000099991
+      ],
+      "LeftLockPin": [
+        -111.11014244182589,
+        -40.8000001,
+        56.5999999,
+        -104.31014224182589,
+        -4.9999999,
+        63.4000001
+      ],
+      "LeftSpringSpace": [
+        -110.88514244179999,
+        -30.0000001,
+        56.8249999,
+        -104.5351422418,
+        -14.9999999,
+        63.1750001
+      ],
+      "RightLockPin": [
+        104.31014224182589,
+        -40.8000001,
+        56.5999999,
+        111.11014244182589,
+        -4.9999999,
+        63.4000001
+      ],
+      "RightSpringSpace": [
+        104.53514224182001,
+        -30.0000001,
+        56.8249999,
+        110.88514244182,
+        -14.9999999,
+        63.1750001
+      ],
+      "LeftCapBolt1": [
+        -109.31014244179998,
+        -35.5000001,
+        52.3999999,
+        -106.1101422418,
+        -27.9999999,
+        55.6000001
+      ],
+      "LeftCapNut1": [
+        -109.55766330320289,
+        -29.5000001,
+        52.3999999,
+        -105.8626213803971,
+        -27.9999999,
+        55.6000001
+      ],
+      "LeftCapBolt2": [
+        -109.31014244179998,
+        -35.5000001,
+        64.39999990000001,
+        -106.1101422418,
+        -27.9999999,
+        67.60000009999999
+      ],
+      "LeftCapNut2": [
+        -109.55766330320289,
+        -29.5000001,
+        64.39999990000001,
+        -105.8626213803971,
+        -27.9999999,
+        67.60000009999999
+      ],
+      "LeftServiceCap": [
+        -112.71014244179999,
+        -34.0000001,
+        51.4999999,
+        -102.7101422418,
+        -20.9999999,
+        68.5000001
+      ],
+      "LeftPullKnob": [
+        -111.71014244182588,
+        -40.8000001,
+        55.9999999,
+        -103.71014224182589,
+        -36.799999899999996,
+        64.0000001
+      ],
+      "RightCapBolt1": [
+        106.11014224182001,
+        -35.5000001,
+        52.3999999,
+        109.31014244181999,
+        -27.9999999,
+        55.6000001
+      ],
+      "RightCapNut1": [
+        105.86262138041,
+        -29.5000001,
+        52.39999989999734,
+        109.55766330323,
+        -27.9999999,
+        55.60000010000266
+      ],
+      "RightCapBolt2": [
+        106.11014224182001,
+        -35.5000001,
+        64.39999990000001,
+        109.31014244181999,
+        -27.9999999,
+        67.60000009999999
+      ],
+      "RightCapNut2": [
+        105.86262138041,
+        -29.5000001,
+        64.39999989999735,
+        109.55766330323,
+        -27.9999999,
+        67.60000010000265
+      ],
+      "RightServiceCap": [
+        102.71014224182001,
+        -34.0000001,
+        51.4999999,
+        112.71014244182,
+        -20.9999999,
+        68.5000001
+      ],
+      "RightPullKnob": [
+        103.71014224182589,
+        -40.8000001,
+        55.9999999,
+        111.71014244182588,
+        -36.799999899999996,
+        64.0000001
+      ],
+      "LeftReleaseJamNut": [
+        -110.01954351858438,
+        -36.8000001,
+        57.9999999,
+        -105.40074116506739,
+        -35.199999899999995,
+        62.0000001
+      ],
+      "RightReleaseJamNut": [
+        105.40074116506739,
+        -36.8000001,
+        57.9999999,
+        110.01954351858438,
+        -35.199999899999995,
+        62.0000001
+      ]
+    },
+    "part_volumes_mm3": {
+      "LeftMainFoam": 99638.83712892835,
+      "LeftSoftGlassesZone": 5328.6694612045885,
+      "LeftContinuousCover": 4191.537987627687,
+      "LeftCarrier": 5427.174599099879,
+      "LeftCup": 43569.178749798455,
+      "LeftLiner": 16201.459355713341,
+      "LeftFork": 11729.572367682089,
+      "LeftTongue": 6103.324244088335,
+      "LeftCupPin": 379.95474536996227,
+      "LeftCupPinCap": 14.110456357003473,
+      "LeftForkPin": 200.94464135514963,
+      "LeftForkPinCap": 8.576944060139352,
+      "RightMainFoam": 99638.83712891169,
+      "RightSoftGlassesZone": 5328.669461205521,
+      "RightContinuousCover": 4191.537987636306,
+      "RightCarrier": 5427.174599099938,
+      "RightCup": 43569.178749811195,
+      "RightLiner": 16201.459355725303,
+      "RightFork": 11729.572362511246,
+      "RightTongue": 6103.324244093231,
+      "RightCupPin": 379.95474536996227,
+      "RightCupPinCap": 14.110456357003834,
+      "RightForkPin": 200.94464135514963,
+      "RightForkPinCap": 8.57694406013935,
+      "LeftSliderKnob": 221.63936171076193,
+      "RightSliderKnob": 221.6393617107619,
+      "Band": 26566.217147601656,
+      "CrownPad": 39850.61496861743,
+      "LeftLockPin": 198.11053390779435,
+      "LeftSpringSpace": 98.96016858808022,
+      "RightLockPin": 198.11053390779432,
+      "RightSpringSpace": 98.96016858808022,
+      "LeftCapBolt1": 24.12743157956945,
+      "LeftCapNut1": 10.286221254638342,
+      "LeftCapBolt2": 24.12743157956943,
+      "LeftCapNut2": 10.286221254638273,
+      "LeftServiceCap": 414.4601152621362,
+      "LeftPullKnob": 187.4823955846048,
+      "RightCapBolt1": 24.12743157956945,
+      "RightCapNut1": 10.286221254674363,
+      "RightCapBolt2": 24.12743157956943,
+      "RightCapNut2": 10.286221254674295,
+      "RightServiceCap": 414.4601152621362,
+      "RightPullKnob": 187.4823955846048,
+      "LeftReleaseJamNut": 17.143702091137897,
+      "RightReleaseJamNut": 17.143702091137893
+    },
+    "parts": {
+      "LeftMainFoam": [
+        3,
+        1
+      ],
+      "LeftSoftGlassesZone": [
+        3,
+        2
+      ],
+      "LeftContinuousCover": [
+        3,
+        3
+      ],
+      "LeftCarrier": [
+        3,
+        4
+      ],
+      "LeftCup": [
+        3,
+        5
+      ],
+      "LeftLiner": [
+        3,
+        6
+      ],
+      "LeftFork": [
+        3,
+        29
+      ],
+      "LeftTongue": [
+        3,
+        25
+      ],
+      "LeftCupPin": [
+        3,
+        7
+      ],
+      "LeftCupPinCap": [
+        3,
+        8
+      ],
+      "LeftForkPin": [
+        3,
+        9
+      ],
+      "LeftForkPinCap": [
+        3,
+        10
+      ],
+      "RightMainFoam": [
+        3,
+        11
+      ],
+      "RightSoftGlassesZone": [
+        3,
+        12
+      ],
+      "RightContinuousCover": [
+        3,
+        13
+      ],
+      "RightCarrier": [
+        3,
+        14
+      ],
+      "RightCup": [
+        3,
+        15
+      ],
+      "RightLiner": [
+        3,
+        16
+      ],
+      "RightFork": [
+        3,
+        37
+      ],
+      "RightTongue": [
+        3,
+        27
+      ],
+      "RightCupPin": [
+        3,
+        17
+      ],
+      "RightCupPinCap": [
+        3,
+        18
+      ],
+      "RightForkPin": [
+        3,
+        19
+      ],
+      "RightForkPinCap": [
+        3,
+        20
+      ],
+      "LeftSliderKnob": [
+        3,
+        21
+      ],
+      "RightSliderKnob": [
+        3,
+        22
+      ],
+      "Band": [
+        3,
+        23
+      ],
+      "CrownPad": [
+        3,
+        24
+      ],
+      "LeftLockPin": [
+        3,
+        45
+      ],
+      "LeftSpringSpace": [
+        3,
+        26
+      ],
+      "RightLockPin": [
+        3,
+        48
+      ],
+      "RightSpringSpace": [
+        3,
+        28
+      ],
+      "LeftCapBolt1": [
+        3,
+        31
+      ],
+      "LeftCapNut1": [
+        3,
+        32
+      ],
+      "LeftCapBolt2": [
+        3,
+        33
+      ],
+      "LeftCapNut2": [
+        3,
+        34
+      ],
+      "LeftServiceCap": [
+        3,
+        30
+      ],
+      "LeftPullKnob": [
+        3,
+        46
+      ],
+      "RightCapBolt1": [
+        3,
+        39
+      ],
+      "RightCapNut1": [
+        3,
+        40
+      ],
+      "RightCapBolt2": [
+        3,
+        41
+      ],
+      "RightCapNut2": [
+        3,
+        42
+      ],
+      "RightServiceCap": [
+        3,
+        38
+      ],
+      "RightPullKnob": [
+        3,
+        49
+      ],
+      "LeftReleaseJamNut": [
+        3,
+        47
+      ],
+      "RightReleaseJamNut": [
+        3,
+        50
+      ]
+    },
+    "manufacturing_release": false,
+    "retention_design": {
+      "method": "Threaded metal knob counterlocked by separate metal hex jam nut",
+      "thread_callout": "M2 x 0.4; proposed external6g internal6H; gauge and supplier drawing required",
+      "male_major_envelope_diameter_mm": 1.981,
+      "female_major_envelope_diameter_mm": 2.0,
+      "male_thread_envelope_length_mm": 6.0,
+      "knob_engagement_envelope_mm": 3.0,
+      "jam_nut_engagement_envelope_mm": 1.6,
+      "jam_nut_across_flats_mm": 4,
+      "stem_diameter_mm": 2.2,
+      "shoulder_diameter_mm": 3,
+      "nominal_shoulder_to_cap_gap_mm": 0.4,
+      "assembly": "Pin and collar from rear, real coil over bare rod, cap and cap screws, jam nut then knob. Hold metal flats and countertighten jam nut against knob. Gauge position so shoulder stays clear of cap. Use a torque process selected after strength and release tests.",
+      "limits": [
+        "Thread helices and actual flank engagement not modelled; clear cylinders are cosmetic envelopes",
+        "No specified final grade, coating, thread runout, undercut, wrench clearance under load or production tolerance qualification",
+        "Separate small parts not qualified for child access or choking risk",
+        "Jam nut is a retention method candidate, not a vibration loosening or pullout pass"
+      ],
+      "knob_rear_counterbore_length_mm": 1.0,
+      "jam_nut_to_shoulder_gap_mm": 0.4,
+      "reference": "Bossard Metric ISO Threads 01 2025 https://assets.eu.ctfassets.net/0vp0u5uh75zd/2tYqENAuufvdsudjM8Qbrc/b3461eaa59c2203d3a8b9509ac24dacf/096_098_Metric_ISOthreads_Fastening_EN_01_2025.pdf"
+    }
+  },
+  "packing": {
+    "revision": "V15 finite packing search on V14 parts",
+    "sizes": [
+      {
+        "size": "child_large",
+        "source": "${WORKSPACE}\\EarDefender_V14_child_large_Latched.step",
+        "source_sha256": "171a7479ee9e5dcb8d6c6814bbbbf87e185f9c94ab2a72293d5c36b76a139573",
+        "ranked_boxes": 30625,
+        "new_endpoint_checks": 53,
+        "new_clear_endpoint_improves_previous_V14_fold": true,
+        "previous_clear_fold_angles_deg": [
+          60,
+          45
+        ],
+        "previous_clear_fold_extension_mm": [
+          0,
+          30
+        ],
+        "previous_clear_fold_proof": {
+          "pass": true,
+          "overlaps": [],
+          "errors": [],
+          "boolean_count": 30,
+          "bbox_dimensions_mm": [
+            244.18498137010346,
+            81.625,
+            185.3554156524015
+          ],
+          "size": "child_large",
+          "phase": "folding released",
+          "angles_deg": [
+            60,
+            45
+          ]
+        },
+        "best_recorded_box_mm": [
+          246.9930820522148,
+          81.625,
+          171.1030983993062
+        ],
+        "best_recorded_source": "new search endpoint",
+        "change_from_retracted_unfolded_percent": -3.932034914479865,
+        "change_from_nominal_percent": -5.239971811491739
+      },
+      {
+        "size": "child_medium",
+        "source": "${WORKSPACE}\\EarDefender_V14_child_medium_Latched.step",
+        "source_sha256": "396d0ad3cd597de1dea05eed85a894507d375b4fe036a95e9e05370754e30477",
+        "ranked_boxes": 30625,
+        "new_endpoint_checks": 61,
+        "new_clear_endpoint_improves_previous_V14_fold": false,
+        "previous_clear_fold_angles_deg": [
+          60,
+          45
+        ],
+        "previous_clear_fold_extension_mm": [
+          0,
+          30
+        ],
+        "previous_clear_fold_proof": {
+          "pass": true,
+          "overlaps": [],
+          "errors": [],
+          "boolean_count": 41,
+          "bbox_dimensions_mm": [
+            233.65749366508328,
+            81.625,
+            185.35541565240612
+          ],
+          "size": "child_medium",
+          "phase": "folding released",
+          "angles_deg": [
+            60,
+            45
+          ]
+        },
+        "best_recorded_box_mm": [
+          233.65749366508328,
+          81.625,
+          185.35541565240612
+        ],
+        "best_recorded_source": "previous V14 checked endpoint",
+        "change_from_retracted_unfolded_percent": 2.662579481482008,
+        "change_from_nominal_percent": 1.2648588622651058
+      },
+      {
+        "size": "child_small",
+        "source": "${WORKSPACE}\\EarDefender_V14_child_small_Latched.step",
+        "source_sha256": "76c3bf039bb4155bbcfb6b982637f1eea2494c727119289ff7cade88f2b80e3c",
+        "ranked_boxes": 30625,
+        "new_endpoint_checks": 65,
+        "new_clear_endpoint_improves_previous_V14_fold": false,
+        "previous_clear_fold_angles_deg": [
+          75,
+          45
+        ],
+        "previous_clear_fold_extension_mm": [
+          0,
+          30
+        ],
+        "previous_clear_fold_proof": {
+          "pass": true,
+          "overlaps": [],
+          "errors": [],
+          "boolean_count": 26,
+          "bbox_dimensions_mm": [
+            218.35360591785354,
+            81.625,
+            185.3554156524072
+          ],
+          "size": "child_small",
+          "phase": "folding released",
+          "angles_deg": [
+            75,
+            45
+          ]
+        },
+        "best_recorded_box_mm": [
+          218.35360591785354,
+          81.625,
+          185.3554156524072
+        ],
+        "best_recorded_source": "previous V14 checked endpoint",
+        "change_from_retracted_unfolded_percent": 0.5117517623177026,
+        "change_from_nominal_percent": -0.85668597440548
+      }
+    ],
+    "limits": [
+      "Previous source-matched V14 clear endpoint retained whenever a new endpoint is worse",
+      "Finite sampled search, not global optimum or new path proof",
+      "Held6mm pin release; no stable folded storage latch established",
+      "Axis aligned CAD boxes, not physical carrying or travel survival"
+    ]
+  },
+  "new_child_large_path_samples": 27,
+  "new_STEP_checks": {
+    "case_count": 2,
+    "all_pass": true,
+    "cases": [
+      {
+        "file": "${WORKSPACE}\\EarDefender_V15_adult_small_RetentionCandidate.step",
+        "sha256": "c2665f11f9aa0fc9aa8d331624269f1fa14325dc6fdd6bc032cd972600644473",
+        "solid_count": 46,
+        "valid_solids": true,
+        "minimum_volume_mm3": 8.576944060139123,
+        "total_volume_difference_mm3": 5.820766091346741e-11,
+        "box_mm": [
+          257.42028468362,
+          90.0,
+          206.799999999991
+        ],
+        "intended_pose_box_max_error_mm": null,
+        "pass": true
+      },
+      {
+        "file": "${WORKSPACE}\\EarDefender_V14_child_large_V15FoldExperiment.step",
+        "sha256": "3ac9e2ff4d29c3b2aabc939b9e8aa360df9370b743eb7dd368132f511479a319",
+        "solid_count": 44,
+        "valid_solids": true,
+        "minimum_volume_mm3": 8.57694406013909,
+        "total_volume_difference_mm3": 3.4924596548080444e-09,
+        "box_mm": [
+          246.99308205222766,
+          81.625,
+          171.10309839932188
+        ],
+        "intended_pose_box_max_error_mm": 1.5688783605583012e-11,
+        "pass": true
+      }
+    ],
+    "scope": "Independent OCP reimport count validity volume conservation and intended fold box, not physical validation or real threads"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "sizes": [
+    {
+      "size": "child_small",
+      "nominal_box_mm": [
+        234.90654293864,
+        77.25,
+        183.625
+      ],
+      "folded_box_mm": [
+        218.35360591785354,
+        79.625,
+        185.3554156524072
+      ],
+      "nominal_box_L": 3.3321566524140755,
+      "folded_box_L": 3.2226644869594137,
+      "reduction_percent": 3.2859249091826803,
+      "angles_deg": [
+        75,
+        45
+      ]
+    },
+    {
+      "size": "child_medium",
+      "nominal_box_mm": [
+        246.10425879803,
+        77.25,
+        183.62500000000003
+      ],
+      "folded_box_mm": [
+        233.65749366508328,
+        79.625,
+        185.35541565240612
+      ],
+      "nominal_box_L": 3.4909966018081438,
+      "folded_box_L": 3.4485334179903053,
+      "reduction_percent": 1.216362794390713,
+      "angles_deg": [
+        60,
+        45
+      ]
+    },
+    {
+      "size": "child_large",
+      "nominal_box_mm": [
+        256.63174650304,
+        77.25,
+        183.62500000000006
+      ],
+      "folded_box_mm": [
+        244.18498137010346,
+        79.625,
+        185.3554156524015
+      ],
+      "nominal_box_L": 3.640329343887702,
+      "folded_box_L": 3.603907819165132,
+      "reduction_percent": 1.0005008141289018,
+      "angles_deg": [
+        60,
+        45
+      ]
+    },
+    {
+      "size": "adult_small",
+      "nominal_box_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "folded_box_mm": [
+        240.8673476628187,
+        90.0,
+        193.72388155423803
+      ],
+      "nominal_box_L": 4.7911063385313275,
+      "folded_box_L": 4.199558177602383,
+      "reduction_percent": 12.346796734014431,
+      "angles_deg": [
+        75,
+        45
+      ]
+    },
+    {
+      "size": "adult_medium",
+      "nominal_box_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "folded_box_mm": [
+        254.7941555156939,
+        90.0,
+        170.46025403783926
+      ],
+      "nominal_box_L": 5.097291357696916,
+      "folded_box_L": 3.9089048828905715,
+      "reduction_percent": 23.31407783884827,
+      "angles_deg": [
+        75,
+        60
+      ]
+    },
+    {
+      "size": "adult_large",
+      "nominal_box_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "folded_box_mm": [
+        270.99254298905197,
+        90.0,
+        170.4602540378442
+      ],
+      "nominal_box_L": 5.398775745351465,
+      "folded_box_L": 4.157411194824769,
+      "reduction_percent": 22.993445349078513,
+      "angles_deg": [
+        75,
+        60
+      ]
+    }
+  ],
+  "scope": "Tight axis-aligned CAD bounding-box proxy from original located OCP shapes; not a carrying case, hand access, continuous sweep or transport test."
+}

@@ -1,0 +1,667 @@
+{
+  "revision": "V15 retention concept",
+  "case_count": 72,
+  "cases": [
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 2,
+      "approximate_preload_N": 25.0,
+      "conservative_combined_stress_MPa": 26.02250463969092,
+      "required_yield_for_factor_two_MPa": 52.04500927938184
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 10,
+      "approximate_preload_N": 25.0,
+      "conservative_combined_stress_MPa": 30.319221090265618,
+      "required_yield_for_factor_two_MPa": 60.638442180531236
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 20,
+      "approximate_preload_N": 25.0,
+      "conservative_combined_stress_MPa": 36.18996973098426,
+      "required_yield_for_factor_two_MPa": 72.37993946196852
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 50,
+      "approximate_preload_N": 25.0,
+      "conservative_combined_stress_MPa": 55.37849985662962,
+      "required_yield_for_factor_two_MPa": 110.75699971325923
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 2,
+      "approximate_preload_N": 12.5,
+      "conservative_combined_stress_MPa": 20.590839163583222,
+      "required_yield_for_factor_two_MPa": 41.181678327166445
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 10,
+      "approximate_preload_N": 12.5,
+      "conservative_combined_stress_MPa": 23.84223965687657,
+      "required_yield_for_factor_two_MPa": 47.68447931375314
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 20,
+      "approximate_preload_N": 12.5,
+      "conservative_combined_stress_MPa": 28.929099134128386,
+      "required_yield_for_factor_two_MPa": 57.85819826825677
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 50,
+      "approximate_preload_N": 12.5,
+      "conservative_combined_stress_MPa": 47.20065723795402,
+      "required_yield_for_factor_two_MPa": 94.40131447590804
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 2,
+      "approximate_preload_N": 8.333333333333334,
+      "conservative_combined_stress_MPa": 19.325646570297817,
+      "required_yield_for_factor_two_MPa": 38.651293140595634
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 10,
+      "approximate_preload_N": 8.333333333333334,
+      "conservative_combined_stress_MPa": 22.032070290556444,
+      "required_yield_for_factor_two_MPa": 44.06414058111289
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 20,
+      "approximate_preload_N": 8.333333333333334,
+      "conservative_combined_stress_MPa": 26.70542492753155,
+      "required_yield_for_factor_two_MPa": 53.4108498550631
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 50,
+      "approximate_preload_N": 8.333333333333334,
+      "conservative_combined_stress_MPa": 44.521574891166615,
+      "required_yield_for_factor_two_MPa": 89.04314978233323
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 2,
+      "approximate_preload_N": 50.0,
+      "conservative_combined_stress_MPa": 51.0412717745602,
+      "required_yield_for_factor_two_MPa": 102.0825435491204
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 10,
+      "approximate_preload_N": 50.0,
+      "conservative_combined_stress_MPa": 55.159090048393324,
+      "required_yield_for_factor_two_MPa": 110.31818009678665
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 20,
+      "approximate_preload_N": 50.0,
+      "conservative_combined_stress_MPa": 60.638442180531236,
+      "required_yield_for_factor_two_MPa": 121.27688436106247
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 50,
+      "approximate_preload_N": 50.0,
+      "conservative_combined_stress_MPa": 78.52512430961158,
+      "required_yield_for_factor_two_MPa": 157.05024861922317
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 2,
+      "approximate_preload_N": 25.0,
+      "conservative_combined_stress_MPa": 40.51254627910877,
+      "required_yield_for_factor_two_MPa": 81.02509255821754
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 10,
+      "approximate_preload_N": 25.0,
+      "conservative_combined_stress_MPa": 43.39759009224593,
+      "required_yield_for_factor_two_MPa": 86.79518018449185
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 20,
+      "approximate_preload_N": 25.0,
+      "conservative_combined_stress_MPa": 47.68447931375314,
+      "required_yield_for_factor_two_MPa": 95.36895862750627
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 50,
+      "approximate_preload_N": 25.0,
+      "conservative_combined_stress_MPa": 63.48916367904779,
+      "required_yield_for_factor_two_MPa": 126.97832735809558
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 2,
+      "approximate_preload_N": 16.666666666666668,
+      "conservative_combined_stress_MPa": 38.151374180344924,
+      "required_yield_for_factor_two_MPa": 76.30274836068985
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 10,
+      "approximate_preload_N": 16.666666666666668,
+      "conservative_combined_stress_MPa": 40.404644717055774,
+      "required_yield_for_factor_two_MPa": 80.80928943411155
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 20,
+      "approximate_preload_N": 16.666666666666668,
+      "conservative_combined_stress_MPa": 44.06414058111289,
+      "required_yield_for_factor_two_MPa": 88.12828116222578
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 50,
+      "approximate_preload_N": 16.666666666666668,
+      "conservative_combined_stress_MPa": 58.776492825682716,
+      "required_yield_for_factor_two_MPa": 117.55298565136543
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 2,
+      "approximate_preload_N": 100.0,
+      "conservative_combined_stress_MPa": 101.09282588556596,
+      "required_yield_for_factor_two_MPa": 202.18565177113192
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 10,
+      "approximate_preload_N": 100.0,
+      "conservative_combined_stress_MPa": 105.1072403678298,
+      "required_yield_for_factor_two_MPa": 210.2144807356596
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 20,
+      "approximate_preload_N": 100.0,
+      "conservative_combined_stress_MPa": 110.31818009678665,
+      "required_yield_for_factor_two_MPa": 220.6363601935733
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 50,
+      "approximate_preload_N": 100.0,
+      "conservative_combined_stress_MPa": 126.97832735809558,
+      "required_yield_for_factor_two_MPa": 253.95665471619117
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 2,
+      "approximate_preload_N": 50.0,
+      "conservative_combined_stress_MPa": 80.38404106252244,
+      "required_yield_for_factor_two_MPa": 160.76808212504488
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 10,
+      "approximate_preload_N": 50.0,
+      "conservative_combined_stress_MPa": 83.05966438737603,
+      "required_yield_for_factor_two_MPa": 166.11932877475206
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 20,
+      "approximate_preload_N": 50.0,
+      "conservative_combined_stress_MPa": 86.79518018449185,
+      "required_yield_for_factor_two_MPa": 173.5903603689837
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 50,
+      "approximate_preload_N": 50.0,
+      "conservative_combined_stress_MPa": 100.11282525739014,
+      "required_yield_for_factor_two_MPa": 200.22565051478028
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 2,
+      "approximate_preload_N": 33.333333333333336,
+      "conservative_combined_stress_MPa": 75.83650881558144,
+      "required_yield_for_factor_two_MPa": 151.67301763116288
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 10,
+      "approximate_preload_N": 33.333333333333336,
+      "conservative_combined_stress_MPa": 77.8353193997962,
+      "required_yield_for_factor_two_MPa": 155.6706387995924
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 20,
+      "approximate_preload_N": 33.333333333333336,
+      "conservative_combined_stress_MPa": 80.80928943411155,
+      "required_yield_for_factor_two_MPa": 161.6185788682231
+    },
+    {
+      "assumed_root_diameter_mm": 1.35,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 50,
+      "approximate_preload_N": 33.333333333333336,
+      "conservative_combined_stress_MPa": 92.36472437891481,
+      "required_yield_for_factor_two_MPa": 184.72944875782963
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 2,
+      "approximate_preload_N": 25.0,
+      "conservative_combined_stress_MPa": 20.10548832263937,
+      "required_yield_for_factor_two_MPa": 40.21097664527874
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 10,
+      "approximate_preload_N": 25.0,
+      "conservative_combined_stress_MPa": 23.728932730340844,
+      "required_yield_for_factor_two_MPa": 47.45786546068169
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 20,
+      "approximate_preload_N": 25.0,
+      "conservative_combined_stress_MPa": 28.622407810853435,
+      "required_yield_for_factor_two_MPa": 57.24481562170687
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 50,
+      "approximate_preload_N": 25.0,
+      "conservative_combined_stress_MPa": 44.40779369158905,
+      "required_yield_for_factor_two_MPa": 88.8155873831781
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 2,
+      "approximate_preload_N": 12.5,
+      "conservative_combined_stress_MPa": 15.430941470654668,
+      "required_yield_for_factor_two_MPa": 30.861882941309336
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 10,
+      "approximate_preload_N": 12.5,
+      "conservative_combined_stress_MPa": 18.245562403159358,
+      "required_yield_for_factor_two_MPa": 36.491124806318716
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 20,
+      "approximate_preload_N": 12.5,
+      "conservative_combined_stress_MPa": 22.56156652167119,
+      "required_yield_for_factor_two_MPa": 45.12313304334238
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 50,
+      "approximate_preload_N": 12.5,
+      "conservative_combined_stress_MPa": 37.70497929954442,
+      "required_yield_for_factor_two_MPa": 75.40995859908884
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 2,
+      "approximate_preload_N": 8.333333333333334,
+      "conservative_combined_stress_MPa": 14.317107419050794,
+      "required_yield_for_factor_two_MPa": 28.634214838101588
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 10,
+      "approximate_preload_N": 8.333333333333334,
+      "conservative_combined_stress_MPa": 16.685857061834472,
+      "required_yield_for_factor_two_MPa": 33.371714123668944
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 20,
+      "approximate_preload_N": 8.333333333333334,
+      "conservative_combined_stress_MPa": 20.684683893410917,
+      "required_yield_for_factor_two_MPa": 41.36936778682183
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 5,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 50,
+      "approximate_preload_N": 8.333333333333334,
+      "conservative_combined_stress_MPa": 35.50269122154069,
+      "required_yield_for_factor_two_MPa": 71.00538244308137
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 2,
+      "approximate_preload_N": 50.0,
+      "conservative_combined_stress_MPa": 39.35778128870027,
+      "required_yield_for_factor_two_MPa": 78.71556257740053
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 10,
+      "approximate_preload_N": 50.0,
+      "conservative_combined_stress_MPa": 42.848063269922704,
+      "required_yield_for_factor_two_MPa": 85.69612653984541
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 20,
+      "approximate_preload_N": 50.0,
+      "conservative_combined_stress_MPa": 47.45786546068169,
+      "required_yield_for_factor_two_MPa": 94.91573092136338
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 50,
+      "approximate_preload_N": 50.0,
+      "conservative_combined_stress_MPa": 62.33294769976309,
+      "required_yield_for_factor_two_MPa": 124.66589539952618
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 2,
+      "approximate_preload_N": 25.0,
+      "conservative_combined_stress_MPa": 30.27524766919857,
+      "required_yield_for_factor_two_MPa": 60.55049533839714
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 10,
+      "approximate_preload_N": 25.0,
+      "conservative_combined_stress_MPa": 32.7936306202983,
+      "required_yield_for_factor_two_MPa": 65.5872612405966
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 20,
+      "approximate_preload_N": 25.0,
+      "conservative_combined_stress_MPa": 36.491124806318716,
+      "required_yield_for_factor_two_MPa": 72.98224961263743
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 50,
+      "approximate_preload_N": 25.0,
+      "conservative_combined_stress_MPa": 49.84387726987399,
+      "required_yield_for_factor_two_MPa": 99.68775453974798
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 2,
+      "approximate_preload_N": 16.666666666666668,
+      "conservative_combined_stress_MPa": 28.190906831663476,
+      "required_yield_for_factor_two_MPa": 56.38181366332695
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 10,
+      "approximate_preload_N": 16.666666666666668,
+      "conservative_combined_stress_MPa": 30.180492912240897,
+      "required_yield_for_factor_two_MPa": 60.360985824481794
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 20,
+      "approximate_preload_N": 16.666666666666668,
+      "conservative_combined_stress_MPa": 33.371714123668944,
+      "required_yield_for_factor_two_MPa": 66.74342824733789
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 10,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 50,
+      "approximate_preload_N": 16.666666666666668,
+      "conservative_combined_stress_MPa": 45.89519285812748,
+      "required_yield_for_factor_two_MPa": 91.79038571625496
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 2,
+      "approximate_preload_N": 100.0,
+      "conservative_combined_stress_MPa": 77.87301908868201,
+      "required_yield_for_factor_two_MPa": 155.74603817736403
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 10,
+      "approximate_preload_N": 100.0,
+      "conservative_combined_stress_MPa": 81.28535329547464,
+      "required_yield_for_factor_two_MPa": 162.57070659094927
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 20,
+      "approximate_preload_N": 100.0,
+      "conservative_combined_stress_MPa": 85.69612653984541,
+      "required_yield_for_factor_two_MPa": 171.39225307969082
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.1,
+      "illustrative_external_pull_N": 50,
+      "approximate_preload_N": 100.0,
+      "conservative_combined_stress_MPa": 99.68775453974798,
+      "required_yield_for_factor_two_MPa": 199.37550907949597
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 2,
+      "approximate_preload_N": 50.0,
+      "conservative_combined_stress_MPa": 59.98728857789179,
+      "required_yield_for_factor_two_MPa": 119.97457715578358
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 10,
+      "approximate_preload_N": 50.0,
+      "conservative_combined_stress_MPa": 62.33294769976309,
+      "required_yield_for_factor_two_MPa": 124.66589539952618
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 20,
+      "approximate_preload_N": 50.0,
+      "conservative_combined_stress_MPa": 65.5872612405966,
+      "required_yield_for_factor_two_MPa": 131.1745224811932
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.2,
+      "illustrative_external_pull_N": 50,
+      "approximate_preload_N": 50.0,
+      "conservative_combined_stress_MPa": 77.03788815835688,
+      "required_yield_for_factor_two_MPa": 154.07577631671376
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 2,
+      "approximate_preload_N": 33.333333333333336,
+      "conservative_combined_stress_MPa": 55.96757587090596,
+      "required_yield_for_factor_two_MPa": 111.93515174181192
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 10,
+      "approximate_preload_N": 33.333333333333336,
+      "conservative_combined_stress_MPa": 57.73991513753574,
+      "required_yield_for_factor_two_MPa": 115.47983027507148
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 20,
+      "approximate_preload_N": 33.333333333333336,
+      "conservative_combined_stress_MPa": 60.360985824481794,
+      "required_yield_for_factor_two_MPa": 120.72197164896359
+    },
+    {
+      "assumed_root_diameter_mm": 1.5,
+      "illustrative_torque_Nmm": 20,
+      "assumed_nut_factor": 0.3,
+      "illustrative_external_pull_N": 50,
+      "approximate_preload_N": 33.333333333333336,
+      "conservative_combined_stress_MPa": 70.40149862821335,
+      "required_yield_for_factor_two_MPa": 140.8029972564267
+    }
+  ],
+  "formulas": {
+    "preload": "T/(K*dnom) with dnom2mm",
+    "axial": "(preload+external pull)/(pi*droot^2/4)",
+    "torsion": "16*T/(pi*droot^3)",
+    "combined": "sqrt(axial^2+3*torsion^2)"
+  },
+  "limits": [
+    "All nut factors, root diameters, torques and pulls are chosen scenarios, not measured production inputs",
+    "Simple solid rod at an assumed root diameter; actual thread flank stripping contact runout stress concentration jam nut load sharing friction and loosening excluded",
+    "Adding full assembly torsion preload and external pull is a conservative illustrative combination, not a solved joint load history",
+    "No material grade chosen or passed; required yield is an input requirement for this reduced screen only",
+    "No fatigue or vibration or child-access qualification"
+  ]
+}

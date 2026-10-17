@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "script": "build_v17_entry_pilot.py",
+      "argument": "child_large",
+      "exit_code": 0,
+      "log": "${WORKSPACE}\\engineering-v17-results\\child_large_build_v17_entry_pilot.py.log"
+    },
+    {
+      "script": "audit_v16_indexed_rivet.py",
+      "argument": "child_large_Entry25",
+      "exit_code": 0,
+      "log": "${WORKSPACE}\\engineering-v17-results\\child_large_audit_v16_indexed_rivet.py.log"
+    },
+    {
+      "script": "build_v17_entry_pilot.py",
+      "argument": "adult_small",
+      "exit_code": 0,
+      "log": "${WORKSPACE}\\engineering-v17-results\\adult_small_build_v17_entry_pilot.py.log"
+    },
+    {
+      "script": "audit_v16_indexed_rivet.py",
+      "argument": "adult_small_Entry25",
+      "exit_code": 0,
+      "log": "${WORKSPACE}\\engineering-v17-results\\adult_small_audit_v16_indexed_rivet.py.log"
+    }
+  ],
+  "complete": true
+}

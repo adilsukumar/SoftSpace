@@ -1,0 +1,56 @@
+{
+  "nodes": 41984,
+  "tet10_elements": 22778,
+  "assembly_method": "CSR batches of up to2048 elements",
+  "reduced_matrix_storage": true,
+  "coarse_preconditioner_modes": 12,
+  "cg_iterations": 7149,
+  "relative_free_residual": 9.042643140524305e-08,
+  "minimum_quadrature_jacobian_mm3": 0.10751198476465426,
+  "max_von_mises_centroid_MPa": 2.7943297798542104,
+  "strain_energy_Nmm": 3.122374204657894,
+  "reaction_sum_N": [
+    -1.999999999724015,
+    -1.4323191570081935e-10,
+    1.1236619408376558e-09
+  ],
+  "sampled_peak_centroid_xyz_mm": [
+    95.46582465138346,
+    8.824573082721727,
+    114.24096217825921
+  ],
+  "assumed_E_MPa": 2000,
+  "assumed_Poisson_ratio": 0.35,
+  "ideal_load_per_full_side_N": 2,
+  "size": "adult_small",
+  "mesh_max_mm": 1.5,
+  "source": "${WORKSPACE}\\EarDefender_V12_adult_small_Latched.step",
+  "source_sha256": "f8e015bce1e77e9b13c3dcbf51e4f4da2c7c184cf3388111283a5ed86a3419d0",
+  "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+  "load_method": "2 N uniform traction integrated over full guide bottom",
+  "load_face_area_mm2": 86.55999999997117,
+  "minimum_adaptive_Jacobian_mm3": 0.0956310790658621,
+  "high_order_mesh_optimized": false,
+  "guide_weighted_x_displacement_mm": 3.1223742028504016,
+  "compliance_mm_per_N": 1.5611871014252008,
+  "restraint_nodes_xyz_mm": [
+    [
+      0.0,
+      14.0,
+      149.99999999999102
+    ],
+    [
+      0.0,
+      -14.0,
+      149.99999999999102
+    ]
+  ],
+  "seconds": 101.9051353931427,
+  "limits": [
+    "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+    "Restraints are numerical datums, not scalp contact",
+    "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+    "Peak stress not used as physical strength or comfort result",
+    "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+  ]
+}

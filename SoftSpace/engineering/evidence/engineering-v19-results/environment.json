@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "runtime": "${USER_HOME}\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "total_memory_bytes": 16857817088,
+  "available_memory_bytes": 1313320960,
+  "chosen_joint_node_limit": 30000,
+  "scope": "Snapshot while local tasks run; 30000 nodes is a chosen bounded study limit, not a demonstrated hardware maximum"
+}

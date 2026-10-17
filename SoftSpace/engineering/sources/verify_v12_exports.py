@@ -1,0 +1,10 @@
+"""Independent imports of all final V12 poses with exact spring envelopes."""
+import json,hashlib
+from v12_geometry import P,O,gmsh
+cad=json.loads((O/'cad_report.json').read_text());poses=json.loads((O/'pose_exports.json').read_text());byfile={r['file']:r for r in poses['exports']};rows=[]
+for r in cad['sizes']:
+ for phase in ['Latched','Released','Folded']:
+  f=P/('EarDefender_V12_'+r['size']+'_'+phase+'.step');digest=hashlib.sha256(f.read_bytes()).hexdigest();assert digest==(r['sha256'] if phase=='Latched' else byfile[str(f)]['sha256']);gmsh.initialize();gmsh.option.setNumber('General.Terminal',0);occ=gmsh.model.occ;occ.importShapes(str(f));occ.synchronize();solids=gmsh.model.getEntities(3);volumes=[occ.getMass(*dt) for dt in solids];expected=sum(r['part_volumes_mm3'].values())
+  if phase!='Latched':expected-=.4*sum(r['part_volumes_mm3'][p+'SpringSpace'] for p in ['Left','Right'])
+  diff=abs(sum(volumes)-expected);before=sum(r['part_volumes_mm3'].values()) if phase=='Latched' else byfile[str(f)]['before_export_volume_mm3'];roundtrip=abs(sum(volumes)-before);rows.append({'size':r['size'],'phase':phase,'file':str(f),'sha256':digest,'solid_count':len(solids),'minimum_volume_mm3':min(volumes),'total_volume_mm3':sum(volumes),'analytic_spring_adjusted_total_mm3':expected,'expected_total_difference_mm3':diff,'roundtrip_volume_difference_mm3':roundtrip,'pass':len(solids)==32 and min(volumes)>0 and diff<.01 and roundtrip<.01});gmsh.finalize()
+out={'status':'complete final eighteen STEP independent import checks','case_count':len(rows),'all_pass':len(rows)==18 and all(r['pass'] for r in rows),'cases':rows,'limits':['Volume count and conservation checks only; motion in independent OCP audit','Coincident fork-family equivalence remains unverified','Includes space reservations for springs, not manufactured coils or a defined assembly process']};(O/'STEP_verification.json').write_text(json.dumps(out,indent=2));print(json.dumps({'case_count':len(rows),'all_pass':out['all_pass'],'largest_volume_difference_mm3':max(r['expected_total_difference_mm3'] for r in rows)}))

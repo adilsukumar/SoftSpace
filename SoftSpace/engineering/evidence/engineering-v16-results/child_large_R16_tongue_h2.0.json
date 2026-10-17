@@ -1,0 +1,46 @@
+{
+  "nodes": 79151,
+  "tet10_elements": 46413,
+  "assembly_method": "CSR batches of up to2048 elements",
+  "reduced_matrix_storage": true,
+  "coarse_preconditioner_modes": 12,
+  "cg_iterations": 6345,
+  "relative_free_residual": 3.2236233771375954e-08,
+  "minimum_quadrature_jacobian_mm3": 0.002347184714349878,
+  "max_von_mises_centroid_MPa": 20.60833365496851,
+  "strain_energy_Nmm": 64.0356731226275,
+  "reaction_sum_N": [
+    -11.606664198766998,
+    -1.0353374055463005e-09,
+    -0.6966678994735945
+  ],
+  "mesh_max_mm": 2.0,
+  "source": "${WORKSPACE}\\EarDefender_V16_child_large_R16_IndexedRivetCandidate.step",
+  "source_sha256": "bc0b786d667b51388d1baeebc03dd447b0e037786909f122a34fec1e7c60a0fc",
+  "part": "RightTongue lower index plate and stem",
+  "load_on_folded_index_hole_N": 11.627553482998906,
+  "load_direction": [
+    0.9982034669914619,
+    0.0,
+    0.05991526087921637
+  ],
+  "loaded_area_mm2": 21.676079897335597,
+  "load_face_ids": [
+    9
+  ],
+  "clamped_top_face_ids": [
+    29
+  ],
+  "minimum_adaptive_Jacobian_mm3": 0.0004334126018800499,
+  "assumed_E_MPa": 2000,
+  "assumed_nu": 0.35,
+  "weighted_load_direction_displacement_mm": 11.014470621106888,
+  "seconds": 210.63709092140198,
+  "limits": [
+    "Top stem face fully fixed instead of slider, screw and bearing contact",
+    "Uniform whole-bore tangential traction, not actual unilateral pin pressure",
+    "Illustrative2N side load times65mm divided bysqrt125mm locking radius",
+    "Homogeneous E2000MPa nu0.35, not an actual selected grade",
+    "No complete joint contact, spring force, fatigue, drop, creep or comfort qualification"
+  ]
+}

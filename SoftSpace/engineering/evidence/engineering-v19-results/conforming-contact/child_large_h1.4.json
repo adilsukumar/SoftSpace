@@ -1,0 +1,140 @@
+{
+  "preload_N": 140,
+  "side_force_N": 2,
+  "assumed_mu": 0.2,
+  "normal_penalty_N_mm3": 10000,
+  "tangential_penalty_N_mm3": 1000,
+  "iterations": 14,
+  "relative_free_residual": 6.285818616847264e-07,
+  "maximum_numerical_penetration_mm": 0.0005350479067508201,
+  "maximum_pivot_constraint_error_mm": 0.00018758828568106814,
+  "stop_reaction_N": 3.711880805692895,
+  "washer_normal_sum_N": 278.70444186584973,
+  "washer_quadrature_area_mm2": 159.7684605106994,
+  "stop_quadrature_area_mm2": 31.999999999999996,
+  "global_force_balance_error_N": 3.900344243410797e-11,
+  "cup_mean_displacement_x_mm": 0.20354490248258578,
+  "component_stresses": [
+    {
+      "peak_element_MPa": 2.3941020291899355,
+      "volume_weighted_mean_MPa": 1.0157312659794624
+    },
+    {
+      "peak_element_MPa": 2.335950216625605,
+      "volume_weighted_mean_MPa": 0.4116720560839704
+    }
+  ],
+  "history": [
+    {
+      "iteration": 0,
+      "relative_u_change": 1.0,
+      "relative_equilibrium_residual": 0.06040779990233134,
+      "active": 1089,
+      "slip_points": 19
+    },
+    {
+      "iteration": 1,
+      "relative_u_change": 0.005845584104877542,
+      "relative_equilibrium_residual": 0.07101419086371845,
+      "active": 1068,
+      "slip_points": 15
+    },
+    {
+      "iteration": 2,
+      "relative_u_change": 0.0023617041881614665,
+      "relative_equilibrium_residual": 0.0331132559479662,
+      "active": 1058,
+      "slip_points": 15
+    },
+    {
+      "iteration": 3,
+      "relative_u_change": 0.0005574683930369942,
+      "relative_equilibrium_residual": 0.006535117822860505,
+      "active": 1052,
+      "slip_points": 15
+    },
+    {
+      "iteration": 4,
+      "relative_u_change": 3.4773068809160214e-05,
+      "relative_equilibrium_residual": 0.00019592694435358222,
+      "active": 1051,
+      "slip_points": 15
+    },
+    {
+      "iteration": 5,
+      "relative_u_change": 1.3127539388827393e-06,
+      "relative_equilibrium_residual": 8.096182006624947e-05,
+      "active": 1051,
+      "slip_points": 15
+    },
+    {
+      "iteration": 6,
+      "relative_u_change": 1.1069717624093632e-07,
+      "relative_equilibrium_residual": 4.399978731126808e-05,
+      "active": 1051,
+      "slip_points": 15
+    },
+    {
+      "iteration": 7,
+      "relative_u_change": 6.135490682483653e-08,
+      "relative_equilibrium_residual": 2.3930495403149516e-05,
+      "active": 1051,
+      "slip_points": 15
+    },
+    {
+      "iteration": 8,
+      "relative_u_change": 3.397604106316384e-08,
+      "relative_equilibrium_residual": 1.3025176242969591e-05,
+      "active": 1051,
+      "slip_points": 15
+    },
+    {
+      "iteration": 9,
+      "relative_u_change": 1.8800396283995146e-08,
+      "relative_equilibrium_residual": 7.094710301935736e-06,
+      "active": 1051,
+      "slip_points": 15
+    },
+    {
+      "iteration": 10,
+      "relative_u_change": 1.0396968216778112e-08,
+      "relative_equilibrium_residual": 3.867119838105297e-06,
+      "active": 1051,
+      "slip_points": 15
+    },
+    {
+      "iteration": 11,
+      "relative_u_change": 5.742125552131787e-09,
+      "relative_equilibrium_residual": 2.1092255108973324e-06,
+      "active": 1051,
+      "slip_points": 15
+    },
+    {
+      "iteration": 12,
+      "relative_u_change": 3.1758042294517755e-09,
+      "relative_equilibrium_residual": 1.1511207896412376e-06,
+      "active": 1051,
+      "slip_points": 15
+    },
+    {
+      "iteration": 13,
+      "relative_u_change": 1.750541449554054e-09,
+      "relative_equilibrium_residual": 6.285818616847487e-07,
+      "active": 1051,
+      "slip_points": 15
+    }
+  ],
+  "coulomb_bound_error_MPa": 2.7755575615628914e-17,
+  "converged": true,
+  "size": "child_large",
+  "mesh_max_mm": 1.4,
+  "source": "${WORKSPACE}\\EarDefender_V19_child_large_ParallelDisc.step",
+  "source_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557",
+  "nodes": 7940,
+  "seconds": 16.244136095046997,
+  "washer_boundary_partitioned": true,
+  "elastic_E_MPa": 3500,
+  "assumed_nu": 0.35,
+  "previous_mesh_displacement_change_percent": 18.167175945043578,
+  "chosen_5_percent_gate_pass": false
+}

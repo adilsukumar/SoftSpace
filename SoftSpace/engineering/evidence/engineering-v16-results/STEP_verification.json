@@ -1,0 +1,367 @@
+{
+  "case_count": 18,
+  "all_pass": true,
+  "cases": [
+    {
+      "size": "child_small",
+      "variant": "child_small_R16",
+      "phase": "Wear",
+      "file": "${WORKSPACE}\\EarDefender_V16_child_small_R16_Wear.step",
+      "sha256": "0e6582c89228c3affe03c00440b2f46d86556ca38212e175cc9da04be31493c1",
+      "source_sha256": "83bfff72307d1b61e106d64def83392a0716c11e7a73ede73d3cfcb485d3b298",
+      "solid_count": 46,
+      "all_valid": true,
+      "minimum_volume_mm3": 4.1971677851506755,
+      "volume_difference_from_analytic_mm3": 2.5029294192790985e-09,
+      "roundtrip_volume_error_mm3": 1.7462298274040222e-10,
+      "box_mm": [
+        234.90654293864,
+        77.25,
+        183.625
+      ],
+      "intended_pose_box_error_mm": null,
+      "pass": true
+    },
+    {
+      "size": "child_small",
+      "variant": "child_small_R16",
+      "phase": "Released",
+      "file": "${WORKSPACE}\\EarDefender_V16_child_small_R16_Released.step",
+      "sha256": "fcb81afdc7d14fcd41a58569568b6d79d177562ddbd0c3400667ffc5151acb15",
+      "source_sha256": "83bfff72307d1b61e106d64def83392a0716c11e7a73ede73d3cfcb485d3b298",
+      "solid_count": 46,
+      "all_valid": true,
+      "minimum_volume_mm3": 4.1971677851506755,
+      "volume_difference_from_analytic_mm3": 2.5029294192790985e-09,
+      "roundtrip_volume_error_mm3": 1.7462298274040222e-10,
+      "box_mm": [
+        234.90654293864,
+        81.6250001,
+        183.625
+      ],
+      "intended_pose_box_error_mm": null,
+      "pass": true
+    },
+    {
+      "size": "child_small",
+      "variant": "child_small_R16",
+      "phase": "FoldedEngaged",
+      "file": "${WORKSPACE}\\EarDefender_V16_child_small_R16_FoldedEngaged.step",
+      "sha256": "f6d8370ae3c517bc5b431c2fb4bec7b2dc7fbaf19db95deb890b02698943132d",
+      "source_sha256": "83bfff72307d1b61e106d64def83392a0716c11e7a73ede73d3cfcb485d3b298",
+      "solid_count": 46,
+      "all_valid": true,
+      "minimum_volume_mm3": 4.197167785150674,
+      "volume_difference_from_analytic_mm3": 2.6193447411060333e-09,
+      "roundtrip_volume_error_mm3": 3.4924596548080444e-10,
+      "box_mm": [
+        218.35360591789973,
+        77.25,
+        185.35541565240757
+      ],
+      "intended_pose_box_error_mm": 4.618527782440651e-11,
+      "pass": true
+    },
+    {
+      "size": "child_medium",
+      "variant": "child_medium_R16",
+      "phase": "Wear",
+      "file": "${WORKSPACE}\\EarDefender_V16_child_medium_R16_Wear.step",
+      "sha256": "757263ebb24161c8edab1ff46687dee019a842f2036bbd4b5ee1473422503bd0",
+      "source_sha256": "92382155eb7ca842683dad3481ede1a43339c5af94090703509f8bad189b863d",
+      "solid_count": 46,
+      "all_valid": true,
+      "minimum_volume_mm3": 4.197167785180838,
+      "volume_difference_from_analytic_mm3": 2.3283064365386963e-09,
+      "roundtrip_volume_error_mm3": 2.3283064365386963e-10,
+      "box_mm": [
+        246.10425879803,
+        77.25,
+        183.62500000000003
+      ],
+      "intended_pose_box_error_mm": null,
+      "pass": true
+    },
+    {
+      "size": "child_medium",
+      "variant": "child_medium_R16",
+      "phase": "Released",
+      "file": "${WORKSPACE}\\EarDefender_V16_child_medium_R16_Released.step",
+      "sha256": "0e304f950477c66f5f12bb0e1e181c859f58bb15614f7f6ed5aed2a7bf2b334c",
+      "source_sha256": "92382155eb7ca842683dad3481ede1a43339c5af94090703509f8bad189b863d",
+      "solid_count": 46,
+      "all_valid": true,
+      "minimum_volume_mm3": 4.197167785180838,
+      "volume_difference_from_analytic_mm3": 2.3283064365386963e-09,
+      "roundtrip_volume_error_mm3": 2.3283064365386963e-10,
+      "box_mm": [
+        246.10425879803,
+        81.6250001,
+        183.62500000000003
+      ],
+      "intended_pose_box_error_mm": null,
+      "pass": true
+    },
+    {
+      "size": "child_medium",
+      "variant": "child_medium_R16",
+      "phase": "FoldedEngaged",
+      "file": "${WORKSPACE}\\EarDefender_V16_child_medium_R16_FoldedEngaged.step",
+      "sha256": "499b61762c6350ee3b0919144dfeb6a76fa589f34b8fca885108583354626c75",
+      "source_sha256": "92382155eb7ca842683dad3481ede1a43339c5af94090703509f8bad189b863d",
+      "solid_count": 46,
+      "all_valid": true,
+      "minimum_volume_mm3": 4.197167785180838,
+      "volume_difference_from_analytic_mm3": 2.3283064365386963e-09,
+      "roundtrip_volume_error_mm3": 2.9103830456733704e-10,
+      "box_mm": [
+        233.6574936650971,
+        77.25,
+        185.35541565240618
+      ],
+      "intended_pose_box_error_mm": 1.3812950783176348e-11,
+      "pass": true
+    },
+    {
+      "size": "child_large",
+      "variant": "child_large_R16",
+      "phase": "Wear",
+      "file": "${WORKSPACE}\\EarDefender_V16_child_large_R16_Wear.step",
+      "sha256": "a9e0f90d5b29ac39f96f2e8082ee8a4dde57fb8a17f10a22acc18bdd940d5919",
+      "source_sha256": "bc0b786d667b51388d1baeebc03dd447b0e037786909f122a34fec1e7c60a0fc",
+      "solid_count": 46,
+      "all_valid": true,
+      "minimum_volume_mm3": 4.197167785195901,
+      "volume_difference_from_analytic_mm3": 2.9103830456733704e-09,
+      "roundtrip_volume_error_mm3": 1.7462298274040222e-10,
+      "box_mm": [
+        256.63174650304,
+        77.25,
+        183.62500000000006
+      ],
+      "intended_pose_box_error_mm": null,
+      "pass": true
+    },
+    {
+      "size": "child_large",
+      "variant": "child_large_R16",
+      "phase": "Released",
+      "file": "${WORKSPACE}\\EarDefender_V16_child_large_R16_Released.step",
+      "sha256": "4955c53c1bba1dc9b386acbd62958b484653b5371f5034ff48c4de84f7660fc9",
+      "source_sha256": "bc0b786d667b51388d1baeebc03dd447b0e037786909f122a34fec1e7c60a0fc",
+      "solid_count": 46,
+      "all_valid": true,
+      "minimum_volume_mm3": 4.197167785195901,
+      "volume_difference_from_analytic_mm3": 2.9103830456733704e-09,
+      "roundtrip_volume_error_mm3": 1.7462298274040222e-10,
+      "box_mm": [
+        256.63174650304,
+        81.6250001,
+        183.62500000000006
+      ],
+      "intended_pose_box_error_mm": null,
+      "pass": true
+    },
+    {
+      "size": "child_large",
+      "variant": "child_large_R16",
+      "phase": "FoldedEngaged",
+      "file": "${WORKSPACE}\\EarDefender_V16_child_large_R16_FoldedEngaged.step",
+      "sha256": "e803be5620d76738ff85308ae563c73a77530df7c1b25c5da87fa8a47499b3e4",
+      "source_sha256": "bc0b786d667b51388d1baeebc03dd447b0e037786909f122a34fec1e7c60a0fc",
+      "solid_count": 46,
+      "all_valid": true,
+      "minimum_volume_mm3": 4.197167785195903,
+      "volume_difference_from_analytic_mm3": 2.9103830456733704e-09,
+      "roundtrip_volume_error_mm3": 2.9103830456733704e-10,
+      "box_mm": [
+        246.99308205222766,
+        77.25,
+        171.10309839932188
+      ],
+      "intended_pose_box_error_mm": 1.5688783605583012e-11,
+      "pass": true
+    },
+    {
+      "size": "adult_small",
+      "variant": "adult_small_R16U2",
+      "phase": "Wear",
+      "file": "${WORKSPACE}\\EarDefender_V16_adult_small_R16U2_Wear.step",
+      "sha256": "f6959fabc0c60d5428a352ddcfb39427fc0fcff078a8c4e368db27025ea132c6",
+      "source_sha256": "7da5759463828c82bbc860dea56d65db871c83f0525bfde8f77003c85ef2d1d3",
+      "solid_count": 46,
+      "all_valid": true,
+      "minimum_volume_mm3": 4.197167785195893,
+      "volume_difference_from_analytic_mm3": 6.081536412239075e-07,
+      "roundtrip_volume_error_mm3": 1.1641532182693481e-10,
+      "box_mm": [
+        257.42028468362,
+        90.0000001,
+        206.799999999991
+      ],
+      "intended_pose_box_error_mm": null,
+      "pass": true
+    },
+    {
+      "size": "adult_small",
+      "variant": "adult_small_R16U2",
+      "phase": "Released",
+      "file": "${WORKSPACE}\\EarDefender_V16_adult_small_R16U2_Released.step",
+      "sha256": "ed62cb01adb15095239b26a1bc590695b17111dceaece1334f2d1bbac205f7d8",
+      "source_sha256": "7da5759463828c82bbc860dea56d65db871c83f0525bfde8f77003c85ef2d1d3",
+      "solid_count": 46,
+      "all_valid": true,
+      "minimum_volume_mm3": 4.197167785195893,
+      "volume_difference_from_analytic_mm3": 6.081536412239075e-07,
+      "roundtrip_volume_error_mm3": 1.1641532182693481e-10,
+      "box_mm": [
+        257.42028468362,
+        96.0000001,
+        206.799999999991
+      ],
+      "intended_pose_box_error_mm": null,
+      "pass": true
+    },
+    {
+      "size": "adult_small",
+      "variant": "adult_small_R16U2",
+      "phase": "FoldedEngaged",
+      "file": "${WORKSPACE}\\EarDefender_V16_adult_small_R16U2_FoldedEngaged.step",
+      "sha256": "c5fd0423a96ec2a8271cb6ac3ac59c8b19e2dbdee44511198a6ee470a5e60d3c",
+      "source_sha256": "7da5759463828c82bbc860dea56d65db871c83f0525bfde8f77003c85ef2d1d3",
+      "solid_count": 46,
+      "all_valid": true,
+      "minimum_volume_mm3": 4.197167785195896,
+      "volume_difference_from_analytic_mm3": 6.082118488848209e-07,
+      "roundtrip_volume_error_mm3": 5.820766091346741e-11,
+      "box_mm": [
+        250.75047906724197,
+        90.0000001,
+        193.72388155423835
+      ],
+      "intended_pose_box_error_mm": 4.5218939703772776e-11,
+      "pass": true
+    },
+    {
+      "size": "adult_medium",
+      "variant": "adult_medium_R16U2",
+      "phase": "Wear",
+      "file": "${WORKSPACE}\\EarDefender_V16_adult_medium_R16U2_Wear.step",
+      "sha256": "b69a86fba9a11453c16d6824fb84095bdd25b0bd1d2b59785c5d939f287526af",
+      "source_sha256": "10d4d34cc275408471327daffb800af1b0a237c94c23c5e645d8e706e341fbf9",
+      "solid_count": 46,
+      "all_valid": true,
+      "minimum_volume_mm3": 4.197167785195893,
+      "volume_difference_from_analytic_mm3": 6.151385605335236e-07,
+      "roundtrip_volume_error_mm3": 1.1641532182693481e-10,
+      "box_mm": [
+        273.87123133983,
+        90.0000001,
+        206.8
+      ],
+      "intended_pose_box_error_mm": null,
+      "pass": true
+    },
+    {
+      "size": "adult_medium",
+      "variant": "adult_medium_R16U2",
+      "phase": "Released",
+      "file": "${WORKSPACE}\\EarDefender_V16_adult_medium_R16U2_Released.step",
+      "sha256": "224995beedb1958d3dab16227d7a57d814aba6e9ab008a83b07cb3f815b74355",
+      "source_sha256": "10d4d34cc275408471327daffb800af1b0a237c94c23c5e645d8e706e341fbf9",
+      "solid_count": 46,
+      "all_valid": true,
+      "minimum_volume_mm3": 4.197167785195893,
+      "volume_difference_from_analytic_mm3": 6.151385605335236e-07,
+      "roundtrip_volume_error_mm3": 1.1641532182693481e-10,
+      "box_mm": [
+        273.87123133983,
+        96.0000001,
+        206.8
+      ],
+      "intended_pose_box_error_mm": null,
+      "pass": true
+    },
+    {
+      "size": "adult_medium",
+      "variant": "adult_medium_R16U2",
+      "phase": "FoldedEngaged",
+      "file": "${WORKSPACE}\\EarDefender_V16_adult_medium_R16U2_FoldedEngaged.step",
+      "sha256": "909d3672bddd844e7f469973ca3e5310d393925db066323b5636909690ceffde",
+      "source_sha256": "10d4d34cc275408471327daffb800af1b0a237c94c23c5e645d8e706e341fbf9",
+      "solid_count": 46,
+      "all_valid": true,
+      "minimum_volume_mm3": 4.1971677851959015,
+      "volume_difference_from_analytic_mm3": 6.151385605335236e-07,
+      "roundtrip_volume_error_mm3": 0.0,
+      "box_mm": [
+        263.1648948456527,
+        90.0000001,
+        170.46025403784637
+      ],
+      "intended_pose_box_error_mm": 5.189804141991772e-11,
+      "pass": true
+    },
+    {
+      "size": "adult_large",
+      "variant": "adult_large_R16U2",
+      "phase": "Wear",
+      "file": "${WORKSPACE}\\EarDefender_V16_adult_large_R16U2_Wear.step",
+      "sha256": "bf6933bff04a64a016b78fe8a1065f2e9aa27f8c34d7b5677e97035d9d4c8fad",
+      "source_sha256": "c8a1f1c51faa0580f5d3b8ed293a6b451a50446e5d2e897d8db4a9742c2e7584",
+      "solid_count": 46,
+      "all_valid": true,
+      "minimum_volume_mm3": 4.197167785195909,
+      "volume_difference_from_analytic_mm3": 6.143818609416485e-07,
+      "roundtrip_volume_error_mm3": 1.1641532182693481e-10,
+      "box_mm": [
+        290.06961881321,
+        90.0000001,
+        206.8
+      ],
+      "intended_pose_box_error_mm": null,
+      "pass": true
+    },
+    {
+      "size": "adult_large",
+      "variant": "adult_large_R16U2",
+      "phase": "Released",
+      "file": "${WORKSPACE}\\EarDefender_V16_adult_large_R16U2_Released.step",
+      "sha256": "96b0fc984ceb5e7eda86615a0c18f427d1976996a52dfb1c1e5fb745e6475cf5",
+      "source_sha256": "c8a1f1c51faa0580f5d3b8ed293a6b451a50446e5d2e897d8db4a9742c2e7584",
+      "solid_count": 46,
+      "all_valid": true,
+      "minimum_volume_mm3": 4.197167785195909,
+      "volume_difference_from_analytic_mm3": 6.143818609416485e-07,
+      "roundtrip_volume_error_mm3": 1.1641532182693481e-10,
+      "box_mm": [
+        290.06961881321,
+        96.0000001,
+        206.8
+      ],
+      "intended_pose_box_error_mm": null,
+      "pass": true
+    },
+    {
+      "size": "adult_large",
+      "variant": "adult_large_R16U2",
+      "phase": "FoldedEngaged",
+      "file": "${WORKSPACE}\\EarDefender_V16_adult_large_R16U2_FoldedEngaged.step",
+      "sha256": "0b3d69b5d50b79a08ed5dd7661c44aa7a97a9e9d2df8c1ff601e151bb46da06f",
+      "source_sha256": "c8a1f1c51faa0580f5d3b8ed293a6b451a50446e5d2e897d8db4a9742c2e7584",
+      "solid_count": 46,
+      "all_valid": true,
+      "minimum_volume_mm3": 4.197167785195917,
+      "volume_difference_from_analytic_mm3": 6.144982762634754e-07,
+      "roundtrip_volume_error_mm3": 5.820766091346741e-11,
+      "box_mm": [
+        279.36328231901905,
+        90.0000001,
+        170.4602540378422
+      ],
+      "intended_pose_box_error_mm": 6.014033715473488e-11,
+      "pass": true
+    }
+  ],
+  "scope": "Independent OCP reimport counts validity volumes and folded box only; not native Fusion archives or physical validation"
+}

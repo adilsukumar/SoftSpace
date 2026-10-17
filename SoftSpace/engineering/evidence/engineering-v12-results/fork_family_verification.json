@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "reference": "adult_small",
+      "compared": "adult_small",
+      "symmetric_difference_mm3": 23736.862579770546,
+      "common_mm3": 0.0,
+      "reference_volume_mm3": 11868.431290085884,
+      "pass": false
+    },
+    {
+      "reference": "adult_small",
+      "compared": "adult_medium",
+      "symmetric_difference_mm3": 23736.862579772416,
+      "common_mm3": 0.0,
+      "reference_volume_mm3": 11868.431290085884,
+      "pass": false
+    },
+    {
+      "reference": "adult_small",
+      "compared": "adult_large",
+      "symmetric_difference_mm3": 23736.862579633977,
+      "common_mm3": 0.0,
+      "reference_volume_mm3": 11868.431290085884,
+      "pass": false
+    },
+    {
+      "reference": "child_small",
+      "compared": "child_small",
+      "symmetric_difference_mm3": 20669.84811047086,
+      "common_mm3": 0.0,
+      "reference_volume_mm3": 10334.924055347956,
+      "pass": false
+    },
+    {
+      "reference": "child_small",
+      "compared": "child_medium",
+      "symmetric_difference_mm3": 20669.848110471466,
+      "common_mm3": 0.0,
+      "reference_volume_mm3": 10334.924055347956,
+      "pass": false
+    },
+    {
+      "reference": "child_small",
+      "compared": "child_large",
+      "symmetric_difference_mm3": 20669.848110469233,
+      "common_mm3": 0.0,
+      "reference_volume_mm3": 10334.924055347956,
+      "pass": false
+    }
+  ],
+  "all_pass": false,
+  "method": "OCP original solids with location transforms, no deep geometric copies",
+  "scope": "Two translated right fork geometry families only. Does not transfer a complete assembly or left-side load test."
+}

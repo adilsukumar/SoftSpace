@@ -1,0 +1,40 @@
+{
+  "scenario_count": 48,
+  "frequency_rows": 2304,
+  "verification": [
+    {
+      "family": "adult",
+      "low_frequency_pressure_ratio": 0.08998783328399078,
+      "analytic_lumped_pressure_ratio": 0.08998784133730893,
+      "mesh_10_20_40_pressure_ratios": [
+        0.10308554617145642,
+        0.10308469774521915,
+        0.10308448564197356
+      ],
+      "last_mesh_change_percent": 0.00020575628607577556
+    },
+    {
+      "family": "child",
+      "low_frequency_pressure_ratio": 0.05176512358617132,
+      "analytic_lumped_pressure_ratio": 0.05176512307893548,
+      "mesh_10_20_40_pressure_ratios": [
+        0.05581679243127934,
+        0.0558163283744445,
+        0.05581621236032206
+      ],
+      "last_mesh_change_percent": 0.00020784979202215226
+    }
+  ],
+  "minimum_model_difference_dB": 16.73850062627922,
+  "maximum_model_difference_dB": 28.24678539483449,
+  "amplification_rows": 0,
+  "validated_attenuation_rating": null,
+  "limitations": [
+    "1D equivalent cavity; restricted to 31.5-250 Hz",
+    "Curved cup replaced by hypothetical clamped circular plate and unmeasured damping",
+    "Slits are independent hypothetical inputs, not inferred from cushion contact",
+    "No real liner impedance, ear, skin, cover transmission, seams or cup structural modes",
+    "Mesh convergence verifies the equations, not that these assumptions represent the real product",
+    "No broadband, NRR/SNR, clinical or wearer effectiveness claim"
+  ]
+}

@@ -1,0 +1,1850 @@
+{
+  "cases": [
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        77.25,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 0
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 24.0
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 24.0
+        },
+        {
+          "parts": [
+            "LeftSpringSpace",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 2.9675823339324765
+        },
+        {
+          "parts": [
+            "RightSpringSpace",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 2.967582333932506
+        }
+      ],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        77.25,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 1
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 48.0
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 48.0
+        },
+        {
+          "parts": [
+            "LeftSpringSpace",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 9.687232850784607
+        },
+        {
+          "parts": [
+            "RightSpringSpace",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 9.687232850819662
+        }
+      ],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        77.25,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 2
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 215.77434221423775
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 215.77434200120746
+        }
+      ],
+      "errors": [],
+      "boolean_count": 2,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        77.25,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 5
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 247.91810319931824
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 247.91810331527748
+        }
+      ],
+      "errors": [],
+      "boolean_count": 2,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        77.25,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 10
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        79.625,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 0
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftSpringSpace"
+          ],
+          "intersection_mm3": 2.967582334074479
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightSpringSpace"
+          ],
+          "intersection_mm3": 2.967582333930181
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        79.625,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 1
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftSpringSpace"
+          ],
+          "intersection_mm3": 9.687232850763618
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightSpringSpace"
+          ],
+          "intersection_mm3": 9.687232850821246
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        79.625,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 2
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftLockPin"
+          ],
+          "intersection_mm3": 1.3444364846501133
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightLockPin"
+          ],
+          "intersection_mm3": 1.3444364801024278
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        79.625,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 5
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftLockPin"
+          ],
+          "intersection_mm3": 19.253392051687516
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightLockPin"
+          ],
+          "intersection_mm3": 19.25339205022659
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        79.625,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 10
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        77.25,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 0
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 24.0
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 24.0
+        },
+        {
+          "parts": [
+            "LeftSpringSpace",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 2.9675823339324756
+        },
+        {
+          "parts": [
+            "RightSpringSpace",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 2.967582333932506
+        }
+      ],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        77.25,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 1
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 48.0
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 48.0
+        },
+        {
+          "parts": [
+            "LeftSpringSpace",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 9.687232850639646
+        },
+        {
+          "parts": [
+            "RightSpringSpace",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 9.687232850808622
+        }
+      ],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        77.25,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 2
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 215.7743422127548
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 215.77434200098384
+        }
+      ],
+      "errors": [],
+      "boolean_count": 2,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        77.25,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 5
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 247.91810320132785
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 247.91810331559913
+        }
+      ],
+      "errors": [],
+      "boolean_count": 2,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        77.25,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 10
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        79.625,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 0
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftSpringSpace"
+          ],
+          "intersection_mm3": 2.967582334686625
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightSpringSpace"
+          ],
+          "intersection_mm3": 2.967582333966369
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        79.625,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 1
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftSpringSpace"
+          ],
+          "intersection_mm3": 9.687232850503502
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightSpringSpace"
+          ],
+          "intersection_mm3": 9.687232850810238
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        79.625,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 2
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftLockPin"
+          ],
+          "intersection_mm3": 1.344436484580124
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightLockPin"
+          ],
+          "intersection_mm3": 1.344436480091868
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        79.625,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 5
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftLockPin"
+          ],
+          "intersection_mm3": 19.25339205168973
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightLockPin"
+          ],
+          "intersection_mm3": 19.25339205022689
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        79.625,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 10
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        77.25,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 0
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 24.0
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 24.0
+        },
+        {
+          "parts": [
+            "LeftSpringSpace",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 2.967582333932476
+        },
+        {
+          "parts": [
+            "RightSpringSpace",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 2.967582333932505
+        }
+      ],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        77.25,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 1
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 48.0
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 48.0
+        },
+        {
+          "parts": [
+            "LeftSpringSpace",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 9.687232850533594
+        },
+        {
+          "parts": [
+            "RightSpringSpace",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 9.687232850772698
+        }
+      ],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        77.25,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 2
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 215.7743422127526
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 215.77434200098386
+        }
+      ],
+      "errors": [],
+      "boolean_count": 2,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        77.25,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 5
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 247.91810320128104
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 247.91810331554666
+        }
+      ],
+      "errors": [],
+      "boolean_count": 2,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        77.25,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 10
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        79.625,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 0
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftSpringSpace"
+          ],
+          "intersection_mm3": 2.9675823350844075
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightSpringSpace"
+          ],
+          "intersection_mm3": 2.967582334123991
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        79.625,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 1
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftSpringSpace"
+          ],
+          "intersection_mm3": 9.687232850352773
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightSpringSpace"
+          ],
+          "intersection_mm3": 9.687232850742413
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        79.625,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 2
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftLockPin"
+          ],
+          "intersection_mm3": 1.344436484580245
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightLockPin"
+          ],
+          "intersection_mm3": 1.3444364800920579
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        79.625,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 5
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftLockPin"
+          ],
+          "intersection_mm3": 19.25339205168804
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightLockPin"
+          ],
+          "intersection_mm3": 19.253392050226566
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        79.625,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 10
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 8,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 0
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 14.920797231124887
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 14.920797231125437
+        },
+        {
+          "parts": [
+            "LeftSpringSpace",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 2.9675823339324987
+        },
+        {
+          "parts": [
+            "RightSpringSpace",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 2.967582333930234
+        }
+      ],
+      "errors": [],
+      "boolean_count": 8,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 1
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 29.84159446224978
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 29.841594462250875
+        },
+        {
+          "parts": [
+            "LeftSpringSpace",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 9.687232850664683
+        },
+        {
+          "parts": [
+            "RightSpringSpace",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 9.687232850784623
+        }
+      ],
+      "errors": [],
+      "boolean_count": 8,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 2
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 228.24152335078185
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 228.2415233507712
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 5
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 295.31761345201295
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 295.3176136086638
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 10
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 0
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftSpringSpace"
+          ],
+          "intersection_mm3": 2.967582334554252
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightSpringSpace"
+          ],
+          "intersection_mm3": 2.9675823340738043
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 1
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftSpringSpace"
+          ],
+          "intersection_mm3": 9.68723285056908
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightSpringSpace"
+          ],
+          "intersection_mm3": 9.68723285076149
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 2
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftLockPin"
+          ],
+          "intersection_mm3": 2.688872957527642
+        },
+        {
+          "parts": [
+            "LeftFork",
+            "LeftSpringSpace"
+          ],
+          "intersection_mm3": 3.6808570007636137
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightLockPin"
+          ],
+          "intersection_mm3": 2.6888729575276424
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightSpringSpace"
+          ],
+          "intersection_mm3": 3.680857000697679
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 5
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftLockPin"
+          ],
+          "intersection_mm3": 30.993479259322058
+        },
+        {
+          "parts": [
+            "LeftFork",
+            "LeftSpringSpace"
+          ],
+          "intersection_mm3": 18.08698830839174
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightLockPin"
+          ],
+          "intersection_mm3": 30.993479259322058
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightSpringSpace"
+          ],
+          "intersection_mm3": 18.086991673635428
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 10
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 8,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 0
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 14.920797231124887
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 14.920797231125436
+        },
+        {
+          "parts": [
+            "LeftSpringSpace",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 2.967582333934765
+        },
+        {
+          "parts": [
+            "RightSpringSpace",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 2.967582333934769
+        }
+      ],
+      "errors": [],
+      "boolean_count": 8,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 1
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 29.84159446224978
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 29.841594462250875
+        },
+        {
+          "parts": [
+            "LeftSpringSpace",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 9.68723285060554
+        },
+        {
+          "parts": [
+            "RightSpringSpace",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 9.687232850783525
+        }
+      ],
+      "errors": [],
+      "boolean_count": 8,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 2
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 228.24152335078713
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 228.24152335077338
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 5
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 295.31761345197725
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 295.3176136086693
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 10
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 0
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftSpringSpace"
+          ],
+          "intersection_mm3": 2.967582334795451
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightSpringSpace"
+          ],
+          "intersection_mm3": 2.967582334075182
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 1
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftSpringSpace"
+          ],
+          "intersection_mm3": 9.687232850470778
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightSpringSpace"
+          ],
+          "intersection_mm3": 9.687232850765554
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 2
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftLockPin"
+          ],
+          "intersection_mm3": 2.6888729575276415
+        },
+        {
+          "parts": [
+            "LeftFork",
+            "LeftSpringSpace"
+          ],
+          "intersection_mm3": 3.6808570007966446
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightLockPin"
+          ],
+          "intersection_mm3": 2.6888729575276424
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightSpringSpace"
+          ],
+          "intersection_mm3": 3.680857000697872
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 5
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftLockPin"
+          ],
+          "intersection_mm3": 30.993479259322037
+        },
+        {
+          "parts": [
+            "LeftFork",
+            "LeftSpringSpace"
+          ],
+          "intersection_mm3": 18.0869883083914
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightLockPin"
+          ],
+          "intersection_mm3": 30.993479259322072
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightSpringSpace"
+          ],
+          "intersection_mm3": 18.08699167363545
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 10
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 8,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 0
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 14.92079723112489
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 14.92079723112539
+        },
+        {
+          "parts": [
+            "LeftSpringSpace",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 2.967582333934755
+        },
+        {
+          "parts": [
+            "RightSpringSpace",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 2.9675823339347605
+        }
+      ],
+      "errors": [],
+      "boolean_count": 8,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 1
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 29.84159446224978
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 29.841594462250825
+        },
+        {
+          "parts": [
+            "LeftSpringSpace",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 9.687232850761522
+        },
+        {
+          "parts": [
+            "RightSpringSpace",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 9.687232850819663
+        }
+      ],
+      "errors": [],
+      "boolean_count": 8,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 2
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 228.2415233507752
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 228.24152335076587
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 5
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftServiceCap"
+          ],
+          "intersection_mm3": 295.31761345207195
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightServiceCap"
+          ],
+          "intersection_mm3": 295.31761360868546
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "cap radial removal with bolts removed",
+      "offset_mm": 10
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 0
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftSpringSpace"
+          ],
+          "intersection_mm3": 2.96758233417825
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightSpringSpace"
+          ],
+          "intersection_mm3": 2.9675823339383327
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 1
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftSpringSpace"
+          ],
+          "intersection_mm3": 9.687232850720239
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightSpringSpace"
+          ],
+          "intersection_mm3": 9.687232850820052
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 2
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftLockPin"
+          ],
+          "intersection_mm3": 2.6888729575276447
+        },
+        {
+          "parts": [
+            "LeftFork",
+            "LeftSpringSpace"
+          ],
+          "intersection_mm3": 3.6808570007119705
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightLockPin"
+          ],
+          "intersection_mm3": 2.688872957527624
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightSpringSpace"
+          ],
+          "intersection_mm3": 3.6808570006778387
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 5
+    },
+    {
+      "pass": false,
+      "overlaps": [
+        {
+          "parts": [
+            "LeftFork",
+            "LeftLockPin"
+          ],
+          "intersection_mm3": 30.993479259322058
+        },
+        {
+          "parts": [
+            "LeftFork",
+            "LeftSpringSpace"
+          ],
+          "intersection_mm3": 18.086988308392034
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightLockPin"
+          ],
+          "intersection_mm3": 30.993479259321976
+        },
+        {
+          "parts": [
+            "RightFork",
+            "RightSpringSpace"
+          ],
+          "intersection_mm3": 18.086991673635858
+        }
+      ],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "released pin and spring radial removal with caps absent",
+      "offset_mm": 10
+    }
+  ],
+  "case_count": 60,
+  "all_pass": false,
+  "sources": [
+    {
+      "size": "child_small",
+      "sha256": "109695a339e6942e04d22c85bb019eb25fb0f52dd09b661cb9f450b5d8b20e34"
+    },
+    {
+      "size": "child_medium",
+      "sha256": "b985b6cb4eaa966db930ae36dc5ef0f8373a04e7465145d4bf2716b1d15fa4f4"
+    },
+    {
+      "size": "child_large",
+      "sha256": "3aa56263d77b3654312d96c3bf158c06b22816694a02a299ad66d4f154e67143"
+    },
+    {
+      "size": "adult_small",
+      "sha256": "f10f87c24aeccfeeef6d72270ab1219152ffc710ea679794674ea46cd8cf3952"
+    },
+    {
+      "size": "adult_medium",
+      "sha256": "fb4d0c0f869b7e1937904c59c1b47946b30a054c030928c534ed5a1ba8ca69eb"
+    },
+    {
+      "size": "adult_large",
+      "sha256": "1130d7c4295e5cb78cffabe9aa1422d02900bbb8d0133cf8ebb3729c02b44393"
+    }
+  ],
+  "limits": [
+    "Discrete rigid samples, not continuous assembly, tool access or deformed coil path",
+    "Bolts removed before cap movement; no simulated unscrewing, thread geometry, torque or nut retention",
+    "Pins first retracted6mm with caps absent; radial motion preserves spring allocation, not actual compressed spring handling",
+    "Nominal5.3mm head fits nominal5.65mm coil inside diameter only; production tolerance and spring end geometry remain open"
+  ]
+}

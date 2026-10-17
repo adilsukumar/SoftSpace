@@ -1,0 +1,53 @@
+{
+  "updated": "15 October 2026",
+  "design_status": "V17 two size entry pilots with V16 six size candidates and V10 native archives",
+  "documents": [
+    {
+      "path": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
+      "sha256": "e6b150f2a20fe251fcbd547308bff87f193e1aefc746f48a3c59aadf959419eb",
+      "bytes": 6338230
+    },
+    {
+      "path": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
+      "sha256": "b0f7ae96d56810907fae13fdd012a63e0e971e935e23d8f8a58829e0d573d2a0",
+      "bytes": 1572788
+    }
+  ],
+  "market_checked": "2026-10-13",
+  "future_rule": "Update both documents after every meaningful project edit or new result; preserve user edits and history; do not silently regenerate over user edits."
+}
+{'sha256': 'e6b150f2a20fe251fcbd547308bff87f193e1aefc746f48a3c59aadf959419eb', 'approximate_pages': 57, 'images': 29, 'tables': 34, 'zip_integrity': 'pass', 'native_page_render': 'unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure'}
+{'sha256': 'b0f7ae96d56810907fae13fdd012a63e0e971e935e23d8f8a58829e0d573d2a0', 'approximate_pages': 32, 'images': 14, 'tables': 22, 'zip_integrity': 'pass', 'native_page_render': 'unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure'}
+[
+  {
+    "document": "Ear_Defender_Project.docx",
+    "paragraphs": 468,
+    "tables": 34,
+    "embedded_images": 29,
+    "source_links": 33,
+    "structure_and_hashes": "pass"
+  },
+  {
+    "document": "Glasses_Friendly_Headphone_Cushions.docx",
+    "paragraphs": 252,
+    "tables": 22,
+    "embedded_images": 14,
+    "source_links": 19,
+    "structure_and_hashes": "pass"
+  }
+]
+{
+  "unchanged_prior_page_images": 82,
+  "changed_prior_page_images": [
+    "Ear_Defender_Project\\page-1.png",
+    "Ear_Defender_Project\\page-25.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-11.png"
+  ],
+  "added_page_images": [
+    "Ear_Defender_Project\\page-56.png",
+    "Ear_Defender_Project\\page-57.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-31.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-32.png"
+  ],
+  "scope": "Pixel hash comparison of approximate previews only; native Word remains unverified"
+}

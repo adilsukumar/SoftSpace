@@ -1,0 +1,13 @@
+"""Two local pin-entry pilots; no native reconstruction or production qualification."""
+import sys,json,hashlib,math
+from v12_geometry import P,gmsh,import_parts
+O=P/'engineering-v17-results';O.mkdir(exist_ok=True);size=sys.argv[1];source=next(r for r in json.loads((P/'engineering-v16-results/selected_candidates.json').read_text())['sizes'] if r['size']==size);upper=source.get('layout','lower').startswith('upper');R=next(r['band_halfspan_mm'] for r in json.loads((P/'lower-crown-recipes.json').read_text()) if r['name']==size)
+gmsh.initialize();gmsh.option.setNumber('General.Terminal',0);parts=import_parts(source);occ=gmsh.model.occ;rear=-16 if upper else -8;changes=[]
+for side,prefix,fold in [(-1,'Left',source['fold_angles_deg'][0]),(1,'Right',source['fold_angles_deg'][1])]:
+ before=occ.getMass(*parts[prefix+'Tongue']);tools=[]
+ for angle in [0,fold]:
+  a=math.radians(angle);x=side*R+side*(12*math.sin(a) if upper else 10*math.cos(a)-5*math.sin(a));z=65+(12*math.cos(a) if upper else -10*math.sin(a)-5*math.cos(a))
+  tools.append((3,occ.addCylinder(x,rear-.01,z,0,3.02,0,1.25)))
+  tools.append((3,occ.addCone(x,rear,z,0,.3,0,1.55,1.25)))
+ result,_=occ.cut([parts[prefix+'Tongue']],tools);assert len(result)==1 and result[0][0]==3;parts[prefix+'Tongue']=result[0];changes.append({'part':prefix+'Tongue','removed_volume_mm3':before-occ.getMass(*result[0])})
+occ.synchronize();assert len(gmsh.model.getEntities(3))==46;variant=size+'_Entry25';f=P/('EarDefender_V17_'+variant+'_Pilot.step');gmsh.write(str(f));row=dict(source);row.update(revision='V17 two-size entry pilot',variant=variant,file=str(f),sha256=hashlib.sha256(f.read_bytes()).hexdigest(),source=source['file'],source_sha256=source['sha256'],layout=source.get('layout','lower index plate'),part_bounds_mm={n:gmsh.model.getBoundingBox(*dt) for n,dt in parts.items()},part_volumes_mm3={n:occ.getMass(*dt) for n,dt in parts.items()},parts={n:list(dt) for n,dt in parts.items()},changes=changes);row['dimensions']=dict(source['dimensions'],index_hole_diameter_mm=2.5,index_entry_mouth_diameter_mm=3.1,index_entry_depth_mm=.3,remaining_straight_bearing_land_mm=2.7);row['limits']=['Only child large and adult small pilots; V16 remains latest six-size candidate','Wider hole trades fit margin for rotation; entry cone does not fix straight-land misalignment','Existing2.3mm housing and cap guides are unchanged and remain separate tolerance constraints','Less straight bearing length; previous component stresses do not qualify the changed tongue','No actual spring, friction, chamfer centering force, manufacturing or wearer validation'];(O/(variant+'_cad_report.json')).write_text(json.dumps(row,indent=2));gmsh.finalize();print(json.dumps({'file':str(f),'changes':changes}))

@@ -1,0 +1,352 @@
+{
+  "status": "complete",
+  "sizes": [
+    {
+      "name": "child_small",
+      "body_count": 28,
+      "old_band_volume_mm3": 19266.561600776826,
+      "new_band_volume_mm3": 18867.14319343042,
+      "guide_bottom_mm": 82,
+      "clamp_axis_z_mm": 99,
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 5,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 10,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 15,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 20,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 25,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 30,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        }
+      ]
+    },
+    {
+      "name": "child_medium",
+      "body_count": 28,
+      "old_band_volume_mm3": 20042.32728553574,
+      "new_band_volume_mm3": 19642.90887818933,
+      "guide_bottom_mm": 82,
+      "clamp_axis_z_mm": 99,
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 5,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 10,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 15,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 20,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 25,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 30,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        }
+      ]
+    },
+    {
+      "name": "child_large",
+      "body_count": 28,
+      "old_band_volume_mm3": 20775.13277374234,
+      "new_band_volume_mm3": 20375.714366395932,
+      "guide_bottom_mm": 82,
+      "clamp_axis_z_mm": 99,
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 5,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 10,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 15,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 20,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 25,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 30,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        }
+      ]
+    },
+    {
+      "name": "adult_small",
+      "body_count": 28,
+      "old_band_volume_mm3": 27820.950765538375,
+      "new_band_volume_mm3": 27421.53298060699,
+      "guide_bottom_mm": 82,
+      "clamp_axis_z_mm": 99,
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 5,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 10,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 15,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 20,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 25,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 30,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        }
+      ]
+    },
+    {
+      "name": "adult_medium",
+      "body_count": 28,
+      "old_band_volume_mm3": 29330.34343458579,
+      "new_band_volume_mm3": 28930.914527340006,
+      "guide_bottom_mm": 82,
+      "clamp_axis_z_mm": 99,
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 5,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 10,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 15,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 20,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 25,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 30,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        }
+      ]
+    },
+    {
+      "name": "adult_large",
+      "body_count": 28,
+      "old_band_volume_mm3": 30834.66209627448,
+      "new_band_volume_mm3": 30435.24369048325,
+      "guide_bottom_mm": 82,
+      "clamp_axis_z_mm": 99,
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 5,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 10,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 15,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 20,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 25,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        },
+        {
+          "extension_mm": 30,
+          "overlaps": [],
+          "boolean_no_result_count": 0,
+          "limit": "Native intersection calls with no result are recorded; independent saved-STEP audit is also required"
+        }
+      ]
+    }
+  ],
+  "files": [
+    "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.f3d",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.f3d",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.f3d",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.f3d",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.f3d",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.f3d"
+  ],
+  "changes": [
+    "Guide lower end trimmed2mm",
+    "Clamp bore and knob raised4mm"
+  ],
+  "limits": [
+    "Frozen base geometry prototype",
+    "Threads, locking, retention and physical materials unvalidated",
+    "Structural results require changed guide geometry"
+  ]
+}

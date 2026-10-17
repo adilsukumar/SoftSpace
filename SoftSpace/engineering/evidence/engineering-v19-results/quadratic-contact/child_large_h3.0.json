@@ -1,0 +1,178 @@
+{
+  "preload_N": 140,
+  "side_force_N": 2,
+  "assumed_mu": 0.2,
+  "normal_penalty_N_mm3": 10000,
+  "tangential_penalty_N_mm3": 1000,
+  "iterations": 18,
+  "relative_free_residual": 7.477033565038914e-07,
+  "maximum_numerical_penetration_mm": 0.0005459230406801598,
+  "maximum_pivot_constraint_error_mm": 0.00017300304801989768,
+  "stop_reaction_N": 3.6102101558267097,
+  "washer_normal_sum_N": 278.926855086116,
+  "washer_quadrature_area_mm2": 160.1824005417096,
+  "stop_quadrature_area_mm2": 32.0,
+  "global_force_balance_error_N": 3.6625916415271475e-10,
+  "cup_mean_displacement_x_mm": 0.26846421184291686,
+  "component_stresses": [
+    {
+      "peak_element_MPa": 2.105199877963474,
+      "volume_weighted_mean_MPa": 1.0103846384263482
+    },
+    {
+      "peak_element_MPa": 2.1650947551516575,
+      "volume_weighted_mean_MPa": 0.4223795465302856
+    }
+  ],
+  "history": [
+    {
+      "iteration": 0,
+      "relative_u_change": 1.0,
+      "relative_equilibrium_residual": 0.061035845462198896,
+      "active": 1945,
+      "slip_points": 268
+    },
+    {
+      "iteration": 1,
+      "relative_u_change": 0.0035360311796304414,
+      "relative_equilibrium_residual": 0.06562339427078363,
+      "active": 1896,
+      "slip_points": 272
+    },
+    {
+      "iteration": 2,
+      "relative_u_change": 0.003384798035559227,
+      "relative_equilibrium_residual": 0.04073067813227738,
+      "active": 1873,
+      "slip_points": 273
+    },
+    {
+      "iteration": 3,
+      "relative_u_change": 0.0005171390848128346,
+      "relative_equilibrium_residual": 0.016927448948437306,
+      "active": 1857,
+      "slip_points": 272
+    },
+    {
+      "iteration": 4,
+      "relative_u_change": 0.00012484784420164146,
+      "relative_equilibrium_residual": 0.0024199199998403338,
+      "active": 1851,
+      "slip_points": 272
+    },
+    {
+      "iteration": 5,
+      "relative_u_change": 9.586646190423245e-06,
+      "relative_equilibrium_residual": 0.0007964535745812272,
+      "active": 1850,
+      "slip_points": 274
+    },
+    {
+      "iteration": 6,
+      "relative_u_change": 1.1831775658680394e-06,
+      "relative_equilibrium_residual": 0.0004215879365546398,
+      "active": 1850,
+      "slip_points": 275
+    },
+    {
+      "iteration": 7,
+      "relative_u_change": 5.542755881285413e-07,
+      "relative_equilibrium_residual": 0.00023305389664844288,
+      "active": 1850,
+      "slip_points": 275
+    },
+    {
+      "iteration": 8,
+      "relative_u_change": 3.0698538316202343e-07,
+      "relative_equilibrium_residual": 0.00012930479713440054,
+      "active": 1850,
+      "slip_points": 275
+    },
+    {
+      "iteration": 9,
+      "relative_u_change": 1.7011039384410042e-07,
+      "relative_equilibrium_residual": 7.201217116357472e-05,
+      "active": 1850,
+      "slip_points": 275
+    },
+    {
+      "iteration": 10,
+      "relative_u_change": 9.438074544389149e-08,
+      "relative_equilibrium_residual": 4.025154969155233e-05,
+      "active": 1850,
+      "slip_points": 275
+    },
+    {
+      "iteration": 11,
+      "relative_u_change": 5.2440414300143496e-08,
+      "relative_equilibrium_residual": 2.2578133825332458e-05,
+      "active": 1850,
+      "slip_points": 275
+    },
+    {
+      "iteration": 12,
+      "relative_u_change": 2.9207355348087345e-08,
+      "relative_equilibrium_residual": 1.2717371184361758e-05,
+      "active": 1850,
+      "slip_points": 275
+    },
+    {
+      "iteration": 13,
+      "relative_u_change": 1.6427503311604175e-08,
+      "relative_equilibrium_residual": 7.1833121757215155e-06,
+      "active": 1850,
+      "slip_points": 275
+    },
+    {
+      "iteration": 14,
+      "relative_u_change": 9.262310874321664e-09,
+      "relative_equilibrium_residual": 4.06760221806006e-06,
+      "active": 1850,
+      "slip_points": 275
+    },
+    {
+      "iteration": 15,
+      "relative_u_change": 5.2207952023622815e-09,
+      "relative_equilibrium_residual": 2.308426619603728e-06,
+      "active": 1850,
+      "slip_points": 275
+    },
+    {
+      "iteration": 16,
+      "relative_u_change": 2.9504850953207525e-09,
+      "relative_equilibrium_residual": 1.3126417300803643e-06,
+      "active": 1850,
+      "slip_points": 275
+    },
+    {
+      "iteration": 17,
+      "relative_u_change": 1.672570850461623e-09,
+      "relative_equilibrium_residual": 7.477033565035298e-07,
+      "active": 1850,
+      "slip_points": 275
+    }
+  ],
+  "coulomb_bound_error_MPa": 2.7755575615628914e-17,
+  "converged": true,
+  "size": "child_large",
+  "mesh_max_mm": 3.0,
+  "source": "${WORKSPACE}\\EarDefender_V19_child_large_ParallelDisc.step",
+  "source_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557",
+  "nodes": 14556,
+  "seconds": 151.61133742332458,
+  "bulk_element": "Tet10",
+  "contact_interpolation": "Tri3 subtriangles of quadratic boundary faces",
+  "boundary_partitions": "washer annulus and preload footprint",
+  "stress_sampling": "centroid only",
+  "quadrature": "27 positive Duffy Gauss points",
+  "elastic_E_MPa": 3500,
+  "assumed_nu": 0.35,
+  "exact_CAD_component_volumes_mm3": [
+    4600.625355850199,
+    5309.079589122603
+  ],
+  "quadrature_component_volumes_mm3": [
+    4600.616862152405,
+    5309.094785853644
+  ]
+}

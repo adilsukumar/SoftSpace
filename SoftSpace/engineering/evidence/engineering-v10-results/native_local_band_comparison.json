@@ -1,0 +1,200 @@
+{
+  "status": "complete",
+  "all_pass": true,
+  "cases": [
+    {
+      "size": "child_small",
+      "native": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "local": "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_small.step",
+      "native_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "local_sha256": "a5f0d3d1312b34f38ddcd352d60f67ec52a479a28158b69f3086a7445d74c088",
+      "volumes_mm3": [
+        18867.143193430456,
+        18867.143193439282
+      ],
+      "shared_mm3": 18867.14319343047,
+      "symmetric_difference_mm3": 8.796632755547762e-09,
+      "bounds_mm": [
+        [
+          -90.4532715693459,
+          -12.0000001,
+          81.9999999,
+          90.4532715693459,
+          12.0000001,
+          136.5000000999996
+        ],
+        [
+          -90.45327156933999,
+          -12.0000001,
+          81.9999999,
+          90.453271569346,
+          12.0000001,
+          136.5000001
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "size": "child_medium",
+      "native": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "local": "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_medium.step",
+      "native_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "local_sha256": "56478788fee9b98109fcf2a5a08c029a1f760fd908848644342e6b81b350b496",
+      "volumes_mm3": [
+        19642.908878189097,
+        19642.908878210714
+      ],
+      "shared_mm3": 19642.908878189108,
+      "symmetric_difference_mm3": 2.1595042198896408e-08,
+      "bounds_mm": [
+        [
+          -96.0521294990314,
+          -12.0000001,
+          81.9999999,
+          96.0521294990314,
+          12.0000001,
+          136.5000000999996
+        ],
+        [
+          -96.05212949902999,
+          -12.0000001,
+          81.9999999,
+          96.052129499031,
+          12.0000001,
+          136.50000010000002
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "size": "child_large",
+      "native": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "local": "${WORKSPACE}\\OwnPassiveDefender_V10Local_child_large.step",
+      "native_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "local_sha256": "344282cc773d1cda9307efd032ff012603c9b34661746f2c0ca185e5f198ac49",
+      "volumes_mm3": [
+        20375.71436639565,
+        20375.714366345186
+      ],
+      "shared_mm3": 20375.71436639567,
+      "symmetric_difference_mm3": 5.050242180004716e-08,
+      "bounds_mm": [
+        [
+          -101.31587335154799,
+          -12.0000001,
+          81.9999999,
+          101.31587335154799,
+          12.0000001,
+          136.5000001
+        ],
+        [
+          -101.31587335149999,
+          -12.0000001,
+          81.9999999,
+          101.31587335153999,
+          12.0000001,
+          136.50000010000005
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "size": "adult_small",
+      "native": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "local": "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_small.step",
+      "native_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "local_sha256": "e905cf77b9b8ac88a292dc7b46c6dc3a7f2dea34c5781a6a1667949372658f0e",
+      "volumes_mm3": [
+        27421.53189202663,
+        27421.53190489283
+      ],
+      "shared_mm3": 27421.53187838827,
+      "symmetric_difference_mm3": 4.014292062493041e-05,
+      "bounds_mm": [
+        [
+          -101.710142441826,
+          -14.0000001,
+          81.9999999,
+          101.710142441826,
+          14.0000001,
+          151.8000000999995
+        ],
+        [
+          -101.71014244179999,
+          -14.0000001,
+          81.9999999,
+          101.71014244182,
+          14.0000001,
+          151.800000099991
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "size": "adult_medium",
+      "native": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "local": "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_medium.step",
+      "native_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "local_sha256": "e511e626656f3ac190aff2398bbe889db4e37031483a129f0441fedfe7bd9ac3",
+      "volumes_mm3": [
+        28930.764719097995,
+        28930.764694402587
+      ],
+      "shared_mm3": 28930.764744579563,
+      "symmetric_difference_mm3": 7.565854321001098e-05,
+      "bounds_mm": [
+        [
+          -109.93561576993599,
+          -14.0000001,
+          81.9999999,
+          109.93561576993599,
+          14.0000001,
+          151.8000001000003
+        ],
+        [
+          -109.9356157699,
+          -14.0000001,
+          81.9999999,
+          109.93561576993,
+          14.0000001,
+          151.8000001
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "size": "adult_large",
+      "native": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "local": "${WORKSPACE}\\OwnPassiveDefender_V10Local_adult_large.step",
+      "native_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "local_sha256": "e08b5f2d7e3cb61825f89fc9d1f167da6ba8025886936f2c7f46d53ec48e98f3",
+      "volumes_mm3": [
+        30435.243949755724,
+        30435.243948120864
+      ],
+      "shared_mm3": 30435.24395132951,
+      "symmetric_difference_mm3": 4.782428732141852e-06,
+      "bounds_mm": [
+        [
+          -118.03480950660999,
+          -14.0000001,
+          81.9999999,
+          118.03480950660999,
+          14.0000001,
+          151.8000000999999
+        ],
+        [
+          -118.0348095066,
+          -14.0000001,
+          81.9999999,
+          118.03480950660999,
+          14.0000001,
+          151.8000001
+        ]
+      ],
+      "pass": true
+    }
+  ],
+  "threshold_mm3": 0.01,
+  "limit": "Band geometry comparison only. The numerical results retain the original local source hashes and quarter-symmetry approximation; this does not validate physical materials or contacts."
+}

@@ -1,0 +1,46 @@
+{
+  "case_count": 81,
+  "nominal_32C_70RH_100mg_h": [
+    {
+      "ambient_C": 32,
+      "ambient_RH_percent": 70,
+      "assumed_cover_WVTR_g_m2_day": 1000,
+      "water_source_mg_h": 100,
+      "foam_k_W_mK": 0.05,
+      "temperature_60min_C": 33.41139668172783,
+      "RH_60min_percent": 85.86744138466989,
+      "condensed_mg": 0.0,
+      "water_balance_error_mg": 9.486769009248164e-14
+    },
+    {
+      "ambient_C": 32,
+      "ambient_RH_percent": 70,
+      "assumed_cover_WVTR_g_m2_day": 3000,
+      "water_source_mg_h": 100,
+      "foam_k_W_mK": 0.05,
+      "temperature_60min_C": 33.41139668172783,
+      "RH_60min_percent": 71.72215852724148,
+      "condensed_mg": 0.0,
+      "water_balance_error_mg": 4.0657581468206416e-14
+    },
+    {
+      "ambient_C": 32,
+      "ambient_RH_percent": 70,
+      "assumed_cover_WVTR_g_m2_day": 5000,
+      "water_source_mg_h": 100,
+      "foam_k_W_mK": 0.05,
+      "temperature_60min_C": 33.41139668172783,
+      "RH_60min_percent": 68.89312204840323,
+      "condensed_mg": 0.0,
+      "water_balance_error_mg": 1.8973538018496328e-13
+    }
+  ],
+  "candidate_3000_cases": 27,
+  "candidate_3000_saturation_cases": 3,
+  "limitations": [
+    "Lumped balance; no evaporation cooling, local temperatures or sweat feedback",
+    "WVTR is a hypothesis at 2000 Pa pressure differential, not measured material performance",
+    "High ambient vapor pressure can prevent outward drying",
+    "No air vent added to CAD; actual cover permeability and acoustics need joint validation"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "figure": "${WORKSPACE}\\documents\\images\\V10_numerical_summary.png",
+  "source_files": [
+    {
+      "path": "${WORKSPACE}\\engineering-v10-results\\solid_v10_summary.json",
+      "sha256": "0a47c6fbd3b5538ab5a2de15ad5712487b47d49b43a4ffbf7c1cff7f187d01f7"
+    },
+    {
+      "path": "${WORKSPACE}\\engineering-v10-results\\full_width_sizes_summary.json",
+      "sha256": "ca78c887cdd972420a58cd7c08ae112393184d58d57089b8e2a6d2ee0df1c1f5"
+    }
+  ],
+  "limit": "Different constraints and load distributions, not an isolated symmetry comparison or market headphone test."
+}

@@ -1,0 +1,5 @@
+# Versions recorded in the existing local studies; not a claim of a new clean-room replay.
+gmsh==4.13.1
+numpy==2.4.6
+scipy==1.15.3
+matplotlib==3.10.8

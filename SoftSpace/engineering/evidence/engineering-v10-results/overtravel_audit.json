@@ -1,0 +1,1086 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "size": "child_small",
+      "extension_mm": 30,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [],
+      "errors": [],
+      "sample_has_no_blocking_overlap": true,
+      "band_to_tongues_distance_mm": [
+        0.21715728752537974,
+        0.21715728752537974
+      ],
+      "guide_lower_z_mm": 96.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.3827552795410156
+    },
+    {
+      "size": "child_small",
+      "extension_mm": 40,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [
+        {
+          "tags": [
+            27,
+            8
+          ],
+          "volume_mm3": 68.0000000000001
+        },
+        {
+          "tags": [
+            27,
+            20
+          ],
+          "volume_mm3": 68.0000000000001
+        }
+      ],
+      "errors": [],
+      "sample_has_no_blocking_overlap": false,
+      "band_to_tongues_distance_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_lower_z_mm": 106.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.3324003219604492
+    },
+    {
+      "size": "child_small",
+      "extension_mm": 50,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [
+        {
+          "tags": [
+            27,
+            8
+          ],
+          "volume_mm3": 68.0000000000001
+        },
+        {
+          "tags": [
+            27,
+            20
+          ],
+          "volume_mm3": 68.0000000000001
+        }
+      ],
+      "errors": [],
+      "sample_has_no_blocking_overlap": false,
+      "band_to_tongues_distance_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_lower_z_mm": 116.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.34011268615722656
+    },
+    {
+      "size": "child_small",
+      "extension_mm": 60,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [
+        {
+          "tags": [
+            27,
+            8
+          ],
+          "volume_mm3": 68.0000000000001
+        },
+        {
+          "tags": [
+            27,
+            20
+          ],
+          "volume_mm3": 68.0000000000001
+        }
+      ],
+      "errors": [],
+      "sample_has_no_blocking_overlap": false,
+      "band_to_tongues_distance_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_lower_z_mm": 126.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.3581058979034424
+    },
+    {
+      "size": "child_small",
+      "extension_mm": 70,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 0,
+      "overlaps": [],
+      "errors": [],
+      "sample_has_no_blocking_overlap": true,
+      "band_to_tongues_distance_mm": [
+        3.0,
+        3.0
+      ],
+      "guide_lower_z_mm": 136.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": true,
+      "seconds": 0.1535942554473877
+    },
+    {
+      "size": "child_small",
+      "extension_mm": 75,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 0,
+      "overlaps": [],
+      "errors": [],
+      "sample_has_no_blocking_overlap": true,
+      "band_to_tongues_distance_mm": [
+        8.0,
+        8.0
+      ],
+      "guide_lower_z_mm": 141.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": true,
+      "seconds": 0.18311834335327148
+    },
+    {
+      "size": "child_medium",
+      "extension_mm": 30,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [],
+      "errors": [],
+      "sample_has_no_blocking_overlap": true,
+      "band_to_tongues_distance_mm": [
+        0.21715728752537974,
+        0.21715728752537974
+      ],
+      "guide_lower_z_mm": 96.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.4754149913787842
+    },
+    {
+      "size": "child_medium",
+      "extension_mm": 40,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [
+        {
+          "tags": [
+            27,
+            8
+          ],
+          "volume_mm3": 68.0000000000001
+        },
+        {
+          "tags": [
+            27,
+            20
+          ],
+          "volume_mm3": 68.0000000000001
+        }
+      ],
+      "errors": [],
+      "sample_has_no_blocking_overlap": false,
+      "band_to_tongues_distance_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_lower_z_mm": 106.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.4337308406829834
+    },
+    {
+      "size": "child_medium",
+      "extension_mm": 50,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [
+        {
+          "tags": [
+            27,
+            8
+          ],
+          "volume_mm3": 68.0000000000001
+        },
+        {
+          "tags": [
+            27,
+            20
+          ],
+          "volume_mm3": 68.0000000000001
+        }
+      ],
+      "errors": [],
+      "sample_has_no_blocking_overlap": false,
+      "band_to_tongues_distance_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_lower_z_mm": 116.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.421558141708374
+    },
+    {
+      "size": "child_medium",
+      "extension_mm": 60,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [
+        {
+          "tags": [
+            27,
+            8
+          ],
+          "volume_mm3": 68.0000000000001
+        },
+        {
+          "tags": [
+            27,
+            20
+          ],
+          "volume_mm3": 68.0000000000001
+        }
+      ],
+      "errors": [],
+      "sample_has_no_blocking_overlap": false,
+      "band_to_tongues_distance_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_lower_z_mm": 126.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.4344799518585205
+    },
+    {
+      "size": "child_medium",
+      "extension_mm": 70,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 0,
+      "overlaps": [],
+      "errors": [],
+      "sample_has_no_blocking_overlap": true,
+      "band_to_tongues_distance_mm": [
+        3.0,
+        3.0
+      ],
+      "guide_lower_z_mm": 136.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": true,
+      "seconds": 0.19492673873901367
+    },
+    {
+      "size": "child_medium",
+      "extension_mm": 75,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 0,
+      "overlaps": [],
+      "errors": [],
+      "sample_has_no_blocking_overlap": true,
+      "band_to_tongues_distance_mm": [
+        8.0,
+        8.0
+      ],
+      "guide_lower_z_mm": 141.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": true,
+      "seconds": 0.1995868682861328
+    },
+    {
+      "size": "child_large",
+      "extension_mm": 30,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [],
+      "errors": [],
+      "sample_has_no_blocking_overlap": true,
+      "band_to_tongues_distance_mm": [
+        0.21715728752537974,
+        0.21715728752537974
+      ],
+      "guide_lower_z_mm": 96.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.4163358211517334
+    },
+    {
+      "size": "child_large",
+      "extension_mm": 40,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [
+        {
+          "tags": [
+            27,
+            8
+          ],
+          "volume_mm3": 68.00000000000011
+        },
+        {
+          "tags": [
+            27,
+            20
+          ],
+          "volume_mm3": 68.00000000000011
+        }
+      ],
+      "errors": [],
+      "sample_has_no_blocking_overlap": false,
+      "band_to_tongues_distance_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_lower_z_mm": 106.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.390836238861084
+    },
+    {
+      "size": "child_large",
+      "extension_mm": 50,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [
+        {
+          "tags": [
+            27,
+            8
+          ],
+          "volume_mm3": 68.00000000000011
+        },
+        {
+          "tags": [
+            27,
+            20
+          ],
+          "volume_mm3": 68.00000000000011
+        }
+      ],
+      "errors": [],
+      "sample_has_no_blocking_overlap": false,
+      "band_to_tongues_distance_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_lower_z_mm": 116.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.39968085289001465
+    },
+    {
+      "size": "child_large",
+      "extension_mm": 60,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [
+        {
+          "tags": [
+            27,
+            8
+          ],
+          "volume_mm3": 68.00000000000011
+        },
+        {
+          "tags": [
+            27,
+            20
+          ],
+          "volume_mm3": 68.00000000000011
+        }
+      ],
+      "errors": [],
+      "sample_has_no_blocking_overlap": false,
+      "band_to_tongues_distance_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_lower_z_mm": 126.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.4058675765991211
+    },
+    {
+      "size": "child_large",
+      "extension_mm": 70,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 0,
+      "overlaps": [],
+      "errors": [],
+      "sample_has_no_blocking_overlap": true,
+      "band_to_tongues_distance_mm": [
+        3.0,
+        3.0
+      ],
+      "guide_lower_z_mm": 136.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": true,
+      "seconds": 0.1770641803741455
+    },
+    {
+      "size": "child_large",
+      "extension_mm": 75,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 0,
+      "overlaps": [],
+      "errors": [],
+      "sample_has_no_blocking_overlap": true,
+      "band_to_tongues_distance_mm": [
+        8.0,
+        8.0
+      ],
+      "guide_lower_z_mm": 141.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": true,
+      "seconds": 0.18713092803955078
+    },
+    {
+      "size": "adult_small",
+      "extension_mm": 30,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [],
+      "errors": [],
+      "sample_has_no_blocking_overlap": true,
+      "band_to_tongues_distance_mm": [
+        0.21715728752537974,
+        0.21715728752537974
+      ],
+      "guide_lower_z_mm": 96.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.4899864196777344
+    },
+    {
+      "size": "adult_small",
+      "extension_mm": 40,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [
+        {
+          "tags": [
+            27,
+            8
+          ],
+          "volume_mm3": 68.00000000000011
+        },
+        {
+          "tags": [
+            27,
+            20
+          ],
+          "volume_mm3": 68.00000000000011
+        }
+      ],
+      "errors": [],
+      "sample_has_no_blocking_overlap": false,
+      "band_to_tongues_distance_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_lower_z_mm": 106.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.4062180519104004
+    },
+    {
+      "size": "adult_small",
+      "extension_mm": 50,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [
+        {
+          "tags": [
+            27,
+            8
+          ],
+          "volume_mm3": 68.00000000000011
+        },
+        {
+          "tags": [
+            27,
+            20
+          ],
+          "volume_mm3": 68.00000000000011
+        }
+      ],
+      "errors": [],
+      "sample_has_no_blocking_overlap": false,
+      "band_to_tongues_distance_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_lower_z_mm": 116.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.3821401596069336
+    },
+    {
+      "size": "adult_small",
+      "extension_mm": 60,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [
+        {
+          "tags": [
+            27,
+            8
+          ],
+          "volume_mm3": 68.00000000000011
+        },
+        {
+          "tags": [
+            27,
+            20
+          ],
+          "volume_mm3": 68.00000000000011
+        }
+      ],
+      "errors": [],
+      "sample_has_no_blocking_overlap": false,
+      "band_to_tongues_distance_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_lower_z_mm": 126.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.4416384696960449
+    },
+    {
+      "size": "adult_small",
+      "extension_mm": 70,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 0,
+      "overlaps": [],
+      "errors": [],
+      "sample_has_no_blocking_overlap": true,
+      "band_to_tongues_distance_mm": [
+        3.0,
+        3.0
+      ],
+      "guide_lower_z_mm": 136.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": true,
+      "seconds": 0.21005535125732422
+    },
+    {
+      "size": "adult_small",
+      "extension_mm": 75,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 0,
+      "overlaps": [],
+      "errors": [],
+      "sample_has_no_blocking_overlap": true,
+      "band_to_tongues_distance_mm": [
+        8.0,
+        8.0
+      ],
+      "guide_lower_z_mm": 141.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": true,
+      "seconds": 0.20635724067687988
+    },
+    {
+      "size": "adult_medium",
+      "extension_mm": 30,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [],
+      "errors": [],
+      "sample_has_no_blocking_overlap": true,
+      "band_to_tongues_distance_mm": [
+        0.21715728752537974,
+        0.21715728752537974
+      ],
+      "guide_lower_z_mm": 96.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.5324606895446777
+    },
+    {
+      "size": "adult_medium",
+      "extension_mm": 40,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [
+        {
+          "tags": [
+            27,
+            8
+          ],
+          "volume_mm3": 68.00000000000011
+        },
+        {
+          "tags": [
+            27,
+            20
+          ],
+          "volume_mm3": 68.00000000000011
+        }
+      ],
+      "errors": [],
+      "sample_has_no_blocking_overlap": false,
+      "band_to_tongues_distance_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_lower_z_mm": 106.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.4013702869415283
+    },
+    {
+      "size": "adult_medium",
+      "extension_mm": 50,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [
+        {
+          "tags": [
+            27,
+            8
+          ],
+          "volume_mm3": 68.00000000000011
+        },
+        {
+          "tags": [
+            27,
+            20
+          ],
+          "volume_mm3": 68.00000000000011
+        }
+      ],
+      "errors": [],
+      "sample_has_no_blocking_overlap": false,
+      "band_to_tongues_distance_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_lower_z_mm": 116.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.47571873664855957
+    },
+    {
+      "size": "adult_medium",
+      "extension_mm": 60,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [
+        {
+          "tags": [
+            27,
+            8
+          ],
+          "volume_mm3": 68.00000000000011
+        },
+        {
+          "tags": [
+            27,
+            20
+          ],
+          "volume_mm3": 68.00000000000011
+        }
+      ],
+      "errors": [],
+      "sample_has_no_blocking_overlap": false,
+      "band_to_tongues_distance_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_lower_z_mm": 126.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.4297473430633545
+    },
+    {
+      "size": "adult_medium",
+      "extension_mm": 70,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 0,
+      "overlaps": [],
+      "errors": [],
+      "sample_has_no_blocking_overlap": true,
+      "band_to_tongues_distance_mm": [
+        3.0,
+        3.0
+      ],
+      "guide_lower_z_mm": 136.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": true,
+      "seconds": 0.19478392601013184
+    },
+    {
+      "size": "adult_medium",
+      "extension_mm": 75,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 0,
+      "overlaps": [],
+      "errors": [],
+      "sample_has_no_blocking_overlap": true,
+      "band_to_tongues_distance_mm": [
+        8.0,
+        8.0
+      ],
+      "guide_lower_z_mm": 141.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": true,
+      "seconds": 0.20049715042114258
+    },
+    {
+      "size": "adult_large",
+      "extension_mm": 30,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [],
+      "errors": [],
+      "sample_has_no_blocking_overlap": true,
+      "band_to_tongues_distance_mm": [
+        0.2171572875253898,
+        0.2171572875253898
+      ],
+      "guide_lower_z_mm": 96.99999989999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.4677698612213135
+    },
+    {
+      "size": "adult_large",
+      "extension_mm": 40,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [
+        {
+          "tags": [
+            27,
+            8
+          ],
+          "volume_mm3": 67.99999999999955
+        },
+        {
+          "tags": [
+            27,
+            20
+          ],
+          "volume_mm3": 67.99999999999955
+        }
+      ],
+      "errors": [],
+      "sample_has_no_blocking_overlap": false,
+      "band_to_tongues_distance_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_lower_z_mm": 106.99999989999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.4815363883972168
+    },
+    {
+      "size": "adult_large",
+      "extension_mm": 50,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [
+        {
+          "tags": [
+            27,
+            8
+          ],
+          "volume_mm3": 67.99999999999955
+        },
+        {
+          "tags": [
+            27,
+            20
+          ],
+          "volume_mm3": 67.99999999999955
+        }
+      ],
+      "errors": [],
+      "sample_has_no_blocking_overlap": false,
+      "band_to_tongues_distance_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_lower_z_mm": 116.99999989999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.3911452293395996
+    },
+    {
+      "size": "adult_large",
+      "extension_mm": 60,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 2,
+      "overlaps": [
+        {
+          "tags": [
+            27,
+            8
+          ],
+          "volume_mm3": 67.99999999999955
+        },
+        {
+          "tags": [
+            27,
+            20
+          ],
+          "volume_mm3": 67.99999999999955
+        }
+      ],
+      "errors": [],
+      "sample_has_no_blocking_overlap": false,
+      "band_to_tongues_distance_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_lower_z_mm": 126.99999989999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": false,
+      "seconds": 0.45988011360168457
+    },
+    {
+      "size": "adult_large",
+      "extension_mm": 70,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 0,
+      "overlaps": [],
+      "errors": [],
+      "sample_has_no_blocking_overlap": true,
+      "band_to_tongues_distance_mm": [
+        3.0,
+        3.0
+      ],
+      "guide_lower_z_mm": 136.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": true,
+      "seconds": 0.19887018203735352
+    },
+    {
+      "size": "adult_large",
+      "extension_mm": 75,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "moving_solids": 2,
+      "stationary_solids": 24,
+      "removed_clamp_knobs": 2,
+      "cross_group_pairs": 48,
+      "boolean_count": 0,
+      "overlaps": [],
+      "errors": [],
+      "sample_has_no_blocking_overlap": true,
+      "band_to_tongues_distance_mm": [
+        8.0,
+        8.0
+      ],
+      "guide_lower_z_mm": 141.9999999,
+      "tongue_upper_z_mm": 134.0000001,
+      "separated_axially": true,
+      "seconds": 0.22676372528076172
+    }
+  ],
+  "case_count": 36,
+  "all_samples_no_overlap": false,
+  "sizes_with_separation_at_75mm": [
+    "child_small",
+    "child_medium",
+    "child_large",
+    "adult_small",
+    "adult_medium",
+    "adult_large"
+  ],
+  "retention_validation": "Geometric obstruction is present at sampled 40 to 60 mm extensions; loaded end-stop strength remains untested",
+  "method": "Native STEP band and crown translated together; both clamp knobs removed to represent an open clamp. Only moving versus stationary pairs can change under this translation. Prior all-body nominal audit covers unchanged within-group pairs.",
+  "limits": [
+    "Outside intended operating range; diagnostic only",
+    "Separated shapes at 70 and 75 mm are imposed poses beyond the intervening collisions, not evidence of a reachable extraction path",
+    "No physical pull-out load friction end-stop strength or real screw retraction model",
+    "No deformation or misalignment; no native CAD edit made",
+    "The clamp knobs in the saved CAD are placeholders, so locked retention still cannot be established"
+  ]
+}

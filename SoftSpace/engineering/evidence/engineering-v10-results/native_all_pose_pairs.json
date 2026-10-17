@@ -1,0 +1,211 @@
+{
+  "status": "complete",
+  "checked_exports": 18,
+  "all_pass": true,
+  "checks": [
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "solid_count": 28,
+      "all_pair_count": 378,
+      "broad_phase_boolean_count": 39,
+      "overlaps": [],
+      "errors": [],
+      "pass": true,
+      "seconds": 33.85547876358032
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835_Extension_0.step",
+      "sha256": "15fdd09d163ebe99f7b53a9df4e9764a2133add2f4d1ee7199b12c4793a77258",
+      "solid_count": 28,
+      "all_pair_count": 378,
+      "broad_phase_boolean_count": 43,
+      "overlaps": [],
+      "errors": [],
+      "pass": true,
+      "seconds": 34.10342049598694
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835_Extension_30.step",
+      "sha256": "2972acf68d8330ac7306cf2de201dcdcfdfe92992504264ec40a2236a798e7b6",
+      "solid_count": 28,
+      "all_pair_count": 378,
+      "broad_phase_boolean_count": 39,
+      "overlaps": [],
+      "errors": [],
+      "pass": true,
+      "seconds": 32.79806065559387
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "solid_count": 28,
+      "all_pair_count": 378,
+      "broad_phase_boolean_count": 39,
+      "overlaps": [],
+      "errors": [],
+      "pass": true,
+      "seconds": 32.869444608688354
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835_Extension_0.step",
+      "sha256": "2d0621e11c585574f6233544aa3aebdcc58c222b37eee944d90f4d2845c43a98",
+      "solid_count": 28,
+      "all_pair_count": 378,
+      "broad_phase_boolean_count": 43,
+      "overlaps": [],
+      "errors": [],
+      "pass": true,
+      "seconds": 35.01270127296448
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835_Extension_30.step",
+      "sha256": "93f824cbbd2a7ec43d3ee6400a664d0785a94282fa640ab5a9fb7573d23dc4df",
+      "solid_count": 28,
+      "all_pair_count": 378,
+      "broad_phase_boolean_count": 39,
+      "overlaps": [],
+      "errors": [],
+      "pass": true,
+      "seconds": 35.039226770401
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "solid_count": 28,
+      "all_pair_count": 378,
+      "broad_phase_boolean_count": 39,
+      "overlaps": [],
+      "errors": [],
+      "pass": true,
+      "seconds": 37.30921912193298
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835_Extension_0.step",
+      "sha256": "ec3bc833a19466574b32b814d24023211bdf3e81187150142b2706818954bc1e",
+      "solid_count": 28,
+      "all_pair_count": 378,
+      "broad_phase_boolean_count": 43,
+      "overlaps": [],
+      "errors": [],
+      "pass": true,
+      "seconds": 39.10630512237549
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835_Extension_30.step",
+      "sha256": "5b616d8a3a9ec7fd546c56f260563d93744cae7b9e5d14419969009108b9d0bd",
+      "solid_count": 28,
+      "all_pair_count": 378,
+      "broad_phase_boolean_count": 39,
+      "overlaps": [],
+      "errors": [],
+      "pass": true,
+      "seconds": 40.044753551483154
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "solid_count": 28,
+      "all_pair_count": 378,
+      "broad_phase_boolean_count": 39,
+      "overlaps": [],
+      "errors": [],
+      "pass": true,
+      "seconds": 59.93784689903259
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835_Extension_0.step",
+      "sha256": "6ffa923027fef27e0dd8effa9684a197286e720d057c61c9f632f35dff05cd38",
+      "solid_count": 28,
+      "all_pair_count": 378,
+      "broad_phase_boolean_count": 43,
+      "overlaps": [],
+      "errors": [],
+      "pass": true,
+      "seconds": 58.488219261169434
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835_Extension_30.step",
+      "sha256": "00f8ded54def525c3dd2df2a1bc14adae410e91b2b651e63a98a801789706758",
+      "solid_count": 28,
+      "all_pair_count": 378,
+      "broad_phase_boolean_count": 39,
+      "overlaps": [],
+      "errors": [],
+      "pass": true,
+      "seconds": 49.84096574783325
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "solid_count": 28,
+      "all_pair_count": 378,
+      "broad_phase_boolean_count": 39,
+      "overlaps": [],
+      "errors": [],
+      "pass": true,
+      "seconds": 49.71709871292114
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835_Extension_0.step",
+      "sha256": "45999ab37d93e0eedbaba9b7c277de5d1ccbb71be3d3fac6857bd7b78699b2df",
+      "solid_count": 28,
+      "all_pair_count": 378,
+      "broad_phase_boolean_count": 43,
+      "overlaps": [],
+      "errors": [],
+      "pass": true,
+      "seconds": 79.08626294136047
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835_Extension_30.step",
+      "sha256": "c0cf6ce547bf34fd40748c030bea35855cda9ee6971ec6d2053b7cb57a2c9367",
+      "solid_count": 28,
+      "all_pair_count": 378,
+      "broad_phase_boolean_count": 39,
+      "overlaps": [],
+      "errors": [],
+      "pass": true,
+      "seconds": 85.4662127494812
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "solid_count": 28,
+      "all_pair_count": 378,
+      "broad_phase_boolean_count": 39,
+      "overlaps": [],
+      "errors": [],
+      "pass": true,
+      "seconds": 92.52477502822876
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835_Extension_0.step",
+      "sha256": "6eeeac200063a03ef9043ef607d625247b43ff0193c2855be8fc898a440f00cd",
+      "solid_count": 28,
+      "all_pair_count": 378,
+      "broad_phase_boolean_count": 43,
+      "overlaps": [],
+      "errors": [],
+      "pass": true,
+      "seconds": 90.18074250221252
+    },
+    {
+      "file": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835_Extension_30.step",
+      "sha256": "fb4973b2a946cad7e5d812c990f4667f4eb8d75798a25f8ef01a3d7e40c47649",
+      "solid_count": 28,
+      "all_pair_count": 378,
+      "broad_phase_boolean_count": 39,
+      "overlaps": [],
+      "errors": [],
+      "pass": true,
+      "seconds": 88.67004776000977
+    }
+  ],
+  "threshold_mm3": 0.01,
+  "limits": [
+    "Rigid saved poses only; not worn contact or tolerances",
+    "All exported solids tested, including pivot pins and clamp knobs",
+    "STEP body tags are import IDs, not native Fusion body names"
+  ]
+}

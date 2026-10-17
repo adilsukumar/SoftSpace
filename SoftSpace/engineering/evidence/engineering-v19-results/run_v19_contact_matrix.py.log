@@ -1,0 +1,20 @@
+{"stage": "model prepared", "size": "child_large", "h": 3.0, "nodes": 2375}
+{"case": "child_large_joint_h3.0_P70_mu0.1_F2", "converged": true, "seconds": 0.005850791931152344}
+{"case": "child_large_joint_h3.0_P70_mu0.1_F-2", "converged": false, "seconds": 0.005472898483276367}
+{"case": "child_large_joint_h3.0_P140_mu0.2_F2", "converged": true, "seconds": 0.0006105899810791016}
+{"case": "child_large_joint_h3.0_P140_mu0.2_F-2", "converged": true, "seconds": 0.010974645614624023}
+{"case": "child_large_joint_h3.0_P210_mu0.3_F2", "converged": true, "seconds": 0.008627891540527344}
+{"case": "child_large_joint_h3.0_P210_mu0.3_F-2", "converged": true, "seconds": 0.021974563598632812}
+{"stage": "model prepared", "size": "child_large", "h": 2.0, "nodes": 4598}
+{"case": "child_large_joint_h2.0_P140_mu0.2_F2", "converged": true, "seconds": 0.007668256759643555}
+{"case": "child_large_joint_h2.0_P140_mu0.2_F-2", "converged": true, "seconds": 0.009688377380371094}
+{"stage": "model prepared", "size": "adult_small", "h": 3.0, "nodes": 2999}
+{"case": "adult_small_joint_h3.0_P70_mu0.1_F2", "converged": false, "seconds": 0.0}
+{"case": "adult_small_joint_h3.0_P70_mu0.1_F-2", "converged": false, "seconds": 27.25228500366211}
+{"case": "adult_small_joint_h3.0_P140_mu0.2_F2", "converged": true, "seconds": 9.58934998512268}
+{"case": "adult_small_joint_h3.0_P140_mu0.2_F-2", "converged": true, "seconds": 18.01290988922119}
+{"case": "adult_small_joint_h3.0_P210_mu0.3_F2", "converged": true, "seconds": 4.562727212905884}
+{"case": "adult_small_joint_h3.0_P210_mu0.3_F-2", "converged": true, "seconds": 8.894602537155151}
+{"stage": "model prepared", "size": "adult_small", "h": 2.0, "nodes": 6050}
+{"case": "adult_small_joint_h2.0_P140_mu0.2_F2", "converged": true, "seconds": 35.42964506149292}
+{"case": "adult_small_joint_h2.0_P140_mu0.2_F-2", "converged": true, "seconds": 53.603201150894165}

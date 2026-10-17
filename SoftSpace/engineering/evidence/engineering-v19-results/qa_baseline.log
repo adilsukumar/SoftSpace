@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "${WORKSPACE}\prepare_v19_qa_baseline.py", line 10, in <module>
+    with (D/'render.log').open('w') as f:subprocess.run([sys.executable,str(D/'check_document_layout.py')],cwd=P,stdout=f,stderr=subprocess.STDOUT,check=True)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "${USER_HOME}\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['${USER_HOME}\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe', '${WORKSPACE}\\documents\\qa\\v18-baseline\\check_document_layout.py']' returned non-zero exit status 1.

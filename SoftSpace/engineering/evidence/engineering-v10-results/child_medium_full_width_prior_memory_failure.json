@@ -1,0 +1,11 @@
+{
+  "status": "failed numerical attempt; retry in progress",
+  "size": "child_medium",
+  "mesh_max_mm": 1.5,
+  "nodes": 128594,
+  "tet10_elements": 74099,
+  "failed_stage": "A=K[free][:,free]",
+  "error": "Unable to allocate 218 MiB for float64 array with shape (28562685,)",
+  "response": "Assemble the constrained matrix and reaction rows directly. Identical-mesh beam verification passed with relative displacement and stress differences below 1e-6 before retrying the product calculation.",
+  "limit": "A memory failure is not a physical design failure. Retry results must pass numerical checks separately."
+}

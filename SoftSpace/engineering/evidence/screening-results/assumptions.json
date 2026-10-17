@@ -1,0 +1,151 @@
+{
+  "all_numbers_are_design_assumptions": true,
+  "heads": [
+    {
+      "name": "child_small",
+      "width_mm": 120,
+      "pad_scale": 0.85,
+      "Rx_mm": 90,
+      "Ry_mm": 140
+    },
+    {
+      "name": "child_medium",
+      "width_mm": 130,
+      "pad_scale": 0.85,
+      "Rx_mm": 110,
+      "Ry_mm": 170
+    },
+    {
+      "name": "child_large",
+      "width_mm": 140,
+      "pad_scale": 0.85,
+      "Rx_mm": 130,
+      "Ry_mm": 190
+    },
+    {
+      "name": "adult_small",
+      "width_mm": 140,
+      "pad_scale": 1,
+      "Rx_mm": 110,
+      "Ry_mm": 170
+    },
+    {
+      "name": "adult_medium",
+      "width_mm": 155,
+      "pad_scale": 1,
+      "Rx_mm": 140,
+      "Ry_mm": 200
+    },
+    {
+      "name": "adult_large",
+      "width_mm": 170,
+      "pad_scale": 1,
+      "Rx_mm": 180,
+      "Ry_mm": 240
+    }
+  ],
+  "covers": {
+    "compliant": {
+      "E_Pa": 1000000.0,
+      "thickness_mm": 0.2,
+      "poisson": 0.45,
+      "k_W_mK": 0.15
+    },
+    "moderate": {
+      "E_Pa": 3000000.0,
+      "thickness_mm": 0.3,
+      "poisson": 0.45,
+      "k_W_mK": 0.18
+    },
+    "stiff": {
+      "E_Pa": 8000000.0,
+      "thickness_mm": 0.5,
+      "poisson": 0.45,
+      "k_W_mK": 0.2
+    }
+  },
+  "foam_strain_points": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.4,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "foam_compression_stress_Pa": {
+    "soft": [
+      0,
+      300,
+      600,
+      1000,
+      1500,
+      2200,
+      4000,
+      10000,
+      35000
+    ],
+    "medium": [
+      0,
+      600,
+      1200,
+      2000,
+      3000,
+      4400,
+      8000,
+      20000,
+      70000
+    ],
+    "firm": [
+      0,
+      1000,
+      2000,
+      3500,
+      5500,
+      8000,
+      15000,
+      35000,
+      100000
+    ]
+  },
+  "arms_width_thickness_mm": {
+    "none": [
+      0,
+      0
+    ],
+    "thin": [
+      4,
+      1.5
+    ],
+    "standard": [
+      8,
+      3
+    ],
+    "thick": [
+      10,
+      5
+    ]
+  },
+  "pad_forces_N": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "headband_law": "F_pad = 2 N + k*(head_width-reference_width)/2; illustrative k=0.05 to 0.15 N/mm. This is a prescribed spring law, not a manufactured-band prediction.",
+  "headband_reference_widths_mm": {
+    "adult": 155,
+    "child": 130
+  },
+  "cover_model": "p_cover=E*t*(compression_m)^3/(6*span_m^4), span=0.020 m. Illustrative scalar membrane surrogate, not a resolved cover model.",
+  "thermal_assumptions": {
+    "skin_C": 34,
+    "cavity_m3": 0.0001,
+    "effective_heat_capacity_J_K": 30,
+    "water_entering_cavity_mg_h": 20,
+    "ambient_RH_percent": 70
+  }
+}

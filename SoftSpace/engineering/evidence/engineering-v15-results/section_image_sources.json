@@ -1,0 +1,6 @@
+{
+  "image": "${WORKSPACE}\\documents\\images\\V15_retention_section.png",
+  "source": "${WORKSPACE}\\EarDefender_V15_adult_small_RetentionCandidate.step",
+  "source_sha256": "c2665f11f9aa0fc9aa8d331624269f1fa14325dc6fdd6bc032cd972600644473",
+  "scope": "Exact section of adult-small pilot; cosmetic thread envelopes only"
+}

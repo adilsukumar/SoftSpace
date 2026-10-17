@@ -1,0 +1,17 @@
+{
+  "jobs": [
+    {
+      "script": "run_v19_contact_matrix.py",
+      "exit_code": 0
+    },
+    {
+      "script": "refine_v19_joint.py",
+      "exit_code": 0
+    },
+    {
+      "script": "verify_v19_joint.py",
+      "exit_code": 0
+    }
+  ],
+  "complete": true
+}

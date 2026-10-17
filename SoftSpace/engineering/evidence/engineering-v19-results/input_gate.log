@@ -1,0 +1,14 @@
+{
+  "status": "Input gated",
+  "ready": {
+    "foam_calibration": false,
+    "cover_calibration": false,
+    "headband_calibration": false,
+    "hinge_retention_validation": false,
+    "Sony_model_specific_fit": false,
+    "acoustic_validation": false,
+    "thermal_validation": false
+  },
+  "all_ready": false,
+  "scope": "Checks presence only. Even populated files need traceability, units, uncertainty and expert review before calibration. Blank forms do not count as simulated or measured tests."
+}

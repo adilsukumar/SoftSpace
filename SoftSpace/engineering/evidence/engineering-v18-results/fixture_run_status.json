@@ -1,0 +1,65 @@
+{
+  "jobs": [
+    {
+      "script": "v18_stop_fixture.py",
+      "size": "child_large",
+      "h": 2.0,
+      "exit_code": 0
+    },
+    {
+      "script": "v18_stop_fixture.py",
+      "size": "child_large",
+      "h": 1.5,
+      "exit_code": 0
+    },
+    {
+      "script": "v18_stop_fixture.py",
+      "size": "adult_small",
+      "h": 2.0,
+      "exit_code": 0
+    },
+    {
+      "script": "v18_stop_fixture.py",
+      "size": "adult_small",
+      "h": 1.5,
+      "exit_code": 0
+    },
+    {
+      "script": "v18_band_fixture.py",
+      "size": "adult_small",
+      "h": 2.5,
+      "exit_code": 0
+    },
+    {
+      "script": "v18_band_fixture.py",
+      "size": "adult_small",
+      "h": 2.0,
+      "exit_code": 0
+    },
+    {
+      "script": "v18_band_fixture.py",
+      "size": "adult_medium",
+      "h": 2.5,
+      "exit_code": 0
+    },
+    {
+      "script": "v18_band_fixture.py",
+      "size": "adult_medium",
+      "h": 2.0,
+      "exit_code": 0
+    },
+    {
+      "script": "v18_band_fixture.py",
+      "size": "adult_large",
+      "h": 2.5,
+      "exit_code": 0
+    },
+    {
+      "script": "v18_band_fixture.py",
+      "size": "adult_large",
+      "h": 2.0,
+      "exit_code": 0
+    }
+  ],
+  "complete": true
+}

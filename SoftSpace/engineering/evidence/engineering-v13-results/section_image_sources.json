@@ -1,0 +1,11 @@
+{
+  "image": "${WORKSPACE}\\documents\\images\\V13_cap_section.png",
+  "source": "${WORKSPACE}\\EarDefender_V13_adult_small_Latched.step",
+  "source_sha256": "f10f87c24aeccfeeef6d72270ab1219152ffc710ea679794674ea46cd8cf3952",
+  "section_y_mm": -26,
+  "display_offsets_mm": {
+    "cap": 8,
+    "bolts": 14
+  },
+  "scope": "Actual CAD section, nominal hardware, no threads or real assembly trial"
+}

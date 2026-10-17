@@ -1,0 +1,56 @@
+{
+  "nodes": 11894,
+  "tet10_elements": 5821,
+  "assembly_method": "CSR batches of up to2048 elements",
+  "reduced_matrix_storage": true,
+  "coarse_preconditioner_modes": 12,
+  "cg_iterations": 5079,
+  "relative_free_residual": 5.644624416750351e-08,
+  "minimum_quadrature_jacobian_mm3": 0.17919792057377645,
+  "max_von_mises_centroid_MPa": 2.382902250151914,
+  "strain_energy_Nmm": 3.4707168448139005,
+  "reaction_sum_N": [
+    -1.999999999479828,
+    1.3050889653614092e-11,
+    -4.764366609566473e-10
+  ],
+  "sampled_peak_centroid_xyz_mm": [
+    84.3310804460037,
+    -9.119498591959328,
+    113.63467886714484
+  ],
+  "assumed_E_MPa": 2000,
+  "assumed_Poisson_ratio": 0.35,
+  "ideal_load_per_full_side_N": 2,
+  "size": "child_small",
+  "mesh_max_mm": 2.5,
+  "source": "${WORKSPACE}\\EarDefender_V12_child_small_Latched.step",
+  "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+  "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+  "load_method": "2 N uniform traction integrated over full guide bottom",
+  "load_face_area_mm2": 86.55999999999939,
+  "minimum_adaptive_Jacobian_mm3": 0.156915625183563,
+  "high_order_mesh_optimized": false,
+  "guide_weighted_x_displacement_mm": 3.470716845078276,
+  "compliance_mm_per_N": 1.735358422539138,
+  "restraint_nodes_xyz_mm": [
+    [
+      0.0,
+      12.0,
+      135.0
+    ],
+    [
+      0.0,
+      -12.0,
+      135.0
+    ]
+  ],
+  "seconds": 35.22198176383972,
+  "limits": [
+    "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+    "Restraints are numerical datums, not scalp contact",
+    "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+    "Peak stress not used as physical strength or comfort result",
+    "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+  ]
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "${WORKSPACE}\v16_tongue_fixture.py", line 41, in <module>
+    if __name__=='__main__':run(float(sys.argv[1]),sys.argv[2] if len(sys.argv)>2 else 'top134',sys.argv[3] if len(sys.argv)>3 else 'child_large_R16')
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "${WORKSPACE}\v16_tongue_fixture.py", line 27, in run
+    if minimum<=0:raise RuntimeError('Invalid high-order tongue mesh')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Invalid high-order tongue mesh

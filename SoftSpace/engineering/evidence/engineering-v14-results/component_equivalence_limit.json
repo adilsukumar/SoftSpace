@@ -1,0 +1,5 @@
+{
+  "status": "Not established by coincident-solid common",
+  "reason": "V13 pilot comparisons of inherited Band Tongue and Cup returned false while other inherited bodies passed. V14 independent-import equivalence was stopped because this kernel coincidence failure is already known; no equivalence or full FE transfer pass is claimed. V14 build source records V12 SHA and touches only forks pins and cap hardware.",
+  "V13_evidence": "engineering-v13-results/initial_cap_head_clash.json"
+}

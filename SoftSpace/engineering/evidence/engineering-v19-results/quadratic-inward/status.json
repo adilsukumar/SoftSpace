@@ -1,0 +1,39 @@
+{
+  "cases": [
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\child_large_h3.0.json",
+      "size": "child_large",
+      "h": 3.0,
+      "converged": true,
+      "change_percent": null,
+      "gate": null
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\child_large_h2.3.json",
+      "size": "child_large",
+      "h": 2.3,
+      "converged": true,
+      "change_percent": 0.3674398638910059,
+      "gate": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\adult_small_h3.0.json",
+      "size": "adult_small",
+      "h": 3.0,
+      "converged": true,
+      "change_percent": null,
+      "gate": null
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\adult_small_h2.3.json",
+      "size": "adult_small",
+      "h": 2.3,
+      "converged": true,
+      "change_percent": 0.33550984239072434,
+      "gate": true
+    }
+  ],
+  "complete": true,
+  "whole_joint_validated": false,
+  "scope": "Inward 2 N reference fixture, 140 N prescribed preload, assumed friction 0.2 and PA66 elastic reference. Same saved Tet10 meshes as outward cases. No resolved bolt, bearing clearance, creep or full worn model."
+}

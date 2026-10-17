@@ -1,0 +1,237 @@
+{
+  "sources": [
+    {
+      "file": "${WORKSPACE}\\EarDefender_V17_child_large_Entry25_Pilot.step",
+      "sha256": "7207ce4fdd19f9335d17ce8c8f6b49ee05e2aeaf20bd7ceaf96de39895074fe4"
+    },
+    {
+      "file": "${WORKSPACE}\\EarDefender_V17_adult_small_Entry25_Pilot.step",
+      "sha256": "5ec4ac21915e0367795dc3b95a95d11cf4ac45185b27ac66db145d560225667a"
+    }
+  ],
+  "case_count": 24,
+  "all_match": true,
+  "cases": [
+    {
+      "variant": "child_large_Entry25",
+      "side": "Left",
+      "offset_mm": 0.0,
+      "release_stroke_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_expectation": true
+    },
+    {
+      "variant": "child_large_Entry25",
+      "side": "Left",
+      "offset_mm": 0.14,
+      "release_stroke_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_expectation": true
+    },
+    {
+      "variant": "child_large_Entry25",
+      "side": "Left",
+      "offset_mm": 0.16,
+      "release_stroke_mm": 0,
+      "interference_mm3": 0.014991615311170029,
+      "expected_interference": true,
+      "matches_expectation": true
+    },
+    {
+      "variant": "child_large_Entry25",
+      "side": "Left",
+      "offset_mm": 0.3,
+      "release_stroke_mm": 2.9,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_expectation": true
+    },
+    {
+      "variant": "child_large_Entry25",
+      "side": "Left",
+      "offset_mm": 0.3,
+      "release_stroke_mm": 2.8,
+      "interference_mm3": 0.0009478313241010753,
+      "expected_interference": true,
+      "matches_expectation": true
+    },
+    {
+      "variant": "child_large_Entry25",
+      "side": "Left",
+      "offset_mm": 0.3,
+      "release_stroke_mm": 0,
+      "interference_mm3": 0.6629871280886069,
+      "expected_interference": true,
+      "matches_expectation": true
+    },
+    {
+      "variant": "child_large_Entry25",
+      "side": "Right",
+      "offset_mm": 0.0,
+      "release_stroke_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_expectation": true
+    },
+    {
+      "variant": "child_large_Entry25",
+      "side": "Right",
+      "offset_mm": 0.14,
+      "release_stroke_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_expectation": true
+    },
+    {
+      "variant": "child_large_Entry25",
+      "side": "Right",
+      "offset_mm": 0.16,
+      "release_stroke_mm": 0,
+      "interference_mm3": 0.014991615311703944,
+      "expected_interference": true,
+      "matches_expectation": true
+    },
+    {
+      "variant": "child_large_Entry25",
+      "side": "Right",
+      "offset_mm": 0.3,
+      "release_stroke_mm": 2.9,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_expectation": true
+    },
+    {
+      "variant": "child_large_Entry25",
+      "side": "Right",
+      "offset_mm": 0.3,
+      "release_stroke_mm": 2.8,
+      "interference_mm3": 0.0009478313240637049,
+      "expected_interference": true,
+      "matches_expectation": true
+    },
+    {
+      "variant": "child_large_Entry25",
+      "side": "Right",
+      "offset_mm": 0.3,
+      "release_stroke_mm": 0,
+      "interference_mm3": 0.6629871280892903,
+      "expected_interference": true,
+      "matches_expectation": true
+    },
+    {
+      "variant": "adult_small_Entry25",
+      "side": "Left",
+      "offset_mm": 0.0,
+      "release_stroke_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_expectation": true
+    },
+    {
+      "variant": "adult_small_Entry25",
+      "side": "Left",
+      "offset_mm": 0.14,
+      "release_stroke_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_expectation": true
+    },
+    {
+      "variant": "adult_small_Entry25",
+      "side": "Left",
+      "offset_mm": 0.16,
+      "release_stroke_mm": 0,
+      "interference_mm3": 0.014991615359049698,
+      "expected_interference": true,
+      "matches_expectation": true
+    },
+    {
+      "variant": "adult_small_Entry25",
+      "side": "Left",
+      "offset_mm": 0.3,
+      "release_stroke_mm": 2.9,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_expectation": true
+    },
+    {
+      "variant": "adult_small_Entry25",
+      "side": "Left",
+      "offset_mm": 0.3,
+      "release_stroke_mm": 2.8,
+      "interference_mm3": 0.0009478308410577744,
+      "expected_interference": true,
+      "matches_expectation": true
+    },
+    {
+      "variant": "adult_small_Entry25",
+      "side": "Left",
+      "offset_mm": 0.3,
+      "release_stroke_mm": 0,
+      "interference_mm3": 0.6629871212272394,
+      "expected_interference": true,
+      "matches_expectation": true
+    },
+    {
+      "variant": "adult_small_Entry25",
+      "side": "Right",
+      "offset_mm": 0.0,
+      "release_stroke_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_expectation": true
+    },
+    {
+      "variant": "adult_small_Entry25",
+      "side": "Right",
+      "offset_mm": 0.14,
+      "release_stroke_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_expectation": true
+    },
+    {
+      "variant": "adult_small_Entry25",
+      "side": "Right",
+      "offset_mm": 0.16,
+      "release_stroke_mm": 0,
+      "interference_mm3": 0.01499161530209588,
+      "expected_interference": true,
+      "matches_expectation": true
+    },
+    {
+      "variant": "adult_small_Entry25",
+      "side": "Right",
+      "offset_mm": 0.3,
+      "release_stroke_mm": 2.9,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_expectation": true
+    },
+    {
+      "variant": "adult_small_Entry25",
+      "side": "Right",
+      "offset_mm": 0.3,
+      "release_stroke_mm": 2.8,
+      "interference_mm3": 0.000947830839864907,
+      "expected_interference": true,
+      "matches_expectation": true
+    },
+    {
+      "variant": "adult_small_Entry25",
+      "side": "Right",
+      "offset_mm": 0.3,
+      "release_stroke_mm": 0,
+      "interference_mm3": 0.6629871210779154,
+      "expected_interference": true,
+      "matches_expectation": true
+    }
+  ],
+  "limits": [
+    "Wear position pin versus tongue only",
+    "Entry may admit an offset tip but cannot force the rest of an offset pin through the straight land",
+    "No friction force or spring centering behavior solved"
+  ]
+}

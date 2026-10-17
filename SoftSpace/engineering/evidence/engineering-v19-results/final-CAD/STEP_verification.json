@@ -1,0 +1,313 @@
+{
+  "case_count": 18,
+  "all_pass": true,
+  "cases": [
+    {
+      "size": "adult_large",
+      "phase": "Wear",
+      "file": "${WORKSPACE}\\EarDefender_V19_adult_large_Wear.step",
+      "sha256": "f8225e99a47873829e4697af3b7f1980f30bdf4ae165f710a49acd3e7308b1fc",
+      "source_sha256": "5d735cd7b2ef0a8e601480ad19ab7a00789b75e36ee7b994a36d89102add538a",
+      "solid_count": 42,
+      "all_valid": true,
+      "box_mm": [
+        276.06961881321,
+        90.0,
+        206.8
+      ],
+      "box_error_mm": 0.0,
+      "volume_error_mm3": 1.1641532182693481e-10,
+      "pass_result": true
+    },
+    {
+      "size": "adult_large",
+      "phase": "Retracted",
+      "file": "${WORKSPACE}\\EarDefender_V19_adult_large_Retracted.step",
+      "sha256": "211de4c5f7a611d0cdc76da791d1c614047269ca0c013360a87a648ed82ff4d8",
+      "source_sha256": "5d735cd7b2ef0a8e601480ad19ab7a00789b75e36ee7b994a36d89102add538a",
+      "solid_count": 42,
+      "all_valid": true,
+      "box_mm": [
+        276.06961881321,
+        90.0,
+        191.8
+      ],
+      "box_error_mm": 0.0,
+      "volume_error_mm3": 1.1641532182693481e-10,
+      "pass_result": true
+    },
+    {
+      "size": "adult_large",
+      "phase": "Folded",
+      "file": "${WORKSPACE}\\EarDefender_V19_adult_large_Folded.step",
+      "sha256": "105df8fbd6bd4653284bc5fe02fed58021f4b963d77415b73e8313a89ebc65b8",
+      "source_sha256": "5d735cd7b2ef0a8e601480ad19ab7a00789b75e36ee7b994a36d89102add538a",
+      "solid_count": 42,
+      "all_valid": true,
+      "box_mm": [
+        258.34611546116264,
+        90.0,
+        171.9602540378422
+      ],
+      "box_error_mm": 7.241851562866941e-11,
+      "volume_error_mm3": 1.1641532182693481e-10,
+      "pass_result": true
+    },
+    {
+      "size": "adult_medium",
+      "phase": "Wear",
+      "file": "${WORKSPACE}\\EarDefender_V19_adult_medium_Wear.step",
+      "sha256": "8988588485d88ba7684a3b5fbffa95c963f356196d1bfc4ba63a1a2675314fbf",
+      "source_sha256": "3ffa4d86f9949668a241b560246be93d0bb3acd3d63fe1f7340e55b55d819c4b",
+      "solid_count": 42,
+      "all_valid": true,
+      "box_mm": [
+        259.87123133983,
+        90.0,
+        206.8
+      ],
+      "box_error_mm": 0.0,
+      "volume_error_mm3": 5.820766091346741e-11,
+      "pass_result": true
+    },
+    {
+      "size": "adult_medium",
+      "phase": "Retracted",
+      "file": "${WORKSPACE}\\EarDefender_V19_adult_medium_Retracted.step",
+      "sha256": "0701932f6c417acdbad8ea883f3cc478aeabf890c27ae32eab93e7af4ecbeee7",
+      "source_sha256": "3ffa4d86f9949668a241b560246be93d0bb3acd3d63fe1f7340e55b55d819c4b",
+      "solid_count": 42,
+      "all_valid": true,
+      "box_mm": [
+        259.87123133983,
+        90.0,
+        191.8
+      ],
+      "box_error_mm": 0.0,
+      "volume_error_mm3": 5.820766091346741e-11,
+      "pass_result": true
+    },
+    {
+      "size": "adult_medium",
+      "phase": "Folded",
+      "file": "${WORKSPACE}\\EarDefender_V19_adult_medium_Folded.step",
+      "sha256": "47fb59c3b767f713599dac7f178827da45751c52082375df568cff083ccdfa93",
+      "source_sha256": "3ffa4d86f9949668a241b560246be93d0bb3acd3d63fe1f7340e55b55d819c4b",
+      "solid_count": 42,
+      "all_valid": true,
+      "box_mm": [
+        242.14772798779734,
+        90.0,
+        171.96025403784637
+      ],
+      "box_error_mm": 6.519940143334679e-11,
+      "volume_error_mm3": 1.7462298274040222e-10,
+      "pass_result": true
+    },
+    {
+      "size": "adult_small",
+      "phase": "Wear",
+      "file": "${WORKSPACE}\\EarDefender_V19_adult_small_Wear.step",
+      "sha256": "a82039d76d4f660cbb3a9f60b4157c0e494b1ce9323f2b0148a1e7d2a9067019",
+      "source_sha256": "035aa0b663212ab25ef478dd2c23e883bcdfd35df3525eacfb5977bd6042285c",
+      "solid_count": 42,
+      "all_valid": true,
+      "box_mm": [
+        243.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "box_error_mm": 0.0,
+      "volume_error_mm3": 1.1641532182693481e-10,
+      "pass_result": true
+    },
+    {
+      "size": "adult_small",
+      "phase": "Retracted",
+      "file": "${WORKSPACE}\\EarDefender_V19_adult_small_Retracted.step",
+      "sha256": "0d181cf329450b253df285fc26c1e48f4d80d82c883ed3fd80805bff61d8e1db",
+      "source_sha256": "035aa0b663212ab25ef478dd2c23e883bcdfd35df3525eacfb5977bd6042285c",
+      "solid_count": 42,
+      "all_valid": true,
+      "box_mm": [
+        243.42028468362,
+        90.0,
+        191.799999999991
+      ],
+      "box_error_mm": 0.0,
+      "volume_error_mm3": 1.1641532182693481e-10,
+      "pass_result": true
+    },
+    {
+      "size": "adult_small",
+      "phase": "Folded",
+      "file": "${WORKSPACE}\\EarDefender_V19_adult_small_Folded.step",
+      "sha256": "ec0a783bcfcfd8b489510e1569c6d568784bb7ce6e98aa8bdd0f3108963e275f",
+      "source_sha256": "035aa0b663212ab25ef478dd2c23e883bcdfd35df3525eacfb5977bd6042285c",
+      "solid_count": 42,
+      "all_valid": true,
+      "box_mm": [
+        229.34780694067334,
+        90.0,
+        194.60256121067835
+      ],
+      "box_error_mm": 5.454126039694529e-11,
+      "volume_error_mm3": 0.0,
+      "pass_result": true
+    },
+    {
+      "size": "child_large",
+      "phase": "Wear",
+      "file": "${WORKSPACE}\\EarDefender_V19_child_large_Wear.step",
+      "sha256": "1f28fd3e4dfb15c9bdb197c5117baceaf3774730252262459d4809a08b41acc8",
+      "source_sha256": "5b6c1004fae84fdd7b6849d831d570f60b0d5520697ab92ff4f7c2cd29ddaa9b",
+      "solid_count": 42,
+      "all_valid": true,
+      "box_mm": [
+        242.63174650304,
+        77.25,
+        183.62500000000006
+      ],
+      "box_error_mm": 0.0,
+      "volume_error_mm3": 5.820766091346741e-11,
+      "pass_result": true
+    },
+    {
+      "size": "child_large",
+      "phase": "Retracted",
+      "file": "${WORKSPACE}\\EarDefender_V19_child_large_Retracted.step",
+      "sha256": "084e3fe72a6ee64a94b190775fe4124e6964d52dc977bc74ab86efa6b0d42c62",
+      "source_sha256": "5b6c1004fae84fdd7b6849d831d570f60b0d5520697ab92ff4f7c2cd29ddaa9b",
+      "solid_count": 42,
+      "all_valid": true,
+      "box_mm": [
+        242.63174650304,
+        77.25,
+        181.125
+      ],
+      "box_error_mm": 0.0,
+      "volume_error_mm3": 5.820766091346741e-11,
+      "pass_result": true
+    },
+    {
+      "size": "child_large",
+      "phase": "Folded",
+      "file": "${WORKSPACE}\\EarDefender_V19_child_large_Folded.step",
+      "sha256": "aa8e6ac6ff99d71ca1d0855473c2963e42faeb20df883db81fba0acc4e2db785",
+      "source_sha256": "5b6c1004fae84fdd7b6849d831d570f60b0d5520697ab92ff4f7c2cd29ddaa9b",
+      "solid_count": 42,
+      "all_valid": true,
+      "box_mm": [
+        239.71058482795212,
+        77.25,
+        171.90694597661488
+      ],
+      "box_error_mm": 1.531930138298776e-11,
+      "volume_error_mm3": 1.1641532182693481e-10,
+      "pass_result": true
+    },
+    {
+      "size": "child_medium",
+      "phase": "Wear",
+      "file": "${WORKSPACE}\\EarDefender_V19_child_medium_Wear.step",
+      "sha256": "8fafedd123e3ed0cd84433bf988f99ae36c8f9aa89b22d4425fd6f15fab03876",
+      "source_sha256": "ab2a0c221b24772d61a8b1b63c2cbb3002bcee2f0a5bb42cf98d3690eca43b1c",
+      "solid_count": 42,
+      "all_valid": true,
+      "box_mm": [
+        232.10425879803,
+        77.25,
+        183.62500000000003
+      ],
+      "box_error_mm": 0.0,
+      "volume_error_mm3": 1.1641532182693481e-10,
+      "pass_result": true
+    },
+    {
+      "size": "child_medium",
+      "phase": "Retracted",
+      "file": "${WORKSPACE}\\EarDefender_V19_child_medium_Retracted.step",
+      "sha256": "bf38f3cd0cab359595802e073e2882945c6fd43a966ed184116419f6441a2434",
+      "source_sha256": "ab2a0c221b24772d61a8b1b63c2cbb3002bcee2f0a5bb42cf98d3690eca43b1c",
+      "solid_count": 42,
+      "all_valid": true,
+      "box_mm": [
+        232.10425879803,
+        77.25,
+        181.125
+      ],
+      "box_error_mm": 0.0,
+      "volume_error_mm3": 1.1641532182693481e-10,
+      "pass_result": true
+    },
+    {
+      "size": "child_medium",
+      "phase": "Folded",
+      "file": "${WORKSPACE}\\EarDefender_V19_child_medium_Folded.step",
+      "sha256": "5513ed27184340e6badf6609b4b948bd2b79385973822711bd747fac5eda50a4",
+      "source_sha256": "ab2a0c221b24772d61a8b1b63c2cbb3002bcee2f0a5bb42cf98d3690eca43b1c",
+      "solid_count": 42,
+      "all_valid": true,
+      "box_mm": [
+        227.5990366150626,
+        77.25,
+        187.1127749652872
+      ],
+      "box_error_mm": 1.6001422409317456e-11,
+      "volume_error_mm3": 5.820766091346741e-11,
+      "pass_result": true
+    },
+    {
+      "size": "child_small",
+      "phase": "Wear",
+      "file": "${WORKSPACE}\\EarDefender_V19_child_small_Wear.step",
+      "sha256": "71741340f27d1d7cf85890fe794dcc461cab4023a8d461ff139a2a2786b76fef",
+      "source_sha256": "1d5fd978aad75a4a4fcf0c4728c25d9b34fba0487c21064ab1da67380b88e467",
+      "solid_count": 42,
+      "all_valid": true,
+      "box_mm": [
+        220.90654293864,
+        77.25,
+        183.625
+      ],
+      "box_error_mm": 0.0,
+      "volume_error_mm3": 5.820766091346741e-11,
+      "pass_result": true
+    },
+    {
+      "size": "child_small",
+      "phase": "Retracted",
+      "file": "${WORKSPACE}\\EarDefender_V19_child_small_Retracted.step",
+      "sha256": "581fe2081a62bd80d0183d54a13673d0bc37877bb15ea1b28a483aaf20ac3c3b",
+      "source_sha256": "1d5fd978aad75a4a4fcf0c4728c25d9b34fba0487c21064ab1da67380b88e467",
+      "solid_count": 42,
+      "all_valid": true,
+      "box_mm": [
+        220.90654293864,
+        77.25,
+        181.125
+      ],
+      "box_error_mm": 0.0,
+      "volume_error_mm3": 5.820766091346741e-11,
+      "pass_result": true
+    },
+    {
+      "size": "child_small",
+      "phase": "Folded",
+      "file": "${WORKSPACE}\\EarDefender_V19_child_small_Folded.step",
+      "sha256": "ba28ee8fdb196f500ec95444475465ce7ff2ff9ed264b2586b69d9a26596056b",
+      "source_sha256": "1d5fd978aad75a4a4fcf0c4728c25d9b34fba0487c21064ab1da67380b88e467",
+      "solid_count": 42,
+      "all_valid": true,
+      "box_mm": [
+        211.85316301812932,
+        77.25,
+        187.11277496528757
+      ],
+      "box_error_mm": 4.885691851086449e-11,
+      "volume_error_mm3": 5.820766091346741e-11,
+      "pass_result": true
+    }
+  ],
+  "scope": "OCP import checks count validity volume and pose bounds. No native Fusion feature tree or physical validation."
+}

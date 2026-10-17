@@ -1,0 +1,95 @@
+{
+  "recipes": [
+    {
+      "scenario": "child_small",
+      "family": "child",
+      "target_comparison_force_N": 2,
+      "predicted_N": 2.0000795521845802,
+      "head_breadth_mm": 120,
+      "band_rest_halfspan_mm": 75.93780124499791,
+      "band_arch_height_mm": 60,
+      "band_thickness_mm": 1.6,
+      "band_width_mm": 24,
+      "compressed_mount_span_mm": 181.75157905249583,
+      "contact_fraction_at_target": 0.9208653721703541,
+      "E_MPa": 2000
+    },
+    {
+      "scenario": "child_medium",
+      "family": "child",
+      "target_comparison_force_N": 2,
+      "predicted_N": 1.9998815868025641,
+      "head_breadth_mm": 130,
+      "band_rest_halfspan_mm": 81.94026035917076,
+      "band_arch_height_mm": 60,
+      "band_thickness_mm": 1.6,
+      "band_width_mm": 24,
+      "compressed_mount_span_mm": 193.51626290584153,
+      "contact_fraction_at_target": 0.9586533443704213,
+      "E_MPa": 2000
+    },
+    {
+      "scenario": "child_large",
+      "family": "child",
+      "target_comparison_force_N": 2,
+      "predicted_N": 2.0001268366700073,
+      "head_breadth_mm": 140,
+      "band_rest_halfspan_mm": 87.59915288608079,
+      "band_arch_height_mm": 60,
+      "band_thickness_mm": 1.6,
+      "band_width_mm": 24,
+      "compressed_mount_span_mm": 204.57623545966158,
+      "contact_fraction_at_target": 0.9974444660042499,
+      "E_MPa": 2000
+    },
+    {
+      "scenario": "adult_small",
+      "family": "adult",
+      "target_comparison_force_N": 2,
+      "predicted_N": 1.999619014120177,
+      "head_breadth_mm": 140,
+      "band_rest_halfspan_mm": 91.8764249927715,
+      "band_arch_height_mm": 70,
+      "band_thickness_mm": 2.3,
+      "band_width_mm": 28,
+      "compressed_mount_span_mm": 201.763592173043,
+      "contact_fraction_at_target": 0.7414990845672664,
+      "E_MPa": 2000
+    },
+    {
+      "scenario": "adult_medium",
+      "family": "adult",
+      "target_comparison_force_N": 2,
+      "predicted_N": 1.9997690176005636,
+      "head_breadth_mm": 155,
+      "band_rest_halfspan_mm": 100.13634033554366,
+      "band_arch_height_mm": 70,
+      "band_thickness_mm": 2.3,
+      "band_width_mm": 28,
+      "compressed_mount_span_mm": 218.67600098358733,
+      "contact_fraction_at_target": 0.8663891366701033,
+      "E_MPa": 2000
+    },
+    {
+      "scenario": "adult_large",
+      "family": "adult",
+      "target_comparison_force_N": 2,
+      "predicted_N": 1.9997608375404017,
+      "head_breadth_mm": 170,
+      "band_rest_halfspan_mm": 108.33683034807207,
+      "band_arch_height_mm": 70,
+      "band_thickness_mm": 2.3,
+      "band_width_mm": 28,
+      "compressed_mount_span_mm": 235.42854350864414,
+      "contact_fraction_at_target": 0.9692507870982103,
+      "E_MPa": 2000
+    }
+  ],
+  "status": "numerical size recipes; not yet generated as CAD variants",
+  "limitations": [
+    "2 N is only a common comparison load, not an acceptable load for any particular person",
+    "Assumed E=2000 MPa and standard rounded frame; other material/frames change fit",
+    "Same two cushion families; actual ears/head anatomy and contact convergence require validation",
+    "Recipes alter circular-cap span; manufacture and material springback unverified"
+  ]
+}

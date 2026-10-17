@@ -1,0 +1,962 @@
+{
+  "cases": [
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 10,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        77.25,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 0
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 10,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        77.25,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 2
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 10,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        77.625,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 5
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 2,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        82.625,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 10
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 0,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        92.625,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 20
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        77.25,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 0
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        77.625,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 2
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        81.625,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 6
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        87.625,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 12
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 0,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        100.625,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 25
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 0,
+      "bbox_dimensions_mm": [
+        234.90654293864,
+        115.625,
+        183.625
+      ],
+      "size": "child_small",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 40
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 10,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        77.25,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 0
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 10,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        77.25,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 2
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 10,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        77.625,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 5
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 2,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        82.625,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 10
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 0,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        92.625,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 20
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        77.25,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 0
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        77.625,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 2
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        81.625,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 6
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        87.625,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 12
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 0,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        100.625,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 25
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 0,
+      "bbox_dimensions_mm": [
+        246.10425879803,
+        115.625,
+        183.62500000000003
+      ],
+      "size": "child_medium",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 40
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 10,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        77.25,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 0
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 10,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        77.25,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 2
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 10,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        77.625,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 5
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 2,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        82.625,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 10
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 0,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        92.625,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 20
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        77.25,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 0
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        77.625,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 2
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        81.625,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 6
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        87.625,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 12
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 0,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        100.625,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 25
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 0,
+      "bbox_dimensions_mm": [
+        256.63174650304,
+        115.625,
+        183.62500000000006
+      ],
+      "size": "child_large",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 40
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 14,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 0
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 14,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 2
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 14,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 5
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 10
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        99.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 20
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 0
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 2
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 6
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        94.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 12
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 0,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        107.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 25
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 0,
+      "bbox_dimensions_mm": [
+        257.42028468362,
+        122.0,
+        206.799999999991
+      ],
+      "size": "adult_small",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 40
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 14,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 0
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 14,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 2
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 14,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 5
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 10
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        99.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 20
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 0
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 2
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 6
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        94.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 12
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 0,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        107.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 25
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 0,
+      "bbox_dimensions_mm": [
+        273.87123133983,
+        122.0,
+        206.8
+      ],
+      "size": "adult_medium",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 40
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 14,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 0
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 14,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 2
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 14,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 5
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 10
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        99.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "rear cap axial removal with bolts and knob removed",
+      "offset_mm": 20
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 0
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 2
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 6
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        94.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 12
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 0,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        107.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 25
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 0,
+      "bbox_dimensions_mm": [
+        290.06961881321,
+        122.0,
+        206.8
+      ],
+      "size": "adult_large",
+      "phase": "pin and held spring envelope withdrawal with cap absent",
+      "offset_mm": 40
+    }
+  ],
+  "case_count": 66,
+  "all_pass": true,
+  "sources": [
+    {
+      "size": "child_small",
+      "sha256": "76c3bf039bb4155bbcfb6b982637f1eea2494c727119289ff7cade88f2b80e3c"
+    },
+    {
+      "size": "child_medium",
+      "sha256": "396d0ad3cd597de1dea05eed85a894507d375b4fe036a95e9e05370754e30477"
+    },
+    {
+      "size": "child_large",
+      "sha256": "171a7479ee9e5dcb8d6c6814bbbbf87e185f9c94ab2a72293d5c36b76a139573"
+    },
+    {
+      "size": "adult_small",
+      "sha256": "833a19ab651d82411c211d2a396f405079728fcb87351a9b0cd3c627c2bed8fb"
+    },
+    {
+      "size": "adult_medium",
+      "sha256": "20d17dde2d558568d489ad636a047374943dd13e728a6719dacae21293bd5a77"
+    },
+    {
+      "size": "adult_large",
+      "sha256": "a3ceb8b893e894b27deddd57d3370f5dffe2701de1982140760b65df2695af54"
+    }
+  ],
+  "limits": [
+    "Discrete rigid samples, not continuous assembly or physical servicing",
+    "Knob and cap screws removed beforehand; threads, tooling, retained knob and nut access are not qualified",
+    "Spring allocation held at15mm by an unspecified fixture during withdrawal; actual coil free expansion and handling not simulated",
+    "Reverse path proposes assembly but does not prove manufacturability, low cost or child safety"
+  ]
+}

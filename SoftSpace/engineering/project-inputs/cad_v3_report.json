@@ -1,0 +1,197 @@
+{
+  "status": "complete",
+  "files": [
+    "${WORKSPACE}\\ReplacementCushion_V3_adult_20261012_141900.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V3_adult_20261012_141900.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V3_adult_20261012_141900.f3d",
+    "${WORKSPACE}\\ReplacementCushion_V3_child_20261012_141900.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V3_child_20261012_141900.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V3_child_20261012_141900.f3d"
+  ],
+  "workspaces": [
+    {
+      "id": "TSplineEnvironment",
+      "name": "Form"
+    },
+    {
+      "id": "FusionSolidEnvironment",
+      "name": "Design"
+    },
+    {
+      "id": "GenerativeEnvironment",
+      "name": "Generative Design"
+    },
+    {
+      "id": "EditModelWMEnv",
+      "name": "Edit Model"
+    },
+    {
+      "id": "ExploreEnvironment",
+      "name": "Explore"
+    },
+    {
+      "id": "FusionSurfaceEnvironment",
+      "name": "Surface"
+    },
+    {
+      "id": "FusionSheetMetalEnvironment",
+      "name": "Sheet Metal"
+    },
+    {
+      "id": "PCBEnvironment",
+      "name": "PCB"
+    },
+    {
+      "id": "PCB3DEnvironment",
+      "name": "3D PCB"
+    },
+    {
+      "id": "Package3DEnvironment",
+      "name": "Package"
+    },
+    {
+      "id": "FusionRenderEnvironment",
+      "name": "Render"
+    },
+    {
+      "id": "Publisher3DEnvironment",
+      "name": "Animation"
+    },
+    {
+      "id": "SimulationEnvironment",
+      "name": "Simulation"
+    },
+    {
+      "id": "SimplifyWMEnv",
+      "name": "Simplify"
+    },
+    {
+      "id": "SimCompareEnvironment",
+      "name": "Compare"
+    },
+    {
+      "id": "CAMEnvironment",
+      "name": "Manufacture"
+    },
+    {
+      "id": "DebugEnvironment",
+      "name": "Debug"
+    },
+    {
+      "id": "FusionModelingEnvironment",
+      "name": "Modeling"
+    },
+    {
+      "id": "FusionAssembleEnvironment",
+      "name": "Assemble"
+    },
+    {
+      "id": "FusionVisualizationEnvironment",
+      "name": "Visualization"
+    },
+    {
+      "id": "ResultsViewerEnvironmentDora",
+      "name": "ResultsViewerDora"
+    },
+    {
+      "id": "ResultsViewerEnvironmentHawkeye",
+      "name": "ResultsViewerHawkeye"
+    },
+    {
+      "id": "MfgWorkingModelEnv",
+      "name": "Prepare"
+    },
+    {
+      "id": "MachineBuilderEnvironment",
+      "name": "Machine Builder"
+    },
+    {
+      "id": "FusionDocumentationEnvironment",
+      "name": "Drawing"
+    },
+    {
+      "id": "FusionDrawingsBlockEditorEnv",
+      "name": "Drawings Block Editor"
+    },
+    {
+      "id": "FusionDrawingsSketchEnv",
+      "name": "Drawings Sketch Editor"
+    },
+    {
+      "id": "FusionDrawingsSketchSymbolEnv",
+      "name": "Drawings Sketch Symbol Editor"
+    },
+    {
+      "id": "FusionDrawingsViewSketchEnv",
+      "name": "Drawings Sketch Editor"
+    },
+    {
+      "id": "ElectronEmptyLbrEnvironment",
+      "name": "Electronics Library"
+    },
+    {
+      "id": "ElectronDeviceEnvironment",
+      "name": "Electronics Library - Component"
+    },
+    {
+      "id": "ElectronFootprintEnvironment",
+      "name": "Electronics Library - Footprint"
+    },
+    {
+      "id": "ElectronSymbolEnvironment",
+      "name": "Electronics Library - Symbol"
+    },
+    {
+      "id": "ElectronPackageEnvironment",
+      "name": "Electronics 3D Package"
+    },
+    {
+      "id": "PCBDesignEnvironement",
+      "name": "Electronics Design"
+    },
+    {
+      "id": "SchEditorEnvironement",
+      "name": "Schematic Editor"
+    },
+    {
+      "id": "BoardLayoutEnvironement",
+      "name": "PCB Editor"
+    },
+    {
+      "id": "ParaMeshEnvironment",
+      "name": "ParaMesh"
+    }
+  ],
+  "stages": [
+    "adult: doc created",
+    "adult: curved cushion and solid wrap complete",
+    "child: doc created",
+    "child: curved cushion and solid wrap complete"
+  ],
+  "adult": {
+    "foam_volume_mm3": 95045.11186974814,
+    "analytic_foam_volume_mm3": 95086.36855491117,
+    "cover_volume_mm3": 3939.870871886015,
+    "child_uses_own_scaled_pad": false,
+    "own_product_bodies": 21,
+    "configuration": "unloaded rest band, not a worn head pose",
+    "production_ready": false
+  },
+  "child": {
+    "foam_volume_mm3": 67872.84705037465,
+    "analytic_foam_volume_mm3": 67875.63960270256,
+    "cover_volume_mm3": 3107.6415531184552,
+    "child_uses_own_scaled_pad": true,
+    "own_product_bodies": 21,
+    "configuration": "unloaded rest band, not a worn head pose",
+    "production_ready": false
+  },
+  "limitations": [
+    "Provisional hardware clearance/retention geometry; no kinematic joints, detents, retention force or drop testing.",
+    "Curved cushion has sharp lofted rims; finishing radius and exact normal cover thickness remain production refinements.",
+    "Cover is solid with 0.2 mm vertical/radial envelope offsets, not uniform normal thickness.",
+    "Imported base bodies are frozen geometry; rerun with edited JSON to regenerate.",
+    "Mount carrier is an interface blank; no third-party headphone fit claimed.",
+    "No measured foam/cover properties or acoustic certification."
+  ]
+}

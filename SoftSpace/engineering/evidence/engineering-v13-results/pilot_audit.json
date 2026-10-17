@@ -1,0 +1,460 @@
+{
+  "sizes": [
+    {
+      "size": "adult_small",
+      "source_sha256": "a8551931c99b3fc4c0a9f4b14207b4eee653370b9322663a2a843d81b6b0b814",
+      "solid_validity_checks": [
+        {
+          "part": "LeftMainFoam",
+          "valid": true,
+          "volume_mm3": 99638.83712892835,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "LeftSoftGlassesZone",
+          "valid": true,
+          "volume_mm3": 5328.6694612045885,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "LeftContinuousCover",
+          "valid": true,
+          "volume_mm3": 4191.537987627687,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "LeftCarrier",
+          "valid": true,
+          "volume_mm3": 5427.174599099879,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "LeftCup",
+          "valid": true,
+          "volume_mm3": 43569.178749798455,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "LeftLiner",
+          "valid": true,
+          "volume_mm3": 16201.459355713341,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "LeftFork",
+          "valid": true,
+          "volume_mm3": 11236.438029406407,
+          "self_common_mm3": 11236.438029406407,
+          "positive_common_control_performed": true,
+          "pass": true
+        },
+        {
+          "part": "LeftTongue",
+          "valid": true,
+          "volume_mm3": 6103.324244088335,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "LeftCupPin",
+          "valid": true,
+          "volume_mm3": 379.95474536996227,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "LeftCupPinCap",
+          "valid": true,
+          "volume_mm3": 14.110456357003473,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "LeftForkPin",
+          "valid": true,
+          "volume_mm3": 200.94464135514963,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "LeftForkPinCap",
+          "valid": true,
+          "volume_mm3": 8.576944060139352,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightMainFoam",
+          "valid": true,
+          "volume_mm3": 99638.83712891169,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightSoftGlassesZone",
+          "valid": true,
+          "volume_mm3": 5328.669461205521,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightContinuousCover",
+          "valid": true,
+          "volume_mm3": 4191.537987636306,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightCarrier",
+          "valid": true,
+          "volume_mm3": 5427.174599099938,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightCup",
+          "valid": true,
+          "volume_mm3": 43569.178749811195,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightLiner",
+          "valid": true,
+          "volume_mm3": 16201.459355725303,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightFork",
+          "valid": true,
+          "volume_mm3": 11236.438023620645,
+          "self_common_mm3": 11236.438023620645,
+          "positive_common_control_performed": true,
+          "pass": true
+        },
+        {
+          "part": "RightTongue",
+          "valid": true,
+          "volume_mm3": 6103.324244093231,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightCupPin",
+          "valid": true,
+          "volume_mm3": 379.95474536996227,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightCupPinCap",
+          "valid": true,
+          "volume_mm3": 14.110456357003827,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightForkPin",
+          "valid": true,
+          "volume_mm3": 200.94464135514963,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightForkPinCap",
+          "valid": true,
+          "volume_mm3": 8.57694406013935,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "LeftSliderKnob",
+          "valid": true,
+          "volume_mm3": 221.63936171076193,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightSliderKnob",
+          "valid": true,
+          "volume_mm3": 221.6393617107619,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "Band",
+          "valid": true,
+          "volume_mm3": 26566.217147601656,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "CrownPad",
+          "valid": true,
+          "volume_mm3": 39850.614968617425,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "LeftLockPin",
+          "valid": true,
+          "volume_mm3": 233.8523031515909,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "LeftSpringSpace",
+          "valid": true,
+          "volume_mm3": 98.96016858808022,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightLockPin",
+          "valid": true,
+          "volume_mm3": 233.8523031515909,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightSpringSpace",
+          "valid": true,
+          "volume_mm3": 98.96016858808022,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "LeftCapBolt1",
+          "valid": true,
+          "volume_mm3": 24.12743157956946,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "LeftCapNut1",
+          "valid": true,
+          "volume_mm3": 10.286221254686346,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "LeftCapBolt2",
+          "valid": true,
+          "volume_mm3": 24.127431579569432,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "LeftCapNut2",
+          "valid": true,
+          "volume_mm3": 10.286221254686273,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "LeftServiceCap",
+          "valid": true,
+          "volume_mm3": 843.7719663509017,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightCapBolt1",
+          "valid": true,
+          "volume_mm3": 24.12743157956946,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightCapNut1",
+          "valid": true,
+          "volume_mm3": 10.28622125468635,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightCapBolt2",
+          "valid": true,
+          "volume_mm3": 24.127431579569432,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightCapNut2",
+          "valid": true,
+          "volume_mm3": 10.286221254686273,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        },
+        {
+          "part": "RightServiceCap",
+          "valid": true,
+          "volume_mm3": 843.7719663515246,
+          "self_common_mm3": null,
+          "positive_common_control_performed": false,
+          "pass": true
+        }
+      ],
+      "nominal_changed_pair_check": {
+        "pass": false,
+        "overlaps": [
+          {
+            "parts": [
+              "LeftCapBolt2",
+              "LeftServiceCap"
+            ],
+            "intersection_mm3": 9.519025740377115
+          },
+          {
+            "parts": [
+              "RightCapBolt2",
+              "RightServiceCap"
+            ],
+            "intersection_mm3": 9.519025740377115
+          }
+        ],
+        "errors": [],
+        "boolean_count": 48,
+        "bbox_dimensions_mm": [
+          257.42028468362,
+          90.0,
+          206.799999999991
+        ]
+      },
+      "unchanged_component_checks": [
+        {
+          "part": "Band",
+          "source_volume_mm3": 26566.217147601652,
+          "candidate_volume_mm3": 26566.217147601656,
+          "common_mm3": 22.61946710584651,
+          "pass": false
+        },
+        {
+          "part": "CrownPad",
+          "source_volume_mm3": 39850.614968617425,
+          "candidate_volume_mm3": 39850.614968617425,
+          "common_mm3": 39850.614968617425,
+          "pass": true
+        },
+        {
+          "part": "LeftTongue",
+          "source_volume_mm3": 6103.324244088326,
+          "candidate_volume_mm3": 6103.324244088335,
+          "common_mm3": 0.0,
+          "pass": false
+        },
+        {
+          "part": "RightTongue",
+          "source_volume_mm3": 6103.324244093164,
+          "candidate_volume_mm3": 6103.324244093231,
+          "common_mm3": 0.0,
+          "pass": false
+        },
+        {
+          "part": "LeftCup",
+          "source_volume_mm3": 43569.178749798266,
+          "candidate_volume_mm3": 43569.178749798455,
+          "common_mm3": 0.0,
+          "pass": false
+        },
+        {
+          "part": "RightCup",
+          "source_volume_mm3": 43569.178749811326,
+          "candidate_volume_mm3": 43569.178749811195,
+          "common_mm3": 0.0,
+          "pass": false
+        },
+        {
+          "part": "LeftMainFoam",
+          "source_volume_mm3": 99638.83712892835,
+          "candidate_volume_mm3": 99638.83712892835,
+          "common_mm3": 99638.83712892835,
+          "pass": true
+        },
+        {
+          "part": "RightMainFoam",
+          "source_volume_mm3": 99638.83712891169,
+          "candidate_volume_mm3": 99638.83712891169,
+          "common_mm3": 99638.83712891169,
+          "pass": true
+        },
+        {
+          "part": "LeftCarrier",
+          "source_volume_mm3": 5427.174599099879,
+          "candidate_volume_mm3": 5427.174599099879,
+          "common_mm3": 5427.174599099879,
+          "pass": true
+        },
+        {
+          "part": "RightCarrier",
+          "source_volume_mm3": 5427.174599099938,
+          "candidate_volume_mm3": 5427.174599099938,
+          "common_mm3": 5427.174599099938,
+          "pass": true
+        },
+        {
+          "part": "LeftContinuousCover",
+          "source_volume_mm3": 4191.537987628181,
+          "candidate_volume_mm3": 4191.537987627687,
+          "common_mm3": 4191.537987628181,
+          "pass": true
+        },
+        {
+          "part": "RightContinuousCover",
+          "source_volume_mm3": 4191.5379876367715,
+          "candidate_volume_mm3": 4191.537987636306,
+          "common_mm3": 4191.5379876367715,
+          "pass": true
+        }
+      ],
+      "seconds": 213.89103317260742
+    }
+  ],
+  "scope": "All V13 solids valid; changed-body pairs checked against all bodies. Unchanged V12 nominal pairs rely on their recorded source audit. Coincident component-common failures are kept as failures, not claimed equivalence."
+}

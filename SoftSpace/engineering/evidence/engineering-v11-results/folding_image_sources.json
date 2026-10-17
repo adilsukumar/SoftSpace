@@ -1,0 +1,13 @@
+{
+  "image": "${WORKSPACE}\\documents\\images\\V11_folding_study.png",
+  "sources": [
+    {
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8"
+    },
+    {
+      "source": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_medium_L75_R60.step",
+      "sha256": "ee92a096d938bf18c112e3c9f4ded6f4444678a76b165b83f435a8bb1db955e6"
+    }
+  ]
+}

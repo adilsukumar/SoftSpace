@@ -1,0 +1,28 @@
+{
+  "model": "Sony WH-CH720N",
+  "selected_by_user": true,
+  "owned_by_user": true,
+  "measurement_plan": "User will measure later; no dimensions supplied yet.",
+  "checked_date": "2026-10-13",
+  "removable_pads_confirmed": true,
+  "mount": "Sony replacement instructions describe a pad edge fitted into the housing groove, with top and bottom slots and arrows aligned.",
+  "source": "https://www.sony.co.uk/electronics/support/wireless-headphones-bluetooth-headphones/articles/00295193",
+  "specification_source": "https://www.sony.co.in/electronics/support/wireless-headphones-bluetooth-headphones/wh-ch720n/specifications",
+  "weight_g": 192,
+  "mount_dimensions_mm": null,
+  "pad_dimensions_mm": null,
+  "headband_force_N": null,
+  "compatibility_status": "Target selected; our generic pad is not yet compatible or tested.",
+  "measurements_needed": [
+    "Original pad outer width and height, ear opening width and height, relaxed and compressed depth",
+    "Housing groove contour, opening, depth and pad skirt insertion length and thickness",
+    "Top and bottom alignment slot dimensions and positions",
+    "Internal foam and driver clearance, vent and microphone positions",
+    "Clamping force at several worn widths, left and right cup angle",
+    "Glasses arm thickness, width, position and actual worn contact path"
+  ],
+  "comparisons_needed": ["Original pad", "Same new pad with uniform foam", "New pad with softer glasses zone"],
+  "tests_not_run": ["Mount retention", "Host contact pressure", "Incoming noise with ANC off and on", "Outgoing music", "Frequency response", "ANC behaviour", "Wearer comfort"],
+  "acoustic_geometry_available": false,
+  "limits": "No mounting dimensions or measured material properties are inferred from product photos or the existing generic CAD. No zero leakage, pain relief or ANC improvement claim."
+}

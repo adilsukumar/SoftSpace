@@ -1,0 +1,157 @@
+{
+  "package": "${WORKSPACE}\\EarDefender_V6_CAD_and_Evidence.zip",
+  "bytes": 11648064,
+  "sha256": "a5a6c8306b7112654602015895a24db82e5aa75a137d4432dab2fc552dc07206",
+  "cad_files": [
+    {
+      "file": "ReplacementCushion_V6_child_small_20261013_012708.step",
+      "bytes": 88973,
+      "sha256": "a56350687255f0c8a2efd757cfa609bd7106e01fe919ab6ad2e60f283186a689"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_child_small_20261013_012708.step",
+      "bytes": 559391,
+      "sha256": "79351ba5008721b8a358cad82f937916cd19a599f953742c7d80746a36c8a0af"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_child_small_20261013_012708.f3d",
+      "bytes": 983690,
+      "sha256": "e5fe3296b2a432e7702b3ad51020c4fd46cc4752644fced7f7b92fd2e525c0be"
+    },
+    {
+      "file": "ReplacementCushion_V6_child_medium_20261013_012708.step",
+      "bytes": 88974,
+      "sha256": "5ab873efa31153a139b989af6e14478cd9ccfb79ba60cee5eaf80f57149209e6"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_child_medium_20261013_012708.step",
+      "bytes": 559731,
+      "sha256": "ddb3f22e7fced374e53b963fbd9ed1dbda842ad5b3c1ce13d8c7dfa83496b093"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_child_medium_20261013_012708.f3d",
+      "bytes": 981369,
+      "sha256": "a2fbd8029ebaefff770180b55ff2aeb17335316c1d7453b47a4c6a41cfee7450"
+    },
+    {
+      "file": "ReplacementCushion_V6_child_large_20261013_012708.step",
+      "bytes": 88973,
+      "sha256": "d7f3cf2e6987137a7cf2a74e52d16255031940089388da5eb1c275de30ef9c20"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_child_large_20261013_012708.step",
+      "bytes": 559587,
+      "sha256": "082529f7088a5726d2b0de5dff69116579d4f4f1a3958029ebdd2eb9ea91f09e"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_child_large_20261013_012708.f3d",
+      "bytes": 976081,
+      "sha256": "bedcda0d146d557c44e6addd82fb2f69c75a3e396896cac196063db9229ff1e8"
+    },
+    {
+      "file": "ReplacementCushion_V6_adult_small_20261013_012708.step",
+      "bytes": 87663,
+      "sha256": "46c139cd49c2e979891d4233c6a6f87deb66ec784e1dddc0c8c903f721c0da62"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_adult_small_20261013_012708.step",
+      "bytes": 560582,
+      "sha256": "5caae80d252c9bf582441ba9915152dab731170146d915b02420ba858db9d45b"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_adult_small_20261013_012708.f3d",
+      "bytes": 985072,
+      "sha256": "77c37097ca2fff63e177a862ca9b364b7e897272c97b21c3cffe93331ee1b64c"
+    },
+    {
+      "file": "ReplacementCushion_V6_adult_medium_20261013_012708.step",
+      "bytes": 87664,
+      "sha256": "5a87b872aabfed50e8e3a7c8bd6de015f91bce47e907d48929c0091070cb8c05"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_adult_medium_20261013_012708.step",
+      "bytes": 559586,
+      "sha256": "86ce9e2c7e9cb17ccdbe74cbe462e10fa5a255d0ba59b8c3ed42652c6e818552"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_adult_medium_20261013_012708.f3d",
+      "bytes": 983234,
+      "sha256": "9080b09ea22f8a337643b0dc29676df8394399d1905e8eb875e398f268f64845"
+    },
+    {
+      "file": "ReplacementCushion_V6_adult_large_20261013_012708.step",
+      "bytes": 87663,
+      "sha256": "106726d452891daabeaff44532e734a6be7ea46ee9563bab84d89242a3b9a94e"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_adult_large_20261013_012708.step",
+      "bytes": 560549,
+      "sha256": "c738e0498a8c189396df476a4aff237c02e38980417a6cb8652f758fac0be04d"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_adult_large_20261013_012708.f3d",
+      "bytes": 979241,
+      "sha256": "313cbd303903e72bbc67a05c8ab97a48fa6b92718cf55e57c3d68dac3699cce5"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_child_small_20261013_012708_Extension_0_Verified.step",
+      "bytes": 559343,
+      "sha256": "7945f3d3b059a47863131cd0b75ca3ff9c59026ccbbd4f1e6a8f056c5f058859"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_child_small_20261013_012708_Extension_30_Verified.step",
+      "bytes": 559474,
+      "sha256": "f89b66666b29aa4ba55d62145ad1a3753814798d6b70f8c55ccf46140e443929"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_child_medium_20261013_012708_Extension_0_Verified.step",
+      "bytes": 559687,
+      "sha256": "a467e5f7fca26492e2835e56b7bbd14e7a5ea5cfd4f0b30c4906fb4ce98bad3b"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_child_medium_20261013_012708_Extension_30_Verified.step",
+      "bytes": 559820,
+      "sha256": "0c0f1ce44f391b41e6774ddddc104a95bd11239bd41510c52a79f0453015f8c3"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_child_large_20261013_012708_Extension_0_Verified.step",
+      "bytes": 559513,
+      "sha256": "23888fba3035448b651691dff81214de87d9e9d836cde1a421297e48f79b9f0d"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_child_large_20261013_012708_Extension_30_Verified.step",
+      "bytes": 559670,
+      "sha256": "d789c7f77d5c1596cc79a61388fa277b721a4139c2b642b291e673c8cb06c152"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_adult_small_20261013_012708_Extension_0_Verified.step",
+      "bytes": 560536,
+      "sha256": "fb462f482793a13f66a86405b2ea5d952d691da02e90b565e39885cfd16e1cdd"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_adult_small_20261013_012708_Extension_30_Verified.step",
+      "bytes": 560665,
+      "sha256": "009b8fab5a23bc22701a0ab54962901535fecfe8bb4efa62e718f15e277d6acc"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_adult_medium_20261013_012708_Extension_0_Verified.step",
+      "bytes": 559518,
+      "sha256": "2ccbcd623b850502799e52dd5529cf5b96591522446435dade9e99d66bcff95a"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_adult_medium_20261013_012708_Extension_30_Verified.step",
+      "bytes": 559675,
+      "sha256": "48b3bc85fc3083f08028b21651e159b6cd9c07066a1217d716c06087a600d8b0"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_adult_large_20261013_012708_Extension_0_Verified.step",
+      "bytes": 560533,
+      "sha256": "6e2dc20969751f71f6cc95b8d007645313633c1ad4fa4b773edf7b950eeb9605"
+    },
+    {
+      "file": "OwnPassiveDefender_V6_adult_large_20261013_012708_Extension_30_Verified.step",
+      "bytes": 560632,
+      "sha256": "d0cbaeb6181ae425718265447e757e71fcefc7129d3f049bfbcd853e8e5fd8e5"
+    }
+  ]
+}

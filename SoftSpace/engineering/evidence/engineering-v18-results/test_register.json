@@ -1,0 +1,2848 @@
+{
+  "revision": "V18 passive friction hinge and wearing stop",
+  "updated": "2026-10-16",
+  "sizes": [
+    {
+      "size": "adult_large",
+      "source": "${WORKSPACE}\\EarDefender_V18_adult_large_FrictionStop.step",
+      "source_sha256": "b0b177bdd0c19ccdd031ac53d53a31b8574c5b8ad9018797e344c8a5998cec4b",
+      "motion_samples": 35,
+      "valid_solids": 38,
+      "stop_queries": 4,
+      "retracted_box_mm": [
+        276.06961881321,
+        90.0,
+        191.8
+      ],
+      "folded_box_mm": [
+        258.3461154610902,
+        90.0,
+        171.9602540378442
+      ],
+      "folded_to_retracted_box_volume_ratio": 0.8390016122906003,
+      "fold_extension_mm": [
+        0,
+        30
+      ],
+      "fold_angles_deg": [
+        75,
+        60
+      ],
+      "guide_bottom_mm": 85
+    },
+    {
+      "size": "adult_medium",
+      "source": "${WORKSPACE}\\EarDefender_V18_adult_medium_FrictionStop.step",
+      "source_sha256": "9f6848d3981fe2fb1e24f43f3f65b2e491838fe1e1a99d4c3fa986ef6f1a0217",
+      "motion_samples": 35,
+      "valid_solids": 38,
+      "stop_queries": 4,
+      "retracted_box_mm": [
+        259.87123133983,
+        90.0,
+        191.8
+      ],
+      "folded_box_mm": [
+        242.14772798773214,
+        90.0,
+        171.96025403783926
+      ],
+      "folded_to_retracted_box_volume_ratio": 0.8354138471126464,
+      "fold_extension_mm": [
+        0,
+        30
+      ],
+      "fold_angles_deg": [
+        75,
+        60
+      ],
+      "guide_bottom_mm": 85
+    },
+    {
+      "size": "adult_small",
+      "source": "${WORKSPACE}\\EarDefender_V18_adult_small_FrictionStop.step",
+      "source_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+      "motion_samples": 32,
+      "valid_solids": 38,
+      "stop_queries": 4,
+      "retracted_box_mm": [
+        243.42028468362,
+        90.0,
+        191.799999999991
+      ],
+      "folded_box_mm": [
+        229.3478069406188,
+        90.0,
+        194.6025612106784
+      ],
+      "folded_to_retracted_box_volume_ratio": 0.9559557167441721,
+      "fold_extension_mm": [
+        0,
+        30
+      ],
+      "fold_angles_deg": [
+        75,
+        45
+      ],
+      "guide_bottom_mm": 85
+    },
+    {
+      "size": "child_large",
+      "source": "${WORKSPACE}\\EarDefender_V18_child_large_FrictionStop.step",
+      "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "motion_samples": 26,
+      "valid_solids": 38,
+      "stop_queries": 4,
+      "retracted_box_mm": [
+        242.63174650304,
+        77.25,
+        181.125
+      ],
+      "folded_box_mm": [
+        239.71058482793688,
+        77.25,
+        171.90694597659956
+      ],
+      "folded_to_retracted_box_volume_ratio": 0.9376799149421873,
+      "fold_extension_mm": [
+        0,
+        20
+      ],
+      "fold_angles_deg": [
+        30,
+        60
+      ],
+      "guide_bottom_mm": 82
+    },
+    {
+      "size": "child_medium",
+      "source": "${WORKSPACE}\\EarDefender_V18_child_medium_FrictionStop.step",
+      "source_sha256": "aff177f6c54fe4069bc68a6788ccd49af2d7e6c19555e64ddb5c2800f0da6025",
+      "motion_samples": 29,
+      "valid_solids": 38,
+      "stop_queries": 4,
+      "retracted_box_mm": [
+        232.10425879803,
+        77.25,
+        181.125
+      ],
+      "folded_box_mm": [
+        227.5990366150466,
+        77.25,
+        187.11277496528686
+      ],
+      "folded_to_retracted_box_volume_ratio": 1.0130067782133425,
+      "fold_extension_mm": [
+        0,
+        30
+      ],
+      "fold_angles_deg": [
+        60,
+        45
+      ],
+      "guide_bottom_mm": 82
+    },
+    {
+      "size": "child_small",
+      "source": "${WORKSPACE}\\EarDefender_V18_child_small_FrictionStop.step",
+      "source_sha256": "2fb80f968c89336e6a292464d754ab9b8be3d2a3013144833502dee4ecf4d403",
+      "motion_samples": 32,
+      "valid_solids": 38,
+      "stop_queries": 4,
+      "retracted_box_mm": [
+        220.90654293864,
+        77.25,
+        181.125
+      ],
+      "folded_box_mm": [
+        211.85316301808047,
+        77.25,
+        187.1127749652879
+      ],
+      "folded_to_retracted_box_volume_ratio": 0.9907211042110436,
+      "fold_extension_mm": [
+        0,
+        30
+      ],
+      "fold_angles_deg": [
+        75,
+        45
+      ],
+      "guide_bottom_mm": 82
+    }
+  ],
+  "stop_mechanics": [
+    {
+      "size": "child_large",
+      "meshes": [
+        {
+          "nodes": 10013,
+          "tet10_elements": 5667,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 1740,
+          "relative_free_residual": 9.808566039578214e-10,
+          "minimum_quadrature_jacobian_mm3": 0.7006017569148476,
+          "max_von_mises_centroid_MPa": 3.45215239015798,
+          "strain_energy_Nmm": 1.0566797274763076,
+          "reaction_sum_N": [
+            -1.6243480944442698e-12,
+            -8.53483157973116e-12,
+            -12.999999999997014
+          ],
+          "size": "child_large",
+          "source": "${WORKSPACE}\\EarDefender_V18_child_large_FrictionStop.step",
+          "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+          "mesh_max_mm": 2.0,
+          "minimum_adaptive_Jacobian_mm3": 0.7006017569146539,
+          "weighted_load_direction_displacement_mm": 0.16256611191918655,
+          "loaded_area_mm2": 31.999999999999876,
+          "total_stop_force_N": 13.0,
+          "assumed_E_MPa": 2000,
+          "assumed_nu": 0.35,
+          "seconds": 11.12523603439331,
+          "limits": [
+            "Ideal rigid stem support at guide bottom instead of actual guide contact",
+            "Uniform13N total on both wearing-stop patches;illustrative2N side load at65mm lever",
+            "Pivot bearing is not constrained here,so this is a separate load-path fixture,not solved joint load sharing",
+            "Homogeneous isotropic assumed material,faceted quadratic mesh and small displacements",
+            "No plasticity,creep,impact,actual fasteners,complete3D contact or physical strength qualification"
+          ],
+          "array_audit": {
+            "file": "${WORKSPACE}\\engineering-v18-results\\child_large_stop_h2.0.npz",
+            "sha256": "c0c7f362e614e2300f55215ea26ff93d931df4bfae3584281aa01147a2069686",
+            "work_energy_relative_error": 1.5096044717292064e-12,
+            "force_balance_error_N": 9.186859438779606e-12,
+            "fixed_displacement_mm": 0.0,
+            "finite": true,
+            "pass_result": true
+          }
+        },
+        {
+          "nodes": 16677,
+          "tet10_elements": 9703,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 2147,
+          "relative_free_residual": 1.0133933657151141e-09,
+          "minimum_quadrature_jacobian_mm3": 0.39000098446091463,
+          "max_von_mises_centroid_MPa": 3.534614909914071,
+          "strain_energy_Nmm": 1.0626491212612115,
+          "reaction_sum_N": [
+            2.71201335922334e-11,
+            2.5765073278518328e-12,
+            -13.000000000016195
+          ],
+          "size": "child_large",
+          "source": "${WORKSPACE}\\EarDefender_V18_child_large_FrictionStop.step",
+          "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+          "mesh_max_mm": 1.5,
+          "minimum_adaptive_Jacobian_mm3": 0.39000098446085085,
+          "weighted_load_direction_displacement_mm": 0.16348448019384018,
+          "loaded_area_mm2": 31.99999999999988,
+          "total_stop_force_N": 13.0,
+          "assumed_E_MPa": 2000,
+          "assumed_nu": 0.35,
+          "seconds": 21.778785705566406,
+          "limits": [
+            "Ideal rigid stem support at guide bottom instead of actual guide contact",
+            "Uniform13N total on both wearing-stop patches;illustrative2N side load at65mm lever",
+            "Pivot bearing is not constrained here,so this is a separate load-path fixture,not solved joint load sharing",
+            "Homogeneous isotropic assumed material,faceted quadratic mesh and small displacements",
+            "No plasticity,creep,impact,actual fasteners,complete3D contact or physical strength qualification"
+          ],
+          "array_audit": {
+            "file": "${WORKSPACE}\\engineering-v18-results\\child_large_stop_h1.5.npz",
+            "sha256": "8416d1d49de1963cdb02133492e5534222a3d1b21b223f2dc54aa2d288b386b7",
+            "work_energy_relative_error": 1.1766190225145597e-12,
+            "force_balance_error_N": 3.169257844505518e-11,
+            "fixed_displacement_mm": 0.0,
+            "finite": true,
+            "pass_result": true
+          }
+        }
+      ],
+      "displacement_change_fraction": 0.005617464566451513,
+      "stress_change_fraction": 0.023329986959766402,
+      "chosen_mesh_gate_pass": true
+    },
+    {
+      "size": "adult_small",
+      "meshes": [
+        {
+          "nodes": 15822,
+          "tet10_elements": 9163,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 2285,
+          "relative_free_residual": 9.917853150969243e-10,
+          "minimum_quadrature_jacobian_mm3": 0.6013886132327951,
+          "max_von_mises_centroid_MPa": 3.7521491004887677,
+          "strain_energy_Nmm": 1.1567113834784857,
+          "reaction_sum_N": [
+            2.0514797815651795e-11,
+            5.839212414715207e-12,
+            -13.000000000015696
+          ],
+          "size": "adult_small",
+          "source": "${WORKSPACE}\\EarDefender_V18_adult_small_FrictionStop.step",
+          "source_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+          "mesh_max_mm": 2.0,
+          "minimum_adaptive_Jacobian_mm3": 0.6013886132327149,
+          "weighted_load_direction_displacement_mm": 0.17795559745878425,
+          "loaded_area_mm2": 31.99999999999987,
+          "total_stop_force_N": 13.0,
+          "assumed_E_MPa": 2000,
+          "assumed_nu": 0.35,
+          "seconds": 21.861007928848267,
+          "limits": [
+            "Ideal rigid stem support at guide bottom instead of actual guide contact",
+            "Uniform13N total on both wearing-stop patches;illustrative2N side load at65mm lever",
+            "Pivot bearing is not constrained here,so this is a separate load-path fixture,not solved joint load sharing",
+            "Homogeneous isotropic assumed material,faceted quadratic mesh and small displacements",
+            "No plasticity,creep,impact,actual fasteners,complete3D contact or physical strength qualification"
+          ],
+          "array_audit": {
+            "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_stop_h2.0.npz",
+            "sha256": "a2fbaa5a00e6b830ca38ff43f19c5dd409c358e1874207c91bb0f6a7059fc6fd",
+            "work_energy_relative_error": 3.1226454929855775e-12,
+            "force_balance_error_N": 2.6483391582853074e-11,
+            "fixed_displacement_mm": 0.0,
+            "finite": true,
+            "pass_result": true
+          }
+        },
+        {
+          "nodes": 25722,
+          "tet10_elements": 15287,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 2799,
+          "relative_free_residual": 1.0296448993719562e-09,
+          "minimum_quadrature_jacobian_mm3": 0.3560751096138829,
+          "max_von_mises_centroid_MPa": 3.7810908606354396,
+          "strain_energy_Nmm": 1.1617988497370135,
+          "reaction_sum_N": [
+            7.499154986844659e-12,
+            2.818079108146607e-12,
+            -12.999999999978632
+          ],
+          "size": "adult_small",
+          "source": "${WORKSPACE}\\EarDefender_V18_adult_small_FrictionStop.step",
+          "source_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+          "mesh_max_mm": 1.5,
+          "minimum_adaptive_Jacobian_mm3": 0.35607510961384026,
+          "weighted_load_direction_displacement_mm": 0.17873828457430785,
+          "loaded_area_mm2": 31.99999999999985,
+          "total_stop_force_N": 13.0,
+          "assumed_E_MPa": 2000,
+          "assumed_nu": 0.35,
+          "seconds": 31.100873947143555,
+          "limits": [
+            "Ideal rigid stem support at guide bottom instead of actual guide contact",
+            "Uniform13N total on both wearing-stop patches;illustrative2N side load at65mm lever",
+            "Pivot bearing is not constrained here,so this is a separate load-path fixture,not solved joint load sharing",
+            "Homogeneous isotropic assumed material,faceted quadratic mesh and small displacements",
+            "No plasticity,creep,impact,actual fasteners,complete3D contact or physical strength qualification"
+          ],
+          "array_audit": {
+            "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_stop_h1.5.npz",
+            "sha256": "00ef671aeb9896910072ebfcb80da9d4ed75703a2202ad17dfc3291cd35d4246",
+            "work_energy_relative_error": 3.453754543243342e-12,
+            "force_balance_error_N": 2.281687543395293e-11,
+            "fixed_displacement_mm": 0.0,
+            "finite": true,
+            "pass_result": true
+          }
+        }
+      ],
+      "displacement_change_fraction": 0.004378956178233917,
+      "stress_change_fraction": 0.007654341356348127,
+      "chosen_mesh_gate_pass": true
+    }
+  ],
+  "band_mechanics": {
+    "cases": [
+      {
+        "size": "adult_small",
+        "meshes": [
+          {
+            "nodes": 13777,
+            "tet10_elements": 6746,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 5095,
+            "relative_free_residual": 5.723626211663403e-08,
+            "minimum_quadrature_jacobian_mm3": 0.1429662295056162,
+            "max_von_mises_centroid_MPa": 2.0803503091226303,
+            "strain_energy_Nmm": 2.7951109168742776,
+            "reaction_sum_N": [
+              -2.0000000000129683,
+              7.160088139362214e-11,
+              2.2153699014149097e-10
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              95.493727209954,
+              8.900866530324379,
+              113.96495755809462
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "adult_small",
+            "mesh_max_mm": 2.5,
+            "source": "${WORKSPACE}\\EarDefender_V18_adult_small_FrictionStop.step",
+            "source_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999997094,
+            "minimum_adaptive_Jacobian_mm3": 0.1429662295055164,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 2.795110916894904,
+            "compliance_mm_per_N": 1.397555458447452,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                14.0,
+                149.99999999999102
+              ],
+              [
+                0.0,
+                -14.0,
+                149.99999999999102
+              ]
+            ],
+            "seconds": 18.870585680007935,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_full_width_h2.5.npz",
+              "sha256": "579633a0b5ee04ff6ce9176a59d83c79b401233ea860075824d0fa1446ea281b",
+              "work_energy_relative_error": 7.379532384646836e-12,
+              "force_balance_error_N": 2.331812741248901e-10,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          },
+          {
+            "nodes": 22429,
+            "tet10_elements": 11831,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 5872,
+            "relative_free_residual": 6.787263797748385e-08,
+            "minimum_quadrature_jacobian_mm3": 0.1239208908649126,
+            "max_von_mises_centroid_MPa": 2.4221536132594754,
+            "strain_energy_Nmm": 2.7966035885142912,
+            "reaction_sum_N": [
+              -2.000000000378219,
+              -3.006869776209416e-11,
+              -5.911758426541125e-10
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              95.493727209954,
+              -8.749999390625534,
+              114.08971371719137
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "adult_small",
+            "mesh_max_mm": 2.0,
+            "source": "${WORKSPACE}\\EarDefender_V18_adult_small_FrictionStop.step",
+            "source_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999997103,
+            "minimum_adaptive_Jacobian_mm3": 0.12392089086485583,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 2.79660358948728,
+            "compliance_mm_per_N": 1.39830179474364,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                14.0,
+                149.99999999999102
+              ],
+              [
+                0.0,
+                -14.0,
+                149.99999999999102
+              ]
+            ],
+            "seconds": 63.69923996925354,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_full_width_h2.0.npz",
+              "sha256": "1212441fe1f8cc46e8cd42ebdc06e40cd7a1136aa3399faa30e57158c0463520",
+              "work_energy_relative_error": 3.4791818489657487e-10,
+              "force_balance_error_N": 7.024554306769962e-10,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          },
+          {
+            "nodes": 41050,
+            "tet10_elements": 22357,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 6980,
+            "relative_free_residual": 8.571185211257066e-08,
+            "minimum_quadrature_jacobian_mm3": 0.14856168133759018,
+            "max_von_mises_centroid_MPa": 2.517407500744461,
+            "strain_energy_Nmm": 2.7980069055729713,
+            "reaction_sum_N": [
+              -2.000000000015571,
+              -5.3234970961739575e-11,
+              -7.789728454291045e-11
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              95.46538293362084,
+              8.824573082720171,
+              114.24054929097468
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "adult_small",
+            "mesh_max_mm": 1.5,
+            "source": "${WORKSPACE}\\EarDefender_V18_adult_small_FrictionStop.step",
+            "source_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999997115,
+            "minimum_adaptive_Jacobian_mm3": 0.14856168133752679,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 2.7980069050329126,
+            "compliance_mm_per_N": 1.3990034525164563,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                14.0,
+                149.99999999999105
+              ],
+              [
+                0.0,
+                -14.0,
+                149.99999999999102
+              ]
+            ],
+            "seconds": 147.92671155929565,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_full_width_h1.5.npz",
+              "sha256": "e2fd82bb464bd6293b42beb360b3eb549b8e7132c32036c1fc84d2046eea82a0",
+              "work_energy_relative_error": 1.9301564537717172e-10,
+              "force_balance_error_N": 9.562650768428051e-11,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          }
+        ],
+        "last_displacement_change_fraction": 0.0005015411302625727,
+        "last_stress_change_fraction": 0.03783808837338276,
+        "chosen_5percent_comparison_pass": true
+      },
+      {
+        "size": "adult_medium",
+        "meshes": [
+          {
+            "nodes": 16065,
+            "tet10_elements": 8003,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 5462,
+            "relative_free_residual": 6.712938923024264e-08,
+            "minimum_quadrature_jacobian_mm3": 0.10032925835929182,
+            "max_von_mises_centroid_MPa": 2.082777271919466,
+            "strain_energy_Nmm": 2.9902675371571563,
+            "reaction_sum_N": [
+              -1.9999999995811737,
+              -8.580123359501499e-11,
+              5.630216249816189e-10
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              103.47297672215582,
+              -8.863417819546687,
+              113.8555248497449
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "adult_medium",
+            "mesh_max_mm": 2.5,
+            "source": "${WORKSPACE}\\EarDefender_V18_adult_medium_FrictionStop.step",
+            "source_sha256": "9f6848d3981fe2fb1e24f43f3f65b2e491838fe1e1a99d4c3fa986ef6f1a0217",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999999963,
+            "minimum_adaptive_Jacobian_mm3": 0.1003292583591697,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 2.9902675362387905,
+            "compliance_mm_per_N": 1.4951337681193952,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                14.0,
+                150.00000000000003
+              ],
+              [
+                0.0,
+                -14.0,
+                150.0
+              ]
+            ],
+            "seconds": 43.902034282684326,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\adult_medium_full_width_h2.5.npz",
+              "sha256": "e74fa9e4c43dd57591ea485cb97123b38f7178ee1f3dd3d1d507e84bce219f62",
+              "work_energy_relative_error": 3.0711828179228047e-10,
+              "force_balance_error_N": 7.06943949201734e-10,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          },
+          {
+            "nodes": 24182,
+            "tet10_elements": 12847,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 6100,
+            "relative_free_residual": 7.365712799285534e-08,
+            "minimum_quadrature_jacobian_mm3": 0.14577281158714167,
+            "max_von_mises_centroid_MPa": 2.5193339128764394,
+            "strain_energy_Nmm": 2.9917053414626933,
+            "reaction_sum_N": [
+              -1.9999999998791917,
+              -6.410624197355564e-11,
+              -4.3729151506452513e-10
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              103.56906058236419,
+              -8.76627261158627,
+              113.89923724425452
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "adult_medium",
+            "mesh_max_mm": 2.0,
+            "source": "${WORKSPACE}\\EarDefender_V18_adult_medium_FrictionStop.step",
+            "source_sha256": "9f6848d3981fe2fb1e24f43f3f65b2e491838fe1e1a99d4c3fa986ef6f1a0217",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999999959,
+            "minimum_adaptive_Jacobian_mm3": 0.1457728115870216,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 2.9917053416630317,
+            "compliance_mm_per_N": 1.4958526708315159,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                14.0,
+                150.00000000000003
+              ],
+              [
+                0.0,
+                -14.0,
+                150.0
+              ]
+            ],
+            "seconds": 80.06891918182373,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\adult_medium_full_width_h2.0.npz",
+              "sha256": "7402cdb66c77b48c8162916a707abd08fafb8d1018110d398838372928af0bea",
+              "work_energy_relative_error": 6.696447195077243e-11,
+              "force_balance_error_N": 4.581792449778039e-10,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          },
+          {
+            "nodes": 43189,
+            "tet10_elements": 23556,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 7336,
+            "relative_free_residual": 9.301632088564575e-08,
+            "minimum_quadrature_jacobian_mm3": 0.11766574299495318,
+            "max_von_mises_centroid_MPa": 2.7840677214985807,
+            "strain_energy_Nmm": 2.9931804546795324,
+            "reaction_sum_N": [
+              -2.00000000068452,
+              1.3262288683137233e-11,
+              -5.477283147436313e-10
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              103.59994195781152,
+              8.749999912482796,
+              113.99683601354172
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "adult_medium",
+            "mesh_max_mm": 1.5,
+            "source": "${WORKSPACE}\\EarDefender_V18_adult_medium_FrictionStop.step",
+            "source_sha256": "9f6848d3981fe2fb1e24f43f3f65b2e491838fe1e1a99d4c3fa986ef6f1a0217",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999999965,
+            "minimum_adaptive_Jacobian_mm3": 0.11766574299488852,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 2.9931804554636736,
+            "compliance_mm_per_N": 1.4965902277318368,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                14.0,
+                150.00000000000003
+              ],
+              [
+                0.0,
+                -14.0,
+                150.00000000000003
+              ]
+            ],
+            "seconds": 167.75805377960205,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\adult_medium_full_width_h1.5.npz",
+              "sha256": "618dcbedcad96766cc81e718cd36dc1de9782494685ac3a594902e8768a52f99",
+              "work_energy_relative_error": 2.619759176189963e-10,
+              "force_balance_error_N": 8.767846601464724e-10,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          },
+          {
+            "nodes": 69935,
+            "tet10_elements": 40099,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 8568,
+            "relative_free_residual": 1.487650234449787e-07,
+            "minimum_quadrature_jacobian_mm3": 0.13084834518324626,
+            "max_von_mises_centroid_MPa": 2.8959042155734362,
+            "strain_energy_Nmm": 2.9943345423986565,
+            "reaction_sum_N": [
+              -2.0000000004409366,
+              1.0596903467549181e-10,
+              7.277363945831783e-10
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              103.59267083457814,
+              -8.739455263924341,
+              114.0645251622037
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "adult_medium",
+            "mesh_max_mm": 1.25,
+            "source": "${WORKSPACE}\\EarDefender_V18_adult_medium_FrictionStop.step",
+            "source_sha256": "9f6848d3981fe2fb1e24f43f3f65b2e491838fe1e1a99d4c3fa986ef6f1a0217",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999999965,
+            "minimum_adaptive_Jacobian_mm3": 0.13084834518316737,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 2.9943345423343186,
+            "compliance_mm_per_N": 1.4971672711671593,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                14.0,
+                150.00000000000003
+              ],
+              [
+                0.0,
+                -14.0,
+                150.00000000000003
+              ]
+            ],
+            "seconds": 367.56002855300903,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\adult_medium_full_width_h1.25.npz",
+              "sha256": "d45351156a7cacfd7140823c2318f1b930def82446849782b7f7d8956e1a1cf0",
+              "work_energy_relative_error": 2.1486384826884354e-11,
+              "force_balance_error_N": 8.574703418185838e-10,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          }
+        ],
+        "last_displacement_change_fraction": 0.00038542349037107293,
+        "last_stress_change_fraction": 0.03861885122906594,
+        "chosen_5percent_comparison_pass": true
+      },
+      {
+        "size": "adult_large",
+        "meshes": [
+          {
+            "nodes": 17077,
+            "tet10_elements": 8576,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 5718,
+            "relative_free_residual": 7.329278534095716e-08,
+            "minimum_quadrature_jacobian_mm3": 0.10628481977222638,
+            "max_von_mises_centroid_MPa": 2.178685704151816,
+            "strain_energy_Nmm": 3.1845185698913205,
+            "reaction_sum_N": [
+              -1.9999999992178452,
+              -3.292799076344981e-11,
+              6.632459581545902e-10
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              111.35148499540905,
+              -8.9,
+              113.75928096503938
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "adult_large",
+            "mesh_max_mm": 2.5,
+            "source": "${WORKSPACE}\\EarDefender_V18_adult_large_FrictionStop.step",
+            "source_sha256": "b0b177bdd0c19ccdd031ac53d53a31b8574c5b8ad9018797e344c8a5998cec4b",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999999953,
+            "minimum_adaptive_Jacobian_mm3": 0.10628481977215508,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 3.184518567412591,
+            "compliance_mm_per_N": 1.5922592837062954,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                14.0,
+                150.0
+              ],
+              [
+                0.0,
+                -14.0,
+                150.00000000000003
+              ]
+            ],
+            "seconds": 43.65014100074768,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\adult_large_full_width_h2.5.npz",
+              "sha256": "da88e6cc21889360af599576fd7485fbd6357fa2f6825d6dd08e59fedc82ce74",
+              "work_energy_relative_error": 7.783685883456748e-10,
+              "force_balance_error_N": 1.0260338989929678e-09,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          },
+          {
+            "nodes": 25890,
+            "tet10_elements": 13775,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 6330,
+            "relative_free_residual": 8.025469516145207e-08,
+            "minimum_quadrature_jacobian_mm3": 0.12972637641345808,
+            "max_von_mises_centroid_MPa": 2.4293354401747607,
+            "strain_energy_Nmm": 3.186094013160883,
+            "reaction_sum_N": [
+              -1.999999999854412,
+              1.3244377433509648e-10,
+              1.3037728015252714e-10
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              111.636903046455,
+              8.899999999999999,
+              113.6653280418065
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "adult_large",
+            "mesh_max_mm": 2.0,
+            "source": "${WORKSPACE}\\EarDefender_V18_adult_large_FrictionStop.step",
+            "source_sha256": "b0b177bdd0c19ccdd031ac53d53a31b8574c5b8ad9018797e344c8a5998cec4b",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999999952,
+            "minimum_adaptive_Jacobian_mm3": 0.1297263764134025,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 3.1860940131521205,
+            "compliance_mm_per_N": 1.5930470065760602,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                14.0,
+                150.0
+              ],
+              [
+                0.0,
+                -14.0,
+                150.00000000000003
+              ]
+            ],
+            "seconds": 57.84373760223389,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\adult_large_full_width_h2.0.npz",
+              "sha256": "6fd05ee0f116415aee5e4807b3a49b8da32cc93cd7979ec6686b9d9dde54533d",
+              "work_energy_relative_error": 2.7503169249209022e-12,
+              "force_balance_error_N": 2.3608301850108595e-10,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          },
+          {
+            "nodes": 45013,
+            "tet10_elements": 24542,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 7544,
+            "relative_free_residual": 9.960425857617788e-08,
+            "minimum_quadrature_jacobian_mm3": 0.12087232707267948,
+            "max_von_mises_centroid_MPa": 2.6661768892134963,
+            "strain_energy_Nmm": 3.1874496097544838,
+            "reaction_sum_N": [
+              -2.000000000059334,
+              -3.4397802304816485e-10,
+              1.1475384475122252e-09
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              111.48005268897828,
+              -8.80650394087484,
+              113.90661367860721
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "adult_large",
+            "mesh_max_mm": 1.5,
+            "source": "${WORKSPACE}\\EarDefender_V18_adult_large_FrictionStop.step",
+            "source_sha256": "b0b177bdd0c19ccdd031ac53d53a31b8574c5b8ad9018797e344c8a5998cec4b",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999999942,
+            "minimum_adaptive_Jacobian_mm3": 0.12087232707264195,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 3.1874496088692124,
+            "compliance_mm_per_N": 1.5937248044346062,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                14.0,
+                150.0
+              ],
+              [
+                0.0,
+                -14.0,
+                150.00000000000003
+              ]
+            ],
+            "seconds": 194.80351281166077,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\adult_large_full_width_h1.5.npz",
+              "sha256": "1747f985fbcf375ed3dac9358b3fd1a30ece5c049a413e75a3a679c7fdee9cc1",
+              "work_energy_relative_error": 2.7773673765958543e-10,
+              "force_balance_error_N": 1.199452235952476e-09,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          },
+          {
+            "nodes": 73854,
+            "tet10_elements": 42558,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 9063,
+            "relative_free_residual": 1.6534648710524381e-07,
+            "minimum_quadrature_jacobian_mm3": 0.12937102525295402,
+            "max_von_mises_centroid_MPa": 3.096417520745829,
+            "strain_energy_Nmm": 3.188778545491175,
+            "reaction_sum_N": [
+              -1.9999999995913815,
+              5.7855898177094e-10,
+              -1.0052180901901075e-09
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              111.55703008153611,
+              -8.765619475885561,
+              113.9093178737894
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "adult_large",
+            "mesh_max_mm": 1.25,
+            "source": "${WORKSPACE}\\EarDefender_V18_adult_large_FrictionStop.step",
+            "source_sha256": "b0b177bdd0c19ccdd031ac53d53a31b8574c5b8ad9018797e344c8a5998cec4b",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999999952,
+            "minimum_adaptive_Jacobian_mm3": 0.12937102525281235,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 3.1887785462487077,
+            "compliance_mm_per_N": 1.5943892731243539,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                14.0,
+                150.0
+              ],
+              [
+                0.0,
+                -14.0,
+                150.00000000000003
+              ]
+            ],
+            "seconds": 356.0463044643402,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\adult_large_full_width_h1.25.npz",
+              "sha256": "1a3bbe164c69275a290ab785f233ee9c4da2e5e590640cc209bf704c2ff0c017",
+              "work_energy_relative_error": 2.375623080826168e-10,
+              "force_balance_error_N": 1.229700501398334e-09,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          },
+          {
+            "nodes": 125148,
+            "tet10_elements": 74746,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 10804,
+            "relative_free_residual": 2.2471847383186612e-07,
+            "minimum_quadrature_jacobian_mm3": 0.1546978477808055,
+            "max_von_mises_centroid_MPa": 3.1861289600321934,
+            "strain_energy_Nmm": 3.189360127755189,
+            "reaction_sum_N": [
+              -2.0000000003631473,
+              2.226862186353864e-10,
+              -6.111879936616244e-11
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              111.636903046455,
+              8.8,
+              113.90955783563075
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "adult_large",
+            "mesh_max_mm": 1.0,
+            "source": "${WORKSPACE}\\EarDefender_V18_adult_large_FrictionStop.step",
+            "source_sha256": "b0b177bdd0c19ccdd031ac53d53a31b8574c5b8ad9018797e344c8a5998cec4b",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999999952,
+            "minimum_adaptive_Jacobian_mm3": 0.15469784778074655,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 3.189360128181278,
+            "compliance_mm_per_N": 1.594680064090639,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                14.0,
+                150.0
+              ],
+              [
+                0.0,
+                -14.0,
+                150.00000000000003
+              ]
+            ],
+            "seconds": 793.5807070732117,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\adult_large_full_width_h1.0.npz",
+              "sha256": "b75059ad11b72465ecd0f3172f10c0fb8af1e8368aefcb5a775e0322b5575326",
+              "work_energy_relative_error": 1.3359685977543585e-10,
+              "force_balance_error_N": 4.303503458843612e-10,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          }
+        ],
+        "last_displacement_change_fraction": 0.00018235066257688004,
+        "last_stress_change_fraction": 0.028156876388788166,
+        "chosen_5percent_comparison_pass": true
+      },
+      {
+        "size": "child_small",
+        "meshes": [
+          {
+            "nodes": 11894,
+            "tet10_elements": 5821,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 5077,
+            "relative_free_residual": 5.767241254201113e-08,
+            "minimum_quadrature_jacobian_mm3": 0.18993274732107923,
+            "max_von_mises_centroid_MPa": 2.3814232633653374,
+            "strain_energy_Nmm": 3.47005233776379,
+            "reaction_sum_N": [
+              -1.999999999987135,
+              -1.013427893912141e-11,
+              -1.2632545356994207e-10
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              84.3310804460037,
+              -9.119498591959328,
+              113.63467886714484
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "child_small",
+            "mesh_max_mm": 2.5,
+            "source": "${WORKSPACE}\\EarDefender_V18_child_small_FrictionStop.step",
+            "source_sha256": "2fb80f968c89336e6a292464d754ab9b8be3d2a3013144833502dee4ecf4d403",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999999939,
+            "minimum_adaptive_Jacobian_mm3": 0.18993274732100845,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 3.4700523379122266,
+            "compliance_mm_per_N": 1.7350261689561133,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                12.0,
+                135.0
+              ],
+              [
+                0.0,
+                -12.0,
+                135.0
+              ]
+            ],
+            "seconds": 16.993797779083252,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\child_small_full_width_h2.5.npz",
+              "sha256": "14609505f7063b80cbc527806d7677ba447aea806ceebab0477fc3728834811c",
+              "work_energy_relative_error": 4.2776151962613e-11,
+              "force_balance_error_N": 1.273825576956225e-10,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          },
+          {
+            "nodes": 17166,
+            "tet10_elements": 8469,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 5536,
+            "relative_free_residual": 6.191133570401218e-08,
+            "minimum_quadrature_jacobian_mm3": 0.12709707042966742,
+            "max_von_mises_centroid_MPa": 2.405334177226114,
+            "strain_energy_Nmm": 3.4727179530208097,
+            "reaction_sum_N": [
+              -1.9999999996414206,
+              -3.907284061436822e-11,
+              -2.842454860894905e-10
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              1.2668231558690395,
+              11.575008408905047,
+              136.1492343748399
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "child_small",
+            "mesh_max_mm": 2.0,
+            "source": "${WORKSPACE}\\EarDefender_V18_child_small_FrictionStop.step",
+            "source_sha256": "2fb80f968c89336e6a292464d754ab9b8be3d2a3013144833502dee4ecf4d403",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.5599999999995,
+            "minimum_adaptive_Jacobian_mm3": 0.12709707042961824,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 3.4727179538119377,
+            "compliance_mm_per_N": 1.7363589769059689,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                12.0,
+                135.0
+              ],
+              [
+                0.0,
+                -12.0,
+                135.0
+              ]
+            ],
+            "seconds": 26.814313411712646,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\child_small_full_width_h2.0.npz",
+              "sha256": "776b3a08d588611ed893b6dc05beb88a307c325c1610fa5accc5c15e013379ca",
+              "work_energy_relative_error": 2.2781248191455197e-10,
+              "force_balance_error_N": 4.592399819530888e-10,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          }
+        ],
+        "last_displacement_change_fraction": 0.0007675877900723549,
+        "last_stress_change_fraction": 0.00994078664294007,
+        "chosen_5percent_comparison_pass": true
+      },
+      {
+        "size": "child_medium",
+        "meshes": [
+          {
+            "nodes": 12302,
+            "tet10_elements": 6028,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 5574,
+            "relative_free_residual": 3.0987299079345743e-07,
+            "minimum_quadrature_jacobian_mm3": 0.01660405596428548,
+            "max_von_mises_centroid_MPa": 2.9707465671697837,
+            "strain_energy_Nmm": 3.6705365424996073,
+            "reaction_sum_N": [
+              -2.0000000000764255,
+              4.6072850042603633e-11,
+              7.54021270074623e-09
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              88.70060266113259,
+              8.875143353509882,
+              113.9975209058075
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "child_medium",
+            "mesh_max_mm": 2.5,
+            "source": "${WORKSPACE}\\EarDefender_V18_child_medium_FrictionStop.step",
+            "source_sha256": "aff177f6c54fe4069bc68a6788ccd49af2d7e6c19555e64ddb5c2800f0da6025",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999999952,
+            "minimum_adaptive_Jacobian_mm3": 0.01660405596416655,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 3.6705365324330756,
+            "compliance_mm_per_N": 1.8352682662165378,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                12.0,
+                135.0
+              ],
+              [
+                0.0,
+                -12.0,
+                135.00000000000003
+              ]
+            ],
+            "seconds": 18.946239233016968,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\child_medium_full_width_h2.5.npz",
+              "sha256": "7d46aee19c7fdf684021833c80b15729bf1dfa16b0dd675aaaed1901410f3c23",
+              "work_energy_relative_error": 2.7425234451470894e-09,
+              "force_balance_error_N": 7.54074076227621e-09,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          },
+          {
+            "nodes": 18027,
+            "tet10_elements": 8938,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 6028,
+            "relative_free_residual": 3.9489180343737064e-07,
+            "minimum_quadrature_jacobian_mm3": 0.013024814494099273,
+            "max_von_mises_centroid_MPa": 3.167774464936867,
+            "strain_energy_Nmm": 3.6722082963373643,
+            "reaction_sum_N": [
+              -1.9999999997805826,
+              2.578363299939074e-10,
+              -1.265312219583814e-09
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              88.33675851921447,
+              9.714814134046033,
+              113.99504181161501
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "child_medium",
+            "mesh_max_mm": 2.0,
+            "source": "${WORKSPACE}\\EarDefender_V18_child_medium_FrictionStop.step",
+            "source_sha256": "aff177f6c54fe4069bc68a6788ccd49af2d7e6c19555e64ddb5c2800f0da6025",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999999968,
+            "minimum_adaptive_Jacobian_mm3": 0.013024814494006299,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 3.6722082942346326,
+            "compliance_mm_per_N": 1.8361041471173163,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                12.0,
+                135.0
+              ],
+              [
+                0.0,
+                -12.0,
+                135.00000000000003
+              ]
+            ],
+            "seconds": 34.72343301773071,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\child_medium_full_width_h2.0.npz",
+              "sha256": "ad8335fdf6217c4ee10341be796044eadbdfb6d5f7f183fe8b3bf517d9adf670",
+              "work_energy_relative_error": 5.726070097589689e-10,
+              "force_balance_error_N": 1.3098236837581917e-09,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          },
+          {
+            "nodes": 35291,
+            "tet10_elements": 18886,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 7516,
+            "relative_free_residual": 4.323469922916535e-07,
+            "minimum_quadrature_jacobian_mm3": 0.013308151400609843,
+            "max_von_mises_centroid_MPa": 3.4626462284466997,
+            "strain_energy_Nmm": 3.6775349873307204,
+            "reaction_sum_N": [
+              -1.9999999997899698,
+              2.1626430655575352e-10,
+              3.6282450572612535e-09
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              88.402129399031,
+              -8.933333333333337,
+              113.9975209058075
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "child_medium",
+            "mesh_max_mm": 1.5,
+            "source": "${WORKSPACE}\\EarDefender_V18_child_medium_FrictionStop.step",
+            "source_sha256": "aff177f6c54fe4069bc68a6788ccd49af2d7e6c19555e64ddb5c2800f0da6025",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999999972,
+            "minimum_adaptive_Jacobian_mm3": 0.013308151400524106,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 3.677534989323179,
+            "compliance_mm_per_N": 1.8387674946615895,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                12.0,
+                135.0
+              ],
+              [
+                0.0,
+                -12.0,
+                135.00000000000003
+              ]
+            ],
+            "seconds": 82.37792205810547,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\child_medium_full_width_h1.5.npz",
+              "sha256": "09e6a8c65ef104178e691ec013c355c65a3f082a76d739b7b1eabfe87436e4e0",
+              "work_energy_relative_error": 5.417917719925092e-10,
+              "force_balance_error_N": 3.640747907198982e-09,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          },
+          {
+            "nodes": 50032,
+            "tet10_elements": 27235,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 8074,
+            "relative_free_residual": 3.345767905520179e-07,
+            "minimum_quadrature_jacobian_mm3": 0.006966419495703444,
+            "max_von_mises_centroid_MPa": 3.46691804324145,
+            "strain_energy_Nmm": 3.678638487659222,
+            "reaction_sum_N": [
+              -1.9999999998011386,
+              -2.645920374100725e-10,
+              -3.747948667566503e-09
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              88.63597617595266,
+              -8.794949942378594,
+              113.9975209058075
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "child_medium",
+            "mesh_max_mm": 1.25,
+            "source": "${WORKSPACE}\\EarDefender_V18_child_medium_FrictionStop.step",
+            "source_sha256": "aff177f6c54fe4069bc68a6788ccd49af2d7e6c19555e64ddb5c2800f0da6025",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999999976,
+            "minimum_adaptive_Jacobian_mm3": 0.006966419495658285,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 3.678638493920956,
+            "compliance_mm_per_N": 1.839319246960478,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                12.0,
+                135.0
+              ],
+              [
+                0.0,
+                -12.0,
+                135.00000000000003
+              ]
+            ],
+            "seconds": 124.88103914260864,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\child_medium_full_width_h1.25.npz",
+              "sha256": "fcdfd9b1574e4f4fea5541584bd0db8513f061e353989d8bccf58aeabad07b5d",
+              "work_energy_relative_error": 1.702187863387077e-09,
+              "force_balance_error_N": 3.762535628990593e-09,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          }
+        ],
+        "last_displacement_change_fraction": 0.00029997636342915523,
+        "last_stress_change_fraction": 0.001232164920390355,
+        "chosen_5percent_comparison_pass": true
+      },
+      {
+        "size": "child_large",
+        "meshes": [
+          {
+            "nodes": 12547,
+            "tet10_elements": 6140,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 5345,
+            "relative_free_residual": 9.34353520084007e-08,
+            "minimum_quadrature_jacobian_mm3": 0.18408044648180463,
+            "max_von_mises_centroid_MPa": 2.595747178947825,
+            "strain_energy_Nmm": 3.8609436846340355,
+            "reaction_sum_N": [
+              -1.9999999993693418,
+              -2.8014464902119435e-11,
+              -2.0191817315384775e-10
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              93.96434651364945,
+              8.875143353509882,
+              113.9579970893725
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "child_large",
+            "mesh_max_mm": 2.5,
+            "source": "${WORKSPACE}\\EarDefender_V18_child_large_FrictionStop.step",
+            "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999982384,
+            "minimum_adaptive_Jacobian_mm3": 0.18408044648176758,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 3.860943684013464,
+            "compliance_mm_per_N": 1.930471842006732,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                12.0,
+                135.00000000000006
+              ],
+              [
+                0.0,
+                -12.0,
+                135.00000000000006
+              ]
+            ],
+            "seconds": 15.406216621398926,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\child_large_full_width_h2.5.npz",
+              "sha256": "9a9999ae61e437476791ada92527aafd925b78788a81849f30728b3a9dc4f8cb",
+              "work_energy_relative_error": 1.6073043297482427e-10,
+              "force_balance_error_N": 6.627865980770337e-10,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          },
+          {
+            "nodes": 18875,
+            "tet10_elements": 9372,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 5893,
+            "relative_free_residual": 1.1110752789731393e-07,
+            "minimum_quadrature_jacobian_mm3": 0.11493421189810063,
+            "max_von_mises_centroid_MPa": 2.593549364796972,
+            "strain_energy_Nmm": 3.8624799082957337,
+            "reaction_sum_N": [
+              -1.999999999879879,
+              1.842850362282324e-10,
+              -6.675648315385141e-11
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              93.95050237173137,
+              9.114814134046034,
+              113.9579970893725
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_Poisson_ratio": 0.35,
+            "ideal_load_per_full_side_N": 2,
+            "size": "child_large",
+            "mesh_max_mm": 2.0,
+            "source": "${WORKSPACE}\\EarDefender_V18_child_large_FrictionStop.step",
+            "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+            "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+            "load_method": "2 N uniform traction integrated over full guide bottom",
+            "load_face_area_mm2": 86.55999999982363,
+            "minimum_adaptive_Jacobian_mm3": 0.11493421189801083,
+            "high_order_mesh_optimized": false,
+            "guide_weighted_x_displacement_mm": 3.8624799081983743,
+            "compliance_mm_per_N": 1.9312399540991871,
+            "restraint_nodes_xyz_mm": [
+              [
+                0.0,
+                12.0,
+                135.00000000000006
+              ],
+              [
+                0.0,
+                -12.0,
+                135.00000000000006
+              ]
+            ],
+            "seconds": 34.631428956985474,
+            "limits": [
+              "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+              "Restraints are numerical datums, not scalp contact",
+              "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+              "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+              "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\child_large_full_width_h2.0.npz",
+              "sha256": "fc8a6b63bbcb090f78dd1ec726a6c5d2f021000a68b1d72f9f9560e4636931a9",
+              "work_energy_relative_error": 2.5206462207251e-11,
+              "force_balance_error_N": 2.2988346991557077e-10,
+              "fixed_displacement_mm": 0.0,
+              "finite": true,
+              "pass_result": true
+            }
+          }
+        ],
+        "last_displacement_change_fraction": 0.0003977300132098627,
+        "last_stress_change_fraction": 0.0008474155844822029,
+        "chosen_5percent_comparison_pass": true
+      }
+    ],
+    "complete": true,
+    "all_chosen_comparisons_pass": true
+  },
+  "arrays": [
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\child_large_stop_h2.0.npz",
+      "sha256": "c0c7f362e614e2300f55215ea26ff93d931df4bfae3584281aa01147a2069686",
+      "work_energy_relative_error": 1.5096044717292064e-12,
+      "force_balance_error_N": 9.186859438779606e-12,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\child_large_stop_h1.5.npz",
+      "sha256": "8416d1d49de1963cdb02133492e5534222a3d1b21b223f2dc54aa2d288b386b7",
+      "work_energy_relative_error": 1.1766190225145597e-12,
+      "force_balance_error_N": 3.169257844505518e-11,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_stop_h2.0.npz",
+      "sha256": "a2fbaa5a00e6b830ca38ff43f19c5dd409c358e1874207c91bb0f6a7059fc6fd",
+      "work_energy_relative_error": 3.1226454929855775e-12,
+      "force_balance_error_N": 2.6483391582853074e-11,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_stop_h1.5.npz",
+      "sha256": "00ef671aeb9896910072ebfcb80da9d4ed75703a2202ad17dfc3291cd35d4246",
+      "work_energy_relative_error": 3.453754543243342e-12,
+      "force_balance_error_N": 2.281687543395293e-11,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_full_width_h2.5.npz",
+      "sha256": "579633a0b5ee04ff6ce9176a59d83c79b401233ea860075824d0fa1446ea281b",
+      "work_energy_relative_error": 7.379532384646836e-12,
+      "force_balance_error_N": 2.331812741248901e-10,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_full_width_h2.0.npz",
+      "sha256": "1212441fe1f8cc46e8cd42ebdc06e40cd7a1136aa3399faa30e57158c0463520",
+      "work_energy_relative_error": 3.4791818489657487e-10,
+      "force_balance_error_N": 7.024554306769962e-10,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_full_width_h1.5.npz",
+      "sha256": "e2fd82bb464bd6293b42beb360b3eb549b8e7132c32036c1fc84d2046eea82a0",
+      "work_energy_relative_error": 1.9301564537717172e-10,
+      "force_balance_error_N": 9.562650768428051e-11,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\adult_medium_full_width_h2.5.npz",
+      "sha256": "e74fa9e4c43dd57591ea485cb97123b38f7178ee1f3dd3d1d507e84bce219f62",
+      "work_energy_relative_error": 3.0711828179228047e-10,
+      "force_balance_error_N": 7.06943949201734e-10,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\adult_medium_full_width_h2.0.npz",
+      "sha256": "7402cdb66c77b48c8162916a707abd08fafb8d1018110d398838372928af0bea",
+      "work_energy_relative_error": 6.696447195077243e-11,
+      "force_balance_error_N": 4.581792449778039e-10,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\adult_medium_full_width_h1.5.npz",
+      "sha256": "618dcbedcad96766cc81e718cd36dc1de9782494685ac3a594902e8768a52f99",
+      "work_energy_relative_error": 2.619759176189963e-10,
+      "force_balance_error_N": 8.767846601464724e-10,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\adult_medium_full_width_h1.25.npz",
+      "sha256": "d45351156a7cacfd7140823c2318f1b930def82446849782b7f7d8956e1a1cf0",
+      "work_energy_relative_error": 2.1486384826884354e-11,
+      "force_balance_error_N": 8.574703418185838e-10,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\adult_large_full_width_h2.5.npz",
+      "sha256": "da88e6cc21889360af599576fd7485fbd6357fa2f6825d6dd08e59fedc82ce74",
+      "work_energy_relative_error": 7.783685883456748e-10,
+      "force_balance_error_N": 1.0260338989929678e-09,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\adult_large_full_width_h2.0.npz",
+      "sha256": "6fd05ee0f116415aee5e4807b3a49b8da32cc93cd7979ec6686b9d9dde54533d",
+      "work_energy_relative_error": 2.7503169249209022e-12,
+      "force_balance_error_N": 2.3608301850108595e-10,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\adult_large_full_width_h1.5.npz",
+      "sha256": "1747f985fbcf375ed3dac9358b3fd1a30ece5c049a413e75a3a679c7fdee9cc1",
+      "work_energy_relative_error": 2.7773673765958543e-10,
+      "force_balance_error_N": 1.199452235952476e-09,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\adult_large_full_width_h1.25.npz",
+      "sha256": "1a3bbe164c69275a290ab785f233ee9c4da2e5e590640cc209bf704c2ff0c017",
+      "work_energy_relative_error": 2.375623080826168e-10,
+      "force_balance_error_N": 1.229700501398334e-09,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\adult_large_full_width_h1.0.npz",
+      "sha256": "b75059ad11b72465ecd0f3172f10c0fb8af1e8368aefcb5a775e0322b5575326",
+      "work_energy_relative_error": 1.3359685977543585e-10,
+      "force_balance_error_N": 4.303503458843612e-10,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\child_small_full_width_h2.5.npz",
+      "sha256": "14609505f7063b80cbc527806d7677ba447aea806ceebab0477fc3728834811c",
+      "work_energy_relative_error": 4.2776151962613e-11,
+      "force_balance_error_N": 1.273825576956225e-10,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\child_small_full_width_h2.0.npz",
+      "sha256": "776b3a08d588611ed893b6dc05beb88a307c325c1610fa5accc5c15e013379ca",
+      "work_energy_relative_error": 2.2781248191455197e-10,
+      "force_balance_error_N": 4.592399819530888e-10,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\child_medium_full_width_h2.5.npz",
+      "sha256": "7d46aee19c7fdf684021833c80b15729bf1dfa16b0dd675aaaed1901410f3c23",
+      "work_energy_relative_error": 2.7425234451470894e-09,
+      "force_balance_error_N": 7.54074076227621e-09,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\child_medium_full_width_h2.0.npz",
+      "sha256": "ad8335fdf6217c4ee10341be796044eadbdfb6d5f7f183fe8b3bf517d9adf670",
+      "work_energy_relative_error": 5.726070097589689e-10,
+      "force_balance_error_N": 1.3098236837581917e-09,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\child_medium_full_width_h1.5.npz",
+      "sha256": "09e6a8c65ef104178e691ec013c355c65a3f082a76d739b7b1eabfe87436e4e0",
+      "work_energy_relative_error": 5.417917719925092e-10,
+      "force_balance_error_N": 3.640747907198982e-09,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\child_medium_full_width_h1.25.npz",
+      "sha256": "fcdfd9b1574e4f4fea5541584bd0db8513f061e353989d8bccf58aeabad07b5d",
+      "work_energy_relative_error": 1.702187863387077e-09,
+      "force_balance_error_N": 3.762535628990593e-09,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\child_large_full_width_h2.5.npz",
+      "sha256": "9a9999ae61e437476791ada92527aafd925b78788a81849f30728b3a9dc4f8cb",
+      "work_energy_relative_error": 1.6073043297482427e-10,
+      "force_balance_error_N": 6.627865980770337e-10,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\child_large_full_width_h2.0.npz",
+      "sha256": "fc8a6b63bbcb090f78dd1ec726a6c5d2f021000a68b1d72f9f9560e4636931a9",
+      "work_energy_relative_error": 2.5206462207251e-11,
+      "force_balance_error_N": 2.2988346991557077e-10,
+      "fixed_displacement_mm": 0.0,
+      "finite": true,
+      "pass_result": true
+    }
+  ],
+  "component_family_equivalence": [
+    {
+      "size": "child_large",
+      "part": "RightTongue",
+      "reference": "child_large",
+      "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "reference_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "volume_a": 8028.625355850285,
+      "volume_b": 8028.625355850285,
+      "common_mm3": 8028.625355850285,
+      "pass_result": true
+    },
+    {
+      "size": "child_large",
+      "part": "RightFork",
+      "reference": "child_large",
+      "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "reference_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "volume_a": 5309.0795891226,
+      "volume_b": 5309.0795891226,
+      "common_mm3": 5309.0795891226,
+      "pass_result": true
+    },
+    {
+      "size": "child_medium",
+      "part": "RightTongue",
+      "reference": "child_large",
+      "source_sha256": "aff177f6c54fe4069bc68a6788ccd49af2d7e6c19555e64ddb5c2800f0da6025",
+      "reference_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "volume_a": 8028.625355850942,
+      "volume_b": 8028.625355850285,
+      "common_mm3": 8028.625355850942,
+      "pass_result": true
+    },
+    {
+      "size": "child_medium",
+      "part": "RightFork",
+      "reference": "child_large",
+      "source_sha256": "aff177f6c54fe4069bc68a6788ccd49af2d7e6c19555e64ddb5c2800f0da6025",
+      "reference_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "volume_a": 5309.079589122777,
+      "volume_b": 5309.0795891226,
+      "common_mm3": 5309.079589122777,
+      "pass_result": true
+    },
+    {
+      "size": "child_small",
+      "part": "RightTongue",
+      "reference": "child_large",
+      "source_sha256": "2fb80f968c89336e6a292464d754ab9b8be3d2a3013144833502dee4ecf4d403",
+      "reference_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "volume_a": 8028.625355850837,
+      "volume_b": 8028.625355850285,
+      "common_mm3": 8028.625355850834,
+      "pass_result": true
+    },
+    {
+      "size": "child_small",
+      "part": "RightFork",
+      "reference": "child_large",
+      "source_sha256": "2fb80f968c89336e6a292464d754ab9b8be3d2a3013144833502dee4ecf4d403",
+      "reference_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "volume_a": 5309.07958912247,
+      "volume_b": 5309.0795891226,
+      "common_mm3": 5309.079589122468,
+      "pass_result": true
+    },
+    {
+      "size": "adult_large",
+      "part": "RightTongue",
+      "reference": "adult_small",
+      "source_sha256": "b0b177bdd0c19ccdd031ac53d53a31b8574c5b8ad9018797e344c8a5998cec4b",
+      "reference_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+      "volume_a": 10326.544431169474,
+      "volume_b": 10326.544431168651,
+      "common_mm3": 10326.544431169477,
+      "pass_result": true
+    },
+    {
+      "size": "adult_large",
+      "part": "RightFork",
+      "reference": "adult_small",
+      "source_sha256": "b0b177bdd0c19ccdd031ac53d53a31b8574c5b8ad9018797e344c8a5998cec4b",
+      "reference_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+      "volume_a": 6125.079589122821,
+      "volume_b": 6125.079589122662,
+      "common_mm3": 6125.079589122824,
+      "pass_result": true
+    },
+    {
+      "size": "adult_medium",
+      "part": "RightTongue",
+      "reference": "adult_small",
+      "source_sha256": "9f6848d3981fe2fb1e24f43f3f65b2e491838fe1e1a99d4c3fa986ef6f1a0217",
+      "reference_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+      "volume_a": 10326.544431169477,
+      "volume_b": 10326.544431168651,
+      "common_mm3": 10326.544431169476,
+      "pass_result": true
+    },
+    {
+      "size": "adult_medium",
+      "part": "RightFork",
+      "reference": "adult_small",
+      "source_sha256": "9f6848d3981fe2fb1e24f43f3f65b2e491838fe1e1a99d4c3fa986ef6f1a0217",
+      "reference_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+      "volume_a": 6125.079589122821,
+      "volume_b": 6125.079589122662,
+      "common_mm3": 6125.079589122821,
+      "pass_result": true
+    },
+    {
+      "size": "adult_small",
+      "part": "RightTongue",
+      "reference": "adult_small",
+      "source_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+      "reference_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+      "volume_a": 10326.544431168651,
+      "volume_b": 10326.544431168651,
+      "common_mm3": 10326.544431168651,
+      "pass_result": true
+    },
+    {
+      "size": "adult_small",
+      "part": "RightFork",
+      "reference": "adult_small",
+      "source_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+      "reference_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+      "volume_a": 6125.079589122662,
+      "volume_b": 6125.079589122662,
+      "common_mm3": 6125.079589122662,
+      "pass_result": true
+    }
+  ],
+  "nontransferable_band_boolean_checks": [
+    {
+      "size": "child_large",
+      "part": "Band",
+      "reference": "V12 same size",
+      "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "reference_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5",
+      "volume_a": 19529.100998884685,
+      "volume_b": 19529.100998884678,
+      "common_mm3": 22.619467105846518,
+      "pass_result": false
+    },
+    {
+      "size": "child_medium",
+      "part": "Band",
+      "reference": "V12 same size",
+      "source_sha256": "aff177f6c54fe4069bc68a6788ccd49af2d7e6c19555e64ddb5c2800f0da6025",
+      "reference_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+      "volume_a": 18796.29551075013,
+      "volume_b": 18796.295510750115,
+      "common_mm3": 22.619467105846525,
+      "pass_result": false
+    },
+    {
+      "size": "child_small",
+      "part": "Band",
+      "reference": "V12 same size",
+      "source_sha256": "2fb80f968c89336e6a292464d754ab9b8be3d2a3013144833502dee4ecf4d403",
+      "reference_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+      "volume_a": 18020.529825978825,
+      "volume_b": 18020.52982597881,
+      "common_mm3": 22.61946710584653,
+      "pass_result": false
+    }
+  ],
+  "nominal_stop_loads": [
+    {
+      "illustrative_side_force_N": 0.5,
+      "assumed_lever_mm": 65,
+      "stop_reaction_at10mm_N": 3.25,
+      "nominal_two_patch_pressure_MPa": 0.1015625,
+      "scope": "Statics and nominal area only. Not local peak pressure, impact, fatigue or a strength pass."
+    },
+    {
+      "illustrative_side_force_N": 2,
+      "assumed_lever_mm": 65,
+      "stop_reaction_at10mm_N": 13.0,
+      "nominal_two_patch_pressure_MPa": 0.40625,
+      "scope": "Statics and nominal area only. Not local peak pressure, impact, fatigue or a strength pass."
+    },
+    {
+      "illustrative_side_force_N": 5,
+      "assumed_lever_mm": 65,
+      "stop_reaction_at10mm_N": 32.5,
+      "nominal_two_patch_pressure_MPa": 1.015625,
+      "scope": "Statics and nominal area only. Not local peak pressure, impact, fatigue or a strength pass."
+    },
+    {
+      "illustrative_side_force_N": 10,
+      "assumed_lever_mm": 65,
+      "stop_reaction_at10mm_N": 65.0,
+      "nominal_two_patch_pressure_MPa": 2.03125,
+      "scope": "Statics and nominal area only. Not local peak pressure, impact, fatigue or a strength pass."
+    },
+    {
+      "illustrative_side_force_N": 20,
+      "assumed_lever_mm": 65,
+      "stop_reaction_at10mm_N": 130.0,
+      "nominal_two_patch_pressure_MPa": 4.0625,
+      "scope": "Statics and nominal area only. Not local peak pressure, impact, fatigue or a strength pass."
+    }
+  ],
+  "tests": [
+    {
+      "test": "Six size local CAD",
+      "status": "Recorded pass",
+      "scope": "38 valid solids per size; native Fusion archives remain V10"
+    },
+    {
+      "test": "Rigid motion",
+      "status": "Recorded sampled pass",
+      "scope": "189 finite poses; not continuous contact or handling qualification"
+    },
+    {
+      "test": "Independent saved poses",
+      "status": "Recorded pass",
+      "scope": "18 STEP files reimported for count validity volume and bounds"
+    },
+    {
+      "test": "Stop fixtures",
+      "status": "Conditional mesh comparisons",
+      "scope": "Two geometry families, ideal stem clamp and assumed homogeneous material"
+    },
+    {
+      "test": "Band fixtures",
+      "status": "Conditional mesh comparisons",
+      "scope": "All six sizes independently rerun with ideal supports and assumed E2000 MPa"
+    },
+    {
+      "test": "Fork component fixtures",
+      "status": "Conditional selected mesh comparisons pass",
+      "scope": "Child and adult geometry families,ideal fixed pivot bores,uniform cup bore force and prescribed balanced stop load; not complete joint contact"
+    },
+    {
+      "test": "Static gravity holding",
+      "status": "Conditional comparison pass",
+      "scope": "18 assumed density cases below proposed64Nmm minimum; actual torque unmeasured"
+    },
+    {
+      "test": "Torque calibration and retention",
+      "status": "Not performed",
+      "scope": "Measure real breakaway and running torque, locking, drift and wear"
+    },
+    {
+      "test": "Complete joint strength",
+      "status": "Not established",
+      "scope": "Actual fork stop bearing guide bolt preload and contact load sharing remain unsolved"
+    },
+    {
+      "test": "Folded portability",
+      "status": "Geometry recorded",
+      "scope": "Bounding boxes are compared; no carrying usability or optimized packing claim"
+    },
+    {
+      "test": "Materials",
+      "status": "Not selected or validated",
+      "scope": "Earlier finite reference screens are not exhaustive and require samples"
+    },
+    {
+      "test": "Acoustics and outgoing leakage",
+      "status": "No physical pass",
+      "scope": "Actual repeated-seating attenuation leakage response and ANC tests needed"
+    },
+    {
+      "test": "Comfort heat and sensory acceptance",
+      "status": "No physical pass",
+      "scope": "Voluntary user feedback and measured pressure temperature humidity needed"
+    },
+    {
+      "test": "Durability and child handling",
+      "status": "Not performed",
+      "scope": "Drop cycles cleaning ageing pinch and small-part retention require assembled samples"
+    },
+    {
+      "test": "Sony WH CH720N pad",
+      "status": "Measurements deferred",
+      "scope": "No model-specific mounting fit seal sound or comfort pass"
+    },
+    {
+      "test": "Cost and production",
+      "status": "Not released",
+      "scope": "Supplier quotes process capability tooling and actual assembly required"
+    }
+  ],
+  "digital_prototype_candidate": true,
+  "product_complete": false,
+  "manufacturing_release": false,
+  "physical_tests_performed": 0,
+  "native_Fusion_revision": "V10",
+  "limits": [
+    "Mesh and geometry passes are conditional numerical evidence, not a validated product",
+    "The volume-common kernel did not establish child Band identity; all six bands were therefore solved again",
+    "Friction hinge deliberately permits inward folding and does not lock every load direction",
+    "Threaded fasteners are envelopes; spring shown at a catalogue reference height; actual assembly requires calibration"
+  ],
+  "fork_mechanics": {
+    "updated": "2026-10-16",
+    "cases": [
+      {
+        "size": "child_large",
+        "meshes": [
+          {
+            "nodes": 12291,
+            "tet10_elements": 6360,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 3127,
+            "relative_free_residual": 1.0192437583792518e-09,
+            "minimum_quadrature_jacobian_mm3": 0.5705507339839714,
+            "max_von_mises_centroid_MPa": 2.1014015525713443,
+            "strain_energy_Nmm": 0.15967102629309216,
+            "reaction_sum_N": [
+              -1.9999999999885794,
+              3.169834429378646e-12,
+              4.79981736776438
+            ],
+            "size": "child_large",
+            "source": "${WORKSPACE}\\EarDefender_V18_child_large_FrictionStop.step",
+            "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+            "mesh_max_mm": 2.0,
+            "minimum_adaptive_Jacobian_mm3": 0.570550733983815,
+            "cup_force_N": 2,
+            "stop_force_N": 4.799817367758256,
+            "cup_loaded_area_mm2": 157.0755276966235,
+            "stop_loaded_area_mm2": 31.999999999999886,
+            "cup_weighted_x_displacement_mm": 0.16998918059351695,
+            "stop_weighted_z_displacement_mm": 0.004299394544016059,
+            "external_moment_about_pivot_Nmm": [
+              1.4654943925052066e-14,
+              -3.0628277691846506e-14,
+              -0.00012491304189872487
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_nu": 0.35,
+            "seconds": 20.981319665908813,
+            "limits": [
+              "Separate linear elastic fork fixture; two full pivot bore surfaces fixed in all directions",
+              "Uniform 2N total X traction on cup pin bores; downward stop load chosen to balance moment about pivot",
+              "Not a full assembly contact solution; actual pin bearing pressure friction preload stop load sharing and support compliance are omitted",
+              "E2000MPa nu0.35 are assumed; no actual material strength creep drop fatigue child handling or comfort qualification"
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              12.50042501055518,
+              17.75,
+              58.78005959974343
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h2.0.npz",
+              "sha256": "99c0b1705ae0a90b33780dca4e197ac421bc3b2f61e092a402759ac50c3feec8",
+              "work_energy_relative_error": 7.401844860246718e-12,
+              "force_balance_error_N": 1.3340018077101655e-11,
+              "maximum_fixed_displacement_mm": 0.0,
+              "external_moment_Nmm": [
+                1.4654943925052066e-14,
+                -3.0628277691846506e-14,
+                -0.00012491304189872487
+              ],
+              "pass_result": true
+            }
+          },
+          {
+            "nodes": 21788,
+            "tet10_elements": 11939,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 3825,
+            "relative_free_residual": 1.0933908887654792e-09,
+            "minimum_quadrature_jacobian_mm3": 0.38864018999298505,
+            "max_von_mises_centroid_MPa": 1.9731950337041904,
+            "strain_energy_Nmm": 0.16116363617721455,
+            "reaction_sum_N": [
+              -1.9999999999898366,
+              -5.132619561799364e-12,
+              4.799822737368825
+            ],
+            "size": "child_large",
+            "source": "${WORKSPACE}\\EarDefender_V18_child_large_FrictionStop.step",
+            "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+            "mesh_max_mm": 1.5,
+            "minimum_adaptive_Jacobian_mm3": 0.38864018999291505,
+            "cup_force_N": 2,
+            "stop_force_N": 4.799822737386617,
+            "cup_loaded_area_mm2": 157.07413840367602,
+            "stop_loaded_area_mm2": 31.999999999999883,
+            "cup_weighted_x_displacement_mm": 0.17156415627348331,
+            "stop_weighted_z_displacement_mm": 0.004333710082587023,
+            "external_moment_about_pivot_Nmm": [
+              -1.887379141862766e-14,
+              8.379408278358369e-14,
+              -0.00023915511640645176
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_nu": 0.35,
+            "seconds": 31.58599352836609,
+            "limits": [
+              "Separate linear elastic fork fixture; two full pivot bore surfaces fixed in all directions",
+              "Uniform 2N total X traction on cup pin bores; downward stop load chosen to balance moment about pivot",
+              "Not a full assembly contact solution; actual pin bearing pressure friction preload stop load sharing and support compliance are omitted",
+              "E2000MPa nu0.35 are assumed; no actual material strength creep drop fatigue child handling or comfort qualification"
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              12.491427002760219,
+              -17.833333333333332,
+              58.77349334622257
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h1.5.npz",
+              "sha256": "48fcb6c91963cc648c58473186675000fb9ea5ba782cb30d440ab99828c3e114",
+              "work_energy_relative_error": 2.775322719529553e-12,
+              "force_balance_error_N": 2.1120951574114685e-11,
+              "maximum_fixed_displacement_mm": 0.0,
+              "external_moment_Nmm": [
+                -1.887379141862766e-14,
+                8.379408278358369e-14,
+                -0.00023915511640645176
+              ],
+              "pass_result": true
+            }
+          },
+          {
+            "nodes": 31145,
+            "tet10_elements": 17603,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 4270,
+            "relative_free_residual": 1.186755370418145e-09,
+            "minimum_quadrature_jacobian_mm3": 0.30590494972540055,
+            "max_von_mises_centroid_MPa": 2.545060745620724,
+            "strain_energy_Nmm": 0.1619067438112229,
+            "reaction_sum_N": [
+              -2.0000000000005107,
+              8.558946038077831e-13,
+              4.799829398482572
+            ],
+            "size": "child_large",
+            "source": "${WORKSPACE}\\EarDefender_V18_child_large_FrictionStop.step",
+            "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+            "mesh_max_mm": 1.25,
+            "minimum_adaptive_Jacobian_mm3": 0.3059049497253621,
+            "cup_force_N": 2,
+            "stop_force_N": 4.799829398489325,
+            "cup_loaded_area_mm2": 157.07323745806528,
+            "stop_loaded_area_mm2": 31.999999999999876,
+            "cup_weighted_x_displacement_mm": 0.17238285790172633,
+            "stop_weighted_z_displacement_mm": 0.004365202686062028,
+            "external_moment_about_pivot_Nmm": [
+              2.5091040356528538e-14,
+              3.5041414214731503e-14,
+              -6.484108456262377e-05
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_nu": 0.35,
+            "seconds": 47.35826349258423,
+            "limits": [
+              "Separate linear elastic fork fixture; two full pivot bore surfaces fixed in all directions",
+              "Uniform 2N total X traction on cup pin bores; downward stop load chosen to balance moment about pivot",
+              "Not a full assembly contact solution; actual pin bearing pressure friction preload stop load sharing and support compliance are omitted",
+              "E2000MPa nu0.35 are assumed; no actual material strength creep drop fatigue child handling or comfort qualification"
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              12.703994637837102,
+              17.625,
+              58.81549356245567
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h1.25.npz",
+              "sha256": "dbb10cede5c1306e760a0ad53f9222a2bdafaf439d49ab0a73f7cb19686ca2eb",
+              "work_energy_relative_error": 5.9233999874070035e-12,
+              "force_balance_error_N": 6.8251479074382684e-12,
+              "maximum_fixed_displacement_mm": 0.0,
+              "external_moment_Nmm": [
+                2.5091040356528538e-14,
+                3.5041414214731503e-14,
+                -6.484108456262377e-05
+              ],
+              "pass_result": true
+            }
+          },
+          {
+            "nodes": 48633,
+            "tet10_elements": 28551,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 5047,
+            "relative_free_residual": 1.2377224563771904e-09,
+            "minimum_quadrature_jacobian_mm3": 0.24266153267645374,
+            "max_von_mises_centroid_MPa": 2.4860526073448526,
+            "strain_energy_Nmm": 0.1622835690116699,
+            "reaction_sum_N": [
+              -2.000000000039232,
+              1.5620739014786926e-14,
+              4.800107374650921
+            ],
+            "size": "child_large",
+            "source": "${WORKSPACE}\\EarDefender_V18_child_large_FrictionStop.step",
+            "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+            "mesh_max_mm": 1.0,
+            "minimum_adaptive_Jacobian_mm3": 0.24266153267639717,
+            "cup_force_N": 2,
+            "stop_force_N": 4.800107374628736,
+            "cup_loaded_area_mm2": 157.35393270995007,
+            "stop_loaded_area_mm2": 31.999999999999886,
+            "cup_weighted_x_displacement_mm": 0.1727419085027879,
+            "stop_weighted_z_displacement_mm": 0.004357543977480265,
+            "external_moment_about_pivot_Nmm": [
+              2.120525977034049e-14,
+              2.4313884239290928e-14,
+              -0.0008656221885436563
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_nu": 0.35,
+            "seconds": 88.5763566493988,
+            "limits": [
+              "Separate linear elastic fork fixture; two full pivot bore surfaces fixed in all directions",
+              "Uniform 2N total X traction on cup pin bores; downward stop load chosen to balance moment about pivot",
+              "Not a full assembly contact solution; actual pin bearing pressure friction preload stop load sharing and support compliance are omitted",
+              "E2000MPa nu0.35 are assumed; no actual material strength creep drop fatigue child handling or comfort qualification"
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              12.765447874511764,
+              16.62663255615454,
+              58.75900002346282
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h1.0.npz",
+              "sha256": "b90ac0e88804189b50b457fc8b049529805ede8a6fd83ccb44314f9c45658628",
+              "work_energy_relative_error": 2.0458768409856615e-12,
+              "force_balance_error_N": 4.507260469852351e-11,
+              "maximum_fixed_displacement_mm": 0.0,
+              "external_moment_Nmm": [
+                2.120525977034049e-14,
+                2.4313884239290928e-14,
+                -0.0008656221885436563
+              ],
+              "pass_result": true
+            }
+          }
+        ],
+        "cup_displacement_change_fraction": 0.002078537884486642,
+        "sampled_stress_change_fraction": 0.023735675625502273,
+        "chosen_5percent_mesh_comparison_pass": true
+      },
+      {
+        "size": "adult_small",
+        "meshes": [
+          {
+            "nodes": 13243,
+            "tet10_elements": 6868,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 3345,
+            "relative_free_residual": 1.0730554291864198e-09,
+            "minimum_quadrature_jacobian_mm3": 0.52563861282793,
+            "max_von_mises_centroid_MPa": 2.5852505056655266,
+            "strain_energy_Nmm": 0.22630653412225127,
+            "reaction_sum_N": [
+              -1.9999999999873241,
+              1.1567233135663815e-11,
+              5.399817367750114
+            ],
+            "size": "adult_small",
+            "source": "${WORKSPACE}\\EarDefender_V18_adult_small_FrictionStop.step",
+            "source_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+            "mesh_max_mm": 2.0,
+            "minimum_adaptive_Jacobian_mm3": 0.5256386128276402,
+            "cup_force_N": 2,
+            "stop_force_N": 5.3998173677582555,
+            "cup_loaded_area_mm2": 157.0755276966235,
+            "stop_loaded_area_mm2": 31.999999999999865,
+            "cup_weighted_x_displacement_mm": 0.2396119172351037,
+            "stop_weighted_z_displacement_mm": 0.004928086343373367,
+            "external_moment_about_pivot_Nmm": [
+              5.773159728050814e-14,
+              6.407374630867935e-14,
+              -0.00012491304189686525
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_nu": 0.35,
+            "seconds": 16.97417140007019,
+            "limits": [
+              "Separate linear elastic fork fixture; two full pivot bore surfaces fixed in all directions",
+              "Uniform 2N total X traction on cup pin bores; downward stop load chosen to balance moment about pivot",
+              "Not a full assembly contact solution; actual pin bearing pressure friction preload stop load sharing and support compliance are omitted",
+              "E2000MPa nu0.35 are assumed; no actual material strength creep drop fatigue child handling or comfort qualification"
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              12.500499999997054,
+              27.75,
+              61.78327714270422
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_fork_h2.0.npz",
+              "sha256": "2acb2831444a31f4e7aad2a48e0a8f2917a13122fa20a4701dc4cff4a9575fd1",
+              "work_energy_relative_error": 2.330517984798888e-12,
+              "force_balance_error_N": 1.8993633402610192e-11,
+              "maximum_fixed_displacement_mm": 0.0,
+              "external_moment_Nmm": [
+                5.773159728050814e-14,
+                6.407374630867935e-14,
+                -0.00012491304189686525
+              ],
+              "pass_result": true
+            }
+          },
+          {
+            "nodes": 23679,
+            "tet10_elements": 12959,
+            "assembly_method": "CSR batches of up to2048 elements",
+            "reduced_matrix_storage": true,
+            "coarse_preconditioner_modes": 12,
+            "cg_iterations": 4100,
+            "relative_free_residual": 1.1787056166608297e-09,
+            "minimum_quadrature_jacobian_mm3": 0.38864018999387934,
+            "max_von_mises_centroid_MPa": 2.472167869495126,
+            "strain_energy_Nmm": 0.22759132123994097,
+            "reaction_sum_N": [
+              -2.0000000000242646,
+              1.87875858475051e-12,
+              5.399822737397569
+            ],
+            "size": "adult_small",
+            "source": "${WORKSPACE}\\EarDefender_V18_adult_small_FrictionStop.step",
+            "source_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+            "mesh_max_mm": 1.5,
+            "minimum_adaptive_Jacobian_mm3": 0.38864018999377664,
+            "cup_force_N": 2,
+            "stop_force_N": 5.39982273738662,
+            "cup_loaded_area_mm2": 157.074138403676,
+            "stop_loaded_area_mm2": 31.999999999999858,
+            "cup_weighted_x_displacement_mm": 0.24099591516798682,
+            "stop_weighted_z_displacement_mm": 0.004964827394139704,
+            "external_moment_about_pivot_Nmm": [
+              2.1760371282653068e-14,
+              1.887379141862766e-15,
+              -0.0002391551164029962
+            ],
+            "assumed_E_MPa": 2000,
+            "assumed_nu": 0.35,
+            "seconds": 38.910587549209595,
+            "limits": [
+              "Separate linear elastic fork fixture; two full pivot bore surfaces fixed in all directions",
+              "Uniform 2N total X traction on cup pin bores; downward stop load chosen to balance moment about pivot",
+              "Not a full assembly contact solution; actual pin bearing pressure friction preload stop load sharing and support compliance are omitted",
+              "E2000MPa nu0.35 are assumed; no actual material strength creep drop fatigue child handling or comfort qualification"
+            ],
+            "sampled_peak_centroid_xyz_mm": [
+              12.491427002761203,
+              -27.83333333333333,
+              61.77349334622214
+            ],
+            "array_audit": {
+              "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_fork_h1.5.npz",
+              "sha256": "1b502f9dd28d84553f61050447a42b9535195664679d923fb2a5cb105f5d8c15",
+              "work_energy_relative_error": 1.3217450579261363e-11,
+              "force_balance_error_N": 2.6686943106480737e-11,
+              "maximum_fixed_displacement_mm": 0.0,
+              "external_moment_Nmm": [
+                2.1760371282653068e-14,
+                1.887379141862766e-15,
+                -0.0002391551164029962
+              ],
+              "pass_result": true
+            }
+          }
+        ],
+        "cup_displacement_change_fraction": 0.0057428273500752525,
+        "sampled_stress_change_fraction": 0.045742296696661855,
+        "chosen_5percent_mesh_comparison_pass": true
+      }
+    ],
+    "array_audits": [
+      {
+        "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h2.0.npz",
+        "sha256": "99c0b1705ae0a90b33780dca4e197ac421bc3b2f61e092a402759ac50c3feec8",
+        "work_energy_relative_error": 7.401844860246718e-12,
+        "force_balance_error_N": 1.3340018077101655e-11,
+        "maximum_fixed_displacement_mm": 0.0,
+        "external_moment_Nmm": [
+          1.4654943925052066e-14,
+          -3.0628277691846506e-14,
+          -0.00012491304189872487
+        ],
+        "pass_result": true
+      },
+      {
+        "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h1.5.npz",
+        "sha256": "48fcb6c91963cc648c58473186675000fb9ea5ba782cb30d440ab99828c3e114",
+        "work_energy_relative_error": 2.775322719529553e-12,
+        "force_balance_error_N": 2.1120951574114685e-11,
+        "maximum_fixed_displacement_mm": 0.0,
+        "external_moment_Nmm": [
+          -1.887379141862766e-14,
+          8.379408278358369e-14,
+          -0.00023915511640645176
+        ],
+        "pass_result": true
+      },
+      {
+        "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h1.25.npz",
+        "sha256": "dbb10cede5c1306e760a0ad53f9222a2bdafaf439d49ab0a73f7cb19686ca2eb",
+        "work_energy_relative_error": 5.9233999874070035e-12,
+        "force_balance_error_N": 6.8251479074382684e-12,
+        "maximum_fixed_displacement_mm": 0.0,
+        "external_moment_Nmm": [
+          2.5091040356528538e-14,
+          3.5041414214731503e-14,
+          -6.484108456262377e-05
+        ],
+        "pass_result": true
+      },
+      {
+        "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h1.0.npz",
+        "sha256": "b90ac0e88804189b50b457fc8b049529805ede8a6fd83ccb44314f9c45658628",
+        "work_energy_relative_error": 2.0458768409856615e-12,
+        "force_balance_error_N": 4.507260469852351e-11,
+        "maximum_fixed_displacement_mm": 0.0,
+        "external_moment_Nmm": [
+          2.120525977034049e-14,
+          2.4313884239290928e-14,
+          -0.0008656221885436563
+        ],
+        "pass_result": true
+      },
+      {
+        "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_fork_h2.0.npz",
+        "sha256": "2acb2831444a31f4e7aad2a48e0a8f2917a13122fa20a4701dc4cff4a9575fd1",
+        "work_energy_relative_error": 2.330517984798888e-12,
+        "force_balance_error_N": 1.8993633402610192e-11,
+        "maximum_fixed_displacement_mm": 0.0,
+        "external_moment_Nmm": [
+          5.773159728050814e-14,
+          6.407374630867935e-14,
+          -0.00012491304189686525
+        ],
+        "pass_result": true
+      },
+      {
+        "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_fork_h1.5.npz",
+        "sha256": "1b502f9dd28d84553f61050447a42b9535195664679d923fb2a5cb105f5d8c15",
+        "work_energy_relative_error": 1.3217450579261363e-11,
+        "force_balance_error_N": 2.6686943106480737e-11,
+        "maximum_fixed_displacement_mm": 0.0,
+        "external_moment_Nmm": [
+          2.1760371282653068e-14,
+          1.887379141862766e-15,
+          -0.0002391551164029962
+        ],
+        "pass_result": true
+      }
+    ],
+    "all_array_audits_pass": true,
+    "all_chosen_mesh_comparisons_pass": true,
+    "physical_tests_performed": 0,
+    "limits": [
+      "Separate linear elastic fork fixture; two full pivot bore surfaces fixed in all directions",
+      "Uniform 2N total X traction on cup pin bores; downward stop load chosen to balance moment about pivot",
+      "Not a full assembly contact solution; actual pin bearing pressure friction preload stop load sharing and support compliance are omitted",
+      "E2000MPa nu0.35 are assumed; no actual material strength creep drop fatigue child handling or comfort qualification"
+    ]
+  },
+  "additional_fork_array_audits": [
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h2.0.npz",
+      "sha256": "99c0b1705ae0a90b33780dca4e197ac421bc3b2f61e092a402759ac50c3feec8",
+      "work_energy_relative_error": 7.401844860246718e-12,
+      "force_balance_error_N": 1.3340018077101655e-11,
+      "maximum_fixed_displacement_mm": 0.0,
+      "external_moment_Nmm": [
+        1.4654943925052066e-14,
+        -3.0628277691846506e-14,
+        -0.00012491304189872487
+      ],
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h1.5.npz",
+      "sha256": "48fcb6c91963cc648c58473186675000fb9ea5ba782cb30d440ab99828c3e114",
+      "work_energy_relative_error": 2.775322719529553e-12,
+      "force_balance_error_N": 2.1120951574114685e-11,
+      "maximum_fixed_displacement_mm": 0.0,
+      "external_moment_Nmm": [
+        -1.887379141862766e-14,
+        8.379408278358369e-14,
+        -0.00023915511640645176
+      ],
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h1.25.npz",
+      "sha256": "dbb10cede5c1306e760a0ad53f9222a2bdafaf439d49ab0a73f7cb19686ca2eb",
+      "work_energy_relative_error": 5.9233999874070035e-12,
+      "force_balance_error_N": 6.8251479074382684e-12,
+      "maximum_fixed_displacement_mm": 0.0,
+      "external_moment_Nmm": [
+        2.5091040356528538e-14,
+        3.5041414214731503e-14,
+        -6.484108456262377e-05
+      ],
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\child_large_fork_h1.0.npz",
+      "sha256": "b90ac0e88804189b50b457fc8b049529805ede8a6fd83ccb44314f9c45658628",
+      "work_energy_relative_error": 2.0458768409856615e-12,
+      "force_balance_error_N": 4.507260469852351e-11,
+      "maximum_fixed_displacement_mm": 0.0,
+      "external_moment_Nmm": [
+        2.120525977034049e-14,
+        2.4313884239290928e-14,
+        -0.0008656221885436563
+      ],
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_fork_h2.0.npz",
+      "sha256": "2acb2831444a31f4e7aad2a48e0a8f2917a13122fa20a4701dc4cff4a9575fd1",
+      "work_energy_relative_error": 2.330517984798888e-12,
+      "force_balance_error_N": 1.8993633402610192e-11,
+      "maximum_fixed_displacement_mm": 0.0,
+      "external_moment_Nmm": [
+        5.773159728050814e-14,
+        6.407374630867935e-14,
+        -0.00012491304189686525
+      ],
+      "pass_result": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v18-results\\adult_small_fork_h1.5.npz",
+      "sha256": "1b502f9dd28d84553f61050447a42b9535195664679d923fb2a5cb105f5d8c15",
+      "work_energy_relative_error": 1.3217450579261363e-11,
+      "force_balance_error_N": 2.6686943106480737e-11,
+      "maximum_fixed_displacement_mm": 0.0,
+      "external_moment_Nmm": [
+        2.1760371282653068e-14,
+        1.887379141862766e-15,
+        -0.0002391551164029962
+      ],
+      "pass_result": true
+    }
+  ],
+  "solver_array_audits_total": 30,
+  "remaining_product_validation": [
+    {
+      "workstream": "Complete joint contact and strength",
+      "prerequisite": "Measured materials, friction, bolt preload and guide/pin support behaviour",
+      "status": "Not established"
+    },
+    {
+      "workstream": "Hinge torque drift and fastener retention",
+      "prerequisite": "Actual assembled hinge and torque measurements",
+      "status": "Not performed"
+    },
+    {
+      "workstream": "Foam cover and structural materials",
+      "prerequisite": "Actual grade-specific samples and compression recovery stretch creep friction data",
+      "status": "Not validated"
+    },
+    {
+      "workstream": "Worn force and pressure",
+      "prerequisite": "Known head/fixture geometry and measured headband force and pad behaviour",
+      "status": "Not validated"
+    },
+    {
+      "workstream": "Incoming attenuation and outgoing leakage",
+      "prerequisite": "Physical acoustic fixture or laboratory and repeated seating with and without glasses",
+      "status": "Not performed"
+    },
+    {
+      "workstream": "Heat humidity and sensory acceptance",
+      "prerequisite": "Actual climate measurements and voluntary user feedback",
+      "status": "Not performed"
+    },
+    {
+      "workstream": "Durability and child handling",
+      "prerequisite": "Reviewed loads, assembled samples, cycle/drop/cleaning/retention and pinch assessments",
+      "status": "Not performed"
+    },
+    {
+      "workstream": "Sony WH CH720N fit",
+      "prerequisite": "Deferred original pad and mounting dimensions, then physical host comparisons",
+      "status": "Not established"
+    },
+    {
+      "workstream": "Final cost and production capability",
+      "prerequisite": "Chosen processes, tolerances, supplier quotes and sample yield",
+      "status": "Not established"
+    }
+  ],
+  "stage_decision": "Current V18 component assessment recorded; bench prototype and measured inputs needed before product validation can pass",
+  "final_available_data_screens": {
+    "file": "engineering-v18-results/final_available_data_screen.json",
+    "material_cases": 500,
+    "pivot_fit_cases": 288,
+    "retention_cases": 216,
+    "CAD_sizes_measured": 6,
+    "minimum_calculated64Nmm_threshold_g": 1.1476258360120177,
+    "physical_measurements_performed": 0
+  },
+  "screening_phase_disposition": "Available-data screening recorded with known limits; complete joint,validated materials,physical performance and Sony fit remain input-dependent and are not passed"
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "${WORKSPACE}\complete_v19_reports.py", line 6, in <module>
+    jobs.append(dict(script=script,exit_code=r.returncode));(O/'report_completion_status.json').write_text(json.dumps(dict(jobs=jobs,complete=False),indent=2));assert r.returncode==0,script
+                                                                                                                                                                       ^^^^^^^^^^^^^^^
+AssertionError: finalize_v19_documents.py

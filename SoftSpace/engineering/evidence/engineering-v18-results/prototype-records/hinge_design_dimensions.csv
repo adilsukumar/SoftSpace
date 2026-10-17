@@ -1,0 +1,7 @@
+size,pivot_z_mm,guide_bottom_z_mm,inner_fork_halfspacing_mm,outer_fork_halfspacing_mm,pin_diameter_mm,bore_diameter_mm,stop_contact_area_mm2,disc_spring_reference,nominal_hinge_torque_target_Nmm,proposed_min_Nmm,proposed_max_Nmm,status
+adult_large,62.0,85,24.0,28.0,4,4.3,32,SCHNORR 000600 B,80,64,96,Nominal prototype concept dimensions; tolerances process and assembly not released
+adult_medium,62.0,85,24.0,28.0,4,4.3,32,SCHNORR 000600 B,80,64,96,Nominal prototype concept dimensions; tolerances process and assembly not released
+adult_small,62.0,85,24.0,28.0,4,4.3,32,SCHNORR 000600 B,80,64,96,Nominal prototype concept dimensions; tolerances process and assembly not released
+child_large,59.0,82,14.0,18.0,4,4.3,32,SCHNORR 000600 B,80,64,96,Nominal prototype concept dimensions; tolerances process and assembly not released
+child_medium,59.0,82,14.0,18.0,4,4.3,32,SCHNORR 000600 B,80,64,96,Nominal prototype concept dimensions; tolerances process and assembly not released
+child_small,59.0,82,14.0,18.0,4,4.3,32,SCHNORR 000600 B,80,64,96,Nominal prototype concept dimensions; tolerances process and assembly not released

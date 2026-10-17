@@ -1,0 +1,173 @@
+{
+  "status": "complete for exported files present at execution",
+  "exports": [
+    {
+      "size": "child_small",
+      "phase": "Latched",
+      "file": "${WORKSPACE}\\EarDefender_V12_child_small_Latched.step",
+      "sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+      "solid_count": 32,
+      "minimum_volume_mm3": 8.576944060139088,
+      "total_volume_mm3": 342227.98602275667,
+      "expected_total_volume_mm3": 342227.9860213484,
+      "volume_difference_mm3": 1.4082761481404305e-06,
+      "pass": true
+    },
+    {
+      "size": "child_small",
+      "phase": "Released",
+      "file": "${WORKSPACE}\\EarDefender_V12_child_small_Released.step",
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765",
+      "solid_count": 32,
+      "minimum_volume_mm3": 8.576944060139354,
+      "total_volume_mm3": 342149.811967332,
+      "expected_total_volume_mm3": 342148.8178864779,
+      "volume_difference_mm3": 0.9940808540559374,
+      "pass": false
+    },
+    {
+      "size": "child_small",
+      "phase": "Folded",
+      "file": "${WORKSPACE}\\EarDefender_V12_child_small_Folded.step",
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf",
+      "solid_count": 32,
+      "minimum_volume_mm3": 8.576944060139352,
+      "total_volume_mm3": 342149.8119673321,
+      "expected_total_volume_mm3": 342148.8178864779,
+      "volume_difference_mm3": 0.9940808541723527,
+      "pass": false
+    },
+    {
+      "size": "child_medium",
+      "phase": "Latched",
+      "file": "${WORKSPACE}\\EarDefender_V12_child_medium_Latched.step",
+      "sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+      "solid_count": 32,
+      "minimum_volume_mm3": 8.576944060139088,
+      "total_volume_mm3": 344846.8653890972,
+      "expected_total_volume_mm3": 344846.8653878485,
+      "volume_difference_mm3": 1.2486707419157028e-06,
+      "pass": true
+    },
+    {
+      "size": "child_medium",
+      "phase": "Released",
+      "file": "${WORKSPACE}\\EarDefender_V12_child_medium_Released.step",
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7",
+      "solid_count": 32,
+      "minimum_volume_mm3": 8.57694406013935,
+      "total_volume_mm3": 344768.69133368623,
+      "expected_total_volume_mm3": 344767.69725297805,
+      "volume_difference_mm3": 0.9940807081875391,
+      "pass": false
+    },
+    {
+      "size": "child_medium",
+      "phase": "Folded",
+      "file": "${WORKSPACE}\\EarDefender_V12_child_medium_Folded.step",
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2",
+      "solid_count": 32,
+      "minimum_volume_mm3": 8.576944060139352,
+      "total_volume_mm3": 344768.69133368623,
+      "expected_total_volume_mm3": 344767.69725297805,
+      "volume_difference_mm3": 0.9940807081875391,
+      "pass": false
+    },
+    {
+      "size": "child_large",
+      "phase": "Latched",
+      "file": "${WORKSPACE}\\EarDefender_V12_child_large_Latched.step",
+      "sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5",
+      "solid_count": 32,
+      "minimum_volume_mm3": 8.576944060139091,
+      "total_volume_mm3": 347320.0261915515,
+      "expected_total_volume_mm3": 347320.0261903608,
+      "volume_difference_mm3": 1.1906959116458893e-06,
+      "pass": true
+    },
+    {
+      "size": "adult_small",
+      "phase": "Latched",
+      "file": "${WORKSPACE}\\EarDefender_V12_adult_small_Latched.step",
+      "sha256": "f8e015bce1e77e9b13c3dcbf51e4f4da2c7c184cf3388111283a5ed86a3419d0",
+      "solid_count": 32,
+      "minimum_volume_mm3": 8.576944060139088,
+      "total_volume_mm3": 453559.35688443895,
+      "expected_total_volume_mm3": 453559.3510316909,
+      "volume_difference_mm3": 0.005852748057805002,
+      "pass": true
+    },
+    {
+      "size": "adult_medium",
+      "phase": "Latched",
+      "file": "${WORKSPACE}\\EarDefender_V12_adult_medium_Latched.step",
+      "sha256": "7affe57c39b80d0b75af2a0ee4222cfe850d1e7b0d125052e943972701bb5dd6",
+      "solid_count": 32,
+      "minimum_volume_mm3": 8.576944060139086,
+      "total_volume_mm3": 458055.46279287944,
+      "expected_total_volume_mm3": 458055.4569164552,
+      "volume_difference_mm3": 0.005876424256712198,
+      "pass": true
+    },
+    {
+      "size": "adult_large",
+      "phase": "Latched",
+      "file": "${WORKSPACE}\\EarDefender_V12_adult_large_Latched.step",
+      "sha256": "b3c9126933a60d301aee7d2bf14300fb510ac840ccbd27f370099873a6fb9de7",
+      "solid_count": 32,
+      "minimum_volume_mm3": 8.576944060139088,
+      "total_volume_mm3": 462523.9122604963,
+      "expected_total_volume_mm3": 462523.906362335,
+      "volume_difference_mm3": 0.005898161267396063,
+      "pass": true
+    }
+  ],
+  "export_count": 10,
+  "all_exports_pass": false,
+  "fork_family_checks": [
+    {
+      "family": "adult",
+      "reference_size": "adult_small",
+      "compared_size": "adult_small",
+      "symmetric_difference_mm3": 23736.862579770546,
+      "pass": false
+    },
+    {
+      "family": "adult",
+      "reference_size": "adult_small",
+      "compared_size": "adult_medium",
+      "symmetric_difference_mm3": 23736.862579772416,
+      "pass": false
+    },
+    {
+      "family": "adult",
+      "reference_size": "adult_small",
+      "compared_size": "adult_large",
+      "symmetric_difference_mm3": 23736.862579633977,
+      "pass": false
+    },
+    {
+      "family": "child",
+      "reference_size": "child_small",
+      "compared_size": "child_small",
+      "symmetric_difference_mm3": 20669.84811047086,
+      "pass": false
+    },
+    {
+      "family": "child",
+      "reference_size": "child_small",
+      "compared_size": "child_medium",
+      "symmetric_difference_mm3": 20669.848110471466,
+      "pass": false
+    },
+    {
+      "family": "child",
+      "reference_size": "child_small",
+      "compared_size": "child_large",
+      "symmetric_difference_mm3": 20669.848110469233,
+      "pass": false
+    }
+  ],
+  "all_fork_family_checks_pass": false,
+  "scope": "Positive volume, count and volume conservation on independently imported STEP files; translated right-fork equivalence only. Does not validate mechanism strength or physical manufacture."
+}

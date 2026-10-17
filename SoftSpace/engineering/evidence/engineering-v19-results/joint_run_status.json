@@ -1,0 +1,149 @@
+{
+  "cases": [
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h3.0_P70_mu0.1_F2.json",
+      "size": "child_large",
+      "h": 3.0,
+      "preload": 70,
+      "mu": 0.1,
+      "F": 2,
+      "converged": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h3.0_P70_mu0.1_F-2.json",
+      "size": "child_large",
+      "h": 3.0,
+      "preload": 70,
+      "mu": 0.1,
+      "F": -2,
+      "converged": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h3.0_P140_mu0.2_F2.json",
+      "size": "child_large",
+      "h": 3.0,
+      "preload": 140,
+      "mu": 0.2,
+      "F": 2,
+      "converged": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h3.0_P140_mu0.2_F-2.json",
+      "size": "child_large",
+      "h": 3.0,
+      "preload": 140,
+      "mu": 0.2,
+      "F": -2,
+      "converged": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h3.0_P210_mu0.3_F2.json",
+      "size": "child_large",
+      "h": 3.0,
+      "preload": 210,
+      "mu": 0.3,
+      "F": 2,
+      "converged": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h3.0_P210_mu0.3_F-2.json",
+      "size": "child_large",
+      "h": 3.0,
+      "preload": 210,
+      "mu": 0.3,
+      "F": -2,
+      "converged": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h2.0_P140_mu0.2_F2.json",
+      "size": "child_large",
+      "h": 2.0,
+      "preload": 140,
+      "mu": 0.2,
+      "F": 2,
+      "converged": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h2.0_P140_mu0.2_F-2.json",
+      "size": "child_large",
+      "h": 2.0,
+      "preload": 140,
+      "mu": 0.2,
+      "F": -2,
+      "converged": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h3.0_P70_mu0.1_F2.json",
+      "size": "adult_small",
+      "h": 3.0,
+      "preload": 70,
+      "mu": 0.1,
+      "F": 2,
+      "converged": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h3.0_P70_mu0.1_F-2.json",
+      "size": "adult_small",
+      "h": 3.0,
+      "preload": 70,
+      "mu": 0.1,
+      "F": -2,
+      "converged": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h3.0_P140_mu0.2_F2.json",
+      "size": "adult_small",
+      "h": 3.0,
+      "preload": 140,
+      "mu": 0.2,
+      "F": 2,
+      "converged": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h3.0_P140_mu0.2_F-2.json",
+      "size": "adult_small",
+      "h": 3.0,
+      "preload": 140,
+      "mu": 0.2,
+      "F": -2,
+      "converged": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h3.0_P210_mu0.3_F2.json",
+      "size": "adult_small",
+      "h": 3.0,
+      "preload": 210,
+      "mu": 0.3,
+      "F": 2,
+      "converged": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h3.0_P210_mu0.3_F-2.json",
+      "size": "adult_small",
+      "h": 3.0,
+      "preload": 210,
+      "mu": 0.3,
+      "F": -2,
+      "converged": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h2.0_P140_mu0.2_F2.json",
+      "size": "adult_small",
+      "h": 2.0,
+      "preload": 140,
+      "mu": 0.2,
+      "F": 2,
+      "converged": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h2.0_P140_mu0.2_F-2.json",
+      "size": "adult_small",
+      "h": 2.0,
+      "preload": 140,
+      "mu": 0.2,
+      "F": -2,
+      "converged": true
+    }
+  ],
+  "complete": true
+}

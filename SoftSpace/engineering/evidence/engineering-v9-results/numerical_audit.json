@@ -1,0 +1,211 @@
+{
+  "status": "complete",
+  "all_available_pass": true,
+  "checks": [
+    {
+      "size": "adult_small",
+      "mesh_mm": 2.0,
+      "positive_jacobians": true,
+      "free_residual_below_1e_5": true,
+      "reaction_balance_error_N": 7.126604531878812e-10,
+      "positive_strain_energy": true,
+      "finite_positive_stress": true,
+      "recorded_source_hash_matches": true,
+      "pass": true
+    },
+    {
+      "size": "adult_small",
+      "mesh_mm": 1.5,
+      "positive_jacobians": true,
+      "free_residual_below_1e_5": true,
+      "reaction_balance_error_N": 9.347753288893806e-10,
+      "positive_strain_energy": true,
+      "finite_positive_stress": true,
+      "recorded_source_hash_matches": true,
+      "pass": true
+    },
+    {
+      "size": "adult_small",
+      "mesh_mm": 1.25,
+      "positive_jacobians": true,
+      "free_residual_below_1e_5": true,
+      "reaction_balance_error_N": 7.306909490274915e-10,
+      "positive_strain_energy": true,
+      "finite_positive_stress": true,
+      "recorded_source_hash_matches": true,
+      "pass": true
+    },
+    {
+      "size": "child_small",
+      "mesh_mm": 2.0,
+      "positive_jacobians": true,
+      "free_residual_below_1e_5": true,
+      "reaction_balance_error_N": 1.0084651487908216e-09,
+      "positive_strain_energy": true,
+      "finite_positive_stress": true,
+      "recorded_source_hash_matches": true,
+      "pass": true
+    },
+    {
+      "size": "child_small",
+      "mesh_mm": 1.5,
+      "positive_jacobians": true,
+      "free_residual_below_1e_5": true,
+      "reaction_balance_error_N": 1.9053020230013445e-09,
+      "positive_strain_energy": true,
+      "finite_positive_stress": true,
+      "recorded_source_hash_matches": true,
+      "pass": true
+    },
+    {
+      "size": "child_small",
+      "mesh_mm": 1.25,
+      "positive_jacobians": true,
+      "free_residual_below_1e_5": true,
+      "reaction_balance_error_N": 8.068018788759212e-10,
+      "positive_strain_energy": true,
+      "finite_positive_stress": true,
+      "recorded_source_hash_matches": true,
+      "pass": true
+    },
+    {
+      "size": "child_medium",
+      "mesh_mm": 2.0,
+      "positive_jacobians": true,
+      "free_residual_below_1e_5": true,
+      "reaction_balance_error_N": 1.6604057557805002e-09,
+      "positive_strain_energy": true,
+      "finite_positive_stress": true,
+      "recorded_source_hash_matches": true,
+      "pass": true
+    },
+    {
+      "size": "child_medium",
+      "mesh_mm": 1.5,
+      "positive_jacobians": true,
+      "free_residual_below_1e_5": true,
+      "reaction_balance_error_N": 1.183599803706002e-09,
+      "positive_strain_energy": true,
+      "finite_positive_stress": true,
+      "recorded_source_hash_matches": true,
+      "pass": true
+    },
+    {
+      "size": "child_medium",
+      "mesh_mm": 1.25,
+      "positive_jacobians": true,
+      "free_residual_below_1e_5": true,
+      "reaction_balance_error_N": 1.140391025392712e-09,
+      "positive_strain_energy": true,
+      "finite_positive_stress": true,
+      "recorded_source_hash_matches": true,
+      "pass": true
+    },
+    {
+      "size": "child_medium",
+      "mesh_mm": 1.0,
+      "positive_jacobians": true,
+      "free_residual_below_1e_5": true,
+      "reaction_balance_error_N": 1.993610173697146e-09,
+      "positive_strain_energy": true,
+      "finite_positive_stress": true,
+      "recorded_source_hash_matches": true,
+      "pass": true
+    },
+    {
+      "size": "child_large",
+      "mesh_mm": 2.0,
+      "positive_jacobians": true,
+      "free_residual_below_1e_5": true,
+      "reaction_balance_error_N": 1.4036262184974648e-09,
+      "positive_strain_energy": true,
+      "finite_positive_stress": true,
+      "recorded_source_hash_matches": true,
+      "pass": true
+    },
+    {
+      "size": "child_large",
+      "mesh_mm": 1.5,
+      "positive_jacobians": true,
+      "free_residual_below_1e_5": true,
+      "reaction_balance_error_N": 1.1482524997665022e-09,
+      "positive_strain_energy": true,
+      "finite_positive_stress": true,
+      "recorded_source_hash_matches": true,
+      "pass": true
+    },
+    {
+      "size": "child_large",
+      "mesh_mm": 1.25,
+      "positive_jacobians": true,
+      "free_residual_below_1e_5": true,
+      "reaction_balance_error_N": 4.671332410915446e-10,
+      "positive_strain_energy": true,
+      "finite_positive_stress": true,
+      "recorded_source_hash_matches": true,
+      "pass": true
+    },
+    {
+      "size": "child_large",
+      "mesh_mm": 1.0,
+      "positive_jacobians": true,
+      "free_residual_below_1e_5": true,
+      "reaction_balance_error_N": 1.325346817971082e-09,
+      "positive_strain_energy": true,
+      "finite_positive_stress": true,
+      "recorded_source_hash_matches": true,
+      "pass": true
+    },
+    {
+      "size": "adult_medium",
+      "mesh_mm": 2.0,
+      "positive_jacobians": true,
+      "free_residual_below_1e_5": true,
+      "reaction_balance_error_N": 3.380662748149298e-10,
+      "positive_strain_energy": true,
+      "finite_positive_stress": true,
+      "recorded_source_hash_matches": true,
+      "pass": true
+    },
+    {
+      "size": "adult_medium",
+      "mesh_mm": 1.5,
+      "positive_jacobians": true,
+      "free_residual_below_1e_5": true,
+      "reaction_balance_error_N": 3.4506531951528665e-10,
+      "positive_strain_energy": true,
+      "finite_positive_stress": true,
+      "recorded_source_hash_matches": true,
+      "pass": true
+    },
+    {
+      "size": "adult_large",
+      "mesh_mm": 2.0,
+      "positive_jacobians": true,
+      "free_residual_below_1e_5": true,
+      "reaction_balance_error_N": 5.718285439546762e-10,
+      "positive_strain_energy": true,
+      "finite_positive_stress": true,
+      "recorded_source_hash_matches": true,
+      "pass": true
+    },
+    {
+      "size": "adult_large",
+      "mesh_mm": 1.5,
+      "positive_jacobians": true,
+      "free_residual_below_1e_5": true,
+      "reaction_balance_error_N": 1.1063864053237347e-09,
+      "positive_strain_energy": true,
+      "finite_positive_stress": true,
+      "recorded_source_hash_matches": true,
+      "pass": true
+    }
+  ],
+  "beam_code_check": {
+    "analytic_mm": 0.50405,
+    "calculated_mm": 0.491619048944153,
+    "relative_difference": 0.02466213878751511,
+    "comparison_5pct_pass": true
+  },
+  "limitation": "Algebra, mesh and source checks only; physical validation and absolute discretization error are not established."
+}

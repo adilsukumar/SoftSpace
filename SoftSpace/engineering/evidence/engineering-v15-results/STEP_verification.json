@@ -1,0 +1,37 @@
+{
+  "case_count": 2,
+  "all_pass": true,
+  "cases": [
+    {
+      "file": "${WORKSPACE}\\EarDefender_V15_adult_small_RetentionCandidate.step",
+      "sha256": "c2665f11f9aa0fc9aa8d331624269f1fa14325dc6fdd6bc032cd972600644473",
+      "solid_count": 46,
+      "valid_solids": true,
+      "minimum_volume_mm3": 8.576944060139123,
+      "total_volume_difference_mm3": 5.820766091346741e-11,
+      "box_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "intended_pose_box_max_error_mm": null,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\EarDefender_V14_child_large_V15FoldExperiment.step",
+      "sha256": "3ac9e2ff4d29c3b2aabc939b9e8aa360df9370b743eb7dd368132f511479a319",
+      "solid_count": 44,
+      "valid_solids": true,
+      "minimum_volume_mm3": 8.57694406013909,
+      "total_volume_difference_mm3": 3.4924596548080444e-09,
+      "box_mm": [
+        246.99308205222766,
+        81.625,
+        171.10309839932188
+      ],
+      "intended_pose_box_max_error_mm": 1.5688783605583012e-11,
+      "pass": true
+    }
+  ],
+  "scope": "Independent OCP reimport count validity volume conservation and intended fold box, not physical validation or real threads"
+}

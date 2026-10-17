@@ -1,0 +1,2290 @@
+{
+  "status": "complete",
+  "sizes": [
+    {
+      "name": "child_small",
+      "bodies": [
+        {
+          "name": "LeftMainFoam",
+          "volume_mm3": 70385.29548020154,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            2.1115588644060463,
+            5.630823638416124
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSoftGlassesZone",
+          "volume_mm3": 3788.461740974081,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            3.4096155668766728,
+            4.735577176217601
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftContinuousCover_SolidWrap",
+          "volume_mm3": 3294.1453845956944,
+          "density_range_kg_m3": [
+            1100,
+            1300
+          ],
+          "mass_range_g": [
+            3.6235599230552635,
+            4.282388999974403
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftMountCarrier_InterfaceBlank",
+          "volume_mm3": 3963.178037365954,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            3.5668602336293587,
+            4.953972546707442
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftClosedCup",
+          "volume_mm3": 34575.163779774244,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            31.117647401796823,
+            43.218954724717804
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftAbsorberLiner_Assumed",
+          "volume_mm3": 13654.147070661274,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            0.40962441211983824,
+            1.092331765652902
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftPinnedMountFork",
+          "volume_mm3": 7714.486476612341,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            6.943037828951107,
+            9.643108095765427
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSlidingTongue_4x16",
+          "volume_mm3": 4707.256756169307,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.236531080552376,
+            5.884070945211633
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftCupPivotPin",
+          "volume_mm3": 379.9547453699833,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.4179502199069816,
+            2.9636470138858697
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftCupPivotPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 14.110456357004848,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.015521501992705333,
+            0.11006155958463781
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSliderForkPin",
+          "volume_mm3": 138.11278828335793,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.15192406711169373,
+            1.0772797486101917
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSliderForkPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 8.576944060140159,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.009434638466154175,
+            0.06690016366909324
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightMainFoam",
+          "volume_mm3": 70404.94562030997,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            2.112148368609299,
+            5.632395649624797
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSoftGlassesZone",
+          "volume_mm3": 3788.461740974081,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            3.4096155668766728,
+            4.735577176217601
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightContinuousCover_SolidWrap",
+          "volume_mm3": 3294.654899730695,
+          "density_range_kg_m3": [
+            1100,
+            1300
+          ],
+          "mass_range_g": [
+            3.6241203897037644,
+            4.283051369649904
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightMountCarrier_InterfaceBlank",
+          "volume_mm3": 3963.178037365954,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            3.5668602336293587,
+            4.953972546707442
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightClosedCup",
+          "volume_mm3": 34575.16377976947,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            31.11764740179252,
+            43.218954724711836
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightAbsorberLiner_Assumed",
+          "volume_mm3": 13654.147070661274,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            0.40962441211983824,
+            1.092331765652902
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightPinnedMountFork",
+          "volume_mm3": 7714.486476612353,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            6.943037828951118,
+            9.643108095765442
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSlidingTongue_4x16",
+          "volume_mm3": 4707.256756169306,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.236531080552375,
+            5.884070945211632
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightCupPivotPin",
+          "volume_mm3": 379.9547453699833,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.4179502199069816,
+            2.9636470138858697
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightCupPivotPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 14.110456357004848,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.015521501992705333,
+            0.11006155958463781
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSliderForkPin",
+          "volume_mm3": 138.11278828335756,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.15192406711169332,
+            1.077279748610189
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSliderForkPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 8.57694406014019,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.009434638466154211,
+            0.06690016366909349
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSliderClampKnob_ThreadPlaceholder",
+          "volume_mm3": 221.63936171076932,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            0.19947542553969239,
+            0.2770492021384616
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSliderClampKnob_ThreadPlaceholder",
+          "volume_mm3": 221.63936171076932,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            0.19947542553969239,
+            0.2770492021384616
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "CircularCapBand_WithSliderGuides",
+          "volume_mm3": 21210.92966229036,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            19.089836696061326,
+            26.513662077862953
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "SoftCrownPadding_5mm_Assumed",
+          "volume_mm3": 13357.344220169503,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            0.4007203266050851,
+            1.0685875376135603
+          ],
+          "is_solid": true
+        }
+      ],
+      "body_count": 28,
+      "mass_range_g": [
+        131.9171893223233,
+        195.45681515745792
+      ],
+      "bbox_mm": [
+        206.16980191085975,
+        77.29,
+        218.66500000000002
+      ],
+      "positive_solid_overlaps": []
+    },
+    {
+      "name": "child_medium",
+      "bodies": [
+        {
+          "name": "LeftMainFoam",
+          "volume_mm3": 70385.29548020154,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            2.1115588644060463,
+            5.630823638416124
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSoftGlassesZone",
+          "volume_mm3": 3788.4617409740817,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            3.4096155668766737,
+            4.735577176217602
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftContinuousCover_SolidWrap",
+          "volume_mm3": 3294.1453845957226,
+          "density_range_kg_m3": [
+            1100,
+            1300
+          ],
+          "mass_range_g": [
+            3.623559923055295,
+            4.282388999974439
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftMountCarrier_InterfaceBlank",
+          "volume_mm3": 3963.178037365954,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            3.5668602336293587,
+            4.953972546707442
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftClosedCup",
+          "volume_mm3": 34575.16377977437,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            31.11764740179693,
+            43.21895472471796
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftAbsorberLiner_Assumed",
+          "volume_mm3": 13654.147070661274,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            0.40962441211983824,
+            1.092331765652902
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftPinnedMountFork",
+          "volume_mm3": 7714.486476612338,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            6.9430378289511046,
+            9.643108095765424
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSlidingTongue_4x16",
+          "volume_mm3": 4707.2567561692795,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.236531080552352,
+            5.8840709452116
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftCupPivotPin",
+          "volume_mm3": 379.9547453699833,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.4179502199069816,
+            2.9636470138858697
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftCupPivotPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 14.110456357004848,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.015521501992705333,
+            0.11006155958463781
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSliderForkPin",
+          "volume_mm3": 138.11278828335765,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.1519240671116934,
+            1.0772797486101897
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSliderForkPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 8.576944060140233,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.009434638466154256,
+            0.06690016366909382
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightMainFoam",
+          "volume_mm3": 70404.94562030998,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            2.1121483686092994,
+            5.632395649624798
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSoftGlassesZone",
+          "volume_mm3": 3788.4617409740817,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            3.4096155668766737,
+            4.735577176217602
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightContinuousCover_SolidWrap",
+          "volume_mm3": 3294.6548997307127,
+          "density_range_kg_m3": [
+            1100,
+            1300
+          ],
+          "mass_range_g": [
+            3.624120389703784,
+            4.283051369649926
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightMountCarrier_InterfaceBlank",
+          "volume_mm3": 3963.178037365954,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            3.5668602336293587,
+            4.953972546707442
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightClosedCup",
+          "volume_mm3": 34575.16377976958,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            31.117647401792624,
+            43.21895472471198
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightAbsorberLiner_Assumed",
+          "volume_mm3": 13654.147070661274,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            0.40962441211983824,
+            1.092331765652902
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightPinnedMountFork",
+          "volume_mm3": 7714.486476612346,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            6.943037828951112,
+            9.643108095765433
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSlidingTongue_4x16",
+          "volume_mm3": 4707.256756169286,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.236531080552357,
+            5.884070945211607
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightCupPivotPin",
+          "volume_mm3": 379.9547453699833,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.4179502199069816,
+            2.9636470138858697
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightCupPivotPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 14.110456357004848,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.015521501992705333,
+            0.11006155958463781
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSliderForkPin",
+          "volume_mm3": 138.11278828335765,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.1519240671116934,
+            1.0772797486101897
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSliderForkPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 8.576944060140233,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.009434638466154256,
+            0.06690016366909382
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSliderClampKnob_ThreadPlaceholder",
+          "volume_mm3": 221.63936171076938,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            0.1994754255396924,
+            0.2770492021384617
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSliderClampKnob_ThreadPlaceholder",
+          "volume_mm3": 221.63936171076938,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            0.1994754255396924,
+            0.2770492021384617
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "CircularCapBand_WithSliderGuides",
+          "volume_mm3": 21867.220050707103,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            19.680498045636394,
+            27.334025063383876
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "SoftCrownPadding_5mm_Assumed",
+          "volume_mm3": 14638.73502564163,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            0.4391620507692489,
+            1.1710988020513304
+          ],
+          "is_solid": true
+        }
+      ],
+      "body_count": 28,
+      "mass_range_g": [
+        132.54629239606274,
+        196.3796894074169
+      ],
+      "bbox_mm": [
+        217.15839606612917,
+        77.29,
+        218.66500000000005
+      ],
+      "positive_solid_overlaps": []
+    },
+    {
+      "name": "child_large",
+      "bodies": [
+        {
+          "name": "LeftMainFoam",
+          "volume_mm3": 70385.29548020165,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            2.1115588644060495,
+            5.630823638416132
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSoftGlassesZone",
+          "volume_mm3": 3788.4617409740813,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            3.409615566876673,
+            4.7355771762176015
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftContinuousCover_SolidWrap",
+          "volume_mm3": 3294.145384595964,
+          "density_range_kg_m3": [
+            1100,
+            1300
+          ],
+          "mass_range_g": [
+            3.62355992305556,
+            4.282388999974754
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftMountCarrier_InterfaceBlank",
+          "volume_mm3": 3963.178037365954,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            3.5668602336293587,
+            4.953972546707442
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftClosedCup",
+          "volume_mm3": 34575.16377977427,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            31.117647401796848,
+            43.21895472471784
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftAbsorberLiner_Assumed",
+          "volume_mm3": 13654.147070661253,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            0.4096244121198376,
+            1.0923317656529001
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftPinnedMountFork",
+          "volume_mm3": 7714.486476612336,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            6.943037828951103,
+            9.643108095765422
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSlidingTongue_4x16",
+          "volume_mm3": 4707.256756169283,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.236531080552354,
+            5.8840709452116045
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftCupPivotPin",
+          "volume_mm3": 379.9547453699833,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.4179502199069816,
+            2.9636470138858697
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftCupPivotPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 14.110456357004871,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.015521501992705359,
+            0.110061559584638
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSliderForkPin",
+          "volume_mm3": 138.11278828335765,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.1519240671116934,
+            1.0772797486101897
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSliderForkPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 8.576944060140235,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.009434638466154258,
+            0.06690016366909383
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightMainFoam",
+          "volume_mm3": 70404.94562030994,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            2.112148368609298,
+            5.632395649624795
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSoftGlassesZone",
+          "volume_mm3": 3788.4617409740813,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            3.409615566876673,
+            4.7355771762176015
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightContinuousCover_SolidWrap",
+          "volume_mm3": 3294.6548997306663,
+          "density_range_kg_m3": [
+            1100,
+            1300
+          ],
+          "mass_range_g": [
+            3.624120389703733,
+            4.283051369649867
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightMountCarrier_InterfaceBlank",
+          "volume_mm3": 3963.178037365954,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            3.5668602336293587,
+            4.953972546707442
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightClosedCup",
+          "volume_mm3": 34575.163779769486,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            31.11764740179254,
+            43.21895472471186
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightAbsorberLiner_Assumed",
+          "volume_mm3": 13654.147070661253,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            0.4096244121198376,
+            1.0923317656529001
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightPinnedMountFork",
+          "volume_mm3": 7714.486476612346,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            6.943037828951112,
+            9.643108095765433
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSlidingTongue_4x16",
+          "volume_mm3": 4707.256756169283,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.236531080552354,
+            5.8840709452116045
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightCupPivotPin",
+          "volume_mm3": 379.9547453699833,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.4179502199069816,
+            2.9636470138858697
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightCupPivotPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 14.110456357004871,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.015521501992705359,
+            0.110061559584638
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSliderForkPin",
+          "volume_mm3": 138.11278828335765,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.1519240671116934,
+            1.0772797486101897
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSliderForkPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 8.576944060140235,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.009434638466154258,
+            0.06690016366909383
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSliderClampKnob_ThreadPlaceholder",
+          "volume_mm3": 221.63936171076926,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            0.19947542553969233,
+            0.27704920213846157
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSliderClampKnob_ThreadPlaceholder",
+          "volume_mm3": 221.63936171076926,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            0.19947542553969233,
+            0.27704920213846157
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "CircularCapBand_WithSliderGuides",
+          "volume_mm3": 22473.937145591404,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            20.226543431032262,
+            28.092421431989255
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "SoftCrownPadding_5mm_Assumed",
+          "volume_mm3": 15920.335275667805,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            0.47761005827003417,
+            1.2736268220534244
+          ],
+          "is_solid": true
+        }
+      ],
+      "body_count": 28,
+      "mass_range_g": [
+        133.13078578895946,
+        197.2406137960244
+      ],
+      "bbox_mm": [
+        227.47694517252953,
+        77.29,
+        218.66500000000002
+      ],
+      "positive_solid_overlaps": []
+    },
+    {
+      "name": "adult_small",
+      "bodies": [
+        {
+          "name": "LeftMainFoam",
+          "volume_mm3": 99625.35364688943,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            2.988760609406683,
+            7.970028291751155
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSoftGlassesZone",
+          "volume_mm3": 5328.646927211422,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.79578223449028,
+            6.660808659014277
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftContinuousCover_SolidWrap",
+          "volume_mm3": 4187.589766772135,
+          "density_range_kg_m3": [
+            1100,
+            1300
+          ],
+          "mass_range_g": [
+            4.606348743449348,
+            5.4438666968037746
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftMountCarrier_InterfaceBlank",
+          "volume_mm3": 5428.672105403401,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.88580489486306,
+            6.7858401317542505
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftClosedCup",
+          "volume_mm3": 43575.79727987827,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            39.21821755189045,
+            54.46974659984784
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftAbsorberLiner_Assumed",
+          "volume_mm3": 16205.905703542947,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            0.4861771711062884,
+            1.2964724562834358
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftPinnedMountFork",
+          "volume_mm3": 8479.993714786915,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            7.631994343308223,
+            10.599992143483645
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSlidingTongue_4x16",
+          "volume_mm3": 4707.2567561692795,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.236531080552352,
+            5.8840709452116
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftCupPivotPin",
+          "volume_mm3": 379.9547453699833,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.4179502199069816,
+            2.9636470138858697
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftCupPivotPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 14.110456357004848,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.015521501992705333,
+            0.11006155958463781
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSliderForkPin",
+          "volume_mm3": 200.94464135515597,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.22103910549067154,
+            1.5673682025702165
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSliderForkPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 8.576944060140205,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.009434638466154225,
+            0.0669001636690936
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightMainFoam",
+          "volume_mm3": 99619.52010635026,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            2.988585603190508,
+            7.9695616085080205
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSoftGlassesZone",
+          "volume_mm3": 5328.646927211422,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.79578223449028,
+            6.660808659014277
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightContinuousCover_SolidWrap",
+          "volume_mm3": 4189.264841010981,
+          "density_range_kg_m3": [
+            1100,
+            1300
+          ],
+          "mass_range_g": [
+            4.608191325112079,
+            5.4460442933142765
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightMountCarrier_InterfaceBlank",
+          "volume_mm3": 5428.672105403401,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.88580489486306,
+            6.7858401317542505
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightClosedCup",
+          "volume_mm3": 43575.797279871804,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            39.21821755188462,
+            54.46974659983975
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightAbsorberLiner_Assumed",
+          "volume_mm3": 16205.905703542947,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            0.4861771711062884,
+            1.2964724562834358
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightPinnedMountFork",
+          "volume_mm3": 8479.99371478692,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            7.631994343308228,
+            10.59999214348365
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSlidingTongue_4x16",
+          "volume_mm3": 4707.256756169286,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.236531080552357,
+            5.884070945211607
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightCupPivotPin",
+          "volume_mm3": 379.9547453699833,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.4179502199069816,
+            2.9636470138858697
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightCupPivotPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 14.110456357004848,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.015521501992705333,
+            0.11006155958463781
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSliderForkPin",
+          "volume_mm3": 200.94464135515597,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.22103910549067154,
+            1.5673682025702165
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSliderForkPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 8.576944060140205,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.009434638466154225,
+            0.0669001636690936
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSliderClampKnob_ThreadPlaceholder",
+          "volume_mm3": 221.63936171076938,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            0.1994754255396924,
+            0.2770492021384617
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSliderClampKnob_ThreadPlaceholder",
+          "volume_mm3": 221.63936171076938,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            0.1994754255396924,
+            0.2770492021384617
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "CircularCapBand_WithSliderGuides",
+          "volume_mm3": 30896.105491236754,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            27.80649494211308,
+            38.62013186404594
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "SoftCrownPadding_5mm_Assumed",
+          "volume_mm3": 18150.444119839227,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            0.5445133235951768,
+            1.452035529587138
+          ],
+          "is_solid": true
+        }
+      ],
+      "body_count": 28,
+      "mass_range_g": [
+        167.7787508820748,
+        248.26558243888886
+      ],
+      "bbox_mm": [
+        234.60149714703064,
+        90.04000000000002,
+        236.84000000000003
+      ],
+      "positive_solid_overlaps": []
+    },
+    {
+      "name": "adult_medium",
+      "bodies": [
+        {
+          "name": "LeftMainFoam",
+          "volume_mm3": 99625.3536468895,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            2.988760609406685,
+            7.97002829175116
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSoftGlassesZone",
+          "volume_mm3": 5328.646927211421,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.795782234490279,
+            6.660808659014276
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftContinuousCover_SolidWrap",
+          "volume_mm3": 4187.589766771978,
+          "density_range_kg_m3": [
+            1100,
+            1300
+          ],
+          "mass_range_g": [
+            4.606348743449176,
+            5.443866696803572
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftMountCarrier_InterfaceBlank",
+          "volume_mm3": 5428.6721054034415,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.885804894863097,
+            6.785840131754301
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftClosedCup",
+          "volume_mm3": 43575.797279878214,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            39.2182175518904,
+            54.46974659984777
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftAbsorberLiner_Assumed",
+          "volume_mm3": 16205.905703542947,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            0.4861771711062884,
+            1.2964724562834358
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftPinnedMountFork",
+          "volume_mm3": 8479.993714786915,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            7.631994343308223,
+            10.599992143483645
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSlidingTongue_4x16",
+          "volume_mm3": 4707.2567561692795,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.236531080552352,
+            5.8840709452116
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftCupPivotPin",
+          "volume_mm3": 379.9547453699833,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.4179502199069816,
+            2.9636470138858697
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftCupPivotPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 14.110456357004848,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.015521501992705333,
+            0.11006155958463781
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSliderForkPin",
+          "volume_mm3": 200.94464135515597,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.22103910549067154,
+            1.5673682025702165
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSliderForkPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 8.576944060140205,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.009434638466154225,
+            0.0669001636690936
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightMainFoam",
+          "volume_mm3": 99619.52010635025,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            2.9885856031905074,
+            7.96956160850802
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSoftGlassesZone",
+          "volume_mm3": 5328.646927211421,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.795782234490279,
+            6.660808659014276
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightContinuousCover_SolidWrap",
+          "volume_mm3": 4189.264841011159,
+          "density_range_kg_m3": [
+            1100,
+            1300
+          ],
+          "mass_range_g": [
+            4.608191325112275,
+            5.446044293314507
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightMountCarrier_InterfaceBlank",
+          "volume_mm3": 5428.6721054034415,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.885804894863097,
+            6.785840131754301
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightClosedCup",
+          "volume_mm3": 43575.797279871804,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            39.21821755188462,
+            54.46974659983975
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightAbsorberLiner_Assumed",
+          "volume_mm3": 16205.905703542947,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            0.4861771711062884,
+            1.2964724562834358
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightPinnedMountFork",
+          "volume_mm3": 8479.99371478692,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            7.631994343308228,
+            10.59999214348365
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSlidingTongue_4x16",
+          "volume_mm3": 4707.256756169286,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.236531080552357,
+            5.884070945211607
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightCupPivotPin",
+          "volume_mm3": 379.9547453699833,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.4179502199069816,
+            2.9636470138858697
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightCupPivotPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 14.110456357004848,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.015521501992705333,
+            0.11006155958463781
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSliderForkPin",
+          "volume_mm3": 200.94464135515597,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.22103910549067154,
+            1.5673682025702165
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSliderForkPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 8.576944060140205,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.009434638466154225,
+            0.0669001636690936
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSliderClampKnob_ThreadPlaceholder",
+          "volume_mm3": 221.63936171076938,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            0.1994754255396924,
+            0.2770492021384617
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSliderClampKnob_ThreadPlaceholder",
+          "volume_mm3": 221.63936171076938,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            0.1994754255396924,
+            0.2770492021384617
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "CircularCapBand_WithSliderGuides",
+          "volume_mm3": 32211.51758385102,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            28.99036582546592,
+            40.264396979813775
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "SoftCrownPadding_5mm_Assumed",
+          "volume_mm3": 20361.61859911253,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            0.6108485579733759,
+            1.6289294879290024
+          ],
+          "is_solid": true
+        }
+      ],
+      "body_count": 28,
+      "mass_range_g": [
+        169.0289569998059,
+        250.08674151299869
+      ],
+      "bbox_mm": [
+        250.86933833450075,
+        90.04000000000002,
+        236.84000000000003
+      ],
+      "positive_solid_overlaps": []
+    },
+    {
+      "name": "adult_large",
+      "bodies": [
+        {
+          "name": "LeftMainFoam",
+          "volume_mm3": 99625.35364688939,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            2.9887606094066816,
+            7.970028291751151
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSoftGlassesZone",
+          "volume_mm3": 5328.646927211423,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.79578223449028,
+            6.660808659014278
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftContinuousCover_SolidWrap",
+          "volume_mm3": 4187.589766772049,
+          "density_range_kg_m3": [
+            1100,
+            1300
+          ],
+          "mass_range_g": [
+            4.606348743449254,
+            5.4438666968036635
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftMountCarrier_InterfaceBlank",
+          "volume_mm3": 5428.6721054034415,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.885804894863097,
+            6.785840131754301
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftClosedCup",
+          "volume_mm3": 43575.79727987803,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            39.218217551890234,
+            54.46974659984754
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftAbsorberLiner_Assumed",
+          "volume_mm3": 16205.905703542947,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            0.4861771711062884,
+            1.2964724562834358
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftPinnedMountFork",
+          "volume_mm3": 8479.993714786915,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            7.631994343308223,
+            10.599992143483645
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSlidingTongue_4x16",
+          "volume_mm3": 4707.256756169283,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.236531080552354,
+            5.8840709452116045
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftCupPivotPin",
+          "volume_mm3": 379.9547453699833,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.4179502199069816,
+            2.9636470138858697
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftCupPivotPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 14.110456357004871,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.015521501992705359,
+            0.110061559584638
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSliderForkPin",
+          "volume_mm3": 200.94464135515597,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.22103910549067154,
+            1.5673682025702165
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSliderForkPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 8.576944060140207,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.009434638466154227,
+            0.06690016366909361
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightMainFoam",
+          "volume_mm3": 99619.52010635029,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            2.9885856031905087,
+            7.969561608508023
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSoftGlassesZone",
+          "volume_mm3": 5328.646927211423,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.79578223449028,
+            6.660808659014278
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightContinuousCover_SolidWrap",
+          "volume_mm3": 4189.264841011131,
+          "density_range_kg_m3": [
+            1100,
+            1300
+          ],
+          "mass_range_g": [
+            4.6081913251122435,
+            5.44604429331447
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightMountCarrier_InterfaceBlank",
+          "volume_mm3": 5428.6721054034415,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.885804894863097,
+            6.785840131754301
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightClosedCup",
+          "volume_mm3": 43575.797279871695,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            39.21821755188452,
+            54.46974659983962
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightAbsorberLiner_Assumed",
+          "volume_mm3": 16205.905703542947,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            0.4861771711062884,
+            1.2964724562834358
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightPinnedMountFork",
+          "volume_mm3": 8479.993714786924,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            7.631994343308232,
+            10.599992143483655
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSlidingTongue_4x16",
+          "volume_mm3": 4707.256756169284,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            4.236531080552355,
+            5.884070945211605
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightCupPivotPin",
+          "volume_mm3": 379.9547453699833,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.4179502199069816,
+            2.9636470138858697
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightCupPivotPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 14.110456357004871,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.015521501992705359,
+            0.110061559584638
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSliderForkPin",
+          "volume_mm3": 200.94464135515597,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.22103910549067154,
+            1.5673682025702165
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSliderForkPin_RetainingCap_ThreadPlaceholder",
+          "volume_mm3": 8.576944060140207,
+          "density_range_kg_m3": [
+            1100,
+            7800
+          ],
+          "mass_range_g": [
+            0.009434638466154227,
+            0.06690016366909361
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "LeftSliderClampKnob_ThreadPlaceholder",
+          "volume_mm3": 221.63936171076926,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            0.19947542553969233,
+            0.27704920213846157
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "RightSliderClampKnob_ThreadPlaceholder",
+          "volume_mm3": 221.63936171076926,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            0.19947542553969233,
+            0.27704920213846157
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "CircularCapBand_WithSliderGuides",
+          "volume_mm3": 33506.49621637292,
+          "density_range_kg_m3": [
+            900,
+            1250
+          ],
+          "mass_range_g": [
+            30.15584659473563,
+            41.88312027046615
+          ],
+          "is_solid": true
+        },
+        {
+          "name": "SoftCrownPadding_5mm_Assumed",
+          "volume_mm3": 22717.144618495142,
+          "density_range_kg_m3": [
+            30,
+            80
+          ],
+          "mass_range_g": [
+            0.6815143385548543,
+            1.8173715694796113
+          ],
+          "is_solid": true
+        }
+      ],
+      "body_count": 28,
+      "mass_range_g": [
+        170.26510354965689,
+        251.89390688520135
+      ],
+      "bbox_mm": [
+        266.8728710715212,
+        90.04000000000002,
+        236.84000000000003
+      ],
+      "positive_solid_overlaps": []
+    }
+  ],
+  "limitations": [
+    "Assumed material density ranges",
+    "Unloaded geometry; not worn fit",
+    "No physical comfort validation"
+  ]
+}

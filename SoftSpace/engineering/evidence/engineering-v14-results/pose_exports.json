@@ -1,0 +1,101 @@
+{
+  "exports": [
+    {
+      "size": "child_small",
+      "phase": "Released",
+      "file": "${WORKSPACE}\\EarDefender_V14_child_small_Released.step",
+      "sha256": "b65c49a255fb9fbfb4196225ddba81ca2ff87720215f9f928e420ab00e8bf148",
+      "before_export_volume_mm3": 342949.6194532512,
+      "source_sha256": "76c3bf039bb4155bbcfb6b982637f1eea2494c727119289ff7cade88f2b80e3c"
+    },
+    {
+      "size": "child_small",
+      "phase": "Folded",
+      "file": "${WORKSPACE}\\EarDefender_V14_child_small_Folded.step",
+      "sha256": "14038a6ca6573e54da64b37da532d782829dcfc39d1d42434caf437f3454b9a4",
+      "before_export_volume_mm3": 342949.6194532511,
+      "source_sha256": "76c3bf039bb4155bbcfb6b982637f1eea2494c727119289ff7cade88f2b80e3c"
+    },
+    {
+      "size": "child_medium",
+      "phase": "Released",
+      "file": "${WORKSPACE}\\EarDefender_V14_child_medium_Released.step",
+      "sha256": "fd78ae2de9c283d5b90a19f69a5f91b434d20cdb6ce78aa1acc7120485915d30",
+      "before_export_volume_mm3": 345568.4988196004,
+      "source_sha256": "396d0ad3cd597de1dea05eed85a894507d375b4fe036a95e9e05370754e30477"
+    },
+    {
+      "size": "child_medium",
+      "phase": "Folded",
+      "file": "${WORKSPACE}\\EarDefender_V14_child_medium_Folded.step",
+      "sha256": "8f3849d7c7f7684f5a06266303558c787be49a6ac292b589a1100e30224db031",
+      "before_export_volume_mm3": 345568.4988196003,
+      "source_sha256": "396d0ad3cd597de1dea05eed85a894507d375b4fe036a95e9e05370754e30477"
+    },
+    {
+      "size": "child_large",
+      "phase": "Released",
+      "file": "${WORKSPACE}\\EarDefender_V14_child_large_Released.step",
+      "sha256": "11a22445fd3be529201fade39f4cf2093c64cd80db85f6dfdba28e1c5c69e93a",
+      "before_export_volume_mm3": 348041.6596220525,
+      "source_sha256": "171a7479ee9e5dcb8d6c6814bbbbf87e185f9c94ab2a72293d5c36b76a139573"
+    },
+    {
+      "size": "child_large",
+      "phase": "Folded",
+      "file": "${WORKSPACE}\\EarDefender_V14_child_large_Folded.step",
+      "sha256": "a8736782346fadfb53ac2a0d698c7ed0ef8db50e005c4797860b2317c36d884b",
+      "before_export_volume_mm3": 348041.65962205245,
+      "source_sha256": "171a7479ee9e5dcb8d6c6814bbbbf87e185f9c94ab2a72293d5c36b76a139573"
+    },
+    {
+      "size": "adult_small",
+      "phase": "Released",
+      "file": "${WORKSPACE}\\EarDefender_V14_adult_small_Released.step",
+      "sha256": "51587ff89b308d037daa6fc04b30ecc895a3248662ef8723891d4d867d070a4e",
+      "before_export_volume_mm3": 454184.2510442613,
+      "source_sha256": "833a19ab651d82411c211d2a396f405079728fcb87351a9b0cd3c627c2bed8fb"
+    },
+    {
+      "size": "adult_small",
+      "phase": "Folded",
+      "file": "${WORKSPACE}\\EarDefender_V14_adult_small_Folded.step",
+      "sha256": "0cd27045b5f7068ddd7fb62b43b2ff570743f6fc90d54a04ac5bc202566a36d0",
+      "before_export_volume_mm3": 454184.2510442613,
+      "source_sha256": "833a19ab651d82411c211d2a396f405079728fcb87351a9b0cd3c627c2bed8fb"
+    },
+    {
+      "size": "adult_medium",
+      "phase": "Released",
+      "file": "${WORKSPACE}\\EarDefender_V14_adult_medium_Released.step",
+      "sha256": "4846a6bcd739a2a2e3ffa6b6c409d3496c6dabb5dfbfcd1a4089d43ff8f22aa0",
+      "before_export_volume_mm3": 458680.3569527047,
+      "source_sha256": "20d17dde2d558568d489ad636a047374943dd13e728a6719dacae21293bd5a77"
+    },
+    {
+      "size": "adult_medium",
+      "phase": "Folded",
+      "file": "${WORKSPACE}\\EarDefender_V14_adult_medium_Folded.step",
+      "sha256": "c03435db4a1ad85c7acedf65af2847e1901daa68d2b4dd81b06992388d10cfcf",
+      "before_export_volume_mm3": 458680.35695270466,
+      "source_sha256": "20d17dde2d558568d489ad636a047374943dd13e728a6719dacae21293bd5a77"
+    },
+    {
+      "size": "adult_large",
+      "phase": "Released",
+      "file": "${WORKSPACE}\\EarDefender_V14_adult_large_Released.step",
+      "sha256": "0d8c9f33c12553d0ba8b5072bfed748410e9daf5c1f977bcec07bab5c652082d",
+      "before_export_volume_mm3": 463148.8064203384,
+      "source_sha256": "a3ceb8b893e894b27deddd57d3370f5dffe2701de1982140760b65df2695af54"
+    },
+    {
+      "size": "adult_large",
+      "phase": "Folded",
+      "file": "${WORKSPACE}\\EarDefender_V14_adult_large_Folded.step",
+      "sha256": "f2466177b0ba443959c58fb18d07592b309e9a20ad72c276a4b3d03a1fcfba1a",
+      "before_export_volume_mm3": 463148.80642033846,
+      "source_sha256": "a3ceb8b893e894b27deddd57d3370f5dffe2701de1982140760b65df2695af54"
+    }
+  ],
+  "scope": "Exact annular spring spaces, rigid transforms only; full path clearance recorded separately by OCP"
+}

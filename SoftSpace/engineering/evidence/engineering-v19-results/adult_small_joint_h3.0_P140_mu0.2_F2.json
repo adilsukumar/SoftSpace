@@ -1,0 +1,281 @@
+{
+  "preload_N": 140,
+  "side_force_N": 2,
+  "assumed_mu": 0.2,
+  "normal_penalty_N_mm3": 10000,
+  "tangential_penalty_N_mm3": 1000,
+  "iterations": 34,
+  "relative_free_residual": 8.267239508470827e-07,
+  "maximum_numerical_penetration_mm": 0.0006537414740099743,
+  "maximum_pivot_constraint_error_mm": 0.00026399025577581575,
+  "stop_reaction_N": 4.487662017581991,
+  "washer_normal_sum_N": 277.7260509236952,
+  "washer_quadrature_area_mm2": 156.70129616410998,
+  "stop_quadrature_area_mm2": 31.999999999999996,
+  "global_force_balance_error_N": 2.7468156301431713e-12,
+  "cup_mean_displacement_x_mm": 0.15453400074955392,
+  "component_stresses": [
+    {
+      "peak_element_MPa": 2.12291942953967,
+      "volume_weighted_mean_MPa": 1.0297233444622222
+    },
+    {
+      "peak_element_MPa": 1.8638841904449501,
+      "volume_weighted_mean_MPa": 0.38481449886976365
+    }
+  ],
+  "history": [
+    {
+      "iteration": 0,
+      "relative_u_change": 1.0,
+      "relative_equilibrium_residual": 0.07260403770498142,
+      "active": 520,
+      "slip_points": 84
+    },
+    {
+      "iteration": 1,
+      "relative_u_change": 0.006955939805576282,
+      "relative_equilibrium_residual": 0.06028367460183221,
+      "active": 507,
+      "slip_points": 96
+    },
+    {
+      "iteration": 2,
+      "relative_u_change": 0.004888187374412991,
+      "relative_equilibrium_residual": 0.01490546585381895,
+      "active": 501,
+      "slip_points": 101
+    },
+    {
+      "iteration": 3,
+      "relative_u_change": 0.00016307966920607334,
+      "relative_equilibrium_residual": 0.0047510020002699506,
+      "active": 500,
+      "slip_points": 105
+    },
+    {
+      "iteration": 4,
+      "relative_u_change": 3.652118569842636e-05,
+      "relative_equilibrium_residual": 0.00343082856884247,
+      "active": 500,
+      "slip_points": 108
+    },
+    {
+      "iteration": 5,
+      "relative_u_change": 2.7280254968707842e-05,
+      "relative_equilibrium_residual": 0.0025150674541830967,
+      "active": 500,
+      "slip_points": 110
+    },
+    {
+      "iteration": 6,
+      "relative_u_change": 2.0481590179378834e-05,
+      "relative_equilibrium_residual": 0.0018622709901563875,
+      "active": 500,
+      "slip_points": 112
+    },
+    {
+      "iteration": 7,
+      "relative_u_change": 1.539158028954156e-05,
+      "relative_equilibrium_residual": 0.0013875128673236385,
+      "active": 500,
+      "slip_points": 113
+    },
+    {
+      "iteration": 8,
+      "relative_u_change": 1.1566890356236647e-05,
+      "relative_equilibrium_residual": 0.0010362895515425511,
+      "active": 500,
+      "slip_points": 113
+    },
+    {
+      "iteration": 9,
+      "relative_u_change": 8.685109018713034e-06,
+      "relative_equilibrium_residual": 0.0007750606389690015,
+      "active": 500,
+      "slip_points": 114
+    },
+    {
+      "iteration": 10,
+      "relative_u_change": 6.520053032259714e-06,
+      "relative_equilibrium_residual": 0.0005802643874221999,
+      "active": 500,
+      "slip_points": 114
+    },
+    {
+      "iteration": 11,
+      "relative_u_change": 4.896021601067882e-06,
+      "relative_equilibrium_residual": 0.00043522337210110106,
+      "active": 500,
+      "slip_points": 116
+    },
+    {
+      "iteration": 12,
+      "relative_u_change": 3.6814704354716972e-06,
+      "relative_equilibrium_residual": 0.00032659893247045506,
+      "active": 500,
+      "slip_points": 116
+    },
+    {
+      "iteration": 13,
+      "relative_u_change": 2.7673204980564757e-06,
+      "relative_equilibrium_residual": 0.0002451544626037051,
+      "active": 500,
+      "slip_points": 116
+    },
+    {
+      "iteration": 14,
+      "relative_u_change": 2.0795922597458324e-06,
+      "relative_equilibrium_residual": 0.00018430604842142,
+      "active": 500,
+      "slip_points": 116
+    },
+    {
+      "iteration": 15,
+      "relative_u_change": 1.5642024732058904e-06,
+      "relative_equilibrium_residual": 0.00013858684609121253,
+      "active": 500,
+      "slip_points": 117
+    },
+    {
+      "iteration": 16,
+      "relative_u_change": 1.176384044684337e-06,
+      "relative_equilibrium_residual": 0.0001042212349017931,
+      "active": 500,
+      "slip_points": 117
+    },
+    {
+      "iteration": 17,
+      "relative_u_change": 8.846348647942361e-07,
+      "relative_equilibrium_residual": 7.838379066120563e-05,
+      "active": 500,
+      "slip_points": 117
+    },
+    {
+      "iteration": 18,
+      "relative_u_change": 6.652146740022649e-07,
+      "relative_equilibrium_residual": 5.8955452395927184e-05,
+      "active": 500,
+      "slip_points": 117
+    },
+    {
+      "iteration": 19,
+      "relative_u_change": 5.002052183922131e-07,
+      "relative_equilibrium_residual": 4.434505282549867e-05,
+      "active": 500,
+      "slip_points": 117
+    },
+    {
+      "iteration": 20,
+      "relative_u_change": 3.7612971730127506e-07,
+      "relative_equilibrium_residual": 3.335705637307925e-05,
+      "active": 500,
+      "slip_points": 117
+    },
+    {
+      "iteration": 21,
+      "relative_u_change": 2.8282996321761597e-07,
+      "relative_equilibrium_residual": 2.50928780987214e-05,
+      "active": 500,
+      "slip_points": 117
+    },
+    {
+      "iteration": 22,
+      "relative_u_change": 2.1268259055806244e-07,
+      "relative_equilibrium_residual": 1.887699341887947e-05,
+      "active": 500,
+      "slip_points": 117
+    },
+    {
+      "iteration": 23,
+      "relative_u_change": 1.5993352057173892e-07,
+      "relative_equilibrium_residual": 1.420150509891519e-05,
+      "active": 500,
+      "slip_points": 117
+    },
+    {
+      "iteration": 24,
+      "relative_u_change": 1.2027461293035368e-07,
+      "relative_equilibrium_residual": 1.0684515932659035e-05,
+      "active": 500,
+      "slip_points": 117
+    },
+    {
+      "iteration": 25,
+      "relative_u_change": 9.045121099524087e-08,
+      "relative_equilibrium_residual": 8.038851997636723e-06,
+      "active": 500,
+      "slip_points": 117
+    },
+    {
+      "iteration": 26,
+      "relative_u_change": 6.802869981168182e-08,
+      "relative_equilibrium_residual": 6.04855630504656e-06,
+      "active": 500,
+      "slip_points": 117
+    },
+    {
+      "iteration": 27,
+      "relative_u_change": 5.1167870686083006e-08,
+      "relative_equilibrium_residual": 4.551219248611452e-06,
+      "active": 500,
+      "slip_points": 117
+    },
+    {
+      "iteration": 28,
+      "relative_u_change": 3.8484654821882043e-08,
+      "relative_equilibrium_residual": 3.4246954210234868e-06,
+      "active": 500,
+      "slip_points": 117
+    },
+    {
+      "iteration": 29,
+      "relative_u_change": 2.89372566288187e-08,
+      "relative_equilibrium_residual": 2.577117084506867e-06,
+      "active": 500,
+      "slip_points": 117
+    },
+    {
+      "iteration": 30,
+      "relative_u_change": 2.17763086441633e-08,
+      "relative_equilibrium_residual": 1.9393859505128366e-06,
+      "active": 500,
+      "slip_points": 117
+    },
+    {
+      "iteration": 31,
+      "relative_u_change": 1.6377238462585906e-08,
+      "relative_equilibrium_residual": 1.4595267960703067e-06,
+      "active": 500,
+      "slip_points": 117
+    },
+    {
+      "iteration": 32,
+      "relative_u_change": 1.2319639648180822e-08,
+      "relative_equilibrium_residual": 1.098443017384726e-06,
+      "active": 500,
+      "slip_points": 117
+    },
+    {
+      "iteration": 33,
+      "relative_u_change": 9.267293956201879e-09,
+      "relative_equilibrium_residual": 8.267239508443314e-07,
+      "active": 500,
+      "slip_points": 117
+    }
+  ],
+  "coulomb_bound_error_MPa": 5.551115123125783e-17,
+  "converged": true,
+  "size": "adult_small",
+  "mesh_max_mm": 3.0,
+  "source": "${WORKSPACE}\\EarDefender_V19_adult_small_ParallelDisc.step",
+  "source_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d",
+  "elastic_E_MPa": 3500,
+  "assumed_nu": 0.35,
+  "seconds": 9.585482120513916,
+  "rigid_translation_controls": [
+    8.575367369893054e-17,
+    7.9233916573813e-17,
+    8.079603809492407e-17
+  ]
+}

@@ -1,0 +1,29 @@
+import json,hashlib
+from pathlib import Path
+P=Path(__file__).parent;O=P/'engineering-v14-results'
+read=lambda n:json.loads((O/n).read_text())
+c=read('cad_report.json');a=read('assembly_path_audit.json');m=read('ocp_motion_audit.json');s=read('STEP_verification.json');k=read('kernel_controls.json');f=read('fork_mechanics_summary.json');pack=read('packing_summary.json')
+assert len(c['sizes'])==6 and a['case_count']==66 and a['all_pass'] and m['case_count']==216 and m['all_pass'] and s['case_count']==18 and s['all_pass'] and k['case_count']==18 and k['all_pass']
+for r in c['sizes']:assert hashlib.sha256(Path(r['file']).read_bytes()).hexdigest()==r['sha256']
+for r in s['cases']:assert hashlib.sha256(Path(r['file']).read_bytes()).hexdigest()==r['sha256']
+assert len(m['positive_controls'])==6 and sum(len(r['parts']) for r in m['positive_controls'])==264 and all(p['pass'] for r in m['positive_controls'] for p in r['parts'])
+tests=[
+ {'test':'Local candidate CAD','status':'18 STEP reimports pass','scope':'Six sizes,44 positive volume solids each; native Fusion archives remain V10'},
+ {'test':'Source and solid validity','status':'264 solid checks pass','scope':'Six nominal assemblies, original OCP shapes, fork self common controls'},
+ {'test':'Independent collision controls','status':'18 known embedded disjoint and rotated controls pass','scope':'Does not prove all tangential and coincident queries reliable'},
+ {'test':'Adjustment release folding','status':'216 discrete samples pass','scope':'42 slider,24 release,150 folding; not continuous loaded motion'},
+ {'test':'Assembly route','status':'66 discrete samples pass','scope':'Rear caps and pin withdrawal with knob and bolts absent; coil space held15mm; tools threads and actual spring handling unvalidated'},
+ {'test':'Adult small main fork fixture','status':'Chosen mesh comparison pass' if f['cases'][0]['mesh_comparison_pass'] else 'Chosen mesh comparison failed','scope':'Two ideal FE meshes; cap fasteners knob and complete joint contact excluded'},
+ {'test':'Fork numerical algebra','status':'Pass' if f['cases'][0]['algebra_audits_pass'] else 'Failed','scope':'Saved source SHA, positive Jacobians, residual, work energy, fixed displacement and force balance'},
+ {'test':'Portability','status':'Child packing goal not met','scope':'Child small less than1percent smaller; child medium and large larger. Adult boxes12to23percent smaller; no real bag test'},
+ {'test':'V13 assembly','status':'Rejected','scope':'48of60 radial assembly samples failed. V13 motion stopped incomplete. Single mesh fork result not a qualification'},
+ {'test':'Retained pull knob and complete joint','status':'Unfinished design and validation','scope':'Actual thread or equivalent, cap screw grade, torque, loosening, contact, angular stops and pinch access required'},
+ {'test':'Materials and worn fit','status':'Not qualified','scope':'70family register is not every formulation tested. Need measured foam cover grade friction creep and fatigue data'},
+ {'test':'Comfort sensory acceptance heat acoustics durability','status':'Physical tests not performed','scope':'No manufactured prototype or matched wearer, sound, drop or cycle pass'},
+ {'test':'Sony WH CH720N cushion','status':'User measurements deferred','scope':'Generic V8 pad unchanged; mount fit ANC response noise and leakage not validated'},
+ {'test':'Cost and market superiority','status':'Not demonstrated','scope':'No supplier quote or matched competitor test; market review remains dated13October2026'}]
+out={'updated':'2026-10-15','revision':'V14 local rear cap candidate','native_Fusion_revision':'V10','manufacturing_release':False,'product_validation_complete':False,'tests':tests,'sources':c['sizes'],'evidence_sha256':{n:hashlib.sha256((O/n).read_bytes()).hexdigest() for n in ['cad_report.json','assembly_path_audit.json','ocp_motion_audit.json','STEP_verification.json','kernel_controls.json','fork_mechanics_summary.json','packing_summary.json','release_review.json']}}
+(O/'test_register.json').write_text(json.dumps(out,indent=2))
+doc=P/'documents/document_status.json';d=json.loads(doc.read_text());d['latest_study']={'revision':'V14','native_Fusion_revision':'V10','STEP_files':18,'rigid_motion_samples':216,'assembly_samples':66,'solid_validity_checks':264,'fork_fixture_sizes':['adult_small'],'manufacturing_release':False,'physical_validation_complete':False};doc.write_text(json.dumps(d,indent=2))
+(O/'REVIEW.md').write_text('# V14 engineering review\n\nThis is a local STEP candidate, not a manufacturing release. Read test_register.json and release_review.json before using the files.\n\nThe failed V13 radial assembly is retained as a rejected revision. V14 changes to rear cap insertion with a separate pull knob, but the actual retained knob connection, threads, torque, fastening and complete joint contact are still unspecified or unvalidated. An assembly sample is not a real spring handling trial.\n\nChild medium and large become slightly larger when folded. Child portability is not solved. V12 band and fork results remain V12; V14 has only the explicitly recorded ideal fork fixture. Physical comfort, sensory acceptance, heat, acoustic isolation, leakage, falls, folding cycles and ageing remain untested. Sony mount measurements were deferred by the user.\n\nEarlier V14 export and FE attempts failed allocation. Sequential fresh process reruns replace them only where the final records pass. Coincident component Boolean equivalence remains unverified, so no inherited complete FE qualification is claimed. Native Fusion archives remain V10.\n\nThe paired Word reports include dated selected competitor evidence, not every market model or current checkout prices. No zero leakage, pain relief, unbreakable, lowest cost or superiority claim has been established.\n')
+print(json.dumps({'revision':'V14','STEP_files':18,'motion':216,'assembly':66,'manufacturing_release':False}))

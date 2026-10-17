@@ -1,0 +1,42 @@
+{
+  "status": "complete",
+  "same_mesh_elements": 2722,
+  "displacement_relative_difference": 5.9239357973388415e-12,
+  "stress_vector_relative_difference": 1.3857854979791068e-11,
+  "pass": true,
+  "ordinary": {
+    "nodes": 5095,
+    "tet10_elements": 2722,
+    "assembly_method": "single COO assembly",
+    "reduced_matrix_storage": false,
+    "coarse_preconditioner_modes": 0,
+    "cg_iterations": 1409,
+    "relative_free_residual": 1.300189692524499e-09,
+    "minimum_quadrature_jacobian_mm3": 0.11893048065356313,
+    "max_von_mises_centroid_MPa": 6.270687232909627,
+    "strain_energy_Nmm": 0.24695388623689019,
+    "reaction_sum_N": [
+      -3.2384643113598357e-12,
+      -3.4355383074361626e-12,
+      0.999999999992725
+    ]
+  },
+  "streamed": {
+    "nodes": 5095,
+    "tet10_elements": 2722,
+    "assembly_method": "CSR batches of up to2048 elements",
+    "reduced_matrix_storage": true,
+    "coarse_preconditioner_modes": 12,
+    "cg_iterations": 1073,
+    "relative_free_residual": 1.375046179124539e-09,
+    "minimum_quadrature_jacobian_mm3": 0.11893048065356313,
+    "max_von_mises_centroid_MPa": 6.270687232798913,
+    "strain_energy_Nmm": 0.24695388623442605,
+    "reaction_sum_N": [
+      -8.470694417731513e-13,
+      -3.427314536545504e-12,
+      0.9999999999952482
+    ]
+  },
+  "limit": "Assembly comparison on a clamped beam, not product validation."
+}

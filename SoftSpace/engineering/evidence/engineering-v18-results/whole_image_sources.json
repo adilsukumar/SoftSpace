@@ -1,0 +1,13 @@
+{
+  "sources": [
+    {
+      "file": "${WORKSPACE}\\EarDefender_V18_child_large_FrictionStop.step",
+      "sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c"
+    },
+    {
+      "file": "${WORKSPACE}\\EarDefender_V18_adult_small_FrictionStop.step",
+      "sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d"
+    }
+  ],
+  "method": "Actual STEP surface tessellation and recorded rigid transforms, folded friction hinge without a release pin"
+}

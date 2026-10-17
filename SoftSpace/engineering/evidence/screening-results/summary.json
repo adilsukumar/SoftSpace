@@ -1,0 +1,83 @@
+{
+  "mechanical_case_count": 3240,
+  "thermal_case_count": 81,
+  "uniform_example": {
+    "head": "adult_medium",
+    "width_mm": 155,
+    "pad_scale": 1,
+    "foam": "medium",
+    "cover": "compliant",
+    "arm": "standard",
+    "zone_stiffness_ratio": 1,
+    "pad_force_N": 2,
+    "peak_pressure_kPa": 2.3339764978144113,
+    "arm_peak_pressure_kPa": 2.3339764978144113,
+    "mean_contact_pressure_kPa": 0.6710703124184546,
+    "contact_area_fraction": 0.6994752390279657,
+    "max_compression_mm": 5.217542761984705,
+    "max_strain": 0.26087713809923524,
+    "gap_area_fraction_over_0_1mm": 0.2913906176662527,
+    "max_surface_gap_mm": 3.3996208619578656,
+    "force_residual_N": 1.1333156635373598e-12,
+    "approach_mm": 2.315239945719327
+  },
+  "soft_zone_example": {
+    "head": "adult_medium",
+    "width_mm": 155,
+    "pad_scale": 1,
+    "foam": "medium",
+    "cover": "compliant",
+    "arm": "standard",
+    "zone_stiffness_ratio": 0.5,
+    "pad_force_N": 2,
+    "peak_pressure_kPa": 1.358901691696704,
+    "arm_peak_pressure_kPa": 1.1924392749512915,
+    "mean_contact_pressure_kPa": 0.6624200566432653,
+    "contact_area_fraction": 0.7086093823337473,
+    "max_compression_mm": 5.292445398384361,
+    "max_strain": 0.26462226991921806,
+    "gap_area_fraction_over_0_1mm": 0.2819763738752601,
+    "max_surface_gap_mm": 3.3247182255582093,
+    "force_residual_N": 2.290168055196773e-12,
+    "approach_mm": 2.3901425821189832
+  },
+  "grid_refinement": [
+    {
+      "angular_points": 48,
+      "radial_points": 6,
+      "peak_kPa": 1.3462657452335183,
+      "arm_peak_kPa": 1.1906896022893505,
+      "contact_fraction": 0.6909115096822769
+    },
+    {
+      "angular_points": 96,
+      "radial_points": 10,
+      "peak_kPa": 1.358901691696704,
+      "arm_peak_kPa": 1.1924392749512915,
+      "contact_fraction": 0.7086093823337473
+    },
+    {
+      "angular_points": 192,
+      "radial_points": 20,
+      "peak_kPa": 1.3666230821438414,
+      "arm_peak_kPa": 1.1961870155501413,
+      "contact_fraction": 0.6771727432093255
+    },
+    {
+      "angular_points": 384,
+      "radial_points": 30,
+      "peak_kPa": 1.364329928214918,
+      "arm_peak_kPa": 1.197052074687291,
+      "contact_fraction": 0.6755210094692417
+    }
+  ],
+  "paired_frame_pressure_reduction_percent": {
+    "minimum": 10.216062459134578,
+    "median": 44.813175966510855,
+    "maximum": 49.41253822315649
+  },
+  "max_force_residual_N": 6.10000938650046e-12,
+  "model_type": "reduced independent nonlinear spring and lumped thermal/vapor screening; not Fusion FEA",
+  "validated_materials": false,
+  "clinical_or_acoustic_outcome_tested": false
+}

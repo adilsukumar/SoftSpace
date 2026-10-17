@@ -1,0 +1,12 @@
+{"stage": "model prepared", "size": "child_large", "h": 3.0, "nodes": 2375}
+{"case": "child_large_joint_h3.0_P70_mu0.1_F2", "converged": true, "seconds": 0.003299236297607422}
+{"case": "child_large_joint_h3.0_P70_mu0.1_F-2", "converged": false, "seconds": 105.02234482765198}
+{"case": "child_large_joint_h3.0_P140_mu0.2_F2", "converged": true, "seconds": 19.691726684570312}
+{"case": "child_large_joint_h3.0_P140_mu0.2_F-2", "converged": true, "seconds": 43.4613356590271}
+{"case": "child_large_joint_h3.0_P210_mu0.3_F2", "converged": true, "seconds": 11.9883394241333}
+{"case": "child_large_joint_h3.0_P210_mu0.3_F-2", "converged": true, "seconds": 17.265021085739136}
+{"stage": "model prepared", "size": "child_large", "h": 2.0, "nodes": 4598}
+{"case": "child_large_joint_h2.0_P140_mu0.2_F2", "converged": true, "seconds": 68.50107336044312}
+{"case": "child_large_joint_h2.0_P140_mu0.2_F-2", "converged": true, "seconds": 164.70666193962097}
+{"stage": "model prepared", "size": "adult_small", "h": 3.0, "nodes": 2999}
+{"case": "adult_small_joint_h3.0_P70_mu0.1_F2", "converged": false, "seconds": 751.1445016860962}

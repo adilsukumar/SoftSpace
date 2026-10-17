@@ -1,0 +1,35 @@
+{
+  "nodes": 10013,
+  "tet10_elements": 5667,
+  "assembly_method": "CSR batches of up to2048 elements",
+  "reduced_matrix_storage": true,
+  "coarse_preconditioner_modes": 12,
+  "cg_iterations": 1740,
+  "relative_free_residual": 9.808566039578214e-10,
+  "minimum_quadrature_jacobian_mm3": 0.7006017569148476,
+  "max_von_mises_centroid_MPa": 3.45215239015798,
+  "strain_energy_Nmm": 1.0566797274763076,
+  "reaction_sum_N": [
+    -1.6243480944442698e-12,
+    -8.53483157973116e-12,
+    -12.999999999997014
+  ],
+  "size": "child_large",
+  "source": "${WORKSPACE}\\EarDefender_V18_child_large_FrictionStop.step",
+  "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+  "mesh_max_mm": 2.0,
+  "minimum_adaptive_Jacobian_mm3": 0.7006017569146539,
+  "weighted_load_direction_displacement_mm": 0.16256611191918655,
+  "loaded_area_mm2": 31.999999999999876,
+  "total_stop_force_N": 13.0,
+  "assumed_E_MPa": 2000,
+  "assumed_nu": 0.35,
+  "seconds": 11.12523603439331,
+  "limits": [
+    "Ideal rigid stem support at guide bottom instead of actual guide contact",
+    "Uniform13N total on both wearing-stop patches;illustrative2N side load at65mm lever",
+    "Pivot bearing is not constrained here,so this is a separate load-path fixture,not solved joint load sharing",
+    "Homogeneous isotropic assumed material,faceted quadratic mesh and small displacements",
+    "No plasticity,creep,impact,actual fasteners,complete3D contact or physical strength qualification"
+  ]
+}

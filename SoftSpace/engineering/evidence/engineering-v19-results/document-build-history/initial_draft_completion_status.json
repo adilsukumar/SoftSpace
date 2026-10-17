@@ -1,0 +1,21 @@
+{
+  "jobs": [
+    {
+      "script": "recover_v19_iteration_limit.py",
+      "exit_code": 0
+    },
+    {
+      "script": "verify_v19_joint.py",
+      "exit_code": 0
+    },
+    {
+      "script": "summarize_v19_handoff.py",
+      "exit_code": 0
+    },
+    {
+      "script": "finalize_v19_documents.py",
+      "exit_code": 1
+    }
+  ],
+  "complete": false
+}

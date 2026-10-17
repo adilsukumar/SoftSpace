@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "mesh_comparison": [
+    {
+      "family": "child",
+      "max_transfer_mesh_difference_db": 2.9526625008618197,
+      "mesh_difference_below_1kHz_db": 0.01038964996232039,
+      "mesh_gate_1db_all_frequencies": false
+    },
+    {
+      "family": "adult",
+      "max_transfer_mesh_difference_db": 2.8757795297377697,
+      "mesh_difference_below_1kHz_db": 0.012130921555552732,
+      "mesh_gate_1db_all_frequencies": false
+    }
+  ],
+  "limitations": [
+    "Straight-walled proxy air cavity, dimensions derived from CAD",
+    "No ear/skin/pinna, porous foam/liner, cover seam, glasses leakage, shell modal FEM or actual material data",
+    "Uniform equivalent compliant back with hypothetical E, density and damping",
+    "Not a prediction of NRR, SNR, clinical benefit or measured product attenuation"
+  ]
+}

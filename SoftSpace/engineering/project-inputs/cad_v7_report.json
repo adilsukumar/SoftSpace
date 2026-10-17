@@ -1,0 +1,395 @@
+{
+  "status": "complete",
+  "sizes": [
+    {
+      "name": "child_small",
+      "fillet_radius_mm": 0.5,
+      "entry_edges": [
+        [
+          78.16923909743333,
+          8.3,
+          117.5287549695276
+        ],
+        [
+          78.16923909743333,
+          -8.3,
+          117.5287549695276
+        ],
+        [
+          -78.16923909743333,
+          8.3,
+          117.52875496952757
+        ],
+        [
+          -78.16923909743333,
+          -8.3,
+          117.52875496952757
+        ]
+      ],
+      "original_band_volume_mm3": 21210.92966229036,
+      "new_band_volume_mm3": 21209.41928718523,
+      "static_band_intersections": [],
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 5,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 10,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 20,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 25,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 30,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "body_count": 28
+    },
+    {
+      "name": "child_medium",
+      "fillet_radius_mm": 0.5,
+      "entry_edges": [
+        [
+          83.50911494129895,
+          8.3,
+          116.78473759326477
+        ],
+        [
+          83.50911494129895,
+          -8.3,
+          116.78473759326477
+        ],
+        [
+          -83.50911494129892,
+          8.3,
+          116.78473759326477
+        ],
+        [
+          -83.50911494129892,
+          -8.3,
+          116.78473759326477
+        ]
+      ],
+      "original_band_volume_mm3": 21867.220050707103,
+      "new_band_volume_mm3": 21865.991021394242,
+      "static_band_intersections": [],
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 5,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 10,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 20,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 25,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 30,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "body_count": 28
+    },
+    {
+      "name": "child_large",
+      "fillet_radius_mm": 0.5,
+      "entry_edges": [
+        [
+          88.54346035625427,
+          8.3,
+          116.25464961893076
+        ],
+        [
+          88.54346035625427,
+          -8.3,
+          116.25464961893076
+        ],
+        [
+          -88.54346035625429,
+          8.3,
+          116.25464961893076
+        ],
+        [
+          -88.54346035625429,
+          -8.3,
+          116.25464961893076
+        ]
+      ],
+      "original_band_volume_mm3": 22473.937145591404,
+      "new_band_volume_mm3": 22472.88363103287,
+      "static_band_intersections": [],
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 5,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 10,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 20,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 25,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 30,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "body_count": 28
+    },
+    {
+      "name": "adult_small",
+      "fillet_radius_mm": 0.5,
+      "entry_edges": [
+        [
+          92.53199522009929,
+          8.3,
+          117.91001139589221
+        ],
+        [
+          92.53199522009929,
+          -8.3,
+          117.91001139589221
+        ],
+        [
+          -92.5319952200993,
+          8.3,
+          117.91001139589224
+        ],
+        [
+          -92.5319952200993,
+          -8.3,
+          117.91001139589224
+        ]
+      ],
+      "original_band_volume_mm3": 30896.105491236754,
+      "new_band_volume_mm3": 30894.422260768148,
+      "static_band_intersections": [],
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 5,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 10,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 20,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 25,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 30,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "body_count": 28
+    },
+    {
+      "name": "adult_medium",
+      "fillet_radius_mm": 0.5,
+      "entry_edges": [
+        [
+          100.47954162726771,
+          8.3,
+          116.94512200462724
+        ],
+        [
+          100.47954162726771,
+          -8.3,
+          116.94512200462724
+        ],
+        [
+          -100.47954162726774,
+          8.3,
+          116.94512200462722
+        ],
+        [
+          -100.47954162726774,
+          -8.3,
+          116.94512200462722
+        ]
+      ],
+      "original_band_volume_mm3": 32211.51758385102,
+      "new_band_volume_mm3": 32210.190765214684,
+      "static_band_intersections": [],
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 5,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 10,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 20,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 25,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 30,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "body_count": 28
+    },
+    {
+      "name": "adult_large",
+      "fillet_radius_mm": 0.5,
+      "entry_edges": [
+        [
+          108.32894860613955,
+          8.3,
+          116.27992650498244
+        ],
+        [
+          108.32894860613955,
+          -8.3,
+          116.27992650498244
+        ],
+        [
+          -108.32894860613955,
+          8.3,
+          116.27992650498243
+        ],
+        [
+          -108.32894860613955,
+          -8.3,
+          116.27992650498243
+        ]
+      ],
+      "original_band_volume_mm3": 33506.49621637292,
+      "new_band_volume_mm3": 33505.41767427722,
+      "static_band_intersections": [],
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 5,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 10,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 20,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 25,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 30,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "body_count": 28
+    }
+  ],
+  "files": [
+    "${WORKSPACE}\\OwnPassiveDefender_V7_child_small_20261013_130645.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_child_small_20261013_130645_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_child_small_20261013_130645_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_child_small_20261013_130645.f3d",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_child_medium_20261013_130645.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_child_medium_20261013_130645_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_child_medium_20261013_130645_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_child_medium_20261013_130645.f3d",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_child_large_20261013_130645.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_child_large_20261013_130645_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_child_large_20261013_130645_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_child_large_20261013_130645.f3d",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_adult_small_20261013_130645.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_adult_small_20261013_130645_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_adult_small_20261013_130645_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_adult_small_20261013_130645.f3d",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_adult_medium_20261013_130645.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_adult_medium_20261013_130645_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_adult_medium_20261013_130645_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_adult_medium_20261013_130645.f3d",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_adult_large_20261013_130645.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_adult_large_20261013_130645_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_adult_large_20261013_130645_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V7_adult_large_20261013_130645.f3d"
+  ],
+  "changes": "0.5mm fillet on channel-entry arcs",
+  "limitations": [
+    "Thread/retention/material properties still unvalidated"
+  ]
+}

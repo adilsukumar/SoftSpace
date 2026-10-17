@@ -1,0 +1,85 @@
+{
+  "array_audits": [
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\adult_small_h1.0.json",
+      "nodes": 18043,
+      "residual_recomputed": 8.602904196303293e-07,
+      "force_balance_N": 5.3902095883701324e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 5.551115123125783e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\adult_small_h1.4.json",
+      "nodes": 10032,
+      "residual_recomputed": 8.618741482852705e-07,
+      "force_balance_N": 7.498190610910323e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 3.347474207548995e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\adult_small_h2.0.json",
+      "nodes": 6049,
+      "residual_recomputed": 9.529619824367927e-07,
+      "force_balance_N": 1.1548429349647273e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 2.7755575615628914e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\adult_small_h3.0.json",
+      "nodes": 3031,
+      "residual_recomputed": 9.744123026973534e-07,
+      "force_balance_N": 9.619971829267446e-12,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 2.531612072753653e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\child_large_h1.0.json",
+      "nodes": 13822,
+      "residual_recomputed": 9.279586981326666e-07,
+      "force_balance_N": 2.561687733629953e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 4.4072818311535755e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\child_large_h1.4.json",
+      "nodes": 7940,
+      "residual_recomputed": 6.285818616847264e-07,
+      "force_balance_N": 3.900344243410797e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 2.7755575615628914e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\child_large_h2.0.json",
+      "nodes": 4571,
+      "residual_recomputed": 8.810831602471413e-07,
+      "force_balance_N": 4.6478964485623443e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 2.7755575615628914e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\child_large_h3.0.json",
+      "nodes": 2400,
+      "residual_recomputed": 7.639031161054319e-07,
+      "force_balance_N": 1.3852753431375265e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 1.9596954267675493e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    }
+  ],
+  "scope": "Same-equation matrix and contact reassembly, affine patch and source checks for the linear conforming pilot. No physical validation."
+}

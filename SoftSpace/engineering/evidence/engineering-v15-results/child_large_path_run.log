@@ -1,0 +1,28 @@
+{"phase": "adjustment", "angles": [0, 0], "pass": true, "order": null}
+{"phase": "adjustment", "angles": [0, 0], "pass": true, "order": null}
+{"phase": "adjustment", "angles": [0, 0], "pass": true, "order": null}
+{"phase": "adjustment", "angles": [0, 0], "pass": true, "order": null}
+{"phase": "release", "angles": [0, 0], "pass": true, "order": null}
+{"phase": "release", "angles": [0, 0], "pass": true, "order": null}
+{"phase": "release", "angles": [0, 0], "pass": true, "order": null}
+{"phase": "release", "angles": [0, 0], "pass": true, "order": null}
+{"phase": "folding", "angles": [0, 0], "pass": true, "order": "left first"}
+{"phase": "folding", "angles": [5, 0], "pass": true, "order": "left first"}
+{"phase": "folding", "angles": [10, 0], "pass": true, "order": "left first"}
+{"phase": "folding", "angles": [15, 0], "pass": true, "order": "left first"}
+{"phase": "folding", "angles": [20, 0], "pass": true, "order": "left first"}
+{"phase": "folding", "angles": [25, 0], "pass": true, "order": "left first"}
+{"phase": "folding", "angles": [30, 0], "pass": true, "order": "left first"}
+{"phase": "folding", "angles": [30, 5], "pass": true, "order": "left first"}
+{"phase": "folding", "angles": [30, 10], "pass": true, "order": "left first"}
+{"phase": "folding", "angles": [30, 15], "pass": true, "order": "left first"}
+{"phase": "folding", "angles": [30, 20], "pass": true, "order": "left first"}
+{"phase": "folding", "angles": [30, 25], "pass": true, "order": "left first"}
+{"phase": "folding", "angles": [30, 30], "pass": true, "order": "left first"}
+{"phase": "folding", "angles": [30, 35], "pass": true, "order": "left first"}
+{"phase": "folding", "angles": [30, 40], "pass": true, "order": "left first"}
+{"phase": "folding", "angles": [30, 45], "pass": true, "order": "left first"}
+{"phase": "folding", "angles": [30, 50], "pass": true, "order": "left first"}
+{"phase": "folding", "angles": [30, 55], "pass": true, "order": "left first"}
+{"phase": "folding", "angles": [30, 60], "pass": true, "order": "left first"}
+{"case_count": 27, "sampled_path_pass": true}

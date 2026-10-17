@@ -1,0 +1,99 @@
+{
+  "updated": "16 October 2026",
+  "design_status": "V19 six size assembly prototype with conditional joint calculations and V10 native archives",
+  "documents": [
+    {
+      "path": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
+      "sha256": "34de0895a74075b344e438449325accd82ed2b23e62ec42cb0a6a21437289778",
+      "bytes": 8633563
+    },
+    {
+      "path": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
+      "sha256": "0396ab28dccb99b3e178a69243574140c944bec6457ef4281f12eb23c026ede2",
+      "bytes": 4291788
+    }
+  ],
+  "market_checked": "2026-10-13",
+  "future_rule": "Update both documents after every meaningful project edit or new result; preserve user edits and history; do not silently regenerate over user edits."
+}
+{'sha256': '34de0895a74075b344e438449325accd82ed2b23e62ec42cb0a6a21437289778', 'approximate_pages': 76, 'images': 40, 'tables': 49, 'zip_integrity': 'pass', 'native_page_render': 'unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure'}
+{'sha256': '0396ab28dccb99b3e178a69243574140c944bec6457ef4281f12eb23c026ede2', 'approximate_pages': 52, 'images': 26, 'tables': 37, 'zip_integrity': 'pass', 'native_page_render': 'unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure'}
+[
+  {
+    "document": "Ear_Defender_Project.docx",
+    "paragraphs": 609,
+    "tables": 49,
+    "embedded_images": 40,
+    "source_links": 37,
+    "structure_and_hashes": "pass"
+  },
+  {
+    "document": "Glasses_Friendly_Headphone_Cushions.docx",
+    "paragraphs": 401,
+    "tables": 37,
+    "embedded_images": 26,
+    "source_links": 24,
+    "structure_and_hashes": "pass"
+  }
+]
+{
+  "unchanged_prior_page_images": 75,
+  "changed_prior_page_images": [
+    "Ear_Defender_Project\\page-1.png",
+    "Ear_Defender_Project\\page-25.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-1.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-11.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-12.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-13.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-14.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-15.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-16.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-17.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-18.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-19.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-20.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-21.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-22.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-23.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-24.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-25.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-26.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-27.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-28.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-29.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-30.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-31.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-32.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-33.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-34.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-35.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-36.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-37.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-38.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-39.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-40.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-41.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-42.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-43.png"
+  ],
+  "added_page_images": [
+    "Ear_Defender_Project\\page-69.png",
+    "Ear_Defender_Project\\page-70.png",
+    "Ear_Defender_Project\\page-71.png",
+    "Ear_Defender_Project\\page-72.png",
+    "Ear_Defender_Project\\page-73.png",
+    "Ear_Defender_Project\\page-74.png",
+    "Ear_Defender_Project\\page-75.png",
+    "Ear_Defender_Project\\page-76.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-44.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-45.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-46.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-47.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-48.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-49.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-50.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-51.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-52.png"
+  ],
+  "scope": "Approximate preview hashes, not native Word pagination"
+}

@@ -1,0 +1,15 @@
+Workstream,Status,Scope
+Six size CAD and sampled folding,Completed finite checks,"42 solids per size, saved poses and sampled motion only"
+Nominal hardware and dimensions,Prototype proposal,Cosmetic threads; exact helix trial rejected; drive runout locking tool access and supplier drawing remain open
+Band fork and tongue component fixtures,Prior conditional results retained,V18 flexible geometry unchanged; assumed elastic materials and ideal supports
+Coupled three dimensional joint,Development calculation with failures and mesh limits,Unilateral contact and limited friction; ideal pivot and prescribed preload; not complete fastener or worn assembly
+All material families and grades,Finite reference screen only,Historical 70 families and 10 numerical reference grades plus 3 PORON points; no exhaustive testing or final winner
+Foam cover skin glasses and worn force,Measurement dependent,Reduced earlier proxy models only; actual curves friction shapes force and seam/bond data required
+Sound reduction music leakage and ANC,Measurement dependent,Existing cavity/lumped models exploratory; no validated attenuation or Sony result
+Heat moisture ageing and fatigue,Measurement dependent,Earlier thermal and material screens exploratory; actual samples and duty cycles required
+Sony WH CH720N mount,Input blocked,User deferred original pad and mounting measurements; form prepared
+Native Fusion editable V19,Tool blocked,No native desktop control or connected document session available this turn; V10 archives retained
+Two living reports,Updated together,Version history failures CAD pictures and test scope retained; approximate layout QA only
+Manufacturing and budget,Supplier input required,Production drawings tolerance capability actual materials quotations and tooling not released
+Autistic comfort sensory acceptance and individual preference,Physical feedback required,Voluntary trials and easy removal; cannot be certified by computer simulation
+Quadratic inward reference fixture,2 of 2 recorded mesh comparisons pass,Four prescribed-preload ideal-pivot reference cases; current saved-array audit in quadratic-inward/verification.json. No physical or complete joint qualification.

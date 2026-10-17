@@ -1,0 +1,47 @@
+{
+  "updated": "16 October 2026",
+  "design_status": "V18 six size passive hinge candidates with V10 native archives",
+  "documents": [
+    {
+      "path": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
+      "sha256": "669e507082f9b03ce0cfdb6b083a63c3e6b09bece79fb033495d714109eccac5",
+      "bytes": 7592677
+    },
+    {
+      "path": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
+      "sha256": "7036ce736fb6c3114567eb0d9b82c916d506939f1adb095db4965ae04fd810fd",
+      "bytes": 3186925
+    }
+  ],
+  "market_checked": "2026-10-13",
+  "future_rule": "Update both documents after every meaningful project edit or new result; preserve user edits and history; do not silently regenerate over user edits."
+}
+{'sha256': '669e507082f9b03ce0cfdb6b083a63c3e6b09bece79fb033495d714109eccac5', 'approximate_pages': 68, 'images': 36, 'tables': 44, 'zip_integrity': 'pass', 'native_page_render': 'unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure'}
+{'sha256': '7036ce736fb6c3114567eb0d9b82c916d506939f1adb095db4965ae04fd810fd', 'approximate_pages': 43, 'images': 21, 'tables': 32, 'zip_integrity': 'pass', 'native_page_render': 'unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure'}
+[
+  {
+    "document": "Ear_Defender_Project.docx",
+    "paragraphs": 556,
+    "tables": 44,
+    "embedded_images": 36,
+    "source_links": 35,
+    "structure_and_hashes": "pass"
+  },
+  {
+    "document": "Glasses_Friendly_Headphone_Cushions.docx",
+    "paragraphs": 344,
+    "tables": 32,
+    "embedded_images": 21,
+    "source_links": 22,
+    "structure_and_hashes": "pass"
+  }
+]
+{
+  "unchanged_prior_page_images": 109,
+  "changed_prior_page_images": [
+    "Ear_Defender_Project\\page-1.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-1.png"
+  ],
+  "added_page_images": [],
+  "scope": "Pixel hash comparison of approximate previews only; native Word remains unverified"
+}

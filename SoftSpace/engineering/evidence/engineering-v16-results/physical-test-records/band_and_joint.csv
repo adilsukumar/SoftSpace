@@ -1,0 +1,1 @@
+sample_id,revision,size,material_grade,temperature_C,relative_humidity_percent,head_fixture_width_mm,slider_left_mm,slider_right_mm,force_N,release_force_left_N,release_force_right_N,pin_engaged_left,pin_engaged_right,knob_proof_pull_N,cycle_count,damage_or_looseness,notes

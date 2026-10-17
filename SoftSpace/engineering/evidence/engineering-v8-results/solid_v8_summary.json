@@ -1,0 +1,419 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "size": "child_small",
+      "meshes": [
+        {
+          "nodes": 5215,
+          "tet10_elements": 2494,
+          "cg_iterations": 3818,
+          "relative_free_residual": 3.772775270480824e-08,
+          "minimum_quadrature_jacobian_mm3": 0.1868419408715581,
+          "max_von_mises_centroid_MPa": 2.421797279893608,
+          "strain_energy_Nmm": 1.8755450257393562,
+          "reaction_sum_N": [
+            -1.0000000003150202,
+            -2.198011629684201e-10,
+            -6.603117358450206e-12
+          ],
+          "size": "child_small",
+          "mesh_max_mm": 3,
+          "seconds": 4.483564376831055,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 5.418318434240021,
+          "guide_mean_x_displacement_mm": 3.7510900516212367
+        },
+        {
+          "nodes": 10076,
+          "tet10_elements": 4874,
+          "cg_iterations": 3918,
+          "relative_free_residual": 4.008376572883547e-08,
+          "minimum_quadrature_jacobian_mm3": 0.08017883149140777,
+          "max_von_mises_centroid_MPa": 2.493516453088125,
+          "strain_energy_Nmm": 1.8774560241296685,
+          "reaction_sum_N": [
+            -0.9999999997456637,
+            -7.469115777258839e-11,
+            2.213946517434784e-10
+          ],
+          "size": "child_small",
+          "mesh_max_mm": 2,
+          "seconds": 11.739534854888916,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 5.421867657678607,
+          "guide_mean_x_displacement_mm": 3.7549120471839204
+        }
+      ],
+      "deflection_relative_mesh_change": 0.0010189026416553837,
+      "stress_relative_mesh_change": 0.029614028304494333,
+      "deflection_gate_5pct": true,
+      "stress_gate_5pct": true
+    },
+    {
+      "size": "child_medium",
+      "meshes": [
+        {
+          "nodes": 5169,
+          "tet10_elements": 2469,
+          "cg_iterations": 3821,
+          "relative_free_residual": 1.816730818861469e-07,
+          "minimum_quadrature_jacobian_mm3": 0.02317953069977657,
+          "max_von_mises_centroid_MPa": 2.4036306480503877,
+          "strain_energy_Nmm": 1.9846751043868782,
+          "reaction_sum_N": [
+            -1.0000000004362026,
+            -1.876630931433842e-10,
+            4.786062421380244e-09
+          ],
+          "size": "child_medium",
+          "mesh_max_mm": 3,
+          "seconds": 6.186856985092163,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 5.925054390206039,
+          "guide_mean_x_displacement_mm": 3.9693501880552042
+        },
+        {
+          "nodes": 10189,
+          "tet10_elements": 4915,
+          "cg_iterations": 5091,
+          "relative_free_residual": 2.6120160523735984e-07,
+          "minimum_quadrature_jacobian_mm3": 0.01472251404446413,
+          "max_von_mises_centroid_MPa": 2.845830010303782,
+          "strain_energy_Nmm": 1.986852601076628,
+          "reaction_sum_N": [
+            -1.000000000551978,
+            1.73191294381735e-11,
+            -2.7650211421696713e-09
+          ],
+          "size": "child_medium",
+          "mesh_max_mm": 2,
+          "seconds": 15.538872003555298,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 5.929089246644475,
+          "guide_mean_x_displacement_mm": 3.973705211477719
+        },
+        {
+          "nodes": 19055,
+          "tet10_elements": 9993,
+          "cg_iterations": 6410,
+          "relative_free_residual": 3.103105868846838e-07,
+          "minimum_quadrature_jacobian_mm3": 0.00712894887818882,
+          "max_von_mises_centroid_MPa": 2.957470443405448,
+          "strain_energy_Nmm": 1.989242038876243,
+          "reaction_sum_N": [
+            -1.0000000002762288,
+            -2.3357421641907912e-11,
+            -1.341959011903933e-09
+          ],
+          "size": "child_medium",
+          "mesh_max_mm": 1.5,
+          "seconds": 28.707412719726562,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 5.933355116203893,
+          "guide_mean_x_displacement_mm": 3.978484086979929
+        }
+      ],
+      "deflection_relative_mesh_change": 0.001202624565205923,
+      "stress_relative_mesh_change": 0.03922948057243536,
+      "deflection_gate_5pct": true,
+      "stress_gate_5pct": true
+    },
+    {
+      "size": "child_large",
+      "meshes": [
+        {
+          "nodes": 5298,
+          "tet10_elements": 2522,
+          "cg_iterations": 3961,
+          "relative_free_residual": 6.663571683004107e-08,
+          "minimum_quadrature_jacobian_mm3": 0.21318870794144432,
+          "max_von_mises_centroid_MPa": 2.397080117117147,
+          "strain_energy_Nmm": 2.0890365315798465,
+          "reaction_sum_N": [
+            -0.9999999996895103,
+            -3.618019064590842e-11,
+            -1.473368866147795e-10
+          ],
+          "size": "child_large",
+          "mesh_max_mm": 3,
+          "seconds": 5.54239296913147,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 6.429013552132642,
+          "guide_mean_x_displacement_mm": 4.1780730631169885
+        },
+        {
+          "nodes": 10639,
+          "tet10_elements": 5146,
+          "cg_iterations": 5026,
+          "relative_free_residual": 9.288224627912278e-08,
+          "minimum_quadrature_jacobian_mm3": 0.08017883149141168,
+          "max_von_mises_centroid_MPa": 2.4602197678061803,
+          "strain_energy_Nmm": 2.09105961654945,
+          "reaction_sum_N": [
+            -0.9999999997631424,
+            -1.689075278719494e-10,
+            5.489925658172523e-10
+          ],
+          "size": "child_large",
+          "mesh_max_mm": 2,
+          "seconds": 15.394230127334595,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 6.432764217261188,
+          "guide_mean_x_displacement_mm": 4.18211922832701
+        }
+      ],
+      "deflection_relative_mesh_change": 0.0009684285432296491,
+      "stress_relative_mesh_change": 0.0263402337861649,
+      "deflection_gate_5pct": true,
+      "stress_gate_5pct": true
+    },
+    {
+      "size": "adult_small",
+      "meshes": [
+        {
+          "nodes": 6057,
+          "tet10_elements": 2879,
+          "cg_iterations": 3696,
+          "relative_free_residual": 3.4662691159321016e-08,
+          "minimum_quadrature_jacobian_mm3": 0.14762050973541155,
+          "max_von_mises_centroid_MPa": 1.965153062604552,
+          "strain_energy_Nmm": 1.6623319658275961,
+          "reaction_sum_N": [
+            -0.9999999999236358,
+            1.8237001676020697e-11,
+            1.4527039467193692e-10
+          ],
+          "size": "adult_small",
+          "mesh_max_mm": 3,
+          "seconds": 6.493793725967407,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 4.567282805602084,
+          "guide_mean_x_displacement_mm": 3.324663930305686
+        },
+        {
+          "nodes": 12667,
+          "tet10_elements": 6441,
+          "cg_iterations": 4280,
+          "relative_free_residual": 4.475478091593507e-08,
+          "minimum_quadrature_jacobian_mm3": 0.08617449798826539,
+          "max_von_mises_centroid_MPa": 2.6388295929601795,
+          "strain_energy_Nmm": 1.6639051475959445,
+          "reaction_sum_N": [
+            -1.0000000002646752,
+            3.503359017817398e-11,
+            5.456300168626971e-10
+          ],
+          "size": "adult_small",
+          "mesh_max_mm": 2,
+          "seconds": 16.488775968551636,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 4.5703642829757625,
+          "guide_mean_x_displacement_mm": 3.3278102948551536
+        },
+        {
+          "nodes": 23612,
+          "tet10_elements": 12532,
+          "cg_iterations": 6027,
+          "relative_free_residual": 9.041641241498094e-08,
+          "minimum_quadrature_jacobian_mm3": 0.15502520874573325,
+          "max_von_mises_centroid_MPa": 2.9743629873755957,
+          "strain_energy_Nmm": 1.6647831927789807,
+          "reaction_sum_N": [
+            -0.999999999807677,
+            -4.8076772868766576e-11,
+            -3.469940665096899e-11
+          ],
+          "size": "adult_small",
+          "mesh_max_mm": 1.5,
+          "seconds": 37.90887928009033,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 4.571987600496104,
+          "guide_mean_x_displacement_mm": 3.3295663836329483
+        }
+      ],
+      "deflection_relative_mesh_change": 0.0005277009871955674,
+      "stress_relative_mesh_change": 0.12715235394909397,
+      "deflection_gate_5pct": true,
+      "stress_gate_5pct": false
+    },
+    {
+      "size": "adult_medium",
+      "meshes": [
+        {
+          "nodes": 6552,
+          "tet10_elements": 3130,
+          "cg_iterations": 3815,
+          "relative_free_residual": 3.8027601989470137e-08,
+          "minimum_quadrature_jacobian_mm3": 0.07089500987316832,
+          "max_von_mises_centroid_MPa": 2.155369776232977,
+          "strain_energy_Nmm": 1.7789284606530247,
+          "reaction_sum_N": [
+            -0.999999999507595,
+            4.820156736178422e-11,
+            5.4813980177731425e-11
+          ],
+          "size": "adult_medium",
+          "mesh_max_mm": 3,
+          "seconds": 7.8550028800964355,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 5.088388715085824,
+          "guide_mean_x_displacement_mm": 3.5578569196354284
+        },
+        {
+          "nodes": 13370,
+          "tet10_elements": 6818,
+          "cg_iterations": 4931,
+          "relative_free_residual": 5.6018731631409815e-08,
+          "minimum_quadrature_jacobian_mm3": 0.08617449798825226,
+          "max_von_mises_centroid_MPa": 2.826965694955573,
+          "strain_energy_Nmm": 1.7803773123307607,
+          "reaction_sum_N": [
+            -1.0000000003530871,
+            -1.8459122305778536e-11,
+            -5.07234080909455e-10
+          ],
+          "size": "adult_medium",
+          "mesh_max_mm": 2,
+          "seconds": 20.16411566734314,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 5.091165300528184,
+          "guide_mean_x_displacement_mm": 3.560754626114176
+        },
+        {
+          "nodes": 24496,
+          "tet10_elements": 13001,
+          "cg_iterations": 5521,
+          "relative_free_residual": 7.922567915186316e-08,
+          "minimum_quadrature_jacobian_mm3": 0.11834616824742131,
+          "max_von_mises_centroid_MPa": 2.9501449732285887,
+          "strain_energy_Nmm": 1.7811205482631838,
+          "reaction_sum_N": [
+            -0.9999999996098721,
+            -5.145208976757576e-11,
+            -5.859489538538598e-10
+          ],
+          "size": "adult_medium",
+          "mesh_max_mm": 1.5,
+          "seconds": 33.30548548698425,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 5.092523485899403,
+          "guide_mean_x_displacement_mm": 3.562241096281272
+        }
+      ],
+      "deflection_relative_mesh_change": 0.0004174593093819734,
+      "stress_relative_mesh_change": 0.043572965350381354,
+      "deflection_gate_5pct": true,
+      "stress_gate_5pct": true
+    },
+    {
+      "size": "adult_large",
+      "meshes": [
+        {
+          "nodes": 6944,
+          "tet10_elements": 3325,
+          "cg_iterations": 4010,
+          "relative_free_residual": 4.6964708113431135e-08,
+          "minimum_quadrature_jacobian_mm3": 0.16922578233609542,
+          "max_von_mises_centroid_MPa": 2.308858340572726,
+          "strain_energy_Nmm": 1.8946859338084072,
+          "reaction_sum_N": [
+            -1.0000000005038934,
+            -9.699631126503655e-12,
+            1.379341567180059e-10
+          ],
+          "size": "adult_large",
+          "mesh_max_mm": 3,
+          "seconds": 8.466178894042969,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 5.6376524133180705,
+          "guide_mean_x_displacement_mm": 3.7893718694692127
+        },
+        {
+          "nodes": 14224,
+          "tet10_elements": 7279,
+          "cg_iterations": 4498,
+          "relative_free_residual": 5.60253148399803e-08,
+          "minimum_quadrature_jacobian_mm3": 0.11925900194609095,
+          "max_von_mises_centroid_MPa": 2.653990381631992,
+          "strain_energy_Nmm": 1.8965790347427598,
+          "reaction_sum_N": [
+            -1.000000000019326,
+            -1.1450543150378495e-10,
+            1.5935907823373674e-10
+          ],
+          "size": "adult_large",
+          "mesh_max_mm": 2,
+          "seconds": 20.324827671051025,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 5.641117468617636,
+          "guide_mean_x_displacement_mm": 3.793158069280211
+        },
+        {
+          "nodes": 25639,
+          "tet10_elements": 13645,
+          "cg_iterations": 6092,
+          "relative_free_residual": 1.086852604651397e-07,
+          "minimum_quadrature_jacobian_mm3": 0.15115607915218787,
+          "max_von_mises_centroid_MPa": 2.941617133846034,
+          "strain_energy_Nmm": 1.8972349734837357,
+          "reaction_sum_N": [
+            -1.0000000002962448,
+            -5.8004403309577096e-11,
+            7.660801456962785e-10
+          ],
+          "size": "adult_large",
+          "mesh_max_mm": 1.5,
+          "seconds": 33.34639358520508,
+          "E_MPa": 2000,
+          "poisson": 0.35,
+          "load_per_full_side_N": 2,
+          "max_displacement_mm": 5.6422881719728135,
+          "guide_mean_x_displacement_mm": 3.7944699459702544
+        }
+      ],
+      "deflection_relative_mesh_change": 0.0003458534197844365,
+      "stress_relative_mesh_change": 0.10837520520220378,
+      "deflection_gate_5pct": true,
+      "stress_gate_5pct": false
+    }
+  ],
+  "model": "Linear elastic CAD crown and guides, lower crown, ideal2N/side load",
+  "limitations": [
+    "Actual material unknown; E2000MPa and nu0.35 hypotheses",
+    "Slider locking/contact and nonlinear assembled fit not simulated",
+    "Stable stress does not establish material strength or comfort"
+  ],
+  "all_stress_mesh_gates_pass": false,
+  "all_deflection_mesh_gates_pass": true
+}

@@ -1,0 +1,7 @@
+{
+  "status": "rejected",
+  "reason": "BRep validity alone was insufficient: experimental bolt contained two disconnected solids and its Boolean union lost the core. The final assembly uses single-solid cosmetic thread envelopes. Nut locking and thread engagement remain unqualified.",
+  "prior_status_file": "thread_trial_status.json",
+  "prior_status_superseded": true,
+  "final_geometry": "final-CAD/*_cad_report.json"
+}

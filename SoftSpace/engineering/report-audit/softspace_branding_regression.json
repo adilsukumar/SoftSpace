@@ -1,0 +1,20 @@
+{
+  "scope": "Exact approximate-preview body hashes, excluding top 70 pixel header and bottom 65 pixel footer bands. Compare with the reviewed pre-branding V19 inward-extension reports. Changed headers must be inspected separately.",
+  "documents": [
+    {
+      "document": "Ear_Defender_Project",
+      "unchanged_reviewed_bodies": 76,
+      "pages_requiring_review": [
+        "page-1.png"
+      ]
+    },
+    {
+      "document": "Glasses_Friendly_Headphone_Cushions",
+      "unchanged_reviewed_bodies": 51,
+      "pages_requiring_review": [
+        "page-1.png",
+        "page-12.png"
+      ]
+    }
+  ]
+}

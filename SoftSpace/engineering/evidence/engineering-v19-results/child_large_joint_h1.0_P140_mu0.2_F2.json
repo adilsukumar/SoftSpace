@@ -1,0 +1,92 @@
+{
+  "preload_N": 140,
+  "side_force_N": 2,
+  "assumed_mu": 0.2,
+  "normal_penalty_N_mm3": 10000,
+  "tangential_penalty_N_mm3": 1000,
+  "iterations": 7,
+  "relative_free_residual": 6.830152906663613e-07,
+  "maximum_numerical_penetration_mm": 0.0006151117052785924,
+  "maximum_pivot_constraint_error_mm": 0.00018614758456341507,
+  "stop_reaction_N": 3.628181524390076,
+  "washer_normal_sum_N": 278.81301064160283,
+  "washer_quadrature_area_mm2": 164.9600567635947,
+  "stop_quadrature_area_mm2": 32.0,
+  "global_force_balance_error_N": 1.2453268888111367e-11,
+  "cup_mean_displacement_x_mm": 0.22502655594849708,
+  "component_stresses": [
+    {
+      "peak_element_MPa": 2.7226540193084143,
+      "volume_weighted_mean_MPa": 1.0304301042052169
+    },
+    {
+      "peak_element_MPa": 2.388363526848947,
+      "volume_weighted_mean_MPa": 0.4190910638864389
+    }
+  ],
+  "history": [
+    {
+      "iteration": 0,
+      "relative_u_change": 1.0,
+      "relative_equilibrium_residual": 0.056442557682387665,
+      "active": 1596,
+      "slip_points": 2
+    },
+    {
+      "iteration": 1,
+      "relative_u_change": 0.004963318958571107,
+      "relative_equilibrium_residual": 0.07289667072146976,
+      "active": 1562,
+      "slip_points": 0
+    },
+    {
+      "iteration": 2,
+      "relative_u_change": 0.002768481560629574,
+      "relative_equilibrium_residual": 0.03298387287029321,
+      "active": 1542,
+      "slip_points": 0
+    },
+    {
+      "iteration": 3,
+      "relative_u_change": 0.00043890811785715915,
+      "relative_equilibrium_residual": 0.00787577830917488,
+      "active": 1534,
+      "slip_points": 0
+    },
+    {
+      "iteration": 4,
+      "relative_u_change": 5.275874533135855e-05,
+      "relative_equilibrium_residual": 0.000493875571642743,
+      "active": 1533,
+      "slip_points": 0
+    },
+    {
+      "iteration": 5,
+      "relative_u_change": 4.037634226044183e-06,
+      "relative_equilibrium_residual": 1.3660445923422965e-06,
+      "active": 1533,
+      "slip_points": 0
+    },
+    {
+      "iteration": 6,
+      "relative_u_change": 3.4516628671775756e-09,
+      "relative_equilibrium_residual": 6.830152906663613e-07,
+      "active": 1533,
+      "slip_points": 0
+    }
+  ],
+  "coulomb_bound_error_MPa": 0.0,
+  "converged": true,
+  "size": "child_large",
+  "mesh_max_mm": 1.0,
+  "source": "${WORKSPACE}\\EarDefender_V19_child_large_ParallelDisc.step",
+  "source_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557",
+  "elastic_E_MPa": 3500,
+  "assumed_nu": 0.35,
+  "seconds": 26.784229278564453,
+  "rigid_translation_controls": [
+    8.939154364267824e-17,
+    9.154912463283678e-17,
+    9.235187755608637e-17
+  ]
+}

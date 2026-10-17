@@ -1,0 +1,2 @@
+{"phase": "nominal", "angles": [0, 0], "stroke": 0, "pass": false, "overlaps": [{"parts": ["LeftCup", "LeftTongue"], "intersection_mm3": 176.55811627178866}, {"parts": ["LeftLiner", "LeftTongue"], "intersection_mm3": 65.02941144153161}, {"parts": ["RightCup", "RightTongue"], "intersection_mm3": 175.27478522402328}, {"parts": ["RightLiner", "RightTongue"], "intersection_mm3": 65.02941878997811}]}
+{"case_count": 1, "complete_sampled_motion_pass": false, "index_blocking_pass": false, "retention_blocking_pass": false}

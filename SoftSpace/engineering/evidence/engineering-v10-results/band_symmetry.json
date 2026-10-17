@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "size": "adult_small",
+      "band_volume_mm3": 27421.53190489283,
+      "Y_reflection_symmetric_difference_mm3": 76.39825854804076,
+      "exact_Y_symmetry": false
+    },
+    {
+      "size": "child_small",
+      "band_volume_mm3": 18867.143193439282,
+      "Y_reflection_symmetric_difference_mm3": 76.35029809040134,
+      "exact_Y_symmetry": false
+    },
+    {
+      "size": "child_medium",
+      "band_volume_mm3": 19642.908878210714,
+      "Y_reflection_symmetric_difference_mm3": 76.3925765191234,
+      "exact_Y_symmetry": false
+    },
+    {
+      "size": "child_large",
+      "band_volume_mm3": 20375.714366345186,
+      "Y_reflection_symmetric_difference_mm3": 76.39165177969699,
+      "exact_Y_symmetry": false
+    },
+    {
+      "size": "adult_medium",
+      "band_volume_mm3": 28930.764694402587,
+      "Y_reflection_symmetric_difference_mm3": 76.39542945825087,
+      "exact_Y_symmetry": false
+    },
+    {
+      "size": "adult_large",
+      "band_volume_mm3": 30435.243948120864,
+      "Y_reflection_symmetric_difference_mm3": 76.39385184907587,
+      "exact_Y_symmetry": false
+    }
+  ],
+  "interpretation": "The front-only clamp bore breaks Y symmetry. The quarter-band calculation mirrors the front half and its bore, rather than reproducing the actual rear wall. It is an explicit idealization, not a full-width band or assembled-contact result.",
+  "limit": "Small volume difference does not establish small stress error; full-width mechanical comparison remains open."
+}

@@ -1,0 +1,1069 @@
+{
+  "status": "complete two-family ideal fork fixture study",
+  "cases": [
+    {
+      "size": "adult_small",
+      "meshes": [
+        {
+          "nodes": 60585,
+          "tet10_elements": 33574,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 8590,
+          "relative_free_residual": 1.0561567176758242e-09,
+          "minimum_quadrature_jacobian_mm3": 0.004789510995412685,
+          "max_von_mises_centroid_MPa": 12.804952732277151,
+          "strain_energy_Nmm": 0.6689192567431717,
+          "reaction_sum_N": [
+            -5.199999999998181,
+            -2.460237709722166e-12,
+            -10.40000000002604
+          ],
+          "size": "adult_small",
+          "mesh_max_mm": 2.0,
+          "source": "${WORKSPACE}\\EarDefender_V12_adult_small_Latched.step",
+          "source_sha256": "f8e015bce1e77e9b13c3dcbf51e4f4da2c7c184cf3388111283a5ed86a3419d0",
+          "part": "RightFork with integral lock housing and offset bridge",
+          "load_per_side_reference_N": 2,
+          "assumed_cup_force_arm_mm": 65,
+          "load_on_lock_bore_N": 11.627553482998906,
+          "load_direction": [
+            0.4472135954999579,
+            0.0,
+            0.8944271909999159
+          ],
+          "loaded_area_mm2": 21.676074264543466,
+          "load_face_ids": [
+            76
+          ],
+          "clamped_pivot_face_ids": [
+            38,
+            71
+          ],
+          "minimum_adaptive_Jacobian_mm3": 0.0003203052889485473,
+          "optimized": false,
+          "assumed_E_MPa": 2000,
+          "assumed_nu": 0.35,
+          "weighted_load_direction_displacement_mm": 0.11505760996447997,
+          "seconds": 164.16481161117554,
+          "limits": [
+            "Fixed full pivot bore surfaces, not free bearing contact",
+            "Uniform tangent-direction traction on rear rod-guide cylinder, not solved pin contact or load sharing",
+            "Only fork plus housing; tongue, pins, cup, guide and latch assembly not solved together",
+            "Assumed homogeneous isotropic material; not a final manufactured grade",
+            "Peak centroid stresses and ideal stiffness cannot certify joint strength, fatigue or drop survival"
+          ],
+          "independent_algebra_audit": {
+            "external_work_Nmm": 1.337838513488019,
+            "twice_strain_energy_relative_error": 1.2525955984030792e-12,
+            "force_balance_error_N": 2.6217050948914778e-11,
+            "maximum_fixed_displacement_mm": 0.0,
+            "pass": true
+          }
+        },
+        {
+          "nodes": 103869,
+          "tet10_elements": 60127,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 9965,
+          "relative_free_residual": 1.097407739910968e-09,
+          "minimum_quadrature_jacobian_mm3": 0.005277851647834943,
+          "max_von_mises_centroid_MPa": 13.20153167839121,
+          "strain_energy_Nmm": 0.6781296598742957,
+          "reaction_sum_N": [
+            -5.200000000002304,
+            -3.695990914625878e-12,
+            -10.399999999994025
+          ],
+          "size": "adult_small",
+          "mesh_max_mm": 1.5,
+          "source": "${WORKSPACE}\\EarDefender_V12_adult_small_Latched.step",
+          "source_sha256": "f8e015bce1e77e9b13c3dcbf51e4f4da2c7c184cf3388111283a5ed86a3419d0",
+          "part": "RightFork with integral lock housing and offset bridge",
+          "load_per_side_reference_N": 2,
+          "assumed_cup_force_arm_mm": 65,
+          "load_on_lock_bore_N": 11.627553482998906,
+          "load_direction": [
+            0.4472135954999579,
+            0.0,
+            0.8944271909999159
+          ],
+          "loaded_area_mm2": 21.676074264543473,
+          "load_face_ids": [
+            76
+          ],
+          "clamped_pivot_face_ids": [
+            38,
+            71
+          ],
+          "minimum_adaptive_Jacobian_mm3": 0.000380928905688754,
+          "optimized": false,
+          "assumed_E_MPa": 2000,
+          "assumed_nu": 0.35,
+          "weighted_load_direction_displacement_mm": 0.11664184746432917,
+          "seconds": 440.71201968193054,
+          "limits": [
+            "Fixed full pivot bore surfaces, not free bearing contact",
+            "Uniform tangent-direction traction on rear rod-guide cylinder, not solved pin contact or load sharing",
+            "Only fork plus housing; tongue, pins, cup, guide and latch assembly not solved together",
+            "Assumed homogeneous isotropic material; not a final manufactured grade",
+            "Peak centroid stresses and ideal stiffness cannot certify joint strength, fatigue or drop survival"
+          ],
+          "independent_algebra_audit": {
+            "external_work_Nmm": 1.3562593197472876,
+            "twice_strain_energy_relative_error": 9.613544409506656e-13,
+            "force_balance_error_N": 7.385132655142363e-12,
+            "maximum_fixed_displacement_mm": 0.0,
+            "pass": true
+          }
+        }
+      ],
+      "displacement_mesh_change_fraction": 0.013769080553109658,
+      "sampled_peak_stress_mesh_change_fraction": 0.030970746585765152,
+      "chosen_displacement_5percent_gate": true,
+      "chosen_sampled_peak_stress_5percent_gate": true,
+      "all_algebra_audits_pass": true
+    },
+    {
+      "size": "child_small",
+      "meshes": [
+        {
+          "nodes": 32418,
+          "tet10_elements": 17177,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 6885,
+          "relative_free_residual": 1.0155923720009816e-09,
+          "minimum_quadrature_jacobian_mm3": 0.007665074239950654,
+          "max_von_mises_centroid_MPa": 7.390342458887067,
+          "strain_energy_Nmm": 0.2048747510409759,
+          "reaction_sum_N": [
+            -5.199999999998065,
+            -7.278358654789499e-13,
+            -10.399999999994353
+          ],
+          "size": "child_small",
+          "mesh_max_mm": 2.0,
+          "source": "${WORKSPACE}\\EarDefender_V12_child_small_Latched.step",
+          "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+          "part": "RightFork with integral lock housing and offset bridge",
+          "load_per_side_reference_N": 2,
+          "assumed_cup_force_arm_mm": 65,
+          "load_on_lock_bore_N": 11.627553482998906,
+          "load_direction": [
+            0.4472135954999579,
+            0.0,
+            0.8944271909999159
+          ],
+          "loaded_area_mm2": 21.676074264543466,
+          "load_face_ids": [
+            73
+          ],
+          "clamped_pivot_face_ids": [
+            32,
+            61
+          ],
+          "minimum_adaptive_Jacobian_mm3": 0.0011450617755152308,
+          "optimized": true,
+          "assumed_E_MPa": 2000,
+          "assumed_nu": 0.35,
+          "weighted_load_direction_displacement_mm": 0.035239528476931285,
+          "seconds": 73.64708256721497,
+          "limits": [
+            "Fixed full pivot bore surfaces, not free bearing contact",
+            "Uniform tangent-direction traction on rear rod-guide cylinder, not solved pin contact or load sharing",
+            "Only fork plus housing; tongue, pins, cup, guide and latch assembly not solved together",
+            "Assumed homogeneous isotropic material; not a final manufactured grade",
+            "Peak centroid stresses and ideal stiffness cannot certify joint strength, fatigue or drop survival"
+          ],
+          "independent_algebra_audit": {
+            "external_work_Nmm": 0.4097495020811815,
+            "twice_strain_energy_relative_error": 1.879998002983647e-12,
+            "force_balance_error_N": 6.007817122204015e-12,
+            "maximum_fixed_displacement_mm": 0.0,
+            "pass": true
+          }
+        },
+        {
+          "nodes": 54724,
+          "tet10_elements": 30381,
+          "assembly_method": "CSR batches of up to2048 elements",
+          "reduced_matrix_storage": true,
+          "coarse_preconditioner_modes": 12,
+          "cg_iterations": 7731,
+          "relative_free_residual": 1.0426282916983443e-09,
+          "minimum_quadrature_jacobian_mm3": 0.005354849320685607,
+          "max_von_mises_centroid_MPa": 7.480363741793371,
+          "strain_energy_Nmm": 0.20641071705718128,
+          "reaction_sum_N": [
+            -5.200000000000211,
+            1.041508768534672e-12,
+            -10.400000000000768
+          ],
+          "size": "child_small",
+          "mesh_max_mm": 1.5,
+          "source": "${WORKSPACE}\\EarDefender_V12_child_small_Latched.step",
+          "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+          "part": "RightFork with integral lock housing and offset bridge",
+          "load_per_side_reference_N": 2,
+          "assumed_cup_force_arm_mm": 65,
+          "load_on_lock_bore_N": 11.627553482998906,
+          "load_direction": [
+            0.4472135954999579,
+            0.0,
+            0.8944271909999159
+          ],
+          "loaded_area_mm2": 21.676074264543477,
+          "load_face_ids": [
+            73
+          ],
+          "clamped_pivot_face_ids": [
+            32,
+            61
+          ],
+          "minimum_adaptive_Jacobian_mm3": 0.0003864884916714711,
+          "optimized": false,
+          "assumed_E_MPa": 2000,
+          "assumed_nu": 0.35,
+          "weighted_load_direction_displacement_mm": 0.035503722663392585,
+          "seconds": 229.2426917552948,
+          "limits": [
+            "Fixed full pivot bore surfaces, not free bearing contact",
+            "Uniform tangent-direction traction on rear rod-guide cylinder, not solved pin contact or load sharing",
+            "Only fork plus housing; tongue, pins, cup, guide and latch assembly not solved together",
+            "Assumed homogeneous isotropic material; not a final manufactured grade",
+            "Peak centroid stresses and ideal stiffness cannot certify joint strength, fatigue or drop survival"
+          ],
+          "independent_algebra_audit": {
+            "external_work_Nmm": 0.41282143411415767,
+            "twice_strain_energy_relative_error": 4.963203028307727e-13,
+            "force_balance_error_N": 1.3059838317782407e-12,
+            "maximum_fixed_displacement_mm": 0.0,
+            "pass": true
+          }
+        }
+      ],
+      "displacement_mesh_change_fraction": 0.007497097659358465,
+      "sampled_peak_stress_mesh_change_fraction": 0.012180935241783208,
+      "chosen_displacement_5percent_gate": true,
+      "chosen_sampled_peak_stress_5percent_gate": true,
+      "all_algebra_audits_pass": true
+    }
+  ],
+  "all_algebra_audits_pass": true,
+  "all_chosen_mesh_comparisons_pass": true,
+  "conditional_material_load_cases": [
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECARAN ABS grey",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 13.20153167839121,
+      "yield_reference_MPa": 32,
+      "yield_reference_ratio": 2.4239611568996096,
+      "displacement_mm": 0.13722570289921077,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECARAN ABS grey",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 33.00382919597802,
+      "yield_reference_MPa": 32,
+      "yield_reference_ratio": 0.9695844627598439,
+      "displacement_mm": 0.343064257248027,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECARAN ABS grey",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 66.00765839195604,
+      "yield_reference_MPa": 32,
+      "yield_reference_ratio": 0.48479223137992195,
+      "displacement_mm": 0.686128514496054,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECARAN ABS grey",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 132.01531678391208,
+      "yield_reference_MPa": 32,
+      "yield_reference_ratio": 0.24239611568996097,
+      "displacement_mm": 1.372257028992108,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 13.20153167839121,
+      "yield_reference_MPa": 67,
+      "yield_reference_ratio": 5.075168672258558,
+      "displacement_mm": 0.08331560533166368,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 33.00382919597802,
+      "yield_reference_MPa": 67,
+      "yield_reference_ratio": 2.030067468903423,
+      "displacement_mm": 0.20828901332915925,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 66.00765839195604,
+      "yield_reference_MPa": 67,
+      "yield_reference_ratio": 1.0150337344517115,
+      "displacement_mm": 0.4165780266583185,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 132.01531678391208,
+      "yield_reference_MPa": 67,
+      "yield_reference_ratio": 0.5075168672258558,
+      "displacement_mm": 0.833156053316637,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECAMID 66 natural PA66",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 13.20153167839121,
+      "yield_reference_MPa": 84,
+      "yield_reference_ratio": 6.362898036861475,
+      "displacement_mm": 0.06665248426533095,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECAMID 66 natural PA66",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 33.00382919597802,
+      "yield_reference_MPa": 84,
+      "yield_reference_ratio": 2.54515921474459,
+      "displacement_mm": 0.1666312106633274,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECAMID 66 natural PA66",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 66.00765839195604,
+      "yield_reference_MPa": 84,
+      "yield_reference_ratio": 1.272579607372295,
+      "displacement_mm": 0.3332624213266548,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECAMID 66 natural PA66",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 132.01531678391208,
+      "yield_reference_MPa": 84,
+      "yield_reference_ratio": 0.6362898036861475,
+      "displacement_mm": 0.6665248426533096,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECARAN ABS natural ASTM",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 13.20153167839121,
+      "yield_reference_MPa": 39.9895923003744,
+      "yield_reference_ratio": 3.029163075511226,
+      "displacement_mm": 0.08458734840449665,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECARAN ABS natural ASTM",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 33.00382919597802,
+      "yield_reference_MPa": 39.9895923003744,
+      "yield_reference_ratio": 1.2116652302044906,
+      "displacement_mm": 0.21146837101124163,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECARAN ABS natural ASTM",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 66.00765839195604,
+      "yield_reference_MPa": 39.9895923003744,
+      "yield_reference_ratio": 0.6058326151022453,
+      "displacement_mm": 0.42293674202248327,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECARAN ABS natural ASTM",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 132.01531678391208,
+      "yield_reference_MPa": 39.9895923003744,
+      "yield_reference_ratio": 0.30291630755112264,
+      "displacement_mm": 0.8458734840449665,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECADUR PET natural",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 13.20153167839121,
+      "yield_reference_MPa": 91,
+      "yield_reference_ratio": 6.893139539933265,
+      "displacement_mm": 0.0706920287662601,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECADUR PET natural",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 33.00382919597802,
+      "yield_reference_MPa": 91,
+      "yield_reference_ratio": 2.757255815973306,
+      "displacement_mm": 0.17673007191565027,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECADUR PET natural",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 66.00765839195604,
+      "yield_reference_MPa": 91,
+      "yield_reference_ratio": 1.378627907986653,
+      "displacement_mm": 0.35346014383130053,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECADUR PET natural",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 132.01531678391208,
+      "yield_reference_MPa": 91,
+      "yield_reference_ratio": 0.6893139539933265,
+      "displacement_mm": 0.7069202876626011,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECAPEEK natural",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 13.20153167839121,
+      "yield_reference_MPa": 116,
+      "yield_reference_ratio": 8.786859193761085,
+      "displacement_mm": 0.055543736887775794,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECAPEEK natural",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 33.00382919597802,
+      "yield_reference_MPa": 116,
+      "yield_reference_ratio": 3.514743677504434,
+      "displacement_mm": 0.1388593422194395,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECAPEEK natural",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 66.00765839195604,
+      "yield_reference_MPa": 116,
+      "yield_reference_ratio": 1.757371838752217,
+      "displacement_mm": 0.277718684438879,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "TECAPEEK natural",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 132.01531678391208,
+      "yield_reference_MPa": 116,
+      "yield_reference_ratio": 0.8786859193761085,
+      "displacement_mm": 0.555437368877758,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "Makrolon 2458 PC",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 13.20153167839121,
+      "yield_reference_MPa": 65,
+      "yield_reference_ratio": 4.923671099952332,
+      "displacement_mm": 0.09720153955360764,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "Makrolon 2458 PC",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 33.00382919597802,
+      "yield_reference_MPa": 65,
+      "yield_reference_ratio": 1.9694684399809328,
+      "displacement_mm": 0.24300384888401913,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "Makrolon 2458 PC",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 66.00765839195604,
+      "yield_reference_MPa": 65,
+      "yield_reference_ratio": 0.9847342199904664,
+      "displacement_mm": 0.48600769776803826,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "Makrolon 2458 PC",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 132.01531678391208,
+      "yield_reference_MPa": 65,
+      "yield_reference_ratio": 0.4923671099952332,
+      "displacement_mm": 0.9720153955360765,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "Moplen HP500N PP",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 13.20153167839121,
+      "yield_reference_MPa": 34,
+      "yield_reference_ratio": 2.575458729205835,
+      "displacement_mm": 0.1576241181950394,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "Moplen HP500N PP",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 33.00382919597802,
+      "yield_reference_MPa": 34,
+      "yield_reference_ratio": 1.030183491682334,
+      "displacement_mm": 0.3940602954875986,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "Moplen HP500N PP",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 66.00765839195604,
+      "yield_reference_MPa": 34,
+      "yield_reference_ratio": 0.515091745841167,
+      "displacement_mm": 0.7881205909751972,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "Moplen HP500N PP",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 132.01531678391208,
+      "yield_reference_MPa": 34,
+      "yield_reference_ratio": 0.2575458729205835,
+      "displacement_mm": 1.5762411819503943,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "301 stainless annealed reference",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 13.20153167839121,
+      "yield_reference_MPa": 205,
+      "yield_reference_ratio": 15.528501161388125,
+      "displacement_mm": 0.0012087238079205094,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "301 stainless annealed reference",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 33.00382919597802,
+      "yield_reference_MPa": 205,
+      "yield_reference_ratio": 6.21140046455525,
+      "displacement_mm": 0.003021809519801274,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "301 stainless annealed reference",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 66.00765839195604,
+      "yield_reference_MPa": 205,
+      "yield_reference_ratio": 3.105700232277625,
+      "displacement_mm": 0.006043619039602548,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "301 stainless annealed reference",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 132.01531678391208,
+      "yield_reference_MPa": 205,
+      "yield_reference_ratio": 1.5528501161388124,
+      "displacement_mm": 0.012087238079205096,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "301 stainless full hard reference",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 13.20153167839121,
+      "yield_reference_MPa": 965,
+      "yield_reference_ratio": 73.09757863775386,
+      "displacement_mm": 0.0012087238079205094,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "301 stainless full hard reference",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 33.00382919597802,
+      "yield_reference_MPa": 965,
+      "yield_reference_ratio": 29.239031455101543,
+      "displacement_mm": 0.003021809519801274,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "301 stainless full hard reference",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 66.00765839195604,
+      "yield_reference_MPa": 965,
+      "yield_reference_ratio": 14.619515727550771,
+      "displacement_mm": 0.006043619039602548,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "adult_small",
+      "grade": "301 stainless full hard reference",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 132.01531678391208,
+      "yield_reference_MPa": 965,
+      "yield_reference_ratio": 7.309757863775386,
+      "displacement_mm": 0.012087238079205096,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECARAN ABS grey",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 7.480363741793371,
+      "yield_reference_MPa": 32,
+      "yield_reference_ratio": 4.277866839711754,
+      "displacement_mm": 0.04176908548634422,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECARAN ABS grey",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 18.70090935448343,
+      "yield_reference_MPa": 32,
+      "yield_reference_ratio": 1.7111467358847015,
+      "displacement_mm": 0.10442271371586055,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECARAN ABS grey",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 37.40181870896686,
+      "yield_reference_MPa": 32,
+      "yield_reference_ratio": 0.8555733679423507,
+      "displacement_mm": 0.2088454274317211,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECARAN ABS grey",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 74.80363741793371,
+      "yield_reference_MPa": 32,
+      "yield_reference_ratio": 0.42778668397117536,
+      "displacement_mm": 0.4176908548634422,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 7.480363741793371,
+      "yield_reference_MPa": 67,
+      "yield_reference_ratio": 8.956783695646484,
+      "displacement_mm": 0.025359801902423276,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 18.70090935448343,
+      "yield_reference_MPa": 67,
+      "yield_reference_ratio": 3.5827134782585937,
+      "displacement_mm": 0.06339950475605818,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 37.40181870896686,
+      "yield_reference_MPa": 67,
+      "yield_reference_ratio": 1.7913567391292968,
+      "displacement_mm": 0.12679900951211637,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 74.80363741793371,
+      "yield_reference_MPa": 67,
+      "yield_reference_ratio": 0.8956783695646484,
+      "displacement_mm": 0.25359801902423273,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECAMID 66 natural PA66",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 7.480363741793371,
+      "yield_reference_MPa": 84,
+      "yield_reference_ratio": 11.229400454243354,
+      "displacement_mm": 0.02028784152193862,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECAMID 66 natural PA66",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 18.70090935448343,
+      "yield_reference_MPa": 84,
+      "yield_reference_ratio": 4.491760181697342,
+      "displacement_mm": 0.05071960380484655,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECAMID 66 natural PA66",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 37.40181870896686,
+      "yield_reference_MPa": 84,
+      "yield_reference_ratio": 2.245880090848671,
+      "displacement_mm": 0.1014392076096931,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECAMID 66 natural PA66",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 74.80363741793371,
+      "yield_reference_MPa": 84,
+      "yield_reference_ratio": 1.1229400454243355,
+      "displacement_mm": 0.2028784152193862,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECARAN ABS natural ASTM",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 7.480363741793371,
+      "yield_reference_MPa": 39.9895923003744,
+      "yield_reference_ratio": 5.345942213605128,
+      "displacement_mm": 0.025746898080497446,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECARAN ABS natural ASTM",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 18.70090935448343,
+      "yield_reference_MPa": 39.9895923003744,
+      "yield_reference_ratio": 2.1383768854420513,
+      "displacement_mm": 0.06436724520124361,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECARAN ABS natural ASTM",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 37.40181870896686,
+      "yield_reference_MPa": 39.9895923003744,
+      "yield_reference_ratio": 1.0691884427210256,
+      "displacement_mm": 0.12873449040248722,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECARAN ABS natural ASTM",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 74.80363741793371,
+      "yield_reference_MPa": 39.9895923003744,
+      "yield_reference_ratio": 0.5345942213605128,
+      "displacement_mm": 0.25746898080497443,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECADUR PET natural",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 7.480363741793371,
+      "yield_reference_MPa": 91,
+      "yield_reference_ratio": 12.1651838254303,
+      "displacement_mm": 0.021517407674783388,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECADUR PET natural",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 18.70090935448343,
+      "yield_reference_MPa": 91,
+      "yield_reference_ratio": 4.86607353017212,
+      "displacement_mm": 0.05379351918695846,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECADUR PET natural",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 37.40181870896686,
+      "yield_reference_MPa": 91,
+      "yield_reference_ratio": 2.43303676508606,
+      "displacement_mm": 0.10758703837391692,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECADUR PET natural",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 74.80363741793371,
+      "yield_reference_MPa": 91,
+      "yield_reference_ratio": 1.21651838254303,
+      "displacement_mm": 0.21517407674783384,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECAPEEK natural",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 7.480363741793371,
+      "yield_reference_MPa": 116,
+      "yield_reference_ratio": 15.507267293955108,
+      "displacement_mm": 0.01690653460161552,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECAPEEK natural",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 18.70090935448343,
+      "yield_reference_MPa": 116,
+      "yield_reference_ratio": 6.202906917582043,
+      "displacement_mm": 0.04226633650403879,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECAPEEK natural",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 37.40181870896686,
+      "yield_reference_MPa": 116,
+      "yield_reference_ratio": 3.1014534587910214,
+      "displacement_mm": 0.08453267300807758,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "TECAPEEK natural",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 74.80363741793371,
+      "yield_reference_MPa": 116,
+      "yield_reference_ratio": 1.5507267293955107,
+      "displacement_mm": 0.16906534601615517,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "Makrolon 2458 PC",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 7.480363741793371,
+      "yield_reference_MPa": 65,
+      "yield_reference_ratio": 8.6894170181645,
+      "displacement_mm": 0.029586435552827157,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "Makrolon 2458 PC",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 18.70090935448343,
+      "yield_reference_MPa": 65,
+      "yield_reference_ratio": 3.4757668072658,
+      "displacement_mm": 0.07396608888206789,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "Makrolon 2458 PC",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 37.40181870896686,
+      "yield_reference_MPa": 65,
+      "yield_reference_ratio": 1.7378834036329,
+      "displacement_mm": 0.14793217776413578,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "Makrolon 2458 PC",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 74.80363741793371,
+      "yield_reference_MPa": 65,
+      "yield_reference_ratio": 0.86894170181645,
+      "displacement_mm": 0.29586435552827156,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "Moplen HP500N PP",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 7.480363741793371,
+      "yield_reference_MPa": 34,
+      "yield_reference_ratio": 4.545233517193739,
+      "displacement_mm": 0.04797800359917917,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "Moplen HP500N PP",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 18.70090935448343,
+      "yield_reference_MPa": 34,
+      "yield_reference_ratio": 1.8180934068774954,
+      "displacement_mm": 0.11994500899794792,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "Moplen HP500N PP",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 37.40181870896686,
+      "yield_reference_MPa": 34,
+      "yield_reference_ratio": 0.9090467034387477,
+      "displacement_mm": 0.23989001799589585,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "Moplen HP500N PP",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 74.80363741793371,
+      "yield_reference_MPa": 34,
+      "yield_reference_ratio": 0.45452335171937386,
+      "displacement_mm": 0.4797800359917917,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "301 stainless annealed reference",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 7.480363741793371,
+      "yield_reference_MPa": 205,
+      "yield_reference_ratio": 27.405084441903423,
+      "displacement_mm": 0.0003679142244911149,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "301 stainless annealed reference",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 18.70090935448343,
+      "yield_reference_MPa": 205,
+      "yield_reference_ratio": 10.96203377676137,
+      "displacement_mm": 0.0009197855612277872,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "301 stainless annealed reference",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 37.40181870896686,
+      "yield_reference_MPa": 205,
+      "yield_reference_ratio": 5.481016888380685,
+      "displacement_mm": 0.0018395711224555745,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "301 stainless annealed reference",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 74.80363741793371,
+      "yield_reference_MPa": 205,
+      "yield_reference_ratio": 2.7405084441903425,
+      "displacement_mm": 0.003679142244911149,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "301 stainless full hard reference",
+      "illustrative_side_load_N": 2,
+      "sampled_centroid_peak_MPa": 7.480363741793371,
+      "yield_reference_MPa": 965,
+      "yield_reference_ratio": 129.00442188505758,
+      "displacement_mm": 0.0003679142244911149,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "301 stainless full hard reference",
+      "illustrative_side_load_N": 5,
+      "sampled_centroid_peak_MPa": 18.70090935448343,
+      "yield_reference_MPa": 965,
+      "yield_reference_ratio": 51.601768754023034,
+      "displacement_mm": 0.0009197855612277872,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "301 stainless full hard reference",
+      "illustrative_side_load_N": 10,
+      "sampled_centroid_peak_MPa": 37.40181870896686,
+      "yield_reference_MPa": 965,
+      "yield_reference_ratio": 25.800884377011517,
+      "displacement_mm": 0.0018395711224555745,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    },
+    {
+      "fixture_size": "child_small",
+      "grade": "301 stainless full hard reference",
+      "illustrative_side_load_N": 20,
+      "sampled_centroid_peak_MPa": 74.80363741793371,
+      "yield_reference_MPa": 965,
+      "yield_reference_ratio": 12.900442188505759,
+      "displacement_mm": 0.003679142244911149,
+      "scope": "Linear ideal fixed-bore fixture scaling, same Poisson ratio0.35; not manufactured strength, contact or a load rating"
+    }
+  ],
+  "conditional_material_load_case_count": 80,
+  "limits": [
+    "These are two fork fixtures, not two complete worn assemblies",
+    "Only displacement and sampled centroid peak comparisons between two meshes; not a bound on continuum corner stress",
+    "2000MPa homogeneous isotropic material, nu0.35; selected production grade not qualified",
+    "Guide wall was changed in V12; V10 full band stresses must not be relabelled as V12 results",
+    "Wear, fatigue, fracture, impacts, fastening and contact remain open"
+  ]
+}

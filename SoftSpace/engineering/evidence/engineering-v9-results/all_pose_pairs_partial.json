@@ -1,0 +1,620 @@
+[
+  {
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_small_20261013_164243.step",
+    "sha256": "292e8679c63915f23879715bd962e54b9b212699741921a6686a395d2d57bd86",
+    "solid_count": 28,
+    "all_pair_count": 378,
+    "broad_phase_boolean_count": 39,
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "seconds": 22.15009117126465
+  },
+  {
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_small_20261013_164243_Extension_0.step",
+    "sha256": "005a931d3e102c7b1ceed7c11278d79abdd8c71331669e50d9bd1e6d00d031f4",
+    "solid_count": 28,
+    "all_pair_count": 378,
+    "broad_phase_boolean_count": 45,
+    "overlaps": [
+      {
+        "body_tags": [
+          11,
+          27
+        ],
+        "bbox_a_mm": [
+          -99.87492684241069,
+          -31.0000001,
+          62.83521549941521,
+          -95.54535784124111,
+          30.0000001,
+          67.16478450058479
+        ],
+        "bbox_b_mm": [
+          -101.710142441826,
+          -14.0000001,
+          64.9999999,
+          101.710142441826,
+          14.0000001,
+          136.80000009999955
+        ],
+        "intersection_mm3": 8.482300164692461
+      },
+      {
+        "body_tags": [
+          23,
+          27
+        ],
+        "bbox_a_mm": [
+          95.54535784124111,
+          -31.0000001,
+          62.83521549941521,
+          99.87492684241069,
+          30.0000001,
+          67.16478450058479
+        ],
+        "bbox_b_mm": [
+          -101.710142441826,
+          -14.0000001,
+          64.9999999,
+          101.710142441826,
+          14.0000001,
+          136.80000009999955
+        ],
+        "intersection_mm3": 8.482300164692461
+      }
+    ],
+    "errors": [],
+    "pass": false,
+    "seconds": 21.501750946044922
+  },
+  {
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_small_20261013_164243_Extension_30.step",
+    "sha256": "7a8c13903b366f8e898d6f781cf8a6d847589b922c7e788aa1cdc6ff0516aa6e",
+    "solid_count": 28,
+    "all_pair_count": 378,
+    "broad_phase_boolean_count": 39,
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "seconds": 21.187133312225342
+  },
+  {
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_small_20261013_180418.step",
+    "sha256": "a31862f9198f264f63dbef63d50956c5d5d02c39c80d641f213795311cc1c974",
+    "solid_count": 28,
+    "all_pair_count": 378,
+    "broad_phase_boolean_count": 39,
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "seconds": 14.03625226020813
+  },
+  {
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_small_20261013_180418_Extension_0.step",
+    "sha256": "ff91f82cd5a285c8a910f3e9f1b656c7adb6de81b6af540c8a2fc1790c7858a2",
+    "solid_count": 28,
+    "all_pair_count": 378,
+    "broad_phase_boolean_count": 45,
+    "overlaps": [
+      {
+        "body_tags": [
+          7,
+          25
+        ],
+        "bbox_a_mm": [
+          -109.453271569346,
+          -20.0000001,
+          30.9999999,
+          -82.45327136934591,
+          20.0000001,
+          79.0000001
+        ],
+        "bbox_b_mm": [
+          -90.9532715693459,
+          7.9999999,
+          75.4999999,
+          -81.95327136934591,
+          16.0000001,
+          84.5000001
+        ],
+        "intersection_mm3": 45.26285128741793
+      },
+      {
+        "body_tags": [
+          11,
+          27
+        ],
+        "bbox_a_mm": [
+          -88.6180559699307,
+          -21.0000001,
+          62.83521549941521,
+          -84.28848696876112,
+          20.0000001,
+          67.16478450058479
+        ],
+        "bbox_b_mm": [
+          -90.4532715693459,
+          -12.0000001,
+          64.9999999,
+          90.4532715693459,
+          12.0000001,
+          121.5000000999996
+        ],
+        "intersection_mm3": 8.48230016469246
+      },
+      {
+        "body_tags": [
+          19,
+          26
+        ],
+        "bbox_a_mm": [
+          82.45327136934591,
+          -20.0000001,
+          30.9999999,
+          109.453271569346,
+          20.0000001,
+          79.0000001
+        ],
+        "bbox_b_mm": [
+          81.95327136934591,
+          7.9999999,
+          75.4999999,
+          90.9532715693459,
+          16.0000001,
+          84.5000001
+        ],
+        "intersection_mm3": 45.26285128741837
+      },
+      {
+        "body_tags": [
+          23,
+          27
+        ],
+        "bbox_a_mm": [
+          84.28848696876112,
+          -21.0000001,
+          62.83521549941521,
+          88.6180559699307,
+          20.0000001,
+          67.16478450058479
+        ],
+        "bbox_b_mm": [
+          -90.4532715693459,
+          -12.0000001,
+          64.9999999,
+          90.4532715693459,
+          12.0000001,
+          121.5000000999996
+        ],
+        "intersection_mm3": 8.48230016469246
+      }
+    ],
+    "errors": [],
+    "pass": false,
+    "seconds": 14.974752187728882
+  },
+  {
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_small_20261013_180418_Extension_30.step",
+    "sha256": "d10ce163d4991c201306704964e474b5481d1110ba641e6aabaa1cdc34eb7334",
+    "solid_count": 28,
+    "all_pair_count": 378,
+    "broad_phase_boolean_count": 39,
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "seconds": 14.851594686508179
+  },
+  {
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_medium_20261013_180418.step",
+    "sha256": "597c14bb220eb407c67751c5979df17372fd8e6c16a97b6eaf32a51aa76598f3",
+    "solid_count": 28,
+    "all_pair_count": 378,
+    "broad_phase_boolean_count": 39,
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "seconds": 13.753654718399048
+  },
+  {
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_medium_20261013_180418_Extension_0.step",
+    "sha256": "cda4615ed2c976fe6e6bbb442eea6259be07f3248ac682e973db481e88390520",
+    "solid_count": 28,
+    "all_pair_count": 378,
+    "broad_phase_boolean_count": 45,
+    "overlaps": [
+      {
+        "body_tags": [
+          7,
+          25
+        ],
+        "bbox_a_mm": [
+          -115.052129499031,
+          -20.0000001,
+          30.9999999,
+          -88.0521292990314,
+          20.0000001,
+          79.0000001
+        ],
+        "bbox_b_mm": [
+          -96.5521294990314,
+          7.9999999,
+          75.4999999,
+          -87.5521292990314,
+          16.0000001,
+          84.5000001
+        ],
+        "intersection_mm3": 45.26285128741794
+      },
+      {
+        "body_tags": [
+          11,
+          27
+        ],
+        "bbox_a_mm": [
+          -94.21691389961619,
+          -21.0000001,
+          62.83521549941521,
+          -89.88734489844661,
+          20.0000001,
+          67.16478450058479
+        ],
+        "bbox_b_mm": [
+          -96.0521294990314,
+          -12.0000001,
+          64.9999999,
+          96.0521294990314,
+          12.0000001,
+          121.50000009999961
+        ],
+        "intersection_mm3": 8.48230016469246
+      },
+      {
+        "body_tags": [
+          19,
+          26
+        ],
+        "bbox_a_mm": [
+          88.0521292990314,
+          -20.0000001,
+          30.9999999,
+          115.052129499031,
+          20.0000001,
+          79.0000001
+        ],
+        "bbox_b_mm": [
+          87.5521292990314,
+          7.9999999,
+          75.4999999,
+          96.5521294990314,
+          16.0000001,
+          84.5000001
+        ],
+        "intersection_mm3": 45.262851287418016
+      },
+      {
+        "body_tags": [
+          23,
+          27
+        ],
+        "bbox_a_mm": [
+          89.88734489844661,
+          -21.0000001,
+          62.83521549941521,
+          94.21691389961619,
+          20.0000001,
+          67.16478450058479
+        ],
+        "bbox_b_mm": [
+          -96.0521294990314,
+          -12.0000001,
+          64.9999999,
+          96.0521294990314,
+          12.0000001,
+          121.50000009999961
+        ],
+        "intersection_mm3": 8.48230016469246
+      }
+    ],
+    "errors": [],
+    "pass": false,
+    "seconds": 14.60722279548645
+  },
+  {
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_medium_20261013_180418_Extension_30.step",
+    "sha256": "88ea09a5aab9276edc755ea1442384177c3897acff7093e95e46e3823e7e3665",
+    "solid_count": 28,
+    "all_pair_count": 378,
+    "broad_phase_boolean_count": 39,
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "seconds": 13.659732818603516
+  },
+  {
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_large_20261013_180418.step",
+    "sha256": "da74d3b0d97c24f6cb7f37fba0894caf0cc43b1d2a29832d45585290ff983b3b",
+    "solid_count": 28,
+    "all_pair_count": 378,
+    "broad_phase_boolean_count": 39,
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "seconds": 14.617571115493774
+  },
+  {
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_large_20261013_180418_Extension_0.step",
+    "sha256": "d1629a6dafcfab9cac25a642c29c29138c010e2f3f067f335f20003b67ae5238",
+    "solid_count": 28,
+    "all_pair_count": 378,
+    "broad_phase_boolean_count": 45,
+    "overlaps": [
+      {
+        "body_tags": [
+          7,
+          25
+        ],
+        "bbox_a_mm": [
+          -120.31587335154799,
+          -20.0000001,
+          30.9999999,
+          -93.315873151548,
+          20.0000001,
+          79.0000001
+        ],
+        "bbox_b_mm": [
+          -101.81587335154799,
+          7.9999999,
+          75.4999999,
+          -92.815873151548,
+          16.0000001,
+          84.5000001
+        ],
+        "intersection_mm3": 45.262851287418
+      },
+      {
+        "body_tags": [
+          11,
+          27
+        ],
+        "bbox_a_mm": [
+          -99.48065775213279,
+          -21.0000001,
+          62.83521549941521,
+          -95.15108875096321,
+          20.0000001,
+          67.16478450058479
+        ],
+        "bbox_b_mm": [
+          -101.31587335154799,
+          -12.0000001,
+          64.9999999,
+          101.31587335154799,
+          12.0000001,
+          121.50000010000001
+        ],
+        "intersection_mm3": 8.48230016469246
+      },
+      {
+        "body_tags": [
+          19,
+          26
+        ],
+        "bbox_a_mm": [
+          93.315873151548,
+          -20.0000001,
+          30.9999999,
+          120.31587335154799,
+          20.0000001,
+          79.0000001
+        ],
+        "bbox_b_mm": [
+          92.815873151548,
+          7.9999999,
+          75.4999999,
+          101.81587335154799,
+          16.0000001,
+          84.5000001
+        ],
+        "intersection_mm3": 45.262851287417035
+      },
+      {
+        "body_tags": [
+          23,
+          27
+        ],
+        "bbox_a_mm": [
+          95.15108875096321,
+          -21.0000001,
+          62.83521549941521,
+          99.48065775213279,
+          20.0000001,
+          67.16478450058479
+        ],
+        "bbox_b_mm": [
+          -101.31587335154799,
+          -12.0000001,
+          64.9999999,
+          101.31587335154799,
+          12.0000001,
+          121.50000010000001
+        ],
+        "intersection_mm3": 8.48230016469246
+      }
+    ],
+    "errors": [],
+    "pass": false,
+    "seconds": 15.413361072540283
+  },
+  {
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_child_large_20261013_180418_Extension_30.step",
+    "sha256": "d3d7e39ab26c0564fb1e6af263e943454a1d220104ebebafc0378ce0660496d7",
+    "solid_count": 28,
+    "all_pair_count": 378,
+    "broad_phase_boolean_count": 39,
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "seconds": 15.240690231323242
+  },
+  {
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_medium_20261013_180418.step",
+    "sha256": "a72ff41a0f131b7336330d57a6e157dfb49c3817d9b0faa88e4bf4d35029e51a",
+    "solid_count": 28,
+    "all_pair_count": 378,
+    "broad_phase_boolean_count": 39,
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "seconds": 21.285301446914673
+  },
+  {
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_medium_20261013_180418_Extension_0.step",
+    "sha256": "50af2ac51963a11356ba1e9376671b644dde2d9b6fa290f8a00e004265ca8709",
+    "solid_count": 28,
+    "all_pair_count": 378,
+    "broad_phase_boolean_count": 45,
+    "overlaps": [
+      {
+        "body_tags": [
+          11,
+          27
+        ],
+        "bbox_a_mm": [
+          -108.10040017052079,
+          -31.0000001,
+          62.83521549941521,
+          -103.77083116935121,
+          30.0000001,
+          67.16478450058479
+        ],
+        "bbox_b_mm": [
+          -109.93561576993599,
+          -14.0000001,
+          64.9999999,
+          109.93561576993599,
+          14.0000001,
+          136.8000001000003
+        ],
+        "intersection_mm3": 8.48230016469246
+      },
+      {
+        "body_tags": [
+          23,
+          27
+        ],
+        "bbox_a_mm": [
+          103.77083116935121,
+          -31.0000001,
+          62.83521549941521,
+          108.10040017052079,
+          30.0000001,
+          67.16478450058479
+        ],
+        "bbox_b_mm": [
+          -109.93561576993599,
+          -14.0000001,
+          64.9999999,
+          109.93561576993599,
+          14.0000001,
+          136.8000001000003
+        ],
+        "intersection_mm3": 8.48230016469246
+      }
+    ],
+    "errors": [],
+    "pass": false,
+    "seconds": 22.5347957611084
+  },
+  {
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_medium_20261013_180418_Extension_30.step",
+    "sha256": "bb9a9afe031fea5f439fa70710a3e8efcada238f15b44b77e213b5b6aab176ad",
+    "solid_count": 28,
+    "all_pair_count": 378,
+    "broad_phase_boolean_count": 39,
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "seconds": 21.854001998901367
+  },
+  {
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_large_20261013_180418.step",
+    "sha256": "33b10b421558a927bfd80a40653a64577dd4f1e9ff4f56cf49bb7453814f4741",
+    "solid_count": 28,
+    "all_pair_count": 378,
+    "broad_phase_boolean_count": 39,
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "seconds": 21.309200048446655
+  },
+  {
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_large_20261013_180418_Extension_0.step",
+    "sha256": "564543a7d3f6d5dd8162153d0e35274c1febd38f6a6f65250f989b8702e69e38",
+    "solid_count": 28,
+    "all_pair_count": 378,
+    "broad_phase_boolean_count": 45,
+    "overlaps": [
+      {
+        "body_tags": [
+          11,
+          27
+        ],
+        "bbox_a_mm": [
+          -116.19959390719478,
+          -31.0000001,
+          62.83521549941521,
+          -111.87002490602521,
+          30.0000001,
+          67.16478450058479
+        ],
+        "bbox_b_mm": [
+          -118.03480950660999,
+          -14.0000001,
+          64.9999999,
+          118.03480950660999,
+          14.0000001,
+          136.8000000999999
+        ],
+        "intersection_mm3": 8.482300164692461
+      },
+      {
+        "body_tags": [
+          23,
+          27
+        ],
+        "bbox_a_mm": [
+          111.87002490602521,
+          -31.0000001,
+          62.83521549941521,
+          116.19959390719478,
+          30.0000001,
+          67.16478450058479
+        ],
+        "bbox_b_mm": [
+          -118.03480950660999,
+          -14.0000001,
+          64.9999999,
+          118.03480950660999,
+          14.0000001,
+          136.8000000999999
+        ],
+        "intersection_mm3": 8.48230016469246
+      }
+    ],
+    "errors": [],
+    "pass": false,
+    "seconds": 21.840171575546265
+  },
+  {
+    "file": "${WORKSPACE}\\OwnPassiveDefender_V9_adult_large_20261013_180418_Extension_30.step",
+    "sha256": "2dea67f21950387f4201e80d688bff903bb45b9ba9483526dfedc69002d07b50",
+    "solid_count": 28,
+    "all_pair_count": 378,
+    "broad_phase_boolean_count": 39,
+    "overlaps": [],
+    "errors": [],
+    "pass": true,
+    "seconds": 22.219279527664185
+  }
+]

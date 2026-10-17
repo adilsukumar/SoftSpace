@@ -1,0 +1,56 @@
+{
+  "nodes": 17166,
+  "tet10_elements": 8469,
+  "assembly_method": "CSR batches of up to2048 elements",
+  "reduced_matrix_storage": true,
+  "coarse_preconditioner_modes": 12,
+  "cg_iterations": 5546,
+  "relative_free_residual": 6.240516993189511e-08,
+  "minimum_quadrature_jacobian_mm3": 0.11124698874926663,
+  "max_von_mises_centroid_MPa": 2.403075362665062,
+  "strain_energy_Nmm": 3.4730469634170995,
+  "reaction_sum_N": [
+    -1.9999999999117826,
+    5.763160583362099e-12,
+    8.121772766041951e-10
+  ],
+  "sampled_peak_centroid_xyz_mm": [
+    1.2668303847465965,
+    11.575008408905047,
+    136.15050769364285
+  ],
+  "assumed_E_MPa": 2000,
+  "assumed_Poisson_ratio": 0.35,
+  "ideal_load_per_full_side_N": 2,
+  "size": "child_small",
+  "mesh_max_mm": 2.0,
+  "source": "${WORKSPACE}\\EarDefender_V12_child_small_Latched.step",
+  "source_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+  "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+  "load_method": "2 N uniform traction integrated over full guide bottom",
+  "load_face_area_mm2": 86.5599999999995,
+  "minimum_adaptive_Jacobian_mm3": 0.09647262431517334,
+  "high_order_mesh_optimized": false,
+  "guide_weighted_x_displacement_mm": 3.4730469626352685,
+  "compliance_mm_per_N": 1.7365234813176342,
+  "restraint_nodes_xyz_mm": [
+    [
+      0.0,
+      12.0,
+      135.0
+    ],
+    [
+      0.0,
+      -12.0,
+      135.0
+    ]
+  ],
+  "seconds": 55.44796586036682,
+  "limits": [
+    "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+    "Restraints are numerical datums, not scalp contact",
+    "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+    "Peak stress not used as physical strength or comfort result",
+    "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+  ]
+}

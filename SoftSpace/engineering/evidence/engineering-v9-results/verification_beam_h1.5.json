@@ -1,0 +1,24 @@
+{
+  "nodes": 1033,
+  "tet10_elements": 460,
+  "cg_iterations": 784,
+  "relative_free_residual": 1.0207170495812262e-09,
+  "minimum_quadrature_jacobian_mm3": 0.6010888320342755,
+  "max_von_mises_centroid_MPa": 5.9596552512711245,
+  "strain_energy_Nmm": 0.24580952447115695,
+  "reaction_sum_N": [
+    3.2770888652322566e-12,
+    -1.548279991712952e-12,
+    1.0000000000037315
+  ],
+  "size": "verification_beam",
+  "mesh_max_mm": 1.5,
+  "seconds": 0.1304159164428711,
+  "E_MPa": 2000,
+  "poisson": 0.35,
+  "load_per_full_side_N": 1,
+  "max_displacement_mm": 0.4930919353252495,
+  "tip_deflection_mm": 0.491619048944153,
+  "beam_with_shear_mm": 0.50405,
+  "relative_beam_difference": 0.02466213878751511
+}

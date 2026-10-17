@@ -1,0 +1,56 @@
+{
+  "nodes": 186501,
+  "tet10_elements": 109930,
+  "assembly_method": "CSR batches of up to2048 elements",
+  "reduced_matrix_storage": true,
+  "coarse_preconditioner_modes": 12,
+  "cg_iterations": 10668,
+  "relative_free_residual": 5.576913979898288e-07,
+  "minimum_quadrature_jacobian_mm3": 0.004649689428725949,
+  "max_von_mises_centroid_MPa": 3.401024117974595,
+  "strain_energy_Nmm": 3.6519494083019977,
+  "reaction_sum_N": [
+    -1.9999999981356569,
+    1.3020369921375952e-10,
+    -1.4040303329687642e-09
+  ],
+  "sampled_peak_centroid_xyz_mm": [
+    89.92496365571239,
+    8.24191742090187,
+    113.89464645788516
+  ],
+  "assumed_E_MPa": 2000,
+  "assumed_Poisson_ratio": 0.35,
+  "ideal_load_per_full_side_N": 2,
+  "size": "child_medium",
+  "mesh_max_mm": 1.25,
+  "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+  "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+  "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+  "load_method": "2 N uniform traction integrated over full guide bottom",
+  "load_face_area_mm2": 99.85472381958937,
+  "minimum_adaptive_Jacobian_mm3": 0.004649689428692601,
+  "high_order_mesh_optimized": false,
+  "guide_weighted_x_displacement_mm": 3.6519494095520506,
+  "compliance_mm_per_N": 1.8259747047760253,
+  "restraint_nodes_xyz_mm": [
+    [
+      0.0,
+      12.0,
+      134.9999999999996
+    ],
+    [
+      0.0,
+      -12.0,
+      134.9999999999996
+    ]
+  ],
+  "seconds": 29388.451310157776,
+  "limits": [
+    "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+    "Restraints are numerical datums, not scalp contact",
+    "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+    "Peak stress not used as physical strength or comfort result",
+    "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+  ]
+}

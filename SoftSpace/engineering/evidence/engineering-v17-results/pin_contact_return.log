@@ -1,0 +1,82 @@
+{
+  "contact_cases": 90,
+  "return_cases": 1080,
+  "positive_return_margin_cases": 180,
+  "spring_reference": {
+    "wire_mm": 0.35,
+    "mean_diameter_mm": 6.0,
+    "active_turns": 14,
+    "free_length_mm": 21.0,
+    "rate_N_per_mm": 0.048383246527777764,
+    "wear_preload_N": 0.2902994791666666,
+    "fully_released_force_N": 0.5805989583333332
+  },
+  "refinements": [
+    {
+      "size": "child_large",
+      "maximum_displacement_change_fraction": 0.0010962636143483362,
+      "normal_force_change_fraction": 0.0031993615351799676,
+      "nominal_bending_stress_change_fraction": 0.00592515269789895,
+      "chosen_5percent_comparison_pass": true,
+      "meshes": [
+        {
+          "h": 1,
+          "normal_reaction_sum_N": 16.137652950519644,
+          "maximum_displacement_mm": 0.10005865957611651,
+          "nominal_max_bending_stress_MPa": 45.14680181576582,
+          "force_balance_error_N": 1.8602115403609787e-09,
+          "moment_balance_error_Nmm": 1.3778013396859023e-07
+        },
+        {
+          "h": 0.5,
+          "normal_reaction_sum_N": 16.351627906379946,
+          "maximum_displacement_mm": 0.10046678362575796,
+          "nominal_max_bending_stress_MPa": 45.91935173974409,
+          "force_balance_error_N": 4.251536012134238e-09,
+          "moment_balance_error_Nmm": 2.5394943747869547e-07
+        },
+        {
+          "h": 0.25,
+          "normal_reaction_sum_N": 16.40394267574119,
+          "maximum_displacement_mm": 0.1005769217050975,
+          "nominal_max_bending_stress_MPa": 46.191430910590604,
+          "force_balance_error_N": 1.783351422091073e-08,
+          "moment_balance_error_Nmm": 7.079100470264166e-07
+        }
+      ]
+    },
+    {
+      "size": "adult_small",
+      "maximum_displacement_change_fraction": 0.0011316660438482895,
+      "normal_force_change_fraction": 0.0033424427886874497,
+      "nominal_bending_stress_change_fraction": 0.005260077083084624,
+      "chosen_5percent_comparison_pass": true,
+      "meshes": [
+        {
+          "h": 1,
+          "normal_reaction_sum_N": 15.006715596690729,
+          "maximum_displacement_mm": 0.09850843466665889,
+          "nominal_max_bending_stress_MPa": 41.91953179065603,
+          "force_balance_error_N": 1.9771473347418578e-09,
+          "moment_balance_error_Nmm": 1.3552670452554594e-07
+        },
+        {
+          "h": 0.5,
+          "normal_reaction_sum_N": 15.206941864100196,
+          "maximum_displacement_mm": 0.09896274834634047,
+          "nominal_max_bending_stress_MPa": 42.667578185657106,
+          "force_balance_error_N": 3.383199498330214e-09,
+          "moment_balance_error_Nmm": 2.5612770571115107e-07
+        },
+        {
+          "h": 0.25,
+          "normal_reaction_sum_N": 15.257770197271846,
+          "maximum_displacement_mm": 0.09907474112824993,
+          "nominal_max_bending_stress_MPa": 42.892012935862205,
+          "force_balance_error_N": 4.0364023234928936e-08,
+          "moment_balance_error_Nmm": 9.38874961775582e-07
+        }
+      ]
+    }
+  ]
+}

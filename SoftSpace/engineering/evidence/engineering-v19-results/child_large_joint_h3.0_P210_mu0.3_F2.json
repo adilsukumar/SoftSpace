@@ -1,0 +1,113 @@
+{
+  "preload_N": 210,
+  "side_force_N": 2,
+  "assumed_mu": 0.3,
+  "normal_penalty_N_mm3": 10000,
+  "tangential_penalty_N_mm3": 1000,
+  "iterations": 10,
+  "relative_free_residual": 7.379147098488403e-07,
+  "maximum_numerical_penetration_mm": 0.0009648957281765814,
+  "maximum_pivot_constraint_error_mm": 0.00029709393498965315,
+  "stop_reaction_N": 3.785650970323098,
+  "washer_normal_sum_N": 416.9339224311829,
+  "washer_quadrature_area_mm2": 156.70129616409073,
+  "stop_quadrature_area_mm2": 32.00000000000001,
+  "global_force_balance_error_N": 4.425518643367483e-12,
+  "cup_mean_displacement_x_mm": 0.1206062186431298,
+  "component_stresses": [
+    {
+      "peak_element_MPa": 2.8851804470522935,
+      "volume_weighted_mean_MPa": 1.3783904496449644
+    },
+    {
+      "peak_element_MPa": 2.611488751190373,
+      "volume_weighted_mean_MPa": 0.49474330863813926
+    }
+  ],
+  "history": [
+    {
+      "iteration": 0,
+      "relative_u_change": 1.0,
+      "relative_equilibrium_residual": 0.044753803654133416,
+      "active": 521,
+      "slip_points": 4
+    },
+    {
+      "iteration": 1,
+      "relative_u_change": 0.0072747592542996165,
+      "relative_equilibrium_residual": 0.03490451622891501,
+      "active": 506,
+      "slip_points": 3
+    },
+    {
+      "iteration": 2,
+      "relative_u_change": 0.005223155686211824,
+      "relative_equilibrium_residual": 0.006053051695504028,
+      "active": 502,
+      "slip_points": 3
+    },
+    {
+      "iteration": 3,
+      "relative_u_change": 0.00018385929798514646,
+      "relative_equilibrium_residual": 2.7892504903307226e-05,
+      "active": 502,
+      "slip_points": 3
+    },
+    {
+      "iteration": 4,
+      "relative_u_change": 2.02077068163053e-07,
+      "relative_equilibrium_residual": 1.5167426568709862e-05,
+      "active": 502,
+      "slip_points": 3
+    },
+    {
+      "iteration": 5,
+      "relative_u_change": 1.1151072575395769e-07,
+      "relative_equilibrium_residual": 8.262836422829564e-06,
+      "active": 502,
+      "slip_points": 3
+    },
+    {
+      "iteration": 6,
+      "relative_u_change": 6.153359539011041e-08,
+      "relative_equilibrium_residual": 4.508573314242901e-06,
+      "active": 502,
+      "slip_points": 3
+    },
+    {
+      "iteration": 7,
+      "relative_u_change": 3.395296276743816e-08,
+      "relative_equilibrium_residual": 2.4634617603289914e-06,
+      "active": 502,
+      "slip_points": 3
+    },
+    {
+      "iteration": 8,
+      "relative_u_change": 1.8733829444883944e-08,
+      "relative_equilibrium_residual": 1.3476002127605947e-06,
+      "active": 502,
+      "slip_points": 3
+    },
+    {
+      "iteration": 9,
+      "relative_u_change": 1.0338899639483728e-08,
+      "relative_equilibrium_residual": 7.379147098488403e-07,
+      "active": 502,
+      "slip_points": 3
+    }
+  ],
+  "coulomb_bound_error_MPa": 0.0,
+  "converged": true,
+  "size": "child_large",
+  "mesh_max_mm": 3.0,
+  "source": "${WORKSPACE}\\EarDefender_V19_child_large_ParallelDisc.step",
+  "source_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557",
+  "elastic_E_MPa": 3500,
+  "assumed_nu": 0.35,
+  "seconds": 11.978647708892822,
+  "rigid_translation_controls": [
+    8.010698099954044e-17,
+    8.23051613516486e-17,
+    8.331736986783386e-17
+  ]
+}

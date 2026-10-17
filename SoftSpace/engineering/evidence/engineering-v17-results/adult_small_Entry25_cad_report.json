@@ -1,0 +1,659 @@
+{
+  "revision": "V17 two-size entry pilot",
+  "size": "adult_small",
+  "file": "${WORKSPACE}\\EarDefender_V17_adult_small_Entry25_Pilot.step",
+  "sha256": "5ec4ac21915e0367795dc3b95a95d11cf4ac45185b27ac66db145d560225667a",
+  "source": "${WORKSPACE}\\EarDefender_V16_adult_small_R16U2_IndexedRivetCandidate.step",
+  "source_sha256": "7da5759463828c82bbc860dea56d65db871c83f0525bfde8f77003c85ef2d1d3",
+  "solid_count": 46,
+  "part_bounds_mm": {
+    "LeftMainFoam": [
+      -82.71882902839795,
+      -49.352692418057956,
+      -66.89079763497794,
+      -49.18756416899205,
+      52.74082759469995,
+      63.170085100885956
+    ],
+    "LeftSoftGlassesZone": [
+      -82.71064718935102,
+      -41.72240701155101,
+      -22.000504847881015,
+      -55.29375039602899,
+      -19.443291707918984,
+      -9.999495152462986
+    ],
+    "LeftContinuousCover": [
+      -82.91014244182,
+      -42.97637542217,
+      -52.700000100000004,
+      -48.88129256518,
+      43.085920865778,
+      52.949021564896
+    ],
+    "LeftCarrier": [
+      -84.11014244181999,
+      -44.0000001,
+      -54.0000001,
+      -82.91014224182001,
+      44.0000001,
+      54.0000001
+    ],
+    "LeftCup": [
+      -121.71014244179999,
+      -45.0000001,
+      -55.0000001,
+      -82.71014224182001,
+      45.0000001,
+      55.0000001
+    ],
+    "LeftLiner": [
+      -103.71014244179999,
+      -41.7500001,
+      -51.7500001,
+      -84.71014224182001,
+      41.7500001,
+      51.7500001
+    ],
+    "LeftFork": [
+      -128.710142441801,
+      -38.000000100001,
+      30.999999899999,
+      -91.810142241819,
+      28.000000200001,
+      87.000000100001
+    ],
+    "LeftTongue": [
+      -113.71014244182,
+      -16.0000001,
+      56.9999999,
+      -92.71014224182001,
+      8.0000001,
+      134.0000001
+    ],
+    "LeftCupPin": [
+      -120.95731904267717,
+      -15.0000001,
+      31.752823299122817,
+      -114.46296564092282,
+      14.0000001,
+      38.24717670087718
+    ],
+    "LeftCupPinCap": [
+      -120.95731904267717,
+      13.9999999,
+      31.752823299122817,
+      -114.46296564092282,
+      15.0000001,
+      38.24717670087718
+    ],
+    "LeftForkPin": [
+      -99.87492684240479,
+      -31.0000001,
+      62.83521549941521,
+      -95.54535784123522,
+      30.0000001,
+      67.16478450058479
+    ],
+    "LeftForkPinCap": [
+      -99.87492684240479,
+      29.9999999,
+      62.83521549941521,
+      -95.54535784123522,
+      31.0000001,
+      67.16478450058479
+    ],
+    "RightMainFoam": [
+      49.18756416900147,
+      -52.740827594693535,
+      -66.89079763497352,
+      82.71882902839953,
+      49.35269241805953,
+      63.170085100881536
+    ],
+    "RightSoftGlassesZone": [
+      55.29375039603634,
+      19.443291707922118,
+      -22.00050484787966,
+      82.71064718935567,
+      41.72240701155166,
+      -9.999495152464336
+    ],
+    "RightContinuousCover": [
+      48.881292565189,
+      -43.08592086577,
+      -52.700000100000004,
+      82.910142441826,
+      42.976375422171,
+      52.949021564896
+    ],
+    "RightCarrier": [
+      82.91014224182601,
+      -44.0000001,
+      -54.0000001,
+      84.110142441826,
+      44.0000001,
+      54.0000001
+    ],
+    "RightCup": [
+      82.710142241826,
+      -45.0000001,
+      -55.0000001,
+      121.71014244182,
+      45.0000001,
+      55.0000001
+    ],
+    "RightLiner": [
+      84.710142241826,
+      -41.7500001,
+      -51.7500001,
+      103.71014244182,
+      41.7500001,
+      51.7500001
+    ],
+    "RightFork": [
+      91.81014224182499,
+      -38.000000100001,
+      30.999999899999,
+      128.71014244182098,
+      28.000000200001,
+      87.000000100001
+    ],
+    "RightTongue": [
+      92.710142241826,
+      -16.0000001,
+      56.9999999,
+      113.710142441826,
+      8.0000001,
+      134.0000001
+    ],
+    "RightCupPin": [
+      114.46296564094283,
+      -15.0000001,
+      31.752823299122817,
+      120.95731904269718,
+      14.0000001,
+      38.24717670087718
+    ],
+    "RightCupPinCap": [
+      114.46296564094283,
+      13.9999999,
+      31.752823299122817,
+      120.95731904269718,
+      15.0000001,
+      38.24717670087718
+    ],
+    "RightForkPin": [
+      95.54535784124121,
+      -31.0000001,
+      62.83521549941521,
+      99.87492684241079,
+      30.0000001,
+      67.16478450058479
+    ],
+    "RightForkPinCap": [
+      95.54535784124121,
+      29.9999999,
+      62.83521549941521,
+      99.87492684241079,
+      31.0000001,
+      67.16478450058479
+    ],
+    "LeftSliderKnob": [
+      -102.21014244182,
+      7.9999999,
+      94.4999999,
+      -93.21014224182001,
+      16.0000001,
+      103.5000001
+    ],
+    "RightSliderKnob": [
+      93.210142241826,
+      7.9999999,
+      94.4999999,
+      102.210142441826,
+      16.0000001,
+      103.5000001
+    ],
+    "Band": [
+      -101.71014244179999,
+      -14.0000001,
+      81.9999999,
+      101.71014244182,
+      14.0000001,
+      151.800000099991
+    ],
+    "CrownPad": [
+      -75.70235554050961,
+      -16.0000001,
+      118.8130359039738,
+      75.70235554054958,
+      16.0000001,
+      148.200000099991
+    ],
+    "LeftLockPin": [
+      -101.1101424418,
+      -45.0000001,
+      73.5999999,
+      -94.3101422418,
+      -12.9999999,
+      80.4000001
+    ],
+    "LeftSpringSpace": [
+      -100.88514244179999,
+      -38.0000001,
+      73.82499990000001,
+      -94.5351422418,
+      -22.9999999,
+      80.17500009999999
+    ],
+    "RightLockPin": [
+      94.31014224182,
+      -45.0000001,
+      73.5999999,
+      101.11014244182,
+      -12.9999999,
+      80.4000001
+    ],
+    "RightSpringSpace": [
+      94.53514224182001,
+      -38.0000001,
+      73.82499990000001,
+      100.88514244182,
+      -22.9999999,
+      80.17500009999999
+    ],
+    "LeftCapBolt1": [
+      -99.31014244179998,
+      -43.5000001,
+      69.39999990000001,
+      -96.1101422418,
+      -35.9999999,
+      72.60000009999999
+    ],
+    "LeftCapNut1": [
+      -99.55766330320289,
+      -37.5000001,
+      69.39999990000001,
+      -95.8626213803971,
+      -35.9999999,
+      72.60000009999999
+    ],
+    "LeftCapBolt2": [
+      -99.31014244179998,
+      -43.5000001,
+      81.39999990000001,
+      -96.1101422418,
+      -35.9999999,
+      84.60000009999999
+    ],
+    "LeftCapNut2": [
+      -99.55766330320289,
+      -37.5000001,
+      81.39999990000001,
+      -95.8626213803971,
+      -35.9999999,
+      84.60000009999999
+    ],
+    "LeftServiceCap": [
+      -102.71014244179999,
+      -42.0000001,
+      68.4999999,
+      -92.7101422418,
+      -28.9999999,
+      85.5000001
+    ],
+    "LeftPullKnob": [
+      -101.71014244179999,
+      -45.0000001,
+      72.9999999,
+      -93.710142241774,
+      -41.9999999,
+      81.0000001
+    ],
+    "RightCapBolt1": [
+      96.11014224182001,
+      -43.5000001,
+      69.39999990000001,
+      99.31014244181999,
+      -35.9999999,
+      72.60000009999999
+    ],
+    "RightCapNut1": [
+      95.86262138041,
+      -37.5000001,
+      69.39999989999735,
+      99.55766330323,
+      -35.9999999,
+      72.60000010000265
+    ],
+    "RightCapBolt2": [
+      96.11014224182001,
+      -43.5000001,
+      81.39999990000001,
+      99.31014244181999,
+      -35.9999999,
+      84.60000009999999
+    ],
+    "RightCapNut2": [
+      95.86262138041,
+      -37.5000001,
+      81.39999989999735,
+      99.55766330323,
+      -35.9999999,
+      84.60000010000265
+    ],
+    "RightServiceCap": [
+      92.71014224182001,
+      -42.0000001,
+      68.4999999,
+      102.71014244182,
+      -28.9999999,
+      85.5000001
+    ],
+    "RightPullKnob": [
+      93.71014224181411,
+      -45.0000001,
+      72.9999999,
+      101.71014244182,
+      -41.9999999,
+      81.0000001
+    ],
+    "LeftKnobCrossRivet": [
+      -101.5101424418,
+      -44.1000001,
+      76.39999990000001,
+      -93.9101422418,
+      -42.8999999,
+      77.60000009999999
+    ],
+    "RightKnobCrossRivet": [
+      93.91014224182001,
+      -44.1000001,
+      76.39999990000001,
+      101.51014244182,
+      -42.8999999,
+      77.60000009999999
+    ]
+  },
+  "part_volumes_mm3": {
+    "LeftMainFoam": 99638.83712892835,
+    "LeftSoftGlassesZone": 5328.6694612045885,
+    "LeftContinuousCover": 4191.537987627687,
+    "LeftCarrier": 5427.174599099879,
+    "LeftCup": 43569.178749798266,
+    "LeftLiner": 16201.459355713341,
+    "LeftFork": 11654.432260416574,
+    "LeftTongue": 7237.540969190459,
+    "LeftCupPin": 379.9547453699613,
+    "LeftCupPinCap": 14.110456357002962,
+    "LeftForkPin": 200.94464135514815,
+    "LeftForkPinCap": 8.576944060139125,
+    "RightMainFoam": 99638.83712891169,
+    "RightSoftGlassesZone": 5328.669461205543,
+    "RightContinuousCover": 4191.537987636306,
+    "RightCarrier": 5427.174599099938,
+    "RightCup": 43569.178749811326,
+    "RightLiner": 16201.459355725303,
+    "RightFork": 11654.432253720599,
+    "RightTongue": 7237.540969197307,
+    "RightCupPin": 379.9547453699613,
+    "RightCupPinCap": 14.110456357002619,
+    "RightForkPin": 200.94464135514815,
+    "RightForkPinCap": 8.576944060139123,
+    "LeftSliderKnob": 221.63936171075514,
+    "RightSliderKnob": 221.63936171075514,
+    "Band": 26566.217147601652,
+    "CrownPad": 39850.61496861743,
+    "LeftLockPin": 185.4488954607707,
+    "LeftSpringSpace": 98.96016858808022,
+    "RightLockPin": 185.44889546074427,
+    "RightSpringSpace": 98.96016858808022,
+    "LeftCapBolt1": 24.127431579569457,
+    "LeftCapNut1": 10.286221254638328,
+    "LeftCapBolt2": 24.12743157956943,
+    "LeftCapNut2": 10.286221254638274,
+    "LeftServiceCap": 414.46011526213556,
+    "LeftPullKnob": 134.34525785925848,
+    "RightCapBolt1": 24.127431579569457,
+    "RightCapNut1": 10.286221254674352,
+    "RightCapBolt2": 24.12743157956943,
+    "RightCapNut2": 10.286221254674297,
+    "RightServiceCap": 414.4601152621356,
+    "RightPullKnob": 134.3452578592216,
+    "LeftKnobCrossRivet": 4.197167785195909,
+    "RightKnobCrossRivet": 4.197167785195893
+  },
+  "parts": {
+    "LeftMainFoam": [
+      3,
+      1
+    ],
+    "LeftSoftGlassesZone": [
+      3,
+      2
+    ],
+    "LeftContinuousCover": [
+      3,
+      3
+    ],
+    "LeftCarrier": [
+      3,
+      4
+    ],
+    "LeftCup": [
+      3,
+      5
+    ],
+    "LeftLiner": [
+      3,
+      6
+    ],
+    "LeftFork": [
+      3,
+      43
+    ],
+    "LeftTongue": [
+      3,
+      41
+    ],
+    "LeftCupPin": [
+      3,
+      7
+    ],
+    "LeftCupPinCap": [
+      3,
+      8
+    ],
+    "LeftForkPin": [
+      3,
+      9
+    ],
+    "LeftForkPinCap": [
+      3,
+      10
+    ],
+    "RightMainFoam": [
+      3,
+      11
+    ],
+    "RightSoftGlassesZone": [
+      3,
+      12
+    ],
+    "RightContinuousCover": [
+      3,
+      13
+    ],
+    "RightCarrier": [
+      3,
+      14
+    ],
+    "RightCup": [
+      3,
+      15
+    ],
+    "RightLiner": [
+      3,
+      16
+    ],
+    "RightFork": [
+      3,
+      46
+    ],
+    "RightTongue": [
+      3,
+      44
+    ],
+    "RightCupPin": [
+      3,
+      17
+    ],
+    "RightCupPinCap": [
+      3,
+      18
+    ],
+    "RightForkPin": [
+      3,
+      19
+    ],
+    "RightForkPinCap": [
+      3,
+      20
+    ],
+    "LeftSliderKnob": [
+      3,
+      21
+    ],
+    "RightSliderKnob": [
+      3,
+      22
+    ],
+    "Band": [
+      3,
+      23
+    ],
+    "CrownPad": [
+      3,
+      24
+    ],
+    "LeftLockPin": [
+      3,
+      32
+    ],
+    "LeftSpringSpace": [
+      3,
+      25
+    ],
+    "RightLockPin": [
+      3,
+      39
+    ],
+    "RightSpringSpace": [
+      3,
+      26
+    ],
+    "LeftCapBolt1": [
+      3,
+      28
+    ],
+    "LeftCapNut1": [
+      3,
+      29
+    ],
+    "LeftCapBolt2": [
+      3,
+      30
+    ],
+    "LeftCapNut2": [
+      3,
+      31
+    ],
+    "LeftServiceCap": [
+      3,
+      27
+    ],
+    "LeftPullKnob": [
+      3,
+      33
+    ],
+    "RightCapBolt1": [
+      3,
+      35
+    ],
+    "RightCapNut1": [
+      3,
+      36
+    ],
+    "RightCapBolt2": [
+      3,
+      37
+    ],
+    "RightCapNut2": [
+      3,
+      38
+    ],
+    "RightServiceCap": [
+      3,
+      34
+    ],
+    "RightPullKnob": [
+      3,
+      40
+    ],
+    "LeftKnobCrossRivet": [
+      3,
+      42
+    ],
+    "RightKnobCrossRivet": [
+      3,
+      45
+    ]
+  },
+  "fold_angles_deg": [
+    75,
+    45
+  ],
+  "fold_extension_mm": [
+    0,
+    30
+  ],
+  "dimensions": {
+    "index_plate_radius_mm": 16.0,
+    "index_plate_thickness_mm": 3,
+    "index_hole_diameter_mm": 2.5,
+    "locking_pin_diameter_mm": 2.2,
+    "pivot_clearance_diameter_mm": 4.5,
+    "knob_diameter_mm": 8,
+    "cross_rivet_shaft_diameter_mm": 0.8,
+    "cross_drill_diameter_mm": 0.85,
+    "cross_rivet_head_diameter_mm": 1.2,
+    "cross_rivet_head_length_mm": 0.3,
+    "cross_rivet_overall_length_mm": 7.6,
+    "knob_rod_bore_mm": 2.3,
+    "index_entry_mouth_diameter_mm": 3.1,
+    "index_entry_depth_mm": 0.3,
+    "remaining_straight_bearing_land_mm": 2.7
+  },
+  "assembly": "Insert bare pin and actual coil before rear cap. Attach cap hardware. Slide knob onto stem, align cross holes, insert a one-headed preform then upset the other rivet head in its recess. Final formed shape is modelled; upsetting and tool access not qualified. Pin service requires removing the rivet.",
+  "manufacturing_release": false,
+  "limits": [
+    "Only child large and adult small pilots; V16 remains latest six-size candidate",
+    "Wider hole trades fit margin for rotation; entry cone does not fix straight-land misalignment",
+    "Existing2.3mm housing and cap guides are unchanged and remain separate tolerance constraints",
+    "Less straight bearing length; previous component stresses do not qualify the changed tongue",
+    "No actual spring, friction, chamfer centering force, manufacturing or wearer validation"
+  ],
+  "variant": "adult_small_Entry25",
+  "layout": "upper rear index plate with relocated housing",
+  "changes": [
+    {
+      "part": "LeftTongue",
+      "removed_volume_mm3": 5.287300438600141
+    },
+    {
+      "part": "RightTongue",
+      "removed_volume_mm3": 5.287300437579688
+    }
+  ]
+}

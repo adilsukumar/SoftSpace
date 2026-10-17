@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "${WORKSPACE}\v19_thread_prototype.py", line 33, in <module>
+    O=P/'engineering-v19-results';O.mkdir(exist_ok=True);s=bolt(37);n=nut(37.6625,3.2,37);j=nut(40.8625,2.2,37);assert all(BRepCheck_Analyzer(x).IsValid() for x in [s,n,j]);overlaps=[mass(boolean(BRepAlgoAPI_Common,s,x)) for x in [n,j]];assert max(overlaps)<1e-6,overlaps
+                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

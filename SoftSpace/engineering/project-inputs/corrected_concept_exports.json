@@ -1,0 +1,12 @@
+[
+  {
+    "document": "OwnPassiveDefender_Adult_Concept",
+    "f3d": "${WORKSPACE}\\OwnPassiveDefender_Adult_Concept_Corrected_20261012_095702.f3d",
+    "step": "${WORKSPACE}\\OwnPassiveDefender_Adult_Concept_Corrected_20261012_095702.step"
+  },
+  {
+    "document": "OwnPassiveDefender_ChildBand_Concept",
+    "f3d": "${WORKSPACE}\\OwnPassiveDefender_ChildBand_Concept_Corrected_20261012_095702.f3d",
+    "step": "${WORKSPACE}\\OwnPassiveDefender_ChildBand_Concept_Corrected_20261012_095702.step"
+  }
+]

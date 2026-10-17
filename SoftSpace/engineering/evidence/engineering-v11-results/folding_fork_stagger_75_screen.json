@@ -1,0 +1,1677 @@
+{
+  "status": "complete exploratory screen",
+  "cases": [
+    {
+      "size": "child_small",
+      "left_fold_deg": 0,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        220.906543138692,
+        89.64700661747742,
+        220.85097794298338
+      ],
+      "bounding_box_volume_L": 4.373646709197825,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 15,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        222.67888031335838,
+        89.64700661747742,
+        220.85097794298338
+      ],
+      "bounding_box_volume_L": 4.408736555525745,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_child_small_L15_R0.step"
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 30,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        223.71531980459872,
+        89.64700661747742,
+        220.85097794298338
+      ],
+      "bounding_box_volume_L": 4.429256636577848,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_child_small_L30_R0.step"
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 45,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        222.9452299738823,
+        89.64700661747742,
+        220.85097794298338
+      ],
+      "bounding_box_volume_L": 4.414009913660343,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_child_small_L45_R0.step"
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 60,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        220.42109117053877,
+        89.64700661747742,
+        220.85097794298338
+      ],
+      "bounding_box_volume_L": 4.364035425743654,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_child_small_L60_R0.step"
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 75,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        216.3149192826794,
+        89.64700661747742,
+        220.85097794298338
+      ],
+      "bounding_box_volume_L": 4.282738851592558,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_child_small_L75_R0.step"
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 75,
+      "right_fold_deg": 15,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        218.08725645734577,
+        89.64700661747742,
+        212.81676120861658
+      ],
+      "bounding_box_volume_L": 4.160752773221979,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_child_small_L75_R15.step"
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 75,
+      "right_fold_deg": 30,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        219.1236959485861,
+        89.64700661747742,
+        201.1030985993302
+      ],
+      "bounding_box_volume_L": 3.950425714126775,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_child_small_L75_R30.step"
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 75,
+      "right_fold_deg": 45,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        218.3536061178697,
+        89.64700661747742,
+        185.3554158524071
+      ],
+      "bounding_box_volume_L": 3.628285402382766,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_child_small_L75_R45.step"
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 75,
+      "right_fold_deg": 60,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        215.82946731452614,
+        89.64700661747742,
+        163.72275423784438
+      ],
+      "bounding_box_volume_L": 3.167784092157813,
+      "overlaps": [
+        {
+          "tags": [
+            5,
+            13
+          ],
+          "intersection_mm3": 248.95953765972376
+        },
+        {
+          "tags": [
+            5,
+            14
+          ],
+          "intersection_mm3": 7.536333571823196
+        },
+        {
+          "tags": [
+            5,
+            15
+          ],
+          "intersection_mm3": 38.98296676859057
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_small",
+      "left_fold_deg": 75,
+      "right_fold_deg": 75,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "bounding_box_dimensions_mm": [
+        211.7232954266668,
+        89.64700661747742,
+        137.67934389501082
+      ],
+      "bounding_box_volume_L": 2.6132034657321626,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            13
+          ],
+          "intersection_mm3": 1.945130776489889
+        },
+        {
+          "tags": [
+            1,
+            15
+          ],
+          "intersection_mm3": 2.1657542895362942
+        },
+        {
+          "tags": [
+            3,
+            13
+          ],
+          "intersection_mm3": 2.7823772064274905
+        },
+        {
+          "tags": [
+            3,
+            15
+          ],
+          "intersection_mm3": 1.4789344178184947
+        },
+        {
+          "tags": [
+            4,
+            13
+          ],
+          "intersection_mm3": 55.8657633964565
+        },
+        {
+          "tags": [
+            4,
+            15
+          ],
+          "intersection_mm3": 10.783760021275434
+        },
+        {
+          "tags": [
+            5,
+            13
+          ],
+          "intersection_mm3": 5403.114888880172
+        },
+        {
+          "tags": [
+            5,
+            14
+          ],
+          "intersection_mm3": 1003.8764711688225
+        },
+        {
+          "tags": [
+            5,
+            15
+          ],
+          "intersection_mm3": 187.44231562158575
+        },
+        {
+          "tags": [
+            5,
+            16
+          ],
+          "intersection_mm3": 12.774429379547517
+        },
+        {
+          "tags": [
+            6,
+            13
+          ],
+          "intersection_mm3": 1427.9953181579385
+        },
+        {
+          "tags": [
+            6,
+            14
+          ],
+          "intersection_mm3": 664.7116627398655
+        },
+        {
+          "tags": [
+            6,
+            15
+          ],
+          "intersection_mm3": 74.51141423610602
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_medium",
+      "left_fold_deg": 0,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "bounding_box_dimensions_mm": [
+        232.104258998062,
+        89.64695696905167,
+        220.85095311877052
+      ],
+      "bounding_box_volume_L": 4.595343070524284,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true
+    },
+    {
+      "size": "child_medium",
+      "left_fold_deg": 15,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "bounding_box_dimensions_mm": [
+        233.8765961727284,
+        89.64695696905167,
+        220.85095311877052
+      ],
+      "bounding_box_volume_L": 4.630432893474511,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_child_medium_L15_R0.step"
+    },
+    {
+      "size": "child_medium",
+      "left_fold_deg": 30,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "bounding_box_dimensions_mm": [
+        234.9130356639688,
+        89.64695696905167,
+        220.85095311877052
+      ],
+      "bounding_box_volume_L": 4.650952960855649,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_child_medium_L30_R0.step"
+    },
+    {
+      "size": "child_medium",
+      "left_fold_deg": 45,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "bounding_box_dimensions_mm": [
+        234.14294583325244,
+        89.64695696905167,
+        220.85095311877052
+      ],
+      "bounding_box_volume_L": 4.635706248095874,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_child_medium_L45_R0.step"
+    },
+    {
+      "size": "child_medium",
+      "left_fold_deg": 60,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "bounding_box_dimensions_mm": [
+        231.61880702990902,
+        89.64695696905167,
+        220.85095311877052
+      ],
+      "bounding_box_volume_L": 4.585731793473383,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_child_medium_L60_R0.step"
+    },
+    {
+      "size": "child_medium",
+      "left_fold_deg": 75,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "bounding_box_dimensions_mm": [
+        227.51263514204976,
+        89.64695696905167,
+        220.85095311877052
+      ],
+      "bounding_box_volume_L": 4.504435273484005,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            28
+          ],
+          "intersection_mm3": 0.05380113474917584
+        },
+        {
+          "tags": [
+            3,
+            28
+          ],
+          "intersection_mm3": 1.1076823085517788
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_medium",
+      "left_fold_deg": 75,
+      "right_fold_deg": 15,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "bounding_box_dimensions_mm": [
+        229.28497231671614,
+        89.64695696905167,
+        212.81673638440373
+      ],
+      "bounding_box_volume_L": 4.374384181347324,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            28
+          ],
+          "intersection_mm3": 0.05380113474917584
+        },
+        {
+          "tags": [
+            3,
+            28
+          ],
+          "intersection_mm3": 1.1076823085517788
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_medium",
+      "left_fold_deg": 75,
+      "right_fold_deg": 30,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "bounding_box_dimensions_mm": [
+        230.32141180795657,
+        89.64695696905167,
+        201.10309859933
+      ],
+      "bounding_box_volume_L": 4.152299092424517,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            28
+          ],
+          "intersection_mm3": 0.05380113474917584
+        },
+        {
+          "tags": [
+            3,
+            28
+          ],
+          "intersection_mm3": 1.1076823085517788
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_medium",
+      "left_fold_deg": 75,
+      "right_fold_deg": 45,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "bounding_box_dimensions_mm": [
+        229.55132197724018,
+        89.64695696905167,
+        185.35541585240682
+      ],
+      "bounding_box_volume_L": 3.8143507871018882,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            28
+          ],
+          "intersection_mm3": 0.05380113474917584
+        },
+        {
+          "tags": [
+            3,
+            28
+          ],
+          "intersection_mm3": 1.1076823085517788
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_medium",
+      "left_fold_deg": 75,
+      "right_fold_deg": 60,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "bounding_box_dimensions_mm": [
+        227.02718317389673,
+        89.64695696905167,
+        163.72275423784404
+      ],
+      "bounding_box_volume_L": 3.3321339759608004,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            28
+          ],
+          "intersection_mm3": 0.05380113474917584
+        },
+        {
+          "tags": [
+            3,
+            28
+          ],
+          "intersection_mm3": 1.1076823085517788
+        },
+        {
+          "tags": [
+            5,
+            13
+          ],
+          "intersection_mm3": 0.8231563101165905
+        },
+        {
+          "tags": [
+            5,
+            14
+          ],
+          "intersection_mm3": 0.8255633964007134
+        },
+        {
+          "tags": [
+            5,
+            15
+          ],
+          "intersection_mm3": 1.7913856790393314
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_medium",
+      "left_fold_deg": 75,
+      "right_fold_deg": 75,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "bounding_box_dimensions_mm": [
+        222.9210112860375,
+        89.64695696905167,
+        137.67934389501042
+      ],
+      "bounding_box_volume_L": 2.7514102096384754,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            28
+          ],
+          "intersection_mm3": 0.05380113474917584
+        },
+        {
+          "tags": [
+            3,
+            28
+          ],
+          "intersection_mm3": 1.1076823085517788
+        },
+        {
+          "tags": [
+            4,
+            13
+          ],
+          "intersection_mm3": 0.4834519947885738
+        },
+        {
+          "tags": [
+            4,
+            14
+          ],
+          "intersection_mm3": 0.4311756542190401
+        },
+        {
+          "tags": [
+            4,
+            15
+          ],
+          "intersection_mm3": 1.558790940393283
+        },
+        {
+          "tags": [
+            5,
+            13
+          ],
+          "intersection_mm3": 4517.666868396813
+        },
+        {
+          "tags": [
+            5,
+            14
+          ],
+          "intersection_mm3": 538.1985149856196
+        },
+        {
+          "tags": [
+            5,
+            15
+          ],
+          "intersection_mm3": 156.65563885181135
+        },
+        {
+          "tags": [
+            6,
+            13
+          ],
+          "intersection_mm3": 1434.507773649331
+        },
+        {
+          "tags": [
+            6,
+            14
+          ],
+          "intersection_mm3": 223.1351376164232
+        },
+        {
+          "tags": [
+            6,
+            15
+          ],
+          "intersection_mm3": 66.79804059515416
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_large",
+      "left_fold_deg": 0,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "bounding_box_dimensions_mm": [
+        242.63174670309598,
+        89.64691223999027,
+        220.8509307542398
+      ],
+      "bounding_box_volume_L": 4.8037698726094185,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true
+    },
+    {
+      "size": "child_large",
+      "left_fold_deg": 15,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "bounding_box_dimensions_mm": [
+        244.4040838777624,
+        89.64691223999027,
+        220.8509307542398
+      ],
+      "bounding_box_volume_L": 4.8388596744983134,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_child_large_L15_R0.step"
+    },
+    {
+      "size": "child_large",
+      "left_fold_deg": 30,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "bounding_box_dimensions_mm": [
+        245.44052336900273,
+        89.64691223999027,
+        220.8509307542398
+      ],
+      "bounding_box_volume_L": 4.859379729563059,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_child_large_L30_R0.step"
+    },
+    {
+      "size": "child_large",
+      "left_fold_deg": 45,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "bounding_box_dimensions_mm": [
+        244.67043353828632,
+        89.64691223999027,
+        220.8509307542398
+      ],
+      "bounding_box_volume_L": 4.8441330259545445,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_child_large_L45_R0.step"
+    },
+    {
+      "size": "child_large",
+      "left_fold_deg": 60,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "bounding_box_dimensions_mm": [
+        242.14629473494278,
+        89.64691223999027,
+        220.8509307542398
+      ],
+      "bounding_box_volume_L": 4.794158601327319,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_child_large_L60_R0.step"
+    },
+    {
+      "size": "child_large",
+      "left_fold_deg": 75,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "bounding_box_dimensions_mm": [
+        238.0401228470834,
+        89.64691223999027,
+        220.8509307542398
+      ],
+      "bounding_box_volume_L": 4.712862130133086,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            28
+          ],
+          "intersection_mm3": 3.54696099345564
+        },
+        {
+          "tags": [
+            3,
+            28
+          ],
+          "intersection_mm3": 5.509735302619901
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_large",
+      "left_fold_deg": 75,
+      "right_fold_deg": 15,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "bounding_box_dimensions_mm": [
+        239.8124600217498,
+        89.64691223999027,
+        212.81671401987302
+      ],
+      "bounding_box_volume_L": 4.575228752925812,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            28
+          ],
+          "intersection_mm3": 3.54696099345564
+        },
+        {
+          "tags": [
+            3,
+            28
+          ],
+          "intersection_mm3": 5.509735302619901
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_large",
+      "left_fold_deg": 75,
+      "right_fold_deg": 30,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "bounding_box_dimensions_mm": [
+        240.84889951299016,
+        89.64691223999027,
+        201.10309859933022
+      ],
+      "bounding_box_volume_L": 4.34208943069549,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            28
+          ],
+          "intersection_mm3": 3.54696099345564
+        },
+        {
+          "tags": [
+            3,
+            28
+          ],
+          "intersection_mm3": 5.509735302619901
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_large",
+      "left_fold_deg": 75,
+      "right_fold_deg": 45,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "bounding_box_dimensions_mm": [
+        240.07880968227377,
+        89.64691223999027,
+        185.35541585240713
+      ],
+      "bounding_box_volume_L": 3.9892793118435432,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            28
+          ],
+          "intersection_mm3": 3.54696099345564
+        },
+        {
+          "tags": [
+            3,
+            28
+          ],
+          "intersection_mm3": 5.509735302619901
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_large",
+      "left_fold_deg": 75,
+      "right_fold_deg": 60,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "bounding_box_dimensions_mm": [
+        237.5546708789302,
+        89.64691223999027,
+        163.7227542378444
+      ],
+      "bounding_box_volume_L": 3.4866467705289845,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            28
+          ],
+          "intersection_mm3": 3.54696099345564
+        },
+        {
+          "tags": [
+            3,
+            28
+          ],
+          "intersection_mm3": 5.509735302619901
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "child_large",
+      "left_fold_deg": 75,
+      "right_fold_deg": 75,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "bounding_box_dimensions_mm": [
+        233.44849899107086,
+        89.64691223999027,
+        137.67934389501085
+      ],
+      "bounding_box_volume_L": 2.881344649225718,
+      "overlaps": [
+        {
+          "tags": [
+            1,
+            28
+          ],
+          "intersection_mm3": 3.54696099345564
+        },
+        {
+          "tags": [
+            3,
+            28
+          ],
+          "intersection_mm3": 5.509735302619901
+        },
+        {
+          "tags": [
+            5,
+            13
+          ],
+          "intersection_mm3": 3952.9697351155114
+        },
+        {
+          "tags": [
+            5,
+            14
+          ],
+          "intersection_mm3": 12.6229864494765
+        },
+        {
+          "tags": [
+            5,
+            15
+          ],
+          "intersection_mm3": 126.08134214108374
+        },
+        {
+          "tags": [
+            6,
+            13
+          ],
+          "intersection_mm3": 1512.7115986608276
+        },
+        {
+          "tags": [
+            6,
+            15
+          ],
+          "intersection_mm3": 61.532502142482535
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 0,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        243.420284883652,
+        105.48165518938956,
+        233.69079773498208
+      ],
+      "bounding_box_volume_L": 6.000332452980657,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 15,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        245.19262205831836,
+        105.48165518938956,
+        233.69079773498208
+      ],
+      "bounding_box_volume_L": 6.044020727652827,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_small_L15_R0.step"
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 30,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        246.22906154955876,
+        105.48165518938956,
+        233.69079773498208
+      ],
+      "bounding_box_volume_L": 6.06956905661733,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_small_L30_R0.step"
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 45,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        245.4589717188423,
+        105.48165518938956,
+        233.69079773498208
+      ],
+      "bounding_box_volume_L": 6.0505862713282275,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_small_L45_R0.step"
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 60,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        242.9348329154987,
+        105.48165518938956,
+        233.69079773498208
+      ],
+      "bounding_box_volume_L": 5.988366017232438,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_small_L60_R0.step"
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 75,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        238.82866102763936,
+        105.48165518938956,
+        233.69079773498208
+      ],
+      "bounding_box_volume_L": 5.88714850182276,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_small_L75_R0.step"
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 75,
+      "right_fold_deg": 15,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        240.60099820230573,
+        105.48165518938956,
+        225.3147381006238
+      ],
+      "bounding_box_volume_L": 5.718260829974761,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_small_L75_R15.step"
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 75,
+      "right_fold_deg": 30,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        241.6374376935461,
+        105.48165518938956,
+        210.7230486541322
+      ],
+      "bounding_box_volume_L": 5.370975838782838,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_small_L75_R30.step"
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 75,
+      "right_fold_deg": 45,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        240.86734786282966,
+        105.48165518938956,
+        193.72388175425075
+      ],
+      "bounding_box_volume_L": 4.921959427364779,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_small_L75_R45.step"
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 75,
+      "right_fold_deg": 60,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        238.34320905948607,
+        105.48165518938956,
+        170.460254237844
+      ],
+      "bounding_box_volume_L": 4.285513329508274,
+      "overlaps": [
+        {
+          "tags": [
+            5,
+            13
+          ],
+          "intersection_mm3": 0.33372175672489685
+        },
+        {
+          "tags": [
+            5,
+            14
+          ],
+          "intersection_mm3": 0.3240089758898621
+        },
+        {
+          "tags": [
+            5,
+            15
+          ],
+          "intersection_mm3": 1.0429517752530573
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "adult_small",
+      "left_fold_deg": 75,
+      "right_fold_deg": 75,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "bounding_box_dimensions_mm": [
+        234.23703717162672,
+        105.48165518938956,
+        142.51754387519276
+      ],
+      "bounding_box_volume_L": 3.5212821992091876,
+      "overlaps": [
+        {
+          "tags": [
+            4,
+            13
+          ],
+          "intersection_mm3": 7.486937295755675
+        },
+        {
+          "tags": [
+            4,
+            14
+          ],
+          "intersection_mm3": 7.387461417603472
+        },
+        {
+          "tags": [
+            4,
+            15
+          ],
+          "intersection_mm3": 7.064605795790527
+        },
+        {
+          "tags": [
+            5,
+            13
+          ],
+          "intersection_mm3": 5947.577539062704
+        },
+        {
+          "tags": [
+            5,
+            14
+          ],
+          "intersection_mm3": 458.37981508017936
+        },
+        {
+          "tags": [
+            5,
+            15
+          ],
+          "intersection_mm3": 164.30962985444933
+        },
+        {
+          "tags": [
+            5,
+            16
+          ],
+          "intersection_mm3": 2.1676941386048743
+        },
+        {
+          "tags": [
+            6,
+            13
+          ],
+          "intersection_mm3": 1836.5469355340174
+        },
+        {
+          "tags": [
+            6,
+            14
+          ],
+          "intersection_mm3": 176.8376883407064
+        },
+        {
+          "tags": [
+            6,
+            15
+          ],
+          "intersection_mm3": 66.50823396230197
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "adult_medium",
+      "left_fold_deg": 0,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "bounding_box_dimensions_mm": [
+        259.871231539872,
+        105.48170943953991,
+        233.69082486005806
+      ],
+      "bounding_box_volume_L": 6.405853842100725,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true
+    },
+    {
+      "size": "adult_medium",
+      "left_fold_deg": 15,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "bounding_box_dimensions_mm": [
+        261.6435687145384,
+        105.48170943953991,
+        233.69082486005806
+      ],
+      "bounding_box_volume_L": 6.449542144313171,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_medium_L15_R0.step"
+    },
+    {
+      "size": "adult_medium",
+      "left_fold_deg": 30,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "bounding_box_dimensions_mm": [
+        262.68000820577873,
+        105.48170943953991,
+        233.69082486005806
+      ],
+      "bounding_box_volume_L": 6.475090489382865,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_medium_L30_R0.step"
+    },
+    {
+      "size": "adult_medium",
+      "left_fold_deg": 45,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "bounding_box_dimensions_mm": [
+        261.9099183750623,
+        105.48170943953991,
+        233.69082486005806
+      ],
+      "bounding_box_volume_L": 6.456107692127369,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_medium_L45_R0.step"
+    },
+    {
+      "size": "adult_medium",
+      "left_fold_deg": 60,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "bounding_box_dimensions_mm": [
+        259.3857795717188,
+        105.48170943953991,
+        233.69082486005806
+      ],
+      "bounding_box_volume_L": 6.393887398809088,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_medium_L60_R0.step"
+    },
+    {
+      "size": "adult_medium",
+      "left_fold_deg": 75,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "bounding_box_dimensions_mm": [
+        255.2796076838594,
+        105.48170943953991,
+        233.69082486005806
+      ],
+      "bounding_box_volume_L": 6.292669819593768,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_medium_L75_R0.step"
+    },
+    {
+      "size": "adult_medium",
+      "left_fold_deg": 75,
+      "right_fold_deg": 15,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "bounding_box_dimensions_mm": [
+        257.0519448585258,
+        105.48170943953991,
+        225.31476522569977
+      ],
+      "bounding_box_volume_L": 6.109247307658156,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_medium_L75_R15.step"
+    },
+    {
+      "size": "adult_medium",
+      "left_fold_deg": 75,
+      "right_fold_deg": 30,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "bounding_box_dimensions_mm": [
+        258.08838434976616,
+        105.48170943953991,
+        210.72304865413298
+      ],
+      "bounding_box_volume_L": 5.736640823426986,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_medium_L75_R30.step"
+    },
+    {
+      "size": "adult_medium",
+      "left_fold_deg": 75,
+      "right_fold_deg": 45,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "bounding_box_dimensions_mm": [
+        257.31829451904974,
+        105.48170943953991,
+        193.7238817542515
+      ],
+      "bounding_box_volume_L": 5.258125969154416,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_medium_L75_R45.step"
+    },
+    {
+      "size": "adult_medium",
+      "left_fold_deg": 75,
+      "right_fold_deg": 60,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "bounding_box_dimensions_mm": [
+        254.79415571570615,
+        105.48170943953991,
+        170.4602542378447
+      ],
+      "bounding_box_volume_L": 4.581310776570146,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_medium_L75_R60.step"
+    },
+    {
+      "size": "adult_medium",
+      "left_fold_deg": 75,
+      "right_fold_deg": 75,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "bounding_box_dimensions_mm": [
+        250.6879838278468,
+        105.48170943953991,
+        142.51754387519352
+      ],
+      "bounding_box_volume_L": 3.7685909951314462,
+      "overlaps": [
+        {
+          "tags": [
+            5,
+            13
+          ],
+          "intersection_mm3": 4594.015552633742
+        },
+        {
+          "tags": [
+            5,
+            15
+          ],
+          "intersection_mm3": 127.74438638485138
+        },
+        {
+          "tags": [
+            6,
+            13
+          ],
+          "intersection_mm3": 2038.9942596031678
+        },
+        {
+          "tags": [
+            6,
+            15
+          ],
+          "intersection_mm3": 77.31611038699805
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    },
+    {
+      "size": "adult_large",
+      "left_fold_deg": 0,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "bounding_box_dimensions_mm": [
+        276.06961901322,
+        105.48175983827348,
+        233.69085005942443
+      ],
+      "bounding_box_volume_L": 6.8051498229520835,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true
+    },
+    {
+      "size": "adult_large",
+      "left_fold_deg": 15,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "bounding_box_dimensions_mm": [
+        277.84195618788635,
+        105.48175983827348,
+        233.69085005942443
+      ],
+      "bounding_box_volume_L": 6.848838150749625,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_large_L15_R0.step"
+    },
+    {
+      "size": "adult_large",
+      "left_fold_deg": 30,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "bounding_box_dimensions_mm": [
+        278.8783956791268,
+        105.48175983827348,
+        233.69085005942443
+      ],
+      "bounding_box_volume_L": 6.874386510781149,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_large_L30_R0.step"
+    },
+    {
+      "size": "adult_large",
+      "left_fold_deg": 45,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "bounding_box_dimensions_mm": [
+        278.1083058484104,
+        105.48175983827348,
+        233.69085005942443
+      ],
+      "bounding_box_volume_L": 6.855403702408795,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_large_L45_R0.step"
+    },
+    {
+      "size": "adult_large",
+      "left_fold_deg": 60,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "bounding_box_dimensions_mm": [
+        275.5841670450669,
+        105.48175983827348,
+        233.69085005942443
+      ],
+      "bounding_box_volume_L": 6.793183372652565,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_large_L60_R0.step"
+    },
+    {
+      "size": "adult_large",
+      "left_fold_deg": 75,
+      "right_fold_deg": 0,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "bounding_box_dimensions_mm": [
+        271.4779951572076,
+        105.48175983827348,
+        233.69085005942443
+      ],
+      "bounding_box_volume_L": 6.691965734161389,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_large_L75_R0.step"
+    },
+    {
+      "size": "adult_large",
+      "left_fold_deg": 75,
+      "right_fold_deg": 15,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "bounding_box_dimensions_mm": [
+        273.250332331874,
+        105.48175983827348,
+        225.31479042506615
+      ],
+      "bounding_box_volume_L": 6.494231515526202,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_large_L75_R15.step"
+    },
+    {
+      "size": "adult_large",
+      "left_fold_deg": 75,
+      "right_fold_deg": 30,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "bounding_box_dimensions_mm": [
+        274.2867718231144,
+        105.48175983827348,
+        210.7230486541324
+      ],
+      "bounding_box_volume_L": 6.096692217805019,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_large_L75_R30.step"
+    },
+    {
+      "size": "adult_large",
+      "left_fold_deg": 75,
+      "right_fold_deg": 45,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "bounding_box_dimensions_mm": [
+        273.51668199239805,
+        105.48175983827348,
+        193.7238817542509
+      ],
+      "bounding_box_volume_L": 5.589131773270598,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_large_L75_R45.step"
+    },
+    {
+      "size": "adult_large",
+      "left_fold_deg": 75,
+      "right_fold_deg": 60,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "bounding_box_dimensions_mm": [
+        270.9925431890546,
+        105.48175983827348,
+        170.46025423784408
+      ],
+      "bounding_box_volume_L": 4.872567222662597,
+      "overlaps": [],
+      "errors": [],
+      "nominal_pose_pass": true,
+      "candidate_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_large_L75_R60.step"
+    },
+    {
+      "size": "adult_large",
+      "left_fold_deg": 75,
+      "right_fold_deg": 75,
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "bounding_box_dimensions_mm": [
+        266.88637130119525,
+        105.48175983827348,
+        142.51754387519284
+      ],
+      "bounding_box_volume_L": 4.012103176273331,
+      "overlaps": [
+        {
+          "tags": [
+            5,
+            13
+          ],
+          "intersection_mm3": 2292.489307129081
+        },
+        {
+          "tags": [
+            5,
+            15
+          ],
+          "intersection_mm3": 75.12590377645711
+        },
+        {
+          "tags": [
+            6,
+            13
+          ],
+          "intersection_mm3": 1414.8706030925093
+        },
+        {
+          "tags": [
+            6,
+            15
+          ],
+          "intersection_mm3": 53.14091531114775
+        }
+      ],
+      "errors": [],
+      "nominal_pose_pass": false
+    }
+  ],
+  "limits": [
+    "6 sizes; existing pivots explored without a new latch or hinge design",
+    "Sampled rigid poses, not continuous folding paths or loaded motion",
+    "Pinch protection, latch, play, hinge friction, fatigue, drop and folded bag-compression resistance untested",
+    "Bounding box volume is a packing proxy, not measured carrying comfort",
+    "No material or strength conclusions transfer from the V10 intact-band fixture to a redesigned hinge"
+  ],
+  "pivot_mode": "fork",
+  "staggered_extensions": true,
+  "stagger_definition": "Left complete lower assembly shifted up15mm, right down15mm relative to nominal band: intended left extension0 right30; folding around shifted pivots. First pose checks all pairs, later poses reuse within-group invariance."
+}

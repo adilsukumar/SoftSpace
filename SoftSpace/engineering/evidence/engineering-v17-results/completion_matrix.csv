@@ -1,0 +1,29 @@
+workstream,status,recorded_evidence,remaining_requirement
+Six size CAD,Recorded geometry checks complete,"V16 six sizes,229 discrete motion samples,18 STEP reimports",V17 changes exist for two sizes only. Native Fusion archives remain V10.
+Wider entry pilots,Recorded pilot checks complete,"Two V17 pilots,70 sampled poses,24 entry queries,92 valid solids","Finite geometric checks, not continuous force or physical assembly."
+New tongue stiffness and stress,Chosen numerical comparisons pass,Two meshes per V17 pilot with algebra audits,Ideal support and material; no physical grade or complete joint strength.
+Loaded pin contact,Reduced model completed,90 unilateral beam and guide contact cases with equilibrium checks,"Not full3D bearing contact, real wall stiffness, collar or cross hole."
+Pin contact solver controls,Recorded controls pass,"Analytic overhanging beam,reversed loading,two refinement series",Controls validate this reduced method only.
+Earlier spring return margin,Risk found under assumptions,1080 friction and drag comparisons;180 positive assumed margins,Chosen scenarios are not probabilities. Actual spring return remains unproven.
+Stronger spring alternatives,Chosen loaded criteria not met in finite search,300 designs;16 meet zero-guide-friction comparison;zero meet2N loaded comparison at friction0.1or above,"3N pull bound,set,tolerances and friction are illustrative,not user comfort thresholds or proof that no possible design works."
+Spring real coil and end seating,Unfinished,Existing CAD reserves spring space only,"Need actual end style,part dimensions,force curve,set,diameter growth,rubbing and stability evidence."
+Complete joint contact and strength,Unvalidated,Earlier component and reduced contact results retained,"Need defined loads,actual grades,guide stiffness,fasteners,torque,friction and physical correlation."
+Pin entry under combined errors,Sensitivity screen complete,600 V16 index and100 interface cases plus60 offset queries,V17 only modest positive margin under one chosen error scenario. No process capability.
+Folding and storage geometry,Recorded sampled checks complete,V16 folded boxes and V17 sampled pin engagement,"No actual handling,pinch,loaded stop or folding-life validation."
+Headband force and six sizes,Earlier conditional studies retained,V12 six ideal band fixtures and earlier force screens,No measured worn clamp force or universal adult or child fit.
+Foam and cover materials,Reference screening only,70 material families recorded earlier;additional published grade and thin foam data,"No exhaustive physical material testing,actual lot or final material selected."
+Foam compression and recovery,Calibration needed,Earlier assumed contact studies and thin sheet reference curves,"Need shaped cushion compression,relaxation,recovery and ageing measurements."
+Glasses pressure and seal,Unvalidated,Softer zone and continuous cover candidates saved,"Need actual frame shapes,contact tests and cover properties."
+Sony WH CH720N mounting,User measurements deferred,User owns headphone;original mount not yet measured,"No model-specific fit,retention,ANC or frequency-response claim."
+Incoming sound reduction,Physical validation needed,Earlier simplified cavity work is not a headset rating,"Need matched stock/candidate acoustic fixtures,repeated seating and glasses."
+Outgoing music leakage,Physical validation needed,Protocol prepared;no recordings or measured levels,Match internal playback before comparing outside sound. Zero leakage unproved.
+Heat sweat and moisture,Physical input and samples needed,Earlier assumed thermal and humidity screens retained,No verified Indian-weather comfort or steady seal and ventilation balance.
+Texture and sensory acceptance,Voluntary feedback needed,Individual preferences documented in reports,No simulation can establish an autistic person will tolerate the product.
+Drop and abuse,Not performed,Draft test records prepared,"Actual geometry,grade,assembly and samples needed;rigid and unbreakable claims unproved."
+Folding cycles creep and fatigue,Not performed,"Draft5000-cycle engineering screen,not a standard","Need actual load spectra,material fatigue,fastener loosening and samples."
+Cleaning sweat and ageing,Not performed,Blank durability and material records available,"Need actual cover,seams,adhesives and cleaning procedure."
+Manufacturing and assembly,Not released,"Nominal STEPs,BOM and assembly order saved","Riveting,tool access,threads,torque,coatings,tolerances and inspection not qualified."
+Mass bulk and portability,CAD geometry only,Recorded packing boxes and net volume BOM,Spring spaces are not solid mass;actual grades and finished samples needed.
+Indian cost and supplier availability,Not established,"Blank prototype,100unit and1000unit quote records",No supplier quote or claim that the product meets a final rupee price.
+Market superiority,Not demonstrated,Selected comparisons checked13October2026,Not every headphone;no matched physical competitor test.
+Living reports and evidence package,Updated in this batch,"Both Word reports share results,failures and limits",Approximate previews only;native Word pagination remains unverified.

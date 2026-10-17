@@ -1,0 +1,95 @@
+{
+  "status": "complete",
+  "sizes": [
+    {
+      "name": "adult_small",
+      "fillet_radius_mm": 0.5,
+      "entry_edges": [
+        [
+          95.41014234182589,
+          8.3,
+          97.33353617791306
+        ],
+        [
+          95.41014234182589,
+          -8.3,
+          97.33353617791306
+        ],
+        [
+          100.0101423418259,
+          8.3,
+          97.0
+        ],
+        [
+          100.0101423418259,
+          -8.3,
+          97.0
+        ],
+        [
+          -95.41014234182589,
+          8.3,
+          97.33353617791306
+        ],
+        [
+          -95.41014234182589,
+          -8.3,
+          97.33353617791306
+        ],
+        [
+          -100.0101423418259,
+          -8.3,
+          97.0
+        ],
+        [
+          -100.0101423418259,
+          8.3,
+          97.0
+        ]
+      ],
+      "original_band_volume_mm3": 27806.24718045779,
+      "new_band_volume_mm3": 27820.950765538375,
+      "static_band_intersections": [],
+      "slider_checks": [
+        {
+          "extension_mm": 0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 5,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 10,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 20,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 25,
+          "overlap_mm3": 0.0
+        },
+        {
+          "extension_mm": 30,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "body_count": 28
+    }
+  ],
+  "files": [
+    "${WORKSPACE}\\OwnPassiveDefender_V9_adult_small_20261013_164243.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_adult_small_20261013_164243_Extension_0.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_adult_small_20261013_164243_Extension_30.step",
+    "${WORKSPACE}\\OwnPassiveDefender_V9_adult_small_20261013_164243.f3d"
+  ],
+  "changes": "0.5mm fillet on vertical slot corners, lower-crown geometry retained",
+  "limitations": [
+    "Thread/retention/material properties still unvalidated"
+  ]
+}

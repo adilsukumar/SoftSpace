@@ -1,0 +1,171 @@
+{
+  "records": [
+    {
+      "size": "child_large",
+      "part": "RightTongue",
+      "reference": "child_large",
+      "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "reference_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "volume_a": 8028.625355850285,
+      "volume_b": 8028.625355850285,
+      "common_mm3": 8028.625355850285,
+      "pass_result": true
+    },
+    {
+      "size": "child_large",
+      "part": "RightFork",
+      "reference": "child_large",
+      "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "reference_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "volume_a": 5309.0795891226,
+      "volume_b": 5309.0795891226,
+      "common_mm3": 5309.0795891226,
+      "pass_result": true
+    },
+    {
+      "size": "child_medium",
+      "part": "RightTongue",
+      "reference": "child_large",
+      "source_sha256": "aff177f6c54fe4069bc68a6788ccd49af2d7e6c19555e64ddb5c2800f0da6025",
+      "reference_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "volume_a": 8028.625355850942,
+      "volume_b": 8028.625355850285,
+      "common_mm3": 8028.625355850942,
+      "pass_result": true
+    },
+    {
+      "size": "child_medium",
+      "part": "RightFork",
+      "reference": "child_large",
+      "source_sha256": "aff177f6c54fe4069bc68a6788ccd49af2d7e6c19555e64ddb5c2800f0da6025",
+      "reference_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "volume_a": 5309.079589122777,
+      "volume_b": 5309.0795891226,
+      "common_mm3": 5309.079589122777,
+      "pass_result": true
+    },
+    {
+      "size": "child_small",
+      "part": "RightTongue",
+      "reference": "child_large",
+      "source_sha256": "2fb80f968c89336e6a292464d754ab9b8be3d2a3013144833502dee4ecf4d403",
+      "reference_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "volume_a": 8028.625355850837,
+      "volume_b": 8028.625355850285,
+      "common_mm3": 8028.625355850834,
+      "pass_result": true
+    },
+    {
+      "size": "child_small",
+      "part": "RightFork",
+      "reference": "child_large",
+      "source_sha256": "2fb80f968c89336e6a292464d754ab9b8be3d2a3013144833502dee4ecf4d403",
+      "reference_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "volume_a": 5309.07958912247,
+      "volume_b": 5309.0795891226,
+      "common_mm3": 5309.079589122468,
+      "pass_result": true
+    },
+    {
+      "size": "adult_large",
+      "part": "RightTongue",
+      "reference": "adult_small",
+      "source_sha256": "b0b177bdd0c19ccdd031ac53d53a31b8574c5b8ad9018797e344c8a5998cec4b",
+      "reference_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+      "volume_a": 10326.544431169474,
+      "volume_b": 10326.544431168651,
+      "common_mm3": 10326.544431169477,
+      "pass_result": true
+    },
+    {
+      "size": "adult_large",
+      "part": "RightFork",
+      "reference": "adult_small",
+      "source_sha256": "b0b177bdd0c19ccdd031ac53d53a31b8574c5b8ad9018797e344c8a5998cec4b",
+      "reference_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+      "volume_a": 6125.079589122821,
+      "volume_b": 6125.079589122662,
+      "common_mm3": 6125.079589122824,
+      "pass_result": true
+    },
+    {
+      "size": "adult_medium",
+      "part": "RightTongue",
+      "reference": "adult_small",
+      "source_sha256": "9f6848d3981fe2fb1e24f43f3f65b2e491838fe1e1a99d4c3fa986ef6f1a0217",
+      "reference_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+      "volume_a": 10326.544431169477,
+      "volume_b": 10326.544431168651,
+      "common_mm3": 10326.544431169476,
+      "pass_result": true
+    },
+    {
+      "size": "adult_medium",
+      "part": "RightFork",
+      "reference": "adult_small",
+      "source_sha256": "9f6848d3981fe2fb1e24f43f3f65b2e491838fe1e1a99d4c3fa986ef6f1a0217",
+      "reference_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+      "volume_a": 6125.079589122821,
+      "volume_b": 6125.079589122662,
+      "common_mm3": 6125.079589122821,
+      "pass_result": true
+    },
+    {
+      "size": "adult_small",
+      "part": "RightTongue",
+      "reference": "adult_small",
+      "source_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+      "reference_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+      "volume_a": 10326.544431168651,
+      "volume_b": 10326.544431168651,
+      "common_mm3": 10326.544431168651,
+      "pass_result": true
+    },
+    {
+      "size": "adult_small",
+      "part": "RightFork",
+      "reference": "adult_small",
+      "source_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+      "reference_sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+      "volume_a": 6125.079589122662,
+      "volume_b": 6125.079589122662,
+      "common_mm3": 6125.079589122662,
+      "pass_result": true
+    },
+    {
+      "size": "child_large",
+      "part": "Band",
+      "reference": "V12 same size",
+      "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "reference_sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5",
+      "volume_a": 19529.100998884685,
+      "volume_b": 19529.100998884678,
+      "common_mm3": 22.619467105846518,
+      "pass_result": false
+    },
+    {
+      "size": "child_medium",
+      "part": "Band",
+      "reference": "V12 same size",
+      "source_sha256": "aff177f6c54fe4069bc68a6788ccd49af2d7e6c19555e64ddb5c2800f0da6025",
+      "reference_sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+      "volume_a": 18796.29551075013,
+      "volume_b": 18796.295510750115,
+      "common_mm3": 22.619467105846525,
+      "pass_result": false
+    },
+    {
+      "size": "child_small",
+      "part": "Band",
+      "reference": "V12 same size",
+      "source_sha256": "2fb80f968c89336e6a292464d754ab9b8be3d2a3013144833502dee4ecf4d403",
+      "reference_sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+      "volume_a": 18020.529825978825,
+      "volume_b": 18020.52982597881,
+      "common_mm3": 22.61946710584653,
+      "pass_result": false
+    }
+  ],
+  "all_pass": false,
+  "scope": "Volume intersection of original located valid solids. Only listed component geometry transfers, never complete worn fit or joint performance."
+}

@@ -1,0 +1,9 @@
+{
+ "case":"adult_large",
+ "mesh_max_mm":1.25,
+ "initial_mesh":"unoptimized quadratic tetrahedra",
+ "failure":"Nonpositive quadratic mesh Jacobian detected during centroid stress evaluation",
+ "result_accepted":false,
+ "action":"Rejected the solve output and reran with Gmsh HighOrder mesh optimization; adaptive saved-mesh Jacobian check required",
+ "limit":"This is a numerical mesh failure, not a physical failure of a prototype"
+}

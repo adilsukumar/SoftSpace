@@ -1,0 +1,8 @@
+{
+  "image": "${WORKSPACE}\\documents\\images\\V14_cap_section.png",
+  "source": "${WORKSPACE}\\EarDefender_V14_adult_small_Latched.step",
+  "source_sha256": "833a19ab651d82411c211d2a396f405079728fcb87351a9b0cd3c627c2bed8fb",
+  "plane_x_mm": 107.71014234182589,
+  "display_transform": "cap and knob minus15Y",
+  "scope": "CAD section curves; no actual coil or threads"
+}

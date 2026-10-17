@@ -1,0 +1,48 @@
+{
+  "nodes": 64115,
+  "tet10_elements": 35225,
+  "assembly_method": "CSR batches of up to2048 elements",
+  "reduced_matrix_storage": true,
+  "coarse_preconditioner_modes": 12,
+  "cg_iterations": 7135,
+  "relative_free_residual": 1.3104514265770857e-07,
+  "minimum_quadrature_jacobian_mm3": 0.01847340823591488,
+  "max_von_mises_centroid_MPa": 3.1458658769885046,
+  "strain_energy_Nmm": 3.4484877052547707,
+  "reaction_sum_N": [
+    -1.9999999992988589,
+    -1.4287593681266944e-10,
+    -7.05497913561226e-10
+  ],
+  "size": "child_small",
+  "mesh_max_mm": 2.0,
+  "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+  "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+  "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+  "load_method": "2 N uniform traction integrated over full guide bottom",
+  "load_face_area_mm2": 99.85521310742122,
+  "minimum_adaptive_Jacobian_mm3": 0.009540799185961336,
+  "high_order_mesh_optimized": false,
+  "guide_weighted_x_displacement_mm": 3.4484877053697938,
+  "compliance_mm_per_N": 1.7242438526848969,
+  "restraint_nodes_xyz_mm": [
+    [
+      0.0,
+      12.0,
+      134.9999999999996
+    ],
+    [
+      0.0,
+      -12.0,
+      134.9999999999996
+    ]
+  ],
+  "seconds": 181.55570030212402,
+  "limits": [
+    "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+    "Restraints are numerical datums, not scalp contact",
+    "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+    "Peak stress not used as physical strength or comfort result",
+    "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+  ]
+}

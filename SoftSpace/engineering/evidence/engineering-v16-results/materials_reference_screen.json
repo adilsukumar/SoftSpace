@@ -1,0 +1,1015 @@
+{
+  "updated": "2026-10-15",
+  "revision": "V16 reference material calculations",
+  "grade_references": [
+    {
+      "grade": "Ultramid B3S dry reference",
+      "E_MPa": 3500,
+      "typical_yield_MPa": 90,
+      "source": "https://download.basf.com/p1/8a8081c57fd4b609017fd636717a3e69/en/ULTRAMID%253Csup%253E%25C2%25AE%253Csup%253E_B3S_Product_Data_Sheet_Asia_PacificEurope_English.pdf%3Fview"
+    },
+    {
+      "grade": "Ultramid B3S conditioned reference",
+      "E_MPa": 1200,
+      "typical_yield_MPa": 45,
+      "source": "https://download.basf.com/p1/8a8081c57fd4b609017fd636717a3e69/en/ULTRAMID%253Csup%253E%25C2%25AE%253Csup%253E_B3S_Product_Data_Sheet_Asia_PacificEurope_English.pdf%3Fview"
+    },
+    {
+      "grade": "TECAFORM AH natural POM C",
+      "E_MPa": 2800,
+      "typical_yield_MPa": 67,
+      "source": "V11 saved Ensinger source; not remeasured or certified material"
+    }
+  ],
+  "PA6_conditioned_to_dry_modulus_ratio": 0.34285714285714286,
+  "plate_cases": [
+    {
+      "grade": "Ultramid B3S dry reference",
+      "illustrative_side_force_N": 0.5,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 2.9068883707497264,
+      "nominal_bearing_MPa": 0.4404376319317767,
+      "single_minimum_ligament_nominal_MPa": 0.26404701267810704,
+      "assumed_peak_multiplier": 1,
+      "peak_proxy_MPa": 0.4404376319317767,
+      "reference_yield_over_two_times_proxy": 102.17110604883656
+    },
+    {
+      "grade": "Ultramid B3S dry reference",
+      "illustrative_side_force_N": 0.5,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 2.9068883707497264,
+      "nominal_bearing_MPa": 0.4404376319317767,
+      "single_minimum_ligament_nominal_MPa": 0.26404701267810704,
+      "assumed_peak_multiplier": 2,
+      "peak_proxy_MPa": 0.8808752638635534,
+      "reference_yield_over_two_times_proxy": 51.08555302441828
+    },
+    {
+      "grade": "Ultramid B3S dry reference",
+      "illustrative_side_force_N": 0.5,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 2.9068883707497264,
+      "nominal_bearing_MPa": 0.4404376319317767,
+      "single_minimum_ligament_nominal_MPa": 0.26404701267810704,
+      "assumed_peak_multiplier": 3,
+      "peak_proxy_MPa": 1.3213128957953302,
+      "reference_yield_over_two_times_proxy": 34.057035349612185
+    },
+    {
+      "grade": "Ultramid B3S dry reference",
+      "illustrative_side_force_N": 2,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 11.627553482998906,
+      "nominal_bearing_MPa": 1.7617505277271068,
+      "single_minimum_ligament_nominal_MPa": 1.0561880507124282,
+      "assumed_peak_multiplier": 1,
+      "peak_proxy_MPa": 1.7617505277271068,
+      "reference_yield_over_two_times_proxy": 25.54277651220914
+    },
+    {
+      "grade": "Ultramid B3S dry reference",
+      "illustrative_side_force_N": 2,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 11.627553482998906,
+      "nominal_bearing_MPa": 1.7617505277271068,
+      "single_minimum_ligament_nominal_MPa": 1.0561880507124282,
+      "assumed_peak_multiplier": 2,
+      "peak_proxy_MPa": 3.5235010554542137,
+      "reference_yield_over_two_times_proxy": 12.77138825610457
+    },
+    {
+      "grade": "Ultramid B3S dry reference",
+      "illustrative_side_force_N": 2,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 11.627553482998906,
+      "nominal_bearing_MPa": 1.7617505277271068,
+      "single_minimum_ligament_nominal_MPa": 1.0561880507124282,
+      "assumed_peak_multiplier": 3,
+      "peak_proxy_MPa": 5.285251583181321,
+      "reference_yield_over_two_times_proxy": 8.514258837403046
+    },
+    {
+      "grade": "Ultramid B3S dry reference",
+      "illustrative_side_force_N": 5,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 29.068883707497264,
+      "nominal_bearing_MPa": 4.404376319317767,
+      "single_minimum_ligament_nominal_MPa": 2.6404701267810706,
+      "assumed_peak_multiplier": 1,
+      "peak_proxy_MPa": 4.404376319317767,
+      "reference_yield_over_two_times_proxy": 10.217110604883656
+    },
+    {
+      "grade": "Ultramid B3S dry reference",
+      "illustrative_side_force_N": 5,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 29.068883707497264,
+      "nominal_bearing_MPa": 4.404376319317767,
+      "single_minimum_ligament_nominal_MPa": 2.6404701267810706,
+      "assumed_peak_multiplier": 2,
+      "peak_proxy_MPa": 8.808752638635534,
+      "reference_yield_over_two_times_proxy": 5.108555302441828
+    },
+    {
+      "grade": "Ultramid B3S dry reference",
+      "illustrative_side_force_N": 5,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 29.068883707497264,
+      "nominal_bearing_MPa": 4.404376319317767,
+      "single_minimum_ligament_nominal_MPa": 2.6404701267810706,
+      "assumed_peak_multiplier": 3,
+      "peak_proxy_MPa": 13.213128957953302,
+      "reference_yield_over_two_times_proxy": 3.4057035349612184
+    },
+    {
+      "grade": "Ultramid B3S dry reference",
+      "illustrative_side_force_N": 10,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 58.13776741499453,
+      "nominal_bearing_MPa": 8.808752638635534,
+      "single_minimum_ligament_nominal_MPa": 5.280940253562141,
+      "assumed_peak_multiplier": 1,
+      "peak_proxy_MPa": 8.808752638635534,
+      "reference_yield_over_two_times_proxy": 5.108555302441828
+    },
+    {
+      "grade": "Ultramid B3S dry reference",
+      "illustrative_side_force_N": 10,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 58.13776741499453,
+      "nominal_bearing_MPa": 8.808752638635534,
+      "single_minimum_ligament_nominal_MPa": 5.280940253562141,
+      "assumed_peak_multiplier": 2,
+      "peak_proxy_MPa": 17.617505277271068,
+      "reference_yield_over_two_times_proxy": 2.554277651220914
+    },
+    {
+      "grade": "Ultramid B3S dry reference",
+      "illustrative_side_force_N": 10,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 58.13776741499453,
+      "nominal_bearing_MPa": 8.808752638635534,
+      "single_minimum_ligament_nominal_MPa": 5.280940253562141,
+      "assumed_peak_multiplier": 3,
+      "peak_proxy_MPa": 26.426257915906604,
+      "reference_yield_over_two_times_proxy": 1.7028517674806092
+    },
+    {
+      "grade": "Ultramid B3S dry reference",
+      "illustrative_side_force_N": 20,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 116.27553482998906,
+      "nominal_bearing_MPa": 17.617505277271068,
+      "single_minimum_ligament_nominal_MPa": 10.561880507124283,
+      "assumed_peak_multiplier": 1,
+      "peak_proxy_MPa": 17.617505277271068,
+      "reference_yield_over_two_times_proxy": 2.554277651220914
+    },
+    {
+      "grade": "Ultramid B3S dry reference",
+      "illustrative_side_force_N": 20,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 116.27553482998906,
+      "nominal_bearing_MPa": 17.617505277271068,
+      "single_minimum_ligament_nominal_MPa": 10.561880507124283,
+      "assumed_peak_multiplier": 2,
+      "peak_proxy_MPa": 35.235010554542136,
+      "reference_yield_over_two_times_proxy": 1.277138825610457
+    },
+    {
+      "grade": "Ultramid B3S dry reference",
+      "illustrative_side_force_N": 20,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 116.27553482998906,
+      "nominal_bearing_MPa": 17.617505277271068,
+      "single_minimum_ligament_nominal_MPa": 10.561880507124283,
+      "assumed_peak_multiplier": 3,
+      "peak_proxy_MPa": 52.85251583181321,
+      "reference_yield_over_two_times_proxy": 0.8514258837403046
+    },
+    {
+      "grade": "Ultramid B3S conditioned reference",
+      "illustrative_side_force_N": 0.5,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 2.9068883707497264,
+      "nominal_bearing_MPa": 0.4404376319317767,
+      "single_minimum_ligament_nominal_MPa": 0.26404701267810704,
+      "assumed_peak_multiplier": 1,
+      "peak_proxy_MPa": 0.4404376319317767,
+      "reference_yield_over_two_times_proxy": 51.08555302441828
+    },
+    {
+      "grade": "Ultramid B3S conditioned reference",
+      "illustrative_side_force_N": 0.5,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 2.9068883707497264,
+      "nominal_bearing_MPa": 0.4404376319317767,
+      "single_minimum_ligament_nominal_MPa": 0.26404701267810704,
+      "assumed_peak_multiplier": 2,
+      "peak_proxy_MPa": 0.8808752638635534,
+      "reference_yield_over_two_times_proxy": 25.54277651220914
+    },
+    {
+      "grade": "Ultramid B3S conditioned reference",
+      "illustrative_side_force_N": 0.5,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 2.9068883707497264,
+      "nominal_bearing_MPa": 0.4404376319317767,
+      "single_minimum_ligament_nominal_MPa": 0.26404701267810704,
+      "assumed_peak_multiplier": 3,
+      "peak_proxy_MPa": 1.3213128957953302,
+      "reference_yield_over_two_times_proxy": 17.028517674806093
+    },
+    {
+      "grade": "Ultramid B3S conditioned reference",
+      "illustrative_side_force_N": 2,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 11.627553482998906,
+      "nominal_bearing_MPa": 1.7617505277271068,
+      "single_minimum_ligament_nominal_MPa": 1.0561880507124282,
+      "assumed_peak_multiplier": 1,
+      "peak_proxy_MPa": 1.7617505277271068,
+      "reference_yield_over_two_times_proxy": 12.77138825610457
+    },
+    {
+      "grade": "Ultramid B3S conditioned reference",
+      "illustrative_side_force_N": 2,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 11.627553482998906,
+      "nominal_bearing_MPa": 1.7617505277271068,
+      "single_minimum_ligament_nominal_MPa": 1.0561880507124282,
+      "assumed_peak_multiplier": 2,
+      "peak_proxy_MPa": 3.5235010554542137,
+      "reference_yield_over_two_times_proxy": 6.385694128052285
+    },
+    {
+      "grade": "Ultramid B3S conditioned reference",
+      "illustrative_side_force_N": 2,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 11.627553482998906,
+      "nominal_bearing_MPa": 1.7617505277271068,
+      "single_minimum_ligament_nominal_MPa": 1.0561880507124282,
+      "assumed_peak_multiplier": 3,
+      "peak_proxy_MPa": 5.285251583181321,
+      "reference_yield_over_two_times_proxy": 4.257129418701523
+    },
+    {
+      "grade": "Ultramid B3S conditioned reference",
+      "illustrative_side_force_N": 5,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 29.068883707497264,
+      "nominal_bearing_MPa": 4.404376319317767,
+      "single_minimum_ligament_nominal_MPa": 2.6404701267810706,
+      "assumed_peak_multiplier": 1,
+      "peak_proxy_MPa": 4.404376319317767,
+      "reference_yield_over_two_times_proxy": 5.108555302441828
+    },
+    {
+      "grade": "Ultramid B3S conditioned reference",
+      "illustrative_side_force_N": 5,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 29.068883707497264,
+      "nominal_bearing_MPa": 4.404376319317767,
+      "single_minimum_ligament_nominal_MPa": 2.6404701267810706,
+      "assumed_peak_multiplier": 2,
+      "peak_proxy_MPa": 8.808752638635534,
+      "reference_yield_over_two_times_proxy": 2.554277651220914
+    },
+    {
+      "grade": "Ultramid B3S conditioned reference",
+      "illustrative_side_force_N": 5,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 29.068883707497264,
+      "nominal_bearing_MPa": 4.404376319317767,
+      "single_minimum_ligament_nominal_MPa": 2.6404701267810706,
+      "assumed_peak_multiplier": 3,
+      "peak_proxy_MPa": 13.213128957953302,
+      "reference_yield_over_two_times_proxy": 1.7028517674806092
+    },
+    {
+      "grade": "Ultramid B3S conditioned reference",
+      "illustrative_side_force_N": 10,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 58.13776741499453,
+      "nominal_bearing_MPa": 8.808752638635534,
+      "single_minimum_ligament_nominal_MPa": 5.280940253562141,
+      "assumed_peak_multiplier": 1,
+      "peak_proxy_MPa": 8.808752638635534,
+      "reference_yield_over_two_times_proxy": 2.554277651220914
+    },
+    {
+      "grade": "Ultramid B3S conditioned reference",
+      "illustrative_side_force_N": 10,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 58.13776741499453,
+      "nominal_bearing_MPa": 8.808752638635534,
+      "single_minimum_ligament_nominal_MPa": 5.280940253562141,
+      "assumed_peak_multiplier": 2,
+      "peak_proxy_MPa": 17.617505277271068,
+      "reference_yield_over_two_times_proxy": 1.277138825610457
+    },
+    {
+      "grade": "Ultramid B3S conditioned reference",
+      "illustrative_side_force_N": 10,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 58.13776741499453,
+      "nominal_bearing_MPa": 8.808752638635534,
+      "single_minimum_ligament_nominal_MPa": 5.280940253562141,
+      "assumed_peak_multiplier": 3,
+      "peak_proxy_MPa": 26.426257915906604,
+      "reference_yield_over_two_times_proxy": 0.8514258837403046
+    },
+    {
+      "grade": "Ultramid B3S conditioned reference",
+      "illustrative_side_force_N": 20,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 116.27553482998906,
+      "nominal_bearing_MPa": 17.617505277271068,
+      "single_minimum_ligament_nominal_MPa": 10.561880507124283,
+      "assumed_peak_multiplier": 1,
+      "peak_proxy_MPa": 17.617505277271068,
+      "reference_yield_over_two_times_proxy": 1.277138825610457
+    },
+    {
+      "grade": "Ultramid B3S conditioned reference",
+      "illustrative_side_force_N": 20,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 116.27553482998906,
+      "nominal_bearing_MPa": 17.617505277271068,
+      "single_minimum_ligament_nominal_MPa": 10.561880507124283,
+      "assumed_peak_multiplier": 2,
+      "peak_proxy_MPa": 35.235010554542136,
+      "reference_yield_over_two_times_proxy": 0.6385694128052285
+    },
+    {
+      "grade": "Ultramid B3S conditioned reference",
+      "illustrative_side_force_N": 20,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 116.27553482998906,
+      "nominal_bearing_MPa": 17.617505277271068,
+      "single_minimum_ligament_nominal_MPa": 10.561880507124283,
+      "assumed_peak_multiplier": 3,
+      "peak_proxy_MPa": 52.85251583181321,
+      "reference_yield_over_two_times_proxy": 0.4257129418701523
+    },
+    {
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_force_N": 0.5,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 2.9068883707497264,
+      "nominal_bearing_MPa": 0.4404376319317767,
+      "single_minimum_ligament_nominal_MPa": 0.26404701267810704,
+      "assumed_peak_multiplier": 1,
+      "peak_proxy_MPa": 0.4404376319317767,
+      "reference_yield_over_two_times_proxy": 76.06071228080054
+    },
+    {
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_force_N": 0.5,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 2.9068883707497264,
+      "nominal_bearing_MPa": 0.4404376319317767,
+      "single_minimum_ligament_nominal_MPa": 0.26404701267810704,
+      "assumed_peak_multiplier": 2,
+      "peak_proxy_MPa": 0.8808752638635534,
+      "reference_yield_over_two_times_proxy": 38.03035614040027
+    },
+    {
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_force_N": 0.5,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 2.9068883707497264,
+      "nominal_bearing_MPa": 0.4404376319317767,
+      "single_minimum_ligament_nominal_MPa": 0.26404701267810704,
+      "assumed_peak_multiplier": 3,
+      "peak_proxy_MPa": 1.3213128957953302,
+      "reference_yield_over_two_times_proxy": 25.353570760266848
+    },
+    {
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_force_N": 2,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 11.627553482998906,
+      "nominal_bearing_MPa": 1.7617505277271068,
+      "single_minimum_ligament_nominal_MPa": 1.0561880507124282,
+      "assumed_peak_multiplier": 1,
+      "peak_proxy_MPa": 1.7617505277271068,
+      "reference_yield_over_two_times_proxy": 19.015178070200136
+    },
+    {
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_force_N": 2,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 11.627553482998906,
+      "nominal_bearing_MPa": 1.7617505277271068,
+      "single_minimum_ligament_nominal_MPa": 1.0561880507124282,
+      "assumed_peak_multiplier": 2,
+      "peak_proxy_MPa": 3.5235010554542137,
+      "reference_yield_over_two_times_proxy": 9.507589035100068
+    },
+    {
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_force_N": 2,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 11.627553482998906,
+      "nominal_bearing_MPa": 1.7617505277271068,
+      "single_minimum_ligament_nominal_MPa": 1.0561880507124282,
+      "assumed_peak_multiplier": 3,
+      "peak_proxy_MPa": 5.285251583181321,
+      "reference_yield_over_two_times_proxy": 6.338392690066712
+    },
+    {
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_force_N": 5,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 29.068883707497264,
+      "nominal_bearing_MPa": 4.404376319317767,
+      "single_minimum_ligament_nominal_MPa": 2.6404701267810706,
+      "assumed_peak_multiplier": 1,
+      "peak_proxy_MPa": 4.404376319317767,
+      "reference_yield_over_two_times_proxy": 7.606071228080055
+    },
+    {
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_force_N": 5,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 29.068883707497264,
+      "nominal_bearing_MPa": 4.404376319317767,
+      "single_minimum_ligament_nominal_MPa": 2.6404701267810706,
+      "assumed_peak_multiplier": 2,
+      "peak_proxy_MPa": 8.808752638635534,
+      "reference_yield_over_two_times_proxy": 3.8030356140400277
+    },
+    {
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_force_N": 5,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 29.068883707497264,
+      "nominal_bearing_MPa": 4.404376319317767,
+      "single_minimum_ligament_nominal_MPa": 2.6404701267810706,
+      "assumed_peak_multiplier": 3,
+      "peak_proxy_MPa": 13.213128957953302,
+      "reference_yield_over_two_times_proxy": 2.535357076026685
+    },
+    {
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_force_N": 10,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 58.13776741499453,
+      "nominal_bearing_MPa": 8.808752638635534,
+      "single_minimum_ligament_nominal_MPa": 5.280940253562141,
+      "assumed_peak_multiplier": 1,
+      "peak_proxy_MPa": 8.808752638635534,
+      "reference_yield_over_two_times_proxy": 3.8030356140400277
+    },
+    {
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_force_N": 10,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 58.13776741499453,
+      "nominal_bearing_MPa": 8.808752638635534,
+      "single_minimum_ligament_nominal_MPa": 5.280940253562141,
+      "assumed_peak_multiplier": 2,
+      "peak_proxy_MPa": 17.617505277271068,
+      "reference_yield_over_two_times_proxy": 1.9015178070200138
+    },
+    {
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_force_N": 10,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 58.13776741499453,
+      "nominal_bearing_MPa": 8.808752638635534,
+      "single_minimum_ligament_nominal_MPa": 5.280940253562141,
+      "assumed_peak_multiplier": 3,
+      "peak_proxy_MPa": 26.426257915906604,
+      "reference_yield_over_two_times_proxy": 1.2676785380133424
+    },
+    {
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_force_N": 20,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 116.27553482998906,
+      "nominal_bearing_MPa": 17.617505277271068,
+      "single_minimum_ligament_nominal_MPa": 10.561880507124283,
+      "assumed_peak_multiplier": 1,
+      "peak_proxy_MPa": 17.617505277271068,
+      "reference_yield_over_two_times_proxy": 1.9015178070200138
+    },
+    {
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_force_N": 20,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 116.27553482998906,
+      "nominal_bearing_MPa": 17.617505277271068,
+      "single_minimum_ligament_nominal_MPa": 10.561880507124283,
+      "assumed_peak_multiplier": 2,
+      "peak_proxy_MPa": 35.235010554542136,
+      "reference_yield_over_two_times_proxy": 0.9507589035100069
+    },
+    {
+      "grade": "TECAFORM AH natural POM C",
+      "illustrative_side_force_N": 20,
+      "assumed_force_arm_mm": 65,
+      "pin_force_N": 116.27553482998906,
+      "nominal_bearing_MPa": 17.617505277271068,
+      "single_minimum_ligament_nominal_MPa": 10.561880507124283,
+      "assumed_peak_multiplier": 3,
+      "peak_proxy_MPa": 52.85251583181321,
+      "reference_yield_over_two_times_proxy": 0.6338392690066712
+    }
+  ],
+  "plate_case_count": 45,
+  "minimum_radial_hole_edge_ligament_mm": 3.669660112501051,
+  "pin_pull_cases": [
+    {
+      "external_pull_N": 2,
+      "exact_central_net_area_mm2": 1.9789534399869586,
+      "assumed_peak_multiplier": 1,
+      "required_pin_yield_for_factor_two_MPa": 2.0212703943284085,
+      "nominal_rivet_double_shear_MPa": 1.9894367886486917,
+      "nominal_pin_hole_bearing_MPa": 1.1363636363636362,
+      "limits": "Net area is exact at central cut only. Stress factor assumed; no three-dimensional hole bending, contact, forming or fatigue solve."
+    },
+    {
+      "external_pull_N": 2,
+      "exact_central_net_area_mm2": 1.9789534399869586,
+      "assumed_peak_multiplier": 2,
+      "required_pin_yield_for_factor_two_MPa": 4.042540788656817,
+      "nominal_rivet_double_shear_MPa": 1.9894367886486917,
+      "nominal_pin_hole_bearing_MPa": 1.1363636363636362,
+      "limits": "Net area is exact at central cut only. Stress factor assumed; no three-dimensional hole bending, contact, forming or fatigue solve."
+    },
+    {
+      "external_pull_N": 2,
+      "exact_central_net_area_mm2": 1.9789534399869586,
+      "assumed_peak_multiplier": 3,
+      "required_pin_yield_for_factor_two_MPa": 6.0638111829852255,
+      "nominal_rivet_double_shear_MPa": 1.9894367886486917,
+      "nominal_pin_hole_bearing_MPa": 1.1363636363636362,
+      "limits": "Net area is exact at central cut only. Stress factor assumed; no three-dimensional hole bending, contact, forming or fatigue solve."
+    },
+    {
+      "external_pull_N": 10,
+      "exact_central_net_area_mm2": 1.9789534399869586,
+      "assumed_peak_multiplier": 1,
+      "required_pin_yield_for_factor_two_MPa": 10.106351971642042,
+      "nominal_rivet_double_shear_MPa": 9.947183943243457,
+      "nominal_pin_hole_bearing_MPa": 5.681818181818181,
+      "limits": "Net area is exact at central cut only. Stress factor assumed; no three-dimensional hole bending, contact, forming or fatigue solve."
+    },
+    {
+      "external_pull_N": 10,
+      "exact_central_net_area_mm2": 1.9789534399869586,
+      "assumed_peak_multiplier": 2,
+      "required_pin_yield_for_factor_two_MPa": 20.212703943284083,
+      "nominal_rivet_double_shear_MPa": 9.947183943243457,
+      "nominal_pin_hole_bearing_MPa": 5.681818181818181,
+      "limits": "Net area is exact at central cut only. Stress factor assumed; no three-dimensional hole bending, contact, forming or fatigue solve."
+    },
+    {
+      "external_pull_N": 10,
+      "exact_central_net_area_mm2": 1.9789534399869586,
+      "assumed_peak_multiplier": 3,
+      "required_pin_yield_for_factor_two_MPa": 30.319055914926125,
+      "nominal_rivet_double_shear_MPa": 9.947183943243457,
+      "nominal_pin_hole_bearing_MPa": 5.681818181818181,
+      "limits": "Net area is exact at central cut only. Stress factor assumed; no three-dimensional hole bending, contact, forming or fatigue solve."
+    },
+    {
+      "external_pull_N": 20,
+      "exact_central_net_area_mm2": 1.9789534399869586,
+      "assumed_peak_multiplier": 1,
+      "required_pin_yield_for_factor_two_MPa": 20.212703943284083,
+      "nominal_rivet_double_shear_MPa": 19.894367886486915,
+      "nominal_pin_hole_bearing_MPa": 11.363636363636362,
+      "limits": "Net area is exact at central cut only. Stress factor assumed; no three-dimensional hole bending, contact, forming or fatigue solve."
+    },
+    {
+      "external_pull_N": 20,
+      "exact_central_net_area_mm2": 1.9789534399869586,
+      "assumed_peak_multiplier": 2,
+      "required_pin_yield_for_factor_two_MPa": 40.425407886568166,
+      "nominal_rivet_double_shear_MPa": 19.894367886486915,
+      "nominal_pin_hole_bearing_MPa": 11.363636363636362,
+      "limits": "Net area is exact at central cut only. Stress factor assumed; no three-dimensional hole bending, contact, forming or fatigue solve."
+    },
+    {
+      "external_pull_N": 20,
+      "exact_central_net_area_mm2": 1.9789534399869586,
+      "assumed_peak_multiplier": 3,
+      "required_pin_yield_for_factor_two_MPa": 60.63811182985225,
+      "nominal_rivet_double_shear_MPa": 19.894367886486915,
+      "nominal_pin_hole_bearing_MPa": 11.363636363636362,
+      "limits": "Net area is exact at central cut only. Stress factor assumed; no three-dimensional hole bending, contact, forming or fatigue solve."
+    },
+    {
+      "external_pull_N": 50,
+      "exact_central_net_area_mm2": 1.9789534399869586,
+      "assumed_peak_multiplier": 1,
+      "required_pin_yield_for_factor_two_MPa": 50.53175985821021,
+      "nominal_rivet_double_shear_MPa": 49.73591971621729,
+      "nominal_pin_hole_bearing_MPa": 28.409090909090907,
+      "limits": "Net area is exact at central cut only. Stress factor assumed; no three-dimensional hole bending, contact, forming or fatigue solve."
+    },
+    {
+      "external_pull_N": 50,
+      "exact_central_net_area_mm2": 1.9789534399869586,
+      "assumed_peak_multiplier": 2,
+      "required_pin_yield_for_factor_two_MPa": 101.06351971642042,
+      "nominal_rivet_double_shear_MPa": 49.73591971621729,
+      "nominal_pin_hole_bearing_MPa": 28.409090909090907,
+      "limits": "Net area is exact at central cut only. Stress factor assumed; no three-dimensional hole bending, contact, forming or fatigue solve."
+    },
+    {
+      "external_pull_N": 50,
+      "exact_central_net_area_mm2": 1.9789534399869586,
+      "assumed_peak_multiplier": 3,
+      "required_pin_yield_for_factor_two_MPa": 151.59527957463064,
+      "nominal_rivet_double_shear_MPa": 49.73591971621729,
+      "nominal_pin_hole_bearing_MPa": 28.409090909090907,
+      "limits": "Net area is exact at central cut only. Stress factor assumed; no three-dimensional hole bending, contact, forming or fatigue solve."
+    },
+    {
+      "external_pull_N": 100,
+      "exact_central_net_area_mm2": 1.9789534399869586,
+      "assumed_peak_multiplier": 1,
+      "required_pin_yield_for_factor_two_MPa": 101.06351971642042,
+      "nominal_rivet_double_shear_MPa": 99.47183943243458,
+      "nominal_pin_hole_bearing_MPa": 56.81818181818181,
+      "limits": "Net area is exact at central cut only. Stress factor assumed; no three-dimensional hole bending, contact, forming or fatigue solve."
+    },
+    {
+      "external_pull_N": 100,
+      "exact_central_net_area_mm2": 1.9789534399869586,
+      "assumed_peak_multiplier": 2,
+      "required_pin_yield_for_factor_two_MPa": 202.12703943284083,
+      "nominal_rivet_double_shear_MPa": 99.47183943243458,
+      "nominal_pin_hole_bearing_MPa": 56.81818181818181,
+      "limits": "Net area is exact at central cut only. Stress factor assumed; no three-dimensional hole bending, contact, forming or fatigue solve."
+    },
+    {
+      "external_pull_N": 100,
+      "exact_central_net_area_mm2": 1.9789534399869586,
+      "assumed_peak_multiplier": 3,
+      "required_pin_yield_for_factor_two_MPa": 303.1905591492613,
+      "nominal_rivet_double_shear_MPa": 99.47183943243458,
+      "nominal_pin_hole_bearing_MPa": 56.81818181818181,
+      "limits": "Net area is exact at central cut only. Stress factor assumed; no three-dimensional hole bending, contact, forming or fatigue solve."
+    }
+  ],
+  "pin_pull_case_count": 15,
+  "foam_source": "https://www.rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/poron/english/data-sheets/17-388-ideal-cfd-curves-for-battery-pad-applications-poron-4701-30-very-soft.pdf",
+  "foam_published_curves": [
+    {
+      "density_kg_m3": 240,
+      "strain": [
+        0.2,
+        0.25,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7
+      ],
+      "stress_kPa": [
+        19.4,
+        21.6,
+        24.1,
+        30.7,
+        42.1,
+        68.3,
+        149.0
+      ],
+      "published_sheet_thickness_mm": [
+        1.3,
+        3.0
+      ]
+    },
+    {
+      "density_kg_m3": 320,
+      "strain": [
+        0.2,
+        0.25,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7
+      ],
+      "stress_kPa": [
+        34.1,
+        38.3,
+        42.9,
+        55.2,
+        77.6,
+        136,
+        345
+      ],
+      "published_sheet_thickness_mm": [
+        0.85,
+        3.0
+      ]
+    }
+  ],
+  "foam_flat_cases": [
+    {
+      "density_kg_m3": 240,
+      "assumed_flat_loaded_area_mm2": 50,
+      "force_N": 0.5,
+      "stress_kPa": 10.0,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 240,
+      "assumed_flat_loaded_area_mm2": 50,
+      "force_N": 1,
+      "stress_kPa": 20.0,
+      "interpolated_strain": 0.21363636363636365,
+      "within_published_20_to_70percent_range": true
+    },
+    {
+      "density_kg_m3": 240,
+      "assumed_flat_loaded_area_mm2": 50,
+      "force_N": 2,
+      "stress_kPa": 40.0,
+      "interpolated_strain": 0.48157894736842105,
+      "within_published_20_to_70percent_range": true
+    },
+    {
+      "density_kg_m3": 240,
+      "assumed_flat_loaded_area_mm2": 50,
+      "force_N": 5,
+      "stress_kPa": 100.0,
+      "interpolated_strain": 0.6392812887236679,
+      "within_published_20_to_70percent_range": true
+    },
+    {
+      "density_kg_m3": 240,
+      "assumed_flat_loaded_area_mm2": 50,
+      "force_N": 10,
+      "stress_kPa": 200.0,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 240,
+      "assumed_flat_loaded_area_mm2": 50,
+      "force_N": 20,
+      "stress_kPa": 400.0,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 240,
+      "assumed_flat_loaded_area_mm2": 100,
+      "force_N": 0.5,
+      "stress_kPa": 5.0,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 240,
+      "assumed_flat_loaded_area_mm2": 100,
+      "force_N": 1,
+      "stress_kPa": 10.0,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 240,
+      "assumed_flat_loaded_area_mm2": 100,
+      "force_N": 2,
+      "stress_kPa": 20.0,
+      "interpolated_strain": 0.21363636363636365,
+      "within_published_20_to_70percent_range": true
+    },
+    {
+      "density_kg_m3": 240,
+      "assumed_flat_loaded_area_mm2": 100,
+      "force_N": 5,
+      "stress_kPa": 50.0,
+      "interpolated_strain": 0.5301526717557252,
+      "within_published_20_to_70percent_range": true
+    },
+    {
+      "density_kg_m3": 240,
+      "assumed_flat_loaded_area_mm2": 100,
+      "force_N": 10,
+      "stress_kPa": 100.0,
+      "interpolated_strain": 0.6392812887236679,
+      "within_published_20_to_70percent_range": true
+    },
+    {
+      "density_kg_m3": 240,
+      "assumed_flat_loaded_area_mm2": 100,
+      "force_N": 20,
+      "stress_kPa": 200.0,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 240,
+      "assumed_flat_loaded_area_mm2": 3000,
+      "force_N": 0.5,
+      "stress_kPa": 0.16666666666666666,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 240,
+      "assumed_flat_loaded_area_mm2": 3000,
+      "force_N": 1,
+      "stress_kPa": 0.3333333333333333,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 240,
+      "assumed_flat_loaded_area_mm2": 3000,
+      "force_N": 2,
+      "stress_kPa": 0.6666666666666666,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 240,
+      "assumed_flat_loaded_area_mm2": 3000,
+      "force_N": 5,
+      "stress_kPa": 1.6666666666666667,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 240,
+      "assumed_flat_loaded_area_mm2": 3000,
+      "force_N": 10,
+      "stress_kPa": 3.3333333333333335,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 240,
+      "assumed_flat_loaded_area_mm2": 3000,
+      "force_N": 20,
+      "stress_kPa": 6.666666666666667,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 320,
+      "assumed_flat_loaded_area_mm2": 50,
+      "force_N": 0.5,
+      "stress_kPa": 10.0,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 320,
+      "assumed_flat_loaded_area_mm2": 50,
+      "force_N": 1,
+      "stress_kPa": 20.0,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 320,
+      "assumed_flat_loaded_area_mm2": 50,
+      "force_N": 2,
+      "stress_kPa": 40.0,
+      "interpolated_strain": 0.2684782608695652,
+      "within_published_20_to_70percent_range": true
+    },
+    {
+      "density_kg_m3": 320,
+      "assumed_flat_loaded_area_mm2": 50,
+      "force_N": 5,
+      "stress_kPa": 100.0,
+      "interpolated_strain": 0.5383561643835616,
+      "within_published_20_to_70percent_range": true
+    },
+    {
+      "density_kg_m3": 320,
+      "assumed_flat_loaded_area_mm2": 50,
+      "force_N": 10,
+      "stress_kPa": 200.0,
+      "interpolated_strain": 0.630622009569378,
+      "within_published_20_to_70percent_range": true
+    },
+    {
+      "density_kg_m3": 320,
+      "assumed_flat_loaded_area_mm2": 50,
+      "force_N": 20,
+      "stress_kPa": 400.0,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 320,
+      "assumed_flat_loaded_area_mm2": 100,
+      "force_N": 0.5,
+      "stress_kPa": 5.0,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 320,
+      "assumed_flat_loaded_area_mm2": 100,
+      "force_N": 1,
+      "stress_kPa": 10.0,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 320,
+      "assumed_flat_loaded_area_mm2": 100,
+      "force_N": 2,
+      "stress_kPa": 20.0,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 320,
+      "assumed_flat_loaded_area_mm2": 100,
+      "force_N": 5,
+      "stress_kPa": 50.0,
+      "interpolated_strain": 0.35772357723577236,
+      "within_published_20_to_70percent_range": true
+    },
+    {
+      "density_kg_m3": 320,
+      "assumed_flat_loaded_area_mm2": 100,
+      "force_N": 10,
+      "stress_kPa": 100.0,
+      "interpolated_strain": 0.5383561643835616,
+      "within_published_20_to_70percent_range": true
+    },
+    {
+      "density_kg_m3": 320,
+      "assumed_flat_loaded_area_mm2": 100,
+      "force_N": 20,
+      "stress_kPa": 200.0,
+      "interpolated_strain": 0.630622009569378,
+      "within_published_20_to_70percent_range": true
+    },
+    {
+      "density_kg_m3": 320,
+      "assumed_flat_loaded_area_mm2": 3000,
+      "force_N": 0.5,
+      "stress_kPa": 0.16666666666666666,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 320,
+      "assumed_flat_loaded_area_mm2": 3000,
+      "force_N": 1,
+      "stress_kPa": 0.3333333333333333,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 320,
+      "assumed_flat_loaded_area_mm2": 3000,
+      "force_N": 2,
+      "stress_kPa": 0.6666666666666666,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 320,
+      "assumed_flat_loaded_area_mm2": 3000,
+      "force_N": 5,
+      "stress_kPa": 1.6666666666666667,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 320,
+      "assumed_flat_loaded_area_mm2": 3000,
+      "force_N": 10,
+      "stress_kPa": 3.3333333333333335,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    },
+    {
+      "density_kg_m3": 320,
+      "assumed_flat_loaded_area_mm2": 3000,
+      "force_N": 20,
+      "stress_kPa": 6.666666666666667,
+      "interpolated_strain": null,
+      "within_published_20_to_70percent_range": false
+    }
+  ],
+  "foam_case_count": 36,
+  "foam_interpolated_case_count": 12,
+  "limits": [
+    "Plate screen is a nominal bearing/minimum-ligament proxy with chosen multipliers, not resolved FE or validated strength",
+    "Typical datasheet yields are references, not production allowables. No grade is qualified or selected",
+    "Pin cross-hole net area and rivet shear do not solve actual combined hinge loading, contact, fatigue or rivet forming",
+    "Published thin battery-pad PORON grades differ from a20mm shaped ear cushion. No thickness layering or low-pressure extrapolation",
+    "Flat foam points omit cover tension, head geometry, glasses, friction, acoustic leakage and perceived comfort",
+    "No physical test or all-material pass"
+  ]
+}

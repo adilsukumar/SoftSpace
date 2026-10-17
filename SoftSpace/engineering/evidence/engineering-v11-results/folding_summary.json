@@ -1,0 +1,192 @@
+{
+  "status": "complete six-size exploratory screen",
+  "sizes": [
+    {
+      "size": "adult_large",
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "nominal_bbox_mm": [
+        276.06961901322,
+        105.48175983827348,
+        218.69085005942443
+      ],
+      "nominal_bbox_L": 6.368345184181142,
+      "sampled_path_prefix_passes": 10,
+      "best_reached_sample_angles_deg": [
+        75,
+        60
+      ],
+      "best_reached_bbox_L": 4.872567222662597,
+      "reduction_fraction_from_original_nominal": 0.23487702350589157,
+      "best_reached_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_large_L75_R60.step",
+      "target_pose_pass": true,
+      "target_path_samples_pass": true,
+      "first_failed_path_pose": [
+        75,
+        75
+      ],
+      "target_angles_deg": [
+        75,
+        45
+      ]
+    },
+    {
+      "size": "adult_medium",
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "nominal_bbox_mm": [
+        259.871231539872,
+        105.48170943953991,
+        218.69082486005806
+      ],
+      "nominal_bbox_L": 5.994678916045962,
+      "sampled_path_prefix_passes": 10,
+      "best_reached_sample_angles_deg": [
+        75,
+        60
+      ],
+      "best_reached_bbox_L": 4.581310776570146,
+      "reduction_fraction_from_original_nominal": 0.23577044897144572,
+      "best_reached_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_medium_L75_R60.step",
+      "target_pose_pass": true,
+      "target_path_samples_pass": true,
+      "first_failed_path_pose": [
+        75,
+        75
+      ],
+      "target_angles_deg": [
+        75,
+        45
+      ]
+    },
+    {
+      "size": "adult_small",
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "nominal_bbox_mm": [
+        243.420284883652,
+        105.48165518938956,
+        218.69079773498208
+      ],
+      "nominal_bbox_L": 5.615186834637652,
+      "sampled_path_prefix_passes": 9,
+      "best_reached_sample_angles_deg": [
+        75,
+        45
+      ],
+      "best_reached_bbox_L": 4.921959427364779,
+      "reduction_fraction_from_original_nominal": 0.12345580435483527,
+      "best_reached_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_adult_small_L75_R45.step",
+      "target_pose_pass": true,
+      "target_path_samples_pass": true,
+      "first_failed_path_pose": [
+        75,
+        60
+      ],
+      "target_angles_deg": [
+        75,
+        45
+      ]
+    },
+    {
+      "size": "child_large",
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "nominal_bbox_mm": [
+        242.63174670309598,
+        89.64691223999027,
+        193.3509307542398
+      ],
+      "nominal_bbox_L": 4.205612232767899,
+      "sampled_path_prefix_passes": 8,
+      "best_reached_sample_angles_deg": [
+        60,
+        45
+      ],
+      "best_reached_bbox_L": 4.057509684131666,
+      "reduction_fraction_from_original_nominal": 0.03521545507269941,
+      "best_reached_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_adaptive_child_large_L60_R45.step",
+      "target_pose_pass": true,
+      "target_path_samples_pass": true,
+      "first_failed_path_pose": [
+        60,
+        60
+      ],
+      "target_angles_deg": [
+        60,
+        45
+      ]
+    },
+    {
+      "size": "child_medium",
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "nominal_bbox_mm": [
+        232.104258998062,
+        89.64695696905167,
+        193.35095311877012
+      ],
+      "nominal_bbox_L": 4.023138456259121,
+      "sampled_path_prefix_passes": 8,
+      "best_reached_sample_angles_deg": [
+        60,
+        45
+      ],
+      "best_reached_bbox_L": 3.882581193433351,
+      "reduction_fraction_from_original_nominal": 0.03493721738735911,
+      "best_reached_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_adaptive_child_medium_L60_R45.step",
+      "target_pose_pass": true,
+      "target_path_samples_pass": true,
+      "first_failed_path_pose": [
+        60,
+        60
+      ],
+      "target_angles_deg": [
+        60,
+        45
+      ]
+    },
+    {
+      "size": "child_small",
+      "source": "${WORKSPACE}\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "nominal_bbox_mm": [
+        220.906543138692,
+        89.64700661747742,
+        193.350977942983
+      ],
+      "nominal_bbox_L": 3.829047424996362,
+      "sampled_path_prefix_passes": 9,
+      "best_reached_sample_angles_deg": [
+        75,
+        45
+      ],
+      "best_reached_bbox_L": 3.628285402382766,
+      "reduction_fraction_from_original_nominal": 0.052431323076074676,
+      "best_reached_STEP": "${WORKSPACE}\\FoldingStudy_V11_fork_stagger_75_child_small_L75_R45.step",
+      "target_pose_pass": true,
+      "target_path_samples_pass": true,
+      "first_failed_path_pose": [
+        75,
+        60
+      ],
+      "target_angles_deg": [
+        75,
+        45
+      ]
+    }
+  ],
+  "poses": 66,
+  "all_target_paths_pass": true,
+  "limits": [
+    "Strict all-solid intersection check; soft foam overlaps also fail until a compression model supports them",
+    "All recorded paths are sampled at15degree intervals, not swept volumes",
+    "A final pose after a failed intermediate sample is not counted as reached",
+    "Negative volume reduction means larger than the original nominal envelope",
+    "The bounded-box packing proxy does not establish carryability, hinge strength, latching or fatigue",
+    "V11 is a study on transformed V10 solids, not a new native Fusion hinge assembly"
+  ],
+  "base_six_size_poses": 66,
+  "adaptive_poses": 18,
+  "all_adapted_target_paths_pass": true
+}

@@ -1,0 +1,40 @@
+{
+  "status": "Prepared only; no physical tests performed",
+  "tests": [
+    {
+      "test": "Sony fitting",
+      "status": "Awaiting user measurements",
+      "method": "Record original pad, lip and groove with repeated dimensions and photos before claiming model compatibility."
+    },
+    {
+      "test": "Material calibration",
+      "status": "Samples required",
+      "method": "Compression and recovery across intended low loads, cover stretch, dry/wet friction and conditioned polymer properties; record grade and lot."
+    },
+    {
+      "test": "Joint and retention",
+      "status": "Samples required",
+      "method": "Measure release and return force, engagement, pullout, rivet forming and looseness before and after cycles. Choose loads from a reviewed load specification before proof testing."
+    },
+    {
+      "test": "Acoustic comparison",
+      "status": "Qualified fixture and samples required",
+      "method": "Repeat stock and candidate seats with several frames. Compare incoming noise separately from outgoing playback. Match measured internal playback level and report uncertainty. Target no worsening against stock outside measurement uncertainty; zero leakage is not assumed."
+    },
+    {
+      "test": "Durability",
+      "status": "Proposed engineering targets only",
+      "method": "Draft first screen5000fold/slider cycles,1m drops in6orientations,45C85percentRH24h conditioning. Review fixture and material suitability first. Record damage, latch function and force before/after. Targets are not a standard or demonstrated service life."
+    },
+    {
+      "test": "Voluntary wearer feedback",
+      "status": "No participants tested",
+      "method": "Include autistic users in design feedback, allow immediate removal and record individual heat, pressure, texture, sound and stop reasons. No universal comfortable force or acceptance score is assumed."
+    },
+    {
+      "test": "Cost",
+      "status": "No supplier quotes",
+      "method": "Quote actual grades and processes at prototype100and1000unit quantities, including tooling, assembly, scrap, tax, packaging, inspection and distribution."
+    }
+  ]
+}

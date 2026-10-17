@@ -1,0 +1,47 @@
+{
+  "updated": "16 October 2026",
+  "design_status": "V18 six size passive hinge candidates with V10 native archives",
+  "documents": [
+    {
+      "path": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
+      "sha256": "ceaa4796e8dad9e6a75f6dcc4baa4adc93f65f94307a11b2f823762b18baaad5",
+      "bytes": 7502344
+    },
+    {
+      "path": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
+      "sha256": "487b87aed14d3a65a79fbe47d2a3501d3556939858d8a1424da7a54ca9e45210",
+      "bytes": 3096528
+    }
+  ],
+  "market_checked": "2026-10-13",
+  "future_rule": "Update both documents after every meaningful project edit or new result; preserve user edits and history; do not silently regenerate over user edits."
+}
+{'sha256': 'ceaa4796e8dad9e6a75f6dcc4baa4adc93f65f94307a11b2f823762b18baaad5', 'approximate_pages': 66, 'images': 35, 'tables': 42, 'zip_integrity': 'pass', 'native_page_render': 'unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure'}
+{'sha256': '487b87aed14d3a65a79fbe47d2a3501d3556939858d8a1424da7a54ca9e45210', 'approximate_pages': 41, 'images': 20, 'tables': 30, 'zip_integrity': 'pass', 'native_page_render': 'unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure'}
+[
+  {
+    "document": "Ear_Defender_Project.docx",
+    "paragraphs": 539,
+    "tables": 42,
+    "embedded_images": 35,
+    "source_links": 35,
+    "structure_and_hashes": "pass"
+  },
+  {
+    "document": "Glasses_Friendly_Headphone_Cushions.docx",
+    "paragraphs": 326,
+    "tables": 30,
+    "embedded_images": 20,
+    "source_links": 22,
+    "structure_and_hashes": "pass"
+  }
+]
+{
+  "unchanged_prior_page_images": 105,
+  "changed_prior_page_images": [
+    "Ear_Defender_Project\\page-66.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-41.png"
+  ],
+  "added_page_images": [],
+  "scope": "Pixel hash comparison of approximate previews only; native Word remains unverified"
+}

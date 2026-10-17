@@ -1,0 +1,108 @@
+{
+  "status": "complete",
+  "meshes": [
+    {
+      "family": "verification",
+      "order": 2,
+      "symmetry": "quarter cavity, rigid symmetry planes and symmetric excitation",
+      "receiver": "area-integrated front pressure",
+      "mesh_mm": 6,
+      "nodes": 1643,
+      "tet10": 855,
+      "volume_m3": 2.886332693728738e-05,
+      "back_area_m2": 0.0006872202445367872,
+      "elapsed_seconds": 8.837977647781372,
+      "maximum_relative_residual": 2.3192291623695598e-10
+    },
+    {
+      "family": "verification",
+      "order": 2,
+      "symmetry": "quarter cavity, rigid symmetry planes and symmetric excitation",
+      "receiver": "area-integrated front pressure",
+      "mesh_mm": 4.5,
+      "nodes": 3342,
+      "tet10": 1870,
+      "volume_m3": 2.88633617997637e-05,
+      "back_area_m2": 0.0006872225098523337,
+      "elapsed_seconds": 38.93141746520996,
+      "maximum_relative_residual": 4.0305128611662647e-10
+    },
+    {
+      "family": "child",
+      "order": 2,
+      "symmetry": "quarter cavity, rigid symmetry planes and symmetric excitation",
+      "receiver": "area-integrated front pressure",
+      "mesh_mm": 6,
+      "nodes": 2160,
+      "tet10": 1141,
+      "volume_m3": 3.709172552101231e-05,
+      "back_area_m2": 0.001234607835428938,
+      "elapsed_seconds": 14.165571928024292,
+      "maximum_relative_residual": 2.7227470559353296e-10
+    },
+    {
+      "family": "child",
+      "order": 2,
+      "symmetry": "quarter cavity, rigid symmetry planes and symmetric excitation",
+      "receiver": "area-integrated front pressure",
+      "mesh_mm": 4.5,
+      "nodes": 4314,
+      "tet10": 2435,
+      "volume_m3": 3.709175857435714e-05,
+      "back_area_m2": 0.0012346086161185738,
+      "elapsed_seconds": 51.61209487915039,
+      "maximum_relative_residual": 4.312353948476278e-10
+    },
+    {
+      "family": "adult",
+      "order": 2,
+      "symmetry": "quarter cavity, rigid symmetry planes and symmetric excitation",
+      "receiver": "area-integrated front pressure",
+      "mesh_mm": 6,
+      "nodes": 2760,
+      "tet10": 1486,
+      "volume_m3": 5.148124027179301e-05,
+      "back_area_m2": 0.0017153086902915908,
+      "elapsed_seconds": 19.62469720840454,
+      "maximum_relative_residual": 2.7135468979182113e-10
+    },
+    {
+      "family": "adult",
+      "order": 2,
+      "symmetry": "quarter cavity, rigid symmetry planes and symmetric excitation",
+      "receiver": "area-integrated front pressure",
+      "mesh_mm": 4.5,
+      "nodes": 5583,
+      "tet10": 3203,
+      "volume_m3": 5.148126510035014e-05,
+      "back_area_m2": 0.0017153092814479742,
+      "elapsed_seconds": 85.11836838722229,
+      "maximum_relative_residual": 4.677872294932165e-10
+    }
+  ],
+  "comparisons": [
+    {
+      "family": "verification",
+      "max_mesh_difference_db": 0.03933917551508159,
+      "gate_1db": true,
+      "max_exact_complex_error": 0.004419232492379735,
+      "gate_exact_1pct": true
+    },
+    {
+      "family": "child",
+      "max_mesh_difference_db": 0.11274867385861853,
+      "gate_1db": true
+    },
+    {
+      "family": "adult",
+      "max_mesh_difference_db": 0.06676874111194664,
+      "gate_1db": true
+    }
+  ],
+  "limitations": [
+    "Same hypothetical wall/cavity physics as V6",
+    "Quarter symmetry; uniform incident excitation",
+    "Area-integrated receiver replaces nodal mean",
+    "No material or wearer validation"
+  ]
+}

@@ -1,0 +1,2 @@
+{"stage": "model prepared", "size": "child_large", "h": 3.0, "nodes": 2375}
+{"case": "child_large_joint_h3.0_P70_mu0.1_F2", "residual": 9.965623836696311e-07, "stop_N": 3.862436146485096, "seconds": 154.90139937400818}

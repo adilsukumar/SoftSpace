@@ -1,0 +1,66 @@
+{
+  "updated": "2026-10-16",
+  "available_data_screening_complete": true,
+  "all_requested_simulation_models_complete": false,
+  "physical_measurements_performed": 0,
+  "product_validated": false,
+  "manufacturing_release": false,
+  "retention_risk_recorded": true,
+  "workstreams": [
+    {
+      "workstream": "Saved geometry and finite motions",
+      "disposition": "Recorded complete",
+      "scope_or_missing_input": "Six sizes,189 poses,18 saved pose exports; finite geometry checks only"
+    },
+    {
+      "workstream": "Band tongue and fork fixtures",
+      "disposition": "Recorded complete under assumptions",
+      "scope_or_missing_input": "30 saved FE result arrays and selected mesh comparisons; no complete joint contact"
+    },
+    {
+      "workstream": "Material load sensitivity",
+      "disposition": "Recorded complete under assumptions",
+      "scope_or_missing_input": "500 comparisons from10 historically recorded grades and10 V18 fixtures"
+    },
+    {
+      "workstream": "Pivot clearance sensitivity",
+      "disposition": "Recorded complete under assumptions",
+      "scope_or_missing_input": "288 bounded error scenarios;192 have positive margin,not a probability"
+    },
+    {
+      "workstream": "Hinge CAD stack measurements",
+      "disposition": "Recorded complete for nominal CAD only",
+      "scope_or_missing_input": "Six saved STEP assemblies; no real hardware measured"
+    },
+    {
+      "workstream": "Equivalent acceleration holding",
+      "disposition": "Recorded complete under assumptions",
+      "scope_or_missing_input": "216 cases; proposed64Nmm exhausted at about1.15g in worst assumed case"
+    },
+    {
+      "workstream": "Assembled joint contact and preload",
+      "disposition": "Not run with credible inputs",
+      "scope_or_missing_input": "Actual materials,friction,preload,contact supports and reviewed loads missing"
+    },
+    {
+      "workstream": "Calibrated worn foam cover and head contact",
+      "disposition": "Not run with credible inputs",
+      "scope_or_missing_input": "Measured material curves,head geometry and forces missing"
+    },
+    {
+      "workstream": "Calibrated whole-device acoustics and climate",
+      "disposition": "Not run with credible inputs",
+      "scope_or_missing_input": "Actual seal,acoustic/thermal material properties and physical correlation missing"
+    },
+    {
+      "workstream": "Sony model specific replacement fit",
+      "disposition": "Input deferred",
+      "scope_or_missing_input": "Original pad and mount measurements missing"
+    },
+    {
+      "workstream": "Comfort sensory acceptance and life validation",
+      "disposition": "Requires physical tests",
+      "scope_or_missing_input": "Voluntary feedback,assembled samples,climate,cycles,drop and cleaning tests missing"
+    }
+  ]
+}

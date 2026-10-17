@@ -1,0 +1,5 @@
+from pathlib import Path
+import json,hashlib
+P=Path(__file__).parent;Q=P/'documents/qa';status=json.loads((P/'documents/document_status.json').read_text());reg=json.loads((Q/'softspace_branding_regression.json').read_text())
+r=dict(status='Approximate-preview review passed',reviewed_changed_bodies={'Ear_Defender_Project':[1],'Glasses_Friendly_Headphone_Cushions':[1,12]},reviewed_header_and_footer_samples={'Ear_Defender_Project':[1,77],'Glasses_Friendly_Headphone_Cushions':[1,12,53]},unchanged_body_regression=reg,scope='Both working-name titles and shared headers updated together. Native Word pagination remains unverified.',documents=status['documents'])
+(Q/'softspace_branding_visual_review.json').write_text(json.dumps(r,indent=2));status['publication_branding']=dict(main='SoftSpace',replacement_cushion='SoftSpace Flex',trademark_clearance='Incomplete',legacy_local_report_filenames_preserved=True);(P/'documents/document_status.json').write_text(json.dumps(status,indent=2));print('Both branded reports reviewed.')

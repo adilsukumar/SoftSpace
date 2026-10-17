@@ -1,0 +1,10 @@
+{"phase": "nominal", "angles": [0, 0], "pass": true, "overlaps": []}
+{"phase": "adjustment", "angles": [0, 0], "pass": true, "overlaps": []}
+{"phase": "adjustment", "angles": [0, 0], "pass": true, "overlaps": []}
+{"phase": "adjustment", "angles": [0, 0], "pass": true, "overlaps": []}
+{"phase": "adjustment", "angles": [0, 0], "pass": true, "overlaps": []}
+{"phase": "adjustment", "angles": [0, 0], "pass": true, "overlaps": []}
+{"phase": "adjustment", "angles": [0, 0], "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [0, 0], "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [5, 0], "pass": false, "overlaps": [{"parts": ["LeftFork", "LeftTongue"], "intersection_mm3": 4.594994979079212}]}
+{"samples": 9, "motion_pass": false, "stop_pass": true}

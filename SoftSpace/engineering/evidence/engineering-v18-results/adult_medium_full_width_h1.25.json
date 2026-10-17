@@ -1,0 +1,56 @@
+{
+  "nodes": 69935,
+  "tet10_elements": 40099,
+  "assembly_method": "CSR batches of up to2048 elements",
+  "reduced_matrix_storage": true,
+  "coarse_preconditioner_modes": 12,
+  "cg_iterations": 8568,
+  "relative_free_residual": 1.487650234449787e-07,
+  "minimum_quadrature_jacobian_mm3": 0.13084834518324626,
+  "max_von_mises_centroid_MPa": 2.8959042155734362,
+  "strain_energy_Nmm": 2.9943345423986565,
+  "reaction_sum_N": [
+    -2.0000000004409366,
+    1.0596903467549181e-10,
+    7.277363945831783e-10
+  ],
+  "sampled_peak_centroid_xyz_mm": [
+    103.59267083457814,
+    -8.739455263924341,
+    114.0645251622037
+  ],
+  "assumed_E_MPa": 2000,
+  "assumed_Poisson_ratio": 0.35,
+  "ideal_load_per_full_side_N": 2,
+  "size": "adult_medium",
+  "mesh_max_mm": 1.25,
+  "source": "${WORKSPACE}\\EarDefender_V18_adult_medium_FrictionStop.step",
+  "source_sha256": "9f6848d3981fe2fb1e24f43f3f65b2e491838fe1e1a99d4c3fa986ef6f1a0217",
+  "geometry_scope": "X-half band, complete actual front and rear width, single front bore retained",
+  "load_method": "2 N uniform traction integrated over full guide bottom",
+  "load_face_area_mm2": 86.55999999999965,
+  "minimum_adaptive_Jacobian_mm3": 0.13084834518316737,
+  "high_order_mesh_optimized": false,
+  "guide_weighted_x_displacement_mm": 2.9943345423343186,
+  "compliance_mm_per_N": 1.4971672711671593,
+  "restraint_nodes_xyz_mm": [
+    [
+      0.0,
+      14.0,
+      150.00000000000003
+    ],
+    [
+      0.0,
+      -14.0,
+      150.00000000000003
+    ]
+  ],
+  "seconds": 367.56002855300903,
+  "limits": [
+    "Ideal X symmetry; one front crown node restrains Y and Z, one rear crown node restrains Z to remove rigid roll",
+    "Restraints are numerical datums, not scalp contact",
+    "Different load distribution and crown restraints from quarter-width study; difference cannot be attributed solely to removed Y symmetry",
+    "Faceted quadratic geometry,ideal supports and peak centroid stress do not qualify strength or comfort",
+    "Assumed E 2000 MPa and Poisson 0.35; no guide, locking or full assembly contact"
+  ]
+}

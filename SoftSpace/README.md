@@ -1,0 +1,34 @@
+# SoftSpace
+
+**An affordable passive over-ear headphone concept, with sound-sensitive autistic users in India as the first priority.**
+
+[Read the illustrated report](reports/SoftSpace_Report.docx) · [Open V19 CAD](CAD/V19) · [Browse engineering evidence](engineering/README.md) · [Back to the project](../README.md)
+
+![V19 saved child and adult STEP assemblies](media/V19_assemblies.png)
+
+We are investigating fit, pressure, heat, texture, glasses contact, bulk and passive sound reduction together. The current concept has six adjustable child/adult size variants and a sampled folding proposal. No electronic noise-cancellation system or audio playback circuit has been implemented in this CAD study.
+
+## Current files
+
+| Folder | Contents | Status |
+| :--- | :--- | :--- |
+| [reports](reports) | SoftSpace Word report with development history and selected market comparisons | Living evidence record |
+| [CAD/V19](CAD/V19) | Six STEP assemblies and 18 sampled wear/retracted/folded exports | Current local geometry; prototype proposal |
+| [CAD/V10-native](CAD/V10-native) | Earlier native Fusion archives | V10, not a native V19 rebuild |
+| [engineering](engineering) | Shared CAD sources, numerical arrays, results, failures and handoff forms | Assumptions and scope must be read with each result |
+
+## Recorded checks
+
+The six V19 assemblies contain 42 solids each. The recorded geometry work includes 189 sampled rigid poses, 24 outward-stop queries and 18 reimported pose exports.
+
+Selected higher-order joint comparisons pass the chosen 5% displacement-change check: outward 0.39% / 0.41% and inward 0.37% / 0.34% for child large / adult small. These are ideal-pivot fixture calculations with assumed material/contact properties. They do not prove complete-joint strength, comfort, acoustic performance or durability.
+
+![Saved retracted and folded poses](media/V19_folding.png)
+
+## Before a complete product prototype
+
+Collect real material curves, headband force and hinge torque, then build and measure a bench hinge and cushion sample. The proposed nut/pin stack still needs tool-access, locking, thread/tolerance and supplier review. Current threads are cosmetic CAD envelopes. The nominal dimension review is not a production drawing.
+
+Individual sensory acceptance requires voluntary feedback. No universal autistic preference, guaranteed comfort, real sound-reduction result or market-superiority claim is established.
+
+The related [SoftSpace Flex](../SoftSpace%20Flex/README.md) cushion route shares material and contact-design learning. Its Sony fit remains unverified.

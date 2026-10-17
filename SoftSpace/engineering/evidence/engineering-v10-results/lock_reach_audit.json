@@ -1,0 +1,768 @@
+{
+  "status": "complete",
+  "case_count": 84,
+  "all_geometric_reach_pass": true,
+  "cases": [
+    {
+      "size": "child_small",
+      "side": -1,
+      "extension_mm": 0,
+      "clamp_axis_z_mm": 84,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42"
+    },
+    {
+      "size": "child_small",
+      "side": -1,
+      "extension_mm": 5,
+      "clamp_axis_z_mm": 89,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42"
+    },
+    {
+      "size": "child_small",
+      "side": -1,
+      "extension_mm": 10,
+      "clamp_axis_z_mm": 94,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42"
+    },
+    {
+      "size": "child_small",
+      "side": -1,
+      "extension_mm": 15,
+      "clamp_axis_z_mm": 99,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42"
+    },
+    {
+      "size": "child_small",
+      "side": -1,
+      "extension_mm": 20,
+      "clamp_axis_z_mm": 104,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42"
+    },
+    {
+      "size": "child_small",
+      "side": -1,
+      "extension_mm": 25,
+      "clamp_axis_z_mm": 109,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42"
+    },
+    {
+      "size": "child_small",
+      "side": -1,
+      "extension_mm": 30,
+      "clamp_axis_z_mm": 114,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42"
+    },
+    {
+      "size": "child_small",
+      "side": 1,
+      "extension_mm": 0,
+      "clamp_axis_z_mm": 84,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42"
+    },
+    {
+      "size": "child_small",
+      "side": 1,
+      "extension_mm": 5,
+      "clamp_axis_z_mm": 89,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42"
+    },
+    {
+      "size": "child_small",
+      "side": 1,
+      "extension_mm": 10,
+      "clamp_axis_z_mm": 94,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42"
+    },
+    {
+      "size": "child_small",
+      "side": 1,
+      "extension_mm": 15,
+      "clamp_axis_z_mm": 99,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42"
+    },
+    {
+      "size": "child_small",
+      "side": 1,
+      "extension_mm": 20,
+      "clamp_axis_z_mm": 104,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42"
+    },
+    {
+      "size": "child_small",
+      "side": 1,
+      "extension_mm": 25,
+      "clamp_axis_z_mm": 109,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42"
+    },
+    {
+      "size": "child_small",
+      "side": 1,
+      "extension_mm": 30,
+      "clamp_axis_z_mm": 114,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42"
+    },
+    {
+      "size": "child_medium",
+      "side": -1,
+      "extension_mm": 0,
+      "clamp_axis_z_mm": 84,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd"
+    },
+    {
+      "size": "child_medium",
+      "side": -1,
+      "extension_mm": 5,
+      "clamp_axis_z_mm": 89,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd"
+    },
+    {
+      "size": "child_medium",
+      "side": -1,
+      "extension_mm": 10,
+      "clamp_axis_z_mm": 94,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd"
+    },
+    {
+      "size": "child_medium",
+      "side": -1,
+      "extension_mm": 15,
+      "clamp_axis_z_mm": 99,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd"
+    },
+    {
+      "size": "child_medium",
+      "side": -1,
+      "extension_mm": 20,
+      "clamp_axis_z_mm": 104,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd"
+    },
+    {
+      "size": "child_medium",
+      "side": -1,
+      "extension_mm": 25,
+      "clamp_axis_z_mm": 109,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd"
+    },
+    {
+      "size": "child_medium",
+      "side": -1,
+      "extension_mm": 30,
+      "clamp_axis_z_mm": 114,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd"
+    },
+    {
+      "size": "child_medium",
+      "side": 1,
+      "extension_mm": 0,
+      "clamp_axis_z_mm": 84,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd"
+    },
+    {
+      "size": "child_medium",
+      "side": 1,
+      "extension_mm": 5,
+      "clamp_axis_z_mm": 89,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd"
+    },
+    {
+      "size": "child_medium",
+      "side": 1,
+      "extension_mm": 10,
+      "clamp_axis_z_mm": 94,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd"
+    },
+    {
+      "size": "child_medium",
+      "side": 1,
+      "extension_mm": 15,
+      "clamp_axis_z_mm": 99,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd"
+    },
+    {
+      "size": "child_medium",
+      "side": 1,
+      "extension_mm": 20,
+      "clamp_axis_z_mm": 104,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd"
+    },
+    {
+      "size": "child_medium",
+      "side": 1,
+      "extension_mm": 25,
+      "clamp_axis_z_mm": 109,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd"
+    },
+    {
+      "size": "child_medium",
+      "side": 1,
+      "extension_mm": 30,
+      "clamp_axis_z_mm": 114,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd"
+    },
+    {
+      "size": "child_large",
+      "side": -1,
+      "extension_mm": 0,
+      "clamp_axis_z_mm": 84,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38"
+    },
+    {
+      "size": "child_large",
+      "side": -1,
+      "extension_mm": 5,
+      "clamp_axis_z_mm": 89,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38"
+    },
+    {
+      "size": "child_large",
+      "side": -1,
+      "extension_mm": 10,
+      "clamp_axis_z_mm": 94,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38"
+    },
+    {
+      "size": "child_large",
+      "side": -1,
+      "extension_mm": 15,
+      "clamp_axis_z_mm": 99,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38"
+    },
+    {
+      "size": "child_large",
+      "side": -1,
+      "extension_mm": 20,
+      "clamp_axis_z_mm": 104,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38"
+    },
+    {
+      "size": "child_large",
+      "side": -1,
+      "extension_mm": 25,
+      "clamp_axis_z_mm": 109,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38"
+    },
+    {
+      "size": "child_large",
+      "side": -1,
+      "extension_mm": 30,
+      "clamp_axis_z_mm": 114,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38"
+    },
+    {
+      "size": "child_large",
+      "side": 1,
+      "extension_mm": 0,
+      "clamp_axis_z_mm": 84,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38"
+    },
+    {
+      "size": "child_large",
+      "side": 1,
+      "extension_mm": 5,
+      "clamp_axis_z_mm": 89,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38"
+    },
+    {
+      "size": "child_large",
+      "side": 1,
+      "extension_mm": 10,
+      "clamp_axis_z_mm": 94,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38"
+    },
+    {
+      "size": "child_large",
+      "side": 1,
+      "extension_mm": 15,
+      "clamp_axis_z_mm": 99,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38"
+    },
+    {
+      "size": "child_large",
+      "side": 1,
+      "extension_mm": 20,
+      "clamp_axis_z_mm": 104,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38"
+    },
+    {
+      "size": "child_large",
+      "side": 1,
+      "extension_mm": 25,
+      "clamp_axis_z_mm": 109,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38"
+    },
+    {
+      "size": "child_large",
+      "side": 1,
+      "extension_mm": 30,
+      "clamp_axis_z_mm": 114,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38"
+    },
+    {
+      "size": "adult_small",
+      "side": -1,
+      "extension_mm": 0,
+      "clamp_axis_z_mm": 84,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3"
+    },
+    {
+      "size": "adult_small",
+      "side": -1,
+      "extension_mm": 5,
+      "clamp_axis_z_mm": 89,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3"
+    },
+    {
+      "size": "adult_small",
+      "side": -1,
+      "extension_mm": 10,
+      "clamp_axis_z_mm": 94,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3"
+    },
+    {
+      "size": "adult_small",
+      "side": -1,
+      "extension_mm": 15,
+      "clamp_axis_z_mm": 99,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3"
+    },
+    {
+      "size": "adult_small",
+      "side": -1,
+      "extension_mm": 20,
+      "clamp_axis_z_mm": 104,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3"
+    },
+    {
+      "size": "adult_small",
+      "side": -1,
+      "extension_mm": 25,
+      "clamp_axis_z_mm": 109,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3"
+    },
+    {
+      "size": "adult_small",
+      "side": -1,
+      "extension_mm": 30,
+      "clamp_axis_z_mm": 114,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3"
+    },
+    {
+      "size": "adult_small",
+      "side": 1,
+      "extension_mm": 0,
+      "clamp_axis_z_mm": 84,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3"
+    },
+    {
+      "size": "adult_small",
+      "side": 1,
+      "extension_mm": 5,
+      "clamp_axis_z_mm": 89,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3"
+    },
+    {
+      "size": "adult_small",
+      "side": 1,
+      "extension_mm": 10,
+      "clamp_axis_z_mm": 94,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3"
+    },
+    {
+      "size": "adult_small",
+      "side": 1,
+      "extension_mm": 15,
+      "clamp_axis_z_mm": 99,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3"
+    },
+    {
+      "size": "adult_small",
+      "side": 1,
+      "extension_mm": 20,
+      "clamp_axis_z_mm": 104,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3"
+    },
+    {
+      "size": "adult_small",
+      "side": 1,
+      "extension_mm": 25,
+      "clamp_axis_z_mm": 109,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3"
+    },
+    {
+      "size": "adult_small",
+      "side": 1,
+      "extension_mm": 30,
+      "clamp_axis_z_mm": 114,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3"
+    },
+    {
+      "size": "adult_medium",
+      "side": -1,
+      "extension_mm": 0,
+      "clamp_axis_z_mm": 84,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8"
+    },
+    {
+      "size": "adult_medium",
+      "side": -1,
+      "extension_mm": 5,
+      "clamp_axis_z_mm": 89,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8"
+    },
+    {
+      "size": "adult_medium",
+      "side": -1,
+      "extension_mm": 10,
+      "clamp_axis_z_mm": 94,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8"
+    },
+    {
+      "size": "adult_medium",
+      "side": -1,
+      "extension_mm": 15,
+      "clamp_axis_z_mm": 99,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8"
+    },
+    {
+      "size": "adult_medium",
+      "side": -1,
+      "extension_mm": 20,
+      "clamp_axis_z_mm": 104,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8"
+    },
+    {
+      "size": "adult_medium",
+      "side": -1,
+      "extension_mm": 25,
+      "clamp_axis_z_mm": 109,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8"
+    },
+    {
+      "size": "adult_medium",
+      "side": -1,
+      "extension_mm": 30,
+      "clamp_axis_z_mm": 114,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8"
+    },
+    {
+      "size": "adult_medium",
+      "side": 1,
+      "extension_mm": 0,
+      "clamp_axis_z_mm": 84,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8"
+    },
+    {
+      "size": "adult_medium",
+      "side": 1,
+      "extension_mm": 5,
+      "clamp_axis_z_mm": 89,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8"
+    },
+    {
+      "size": "adult_medium",
+      "side": 1,
+      "extension_mm": 10,
+      "clamp_axis_z_mm": 94,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8"
+    },
+    {
+      "size": "adult_medium",
+      "side": 1,
+      "extension_mm": 15,
+      "clamp_axis_z_mm": 99,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8"
+    },
+    {
+      "size": "adult_medium",
+      "side": 1,
+      "extension_mm": 20,
+      "clamp_axis_z_mm": 104,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8"
+    },
+    {
+      "size": "adult_medium",
+      "side": 1,
+      "extension_mm": 25,
+      "clamp_axis_z_mm": 109,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8"
+    },
+    {
+      "size": "adult_medium",
+      "side": 1,
+      "extension_mm": 30,
+      "clamp_axis_z_mm": 114,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8"
+    },
+    {
+      "size": "adult_large",
+      "side": -1,
+      "extension_mm": 0,
+      "clamp_axis_z_mm": 84,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91"
+    },
+    {
+      "size": "adult_large",
+      "side": -1,
+      "extension_mm": 5,
+      "clamp_axis_z_mm": 89,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91"
+    },
+    {
+      "size": "adult_large",
+      "side": -1,
+      "extension_mm": 10,
+      "clamp_axis_z_mm": 94,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91"
+    },
+    {
+      "size": "adult_large",
+      "side": -1,
+      "extension_mm": 15,
+      "clamp_axis_z_mm": 99,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91"
+    },
+    {
+      "size": "adult_large",
+      "side": -1,
+      "extension_mm": 20,
+      "clamp_axis_z_mm": 104,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91"
+    },
+    {
+      "size": "adult_large",
+      "side": -1,
+      "extension_mm": 25,
+      "clamp_axis_z_mm": 109,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91"
+    },
+    {
+      "size": "adult_large",
+      "side": -1,
+      "extension_mm": 30,
+      "clamp_axis_z_mm": 114,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91"
+    },
+    {
+      "size": "adult_large",
+      "side": 1,
+      "extension_mm": 0,
+      "clamp_axis_z_mm": 84,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91"
+    },
+    {
+      "size": "adult_large",
+      "side": 1,
+      "extension_mm": 5,
+      "clamp_axis_z_mm": 89,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91"
+    },
+    {
+      "size": "adult_large",
+      "side": 1,
+      "extension_mm": 10,
+      "clamp_axis_z_mm": 94,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91"
+    },
+    {
+      "size": "adult_large",
+      "side": 1,
+      "extension_mm": 15,
+      "clamp_axis_z_mm": 99,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91"
+    },
+    {
+      "size": "adult_large",
+      "side": 1,
+      "extension_mm": 20,
+      "clamp_axis_z_mm": 104,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91"
+    },
+    {
+      "size": "adult_large",
+      "side": 1,
+      "extension_mm": 25,
+      "clamp_axis_z_mm": 109,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91"
+    },
+    {
+      "size": "adult_large",
+      "side": 1,
+      "extension_mm": 30,
+      "clamp_axis_z_mm": 114,
+      "clamp_to_tongue_distance_mm": 0.0,
+      "geometric_reach_pass": true,
+      "source_sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91"
+    }
+  ],
+  "limits": [
+    "Ideal CAD stem meets tongue at the front face; no physical clamp force is computed",
+    "No thread, torque, friction, creep, tip wear or holding-force validation",
+    "Intended0\u201330mm range only; maximum actual mechanical travel and stop retention still need testing"
+  ]
+}

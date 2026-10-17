@@ -1,0 +1,51 @@
+{
+  "arrays_checked": 6,
+  "audits": [
+    {
+      "file": "${WORKSPACE}\\engineering-v17-results\\child_large_pin_contact_h1.npz",
+      "sha256": "3a72b7789025bbb160eabd64e019c7649fcf250246c296dcaa3ac3d3f1ea10df",
+      "force_balance_error_N": 1.8602115403609787e-09,
+      "moment_balance_error_Nmm": 1.3778013396859023e-07,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v17-results\\child_large_pin_contact_h0.5.npz",
+      "sha256": "a9d9af0f8544ab765f3627aa1394acf9b598e053684e4d78ab9cb00ebaa2cef9",
+      "force_balance_error_N": 4.251536900312658e-09,
+      "moment_balance_error_Nmm": 2.539494516895502e-07,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v17-results\\child_large_pin_contact_h0.25.npz",
+      "sha256": "9e6714dd9657c700c49f33d3d48520939984d341c73e41726096e073ae33d70d",
+      "force_balance_error_N": 1.783351333273231e-08,
+      "moment_balance_error_Nmm": 7.079100541318439e-07,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v17-results\\adult_small_pin_contact_h1.npz",
+      "sha256": "285d0675d19ed1ec48f07138677b398bbdd6cf2233689283d76a5636a5e7d7cd",
+      "force_balance_error_N": 1.9771473347418578e-09,
+      "moment_balance_error_Nmm": 1.3552670452554594e-07,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v17-results\\adult_small_pin_contact_h0.5.npz",
+      "sha256": "b1b192f73f35457d5dcb3f9e1208c571b01f2cab7c325d47115a55e17ad17684",
+      "force_balance_error_N": 3.3832003865086335e-09,
+      "moment_balance_error_Nmm": 2.5612770571115107e-07,
+      "pass": true
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v17-results\\adult_small_pin_contact_h0.25.npz",
+      "sha256": "8ffb1bd8483420d07d3512fddca1b5ab0410be81d85e2219540c7cd8d1861189",
+      "force_balance_error_N": 4.0364024123107356e-08,
+      "moment_balance_error_Nmm": 9.388749688810094e-07,
+      "pass": true
+    }
+  ],
+  "contact_controls_pass": true,
+  "selected_contact_refinements_pass": true,
+  "manufacturing_release": false,
+  "scope": "Source identity and independent saved-array equilibrium checks; not physical validation"
+}

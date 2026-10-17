@@ -1,0 +1,56 @@
+{
+  "jobs": [
+    {
+      "args": [
+        "build_v16_indexed_rivet.py",
+        "adult_small",
+        "16"
+      ],
+      "returncode": 0,
+      "log": "${WORKSPACE}\\engineering-v16-results\\run_build_v16_indexed_rivet_adult_small_16.log"
+    },
+    {
+      "args": [
+        "audit_v16_indexed_rivet.py",
+        "adult_small_R16"
+      ],
+      "returncode": 0,
+      "log": "${WORKSPACE}\\engineering-v16-results\\run_audit_v16_indexed_rivet_adult_small_R16.log"
+    },
+    {
+      "args": [
+        "build_v16_indexed_rivet.py",
+        "adult_medium",
+        "16"
+      ],
+      "returncode": 0,
+      "log": "${WORKSPACE}\\engineering-v16-results\\run_build_v16_indexed_rivet_adult_medium_16.log"
+    },
+    {
+      "args": [
+        "audit_v16_indexed_rivet.py",
+        "adult_medium_R16"
+      ],
+      "returncode": 0,
+      "log": "${WORKSPACE}\\engineering-v16-results\\run_audit_v16_indexed_rivet_adult_medium_R16.log"
+    },
+    {
+      "args": [
+        "build_v16_indexed_rivet.py",
+        "adult_large",
+        "16"
+      ],
+      "returncode": 0,
+      "log": "${WORKSPACE}\\engineering-v16-results\\run_build_v16_indexed_rivet_adult_large_16.log"
+    },
+    {
+      "args": [
+        "audit_v16_indexed_rivet.py",
+        "adult_large_R16"
+      ],
+      "returncode": 0,
+      "log": "${WORKSPACE}\\engineering-v16-results\\run_audit_v16_indexed_rivet_adult_large_R16.log"
+    }
+  ],
+  "complete": true
+}

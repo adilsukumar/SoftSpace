@@ -1,0 +1,487 @@
+{
+  "case_count": 60,
+  "all_match": true,
+  "cases": [
+    {
+      "variant": "child_small_R16",
+      "side": "Left",
+      "offset_mm": -0.06,
+      "interference_mm3": 0.026195193861695193,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_small_R16",
+      "side": "Left",
+      "offset_mm": -0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_small_R16",
+      "side": "Left",
+      "offset_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_small_R16",
+      "side": "Left",
+      "offset_mm": 0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_small_R16",
+      "side": "Left",
+      "offset_mm": 0.06,
+      "interference_mm3": 0.026195193861734925,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_small_R16",
+      "side": "Right",
+      "offset_mm": -0.06,
+      "interference_mm3": 0.02619519386169486,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_small_R16",
+      "side": "Right",
+      "offset_mm": -0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_small_R16",
+      "side": "Right",
+      "offset_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_small_R16",
+      "side": "Right",
+      "offset_mm": 0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_small_R16",
+      "side": "Right",
+      "offset_mm": 0.06,
+      "interference_mm3": 0.026195193861734835,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_medium_R16",
+      "side": "Left",
+      "offset_mm": -0.06,
+      "interference_mm3": 0.026195193861307003,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_medium_R16",
+      "side": "Left",
+      "offset_mm": -0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_medium_R16",
+      "side": "Left",
+      "offset_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_medium_R16",
+      "side": "Left",
+      "offset_mm": 0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_medium_R16",
+      "side": "Left",
+      "offset_mm": 0.06,
+      "interference_mm3": 0.026195193861672267,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_medium_R16",
+      "side": "Right",
+      "offset_mm": -0.06,
+      "interference_mm3": 0.026195193861694804,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_medium_R16",
+      "side": "Right",
+      "offset_mm": -0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_medium_R16",
+      "side": "Right",
+      "offset_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_medium_R16",
+      "side": "Right",
+      "offset_mm": 0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_medium_R16",
+      "side": "Right",
+      "offset_mm": 0.06,
+      "interference_mm3": 0.026195193861688136,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_large_R16",
+      "side": "Left",
+      "offset_mm": -0.06,
+      "interference_mm3": 0.026195193861284452,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_large_R16",
+      "side": "Left",
+      "offset_mm": -0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_large_R16",
+      "side": "Left",
+      "offset_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_large_R16",
+      "side": "Left",
+      "offset_mm": 0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_large_R16",
+      "side": "Left",
+      "offset_mm": 0.06,
+      "interference_mm3": 0.026195193861734967,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_large_R16",
+      "side": "Right",
+      "offset_mm": -0.06,
+      "interference_mm3": 0.026195193861306892,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_large_R16",
+      "side": "Right",
+      "offset_mm": -0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_large_R16",
+      "side": "Right",
+      "offset_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_large_R16",
+      "side": "Right",
+      "offset_mm": 0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "child_large_R16",
+      "side": "Right",
+      "offset_mm": 0.06,
+      "interference_mm3": 0.026195193861734904,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_small_R16U2",
+      "side": "Left",
+      "offset_mm": -0.06,
+      "interference_mm3": 0.026195193786232224,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_small_R16U2",
+      "side": "Left",
+      "offset_mm": -0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_small_R16U2",
+      "side": "Left",
+      "offset_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_small_R16U2",
+      "side": "Left",
+      "offset_mm": 0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_small_R16U2",
+      "side": "Left",
+      "offset_mm": 0.06,
+      "interference_mm3": 0.026195193935767525,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_small_R16U2",
+      "side": "Right",
+      "offset_mm": -0.06,
+      "interference_mm3": 0.026195193883112006,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_small_R16U2",
+      "side": "Right",
+      "offset_mm": -0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_small_R16U2",
+      "side": "Right",
+      "offset_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_small_R16U2",
+      "side": "Right",
+      "offset_mm": 0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_small_R16U2",
+      "side": "Right",
+      "offset_mm": 0.06,
+      "interference_mm3": 0.02619519383888362,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_medium_R16U2",
+      "side": "Left",
+      "offset_mm": -0.06,
+      "interference_mm3": 0.02619519386057627,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_medium_R16U2",
+      "side": "Left",
+      "offset_mm": -0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_medium_R16U2",
+      "side": "Left",
+      "offset_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_medium_R16U2",
+      "side": "Left",
+      "offset_mm": 0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_medium_R16U2",
+      "side": "Left",
+      "offset_mm": 0.06,
+      "interference_mm3": 0.026195193860572244,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_medium_R16U2",
+      "side": "Right",
+      "offset_mm": -0.06,
+      "interference_mm3": 0.026195193860580765,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_medium_R16U2",
+      "side": "Right",
+      "offset_mm": -0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_medium_R16U2",
+      "side": "Right",
+      "offset_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_medium_R16U2",
+      "side": "Right",
+      "offset_mm": 0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_medium_R16U2",
+      "side": "Right",
+      "offset_mm": 0.06,
+      "interference_mm3": 0.026195193862270177,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_large_R16U2",
+      "side": "Left",
+      "offset_mm": -0.06,
+      "interference_mm3": 0.026195193860580543,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_large_R16U2",
+      "side": "Left",
+      "offset_mm": -0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_large_R16U2",
+      "side": "Left",
+      "offset_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_large_R16U2",
+      "side": "Left",
+      "offset_mm": 0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_large_R16U2",
+      "side": "Left",
+      "offset_mm": 0.06,
+      "interference_mm3": 0.026195193862270177,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_large_R16U2",
+      "side": "Right",
+      "offset_mm": -0.06,
+      "interference_mm3": 0.02619519386226908,
+      "expected_interference": true,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_large_R16U2",
+      "side": "Right",
+      "offset_mm": -0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_large_R16U2",
+      "side": "Right",
+      "offset_mm": 0,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_large_R16U2",
+      "side": "Right",
+      "offset_mm": 0.04,
+      "interference_mm3": 0.0,
+      "expected_interference": false,
+      "matches_analytic": true
+    },
+    {
+      "variant": "adult_large_R16U2",
+      "side": "Right",
+      "offset_mm": 0.06,
+      "interference_mm3": 0.026195193862264127,
+      "expected_interference": true,
+      "matches_analytic": true
+    }
+  ],
+  "scope": "Wear position pin versus tongue only. Confirms nominal radial fit equation at sampled offsets; not a tolerance or spring-return qualification."
+}

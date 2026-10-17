@@ -1,0 +1,581 @@
+{
+  "converged": false,
+  "error": "Assembly contact iteration did not converge; no static equilibrium pass",
+  "history": [
+    {
+      "iteration": 0,
+      "relative_u_change": 1.0,
+      "relative_equilibrium_residual": 0.24269488554986837,
+      "active": 549,
+      "slip_points": 305
+    },
+    {
+      "iteration": 1,
+      "relative_u_change": 0.02836327177774013,
+      "relative_equilibrium_residual": 0.2578886295757976,
+      "active": 528,
+      "slip_points": 313
+    },
+    {
+      "iteration": 2,
+      "relative_u_change": 0.031022632501519688,
+      "relative_equilibrium_residual": 0.22901943334815786,
+      "active": 512,
+      "slip_points": 327
+    },
+    {
+      "iteration": 3,
+      "relative_u_change": 0.01663818896779048,
+      "relative_equilibrium_residual": 0.2223886858972209,
+      "active": 500,
+      "slip_points": 339
+    },
+    {
+      "iteration": 4,
+      "relative_u_change": 0.02129445898483849,
+      "relative_equilibrium_residual": 0.13795597468143384,
+      "active": 494,
+      "slip_points": 365
+    },
+    {
+      "iteration": 5,
+      "relative_u_change": 0.011018870642629373,
+      "relative_equilibrium_residual": 0.08760157565133649,
+      "active": 492,
+      "slip_points": 377
+    },
+    {
+      "iteration": 6,
+      "relative_u_change": 0.015194020907868129,
+      "relative_equilibrium_residual": 0.045692120967380775,
+      "active": 492,
+      "slip_points": 402
+    },
+    {
+      "iteration": 7,
+      "relative_u_change": 0.0013998171394642826,
+      "relative_equilibrium_residual": 0.03952928164054357,
+      "active": 492,
+      "slip_points": 407
+    },
+    {
+      "iteration": 8,
+      "relative_u_change": 0.0012711065135778347,
+      "relative_equilibrium_residual": 0.034735389524206794,
+      "active": 492,
+      "slip_points": 420
+    },
+    {
+      "iteration": 9,
+      "relative_u_change": 0.0011629278105002613,
+      "relative_equilibrium_residual": 0.03088316534667879,
+      "active": 492,
+      "slip_points": 429
+    },
+    {
+      "iteration": 10,
+      "relative_u_change": 0.0010720583644814056,
+      "relative_equilibrium_residual": 0.02781465942506889,
+      "active": 492,
+      "slip_points": 434
+    },
+    {
+      "iteration": 11,
+      "relative_u_change": 0.0009993485307696814,
+      "relative_equilibrium_residual": 0.025250271777190858,
+      "active": 492,
+      "slip_points": 443
+    },
+    {
+      "iteration": 12,
+      "relative_u_change": 0.0009360335249065546,
+      "relative_equilibrium_residual": 0.023097601276001706,
+      "active": 492,
+      "slip_points": 449
+    },
+    {
+      "iteration": 13,
+      "relative_u_change": 0.0008833110311865053,
+      "relative_equilibrium_residual": 0.021226518694250098,
+      "active": 492,
+      "slip_points": 455
+    },
+    {
+      "iteration": 14,
+      "relative_u_change": 0.0008353197812662461,
+      "relative_equilibrium_residual": 0.019556640347259267,
+      "active": 492,
+      "slip_points": 460
+    },
+    {
+      "iteration": 15,
+      "relative_u_change": 0.0007904216098630573,
+      "relative_equilibrium_residual": 0.018062353308157496,
+      "active": 492,
+      "slip_points": 465
+    },
+    {
+      "iteration": 16,
+      "relative_u_change": 0.0007488922040999584,
+      "relative_equilibrium_residual": 0.01673052015670523,
+      "active": 492,
+      "slip_points": 467
+    },
+    {
+      "iteration": 17,
+      "relative_u_change": 0.0007104443901058917,
+      "relative_equilibrium_residual": 0.01554265962593092,
+      "active": 492,
+      "slip_points": 472
+    },
+    {
+      "iteration": 18,
+      "relative_u_change": 0.0006754749254660039,
+      "relative_equilibrium_residual": 0.014466226032600296,
+      "active": 492,
+      "slip_points": 472
+    },
+    {
+      "iteration": 19,
+      "relative_u_change": 0.0006417913415058677,
+      "relative_equilibrium_residual": 0.013498540467390241,
+      "active": 492,
+      "slip_points": 475
+    },
+    {
+      "iteration": 20,
+      "relative_u_change": 0.0006112082183975575,
+      "relative_equilibrium_residual": 0.012639475624376057,
+      "active": 492,
+      "slip_points": 477
+    },
+    {
+      "iteration": 21,
+      "relative_u_change": 0.0005832543451675203,
+      "relative_equilibrium_residual": 0.011894433792255096,
+      "active": 492,
+      "slip_points": 481
+    },
+    {
+      "iteration": 22,
+      "relative_u_change": 0.0005586276866540152,
+      "relative_equilibrium_residual": 0.011232555053323804,
+      "active": 492,
+      "slip_points": 482
+    },
+    {
+      "iteration": 23,
+      "relative_u_change": 0.000535733959644093,
+      "relative_equilibrium_residual": 0.01062534019062736,
+      "active": 492,
+      "slip_points": 485
+    },
+    {
+      "iteration": 24,
+      "relative_u_change": 0.000514919237623857,
+      "relative_equilibrium_residual": 0.010070354974346264,
+      "active": 492,
+      "slip_points": 486
+    },
+    {
+      "iteration": 25,
+      "relative_u_change": 0.0004966861983584723,
+      "relative_equilibrium_residual": 0.009549549336394717,
+      "active": 492,
+      "slip_points": 486
+    },
+    {
+      "iteration": 26,
+      "relative_u_change": 0.0004801006747104246,
+      "relative_equilibrium_residual": 0.009055506333737678,
+      "active": 492,
+      "slip_points": 488
+    },
+    {
+      "iteration": 27,
+      "relative_u_change": 0.00046333903647720684,
+      "relative_equilibrium_residual": 0.008579486146440458,
+      "active": 492,
+      "slip_points": 488
+    },
+    {
+      "iteration": 28,
+      "relative_u_change": 0.0004465084173847116,
+      "relative_equilibrium_residual": 0.008115575904739016,
+      "active": 492,
+      "slip_points": 488
+    },
+    {
+      "iteration": 29,
+      "relative_u_change": 0.0004296549351417803,
+      "relative_equilibrium_residual": 0.007660801362300757,
+      "active": 492,
+      "slip_points": 487
+    },
+    {
+      "iteration": 30,
+      "relative_u_change": 0.00041269818371250254,
+      "relative_equilibrium_residual": 0.007217889904804637,
+      "active": 492,
+      "slip_points": 487
+    },
+    {
+      "iteration": 31,
+      "relative_u_change": 0.0003958288791220198,
+      "relative_equilibrium_residual": 0.0067883357879860795,
+      "active": 492,
+      "slip_points": 487
+    },
+    {
+      "iteration": 32,
+      "relative_u_change": 0.00037909116288555473,
+      "relative_equilibrium_residual": 0.0063735407188707455,
+      "active": 492,
+      "slip_points": 487
+    },
+    {
+      "iteration": 33,
+      "relative_u_change": 0.0003625117074689498,
+      "relative_equilibrium_residual": 0.005978505338262669,
+      "active": 492,
+      "slip_points": 488
+    },
+    {
+      "iteration": 34,
+      "relative_u_change": 0.00034639066119798576,
+      "relative_equilibrium_residual": 0.005605237946339195,
+      "active": 492,
+      "slip_points": 488
+    },
+    {
+      "iteration": 35,
+      "relative_u_change": 0.0003308125529436607,
+      "relative_equilibrium_residual": 0.005248765192831817,
+      "active": 492,
+      "slip_points": 488
+    },
+    {
+      "iteration": 36,
+      "relative_u_change": 0.0003154405288179254,
+      "relative_equilibrium_residual": 0.004909554556472269,
+      "active": 492,
+      "slip_points": 488
+    },
+    {
+      "iteration": 37,
+      "relative_u_change": 0.0003003200331014715,
+      "relative_equilibrium_residual": 0.004587904462664881,
+      "active": 492,
+      "slip_points": 488
+    },
+    {
+      "iteration": 38,
+      "relative_u_change": 0.0002854990407227931,
+      "relative_equilibrium_residual": 0.004284386482740717,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 39,
+      "relative_u_change": 0.0002710624305371214,
+      "relative_equilibrium_residual": 0.004003038149087097,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 40,
+      "relative_u_change": 0.00025734662498171426,
+      "relative_equilibrium_residual": 0.003737888707993042,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 41,
+      "relative_u_change": 0.00024398541553299357,
+      "relative_equilibrium_residual": 0.003488436451311814,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 42,
+      "relative_u_change": 0.00023102170657935471,
+      "relative_equilibrium_residual": 0.0032541818493644578,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 43,
+      "relative_u_change": 0.00021848827309454413,
+      "relative_equilibrium_residual": 0.0030345561844797374,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 44,
+      "relative_u_change": 0.00020640909232284054,
+      "relative_equilibrium_residual": 0.0028289254973289774,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 45,
+      "relative_u_change": 0.00019480061268787498,
+      "relative_equilibrium_residual": 0.002636611775806751,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 46,
+      "relative_u_change": 0.00018367285929232042,
+      "relative_equilibrium_residual": 0.0024569143114006333,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 47,
+      "relative_u_change": 0.00017303039867434282,
+      "relative_equilibrium_residual": 0.002289127044416668,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 48,
+      "relative_u_change": 0.0001628732780981807,
+      "relative_equilibrium_residual": 0.002132551581575609,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 49,
+      "relative_u_change": 0.0001531976897373308,
+      "relative_equilibrium_residual": 0.0019865065161386634,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 50,
+      "relative_u_change": 0.00014399675949612864,
+      "relative_equilibrium_residual": 0.0018503338698539998,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 51,
+      "relative_u_change": 0.00013526100661109561,
+      "relative_equilibrium_residual": 0.0017234033008023135,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 52,
+      "relative_u_change": 0.00012697893914909286,
+      "relative_equilibrium_residual": 0.0016051146556403783,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 53,
+      "relative_u_change": 0.00011913742725630348,
+      "relative_equilibrium_residual": 0.0014948992683574652,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 54,
+      "relative_u_change": 0.00011172213940545558,
+      "relative_equilibrium_residual": 0.0013922203591241302,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 55,
+      "relative_u_change": 0.00010471778680516478,
+      "relative_equilibrium_residual": 0.001296572754417844,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 56,
+      "relative_u_change": 9.810847209052614e-05,
+      "relative_equilibrium_residual": 0.0012074821601163503,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 57,
+      "relative_u_change": 9.187789914811205e-05,
+      "relative_equilibrium_residual": 0.0011245041043465446,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 58,
+      "relative_u_change": 8.600956192367527e-05,
+      "relative_equilibrium_residual": 0.0010472226791594472,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 59,
+      "relative_u_change": 8.048691947433947e-05,
+      "relative_equilibrium_residual": 0.0009752491537024351,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 60,
+      "relative_u_change": 7.529354055351432e-05,
+      "relative_equilibrium_residual": 0.0009082205303894655,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 61,
+      "relative_u_change": 7.041320712985136e-05,
+      "relative_equilibrium_residual": 0.0008457980786852133,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 62,
+      "relative_u_change": 6.583003023986119e-05,
+      "relative_equilibrium_residual": 0.0007876658880053275,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 63,
+      "relative_u_change": 6.152849098619507e-05,
+      "relative_equilibrium_residual": 0.0007335294522913876,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 64,
+      "relative_u_change": 5.749353852408826e-05,
+      "relative_equilibrium_residual": 0.0006831143095346275,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 65,
+      "relative_u_change": 5.3710585868686924e-05,
+      "relative_equilibrium_residual": 0.0006361647345039617,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 66,
+      "relative_u_change": 5.016559944205806e-05,
+      "relative_equilibrium_residual": 0.0005924425074761568,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 67,
+      "relative_u_change": 4.684506766956071e-05,
+      "relative_equilibrium_residual": 0.0005517257406484554,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 68,
+      "relative_u_change": 4.3736075783388885e-05,
+      "relative_equilibrium_residual": 0.0005138077826901883,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 69,
+      "relative_u_change": 4.08262401451488e-05,
+      "relative_equilibrium_residual": 0.0004784961807956027,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 70,
+      "relative_u_change": 3.8103765639076354e-05,
+      "relative_equilibrium_residual": 0.000445611713736383,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 71,
+      "relative_u_change": 3.5557435712588695e-05,
+      "relative_equilibrium_residual": 0.00041498749044072857,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 72,
+      "relative_u_change": 3.317656845327419e-05,
+      "relative_equilibrium_residual": 0.00038646809988396227,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 73,
+      "relative_u_change": 3.0951042034080964e-05,
+      "relative_equilibrium_residual": 0.00035990882394147314,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 74,
+      "relative_u_change": 2.8871270550589427e-05,
+      "relative_equilibrium_residual": 0.00033517490308233644,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 75,
+      "relative_u_change": 2.692817887547005e-05,
+      "relative_equilibrium_residual": 0.0003121408502229344,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 76,
+      "relative_u_change": 2.5113194292567225e-05,
+      "relative_equilibrium_residual": 0.0002906898097540491,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 77,
+      "relative_u_change": 2.341823548614946e-05,
+      "relative_equilibrium_residual": 0.00027071296813399755,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 78,
+      "relative_u_change": 2.1835660235184118e-05,
+      "relative_equilibrium_residual": 0.00025210899321107016,
+      "active": 492,
+      "slip_points": 489
+    },
+    {
+      "iteration": 79,
+      "relative_u_change": 2.0358298239707057e-05,
+      "relative_equilibrium_residual": 0.00023478352523644355,
+      "active": 492,
+      "slip_points": 489
+    }
+  ],
+  "preload_N": 70,
+  "side_force_N": -2,
+  "assumed_mu": 0.1,
+  "size": "child_large",
+  "mesh_max_mm": 3.0,
+  "source": "${WORKSPACE}\\EarDefender_V19_child_large_ParallelDisc.step",
+  "source_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557",
+  "elastic_E_MPa": 3500,
+  "assumed_nu": 0.35,
+  "seconds": 105.02033376693726,
+  "rigid_translation_controls": [
+    8.010698099954044e-17,
+    8.23051613516486e-17,
+    8.331736986783386e-17
+  ]
+}

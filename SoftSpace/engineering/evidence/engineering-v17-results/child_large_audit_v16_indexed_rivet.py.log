@@ -1,0 +1,32 @@
+{"phase": "nominal", "angles": [0, 0], "stroke": 0, "pass": true, "overlaps": []}
+{"phase": "adjustment", "angles": [0, 0], "stroke": 0, "pass": true, "overlaps": []}
+{"phase": "adjustment", "angles": [0, 0], "stroke": 0, "pass": true, "overlaps": []}
+{"phase": "adjustment", "angles": [0, 0], "stroke": 0, "pass": true, "overlaps": []}
+{"phase": "adjustment", "angles": [0, 0], "stroke": 0, "pass": true, "overlaps": []}
+{"phase": "release", "angles": [0, 0], "stroke": 0, "pass": true, "overlaps": []}
+{"phase": "release", "angles": [0, 0], "stroke": 2, "pass": true, "overlaps": []}
+{"phase": "release", "angles": [0, 0], "stroke": 4, "pass": true, "overlaps": []}
+{"phase": "release", "angles": [0, 0], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [0, 0], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [5, 0], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [10, 0], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [15, 0], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [20, 0], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [25, 0], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [30, 0], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [30, 5], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [30, 10], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [30, 15], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [30, 20], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [30, 25], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [30, 30], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [30, 35], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [30, 40], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [30, 45], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [30, 50], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [30, 55], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folding", "angles": [30, 60], "stroke": 6, "pass": true, "overlaps": []}
+{"phase": "folded return", "angles": [30, 60], "stroke": 4, "pass": true, "overlaps": []}
+{"phase": "folded return", "angles": [30, 60], "stroke": 2, "pass": true, "overlaps": []}
+{"phase": "folded return", "angles": [30, 60], "stroke": 0, "pass": true, "overlaps": []}
+{"case_count": 31, "complete_sampled_motion_pass": true, "index_blocking_pass": true, "retention_blocking_pass": true}

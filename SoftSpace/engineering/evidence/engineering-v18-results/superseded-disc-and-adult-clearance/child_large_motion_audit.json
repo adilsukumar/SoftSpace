@@ -1,0 +1,881 @@
+{
+  "revision": "V18 friction stop candidate",
+  "size": "child_large",
+  "source_sha256": "002719df037acd971aa3ad8e7a042063277e9f6e86929a012d29ae65e07d29b5",
+  "validity": [
+    {
+      "part": "LeftMainFoam",
+      "valid": true,
+      "volume_mm3": 70411.69158477822,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftSoftGlassesZone",
+      "valid": true,
+      "volume_mm3": 3788.474731766376,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftContinuousCover",
+      "valid": true,
+      "volume_mm3": 3299.9913297988132,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftCarrier",
+      "valid": true,
+      "volume_mm3": 3962.085067800181,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftCup",
+      "valid": true,
+      "volume_mm3": 34570.30976816121,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftLiner",
+      "valid": true,
+      "volume_mm3": 13650.399470392495,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftCupPin",
+      "valid": true,
+      "volume_mm3": 379.95474536996227,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftCupPinCap",
+      "valid": true,
+      "volume_mm3": 14.110456357003827,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightMainFoam",
+      "valid": true,
+      "volume_mm3": 70411.69158476913,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightSoftGlassesZone",
+      "valid": true,
+      "volume_mm3": 3788.474731766671,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightContinuousCover",
+      "valid": true,
+      "volume_mm3": 3299.991329800993,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightCarrier",
+      "valid": true,
+      "volume_mm3": 3962.0850678001816,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightCup",
+      "valid": true,
+      "volume_mm3": 34570.30976818598,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightLiner",
+      "valid": true,
+      "volume_mm3": 13650.39947041549,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightCupPin",
+      "valid": true,
+      "volume_mm3": 379.95474536996227,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightCupPinCap",
+      "valid": true,
+      "volume_mm3": 14.110456357003827,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftSliderKnob",
+      "valid": true,
+      "volume_mm3": 221.63936171076196,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightSliderKnob",
+      "valid": true,
+      "volume_mm3": 221.63936171076196,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "Band",
+      "valid": true,
+      "volume_mm3": 19529.100998884685,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "CrownPad",
+      "valid": true,
+      "volume_mm3": 33188.88926104859,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftFork",
+      "valid": true,
+      "volume_mm3": 5309.079589121818,
+      "self_common_mm3": 5309.079589121818,
+      "positive_common_control_performed": true,
+      "pass": true
+    },
+    {
+      "part": "LeftTongue",
+      "valid": true,
+      "volume_mm3": 8028.625355847928,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftFrictionWasherRear",
+      "valid": true,
+      "volume_mm3": 40.25558286493711,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftFrictionWasherFront",
+      "valid": true,
+      "volume_mm3": 40.25558286493711,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftBackupWasherRear",
+      "valid": true,
+      "volume_mm3": 49.287661744007956,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftBackupWasherFront",
+      "valid": true,
+      "volume_mm3": 49.287661744007956,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftDiscSpring",
+      "valid": true,
+      "volume_mm3": 7.282211771012244,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftHingeBolt",
+      "valid": true,
+      "volume_mm3": 662.4048110094011,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "LeftHingeNut",
+      "valid": true,
+      "volume_mm3": 93.5446453073373,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightFork",
+      "valid": true,
+      "volume_mm3": 5309.079589122601,
+      "self_common_mm3": 5309.079589122601,
+      "positive_common_control_performed": true,
+      "pass": true
+    },
+    {
+      "part": "RightTongue",
+      "valid": true,
+      "volume_mm3": 8028.625355850282,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightFrictionWasherRear",
+      "valid": true,
+      "volume_mm3": 40.25558286493711,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightFrictionWasherFront",
+      "valid": true,
+      "volume_mm3": 40.25558286493711,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightBackupWasherRear",
+      "valid": true,
+      "volume_mm3": 49.287661744007956,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightBackupWasherFront",
+      "valid": true,
+      "volume_mm3": 49.287661744007956,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightDiscSpring",
+      "valid": true,
+      "volume_mm3": 7.282211770998835,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightHingeBolt",
+      "valid": true,
+      "volume_mm3": 662.4048110094011,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightHingeNut",
+      "valid": true,
+      "volume_mm3": 93.54464530788894,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    }
+  ],
+  "case_count": 26,
+  "cases": [
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 57,
+      "bbox_dimensions_mm": [
+        242.63174650304,
+        77.25,
+        183.62500000000006
+      ],
+      "phase": "nominal",
+      "extensions_mm": [
+        15,
+        15
+      ],
+      "angles_deg": [
+        0,
+        0
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 6,
+      "bbox_dimensions_mm": [
+        242.63174650304,
+        77.25,
+        181.125
+      ],
+      "phase": "adjustment",
+      "extensions_mm": [
+        0,
+        0
+      ],
+      "angles_deg": [
+        0,
+        0
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        242.63174650304,
+        77.25,
+        181.125
+      ],
+      "phase": "adjustment",
+      "extensions_mm": [
+        5,
+        5
+      ],
+      "angles_deg": [
+        0,
+        0
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        242.63174650304,
+        77.25,
+        181.125
+      ],
+      "phase": "adjustment",
+      "extensions_mm": [
+        10,
+        10
+      ],
+      "angles_deg": [
+        0,
+        0
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        242.63174650304,
+        77.25,
+        188.62500000000006
+      ],
+      "phase": "adjustment",
+      "extensions_mm": [
+        20,
+        20
+      ],
+      "angles_deg": [
+        0,
+        0
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        242.63174650304,
+        77.25,
+        193.62500000000006
+      ],
+      "phase": "adjustment",
+      "extensions_mm": [
+        25,
+        25
+      ],
+      "angles_deg": [
+        0,
+        0
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 4,
+      "bbox_dimensions_mm": [
+        242.63174650304,
+        77.25,
+        198.62500000000006
+      ],
+      "phase": "adjustment",
+      "extensions_mm": [
+        30,
+        30
+      ],
+      "angles_deg": [
+        0,
+        0
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 9,
+      "bbox_dimensions_mm": [
+        242.63174650304,
+        77.25,
+        201.125
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        0,
+        0
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 9,
+      "bbox_dimensions_mm": [
+        242.4157819866269,
+        77.25,
+        201.125
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        5,
+        0
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 8,
+      "bbox_dimensions_mm": [
+        243.01880659899084,
+        77.25,
+        201.125
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        10,
+        0
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 8,
+      "bbox_dimensions_mm": [
+        243.4362309587154,
+        77.25,
+        201.125
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        15,
+        0
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 8,
+      "bbox_dimensions_mm": [
+        243.66487821437545,
+        77.25,
+        201.125
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        20,
+        0
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 13,
+      "bbox_dimensions_mm": [
+        243.70300822229444,
+        77.25,
+        201.125
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        25,
+        0
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 17,
+      "bbox_dimensions_mm": [
+        243.5503307900885,
+        77.25,
+        201.125
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        30,
+        0
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 17,
+      "bbox_dimensions_mm": [
+        243.33436627367527,
+        77.25,
+        201.59271976246237
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        30,
+        5
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 17,
+      "bbox_dimensions_mm": [
+        243.93739088603874,
+        77.25,
+        201.24920456508852
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        30,
+        10
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 17,
+      "bbox_dimensions_mm": [
+        244.35481524576258,
+        77.25,
+        200.09706876595052
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        30,
+        15
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 17,
+      "bbox_dimensions_mm": [
+        244.5834625014216,
+        77.25,
+        198.1450808141585
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        30,
+        20
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 22,
+      "bbox_dimensions_mm": [
+        244.62159250933922,
+        77.25,
+        195.4080965166681
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        30,
+        25
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 25,
+      "bbox_dimensions_mm": [
+        244.46891507713167,
+        77.25,
+        191.90694597661957
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        30,
+        30
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 30,
+      "bbox_dimensions_mm": [
+        244.12659217224723,
+        77.25,
+        187.66827506367514
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        30,
+        35
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 30,
+      "bbox_dimensions_mm": [
+        243.59722907869227,
+        77.25,
+        182.72434262286183
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        30,
+        40
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 25,
+      "bbox_dimensions_mm": [
+        242.8848545692469,
+        77.25,
+        177.1127749652822
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        30,
+        45
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 25,
+      "bbox_dimensions_mm": [
+        241.99489024407154,
+        77.25,
+        171.90694597659956
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        30,
+        50
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 29,
+      "bbox_dimensions_mm": [
+        240.9341092690559,
+        77.25,
+        171.90694597659956
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        30,
+        55
+      ]
+    },
+    {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 28,
+      "bbox_dimensions_mm": [
+        239.71058482793688,
+        77.25,
+        171.90694597659956
+      ],
+      "phase": "folding",
+      "extensions_mm": [
+        0,
+        20
+      ],
+      "angles_deg": [
+        30,
+        60
+      ]
+    }
+  ],
+  "sampled_motion_pass": true,
+  "wearing_stop_queries": [
+    {
+      "side": "Left",
+      "outward_attempt_deg": -0.1,
+      "intersection_mm3": 0.5585059277376624,
+      "block_detected": true
+    },
+    {
+      "side": "Left",
+      "outward_attempt_deg": -1,
+      "intersection_mm3": 5.585620777002719,
+      "block_detected": true
+    },
+    {
+      "side": "Right",
+      "outward_attempt_deg": -0.1,
+      "intersection_mm3": 0.5585059277400741,
+      "block_detected": true
+    },
+    {
+      "side": "Right",
+      "outward_attempt_deg": -1,
+      "intersection_mm3": 5.585620777025392,
+      "block_detected": true
+    }
+  ],
+  "wearing_stop_blocking_pass": true,
+  "nominal_box_mm": [
+    242.63174650304,
+    77.25,
+    183.62500000000006
+  ],
+  "retracted_box_mm": [
+    242.63174650304,
+    77.25,
+    181.125
+  ],
+  "folded_box_mm": [
+    239.71058482793688,
+    77.25,
+    171.90694597659956
+  ],
+  "limits": [
+    "Finite rigid geometry checks; no loaded stop force or friction torque proof",
+    "No slider clamp,thread preload,unwanted angle movement,pinch or actual handling qualification"
+  ]
+}

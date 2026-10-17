@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "${WORKSPACE}\render_v17_entry_sections.py", line 3, in <module>
+    import numpy as np,matplotlib
+ModuleNotFoundError: No module named 'matplotlib'

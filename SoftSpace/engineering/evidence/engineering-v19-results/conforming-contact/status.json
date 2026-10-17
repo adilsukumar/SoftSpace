@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\child_large_h3.0.json",
+      "size": "child_large",
+      "h": 3.0,
+      "change_percent": null,
+      "gate": null
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\child_large_h2.0.json",
+      "size": "child_large",
+      "h": 2.0,
+      "change_percent": 43.04322170964983,
+      "gate": false
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\child_large_h1.4.json",
+      "size": "child_large",
+      "h": 1.4,
+      "change_percent": 18.167175945043578,
+      "gate": false
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\child_large_h1.0.json",
+      "size": "child_large",
+      "h": 1.0,
+      "change_percent": 10.249562501676323,
+      "gate": false
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\adult_small_h3.0.json",
+      "size": "adult_small",
+      "h": 3.0,
+      "change_percent": null,
+      "gate": null
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\adult_small_h2.0.json",
+      "size": "adult_small",
+      "h": 2.0,
+      "change_percent": 44.701192745247866,
+      "gate": false
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\adult_small_h1.4.json",
+      "size": "adult_small",
+      "h": 1.4,
+      "change_percent": 16.877358188516812,
+      "gate": false
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\conforming-contact\\adult_small_h1.0.json",
+      "size": "adult_small",
+      "h": 1.0,
+      "change_percent": 10.521292097739977,
+      "gate": false
+    }
+  ],
+  "complete": true,
+  "scope": "Nominal outward joint numerical variant with geometry-aligned washer annulus partitions. No complete joint or physical validation."
+}

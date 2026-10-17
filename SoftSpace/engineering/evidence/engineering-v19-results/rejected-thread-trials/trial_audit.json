@@ -1,0 +1,53 @@
+{
+  "trials": [
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\rejected-thread-trials\\adult_HingeBolt_nominal.step",
+      "sha256": "9ee728d187e129267c0c8fa9c80d6c5e1b60f50572121f0e8ac723654844d5ea",
+      "solids": 2,
+      "BRep_valid": true,
+      "expected_connected_solids": 1,
+      "accepted_for_final_assembly": false
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\rejected-thread-trials\\adult_HingeNut_nominal.step",
+      "sha256": "4a31661e35465661a87635aff387f5208a835ffb60d08601e9af5e058435693b",
+      "solids": 1,
+      "BRep_valid": true,
+      "expected_connected_solids": 1,
+      "accepted_for_final_assembly": false
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\rejected-thread-trials\\adult_JamNut_nominal.step",
+      "sha256": "2118f92da9ae2c10d1df59b042c417d19bdfe69df6b1cd42c0f5387618f59068",
+      "solids": 1,
+      "BRep_valid": true,
+      "expected_connected_solids": 1,
+      "accepted_for_final_assembly": false
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\rejected-thread-trials\\child_HingeBolt_nominal.step",
+      "sha256": "d02fa8b13daf290de33accf20af838da2935108bb122238195e9947b6475b157",
+      "solids": 2,
+      "BRep_valid": true,
+      "expected_connected_solids": 1,
+      "accepted_for_final_assembly": false
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\rejected-thread-trials\\child_HingeNut_nominal.step",
+      "sha256": "d01ee224b1b8fc7b4220d2dfb6c4613b1bb0d19f97c9d52d38e94cdda18f2e5e",
+      "solids": 1,
+      "BRep_valid": true,
+      "expected_connected_solids": 1,
+      "accepted_for_final_assembly": false
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\rejected-thread-trials\\child_JamNut_nominal.step",
+      "sha256": "b1c723798cfd3b284cadfec00d2f6094d5375f4035731d66ae9cf73660965e26",
+      "solids": 1,
+      "BRep_valid": true,
+      "expected_connected_solids": 1,
+      "accepted_for_final_assembly": false
+    }
+  ],
+  "decision": "Rejected thread trial. A bolt with two disconnected solids is not a manufactured pin even if each solid is valid. No exact-helix trial geometry is in final V19 assemblies."
+}

@@ -1,0 +1,22 @@
+{
+  "unchanged_prior_body_page_images": 89,
+  "changed_prior_page_images": [
+    "Ear_Defender_Project\\page-1.png",
+    "Ear_Defender_Project\\page-25.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-1.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-11.png"
+  ],
+  "added_page_images": [
+    "Ear_Defender_Project\\page-60.png",
+    "Ear_Defender_Project\\page-61.png",
+    "Ear_Defender_Project\\page-62.png",
+    "Ear_Defender_Project\\page-63.png",
+    "Ear_Defender_Project\\page-64.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-35.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-36.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-37.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-38.png",
+    "Glasses_Friendly_Headphone_Cushions\\page-39.png"
+  ],
+  "scope": "V17 DOCX copies re-rendered with current preview header date to isolate body changes. Unchanged pages retain the prior visual review. Native Word layout remains unverified."
+}

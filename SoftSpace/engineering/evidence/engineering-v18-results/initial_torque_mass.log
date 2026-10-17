@@ -1,0 +1,60 @@
+{
+  "sizes": 2,
+  "comparison_window": {
+    "assumed_mu": [
+      0.1,
+      0.3
+    ],
+    "assumed_preload_fraction": [
+      0.8,
+      1.2
+    ],
+    "minimum_torque_Nmm": 25.39367320261438,
+    "maximum_torque_Nmm": 114.27152941176469,
+    "maximum_force_at65mm_N": 1.7580235294117645
+  },
+  "gravity_cases": [
+    {
+      "size": "adult_small",
+      "density_scenario": "low",
+      "assumed_mass_per_moving_side_g": 58.99140593926097,
+      "radial_centre_of_mass_mm": 52.31160129599834,
+      "maximum_gravity_moment_over_orientation_Nmm": 30.26268355950719
+    },
+    {
+      "size": "adult_small",
+      "density_scenario": "middle",
+      "assumed_mass_per_moving_side_g": 80.84245526592275,
+      "radial_centre_of_mass_mm": 51.78074578327974,
+      "maximum_gravity_moment_over_orientation_Nmm": 41.051447170738655
+    },
+    {
+      "size": "adult_small",
+      "density_scenario": "high",
+      "assumed_mass_per_moving_side_g": 103.18596442303924,
+      "radial_centre_of_mass_mm": 52.17893678291775,
+      "maximum_gravity_moment_over_orientation_Nmm": 52.80031685277033
+    },
+    {
+      "size": "child_large",
+      "density_scenario": "low",
+      "assumed_mass_per_moving_side_g": 46.656540371516,
+      "radial_centre_of_mass_mm": 51.759862708070614,
+      "maximum_gravity_moment_over_orientation_Nmm": 23.682433341044597
+    },
+    {
+      "size": "child_large",
+      "density_scenario": "middle",
+      "assumed_mass_per_moving_side_g": 64.23572480955539,
+      "radial_centre_of_mass_mm": 51.090549890775556,
+      "maximum_gravity_moment_over_orientation_Nmm": 32.18384155694261
+    },
+    {
+      "size": "child_large",
+      "density_scenario": "high",
+      "assumed_mass_per_moving_side_g": 81.64100107487165,
+      "radial_centre_of_mass_mm": 51.52428525454056,
+      "maximum_gravity_moment_over_orientation_Nmm": 41.251616619524995
+    }
+  ]
+}

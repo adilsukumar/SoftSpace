@@ -1,0 +1,10 @@
+{
+  "source_sha256": "24b86fba39a673f863fdd814a2ff0ff5922e214d1ad9aad82a830bcf73db79e1",
+  "material_scaling_identity_checks": 500,
+  "pivot_bound_checks": 288,
+  "retention_margin_checks": 216,
+  "CAD_source_and_dimension_checks": 6,
+  "all_recorded_checks_pass": true,
+  "physical_measurements_performed": 0,
+  "product_validation_passed": false
+}

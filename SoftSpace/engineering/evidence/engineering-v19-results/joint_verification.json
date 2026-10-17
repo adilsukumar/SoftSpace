@@ -1,0 +1,284 @@
+{
+  "array_audits": [
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h0.8_P140_mu0.2_F2.json",
+      "nodes": 29936,
+      "residual_recomputed": 7.614773443836763e-07,
+      "force_balance_N": 1.1026208590472861e-10,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 5.551115123125783e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h1.0_P140_mu0.2_F2.json",
+      "nodes": 18011,
+      "residual_recomputed": 8.117868863166746e-07,
+      "force_balance_N": 5.43727088160319e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 4.163336342344337e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h1.4_P140_mu0.2_F2.json",
+      "nodes": 10008,
+      "residual_recomputed": 7.910899508735936e-07,
+      "force_balance_N": 2.103012081209551e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 2.7755575615628914e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h2.0_P140_mu0.2_F-2.json",
+      "nodes": 6050,
+      "residual_recomputed": 9.039033112948061e-07,
+      "force_balance_N": 4.293134897427809e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 3.347474207548995e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h2.0_P140_mu0.2_F2.json",
+      "nodes": 6050,
+      "residual_recomputed": 9.96408528084647e-07,
+      "force_balance_N": 1.0356423633754928e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 3.347474207548995e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h3.0_P140_mu0.2_F-2.json",
+      "nodes": 2999,
+      "residual_recomputed": 9.604344087614793e-07,
+      "force_balance_N": 3.3791204681075334e-12,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 1.9596954267675493e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h3.0_P140_mu0.2_F2.json",
+      "nodes": 2999,
+      "residual_recomputed": 8.267239508470827e-07,
+      "force_balance_N": 2.7468156301431713e-12,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 1.9596954267675493e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h3.0_P210_mu0.3_F-2.json",
+      "nodes": 2999,
+      "residual_recomputed": 8.440980072149321e-07,
+      "force_balance_N": 8.339213531525245e-12,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 1.9596954267675493e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h3.0_P210_mu0.3_F2.json",
+      "nodes": 2999,
+      "residual_recomputed": 9.924719591831938e-07,
+      "force_balance_N": 2.6177407301256122e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 1.9596954267675493e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h3.0_P70_mu0.1_F-2.json",
+      "nodes": 2999,
+      "residual_recomputed": 9.638080056065981e-07,
+      "force_balance_N": 1.118197695353453e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 1.9596954267675493e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\adult_small_joint_h3.0_P70_mu0.1_F2.json",
+      "nodes": 2999,
+      "residual_recomputed": 9.66907074910614e-07,
+      "force_balance_N": 1.409515955723445e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 1.9596954267675493e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h0.8_P140_mu0.2_F2.json",
+      "nodes": 23509,
+      "residual_recomputed": 6.98003364470374e-07,
+      "force_balance_N": 1.8242247393705286e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 5.551115123125783e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h1.0_P140_mu0.2_F2.json",
+      "nodes": 13743,
+      "residual_recomputed": 6.830152906663613e-07,
+      "force_balance_N": 1.2453268888111367e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 4.163336342344337e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h1.4_P140_mu0.2_F2.json",
+      "nodes": 7928,
+      "residual_recomputed": 8.070774442406223e-07,
+      "force_balance_N": 1.0980899563907242e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 2.7755575615628914e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h2.0_P140_mu0.2_F-2.json",
+      "nodes": 4598,
+      "residual_recomputed": 8.109000460101071e-07,
+      "force_balance_N": 1.7676204534771216e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 2.7755575615628914e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h2.0_P140_mu0.2_F2.json",
+      "nodes": 4598,
+      "residual_recomputed": 7.442808110139654e-07,
+      "force_balance_N": 1.2530264665863248e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 2.7755575615628914e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h3.0_P140_mu0.2_F-2.json",
+      "nodes": 2375,
+      "residual_recomputed": 7.824596729700558e-07,
+      "force_balance_N": 1.4960481042691217e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 1.7862230791698686e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h3.0_P140_mu0.2_F2.json",
+      "nodes": 2375,
+      "residual_recomputed": 7.132932304693899e-07,
+      "force_balance_N": 2.010322288555188e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 1.7862230791698686e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h3.0_P210_mu0.3_F-2.json",
+      "nodes": 2375,
+      "residual_recomputed": 8.85407642669789e-07,
+      "force_balance_N": 7.038744019669216e-12,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 1.7862230791698686e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h3.0_P210_mu0.3_F2.json",
+      "nodes": 2375,
+      "residual_recomputed": 7.379147098488403e-07,
+      "force_balance_N": 4.425518643367483e-12,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 1.7862230791698686e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h3.0_P70_mu0.1_F-2.json",
+      "nodes": 2375,
+      "residual_recomputed": 9.764149427348168e-07,
+      "force_balance_N": 2.1197657851752294e-11,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 1.7862230791698686e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    },
+    {
+      "file": "${WORKSPACE}\\engineering-v19-results\\child_large_joint_h3.0_P70_mu0.1_F2.json",
+      "nodes": 2375,
+      "residual_recomputed": 9.965623836696311e-07,
+      "force_balance_N": 5.749614236826859e-12,
+      "saved_array_error": 0.0,
+      "affine_strain_patch_error": 1.7862230791698686e-17,
+      "source_sha256": "pass",
+      "status": "pass"
+    }
+  ],
+  "all_recorded_arrays_pass": true,
+  "mesh_comparisons": [
+    {
+      "size": "child_large",
+      "from_h": 3.0,
+      "to_h": 2.0,
+      "displacement_change_percent": 45.45971885608093,
+      "chosen_5_percent_gate_pass": false
+    },
+    {
+      "size": "child_large",
+      "from_h": 2.0,
+      "to_h": 1.4,
+      "displacement_change_percent": 17.510066894096976,
+      "chosen_5_percent_gate_pass": false
+    },
+    {
+      "size": "child_large",
+      "from_h": 1.4,
+      "to_h": 1.0,
+      "displacement_change_percent": 10.48356506781969,
+      "chosen_5_percent_gate_pass": false
+    },
+    {
+      "size": "child_large",
+      "from_h": 1.0,
+      "to_h": 0.8,
+      "displacement_change_percent": 6.036936825988515,
+      "chosen_5_percent_gate_pass": false
+    },
+    {
+      "size": "adult_small",
+      "from_h": 3.0,
+      "to_h": 2.0,
+      "displacement_change_percent": 43.34914187768921,
+      "chosen_5_percent_gate_pass": false
+    },
+    {
+      "size": "adult_small",
+      "from_h": 2.0,
+      "to_h": 1.4,
+      "displacement_change_percent": 17.59546547529036,
+      "chosen_5_percent_gate_pass": false
+    },
+    {
+      "size": "adult_small",
+      "from_h": 1.4,
+      "to_h": 1.0,
+      "displacement_change_percent": 10.422781015668159,
+      "chosen_5_percent_gate_pass": false
+    },
+    {
+      "size": "adult_small",
+      "from_h": 1.0,
+      "to_h": 0.8,
+      "displacement_change_percent": 5.903387156207662,
+      "chosen_5_percent_gate_pass": false
+    }
+  ],
+  "scope": "Reassembled matrices and contact laws from saved mesh arrays, affine strain control and source hash verification. Same model equations, not an independent solver or physical validation. Full assembly, bearing clearance, threads and measured friction are absent."
+}

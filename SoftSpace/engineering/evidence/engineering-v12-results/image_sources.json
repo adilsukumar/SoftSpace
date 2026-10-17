@@ -1,0 +1,7 @@
+{
+  "image": "${WORKSPACE}\\documents\\images\\V12_lock_candidate.png",
+  "source": "${WORKSPACE}\\EarDefender_V12_adult_small_Latched.step",
+  "source_sha256": "f8e015bce1e77e9b13c3dcbf51e4f4da2c7c184cf3388111283a5ed86a3419d0",
+  "released_transform": "RightLockPin translated minus6Y; spring envelope shortened15to9",
+  "scope": "Display surface tessellation only; not FEA or a physical prototype"
+}

@@ -1,0 +1,148 @@
+{
+  "preload_N": 210,
+  "side_force_N": 2,
+  "assumed_mu": 0.3,
+  "normal_penalty_N_mm3": 10000,
+  "tangential_penalty_N_mm3": 1000,
+  "iterations": 15,
+  "relative_free_residual": 9.924719591831938e-07,
+  "maximum_numerical_penetration_mm": 0.0009443453598889646,
+  "maximum_pivot_constraint_error_mm": 0.0004113692407052055,
+  "stop_reaction_N": 4.551823168790192,
+  "washer_normal_sum_N": 415.9943543212666,
+  "washer_quadrature_area_mm2": 156.70129616410998,
+  "stop_quadrature_area_mm2": 31.999999999999996,
+  "global_force_balance_error_N": 2.6177407301256122e-11,
+  "cup_mean_displacement_x_mm": 0.15788226811608214,
+  "component_stresses": [
+    {
+      "peak_element_MPa": 2.974303434676074,
+      "volume_weighted_mean_MPa": 1.5004847417721947
+    },
+    {
+      "peak_element_MPa": 2.7752454355958567,
+      "volume_weighted_mean_MPa": 0.4955935869480565
+    }
+  ],
+  "history": [
+    {
+      "iteration": 0,
+      "relative_u_change": 1.0,
+      "relative_equilibrium_residual": 0.04858478726815176,
+      "active": 519,
+      "slip_points": 14
+    },
+    {
+      "iteration": 1,
+      "relative_u_change": 0.007153447582755309,
+      "relative_equilibrium_residual": 0.04024201804590683,
+      "active": 507,
+      "slip_points": 16
+    },
+    {
+      "iteration": 2,
+      "relative_u_change": 0.004921786066856597,
+      "relative_equilibrium_residual": 0.00995642802916603,
+      "active": 501,
+      "slip_points": 16
+    },
+    {
+      "iteration": 3,
+      "relative_u_change": 0.00024536725715313285,
+      "relative_equilibrium_residual": 0.0009658373233556952,
+      "active": 499,
+      "slip_points": 16
+    },
+    {
+      "iteration": 4,
+      "relative_u_change": 2.0309713680938614e-05,
+      "relative_equilibrium_residual": 0.00036529681887808284,
+      "active": 499,
+      "slip_points": 16
+    },
+    {
+      "iteration": 5,
+      "relative_u_change": 3.2859011831455176e-06,
+      "relative_equilibrium_residual": 0.00020072828797712083,
+      "active": 499,
+      "slip_points": 16
+    },
+    {
+      "iteration": 6,
+      "relative_u_change": 1.8135371304889365e-06,
+      "relative_equilibrium_residual": 0.00011045568702576232,
+      "active": 499,
+      "slip_points": 16
+    },
+    {
+      "iteration": 7,
+      "relative_u_change": 1.0015986145278327e-06,
+      "relative_equilibrium_residual": 6.088352583250413e-05,
+      "active": 499,
+      "slip_points": 16
+    },
+    {
+      "iteration": 8,
+      "relative_u_change": 5.537641024120815e-07,
+      "relative_equilibrium_residual": 3.362063893771269e-05,
+      "active": 499,
+      "slip_points": 16
+    },
+    {
+      "iteration": 9,
+      "relative_u_change": 3.0655570405354523e-07,
+      "relative_equilibrium_residual": 1.8601089157659015e-05,
+      "active": 499,
+      "slip_points": 16
+    },
+    {
+      "iteration": 10,
+      "relative_u_change": 1.699395507390955e-07,
+      "relative_equilibrium_residual": 1.031123129237786e-05,
+      "active": 499,
+      "slip_points": 16
+    },
+    {
+      "iteration": 11,
+      "relative_u_change": 9.434293246019132e-08,
+      "relative_equilibrium_residual": 5.726959935217671e-06,
+      "active": 499,
+      "slip_points": 16
+    },
+    {
+      "iteration": 12,
+      "relative_u_change": 5.2452588176707346e-08,
+      "relative_equilibrium_residual": 3.1869312099559804e-06,
+      "active": 499,
+      "slip_points": 16
+    },
+    {
+      "iteration": 13,
+      "relative_u_change": 2.9205441307572106e-08,
+      "relative_equilibrium_residual": 1.7768196738306392e-06,
+      "active": 499,
+      "slip_points": 16
+    },
+    {
+      "iteration": 14,
+      "relative_u_change": 1.6284413427399982e-08,
+      "relative_equilibrium_residual": 9.924719591833658e-07,
+      "active": 499,
+      "slip_points": 16
+    }
+  ],
+  "coulomb_bound_error_MPa": 5.551115123125783e-17,
+  "converged": true,
+  "size": "adult_small",
+  "mesh_max_mm": 3.0,
+  "source": "${WORKSPACE}\\EarDefender_V19_adult_small_ParallelDisc.step",
+  "source_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d",
+  "elastic_E_MPa": 3500,
+  "assumed_nu": 0.35,
+  "seconds": 4.5569846630096436,
+  "rigid_translation_controls": [
+    8.575367369893054e-17,
+    7.9233916573813e-17,
+    8.079603809492407e-17
+  ]
+}

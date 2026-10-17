@@ -1,0 +1,9 @@
+{
+  "source": "${WORKSPACE}\\OwnPassiveDefender_V8_adult_small_20261013_133840.step",
+  "target": "${WORKSPACE}\\OwnPassiveDefender_V9Local_adult_small.step",
+  "corners": 8,
+  "radius_mm": 0.5,
+  "old_band_volume_mm3": 27806.247180457813,
+  "new_band_volume_mm3": 27820.9601768243,
+  "status": "STEP candidate only; no Fusion archive, assembly-motion or material validation"
+}

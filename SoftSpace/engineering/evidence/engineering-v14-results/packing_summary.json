@@ -1,0 +1,113 @@
+{
+  "sizes": [
+    {
+      "size": "child_small",
+      "nominal_box_mm": [
+        234.90654293864,
+        77.25,
+        183.625
+      ],
+      "folded_box_mm": [
+        218.35360591785354,
+        81.625,
+        185.3554156524072
+      ],
+      "angles_deg": [
+        75,
+        45
+      ],
+      "reduction_percent": 0.85668597440548
+    },
+    {
+      "size": "child_medium",
+      "nominal_box_mm": [
+        246.10425879803,
+        77.25,
+        183.62500000000003
+      ],
+      "folded_box_mm": [
+        233.65749366508328,
+        81.625,
+        185.35541565240612
+      ],
+      "angles_deg": [
+        60,
+        45
+      ],
+      "reduction_percent": -1.2648588622651058
+    },
+    {
+      "size": "child_large",
+      "nominal_box_mm": [
+        256.63174650304,
+        77.25,
+        183.62500000000006
+      ],
+      "folded_box_mm": [
+        244.18498137010346,
+        81.625,
+        185.3554156524015
+      ],
+      "angles_deg": [
+        60,
+        45
+      ],
+      "reduction_percent": -1.4861428074942173
+    },
+    {
+      "size": "adult_small",
+      "nominal_box_mm": [
+        257.42028468362,
+        90.0,
+        206.799999999991
+      ],
+      "folded_box_mm": [
+        240.8673476628187,
+        90.0,
+        193.72388155423803
+      ],
+      "angles_deg": [
+        75,
+        45
+      ],
+      "reduction_percent": 12.346796734014431
+    },
+    {
+      "size": "adult_medium",
+      "nominal_box_mm": [
+        273.87123133983,
+        90.0,
+        206.8
+      ],
+      "folded_box_mm": [
+        254.7941555156939,
+        90.0,
+        170.46025403783926
+      ],
+      "angles_deg": [
+        75,
+        60
+      ],
+      "reduction_percent": 23.31407783884827
+    },
+    {
+      "size": "adult_large",
+      "nominal_box_mm": [
+        290.06961881321,
+        90.0,
+        206.8
+      ],
+      "folded_box_mm": [
+        270.99254298905197,
+        90.0,
+        170.4602540378442
+      ],
+      "angles_deg": [
+        75,
+        60
+      ],
+      "reduction_percent": 22.993445349078513
+    }
+  ],
+  "scope": "Tight OCP bounding boxes of recorded V14 rigid poses, not a physical bag fit or drop test"
+}

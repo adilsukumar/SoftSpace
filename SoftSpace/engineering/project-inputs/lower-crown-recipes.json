@@ -1,0 +1,134 @@
+[
+  {
+    "name": "child_small",
+    "family": "child",
+    "band_halfspan_mm": 86.4532714693459,
+    "arch_height_mm": 25,
+    "band_thickness_mm": 3.0,
+    "band_width_mm": 24,
+    "contour_fraction": 1,
+    "foam_multiplier": 1,
+    "extension_range_mm": [
+      0,
+      30
+    ],
+    "reference_extension_mm": 15,
+    "target_comparison_force_N": 2,
+    "reference_head_width_mm": 120,
+    "tongue_thickness_mm": 4,
+    "tongue_width_mm": 16,
+    "guide_internal_clearance_mm": 0.3,
+    "minimum_engagement_mm": 30,
+    "detent_pitch_mm": 5
+  },
+  {
+    "name": "child_medium",
+    "family": "child",
+    "band_halfspan_mm": 92.0521293990314,
+    "arch_height_mm": 25,
+    "band_thickness_mm": 3.0,
+    "band_width_mm": 24,
+    "contour_fraction": 1,
+    "foam_multiplier": 1,
+    "extension_range_mm": [
+      0,
+      30
+    ],
+    "reference_extension_mm": 15,
+    "target_comparison_force_N": 2,
+    "reference_head_width_mm": 130,
+    "tongue_thickness_mm": 4,
+    "tongue_width_mm": 16,
+    "guide_internal_clearance_mm": 0.3,
+    "minimum_engagement_mm": 30,
+    "detent_pitch_mm": 5
+  },
+  {
+    "name": "child_large",
+    "family": "child",
+    "band_halfspan_mm": 97.31587325154797,
+    "arch_height_mm": 25,
+    "band_thickness_mm": 3.0,
+    "band_width_mm": 24,
+    "contour_fraction": 1,
+    "foam_multiplier": 1,
+    "extension_range_mm": [
+      0,
+      30
+    ],
+    "reference_extension_mm": 15,
+    "target_comparison_force_N": 2,
+    "reference_head_width_mm": 140,
+    "tongue_thickness_mm": 4,
+    "tongue_width_mm": 16,
+    "guide_internal_clearance_mm": 0.3,
+    "minimum_engagement_mm": 30,
+    "detent_pitch_mm": 5
+  },
+  {
+    "name": "adult_small",
+    "family": "adult",
+    "band_halfspan_mm": 97.71014234182589,
+    "arch_height_mm": 40,
+    "band_thickness_mm": 3.6,
+    "band_width_mm": 28,
+    "contour_fraction": 1,
+    "foam_multiplier": 1,
+    "extension_range_mm": [
+      0,
+      30
+    ],
+    "reference_extension_mm": 15,
+    "target_comparison_force_N": 2,
+    "reference_head_width_mm": 140,
+    "tongue_thickness_mm": 4,
+    "tongue_width_mm": 16,
+    "guide_internal_clearance_mm": 0.3,
+    "minimum_engagement_mm": 30,
+    "detent_pitch_mm": 5
+  },
+  {
+    "name": "adult_medium",
+    "family": "adult",
+    "band_halfspan_mm": 105.93561566993594,
+    "arch_height_mm": 40,
+    "band_thickness_mm": 3.6,
+    "band_width_mm": 28,
+    "contour_fraction": 1,
+    "foam_multiplier": 1,
+    "extension_range_mm": [
+      0,
+      30
+    ],
+    "reference_extension_mm": 15,
+    "target_comparison_force_N": 2,
+    "reference_head_width_mm": 155,
+    "tongue_thickness_mm": 4,
+    "tongue_width_mm": 16,
+    "guide_internal_clearance_mm": 0.3,
+    "minimum_engagement_mm": 30,
+    "detent_pitch_mm": 5
+  },
+  {
+    "name": "adult_large",
+    "family": "adult",
+    "band_halfspan_mm": 114.03480940661024,
+    "arch_height_mm": 40,
+    "band_thickness_mm": 3.6,
+    "band_width_mm": 28,
+    "contour_fraction": 1,
+    "foam_multiplier": 1,
+    "extension_range_mm": [
+      0,
+      30
+    ],
+    "reference_extension_mm": 15,
+    "target_comparison_force_N": 2,
+    "reference_head_width_mm": 170,
+    "tongue_thickness_mm": 4,
+    "tongue_width_mm": 16,
+    "guide_internal_clearance_mm": 0.3,
+    "minimum_engagement_mm": 30,
+    "detent_pitch_mm": 5
+  }
+]
