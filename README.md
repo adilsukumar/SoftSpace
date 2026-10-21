@@ -1,3 +1,10 @@
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/hero-mobile.svg"/><img src="assets/readme/hero.svg" width="100%" alt="SoftSpace and SoftSpace Flex. A comfort question. An open investigation. Decorative concept animation."/></picture></p>
+
+<p align="center"><a href="SoftSpace/README.md">SoftSpace</a> · <a href="SoftSpace%20Flex/README.md">SoftSpace Flex</a> · <a href="#the-evidence-so-far">Evidence</a> · <a href="#start-with-the-reports">Reports</a> · <a href="#complete-research-archive">V19 archive</a> · <a href="#what-happens-next">Next measurements</a></p>
+
+<details>
+<summary>Original project cover, badges and navigation</summary>
+
 <p align="center">
   <img src=".github/assets/softspace-cover.svg" width="100%" alt="SoftSpace — exploring affordable passive headphones and glasses-friendly cushions. Research in progress." />
 </p>
@@ -16,6 +23,12 @@
   <a href="#start-with-the-reports">Read the reports</a>
 </p>
 
+
+</details>
+
+<!-- ORIGINAL-RESEARCH-NARRATIVE:BEGIN -->
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-question-mobile.svg"/><img src="assets/readme/section-question.svg" width="100%" alt="THE COMFORT QUESTION. Pressure, fit, surface feel, glasses and everyday use."/></picture></p>
+
 ## Small details. A more comfortable possibility.
 
 Loud surroundings can be overwhelming for some autistic people. A headphone can also introduce its own problems: heat, pressure, an awkward fit, an irritating surface, or a cushion pushing against glasses.
@@ -25,6 +38,8 @@ Loud surroundings can be overwhelming for some autistic people. A headphone can 
 This repository makes the work inspectable: actual CAD, illustrated reports, numerical results, failures, source code and the measurements still needed.
 
 **Current stage: a digital prototype for bench review.** Selected geometry and numerical checks have passed. Comfort, sensory acceptance, sound reduction, outgoing sound leakage, heat and long-term durability have not been demonstrated on real samples. The project is not a finished or certified product.
+
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-routes-mobile.svg"/><img src="assets/readme/section-routes.svg" width="100%" alt="TWO ROUTES THROUGH THE QUESTION. A passive headphone concept and replacement cushions."/></picture></p>
 
 ## Two routes, one shared design question
 
@@ -49,6 +64,8 @@ This repository makes the work inspectable: actual CAD, illustrated reports, num
 
 *The product images above come from saved CAD. Colours show parts, not selected materials. Cushion surface triangles are the display mesh, not a proposed fabric texture. The cover illustration at the top is decorative concept artwork.*
 
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-goals-mobile.svg"/><img src="assets/readme/section-goals.svg" width="100%" alt="START WITH THE PERSON. Design directions and the measurements that still matter."/></picture></p>
+
 ## What we are trying to improve
 
 | Design question | Direction under investigation | What will establish whether it works |
@@ -61,6 +78,8 @@ This repository makes the work inspectable: actual CAD, illustrated reports, num
 | Affordability in India | Simple construction and replaceable cushions | Supplier quotations, tooling costs, sourcing and prototype yield |
 
 Autistic people have different sensory preferences. A design that works for one person may be uncomfortable for another. The project does not assume one universal fit, pressure or sound-reduction preference.
+
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-evidence-mobile.svg"/><img src="assets/readme/section-evidence.svg" width="100%" alt="MAKE THE EVIDENCE INSPECTABLE. Geometry, numerical comparisons and their recorded limits."/></picture></p>
 
 ## The evidence so far
 
@@ -88,6 +107,8 @@ All eight higher-order cases have saved-result audits. Passing these selected ch
 
 **Read the evidence:** [outward results](SoftSpace/engineering/evidence/engineering-v19-results/quadratic-contact/status.json) · [inward results](SoftSpace/engineering/evidence/engineering-v19-results/quadratic-inward/status.json) · [inward audits](SoftSpace/engineering/evidence/engineering-v19-results/quadratic-inward/verification.json) · [full workstream status](SoftSpace/engineering/evidence/engineering-v19-results/workstream_status.csv).
 
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-fold-mobile.svg"/><img src="assets/readme/section-fold.svg" width="100%" alt="A CLOSER LOOK AT THE FOLD. Saved V19 poses, with physical checks still ahead."/></picture></p>
+
 ## A closer look at the fold
 
 <p align="center">
@@ -95,6 +116,8 @@ All eight higher-order cases have saved-result audits. Passing these selected ch
 </p>
 
 The saved poses illustrate the current folding proposal. Actual locking, tool access, friction, pin/washer behaviour and durability still need prototype checks. Proposed threads use cosmetic CAD envelopes; they are not manufacturing-ready thread geometry.
+
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-reports-mobile.svg"/><img src="assets/readme/section-reports.svg" width="100%" alt="THE WORK IN ITS OWN WORDS. Illustrated reports, handoff notes and engineering records."/></picture></p>
 
 ## Start with the reports
 
@@ -108,11 +131,15 @@ The saved poses illustrate the current folding proposal. Actual locking, tool ac
 
 The Word reports were checked structurally and through approximate rendered page previews. Native Word pagination remains unverified.
 
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-archive-mobile.svg"/><img src="assets/readme/section-archive.svg" width="100%" alt="KEEP THE RESEARCH TOGETHER. The complete V19 bundle and its integrity record."/></picture></p>
+
 ## Complete research archive
 
 [**Download the complete V19 research bundle (450 MB)**](https://github.com/adilsukumar/SoftSpace/releases/download/v19-research/SoftSpace_Complete_V19_Research.zip) for historical CAD and older raw numerical arrays. Git keeps the current CAD, both reports, source, result summaries and all eight higher-order saved solutions. The bundle includes 1,735 files and an integrity manifest; every recorded SHA-256 and ZIP CRC was checked before upload.
 
 Bundle SHA-256: `13eb06a9162fab0dbcf2a6b495e84aa301b0f2840df34c2888a1e1d3e588914c`.
+
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-map-mobile.svg"/><img src="assets/readme/section-map.svg" width="100%" alt="A MAP OF THE WORK. CAD, reports, evidence, tools and source files."/></picture></p>
 
 ## Repository map
 
@@ -158,6 +185,8 @@ Current **V19 is STEP CAD**. The latest saved native editable Fusion archives re
 
 </details>
 
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-next-mobile.svg"/><img src="assets/readme/section-next.svg" width="100%" alt="FROM CALCULATIONS TO MEASUREMENTS. Samples, fixtures and voluntary wearer feedback."/></picture></p>
+
 ## What happens next
 
 1. **Measure the Sony mount and original pad.** Complete the [model-specific form](SoftSpace%20Flex/measurements/Sony_WH_CH720N_measurements_REQUIRED.csv) before designing a compatible carrier.
@@ -168,6 +197,8 @@ Current **V19 is STEP CAD**. The latest saved native editable Fusion archives re
 
 The material work is a finite reference screen, not a test of every possible material. No novel material winner, lowest-cost claim, zero-leakage claim or superiority over market headphones has been established.
 
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-contribute-mobile.svg"/><img src="assets/readme/section-contribute.svg" width="100%" alt="ADD EVIDENCE WITH CONTEXT. Units, methods, assumptions and uncertainty."/></picture></p>
+
 ## Contributing evidence
 
 Useful contributions include measured mounting dimensions, traceable material curves, reproducible fixture results and clearly documented model corrections. Include units, method, sample/grade, conditions and uncertainty. Keep simulations, manufacturer statements, physical measurements and wearer feedback separate.
@@ -177,3 +208,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the evidence format and report-update
 ---
 
 <p align="center"><strong>SoftSpace · SoftSpace Flex</strong><br/>Built around a comfort question. Documented with evidence.<br/><sub>Working names; trademark clearance is incomplete. No open-source licence has been selected.</sub></p>
+
+
+<!-- ORIGINAL-RESEARCH-NARRATIVE:END -->
+
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/closing-mobile.svg"/><img src="assets/readme/closing.svg" width="100%" alt="Comfort is the question. Evidence is the work. Decorative concept artwork; saved CAD and numerical evidence are linked above."/></picture></p>
