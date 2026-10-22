@@ -1,0 +1,10 @@
+{
+  "trials": [
+    {
+      "status": "failed",
+      "stage": "first ellipse construction",
+      "reason": "OCC requires major radius rx >= minor radius ry. First attempt supplied width then height without axis rotation. No STEP was accepted from this attempt.",
+      "correction": "Supply the height radius first and explicitly orient the ellipse major axis along Y."
+    }
+  ]
+}

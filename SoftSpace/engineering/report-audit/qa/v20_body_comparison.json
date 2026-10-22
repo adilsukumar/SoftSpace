@@ -1,0 +1,21 @@
+{
+  "unchanged_prior_bodies": 127,
+  "changed_prior_bodies": [
+    "Ear_Defender_Project/page-1.png",
+    "Glasses_Friendly_Headphone_Cushions/page-1.png",
+    "Glasses_Friendly_Headphone_Cushions/page-13.png"
+  ],
+  "added_pages": [
+    "Ear_Defender_Project/page-78.png",
+    "Ear_Defender_Project/page-79.png",
+    "Ear_Defender_Project/page-80.png",
+    "Ear_Defender_Project/page-81.png",
+    "Ear_Defender_Project/page-82.png",
+    "Glasses_Friendly_Headphone_Cushions/page-54.png",
+    "Glasses_Friendly_Headphone_Cushions/page-55.png",
+    "Glasses_Friendly_Headphone_Cushions/page-56.png",
+    "Glasses_Friendly_Headphone_Cushions/page-57.png",
+    "Glasses_Friendly_Headphone_Cushions/page-58.png"
+  ],
+  "scope": "Approximate rendered body hashes excluding header and footer. Native Word pagination unverified."
+}

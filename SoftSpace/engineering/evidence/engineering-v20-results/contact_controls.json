@@ -1,0 +1,26 @@
+{
+  "uniform_pressure_error_kPa": 0.0,
+  "force_balance_max_N": 8.881784197001252e-15,
+  "area_error_percent": 0.006839709526629267,
+  "identical_material_identity": "Same function and ratio 1; no invented improvement",
+  "status": "pass",
+  "area_integration_refinement": [
+    {
+      "grid": 160,
+      "area_mm2": 3533.75,
+      "pressure_kPa": 1.3765266666393507
+    },
+    {
+      "grid": 320,
+      "area_mm2": 3535.9375,
+      "pressure_kPa": 1.37662633080312
+    },
+    {
+      "grid": 640,
+      "area_mm2": 3533.984375,
+      "pressure_kPa": 1.3770372016312702
+    }
+  ],
+  "last_pressure_change_percent": 0.02984621309041202,
+  "chosen_2_percent_integration_comparison_pass": true
+}

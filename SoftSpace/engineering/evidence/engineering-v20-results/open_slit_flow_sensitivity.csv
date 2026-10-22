@@ -1,0 +1,7 @@
+assumed_gap_mm,conductance_m3_Pa_s,relative_to_005mm,scope
+0.025,2.397943523634132e-11,0.125,Steady incompressible laminar rectangular slit approximation; no acoustic dB or ANC prediction
+0.05,1.9183548189073055e-10,1.0,Steady incompressible laminar rectangular slit approximation; no acoustic dB or ANC prediction
+0.1,1.5346838551258444e-09,8.0,Steady incompressible laminar rectangular slit approximation; no acoustic dB or ANC prediction
+0.2,1.2277470841006755e-08,64.0,Steady incompressible laminar rectangular slit approximation; no acoustic dB or ANC prediction
+0.4,9.821976672805404e-08,512.0,Steady incompressible laminar rectangular slit approximation; no acoustic dB or ANC prediction
+0.8,7.857581338244323e-07,4096.0,Steady incompressible laminar rectangular slit approximation; no acoustic dB or ANC prediction

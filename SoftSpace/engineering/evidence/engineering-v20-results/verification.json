@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-21",
+  "method": "Independent scalar Brent root and quadrature of exact ellipse strips; same reduced physical assumptions",
+  "selected_contact_checks": [
+    {
+      "zone_height_mm": 12,
+      "arm_centre_mm": 8,
+      "independent_pressure_kPa": 1.9043936271922177,
+      "CSV_pressure_kPa": 1.8974627453896618,
+      "difference_percent": 0.3652710346696564,
+      "chosen_1_percent_gate_pass": true
+    },
+    {
+      "zone_height_mm": 12,
+      "arm_centre_mm": 15,
+      "independent_pressure_kPa": 1.3709511260655634,
+      "CSV_pressure_kPa": 1.3705217270675176,
+      "difference_percent": 0.03133106097956695,
+      "chosen_1_percent_gate_pass": true
+    },
+    {
+      "zone_height_mm": 12,
+      "arm_centre_mm": 24,
+      "independent_pressure_kPa": 2.1291982098188105,
+      "CSV_pressure_kPa": 2.1277305920777545,
+      "difference_percent": 0.06897573153858971,
+      "chosen_1_percent_gate_pass": true
+    },
+    {
+      "zone_height_mm": 18,
+      "arm_centre_mm": 8,
+      "independent_pressure_kPa": 1.4539335858301987,
+      "CSV_pressure_kPa": 1.4650897078269078,
+      "difference_percent": 0.761463406446039,
+      "chosen_1_percent_gate_pass": true
+    },
+    {
+      "zone_height_mm": 18,
+      "arm_centre_mm": 15,
+      "independent_pressure_kPa": 1.3768473714993714,
+      "CSV_pressure_kPa": 1.3764130584054584,
+      "difference_percent": 0.031553979473009086,
+      "chosen_1_percent_gate_pass": true
+    },
+    {
+      "zone_height_mm": 18,
+      "arm_centre_mm": 24,
+      "independent_pressure_kPa": 1.7667845151738546,
+      "CSV_pressure_kPa": 1.7659628327027812,
+      "difference_percent": 0.0465288654923679,
+      "chosen_1_percent_gate_pass": true
+    },
+    {
+      "zone_height_mm": 24,
+      "arm_centre_mm": 8,
+      "independent_pressure_kPa": 1.3832222647493895,
+      "CSV_pressure_kPa": 1.3827945933539296,
+      "difference_percent": 0.030928049438094796,
+      "chosen_1_percent_gate_pass": true
+    },
+    {
+      "zone_height_mm": 24,
+      "arm_centre_mm": 15,
+      "independent_pressure_kPa": 1.3829894544943329,
+      "CSV_pressure_kPa": 1.382547063161368,
+      "difference_percent": 0.03199828380187064,
+      "chosen_1_percent_gate_pass": true
+    },
+    {
+      "zone_height_mm": 24,
+      "arm_centre_mm": 24,
+      "independent_pressure_kPa": 1.3822565446151303,
+      "CSV_pressure_kPa": 1.3817835964947536,
+      "difference_percent": 0.03422736538314375,
+      "chosen_1_percent_gate_pass": true
+    },
+    {
+      "zone_height_mm": 32,
+      "arm_centre_mm": 8,
+      "independent_pressure_kPa": 1.391969694707047,
+      "CSV_pressure_kPa": 1.3915416487861152,
+      "difference_percent": 0.03076055404487299,
+      "chosen_1_percent_gate_pass": true
+    },
+    {
+      "zone_height_mm": 32,
+      "arm_centre_mm": 15,
+      "independent_pressure_kPa": 1.3917332137702871,
+      "CSV_pressure_kPa": 1.3912902141097194,
+      "difference_percent": 0.031840924062787046,
+      "chosen_1_percent_gate_pass": true
+    },
+    {
+      "zone_height_mm": 32,
+      "arm_centre_mm": 24,
+      "independent_pressure_kPa": 1.3909887518508368,
+      "CSV_pressure_kPa": 1.3905147086613419,
+      "difference_percent": 0.03409120281447908,
+      "chosen_1_percent_gate_pass": true
+    }
+  ],
+  "selected_contact_checks_pass": true,
+  "saved_joint_audits": 8,
+  "STEP_files_hash_and_reimport_pass": 3,
+  "physical_validation": false
+}

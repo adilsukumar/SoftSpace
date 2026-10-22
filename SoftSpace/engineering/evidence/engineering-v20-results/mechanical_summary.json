@@ -1,0 +1,7 @@
+{
+  "hinge_scenarios": 36,
+  "negative_holding_margin": 5,
+  "fit_scenarios": 54,
+  "nonpositive_fit_margin": 33,
+  "scope": "Assumed worst-case combinations. Not supplier capability, real spring calibration, drop dynamics, fatigue or reliability statistics. V19 geometry unchanged."
+}

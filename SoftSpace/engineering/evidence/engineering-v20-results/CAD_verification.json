@@ -1,0 +1,132 @@
+{
+  "revision": "V20 reference pad bodies",
+  "cases": [
+    {
+      "name": "SoftSpace_Flex_V20_uniform_control",
+      "zone_height_mm": 0,
+      "path": "${WORKSPACE}\\engineering-v20-results\\CAD\\SoftSpace_Flex_V20_uniform_control.step",
+      "sha256": "fefe29af6e30960164deb39c2bdcc9e5f263b70311cae4f33ffe81aee5e31248",
+      "parts": {
+        "UniformFoam": 98722.19294456909,
+        "ContinuousCover": 7306.559114086398
+      },
+      "part_bounds_mm": {
+        "UniformFoam": [
+          -39.6500001,
+          -49.6500001,
+          0.34999989999999986,
+          39.6500001,
+          49.6500001,
+          29.650000100000003
+        ],
+        "ContinuousCover": [
+          -40.0000001,
+          -50.0000001,
+          -1.000000001110223e-07,
+          40.0000001,
+          50.0000001,
+          30.0000001
+        ]
+      },
+      "solid_count": 2,
+      "expected_volume_mm3": 106028.75205865552,
+      "reimport_volume_mm3": 106028.75205865351,
+      "reimport_pass": true,
+      "envelope_source": "Brainwavz aftermarket compatibility listing",
+      "opening_and_cover": "Assumed design variables",
+      "Sony_mount_fit_verified": false,
+      "scope": "Sharp-edge solid idealization for comparison and foam cutting. Corners, real seams, adhesive, stretch skirt and manufacturing process remain supplier development. No cut-through glasses slot."
+    },
+    {
+      "name": "SoftSpace_Flex_V20_soft_zone",
+      "zone_height_mm": 18,
+      "path": "${WORKSPACE}\\engineering-v20-results\\CAD\\SoftSpace_Flex_V20_soft_zone.step",
+      "sha256": "3f915afb05d1ce58eecbeb309891058b7a3c7e3aff872b66164a1f24eb619c25",
+      "parts": {
+        "MainFoam": 90827.7788570537,
+        "SoftGlassesZone": 7894.414087515381,
+        "ContinuousCover": 7306.559114086398
+      },
+      "part_bounds_mm": {
+        "MainFoam": [
+          -39.650005,
+          -49.650005,
+          0.34999439999999976,
+          39.650005,
+          49.650005,
+          29.650005600000007
+        ],
+        "SoftGlassesZone": [
+          18.612157598934488,
+          5.999995,
+          0.34999439999999976,
+          39.359421114837176,
+          24.000005000000012,
+          29.650005600000007
+        ],
+        "ContinuousCover": [
+          -40.0000001,
+          -50.0000001,
+          -1.000000001110223e-07,
+          40.0000001,
+          50.0000001,
+          30.0000001
+        ]
+      },
+      "solid_count": 3,
+      "expected_volume_mm3": 106028.75205865552,
+      "reimport_volume_mm3": 106028.7520586683,
+      "reimport_pass": true,
+      "envelope_source": "Brainwavz aftermarket compatibility listing",
+      "opening_and_cover": "Assumed design variables",
+      "Sony_mount_fit_verified": false,
+      "scope": "Sharp-edge solid idealization for comparison and foam cutting. Corners, real seams, adhesive, stretch skirt and manufacturing process remain supplier development. No cut-through glasses slot."
+    },
+    {
+      "name": "SoftSpace_Flex_V20_broad_soft_zone",
+      "zone_height_mm": 32,
+      "path": "${WORKSPACE}\\engineering-v20-results\\CAD\\SoftSpace_Flex_V20_broad_soft_zone.step",
+      "sha256": "66a788b678e1ddd8649818e58f08448d5c645e578f2588618280a758e68ef5d2",
+      "parts": {
+        "MainFoam": 84362.68810379089,
+        "SoftGlassesZone": 14359.504840778163,
+        "ContinuousCover": 7306.559114086398
+      },
+      "part_bounds_mm": {
+        "MainFoam": [
+          -39.650005,
+          -49.650005,
+          0.34999439999999976,
+          39.64196198755049,
+          49.650005,
+          29.650005600000007
+        ],
+        "SoftGlassesZone": [
+          12.182977983549714,
+          -1.0000050000000111,
+          0.34999439999999976,
+          39.650005,
+          31.000005000000016,
+          29.650005600000007
+        ],
+        "ContinuousCover": [
+          -40.0000001,
+          -50.0000001,
+          -1.000000001110223e-07,
+          40.0000001,
+          50.0000001,
+          30.0000001
+        ]
+      },
+      "solid_count": 3,
+      "expected_volume_mm3": 106028.75205865552,
+      "reimport_volume_mm3": 106028.75205866943,
+      "reimport_pass": true,
+      "envelope_source": "Brainwavz aftermarket compatibility listing",
+      "opening_and_cover": "Assumed design variables",
+      "Sony_mount_fit_verified": false,
+      "scope": "Sharp-edge solid idealization for comparison and foam cutting. Corners, real seams, adhesive, stretch skirt and manufacturing process remain supplier development. No cut-through glasses slot."
+    }
+  ],
+  "scope": "CAD volume and STEP reimport checks only. No fitted mounting interface or calibrated pressure/acoustic model."
+}

@@ -1,0 +1,183 @@
+{
+  "results_date": "2026-10-21",
+  "pack_review_date": "2026-10-22",
+  "finite_preprototype_study_complete": true,
+  "all_possible_software_work_complete": false,
+  "full_calibrated_product_simulation_complete": false,
+  "physical_validation": false,
+  "manufacturing_release": false,
+  "prototype_purchase_decision": "Small material, pad and bench-hinge samples are justified; production tooling and complete batches are not released",
+  "Sony_exact_mount_verified": false,
+  "missing_inputs": [
+    "Exact Sony groove and skirt dimensions from supplier/reference part",
+    "Traceable foam and cover material data",
+    "Headband force versus width and hinge torque versus setting",
+    "Physical acoustic, thermal and durability measurements"
+  ],
+  "new_checks": {
+    "date": "2026-10-21",
+    "method": "Independent scalar Brent root and quadrature of exact ellipse strips; same reduced physical assumptions",
+    "selected_contact_checks": [
+      {
+        "zone_height_mm": 12,
+        "arm_centre_mm": 8,
+        "independent_pressure_kPa": 1.9043936271922177,
+        "CSV_pressure_kPa": 1.8974627453896618,
+        "difference_percent": 0.3652710346696564,
+        "chosen_1_percent_gate_pass": true
+      },
+      {
+        "zone_height_mm": 12,
+        "arm_centre_mm": 15,
+        "independent_pressure_kPa": 1.3709511260655634,
+        "CSV_pressure_kPa": 1.3705217270675176,
+        "difference_percent": 0.03133106097956695,
+        "chosen_1_percent_gate_pass": true
+      },
+      {
+        "zone_height_mm": 12,
+        "arm_centre_mm": 24,
+        "independent_pressure_kPa": 2.1291982098188105,
+        "CSV_pressure_kPa": 2.1277305920777545,
+        "difference_percent": 0.06897573153858971,
+        "chosen_1_percent_gate_pass": true
+      },
+      {
+        "zone_height_mm": 18,
+        "arm_centre_mm": 8,
+        "independent_pressure_kPa": 1.4539335858301987,
+        "CSV_pressure_kPa": 1.4650897078269078,
+        "difference_percent": 0.761463406446039,
+        "chosen_1_percent_gate_pass": true
+      },
+      {
+        "zone_height_mm": 18,
+        "arm_centre_mm": 15,
+        "independent_pressure_kPa": 1.3768473714993714,
+        "CSV_pressure_kPa": 1.3764130584054584,
+        "difference_percent": 0.031553979473009086,
+        "chosen_1_percent_gate_pass": true
+      },
+      {
+        "zone_height_mm": 18,
+        "arm_centre_mm": 24,
+        "independent_pressure_kPa": 1.7667845151738546,
+        "CSV_pressure_kPa": 1.7659628327027812,
+        "difference_percent": 0.0465288654923679,
+        "chosen_1_percent_gate_pass": true
+      },
+      {
+        "zone_height_mm": 24,
+        "arm_centre_mm": 8,
+        "independent_pressure_kPa": 1.3832222647493895,
+        "CSV_pressure_kPa": 1.3827945933539296,
+        "difference_percent": 0.030928049438094796,
+        "chosen_1_percent_gate_pass": true
+      },
+      {
+        "zone_height_mm": 24,
+        "arm_centre_mm": 15,
+        "independent_pressure_kPa": 1.3829894544943329,
+        "CSV_pressure_kPa": 1.382547063161368,
+        "difference_percent": 0.03199828380187064,
+        "chosen_1_percent_gate_pass": true
+      },
+      {
+        "zone_height_mm": 24,
+        "arm_centre_mm": 24,
+        "independent_pressure_kPa": 1.3822565446151303,
+        "CSV_pressure_kPa": 1.3817835964947536,
+        "difference_percent": 0.03422736538314375,
+        "chosen_1_percent_gate_pass": true
+      },
+      {
+        "zone_height_mm": 32,
+        "arm_centre_mm": 8,
+        "independent_pressure_kPa": 1.391969694707047,
+        "CSV_pressure_kPa": 1.3915416487861152,
+        "difference_percent": 0.03076055404487299,
+        "chosen_1_percent_gate_pass": true
+      },
+      {
+        "zone_height_mm": 32,
+        "arm_centre_mm": 15,
+        "independent_pressure_kPa": 1.3917332137702871,
+        "CSV_pressure_kPa": 1.3912902141097194,
+        "difference_percent": 0.031840924062787046,
+        "chosen_1_percent_gate_pass": true
+      },
+      {
+        "zone_height_mm": 32,
+        "arm_centre_mm": 24,
+        "independent_pressure_kPa": 1.3909887518508368,
+        "CSV_pressure_kPa": 1.3905147086613419,
+        "difference_percent": 0.03409120281447908,
+        "chosen_1_percent_gate_pass": true
+      }
+    ],
+    "selected_contact_checks_pass": true,
+    "saved_joint_audits": 8,
+    "STEP_files_hash_and_reimport_pass": 3,
+    "physical_validation": false
+  },
+  "contact": {
+    "date": "2026-10-21",
+    "paired_scenarios": 11664,
+    "within_chosen_40_percent_compression_screen": 11226,
+    "outside_chosen_compression_screen": 438,
+    "eligible_local_change_percent_range": [
+      -74.70379910549934,
+      3.7595644515919124
+    ],
+    "eligible_cases_local_pressure_increased": 624,
+    "all_cases_local_pressure_increased": 648,
+    "scope": "Four-area, independent-column assumed-foam model at fixed per-cup force. No lateral foam coupling, curved head, real cover membrane, skin, glasses bending or actual Sony headband force. Cases above 40% compression are flagged outside the chosen small-compression screen. Percentages are conditional model changes, not probabilities or comfort improvements.",
+    "physical_measurements": 0,
+    "zone_comparisons": [
+      {
+        "zone_height_mm": 12,
+        "paired_scenarios": 2916,
+        "eligible_pressure_increases": 624,
+        "scope": "Within listed arm positions and widths only"
+      },
+      {
+        "zone_height_mm": 18,
+        "paired_scenarios": 2916,
+        "eligible_pressure_increases": 0,
+        "scope": "Within listed arm positions and widths only"
+      },
+      {
+        "zone_height_mm": 24,
+        "paired_scenarios": 2916,
+        "eligible_pressure_increases": 0,
+        "scope": "Within listed arm positions and widths only"
+      },
+      {
+        "zone_height_mm": 32,
+        "paired_scenarios": 2916,
+        "eligible_pressure_increases": 0,
+        "scope": "Within listed arm positions and widths only"
+      }
+    ]
+  },
+  "mechanical": {
+    "hinge_scenarios": 36,
+    "negative_holding_margin": 5,
+    "fit_scenarios": 54,
+    "nonpositive_fit_margin": 33,
+    "scope": "Assumed worst-case combinations. Not supplier capability, real spring calibration, drop dynamics, fatigue or reliability statistics. V19 geometry unchanged."
+  },
+  "reports": [
+    {
+      "path": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
+      "sha256": "712fd9d7f3de4bb798d7cc01f23c4fa3940f8b8d4622be665fff565ffbdf6946",
+      "bytes": 9511802
+    },
+    {
+      "path": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
+      "sha256": "a65cb8a266f85db027ca269dfc99b81254e65d0ad62fbec29272d36187aa5f1e",
+      "bytes": 5001932
+    }
+  ],
+  "native_Word_layout_verified": false
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-21",
+  "paired_scenarios": 11664,
+  "within_chosen_40_percent_compression_screen": 11226,
+  "outside_chosen_compression_screen": 438,
+  "eligible_local_change_percent_range": [
+    -74.70379910549934,
+    3.7595644515919124
+  ],
+  "eligible_cases_local_pressure_increased": 624,
+  "all_cases_local_pressure_increased": 648,
+  "scope": "Four-area, independent-column assumed-foam model at fixed per-cup force. No lateral foam coupling, curved head, real cover membrane, skin, glasses bending or actual Sony headband force. Cases above 40% compression are flagged outside the chosen small-compression screen. Percentages are conditional model changes, not probabilities or comfort improvements.",
+  "physical_measurements": 0,
+  "zone_comparisons": [
+    {
+      "zone_height_mm": 12,
+      "paired_scenarios": 2916,
+      "eligible_pressure_increases": 624,
+      "scope": "Within listed arm positions and widths only"
+    },
+    {
+      "zone_height_mm": 18,
+      "paired_scenarios": 2916,
+      "eligible_pressure_increases": 0,
+      "scope": "Within listed arm positions and widths only"
+    },
+    {
+      "zone_height_mm": 24,
+      "paired_scenarios": 2916,
+      "eligible_pressure_increases": 0,
+      "scope": "Within listed arm positions and widths only"
+    },
+    {
+      "zone_height_mm": 32,
+      "paired_scenarios": 2916,
+      "eligible_pressure_increases": 0,
+      "scope": "Within listed arm positions and widths only"
+    }
+  ]
+}

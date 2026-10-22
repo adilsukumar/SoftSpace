@@ -41,6 +41,15 @@ This repository makes the work inspectable: actual CAD, illustrated reports, num
 
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-routes-mobile.svg"/><img src="assets/readme/section-routes.svg" width="100%" alt="TWO ROUTES THROUGH THE QUESTION. A passive headphone concept and replacement cushions."/></picture></p>
 
+
+## Latest pre prototype review
+
+**Small test samples are the next justified purchase.** SoftSpace keeps its V19 headphone geometry. SoftSpace Flex adds [three V20 reference pad bodies](SoftSpace%20Flex/CAD/V20-reference), using a published compatible-pad envelope of 100 x 80 x 30 mm. This is an aftermarket size, not a dimensioned Sony mounting drawing.
+
+The [new evidence and purchase plan](SoftSpace/engineering/evidence/engineering-v20-results/README.md) includes 11,664 paired cushion scenarios, 12 separately implemented numerical comparisons, a fresh audit of eight saved joint solutions, source screenshots and recorded failures. Narrow-zone pressure, hinge-setting and tolerance risks are retained. The two Word reports now contain the same update.
+
+This closes a bounded available-data study. Exact Sony attachment, calibrated worn contact, real acoustics, heat and durability remain input-dependent. No success probability, validated comfort benefit, zero-leakage result or manufacturing release is claimed. These records support an early prototype-funding proposal, not a proven-product claim.
+
 ## Two routes, one shared design question
 
 <table>
@@ -54,7 +63,7 @@ This repository makes the work inspectable: actual CAD, illustrated reports, num
   </tr>
   <tr>
     <td><strong>A complete passive headphone concept</strong><br/>Six adjustable child/adult size variants, a folding mechanism and a developing cushion system. Autistic users are the first priority.</td>
-    <td><strong>A replacement-cushion concept</strong><br/>A softer zone around glasses arms with a continuous cover. The first intended host is the Sony WH-CH720N; its mounting dimensions are still required.</td>
+    <td><strong>A replacement-cushion concept</strong><br/>A softer zone around glasses arms with a continuous cover. The first intended host is the Sony WH-CH720N. V20 explores a published aftermarket envelope; precise mounting dimensions are still required.</td>
   </tr>
   <tr>
     <td><a href="SoftSpace/README.md">Open product overview →</a><br/><a href="SoftSpace/reports/SoftSpace_Report.docx">Download illustrated Word report →</a></td>

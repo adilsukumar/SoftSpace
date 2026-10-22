@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-21",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.6",
+  "matplotlib": "3.10.8",
+  "script_sha256": "faf614c098533e609ee0e1151b5b520eff957fd0261f7f6d11cb00a2254e04d1",
+  "physical_tests": 0
+}

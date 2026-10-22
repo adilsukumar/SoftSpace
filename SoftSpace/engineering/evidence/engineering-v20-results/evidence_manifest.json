@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-22",
+  "files": [
+    {
+      "path": "Brainwavz_compatibility_source.jpg",
+      "sha256": "8229bdcb2b7cff0e3d036b5c529260f138c1f5e316bc262134d9c96f0dfeb915",
+      "bytes": 78631
+    },
+    {
+      "path": "Brainwavz_dimensions_source.jpg",
+      "sha256": "4e62e81d3a6f8cf70f0916400a75983a105a61caa0edf6381d29e851b3118b52",
+      "bytes": 82940
+    },
+    {
+      "path": "CAD/SoftSpace_Flex_V20_broad_soft_zone.step",
+      "sha256": "66a788b678e1ddd8649818e58f08448d5c645e578f2588618280a758e68ef5d2",
+      "bytes": 68443
+    },
+    {
+      "path": "CAD/SoftSpace_Flex_V20_soft_zone.step",
+      "sha256": "3f915afb05d1ce58eecbeb309891058b7a3c7e3aff872b66164a1f24eb619c25",
+      "bytes": 68458
+    },
+    {
+      "path": "CAD/SoftSpace_Flex_V20_uniform_control.step",
+      "sha256": "fefe29af6e30960164deb39c2bdcc9e5f263b70311cae4f33ffe81aee5e31248",
+      "bytes": 29303
+    },
+    {
+      "path": "CAD_build_trials.json",
+      "sha256": "cbb3bce3a32ab03f0a2e096e08f287b2a832bf39ae5c84c41d6471541ee13b98",
+      "bytes": 392
+    },
+    {
+      "path": "CAD_verification.json",
+      "sha256": "d46f9322b47cdf7845f59c13837086506516f4fcfdfef8d913b490c9c7839167",
+      "bytes": 4878
+    },
+    {
+      "path": "contact_controls.json",
+      "sha256": "4a2b9c8f529010535c821fc6bfc0b4966383f7f30c5fda907111b74430b424fc",
+      "bytes": 719
+    },
+    {
+      "path": "contact_summary.json",
+      "sha256": "798b69d1a45a9f3a8a3a1e3ef8bfc540bebe5eddb9b8f098848654ab2f636110",
+      "bytes": 1511
+    },
+    {
+      "path": "cushion_contact_scenarios.csv",
+      "sha256": "ea6a4abd44eca1ac0c046d07f0e76cfe08403add688640800c4c074949b310c7",
+      "bytes": 2129963
+    },
+    {
+      "path": "design_parameters.json",
+      "sha256": "3ba1b8b1a7356930446d60624a9672306387b1fc85ed0662912e23185a66cef7",
+      "bytes": 768
+    },
+    {
+      "path": "environment.json",
+      "sha256": "9052312175c1e202abc839d55fbc0eb4d0d7223f0fae722819f66f797381f818",
+      "bytes": 314
+    },
+    {
+      "path": "Flex_V20_reference_template.pdf",
+      "sha256": "bf84de1a0e960dd4677ef539dcb162074fa1f9cc148eb9cc7a0246ea0a56078b",
+      "bytes": 10692
+    },
+    {
+      "path": "hinge_uncertainty_scenarios.csv",
+      "sha256": "d297dcb3a3292d9440a1e9d98720f9de526052ccbdc23b84b0ca8ef9ca2d9c74",
+      "bytes": 2696
+    },
+    {
+      "path": "internet_sources.json",
+      "sha256": "0aa9beb617a2d59b271ab46ab2b2a39cff7b289668e40280a8dd1c39d4ecdc2e",
+      "bytes": 1849
+    },
+    {
+      "path": "mechanical_summary.json",
+      "sha256": "c5c8fcd8589ae9ebf0d823cd60d204db3f99c121174de035e50281cfe0640e7e",
+      "bytes": 291
+    },
+    {
+      "path": "open_slit_flow_sensitivity.csv",
+      "sha256": "3b6a0a8cffa3c9da04bcd00b46f8274deb561241c007b1da8b73ade5e4aeec47",
+      "bytes": 830
+    },
+    {
+      "path": "phase_status.json",
+      "sha256": "eaa232e657edc9bd3fc64daeff3ef9237a20740a1e7524398df1e4ab931faa47",
+      "bytes": 6972
+    },
+    {
+      "path": "pivot_tolerance_scenarios.csv",
+      "sha256": "cd420391d797569caec39dda79d2df40a11fb85eed0f21ffe43a5e7c6cb5e26f",
+      "bytes": 2531
+    },
+    {
+      "path": "quadratic-contact_audit.log",
+      "sha256": "245075cece17ac575ccc3fdd9f9c7436b39ea0e1d4475532f3532bd324516ce8",
+      "bytes": 124
+    },
+    {
+      "path": "quadratic-inward_audit.log",
+      "sha256": "245075cece17ac575ccc3fdd9f9c7436b39ea0e1d4475532f3532bd324516ce8",
+      "bytes": 124
+    },
+    {
+      "path": "README.md",
+      "sha256": "dda45593be9b4867213c6045db829a902b64af39f1b4a392357687e2665247e1",
+      "bytes": 8325
+    },
+    {
+      "path": "run_saved_audits.py",
+      "sha256": "80845afeb140006fd2c3dae4059db1ecd7405886ec92f5ff12c8b002379efc08",
+      "bytes": 369
+    },
+    {
+      "path": "saved_audit_rerun.json",
+      "sha256": "570cf63ed391c7700977daf28cac84636633aea1f15f1f732179c347b0891fdb",
+      "bytes": 8078
+    },
+    {
+      "path": "Sony_mount_source.jpg",
+      "sha256": "4f0a5da474c9c6b29a74a77494a3e8642bafbc13792ecb65702921fc280ab86a",
+      "bytes": 78417
+    },
+    {
+      "path": "verification.json",
+      "sha256": "df47735019960668f52314bc8a244728da5fd67d179091bb3e1343e8bbd1a2b4",
+      "bytes": 3515
+    },
+    {
+      "path": "../v20_preprototype_screen.py",
+      "sha256": "faf614c098533e609ee0e1151b5b520eff957fd0261f7f6d11cb00a2254e04d1",
+      "bytes": 12103
+    },
+    {
+      "path": "../verify_v20_screen.py",
+      "sha256": "308bb33610ae031dcd25bfa5ab6e145bd8afde051251841e65e0d249f3937af0",
+      "bytes": 2677
+    },
+    {
+      "path": "../build_v20_flex_reference.py",
+      "sha256": "d5a27ce2ea4f1adef1f24965c94ac2499d7120670207925817c2d12cc49c3f4b",
+      "bytes": 6510
+    },
+    {
+      "path": "../run_v20_saved_audits.py",
+      "sha256": "a9a6a41e0c05c17535ae1d42fb6de1a9d7837f15ffdb40950d4ed9ef5ba6fede",
+      "bytes": 1574
+    },
+    {
+      "path": "../close_v20_preprototype.py",
+      "sha256": "f036da90e32907ef4acc6d897e0e1fd16e12df11696a532743ef7daa19423940",
+      "bytes": 4886
+    }
+  ],
+  "scope": "Integrity list, not scientific validation. The review date does not replace the recorded calculation/source dates."
+}

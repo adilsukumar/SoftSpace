@@ -1,0 +1,36 @@
+{
+  "revision": "SoftSpace Flex V20 reference pad body",
+  "standalone_revision": "SoftSpace V19 unchanged",
+  "date": "2026-10-21",
+  "units": "mm N MPa",
+  "source_ids": [
+    "BW",
+    "SONY"
+  ],
+  "published_aftermarket_envelope_mm": [
+    80,
+    100,
+    30
+  ],
+  "assumed_opening_mm": [
+    50,
+    70
+  ],
+  "assumed_cover_mm": 0.35,
+  "soft_zone_vertical_centre_mm": 15,
+  "soft_zone_height_mm": 18,
+  "attachment": "Tuck-in mounting approach from Sony instructions; precise skirt and groove intentionally not released",
+  "measured_Sony_dimensions": false,
+  "manufacturing_release": false,
+  "CAD_variant_zone_heights_mm": [
+    0,
+    18,
+    32
+  ],
+  "screened_zone_heights_mm": [
+    12,
+    18,
+    24,
+    32
+  ]
+}

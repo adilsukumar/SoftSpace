@@ -1,0 +1,45 @@
+{
+  "status": "pass for changed pages and regression-matched prior bodies",
+  "review_date": "2026-10-22",
+  "changed_pages_reviewed": [
+    "Ear_Defender_Project/page-1.png",
+    "Glasses_Friendly_Headphone_Cushions/page-1.png",
+    "Glasses_Friendly_Headphone_Cushions/page-13.png"
+  ],
+  "new_main_pages_reviewed": [
+    78,
+    79,
+    80,
+    81,
+    82
+  ],
+  "new_flex_pages": [
+    {
+      "main_page": 78,
+      "flex_page": 54,
+      "identical_body": true
+    },
+    {
+      "main_page": 79,
+      "flex_page": 55,
+      "identical_body": true
+    },
+    {
+      "main_page": 80,
+      "flex_page": 56,
+      "identical_body": true
+    },
+    {
+      "main_page": 81,
+      "flex_page": 57,
+      "identical_body": true
+    },
+    {
+      "main_page": 82,
+      "flex_page": 58,
+      "identical_body": true
+    }
+  ],
+  "unchanged_prior_bodies": 127,
+  "scope": "Approximate preview review only. New Flex bodies match the reviewed shared chapter exactly. Native Word pagination remains unverified."
+}

@@ -1,0 +1,221 @@
+{
+  "date": "2026-10-21",
+  "runs": [
+    {
+      "study": "quadratic-contact",
+      "exit_code": 0,
+      "seconds": 35.34665536880493,
+      "method": "Same-equation reassembly of saved solutions, not an independent solver or physical test",
+      "verification": {
+        "array_audits": [
+          {
+            "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\adult_small_h2.3.json",
+            "residual_recomputed": 9.964284398958058e-07,
+            "force_balance_N": 5.704132325834971e-10,
+            "saved_array_error": 0.0,
+            "CAD_volume_error_percent": [
+              0.0009634354131038414,
+              8.258393794369212e-05
+            ],
+            "status": "pass"
+          },
+          {
+            "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\adult_small_h3.0.json",
+            "residual_recomputed": 8.210131163276652e-07,
+            "force_balance_N": 1.2301001725272831e-09,
+            "saved_array_error": 0.0,
+            "CAD_volume_error_percent": [
+              0.0003775153828322608,
+              0.00024460857313002293
+            ],
+            "status": "pass"
+          },
+          {
+            "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\child_large_h2.3.json",
+            "residual_recomputed": 9.465282500577826e-07,
+            "force_balance_N": 1.472246025395218e-10,
+            "saved_array_error": 0.0,
+            "CAD_volume_error_percent": [
+              0.0007957417158865887,
+              9.454748631787524e-05
+            ],
+            "status": "pass"
+          },
+          {
+            "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\child_large_h3.0.json",
+            "residual_recomputed": 7.477033565038914e-07,
+            "force_balance_N": 3.6625916415271475e-10,
+            "saved_array_error": 0.0,
+            "CAD_volume_error_percent": [
+              0.0001846205056388328,
+              0.0002862404073322722
+            ],
+            "status": "pass"
+          }
+        ],
+        "element_controls": {
+          "affine_patch_error": 2.710505431213761e-20,
+          "energy": 0.0005966563786008231,
+          "analytic_energy": 0.000596656378600823,
+          "volume": 0.1666666666666667,
+          "symmetry_error": 2.2737367544323206e-13,
+          "edge_order": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "quadrature_points": 27,
+          "status": "pass"
+        },
+        "mesh_comparisons": [
+          {
+            "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\child_large_h2.3.json",
+            "size": "child_large",
+            "h": 2.3,
+            "change_percent": 0.3874705729557393,
+            "gate": true
+          },
+          {
+            "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\adult_small_h2.3.json",
+            "size": "adult_small",
+            "h": 2.3,
+            "change_percent": 0.4148024748077628,
+            "gate": true
+          }
+        ],
+        "scope": "Same-equation reassembly and saved-array checks, source hashes, reference CAD volumes and analytic element controls. No independent physical validation. Centroid stress samples only."
+      }
+    },
+    {
+      "study": "quadratic-inward",
+      "exit_code": 0,
+      "seconds": 34.42625904083252,
+      "method": "Same-equation reassembly of saved solutions, not an independent solver or physical test",
+      "verification": {
+        "array_audits": [
+          {
+            "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\adult_small_h2.3.json",
+            "residual_recomputed": 9.07295162389331e-07,
+            "force_balance_N": 8.051062868669052e-10,
+            "saved_array_error": 0.0,
+            "CAD_volume_error_percent": [
+              0.0009634354131038414,
+              8.258393794369212e-05
+            ],
+            "status": "pass"
+          },
+          {
+            "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\adult_small_h3.0.json",
+            "residual_recomputed": 8.430468064605111e-07,
+            "force_balance_N": 2.488329490015652e-09,
+            "saved_array_error": 0.0,
+            "CAD_volume_error_percent": [
+              0.0003775153828322608,
+              0.00024460857313002293
+            ],
+            "status": "pass"
+          },
+          {
+            "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\child_large_h2.3.json",
+            "residual_recomputed": 9.287121684006472e-07,
+            "force_balance_N": 8.050626524636396e-10,
+            "saved_array_error": 0.0,
+            "CAD_volume_error_percent": [
+              0.0007957417158865887,
+              9.454748631787524e-05
+            ],
+            "status": "pass"
+          },
+          {
+            "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\child_large_h3.0.json",
+            "residual_recomputed": 7.937453264315863e-07,
+            "force_balance_N": 2.0865243701270302e-10,
+            "saved_array_error": 0.0,
+            "CAD_volume_error_percent": [
+              0.0001846205056388328,
+              0.0002862404073322722
+            ],
+            "status": "pass"
+          }
+        ],
+        "element_controls": {
+          "affine_patch_error": 2.710505431213761e-20,
+          "energy": 0.0005966563786008231,
+          "analytic_energy": 0.000596656378600823,
+          "volume": 0.1666666666666667,
+          "symmetry_error": 2.2737367544323206e-13,
+          "edge_order": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "quadrature_points": 27,
+          "status": "pass"
+        },
+        "mesh_comparisons": [
+          {
+            "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\child_large_h2.3.json",
+            "size": "child_large",
+            "h": 2.3,
+            "converged": true,
+            "change_percent": 0.3674398638910059,
+            "gate": true
+          },
+          {
+            "file": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\adult_small_h2.3.json",
+            "size": "adult_small",
+            "h": 2.3,
+            "converged": true,
+            "change_percent": 0.33550984239072434,
+            "gate": true
+          }
+        ],
+        "scope": "Same-equation reassembly and saved-array checks, source hashes, reference CAD volumes and analytic element controls. No independent physical validation. Centroid stress samples only."
+      }
+    }
+  ],
+  "complete": true,
+  "all_pass": true
+}

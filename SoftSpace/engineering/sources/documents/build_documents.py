@@ -8,7 +8,7 @@ from docx.enum.table import WD_TABLE_ALIGNMENT,WD_CELL_VERTICAL_ALIGNMENT
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 P=Path(__file__).resolve().parents[1];O=P/'documents';I=O/'images'
-STAMP='16 October 2026';REV='V8 main design and V9 local experiment'
+STAMP='21 October 2026';REV='V8 main design and V9 local experiment'
 NATIVE=None
 nv=P/'engineering-v9-results'/'native_verification.json'
 if nv.exists():
@@ -191,8 +191,8 @@ def table(doc,headers,rows,widths):
   if (P/'engineering-v15-results'/'adult_small_retention_cad.json').exists():rows+=[['15 October 2026','V15 retention and packing experiments','Added one adult small threaded knob and jam nut experiment, a child packing search on unchanged V14 parts and conditional retention load calculations. No physical or Sony pad pass is added.']]
   if (P/'engineering-v16-results'/'selected_candidates.json').exists():rows+=[['15 October 2026','V16 indexed folding candidates','Added folded-position index holes, recessed rivet retention, different child and adult layouts, retained failures, material-reference calculations and blank physical-test records. Sony fit and physical benefit remain untested.']]
   if (P/'engineering-v17-results'/'test_register.json').exists():rows+=[['15 October 2026','V17 two size entry pilots','Larger index holes and entry cones tested on child large and adult small. V16 remains the six size candidate.']]
-  if (P/'engineering-v18-results'/'test_register.json').exists():rows+=[[STAMP,'V18 passive hinge and wearing stop','Six sizes and component checks retained. Added final material, pivot clearance, CAD stack and handling load screens. Retention risk and missing physical inputs are recorded.']]
-  if (P/'engineering-v19-results'/'test_register.json').exists():rows+=[[STAMP,'V19 prototype handoff','Six sizes revised. Added two disc springs, longer pin envelopes, second nuts, coupled joint development, retained failures and measurement forms. No physical validation or manufacturing release.']]
+  if (P/'engineering-v18-results'/'test_register.json').exists():rows+=[['16 October 2026','V18 passive hinge and wearing stop','Six sizes and component checks retained. Added final material, pivot clearance, CAD stack and handling load screens. Retention risk and missing physical inputs are recorded.']]
+  if (P/'engineering-v19-results'/'test_register.json').exists():rows+=[['16 October 2026','V19 prototype handoff','Six sizes revised. Added two disc springs, longer pin envelopes, second nuts, coupled joint development, retained failures and measurement forms. No physical validation or manufacturing release.']]
  t=doc.add_table(rows=1,cols=len(headers));t.alignment=WD_TABLE_ALIGNMENT.CENTER;t.autofit=False
  for c,w in zip(t.columns,widths):c.width=Inches(w)
  for c,s in zip(t.rows[0].cells,headers):c.text=s
@@ -241,6 +241,7 @@ def save(doc,name):
 
 def main_doc():
  d=setup('SoftSpace','Headphones for sound sensitive autistic people')
+ para(d,'Current update on 21 October 2026: SoftSpace keeps the V19 headset design. SoftSpace Flex adds V20 reference pad bodies using published aftermarket dimensions. The final V20 chapter explains the new checks, failures and first sample purchases. Neither product is physically validated.')
  para(d,'We are developing a low-cost passive over-ear defender for India. The aim is to make loud surroundings easier to manage while keeping the device comfortable, easy to remove and simple to use. Autistic users are our first priority; other sound-sensitive people may also find the idea useful.')
  if (I/'V19_hero.png').exists():picture(d,'V19_hero','V19 child large and adult small final local STEP prototype assemblies. Physical validation remains open.',5.7)
  elif (I/'V18_hero.png').exists():picture(d,'V18_hero','V18 passive hinge child large and adult small local STEP candidates. Physical validation remains open.',5.7)
@@ -406,14 +407,17 @@ def main_doc():
  add_quadratic(d,P,new_page,para,table)
  from v19_inward_section import add_inward
  add_inward(d,P,new_page,para,table)
+ from v20_preprototype_section import add_v20
+ add_v20(d,P,new_page,para,table,picture,link,False)
  return save(d,'Ear_Defender_Project.docx')
 
 def glasses_doc():
  d=setup('SoftSpace Flex','Affordable replacement pads for compatible headphones in India')
+ para(d,'Current update on 21 October 2026: V20 adds three reference pad bodies from published aftermarket dimensions. Exact Sony mounting fit and the proposed pressure, sealing and sound benefits remain unverified. See the final V20 chapter for results and first sample purchases.')
  para(d,'We want a replacement cushion that presses less on glasses arms while keeping a good seal. The user keeps their headphone and replaces its removable pads. We are developing the contact idea together with our passive ear defender, but this is a separate product route.')
- picture(d,'pad','Actual saved V8 adult replacement-pad CAD. The carrier is an interface blank, not a proven fit for a headphone brand.',5.7)
+ picture(d,'V20_flex_CAD','V20 uniform control and two soft-zone body candidates. Published aftermarket outside size; assumed opening and cover. The mounting skirt is not yet dimensioned or fit-verified.',6.55)
  label(d,'Current conclusion','The idea is worth investigating. We have not proved less pain, unchanged music, no sound leakage or universal compatibility. The pad needs tests on each supported headphone model.')
- if (P/'engineering-v19-results'/'test_register.json').exists():para(d,'The shared standalone design is now V19. Its revised assembly and conditional joint calculations are recorded in the final chapters, including failed trials and refinement limits. The Sony WH CH720N pad remains generic pending original mounting measurements. No fit, comfort or sound benefit is proved.')
+ if (P/'engineering-v19-results'/'test_register.json').exists():para(d,'The shared standalone design is now V19. Its revised assembly and conditional joint calculations are recorded in the final chapters, including failed trials and refinement limits. The new V20 pad bodies use a published aftermarket envelope, but exact Sony mounting dimensions are still missing. No fit, comfort or sound benefit is proved.')
  elif (P/'engineering-v18-results'/'test_register.json').exists():para(d,'The shared standalone design is now V18, using a passive folding hinge and wearing stop. The Sony WH CH720N replacement cushion is unchanged and still needs the original mounting measurements. The new hinge checks do not prove a pad benefit. The final chapters explain the shared update.')
  if (P/'engineering-v18-results'/'final_available_data_screen.json').exists():para(d,'The final standalone holding screen identifies a limited torque margin under assumed handling loads. This adds no measured Sony cushion benefit. The last chapters record the finding and the available data screening decision.')
  para(d,'This document covers the market gap, the cushion design, the work completed and the tests still needed. Read SoftSpace Project for the full standalone-headband history.')
@@ -492,7 +496,7 @@ def glasses_doc():
   extra=(' An additional '+str(FULLFORCE10['case_count'])+'-case screen uses the actual-width fixture.' if FULLFORCE10 else '')
   material=(' A conditional material-strength screen uses predicted forces and illustrative margins; it has no measured strength or durability pass.' if STRENGTH10 else '')
   para(d,'The standalone quarter-fixture force screen has 54 cases.'+extra+' The force screens use assumed materials and synthetic heads.'+material+' These calculations do not measure the Sony headband force or prove a replacement pad reduces pressure, incoming noise or outgoing music.')
-  para(d,'The generic V8 replacement pad is unchanged and is not claimed to fit Sony WH-CH720N. The user owns that headphone and will measure its mount later. Host fit, retention, incoming noise, outgoing playback, frequency response, ANC behaviour and wearer comfort remain untested. Both reports will be updated when those dimensions or results arrive.')
+  para(d,'The generic V8 replacement pad is unchanged and is not claimed to fit Sony WH-CH720N. At the V19 stage its mount had not been measured. The V20 chapter now uses a published aftermarket envelope and keeps the exact skirt and groove dimensions open. Host fit, retention, incoming noise, outgoing playback, frequency response, ANC behaviour and wearer comfort remain untested. Both reports will be updated when those dimensions or results arrive.')
  new_page(d,'Sources and project records')
  sources(d,[5,8,9,10,11,12,13,17,18,19]);para(d,'Primary local evidence: cad_build_report.json; cover_prototype_report.json; shape-study-results/report.md; engineering-v3-results/contact_summary.json; engineering-final-results/REVIEW.md; engineering-v5-results/REVIEW.md; cad_v8_report.json; cad_v8_audit.json; engineering-v8-results/STEP_verification.json; engineering-v7-results/acoustic_p2_summary.json. The named files are saved in EarDefenderProject.')
  from additional_v10_tests import add_section
@@ -521,6 +525,8 @@ def glasses_doc():
  add_quadratic(d,P,new_page,para,table)
  from v19_inward_section import add_inward
  add_inward(d,P,new_page,para,table)
+ from v20_preprototype_section import add_v20
+ add_v20(d,P,new_page,para,table,picture,link,True)
  return save(d,'Glasses_Friendly_Headphone_Cushions.docx')
 
 if __name__=='__main__':

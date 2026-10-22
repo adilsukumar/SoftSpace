@@ -4,13 +4,19 @@
 
 [Read the illustrated report](reports/SoftSpace_Flex_Report.docx) · [Browse generic cushion CAD](CAD/generic-V8) · [Measurement forms](measurements) · [Back to the project](../README.md)
 
-![Generic replacement-cushion CAD](media/generic_cushion.png)
+![V20 reference cushion CAD](media/V20_flex_CAD.png)
 
 The aim is a more compliant zone around the glasses arm while maintaining a continuous cover and an acoustic seal. We are investigating material compliance and contact geometry. An open slot through the cover is not the intended solution.
 
-**First intended host: Sony WH-CH720N.** The owner has deferred measuring the original pad and mounting interface. The current cushion CAD is generic; it is not a confirmed Sony-compatible replacement or a universal pad.
+**First intended host: Sony WH-CH720N.** V20 uses a published aftermarket pad envelope of 100 x 80 x 30 mm. The opening, cover and soft zones remain design assumptions. Exact groove/skirt dimensions are unavailable; a supplier can measure a model-specific reference pad without requiring the owner to measure now. No fitted Sony replacement or universal compatibility is claimed.
 
 The visible triangles in the image are a display mesh, not a proposed fabric texture.
+
+## V20 pre prototype update
+
+[Open the evidence and first-purchase plan](../SoftSpace/engineering/evidence/engineering-v20-results/README.md) · [V20 body STEP files](CAD/V20-reference)
+
+Three comparison bodies are saved: uniform, 18 mm zone and 32 mm zone. CAD reimport checks passed. A 12 mm zone in the separate scenario study could increase local pressure when misplaced; wider zones avoided that increase only within the stated assumed cases. Neither comfort nor a real seal is proven.
 
 ## What is saved
 

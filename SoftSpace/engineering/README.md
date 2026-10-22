@@ -64,3 +64,7 @@ Native Word rendering was unavailable in the recorded environment. The reports p
 ## Historical binary archive
 
 The [complete research bundle](https://github.com/adilsukumar/SoftSpace/releases/download/v19-research/SoftSpace_Complete_V19_Research.zip) preserves older CAD and raw arrays. Git retains their source scripts, summaries and failure records, plus all eight current higher-order solution arrays. To replay older routes, use the full bundle. The publication manifest records the bundle hash and the files retained in Git.
+
+## V20 pre prototype evidence
+
+Read [the bounded study and purchase recommendation](evidence/engineering-v20-results/README.md). The new pad bodies are reference geometry; the standalone V19 CAD is unchanged. `v20_preprototype_screen.py`, `build_v20_flex_reference.py` and `verify_v20_screen.py` can be run in a prepared workspace. New CAD is also retained under `engineering-v20-results/CAD` so saved file paths resolve. The complete V19 archive is an older snapshot and does not include this increment.

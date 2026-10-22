@@ -1,0 +1,46 @@
+[
+  {
+    "id": "BW",
+    "url": "https://www.brainwavzaudio.com/collections/on-sale/products/replacement-earpads-for-sony-wh-xb900n-headphones",
+    "checked": "2026-10-21",
+    "kind": "Manufacturer of aftermarket compatible pads",
+    "facts": {
+      "outer_height_mm": 100,
+      "outer_width_mm": 80,
+      "thickness_mm": 30,
+      "compatibility_includes": "Sony WH-CH720N",
+      "mount": "Existing mounting groove"
+    },
+    "limits": "These are aftermarket pad dimensions and a compatibility claim. Not Sony OEM dimensions, tolerances, opening or mounting groove metrology. Manufacturer mentions a few mm size variation without a numeric tolerance."
+  },
+  {
+    "id": "SONY",
+    "url": "https://www.sony.co.uk/electronics/support/wireless-headphones-bluetooth-headphones/articles/00295193",
+    "checked": "2026-10-21",
+    "kind": "Sony replacement instructions",
+    "facts": {
+      "mount": "Tuck into groove, with top and bottom slot/arrow alignment"
+    },
+    "limits": "No dimensioned mounting drawing found here. Do not import the six-claw mounting instructions for other Sony models."
+  },
+  {
+    "id": "SERVICE",
+    "url": "https://partstore.encompass.com/shop/model_research_docs/?file=/SON/rr/WHCH720N_L.pdf",
+    "checked": "2026-10-21",
+    "kind": "Sony repair reference hosted by parts distributor",
+    "facts": {
+      "document_pages": 2
+    },
+    "limits": "Exploded/repair reference is not a dimensioned pad manufacturing drawing. Not used as a scale drawing."
+  },
+  {
+    "id": "HELP",
+    "url": "https://helpguide.sony.net/mdr/2966/v1/en/print.pdf",
+    "checked": "2026-10-21",
+    "kind": "Sony user help guide",
+    "facts": {
+      "model": "WH-CH720N / YY2966"
+    },
+    "limits": "Operating instructions, not pad CAD or measured mounting geometry."
+  }
+]
