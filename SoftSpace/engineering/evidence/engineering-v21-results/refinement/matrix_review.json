@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-23",
+  "cases": [
+    {
+      "size": "child_large",
+      "direction": "outward",
+      "stress": [
+        {
+          "component": "tongue",
+          "h2_3_peak_MPa": 3.6779742920978746,
+          "h1_9_peak_MPa": 3.72703450388882,
+          "change_percent": 1.333892188870145,
+          "chosen_5_percent_comparison_pass": true,
+          "minimum_sampled_Jacobian": 0.19163018957997552
+        },
+        {
+          "component": "fork",
+          "h2_3_peak_MPa": 3.428231397643846,
+          "h1_9_peak_MPa": 3.526098652700098,
+          "change_percent": 2.854744727077474,
+          "chosen_5_percent_comparison_pass": true,
+          "minimum_sampled_Jacobian": 0.0008190448518309636
+        }
+      ],
+      "displacement_change_percent": 0.6211936199604917,
+      "displacement_chosen_5_percent_pass": true,
+      "force_balance_N": 2.6416166620943237e-10,
+      "relative_free_residual": 9.252704999116348e-08,
+      "source_CAD_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557",
+      "source_CAD": "${WORKSPACE}\\EarDefender_V19_child_large_ParallelDisc.step",
+      "factorizations": 12,
+      "linear_system_calls": 12,
+      "raw_solution_sha256": "489412b274e4a69ab2e36e1fd51f475f1edc433d1f68c74008fe7e32e8292dca"
+    },
+    {
+      "size": "child_large",
+      "direction": "inward",
+      "stress": [
+        {
+          "component": "tongue",
+          "h2_3_peak_MPa": 3.826387899990137,
+          "h1_9_peak_MPa": 3.7043675114230785,
+          "change_percent": 3.188918420094655,
+          "chosen_5_percent_comparison_pass": true,
+          "minimum_sampled_Jacobian": 0.19163018957997552
+        },
+        {
+          "component": "fork",
+          "h2_3_peak_MPa": 4.726488071103007,
+          "h1_9_peak_MPa": 4.590036517122068,
+          "change_percent": 2.8869543713689105,
+          "chosen_5_percent_comparison_pass": true,
+          "minimum_sampled_Jacobian": 0.0008190448518309636
+        }
+      ],
+      "displacement_change_percent": 0.5166434714096946,
+      "displacement_chosen_5_percent_pass": true,
+      "force_balance_N": 2.5905467733009917e-10,
+      "relative_free_residual": 3.766599187436181e-08,
+      "source_CAD_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557",
+      "source_CAD": "${WORKSPACE}\\EarDefender_V19_child_large_ParallelDisc.step",
+      "factorizations": 16,
+      "linear_system_calls": 16,
+      "raw_solution_sha256": "ce3dfdec60657f545d8a1e87887376b382b5244888b7259bee30aaabc1a09aec"
+    },
+    {
+      "size": "adult_small",
+      "direction": "outward",
+      "stress": [
+        {
+          "component": "tongue",
+          "h2_3_peak_MPa": 3.9026765371376477,
+          "h1_9_peak_MPa": 3.721297579835953,
+          "change_percent": 4.647552918508691,
+          "chosen_5_percent_comparison_pass": true,
+          "minimum_sampled_Jacobian": 0.25288687146314986
+        },
+        {
+          "component": "fork",
+          "h2_3_peak_MPa": 3.539372945207117,
+          "h1_9_peak_MPa": 4.5135097542425395,
+          "change_percent": 27.522864194194653,
+          "chosen_5_percent_comparison_pass": false,
+          "minimum_sampled_Jacobian": 0.0007751991328921523
+        }
+      ],
+      "displacement_change_percent": 0.5701188795461443,
+      "displacement_chosen_5_percent_pass": true,
+      "force_balance_N": 6.733008666776946e-10,
+      "relative_free_residual": 6.909369268041524e-08,
+      "source_CAD_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d",
+      "source_CAD": "${WORKSPACE}\\EarDefender_V19_adult_small_ParallelDisc.step",
+      "factorizations": 10,
+      "linear_system_calls": 10,
+      "raw_solution_sha256": "f37b1eef5cca08b47a4af26f0c37d9bc3d245e0360bae34cff71db22677b9ed7"
+    },
+    {
+      "size": "adult_small",
+      "direction": "inward",
+      "stress": [
+        {
+          "component": "tongue",
+          "h2_3_peak_MPa": 3.429802868536642,
+          "h1_9_peak_MPa": 3.423544478949509,
+          "change_percent": 0.18247082491371636,
+          "chosen_5_percent_comparison_pass": true,
+          "minimum_sampled_Jacobian": 0.25288687146314986
+        },
+        {
+          "component": "fork",
+          "h2_3_peak_MPa": 4.465853011568184,
+          "h1_9_peak_MPa": 5.729988838137751,
+          "change_percent": 28.30670475035777,
+          "chosen_5_percent_comparison_pass": false,
+          "minimum_sampled_Jacobian": 0.0007751991328921523
+        }
+      ],
+      "displacement_change_percent": 0.47262734520092664,
+      "displacement_chosen_5_percent_pass": true,
+      "force_balance_N": 1.2992733308659251e-10,
+      "relative_free_residual": 1.9344559985922604e-08,
+      "source_CAD_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d",
+      "source_CAD": "${WORKSPACE}\\EarDefender_V19_adult_small_ParallelDisc.step",
+      "factorizations": 20,
+      "linear_system_calls": 20,
+      "raw_solution_sha256": "8fecd19bdc23069b63f30ba40463fc33082203b902dc547612d4ac10cf5a2d35"
+    }
+  ],
+  "all_selected_finer_peak_comparisons_pass": false,
+  "all_selected_displacement_comparisons_pass": true,
+  "direct_LU_control_relative_u_error": 1.760779795063621e-09,
+  "original_coarser_pair_failed_comparisons": 8,
+  "source_CAD_unchanged": true,
+  "scope": "Two representative isolated V19 ParallelDisc joints and two load directions on optimized 1.9 mm meshes. Projected Anderson acceleration solves the original friction fixed-point equations with direct LU inner solves. Child outward uses mixed acceleration and matches the saved unaccelerated direct-LU field; the other three use full projected acceleration. Final residuals and force balance are checked. Peak comparisons sample 27 interior points, not bounded surface stress, full fastener, fatigue or material qualification. No all-possible-software-testing claim."
+}

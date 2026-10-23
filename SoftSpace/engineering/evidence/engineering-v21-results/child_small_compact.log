@@ -1,0 +1,19 @@
+ranked 625 endpoint candidates 14.581757545471191
+rejected 25 ranked candidates
+rejected 50 ranked candidates
+rejected 75 ranked candidates
+rejected 100 ranked candidates
+rejected 125 ranked candidates
+rejected 150 ranked candidates
+rejected 175 ranked candidates
+rejected 200 ranked candidates
+
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******
+
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******
+******        Transferring Shape, ShapeType = 0                      ******
+** WorkSession : Sending all data
+ Step File Name : ${WORKSPACE}\engineering-v21-results\compact-CAD\SoftSpace_V21_child_small_CompactPose.step(27974 ents)  Write  Done
+{"size": "child_small", "source_sha256": "1d5fd978aad75a4a4fcf0c4728c25d9b34fba0487c21064ab1da67380b88e467", "date": "2026-10-23", "candidate_count": 625, "search_range_degrees": [0, 120], "search_increment_degrees": 5, "chosen": {"angles": [80, 60], "box_mm": [206.90878259298677, 77.25, 166.72275403784448], "box_volume_mm3": 2664847.059793199, "endpoint_pass": true, "endpoint_overlaps": [], "path_pass": true, "samples": 57, "export": {"path": "${WORKSPACE}\\engineering-v21-results\\compact-CAD\\SoftSpace_V21_child_small_CompactPose.step", "sha256": "41146ddfc5f18b6ac8da2cef36110cf75e723ef9458244541d780b3ec270e109", "solid_count": 42, "reimport_volume_mm3": 337055.1018761075}}, "original_fold_box_mm": [211.85316301808047, 77.25, 187.1127749652879], "nominal_box_mm": [220.90654293864, 77.25, 183.625], "extensions_mm": [0, 30], "seconds": 367.2914791107178, "scope": "Finite 5 degree endpoint search sorted by bounding volume; reject candidates until the first passing left-first 2.5 degree sampled path. Early rejection retains the first actual common-volume failure; accepted poses scan every relevant pair and the endpoint also passes the original full checker. Positive and negative geometry controls passed. Original part geometry unchanged, only assembly locations. No continuous collision certificate, finger access, loaded motion, friction or actual bag fit qualification."}

@@ -226,7 +226,7 @@ def setup(title,subtitle):
  d.styles['Title'].font.size=Pt(28);d.styles['Title'].font.bold=True;d.styles['Heading 1'].font.size=Pt(19);d.styles['Heading 1'].paragraph_format.space_after=Pt(10)
  d.styles['Heading 2'].font.size=Pt(13);d.styles['Caption'].font.size=Pt(9);d.styles['Caption'].font.italic=True
  d.core_properties.title=title;d.core_properties.subject=subtitle;d.core_properties.author='SoftSpace Project';d.core_properties.keywords='living project document simulation evidence V19'
- hp=s.header.paragraphs[0];hp.text='SOFTSPACE    |    '+STAMP;hp.runs[0].font.size=Pt(8)
+ hp=s.header.paragraphs[0];hp.text='SOFTSPACE    |    24 October 2026';hp.runs[0].font.size=Pt(8)
  fp=s.footer.paragraphs[0];fp.alignment=WD_ALIGN_PARAGRAPH.RIGHT;r=fp.add_run('Concept under development  |  ');r.font.size=Pt(8)
  fld=OxmlElement('w:fldSimple');fld.set(qn('w:instr'),'PAGE');fp._p.append(fld)
  d.add_paragraph(title,'Title');d.add_paragraph(subtitle,'Subtitle');return d
@@ -241,7 +241,7 @@ def save(doc,name):
 
 def main_doc():
  d=setup('SoftSpace','Headphones for sound sensitive autistic people')
- para(d,'Current update on 21 October 2026: SoftSpace keeps the V19 headset design. SoftSpace Flex adds V20 reference pad bodies using published aftermarket dimensions. The final V20 chapter explains the new checks, failures and first sample purchases. Neither product is physically validated.')
+ para(d,'Current update on 24 October 2026: the V21 review adds folding, glasses-position and stress checks to the unchanged V19 headset and V20 cushion bodies. Six of eight finer stress checks pass, but the adult fork still fails two. All six sizes have a smaller sampled carrying pose. The wider cushion tests reveal pressure risks. All software work is not complete. Neither product is physically validated. See the final V21 chapter.')
  para(d,'We are developing a low-cost passive over-ear defender for India. The aim is to make loud surroundings easier to manage while keeping the device comfortable, easy to remove and simple to use. Autistic users are our first priority; other sound-sensitive people may also find the idea useful.')
  if (I/'V19_hero.png').exists():picture(d,'V19_hero','V19 child large and adult small final local STEP prototype assemblies. Physical validation remains open.',5.7)
  elif (I/'V18_hero.png').exists():picture(d,'V18_hero','V18 passive hinge child large and adult small local STEP candidates. Physical validation remains open.',5.7)
@@ -409,11 +409,13 @@ def main_doc():
  add_inward(d,P,new_page,para,table)
  from v20_preprototype_section import add_v20
  add_v20(d,P,new_page,para,table,picture,link,False)
+ from v21_review_section import add_v21
+ add_v21(d,P,new_page,para,table,picture)
  return save(d,'Ear_Defender_Project.docx')
 
 def glasses_doc():
  d=setup('SoftSpace Flex','Affordable replacement pads for compatible headphones in India')
- para(d,'Current update on 21 October 2026: V20 adds three reference pad bodies from published aftermarket dimensions. Exact Sony mounting fit and the proposed pressure, sealing and sound benefits remain unverified. See the final V20 chapter for results and first sample purchases.')
+ para(d,'Current update on 24 October 2026: the V21 review finds pressure increases when glasses miss the 18 or 32 mm soft zones. No zone is a final winner. The shared headset passes six finer stress checks but still fails both adult fork checks. The V20 pad bodies are unchanged; exact Sony mounting fit, comfort, sealing and sound benefits remain unverified. See the final V21 chapter.')
  para(d,'We want a replacement cushion that presses less on glasses arms while keeping a good seal. The user keeps their headphone and replaces its removable pads. We are developing the contact idea together with our passive ear defender, but this is a separate product route.')
  picture(d,'V20_flex_CAD','V20 uniform control and two soft-zone body candidates. Published aftermarket outside size; assumed opening and cover. The mounting skirt is not yet dimensioned or fit-verified.',6.55)
  label(d,'Current conclusion','The idea is worth investigating. We have not proved less pain, unchanged music, no sound leakage or universal compatibility. The pad needs tests on each supported headphone model.')
@@ -527,6 +529,8 @@ def glasses_doc():
  add_inward(d,P,new_page,para,table)
  from v20_preprototype_section import add_v20
  add_v20(d,P,new_page,para,table,picture,link,True)
+ from v21_review_section import add_v21
+ add_v21(d,P,new_page,para,table,picture)
  return save(d,'Glasses_Friendly_Headphone_Cushions.docx')
 
 if __name__=='__main__':
@@ -537,6 +541,6 @@ if __name__=='__main__':
    if existing.exists() and hashlib.sha256(existing.read_bytes()).hexdigest()!=item['sha256']:
     raise RuntimeError('Document changed outside the builder; preserve user edits before rebuilding: '+str(existing))
  paths=[main_doc(),glasses_doc()]
- manifest={'updated':STAMP,'design_status':REV,'documents':[{'path':str(f),'sha256':hashlib.sha256(f.read_bytes()).hexdigest(),'bytes':f.stat().st_size} for f in paths],'market_checked':'2026-10-13','future_rule':'Update both documents after every meaningful project edit or new result; preserve user edits and history; do not silently regenerate over user edits.'}
+ manifest={'updated':'24 October 2026','design_status':REV,'documents':[{'path':str(f),'sha256':hashlib.sha256(f.read_bytes()).hexdigest(),'bytes':f.stat().st_size} for f in paths],'market_checked':'2026-10-13','future_rule':'Update both documents after every meaningful project edit or new result; preserve user edits and history; do not silently regenerate over user edits.'}
  (O/'document_status.json').write_text(json.dumps(manifest,indent=2));print(json.dumps(manifest,indent=2))
 

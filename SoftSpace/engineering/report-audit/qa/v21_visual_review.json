@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-24",
+  "status": "Approximate changed/new page visual review with regression hashes; native pagination unverified",
+  "changed_prior_pages": [
+    "Ear_Defender_Project/page-1.png",
+    "Glasses_Friendly_Headphone_Cushions/page-1.png"
+  ],
+  "new_main_pages": [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88
+  ],
+  "shared_Flex_bodies": [
+    {
+      "main_page": 83,
+      "flex_page": 59,
+      "identical_body": true
+    },
+    {
+      "main_page": 84,
+      "flex_page": 60,
+      "identical_body": true
+    },
+    {
+      "main_page": 85,
+      "flex_page": 61,
+      "identical_body": true
+    },
+    {
+      "main_page": 86,
+      "flex_page": 62,
+      "identical_body": true
+    },
+    {
+      "main_page": 87,
+      "flex_page": 63,
+      "identical_body": true
+    },
+    {
+      "main_page": 88,
+      "flex_page": 64,
+      "identical_body": true
+    }
+  ],
+  "unchanged_prior_bodies": 138
+}

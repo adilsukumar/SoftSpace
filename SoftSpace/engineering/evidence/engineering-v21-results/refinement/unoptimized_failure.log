@@ -1,0 +1,15 @@
+{"size": "child_large", "h": 1.9, "nodes": 33925, "date": "2026-10-23", "source_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557", "status": "mesh generated", "physical_validation": false}
+Traceback (most recent call last):
+  File "${WORKSPACE}\v21_refine_joint.py", line 17, in <module>
+    m=a.prepare(size,h,saved_meshes=meshes);print('prepared',flush=True)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "${WORKSPACE}\v19_contact_assembly.py", line 79, in prepare
+    (xt,tt),(xf,tf)=meshes;pivot=row['pivot_z_mm'];inner=row['fork_inner_halfspacing_mm'];outer=row['fork_outer_halfspacing_mm'];nt=len(xt);offset=3*nt;nd=3*(nt+len(xf));bt=boundary(tt);bf=boundary(tf);K1,B1,D1,d1,v1=elasticity(xt,tt);K2,B2,D2,d2,v2=elasticity(xf,tf);K=block_diag([K1,K2],format='csr');del K1,K2;fixed=(np.flatnonzero(abs(xt[:,2]-row['guide_bottom_mm'])<1e-6)[:,None]*3+np.arange(3)).ravel();assert len(fixed)>0
+                                                                                                                                                                                                                                                          ^^^^^^^^^^^^^^^^^
+  File "${WORKSPACE}\v19_quadratic_joint.py", line 26, in elasticity
+    B,det=strain_matrix(x,t,L);ke+=np.einsum('eai,ab,ebj,e->eij',B,D,B,det*w,optimize=True);vol+=det*w
+          ^^^^^^^^^^^^^^^^^^^^
+  File "${WORKSPACE}\v19_quadratic_joint.py", line 14, in strain_matrix
+    gr=gradients(np.asarray(L));J=np.einsum('eia,ib->eab',x[t],gr);det=np.linalg.det(J);assert min(det)>0;g=np.einsum('ib,eba->eia',gr,np.linalg.inv(J));B=np.zeros((len(t),6,30));B[:,0,0::3]=g[:,:,0];B[:,1,1::3]=g[:,:,1];B[:,2,2::3]=g[:,:,2];B[:,3,0::3]=g[:,:,1];B[:,3,1::3]=g[:,:,0];B[:,4,1::3]=g[:,:,2];B[:,4,2::3]=g[:,:,1];B[:,5,0::3]=g[:,:,2];B[:,5,2::3]=g[:,:,0];return B,det
+                                                                                               ^^^^^^^^^^
+AssertionError

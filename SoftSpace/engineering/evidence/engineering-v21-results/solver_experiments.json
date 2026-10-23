@@ -1,0 +1,56 @@
+{
+  "review_date": "2026-10-24",
+  "experiments": [
+    {
+      "route": "Unoptimized curved mesh",
+      "status": "rejected",
+      "evidence_or_limit": "Nonpositive quadrature Jacobian; retained unoptimized_invalid_mesh.npz and failure log"
+    },
+    {
+      "route": "Original direct LU child outward",
+      "status": "accepted reference",
+      "evidence_or_limit": "trial.json and child_large_h1.9.npz"
+    },
+    {
+      "route": "Cached LU preconditioned CG",
+      "status": "manually stopped",
+      "evidence_or_limit": "Performance experiment; no accepted final matrix result"
+    },
+    {
+      "route": "Semismooth Newton zero start",
+      "status": "manually stopped",
+      "evidence_or_limit": "No final equilibrium pass"
+    },
+    {
+      "route": "Semismooth Newton warm child outward",
+      "status": "control only",
+      "evidence_or_limit": "Matches original direct field; retained newton_warm_matrix.log; not primary accepted matrix output"
+    },
+    {
+      "route": "Semismooth Newton warm child inward",
+      "status": "manually stopped",
+      "evidence_or_limit": "Residual about 0.00888; not converged"
+    },
+    {
+      "route": "MMD reordering",
+      "status": "linear control only",
+      "evidence_or_limit": "Saved ordering_control.json; complete inward run manually stopped"
+    },
+    {
+      "route": "Four thread original iteration",
+      "status": "manually stopped",
+      "evidence_or_limit": "Performance experiment; no completed output from this route"
+    },
+    {
+      "route": "Mixed projected Anderson child outward",
+      "status": "accepted",
+      "evidence_or_limit": "12 iterations; matches original reference full displacement field"
+    },
+    {
+      "route": "Full projected Anderson other three",
+      "status": "accepted",
+      "evidence_or_limit": "10 to 20 iterations, recorded final residual below 1e-7"
+    }
+  ],
+  "scope": "Solver implementation controls, not independent physical validation; stopped experiments are not passes."
+}

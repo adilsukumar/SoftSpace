@@ -1,0 +1,162 @@
+{
+  "preload_N": 140,
+  "side_force_N": 2,
+  "assumed_mu": 0.2,
+  "normal_penalty_N_mm3": 10000,
+  "tangential_penalty_N_mm3": 1000,
+  "iterations": 17,
+  "relative_free_residual": 9.051804295942786e-07,
+  "maximum_numerical_penetration_mm": 0.0005659251148372732,
+  "maximum_pivot_constraint_error_mm": 0.00017100634195329461,
+  "stop_reaction_N": 3.5853374480380586,
+  "washer_normal_sum_N": 278.9408372416999,
+  "washer_quadrature_area_mm2": 160.34372241020213,
+  "stop_quadrature_area_mm2": 32.0,
+  "global_force_balance_error_N": 4.092217240979493e-10,
+  "cup_mean_displacement_x_mm": 0.2711785762671713,
+  "component_stresses": [
+    {
+      "peak_element_MPa": 2.4430466450883657,
+      "volume_weighted_mean_MPa": 1.0507341284589642
+    },
+    {
+      "peak_element_MPa": 2.0872763131005265,
+      "volume_weighted_mean_MPa": 0.43323560884005513
+    }
+  ],
+  "history": [
+    {
+      "iteration": 0,
+      "relative_u_change": 1.0,
+      "relative_equilibrium_residual": 0.05626092395593854,
+      "active": 3196,
+      "slip_points": 295
+    },
+    {
+      "iteration": 1,
+      "relative_u_change": 0.0032002076583188773,
+      "relative_equilibrium_residual": 0.06554723946470811,
+      "active": 3112,
+      "slip_points": 297
+    },
+    {
+      "iteration": 2,
+      "relative_u_change": 0.003699512520788158,
+      "relative_equilibrium_residual": 0.04217478205566372,
+      "active": 3057,
+      "slip_points": 293
+    },
+    {
+      "iteration": 3,
+      "relative_u_change": 0.0005695520447147801,
+      "relative_equilibrium_residual": 0.017105048162394717,
+      "active": 3026,
+      "slip_points": 292
+    },
+    {
+      "iteration": 4,
+      "relative_u_change": 0.00010545499799245033,
+      "relative_equilibrium_residual": 0.003868951498104953,
+      "active": 3015,
+      "slip_points": 293
+    },
+    {
+      "iteration": 5,
+      "relative_u_change": 1.5381095646480984e-05,
+      "relative_equilibrium_residual": 0.0006463416609963852,
+      "active": 3013,
+      "slip_points": 293
+    },
+    {
+      "iteration": 6,
+      "relative_u_change": 7.491050265365799e-07,
+      "relative_equilibrium_residual": 0.0002829140819299559,
+      "active": 3013,
+      "slip_points": 293
+    },
+    {
+      "iteration": 7,
+      "relative_u_change": 2.33764086407288e-07,
+      "relative_equilibrium_residual": 0.00015753354530796015,
+      "active": 3013,
+      "slip_points": 293
+    },
+    {
+      "iteration": 8,
+      "relative_u_change": 1.3211171161856073e-07,
+      "relative_equilibrium_residual": 8.793540716042986e-05,
+      "active": 3013,
+      "slip_points": 294
+    },
+    {
+      "iteration": 9,
+      "relative_u_change": 7.473833144577543e-08,
+      "relative_equilibrium_residual": 4.9215063365891265e-05,
+      "active": 3013,
+      "slip_points": 294
+    },
+    {
+      "iteration": 10,
+      "relative_u_change": 4.2328771145167866e-08,
+      "relative_equilibrium_residual": 2.761610143676099e-05,
+      "active": 3013,
+      "slip_points": 294
+    },
+    {
+      "iteration": 11,
+      "relative_u_change": 2.4020837051899814e-08,
+      "relative_equilibrium_residual": 1.5535572382671797e-05,
+      "active": 3013,
+      "slip_points": 294
+    },
+    {
+      "iteration": 12,
+      "relative_u_change": 1.364046436958686e-08,
+      "relative_equilibrium_residual": 8.760830943333151e-06,
+      "active": 3013,
+      "slip_points": 295
+    },
+    {
+      "iteration": 13,
+      "relative_u_change": 7.757164015568053e-09,
+      "relative_equilibrium_residual": 4.951752613453764e-06,
+      "active": 3013,
+      "slip_points": 295
+    },
+    {
+      "iteration": 14,
+      "relative_u_change": 4.4268572267389e-09,
+      "relative_equilibrium_residual": 2.8048217767593926e-06,
+      "active": 3013,
+      "slip_points": 295
+    },
+    {
+      "iteration": 15,
+      "relative_u_change": 2.518803998955251e-09,
+      "relative_equilibrium_residual": 1.5919122125195408e-06,
+      "active": 3013,
+      "slip_points": 295
+    },
+    {
+      "iteration": 16,
+      "relative_u_change": 1.4401307459540122e-09,
+      "relative_equilibrium_residual": 9.051804295938846e-07,
+      "active": 3013,
+      "slip_points": 295
+    }
+  ],
+  "coulomb_bound_error_MPa": 2.7755575615628914e-17,
+  "converged": true,
+  "size": "child_large",
+  "h": 1.9,
+  "nodes": 33925,
+  "seconds": 121.27559685707092,
+  "linear_solver": "Original saved COLAMD direct-LU equilibrium; MMD ordering checked at final contact state",
+  "direct_LU_control_relative_u_error": 1.521085597084018e-09,
+  "direct_LU_control_pass": true,
+  "inner_max_residual": 2.922556186111559e-11,
+  "factorizations": 1,
+  "linear_system_calls": 1,
+  "control_scope": "One final-state linear solve, not a repeated full equilibrium",
+  "source_mesh_sha256": "ea56856b77d068f4f1a850ba9218cd9f8f75d9d38f4442410392769f86a60249"
+}

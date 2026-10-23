@@ -44,3 +44,7 @@ The guide is illustrative. Its oval is not a measured Sony mounting shape. Recor
 Replacement pads already exist, including alternatives discussed in the report. Affordability in India, a better glasses seal and reduced discomfort are objectives to demonstrate. Zero leakage, universal compatibility and superiority are unproven.
 
 The six-size standalone folding design belongs to [SoftSpace](../SoftSpace/README.md). It is a separate product route, with shared learning rather than a claim that every result transfers to this pad.
+
+## V21 software review
+
+The [additional software review](../SoftSpace/engineering/evidence/engineering-v21-results/README.md) records wider glasses-position pressure risks and failed joint peak-stress comparisons. Further software work remains. Both reports are updated. Six carrying pose STEP exports are added; part shapes are unchanged. Six finer stress checks pass and two adult fork checks still fail.

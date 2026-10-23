@@ -1,0 +1,3728 @@
+{
+  "size": "child_large",
+  "source_sha256": "5b6c1004fae84fdd7b6849d831d570f60b0d5520697ab92ff4f7c2cd29ddaa9b",
+  "date": "2026-10-23",
+  "candidate_count": 625,
+  "search_range_degrees": [
+    0,
+    120
+  ],
+  "search_increment_degrees": 5,
+  "trials": [
+    {
+      "angles": [
+        85,
+        95
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        118.78403548357878
+      ],
+      "box_volume_mm3": 2006179.4976365638,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 6098.969574902153
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        90,
+        95
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        118.78403548357878
+      ],
+      "box_volume_mm3": 2006179.4976365638,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 2741.6419872299957
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        95,
+        95
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        118.78403548357878
+      ],
+      "box_volume_mm3": 2006179.4976365638,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 687.230863718865
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        100,
+        95
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        118.78403548357878
+      ],
+      "box_volume_mm3": 2006179.4976365638,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 375.5746421676513
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        105,
+        95
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        118.78403548357878
+      ],
+      "box_volume_mm3": 2006179.4976365638,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 941.7703852315728
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        85,
+        90
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        118.99999999999203
+      ],
+      "box_volume_mm3": 2009826.987665686,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 4865.600164278504
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        90,
+        90
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        118.99999999999203
+      ],
+      "box_volume_mm3": 2009826.987665686,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1476.2271012269389
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        95,
+        90
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        118.99999999999203
+      ],
+      "box_volume_mm3": 2009826.987665686,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 59.70047257202382
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        100,
+        90
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        118.99999999999203
+      ],
+      "box_volume_mm3": 2009826.987665686,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 375.5746421676513
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        105,
+        90
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        118.99999999999203
+      ],
+      "box_volume_mm3": 2009826.987665686,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 941.7703852315728
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        85,
+        100
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        119.38706009594226
+      ],
+      "box_volume_mm3": 2016364.162679882,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 3792.8602946211563
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        90,
+        100
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        119.38706009594226
+      ],
+      "box_volume_mm3": 2016364.162679882,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 2416.269959186415
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        95,
+        100
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        119.38706009594226
+      ],
+      "box_volume_mm3": 2016364.162679882,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 538.4412606411469
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        100,
+        100
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        119.38706009594226
+      ],
+      "box_volume_mm3": 2016364.162679882,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 4.039969477250287
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        105,
+        100
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        119.38706009594226
+      ],
+      "box_volume_mm3": 2016364.162679882,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 941.7703852315728
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        80,
+        95
+      ],
+      "box_mm": [
+        220.47373211954113,
+        77.25,
+        118.78403548357878
+      ],
+      "box_volume_mm3": 2023081.6805897367,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 6893.123557548224
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        85,
+        105
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        119.80448445566611
+      ],
+      "box_volume_mm3": 2023414.1689276309,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1335.948710071739
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        90,
+        105
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        119.80448445566611
+      ],
+      "box_volume_mm3": 2023414.1689276309,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 714.6421378722889
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        95,
+        105
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        119.80448445566611
+      ],
+      "box_volume_mm3": 2023414.1689276309,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 108.19925816744797
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        100,
+        105
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        119.80448445566611
+      ],
+      "box_volume_mm3": 2023414.1689276309,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 375.5746421676513
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        105,
+        105
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        119.80448445566611
+      ],
+      "box_volume_mm3": 2023414.1689276309,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 941.7703852315728
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        85,
+        120
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        119.9185842870352
+      ],
+      "box_volume_mm3": 2025341.2354853933,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 967.4990093134434
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        90,
+        120
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        119.9185842870352
+      ],
+      "box_volume_mm3": 2025341.2354853933,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 559.3853148399319
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        95,
+        120
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        119.9185842870352
+      ],
+      "box_volume_mm3": 2025341.2354853933,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 183.65050358664882
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        100,
+        120
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        119.9185842870352
+      ],
+      "box_volume_mm3": 2025341.2354853933,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 375.5746421676513
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        105,
+        120
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        119.9185842870352
+      ],
+      "box_volume_mm3": 2025341.2354853933,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 941.7703852315728
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        80,
+        90
+      ],
+      "box_mm": [
+        220.47373211954113,
+        77.25,
+        118.99999999999203
+      ],
+      "box_volume_mm3": 2026759.9009417759,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 9027.201805433608
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        85,
+        110
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        120.0331317113251
+      ],
+      "box_volume_mm3": 2027275.8615753548,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 152.25418960925703
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        90,
+        110
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        120.0331317113251
+      ],
+      "box_volume_mm3": 2027275.8615753548,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 15.534201379878112
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        95,
+        110
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        120.0331317113251
+      ],
+      "box_volume_mm3": 2027275.8615753548,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 6.523465012531468
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        100,
+        110
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        120.0331317113251
+      ],
+      "box_volume_mm3": 2027275.8615753548,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 375.5746421676513
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        105,
+        110
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        120.0331317113251
+      ],
+      "box_volume_mm3": 2027275.8615753548,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 941.7703852315728
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        85,
+        115
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        120.07126171924271
+      ],
+      "box_volume_mm3": 2027919.850810252,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 2055.029658745022
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        90,
+        115
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        120.07126171924271
+      ],
+      "box_volume_mm3": 2027919.850810252,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 1286.4589961400493
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        95,
+        115
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        120.07126171924271
+      ],
+      "box_volume_mm3": 2027919.850810252,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 161.42424860927284
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        100,
+        115
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        120.07126171924271
+      ],
+      "box_volume_mm3": 2027919.850810252,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 375.5746421676513
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        105,
+        115
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        120.07126171924271
+      ],
+      "box_volume_mm3": 2027919.850810252,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 941.7703852315728
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        80,
+        100
+      ],
+      "box_mm": [
+        220.47373211954113,
+        77.25,
+        119.38706009594226
+      ],
+      "box_volume_mm3": 2033352.1520487226,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 3155.0592109549652
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        75,
+        95
+      ],
+      "box_mm": [
+        222.24384280332418,
+        77.25,
+        118.78403548357878
+      ],
+      "box_volume_mm3": 2039324.3343632757,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 4474.360497044324
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        80,
+        105
+      ],
+      "box_mm": [
+        220.47373211954113,
+        77.25,
+        119.80448445566611
+      ],
+      "box_volume_mm3": 2040461.5550232157,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 528.6365061898412
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        80,
+        120
+      ],
+      "box_mm": [
+        220.47373211954113,
+        77.25,
+        119.9185842870352
+      ],
+      "box_volume_mm3": 2042404.8572326535,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 340.34374925054357
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        75,
+        90
+      ],
+      "box_mm": [
+        222.24384280332418,
+        77.25,
+        118.99999999999203
+      ],
+      "box_volume_mm3": 2043032.0859301216,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 8515.6058800153
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        80,
+        110
+      ],
+      "box_mm": [
+        220.47373211954113,
+        77.25,
+        120.0331317113251
+      ],
+      "box_volume_mm3": 2044355.7826638042,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 2853.4958331155112
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        80,
+        115
+      ],
+      "box_mm": [
+        220.47373211954113,
+        77.25,
+        120.07126171924271
+      ],
+      "box_volume_mm3": 2045005.1975467457,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 1684.1536776463076
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        85,
+        85
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        121.34903355112837
+      ],
+      "box_volume_mm3": 2049500.5256993526,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1920.0918395825345
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        90,
+        85
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        121.34903355112837
+      ],
+      "box_volume_mm3": 2049500.5256993526,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 8.220170537005664
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        95,
+        85
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        121.34903355112837
+      ],
+      "box_volume_mm3": 2049500.5256993526,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 59.70047257202382
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        100,
+        85
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        121.34903355112837
+      ],
+      "box_volume_mm3": 2049500.5256993526,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 375.5746421676513
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        105,
+        85
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        121.34903355112837
+      ],
+      "box_volume_mm3": 2049500.5256993526,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 941.7703852315728
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        75,
+        100
+      ],
+      "box_mm": [
+        222.24384280332418,
+        77.25,
+        119.38706009594226
+      ],
+      "box_volume_mm3": 2049677.2640411265,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 757.0527193202146
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        75,
+        105
+      ],
+      "box_mm": [
+        222.24384280332418,
+        77.25,
+        119.80448445566611
+      ],
+      "box_volume_mm3": 2056843.7460609982,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 3156.7687014533076
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        75,
+        120
+      ],
+      "box_mm": [
+        222.24384280332418,
+        77.25,
+        119.9185842870352
+      ],
+      "box_volume_mm3": 2058802.650401219,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "RightMainFoam",
+            "RightSliderKnob"
+          ],
+          "intersection_mm3": 139.200164224496
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        75,
+        110
+      ],
+      "box_mm": [
+        222.24384280332418,
+        77.25,
+        120.0331317113251
+      ],
+      "box_volume_mm3": 2060769.2391674789,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 2145.978693164404
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        75,
+        115
+      ],
+      "box_mm": [
+        222.24384280332418,
+        77.25,
+        120.07126171924271
+      ],
+      "box_volume_mm3": 2061423.8679877515,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 661.1167645905144
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        80,
+        85
+      ],
+      "box_mm": [
+        220.47373211954113,
+        77.25,
+        121.34903355112837
+      ],
+      "box_volume_mm3": 2066767.690920014,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 5883.599556061604
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        75,
+        85
+      ],
+      "box_mm": [
+        222.24384280332418,
+        77.25,
+        121.34903355112837
+      ],
+      "box_volume_mm3": 2083361.0852233842,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 10007.582838045948
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        110,
+        95
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        123.54020196881316
+      ],
+      "box_volume_mm3": 2086507.831752999,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1170.2202078630344
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        70,
+        90
+      ],
+      "box_mm": [
+        223.895136007421,
+        77.25,
+        120.69381391825061
+      ],
+      "box_volume_mm3": 2087508.0464216638,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 4805.841243835657
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        70,
+        95
+      ],
+      "box_mm": [
+        223.895136007421,
+        77.25,
+        120.69381391825061
+      ],
+      "box_volume_mm3": 2087508.0464216638,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 698.0183048902996
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        70,
+        100
+      ],
+      "box_mm": [
+        223.895136007421,
+        77.25,
+        120.69381391825061
+      ],
+      "box_volume_mm3": 2087508.0464216638,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 3087.3654192057506
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        70,
+        105
+      ],
+      "box_mm": [
+        223.895136007421,
+        77.25,
+        120.69381391825061
+      ],
+      "box_volume_mm3": 2087508.0464216638,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 2298.2808796768068
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        70,
+        110
+      ],
+      "box_mm": [
+        223.895136007421,
+        77.25,
+        120.69381391825061
+      ],
+      "box_volume_mm3": 2087508.0464216638,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 876.0185552714337
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        70,
+        115
+      ],
+      "box_mm": [
+        223.895136007421,
+        77.25,
+        120.69381391825061
+      ],
+      "box_volume_mm3": 2087508.0464216638,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "RightMainFoam",
+            "RightSliderKnob"
+          ],
+          "intersection_mm3": 59.05961315284299
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        70,
+        120
+      ],
+      "box_mm": [
+        223.895136007421,
+        77.25,
+        120.69381391825061
+      ],
+      "box_volume_mm3": 2087508.0464216638,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "RightMainFoam",
+            "RightSliderKnob"
+          ],
+          "intersection_mm3": 139.200164224496
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        110,
+        90
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        123.75616648522642
+      ],
+      "box_volume_mm3": 2090155.3217821212,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1170.2202078630344
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        110,
+        100
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        124.14322658117665
+      ],
+      "box_volume_mm3": 2096692.496796317,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1170.2202078630344
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        70,
+        85
+      ],
+      "box_mm": [
+        223.895136007421,
+        77.25,
+        121.34903355112837
+      ],
+      "box_volume_mm3": 2098840.6591828465,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 9010.14222918733
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        85,
+        80
+      ],
+      "box_mm": [
+        220.47373211950804,
+        77.25,
+        123.4975350469592
+      ],
+      "box_volume_mm3": 2103360.0999857793,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 3345.006347947452
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        90,
+        80
+      ],
+      "box_mm": [
+        220.47373211950804,
+        77.25,
+        123.4975350469592
+      ],
+      "box_volume_mm3": 2103360.0999857793,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 8.220170537005664
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        95,
+        80
+      ],
+      "box_mm": [
+        220.47373211950804,
+        77.25,
+        123.4975350469592
+      ],
+      "box_volume_mm3": 2103360.0999857793,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 59.70047257202382
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        100,
+        80
+      ],
+      "box_mm": [
+        220.47373211950804,
+        77.25,
+        123.4975350469592
+      ],
+      "box_volume_mm3": 2103360.0999857793,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 375.5746421676513
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        105,
+        80
+      ],
+      "box_mm": [
+        220.47373211950804,
+        77.25,
+        123.4975350469592
+      ],
+      "box_volume_mm3": 2103360.0999857793,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 941.7703852315728
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        110,
+        105
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        124.5606509409005
+      ],
+      "box_volume_mm3": 2103742.503044066,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1170.2202078630344
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        110,
+        120
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        124.67475077226959
+      ],
+      "box_volume_mm3": 2105669.569601828,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1170.2202078630344
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        110,
+        110
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        124.78929819655949
+      ],
+      "box_volume_mm3": 2107604.19569179,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1170.2202078630344
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        110,
+        115
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        124.8274282044771
+      ],
+      "box_volume_mm3": 2108248.184926687,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1170.2202078630344
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        115,
+        95
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        124.92037394271534
+      ],
+      "box_volume_mm3": 2109817.973608197,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 2436.790738226644
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        115,
+        90
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        125.1363384591286
+      ],
+      "box_volume_mm3": 2113465.4636373194,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 2436.790738226644
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        115,
+        100
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        125.52339855507883
+      ],
+      "box_volume_mm3": 2120002.6386515154,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 2436.790738226644
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        80,
+        80
+      ],
+      "box_mm": [
+        222.3157177360092,
+        77.25,
+        123.4975350469592
+      ],
+      "box_volume_mm3": 2120932.982765285,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1917.5657801472646
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        115,
+        105
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        125.94082291480268
+      ],
+      "box_volume_mm3": 2127052.6448992644,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 2436.790738226644
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        115,
+        120
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        126.05492274617177
+      ],
+      "box_volume_mm3": 2128979.7114570267,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 2436.790738226644
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        110,
+        85
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        126.10520003636276
+      ],
+      "box_volume_mm3": 2129828.8598157875,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1170.2202078630344
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        115,
+        110
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        126.16947017046166
+      ],
+      "box_volume_mm3": 2130914.3375469884,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 2436.790738226644
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        115,
+        115
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        126.20760017837928
+      ],
+      "box_volume_mm3": 2131558.326781885,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 2436.790738226644
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        75,
+        80
+      ],
+      "box_mm": [
+        224.08582841979228,
+        77.25,
+        123.4975350469592
+      ],
+      "box_volume_mm3": 2137820.165419814,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 6159.82366939145
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        115,
+        85
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        127.48537201026494
+      ],
+      "box_volume_mm3": 2153139.001670986,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 2436.790738226644
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        70,
+        80
+      ],
+      "box_mm": [
+        225.7371216238891,
+        77.25,
+        123.4975350469592
+      ],
+      "box_volume_mm3": 2153573.8073865236,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 10354.77709803419
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        110,
+        80
+      ],
+      "box_mm": [
+        220.47373211950804,
+        77.25,
+        128.2537015321936
+      ],
+      "box_volume_mm3": 2184365.205149438,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1170.2202078630344
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        115,
+        80
+      ],
+      "box_mm": [
+        220.47373211950804,
+        77.25,
+        129.63387350609577
+      ],
+      "box_volume_mm3": 2207871.7363520297,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 2436.790738226644
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        120,
+        95
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        131.29853817786164
+      ],
+      "box_volume_mm3": 2217540.718243172,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1902.7660423330801
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        120,
+        90
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        131.51450269427488
+      ],
+      "box_volume_mm3": 2221188.2082722937,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1902.7660423330801
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        120,
+        100
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        131.9015627902251
+      ],
+      "box_volume_mm3": 2227725.3832864896,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1902.7660423330801
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        120,
+        105
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        132.31898714994898
+      ],
+      "box_volume_mm3": 2234775.3895342387,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1902.7660423330801
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        120,
+        120
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        132.43308698131807
+      ],
+      "box_volume_mm3": 2236702.456092001,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1902.7660423330801
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        120,
+        110
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        132.54763440560797
+      ],
+      "box_volume_mm3": 2238637.0821819627,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1902.7660423330801
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        120,
+        115
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        132.58576441352557
+      ],
+      "box_volume_mm3": 2239281.0714168595,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1902.7660423330801
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        65,
+        85
+      ],
+      "box_mm": [
+        225.41504439347028,
+        77.25,
+        128.91344089755478
+      ],
+      "box_volume_mm3": 2244809.990469183,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 4891.468169006112
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        65,
+        90
+      ],
+      "box_mm": [
+        225.41504439347028,
+        77.25,
+        128.91344089755478
+      ],
+      "box_volume_mm3": 2244809.990469183,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 557.1898661834725
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        65,
+        95
+      ],
+      "box_mm": [
+        225.41504439347028,
+        77.25,
+        128.91344089755478
+      ],
+      "box_volume_mm3": 2244809.990469183,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 3119.232379514381
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        65,
+        100
+      ],
+      "box_mm": [
+        225.41504439347028,
+        77.25,
+        128.91344089755478
+      ],
+      "box_volume_mm3": 2244809.990469183,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 2424.069154161748
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        65,
+        105
+      ],
+      "box_mm": [
+        225.41504439347028,
+        77.25,
+        128.91344089755478
+      ],
+      "box_volume_mm3": 2244809.990469183,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 820.8255788548742
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        65,
+        110
+      ],
+      "box_mm": [
+        225.41504439347028,
+        77.25,
+        128.91344089755478
+      ],
+      "box_volume_mm3": 2244809.990469183,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "RightMainFoam",
+            "RightSliderKnob"
+          ],
+          "intersection_mm3": 5.389798040239847
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        65,
+        115
+      ],
+      "box_mm": [
+        225.41504439347028,
+        77.25,
+        128.91344089755478
+      ],
+      "box_volume_mm3": 2244809.990469183,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "RightMainFoam",
+            "RightSliderKnob"
+          ],
+          "intersection_mm3": 59.05961315284299
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        65,
+        120
+      ],
+      "box_mm": [
+        225.41504439347028,
+        77.25,
+        128.91344089755478
+      ],
+      "box_volume_mm3": 2244809.990469183,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "RightMainFoam",
+            "RightSliderKnob"
+          ],
+          "intersection_mm3": 139.200164224496
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        120,
+        85
+      ],
+      "box_mm": [
+        218.63174650304,
+        77.25,
+        133.86353624541124
+      ],
+      "box_volume_mm3": 2260861.74630596,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1902.7660423330801
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        65,
+        80
+      ],
+      "box_mm": [
+        227.25703000993835,
+        77.25,
+        128.91344089755478
+      ],
+      "box_volume_mm3": 2263153.5208456665,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 9186.31878666027
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        85,
+        75
+      ],
+      "box_mm": [
+        222.24384280329457,
+        77.25,
+        132.126429424388
+      ],
+      "box_volume_mm3": 2268391.048011668,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 2645.6716513289048
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        90,
+        75
+      ],
+      "box_mm": [
+        222.24384280329457,
+        77.25,
+        132.126429424388
+      ],
+      "box_volume_mm3": 2268391.048011668,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 8.220170537005664
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        95,
+        75
+      ],
+      "box_mm": [
+        222.24384280329457,
+        77.25,
+        132.126429424388
+      ],
+      "box_volume_mm3": 2268391.048011668,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 59.70047257202382
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        100,
+        75
+      ],
+      "box_mm": [
+        222.24384280329457,
+        77.25,
+        132.126429424388
+      ],
+      "box_volume_mm3": 2268391.048011668,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 375.5746421676513
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        105,
+        75
+      ],
+      "box_mm": [
+        222.24384280329457,
+        77.25,
+        132.126429424388
+      ],
+      "box_volume_mm3": 2268391.048011668,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 941.7703852315728
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        80,
+        75
+      ],
+      "box_mm": [
+        224.0858284197957,
+        77.25,
+        132.126429424388
+      ],
+      "box_volume_mm3": 2287191.7654143795,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 3304.702595098236
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        75,
+        75
+      ],
+      "box_mm": [
+        225.85593910357875,
+        77.25,
+        132.126429424388
+      ],
+      "box_volume_mm3": 2305258.872149198,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1787.1282442330526
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        120,
+        80
+      ],
+      "box_mm": [
+        220.47373211950804,
+        77.25,
+        136.01203774124207
+      ],
+      "box_volume_mm3": 2316502.0515908063,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1902.7660423330801
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        70,
+        75
+      ],
+      "box_mm": [
+        227.50723230767557,
+        77.25,
+        132.126429424388
+      ],
+      "box_volume_mm3": 2322113.2365921806,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 6260.942497340724
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        65,
+        75
+      ],
+      "box_mm": [
+        229.02714069372485,
+        77.25,
+        132.126429424388
+      ],
+      "box_volume_mm3": 2337626.5868529733,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 10340.741271470399
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        110,
+        75
+      ],
+      "box_mm": [
+        222.24384280329457,
+        77.25,
+        136.88259590962238
+      ],
+      "box_volume_mm3": 2350046.516376027,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1170.2202078630344
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        115,
+        75
+      ],
+      "box_mm": [
+        222.24384280329457,
+        77.25,
+        138.26276788352456
+      ],
+      "box_volume_mm3": 2373741.7737439554,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 2436.790738226644
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        60,
+        85
+      ],
+      "box_mm": [
+        226.79200054090836,
+        77.25,
+        136.72275403780284
+      ],
+      "box_volume_mm3": 2395339.1786195054,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 506.2819451023117
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        60,
+        90
+      ],
+      "box_mm": [
+        226.79200054090836,
+        77.25,
+        136.72275403780284
+      ],
+      "box_volume_mm3": 2395339.1786195054,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 3049.2172119690345
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        60,
+        95
+      ],
+      "box_mm": [
+        226.79200054090836,
+        77.25,
+        136.72275403780284
+      ],
+      "box_volume_mm3": 2395339.1786195054,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 2484.366787069497
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        60,
+        100
+      ],
+      "box_mm": [
+        226.79200054090836,
+        77.25,
+        136.72275403780284
+      ],
+      "box_volume_mm3": 2395339.1786195054,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 558.1674450519681
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        60,
+        105
+      ],
+      "box_mm": [
+        226.79200054090836,
+        77.25,
+        136.72275403780284
+      ],
+      "box_volume_mm3": 2395339.1786195054,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "RightMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 6.122338228433104
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        60,
+        110
+      ],
+      "box_mm": [
+        226.79200054090836,
+        77.25,
+        136.72275403780284
+      ],
+      "box_volume_mm3": 2395339.1786195054,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "RightMainFoam",
+            "RightSliderKnob"
+          ],
+          "intersection_mm3": 5.389798040239847
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        60,
+        115
+      ],
+      "box_mm": [
+        226.79200054090836,
+        77.25,
+        136.72275403780284
+      ],
+      "box_volume_mm3": 2395339.1786195054,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "RightMainFoam",
+            "RightSliderKnob"
+          ],
+          "intersection_mm3": 59.05961315284299
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        60,
+        120
+      ],
+      "box_mm": [
+        226.79200054090836,
+        77.25,
+        136.72275403780284
+      ],
+      "box_volume_mm3": 2395339.1786195054,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "RightMainFoam",
+            "RightSliderKnob"
+          ],
+          "intersection_mm3": 139.200164224496
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        60,
+        80
+      ],
+      "box_mm": [
+        228.63398615737646,
+        77.25,
+        136.72275403780284
+      ],
+      "box_volume_mm3": 2414793.9226274793,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 4861.0198949112055
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        85,
+        70
+      ],
+      "box_mm": [
+        223.8951360073947,
+        77.25,
+        140.6938139182882
+      ],
+      "box_volume_mm3": 2433426.0315534933,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1727.9305872415964
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        90,
+        70
+      ],
+      "box_mm": [
+        223.8951360073947,
+        77.25,
+        140.6938139182882
+      ],
+      "box_volume_mm3": 2433426.0315534933,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 8.220170537005664
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        95,
+        70
+      ],
+      "box_mm": [
+        223.8951360073947,
+        77.25,
+        140.6938139182882
+      ],
+      "box_volume_mm3": 2433426.0315534933,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 59.70047257202382
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        100,
+        70
+      ],
+      "box_mm": [
+        223.8951360073947,
+        77.25,
+        140.6938139182882
+      ],
+      "box_volume_mm3": 2433426.0315534933,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 375.5746421676513
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        105,
+        70
+      ],
+      "box_mm": [
+        223.8951360073947,
+        77.25,
+        140.6938139182882
+      ],
+      "box_volume_mm3": 2433426.0315534933,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 941.7703852315728
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        60,
+        75
+      ],
+      "box_mm": [
+        230.40409684116293,
+        77.25,
+        136.72275403780284
+      ],
+      "box_volume_mm3": 2433489.5356175937,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 8984.602242300341
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        80,
+        70
+      ],
+      "box_mm": [
+        225.73712162389586,
+        77.25,
+        140.6938139182882
+      ],
+      "box_volume_mm3": 2453445.831129635,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 2658.863782960131
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        75,
+        70
+      ],
+      "box_mm": [
+        227.50723230767892,
+        77.25,
+        140.6938139182882
+      ],
+      "box_volume_mm3": 2472684.451018664,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 0.09884541469198149
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        120,
+        75
+      ],
+      "box_mm": [
+        222.24384280329457,
+        77.25,
+        144.64093211867086
+      ],
+      "box_volume_mm3": 2483244.245859375,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1902.7660423330801
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        70,
+        70
+      ],
+      "box_mm": [
+        229.15852551177574,
+        77.25,
+        140.6938139182882
+      ],
+      "box_volume_mm3": 2490631.6915895524,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1590.3949895838084
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        65,
+        70
+      ],
+      "box_mm": [
+        230.67843389782502,
+        77.25,
+        140.6938139182882
+      ],
+      "box_volume_mm3": 2507150.9635047163,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 6124.095089116905
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        110,
+        70
+      ],
+      "box_mm": [
+        223.8951360073947,
+        77.25,
+        145.4499804035226
+      ],
+      "box_volume_mm3": 2515688.207929588,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 1170.2202078630344
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        60,
+        70
+      ],
+      "box_mm": [
+        232.0553900452631,
+        77.25,
+        140.6938139182882
+      ],
+      "box_volume_mm3": 2522116.545130272,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 9681.131761301811
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        55,
+        85
+      ],
+      "box_mm": [
+        228.01552498202443,
+        77.25,
+        144.06231975060538
+      ],
+      "box_volume_mm3": 2537542.412407832,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 2726.190723062868
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        55,
+        90
+      ],
+      "box_mm": [
+        228.01552498202443,
+        77.25,
+        144.06231975060538
+      ],
+      "box_volume_mm3": 2537542.412407832,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 2446.005534658308
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        55,
+        95
+      ],
+      "box_mm": [
+        228.01552498202443,
+        77.25,
+        144.06231975060538
+      ],
+      "box_volume_mm3": 2537542.412407832,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 428.3712945379957
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        55,
+        100
+      ],
+      "box_mm": [
+        228.01552498202443,
+        77.25,
+        144.06231975060538
+      ],
+      "box_volume_mm3": 2537542.412407832,
+      "endpoint_pass": true,
+      "endpoint_overlaps": [],
+      "path_pass": false,
+      "samples": 43,
+      "first_path_failure": {
+        "angles": [
+          55,
+          50.0
+        ],
+        "overlaps": [
+          {
+            "parts": [
+              "LeftCup",
+              "RightMainFoam"
+            ],
+            "intersection_mm3": 21.3569219908839
+          }
+        ]
+      }
+    },
+    {
+      "angles": [
+        55,
+        105
+      ],
+      "box_mm": [
+        228.01552498202443,
+        77.25,
+        144.06231975060538
+      ],
+      "box_volume_mm3": 2537542.412407832,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "RightMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 6.122338228433104
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        55,
+        110
+      ],
+      "box_mm": [
+        228.01552498202443,
+        77.25,
+        144.06231975060538
+      ],
+      "box_volume_mm3": 2537542.412407832,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "RightMainFoam",
+            "RightSliderKnob"
+          ],
+          "intersection_mm3": 5.389798040239847
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        55,
+        115
+      ],
+      "box_mm": [
+        228.01552498202443,
+        77.25,
+        144.06231975060538
+      ],
+      "box_volume_mm3": 2537542.412407832,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "RightMainFoam",
+            "RightSliderKnob"
+          ],
+          "intersection_mm3": 59.05961315284299
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        55,
+        120
+      ],
+      "box_mm": [
+        228.01552498202443,
+        77.25,
+        144.06231975060538
+      ],
+      "box_volume_mm3": 2537542.412407832,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "RightMainFoam",
+            "RightSliderKnob"
+          ],
+          "intersection_mm3": 139.200164224496
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        115,
+        70
+      ],
+      "box_mm": [
+        223.8951360073947,
+        77.25,
+        146.83015237742478
+      ],
+      "box_volume_mm3": 2539559.5233469433,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 2436.790738226644
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        55,
+        80
+      ],
+      "box_mm": [
+        229.8575105984925,
+        77.25,
+        144.06231975060538
+      ],
+      "box_volume_mm3": 2558041.5280939303,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 481.76107689471394
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        55,
+        75
+      ],
+      "box_mm": [
+        231.627621282279,
+        77.25,
+        144.06231975060538
+      ],
+      "box_volume_mm3": 2577740.761008525,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 4519.475459597219
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        85,
+        65
+      ],
+      "box_mm": [
+        225.41504439344718,
+        77.25,
+        148.91344089759102
+      ],
+      "box_volume_mm3": 2593076.2340574595,
+      "endpoint_pass": true,
+      "endpoint_overlaps": [],
+      "path_pass": true,
+      "samples": 61,
+      "export": {
+        "path": "${WORKSPACE}\\engineering-v21-results\\compact-CAD\\SoftSpace_V21_child_large_CompactPose.step",
+        "sha256": "16f50d80037b1ea4e78b65d9c0e79b6a921835aa6b784171529d59c86447d6a7",
+        "solid_count": 42,
+        "reimport_volume_mm3": 342147.142044505
+      }
+    }
+  ],
+  "chosen": {
+    "angles": [
+      85,
+      65
+    ],
+    "box_mm": [
+      225.41504439344718,
+      77.25,
+      148.91344089759102
+    ],
+    "box_volume_mm3": 2593076.2340574595,
+    "endpoint_pass": true,
+    "endpoint_overlaps": [],
+    "path_pass": true,
+    "samples": 61,
+    "export": {
+      "path": "${WORKSPACE}\\engineering-v21-results\\compact-CAD\\SoftSpace_V21_child_large_CompactPose.step",
+      "sha256": "16f50d80037b1ea4e78b65d9c0e79b6a921835aa6b784171529d59c86447d6a7",
+      "solid_count": 42,
+      "reimport_volume_mm3": 342147.142044505
+    }
+  },
+  "original_fold_box_mm": [
+    239.71058482793688,
+    77.25,
+    171.90694597659956
+  ],
+  "nominal_box_mm": [
+    242.63174650304,
+    77.25,
+    183.62500000000006
+  ],
+  "extensions_mm": [
+    0,
+    20
+  ],
+  "seconds": 247.38833570480347,
+  "scope": "Finite 5 degree endpoint search sorted by bounding volume; reject candidates until the first passing left-first 2.5 degree sampled path. Early rejection retains the first actual common-volume failure; accepted poses scan every relevant pair and the endpoint also passes the original full checker. Positive and negative geometry controls passed. Original part geometry unchanged, only assembly locations. No continuous collision certificate, finger access, loaded motion, friction or actual bag fit qualification."
+}

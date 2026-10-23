@@ -1,0 +1,43 @@
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [0, 7.5], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [0, 15], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [0, 22.5], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [0, 30], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [7.5, 0], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [7.5, 15], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [7.5, 22.5], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [7.5, 30], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [15, 0], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [15, 7.5], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [15, 22.5], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [15, 30], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [22.5, 0], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [22.5, 7.5], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [22.5, 15], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [22.5, 30], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [30, 0], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [30, 7.5], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [30, 15], "passed": true}
+{"size": "child_large", "phase": "unequal slider", "angles": [0, 0], "extension": [30, 22.5], "passed": true}
+{"size": "child_large", "phase": "intermediate fold", "angles": [2.5, 0], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "intermediate fold", "angles": [7.5, 0], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "intermediate fold", "angles": [12.5, 0], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "intermediate fold", "angles": [17.5, 0], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "intermediate fold", "angles": [22.5, 0], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "intermediate fold", "angles": [27.5, 0], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "intermediate fold", "angles": [30, 2.5], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "intermediate fold", "angles": [30, 7.5], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "intermediate fold", "angles": [30, 12.5], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "intermediate fold", "angles": [30, 17.5], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "intermediate fold", "angles": [30, 22.5], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "intermediate fold", "angles": [30, 27.5], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "intermediate fold", "angles": [30, 32.5], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "intermediate fold", "angles": [30, 37.5], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "intermediate fold", "angles": [30, 42.5], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "intermediate fold", "angles": [30, 47.5], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "intermediate fold", "angles": [30, 52.5], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "intermediate fold", "angles": [30, 57.5], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "simultaneous fold diagnostic", "angles": [7.5, 15.0], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "simultaneous fold diagnostic", "angles": [15.0, 30.0], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "simultaneous fold diagnostic", "angles": [22.5, 45.0], "extension": [0, 20], "passed": true}
+{"size": "child_large", "phase": "simultaneous fold diagnostic", "angles": [30, 60], "extension": [0, 20], "passed": true}
+{"size": "child_large", "date": "2026-10-23", "source_sha256": "5b6c1004fae84fdd7b6849d831d570f60b0d5520697ab92ff4f7c2cd29ddaa9b", "selected_recommended_path_pass": true, "diagnostic_failures": 0, "folded_to_wear_bounding_volume_ratio": 0.9249136805658468, "fold_reduces_bounding_volume": true, "seconds": 25.503174304962158, "scope": "Original located OCC shapes; same 0.01 mm3 interference gate as V19. Finite midpoint, unequal-slider and diagnostic simultaneous-fold samples only. No continuous collision certificate, deformation, tolerance envelope or finger-access safety qualification."}

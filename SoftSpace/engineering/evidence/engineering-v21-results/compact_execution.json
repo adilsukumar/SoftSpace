@@ -1,0 +1,26 @@
+[
+  {
+    "size": "child_medium",
+    "exit_code": 0
+  },
+  {
+    "size": "child_small",
+    "exit_code": 0
+  },
+  {
+    "size": "child_large",
+    "exit_code": 0
+  },
+  {
+    "size": "adult_small",
+    "exit_code": 0
+  },
+  {
+    "size": "adult_medium",
+    "exit_code": 0
+  },
+  {
+    "size": "adult_large",
+    "exit_code": 0
+  }
+]

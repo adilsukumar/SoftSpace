@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-23",
+  "all_selected_parts_equivalent": true,
+  "cases": [
+    {
+      "size": "adult_small",
+      "family": "adult",
+      "source_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d",
+      "parts": [
+        {
+          "part": "Fork",
+          "volume_mm3": 6125.079589122381,
+          "symmetric_difference_mm3": 0,
+          "chosen_001_mm3_pass": true
+        },
+        {
+          "part": "Tongue",
+          "volume_mm3": 10326.544431167307,
+          "symmetric_difference_mm3": 0,
+          "chosen_001_mm3_pass": true
+        }
+      ],
+      "pivot_z_mm": 62.0,
+      "guide_bottom_mm": 85
+    },
+    {
+      "size": "adult_medium",
+      "family": "adult",
+      "source_sha256": "5ed910697659f100ea9561089f3906201b18923ff729232b34603923834c9b03",
+      "parts": [
+        {
+          "part": "Fork",
+          "volume_mm3": 6125.079589122889,
+          "symmetric_difference_mm3": 0,
+          "chosen_001_mm3_pass": true
+        },
+        {
+          "part": "Tongue",
+          "volume_mm3": 10326.544431170056,
+          "symmetric_difference_mm3": 0,
+          "chosen_001_mm3_pass": true
+        }
+      ],
+      "pivot_z_mm": 62.0,
+      "guide_bottom_mm": 85
+    },
+    {
+      "size": "adult_large",
+      "family": "adult",
+      "source_sha256": "37e64cb5db8bb0d1054792d8e5816239113349b0eaea64571de431f724a0809c",
+      "parts": [
+        {
+          "part": "Fork",
+          "volume_mm3": 6125.079589122905,
+          "symmetric_difference_mm3": 0,
+          "chosen_001_mm3_pass": true
+        },
+        {
+          "part": "Tongue",
+          "volume_mm3": 10326.544431170058,
+          "symmetric_difference_mm3": 0,
+          "chosen_001_mm3_pass": true
+        }
+      ],
+      "pivot_z_mm": 62.0,
+      "guide_bottom_mm": 85
+    },
+    {
+      "size": "child_large",
+      "family": "child",
+      "source_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557",
+      "parts": [
+        {
+          "part": "Fork",
+          "volume_mm3": 5309.079589121846,
+          "symmetric_difference_mm3": 0,
+          "chosen_001_mm3_pass": true
+        },
+        {
+          "part": "Tongue",
+          "volume_mm3": 8028.625355847585,
+          "symmetric_difference_mm3": 0,
+          "chosen_001_mm3_pass": true
+        }
+      ],
+      "pivot_z_mm": 59.0,
+      "guide_bottom_mm": 82
+    },
+    {
+      "size": "child_medium",
+      "family": "child",
+      "source_sha256": "7a7587f48d78b0015c48e488a87045d9719dfe870583308bb9e9af97453a315e",
+      "parts": [
+        {
+          "part": "Fork",
+          "volume_mm3": 5309.079589121932,
+          "symmetric_difference_mm3": 0,
+          "chosen_001_mm3_pass": true
+        },
+        {
+          "part": "Tongue",
+          "volume_mm3": 8028.625355848188,
+          "symmetric_difference_mm3": 0,
+          "chosen_001_mm3_pass": true
+        }
+      ],
+      "pivot_z_mm": 59.0,
+      "guide_bottom_mm": 82
+    },
+    {
+      "size": "child_small",
+      "family": "child",
+      "source_sha256": "d77c5f9919dae282e1235fc5265e82a5813f42acbf3c166d5b9167a3f18e9c98",
+      "parts": [
+        {
+          "part": "Fork",
+          "volume_mm3": 5309.079589120331,
+          "symmetric_difference_mm3": 1.5152181731536984e-09,
+          "chosen_001_mm3_pass": true
+        },
+        {
+          "part": "Tongue",
+          "volume_mm3": 8028.625355851424,
+          "symmetric_difference_mm3": 0,
+          "chosen_001_mm3_pass": true
+        }
+      ],
+      "pivot_z_mm": 59.0,
+      "guide_bottom_mm": 82
+    }
+  ],
+  "scope": "Whole left fork and tongue solids from V19 ParallelDisc CAD match within each family after translation to a pivot origin. This supports two representative isolated fixture geometries only. Actual per-size headband force, worn loading, all other components, materials and assembled joint performance remain distinct or unverified."
+}

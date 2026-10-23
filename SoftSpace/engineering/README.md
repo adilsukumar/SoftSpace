@@ -68,3 +68,7 @@ The [complete research bundle](https://github.com/adilsukumar/SoftSpace/releases
 ## V20 pre prototype evidence
 
 Read [the bounded study and purchase recommendation](evidence/engineering-v20-results/README.md). The new pad bodies are reference geometry; the standalone V19 CAD is unchanged. `v20_preprototype_screen.py`, `build_v20_flex_reference.py` and `verify_v20_screen.py` can be run in a prepared workspace. New CAD is also retained under `engineering-v20-results/CAD` so saved file paths resolve. The complete V19 archive is an older snapshot and does not include this increment.
+
+## V21 additional software review
+
+Read [the review, failures and remaining work](evidence/engineering-v21-results/README.md). New scripts run in a prepared workspace. Raw V19 solutions are unchanged. The four new finer equilibrium solves, stress recovery, hotspot diagnostics and six compact poses are recorded separately. Neither the older immutable release nor V20 closes these new issues.

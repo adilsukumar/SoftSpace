@@ -1,0 +1,102 @@
+{
+  "iteration": 15,
+  "residual": 3.766599187436181e-08,
+  "history": [
+    {
+      "iteration": 0,
+      "residual": 0.1269217170990264,
+      "relative_displacement_change": 1.0,
+      "active": 3334
+    },
+    {
+      "iteration": 1,
+      "residual": 0.14954102034740538,
+      "relative_displacement_change": 0.01881772837985259,
+      "active": 3202
+    },
+    {
+      "iteration": 2,
+      "residual": 0.1401016230276466,
+      "relative_displacement_change": 0.016429314729492318,
+      "active": 3083
+    },
+    {
+      "iteration": 3,
+      "residual": 0.12097991647532931,
+      "relative_displacement_change": 0.014625870009500542,
+      "active": 3017
+    },
+    {
+      "iteration": 4,
+      "residual": 0.09086649904387581,
+      "relative_displacement_change": 0.008879431058800784,
+      "active": 2978
+    },
+    {
+      "iteration": 5,
+      "residual": 0.07101461951359138,
+      "relative_displacement_change": 0.006452366511193791,
+      "active": 2958
+    },
+    {
+      "iteration": 6,
+      "residual": 0.0448090504999482,
+      "relative_displacement_change": 0.004708213843964296,
+      "active": 2952
+    },
+    {
+      "iteration": 7,
+      "residual": 0.004284541817554517,
+      "relative_displacement_change": 0.004564374514548666,
+      "active": 2952
+    },
+    {
+      "iteration": 8,
+      "residual": 0.001991857954781867,
+      "relative_displacement_change": 5.3179906320226076e-05,
+      "active": 2952
+    },
+    {
+      "iteration": 9,
+      "residual": 0.0005935982303999918,
+      "relative_displacement_change": 3.330463515018361e-05,
+      "active": 2952
+    },
+    {
+      "iteration": 10,
+      "residual": 7.909105696743464e-05,
+      "relative_displacement_change": 1.535547629632452e-05,
+      "active": 2952
+    },
+    {
+      "iteration": 11,
+      "residual": 7.780641251119098e-05,
+      "relative_displacement_change": 8.256397663047142e-07,
+      "active": 2952
+    },
+    {
+      "iteration": 12,
+      "residual": 1.0502689340169521e-05,
+      "relative_displacement_change": 1.5179586592937544e-06,
+      "active": 2952
+    },
+    {
+      "iteration": 13,
+      "residual": 1.269432453028755e-06,
+      "relative_displacement_change": 1.8183234208270653e-07,
+      "active": 2952
+    },
+    {
+      "iteration": 14,
+      "residual": 3.496527313065662e-07,
+      "relative_displacement_change": 1.4801331923442877e-08,
+      "active": 2952
+    },
+    {
+      "iteration": 15,
+      "residual": 3.766599187436181e-08,
+      "relative_displacement_change": 5.7707242280724294e-09,
+      "active": 2952
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+test,status,evidence,limit_or_next_input
+Final six size geometry,Completed finite checks,V19 final-CAD reports and V21 motion,No loaded deformation or manufacturing capability
+Midpoint folding and unequal sliders,Completed finite checks,V21 six motion JSON files,2.5 degree midpoints and selected unequal extensions; no continuous certificate
+Carry envelope,Completed arithmetic,V21 motion bounding volume ratios,"No travel bag fit, handling or pinch qualification"
+Reference cushion STEP bodies,Completed geometry checks,V20 CAD_verification.json,No Sony mounting skirt
+Cushion numerical integration,Completed with failures recorded,V21 all_v20_exact_area_comparison.csv,334 old rows exceed selected 1 percent; maximum 3.35 percent
+Wider glasses position sensitivity,Completed assumed scenarios,V21 wider_position_scenarios.csv,Local and global pressure risks remain; no population probability
+Separate scalar controls,Completed numerical controls,V21 separate_scalar_controls.json,Same reduced physics
+Joint equilibrium and displacement,Completed limited model,V20 saved_audit_rerun.json and V19 statuses,Not complete bolt or worn assembly
+Peak stress refinement,6 passed and 2 FAILED chosen finer comparison,V21 refinement/matrix_review.json and hotspot_diagnostics.json,Adult fork peaks change 27.52 and 28.31 percent; stress remains unresolved
+Friction retention and fit limits,Completed assumed arithmetic,V21 mechanical_limits.json,"Supplier process, friction and spring preload require data; higher preload/clearance is not automatically acceptable"
+Headband material screening,Prior conditional screens complete,V11 material_families.csv and V16 materials_reference_screen.json,Not every material or grade tested; final grade and process not selected
+Foam cover and full worn contact,INPUT AND MODEL GATED,V20 and V21 reduced screens only,"Need traceable material curves, membrane/seam geometry, friction and head geometry; then full nonlinear contact"
+Heat and moisture,Prior uncalibrated proxy only,engineering-final-results/environment_summary.json,"Actual permeability, sweat and assembled thermal parameters unknown"
+Incoming and outgoing sound,Prior acoustic proxies only,V7 acoustic_p2_summary.json and V20 slit illustration,No actual worn seal or pad transfer impedance; cannot claim dB or ANC preservation
+Drop fatigue creep cleaning,INPUT AND MODEL GATED,V19 handoff forms,"Need grade, process, time dependent properties, joint details and acceptance criteria; no simulated durability pass"
+Sony mounting interface,DIMENSION GATED,V20 internet_sources.json,Public envelope and attachment instructions do not define exact skirt/groove
+Manufacturing assembly and seams,DESIGN GATED,V19 prototype-handoff and V20 design_parameters.json,"Threads are envelopes; locking, tool access, seam and bond details need supplier definition"
+Sensory acceptance and comfort,REQUIRES PEOPLE,Report physical test plan,Software cannot establish autistic user preferences or acceptance
+Market superiority and price,NOT ESTABLISHED,Dated report market sources,No every-market-headphone comparison or current supplier quotes
+Report native pagination,UNVERIFIED,Report QA logs,Approximate previews are not native Word rendering
+Compact carrying pose search,Six selected sampled paths passed,V21 six compact JSON and STEP exports,Ranked 625 candidates per size until first passing path; no continuous or pinch certificate
+Joint family geometry,12 canonical part comparisons passed,V21 joint_family_geometry.json,Same isolated geometry within family; not full worn load equivalence
+Older heat proxy equation,216 analytic comparisons passed,V21 thermal_proxy_control.json,155 assumed rows saturated; no current product cooling claim
+Stress hotspot diagnostics,Completed diagnostic postprocessing,V21 hotspot_diagnostics.json,Location and quality context only; do not replace failed peak comparisons with quantiles

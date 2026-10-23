@@ -36,3 +36,7 @@ The related [SoftSpace Flex](../SoftSpace%20Flex/README.md) cushion route shares
 ## Latest pre prototype review
 
 The [V20 evidence update](engineering/evidence/engineering-v20-results/README.md) leaves the V19 headset CAD unchanged, reruns eight saved joint audits and adds hinge/tolerance scenarios with failures retained. Start with material and bench-hinge samples. Calibrated full-headset performance remains open. The companion Flex route adds three reference cushion bodies; it has no verified Sony fit.
+
+## V21 software review
+
+The [additional software review](../SoftSpace/engineering/evidence/engineering-v21-results/README.md) records wider glasses-position pressure risks and failed joint peak-stress comparisons. Further software work remains. Both reports are updated. Six carrying pose STEP exports are added; part shapes are unchanged. Six finer stress checks pass and two adult fork checks still fail.

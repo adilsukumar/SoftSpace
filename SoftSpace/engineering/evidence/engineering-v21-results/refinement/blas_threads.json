@@ -1,0 +1,12 @@
+[
+  {
+    "library": "libscipy_openblas64_-63c857e738469261263c764a36be9436.dll",
+    "threads_changed": true,
+    "reported_threads": 4
+  },
+  {
+    "library": "libscipy_openblas-f07f5a5d207a3a47104dca54d6d0c86a.dll",
+    "threads_changed": true,
+    "reported_threads": 4
+  }
+]

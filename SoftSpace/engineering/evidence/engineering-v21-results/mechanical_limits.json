@@ -1,0 +1,85 @@
+{
+  "radius_mm": 4.069498910675381,
+  "assumed_worst_single_g_moment_Nmm": 55.767304980165854,
+  "preload_limits": [
+    {
+      "mu": 0.1,
+      "equivalent_static_g": 1,
+      "required_preload_N": 68.51863854032905,
+      "below_236N_catalogue_reference": true
+    },
+    {
+      "mu": 0.1,
+      "equivalent_static_g": 2,
+      "required_preload_N": 137.0372770806581,
+      "below_236N_catalogue_reference": true
+    },
+    {
+      "mu": 0.1,
+      "equivalent_static_g": 3,
+      "required_preload_N": 205.55591562098718,
+      "below_236N_catalogue_reference": true
+    },
+    {
+      "mu": 0.2,
+      "equivalent_static_g": 1,
+      "required_preload_N": 34.259319270164525,
+      "below_236N_catalogue_reference": true
+    },
+    {
+      "mu": 0.2,
+      "equivalent_static_g": 2,
+      "required_preload_N": 68.51863854032905,
+      "below_236N_catalogue_reference": true
+    },
+    {
+      "mu": 0.2,
+      "equivalent_static_g": 3,
+      "required_preload_N": 102.77795781049359,
+      "below_236N_catalogue_reference": true
+    },
+    {
+      "mu": 0.3,
+      "equivalent_static_g": 1,
+      "required_preload_N": 22.839546180109686,
+      "below_236N_catalogue_reference": true
+    },
+    {
+      "mu": 0.3,
+      "equivalent_static_g": 2,
+      "required_preload_N": 45.67909236021937,
+      "below_236N_catalogue_reference": true
+    },
+    {
+      "mu": 0.3,
+      "equivalent_static_g": 3,
+      "required_preload_N": 68.51863854032906,
+      "below_236N_catalogue_reference": true
+    }
+  ],
+  "pin_fit": [
+    {
+      "assumption": "allocated controlled finish",
+      "pin_oversize_mm": 0.03,
+      "bore_undersize_mm": 0.03,
+      "axis_error_mm": 0.04,
+      "radial_finish_mm": 0.02,
+      "chosen_min_radial_margin_mm": 0.05,
+      "minimum_nominal_bore_mm": 4.28,
+      "margin_with_4_3mm_bore": 0.05999999999999979
+    },
+    {
+      "assumption": "broad assumed raw errors",
+      "pin_oversize_mm": 0.2,
+      "bore_undersize_mm": 0.2,
+      "axis_error_mm": 0.08,
+      "radial_finish_mm": 0.02,
+      "chosen_min_radial_margin_mm": 0.05,
+      "minimum_nominal_bore_mm": 4.7,
+      "margin_with_4_3mm_bore": -0.15000000000000016
+    }
+  ],
+  "decision": "Specify measurable assembled torque and controlled pin/bore fit. Do not blindly raise preload or enlarge bores: the spring point is not a full allowable-load curve, and added clearance changes bearing/contact behaviour. V19 CAD and joint calculations remain unchanged.",
+  "source_revision": "V18 moving-side assumed masses and friction model reused in V20; not a recomputed V19 measured mass or impact analysis",
+  "physical_validation": false
+}

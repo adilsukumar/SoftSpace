@@ -1,0 +1,9 @@
+{
+  "finite_difference_max_errors": [
+    4.550997800834011e-09,
+    1.2318650988163427e-08,
+    0.0
+  ],
+  "pass_chosen_00001": true,
+  "scope": "Single contact law away from kinks; not product validation"
+}

@@ -1,0 +1,52 @@
+prepared child_large_inward 33925
+child_large_inward 0 0.1269217170990264 1.0
+child_large_inward 1 0.14954102034740538 0.01881772837985259
+child_large_inward 2 0.1401016230276466 0.016429314729492318
+child_large_inward 3 0.12097991647532931 0.014625870009500542
+child_large_inward 4 0.09086649904387581 0.008879431058800784
+child_large_inward 5 0.07101461951359138 0.006452366511193791
+child_large_inward 6 0.0448090504999482 0.004708213843964296
+child_large_inward 7 0.004284541817554517 0.004564374514548666
+child_large_inward 8 0.001991857954781867 5.3179906320226076e-05
+child_large_inward 9 0.0005935982303999918 3.330463515018361e-05
+child_large_inward 10 7.909105696743464e-05 1.535547629632452e-05
+child_large_inward 11 7.780641251119098e-05 8.256397663047142e-07
+child_large_inward 12 1.0502689340169521e-05 1.5179586592937544e-06
+child_large_inward 13 1.269432453028755e-06 1.8183234208270653e-07
+child_large_inward 14 3.496527313065662e-07 1.4801331923442877e-08
+child_large_inward 15 3.766599187436181e-08 5.7707242280724294e-09
+{"converged": true, "size": "child_large", "side_force_N": -2, "h": 1.9, "nodes": 33925, "seconds": 755.3326635360718, "linear_solver": "Anderson accelerated original fixed-point contact equations with direct LU", "mixing_strategy": "Projected full Anderson step when active set is stable; half step otherwise; reset after active changes or residual growth", "executed_script_sha256": "a0e707da5c34fdc12ee47254f53ac9a3ba0aa62752922a9af63e11744f6e7616", "relative_free_residual": 3.766599187436181e-08, "cup_mean_displacement_x_mm": -0.28223484040815056, "inner_max_residual": null, "factorizations": 16, "linear_system_calls": 16, "source_mesh_sha256": "ea56856b77d068f4f1a850ba9218cd9f8f75d9d38f4442410392769f86a60249", "source_CAD": "${WORKSPACE}\\EarDefender_V19_child_large_ParallelDisc.step", "source_CAD_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557"}
+prepared adult_small_outward 43785
+adult_small_outward 0 0.06514472646352772 1.0
+adult_small_outward 1 0.07438146894014969 0.003922570993257798
+adult_small_outward 2 0.046366875369802156 0.003651339013452963
+adult_small_outward 3 0.01461159492511618 0.0006135212620129214
+adult_small_outward 4 0.002748709994282844 6.602748481125787e-05
+adult_small_outward 5 0.001344067090558784 6.963683188188038e-06
+adult_small_outward 6 7.592249005019744e-05 4.9733650476583424e-06
+adult_small_outward 7 1.0232363372605959e-05 1.9737617241483923e-07
+adult_small_outward 8 9.813808497044541e-07 3.2010066520811874e-08
+adult_small_outward 9 6.909369268041524e-08 4.273116849149343e-09
+{"converged": true, "size": "adult_small", "side_force_N": 2, "h": 1.9, "nodes": 43785, "seconds": 824.2750656604767, "linear_solver": "Anderson accelerated original fixed-point contact equations with direct LU", "mixing_strategy": "Projected full Anderson step when active set is stable; half step otherwise; reset after active changes or residual growth", "executed_script_sha256": "a0e707da5c34fdc12ee47254f53ac9a3ba0aa62752922a9af63e11744f6e7616", "relative_free_residual": 6.909369268041524e-08, "cup_mean_displacement_x_mm": 0.3448539279248845, "inner_max_residual": null, "factorizations": 10, "linear_system_calls": 10, "source_mesh_sha256": "007670db33a2e29951fcb555b143306ab0210fb5b0ee3d5f87fd583da0248631", "source_CAD": "${WORKSPACE}\\EarDefender_V19_adult_small_ParallelDisc.step", "source_CAD_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d"}
+prepared adult_small_inward 43785
+adult_small_inward 0 0.14527971380259513 1.0
+adult_small_inward 1 0.16615912600004545 0.01883584937700441
+adult_small_inward 2 0.15310290259501627 0.017334656367747777
+adult_small_inward 3 0.1340602003614064 0.014867607653231984
+adult_small_inward 4 0.09877682715376927 0.008986477246573404
+adult_small_inward 5 0.07649899958841382 0.006198138097097899
+adult_small_inward 6 0.050989595419766574 0.004229212690092928
+adult_small_inward 7 0.016602260946086737 0.0043791783001621955
+adult_small_inward 8 0.010989101570536319 0.00033403292639286975
+adult_small_inward 9 0.003485433286673094 0.0005274273367078867
+adult_small_inward 10 0.0018398460743220824 0.00021776873774327117
+adult_small_inward 11 0.0015133907350785311 4.8105628092494926e-05
+adult_small_inward 12 0.0005805390417699216 5.591409862552489e-05
+adult_small_inward 13 0.00015823831756022174 1.8248594126108364e-06
+adult_small_inward 14 6.685629909806782e-05 2.625210338646097e-06
+adult_small_inward 15 1.687910909127995e-05 2.2542625304131496e-06
+adult_small_inward 16 4.563317366147478e-06 6.841176003103115e-07
+adult_small_inward 17 8.057898568959699e-07 2.1889708602538102e-07
+adult_small_inward 18 1.1798283147577456e-07 5.216857433784976e-08
+adult_small_inward 19 1.9344559985922604e-08 1.0459195386610722e-09
+{"converged": true, "size": "adult_small", "side_force_N": -2, "h": 1.9, "nodes": 43785, "seconds": 1586.0465769767761, "linear_solver": "Anderson accelerated original fixed-point contact equations with direct LU", "mixing_strategy": "Projected full Anderson step when active set is stable; half step otherwise; reset after active changes or residual growth", "executed_script_sha256": "a0e707da5c34fdc12ee47254f53ac9a3ba0aa62752922a9af63e11744f6e7616", "relative_free_residual": 1.9344559985922604e-08, "cup_mean_displacement_x_mm": -0.3522358092578933, "inner_max_residual": null, "factorizations": 20, "linear_system_calls": 20, "source_mesh_sha256": "007670db33a2e29951fcb555b143306ab0210fb5b0ee3d5f87fd583da0248631", "source_CAD": "${WORKSPACE}\\EarDefender_V19_adult_small_ParallelDisc.step", "source_CAD_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d"}

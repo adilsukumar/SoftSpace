@@ -1,0 +1,34 @@
+[
+  {
+    "path": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\adult_small_h2.3.npz",
+    "sha256": "5688428784a096e328a8dc3461330bb13f20e10d6f86bd0ae34c0ba30d75f0b3"
+  },
+  {
+    "path": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\adult_small_h3.0.npz",
+    "sha256": "7982b2546b5f90f7560c67559c780d93a214915dc1c114ac3d1ce0096d5efd2a"
+  },
+  {
+    "path": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\child_large_h2.3.npz",
+    "sha256": "c6e9d2881812290de9fdd86a1f1157b9f7b106119cb815e74e3f865f9747ef65"
+  },
+  {
+    "path": "${WORKSPACE}\\engineering-v19-results\\quadratic-contact\\child_large_h3.0.npz",
+    "sha256": "e3b7d6fe20ebcac46c3a926badfb45192f18f38d8dc54dceae242587b83f1022"
+  },
+  {
+    "path": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\adult_small_h2.3.npz",
+    "sha256": "076f9524fd70a136c040d5cf9f9ea9632bda2962ce5b3fdf94421db40ed8d828"
+  },
+  {
+    "path": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\adult_small_h3.0.npz",
+    "sha256": "fb0f8553ca1487147fd4455d0fb0ff6f3487b281871b4a374d1940202a6f033e"
+  },
+  {
+    "path": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\child_large_h2.3.npz",
+    "sha256": "b3435ebfcfb21bcfcf66f5b3384d1ccc5a157d9c8dcc95697916d3e8efadb505"
+  },
+  {
+    "path": "${WORKSPACE}\\engineering-v19-results\\quadratic-inward\\child_large_h3.0.npz",
+    "sha256": "2ab8321544e287cdf792c9a66bbaaa7d07f51fc2ba17e3af5eb980dc0f09c3bf"
+  }
+]

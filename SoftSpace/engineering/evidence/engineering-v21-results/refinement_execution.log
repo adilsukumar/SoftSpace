@@ -1,0 +1,3 @@
+{"size": "child_large", "h": 1.9, "nodes": 33925, "date": "2026-10-23", "source_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557", "status": "mesh generated", "physical_validation": false}
+prepared
+{"size": "child_large", "h": 1.9, "nodes": 33925, "date": "2026-10-23", "source_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557", "status": "equilibrium converged", "physical_validation": false, "seconds": 1108.7028708457947, "scope": "Same ideal-pivot PA66 reference model. Additional mesh trial, not physical strength."}

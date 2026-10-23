@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-23",
+  "CAD_changed": false,
+  "exact_area_comparisons": 11664,
+  "comparisons_exceeding_chosen_1_percent": 334,
+  "max_exact_area_difference_percent": 3.3533784454575777,
+  "wider_scenario_count": 126360,
+  "position_centres_mm": [
+    -10,
+    -8,
+    -6,
+    -4,
+    -2,
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40
+  ],
+  "zone_results": {
+    "12": {
+      "scenarios": 25272,
+      "eligible": 24336,
+      "local_increases": 16158,
+      "peak_increases": 21150,
+      "detachment_cases": 68,
+      "max_local_increase_percent": 3.761856928841567
+    },
+    "18": {
+      "scenarios": 25272,
+      "eligible": 24336,
+      "local_increases": 13666,
+      "peak_increases": 18034,
+      "detachment_cases": 64,
+      "max_local_increase_percent": 5.789137489714902
+    },
+    "24": {
+      "scenarios": 25272,
+      "eligible": 24336,
+      "local_increases": 10560,
+      "peak_increases": 15552,
+      "detachment_cases": 54,
+      "max_local_increase_percent": 7.946507826883176
+    },
+    "32": {
+      "scenarios": 25272,
+      "eligible": 24299,
+      "local_increases": 6884,
+      "peak_increases": 11815,
+      "detachment_cases": 42,
+      "max_local_increase_percent": 11.100566497840125
+    },
+    "100": {
+      "scenarios": 25272,
+      "eligible": 23790,
+      "local_increases": 0,
+      "peak_increases": 780,
+      "detachment_cases": 4,
+      "max_local_increase_percent": 6.661338147750939e-14
+    }
+  },
+  "controls": {
+    "exact_annulus_area_mm2": 3534.2917352885174,
+    "force_residual_max_N": 8.881784197001252e-15,
+    "positive_root_brackets": true,
+    "uniform_pressure_reference": true,
+    "increasing_load_increases_closure": true,
+    "increasing_stiffness_reduces_closure": true,
+    "no_zone_identity_max_error_kPa": 0.0
+  },
+  "scope": "Exact area quadrature replaces the V20 grid for this reduced independent-column model. Broader arm heights do not represent a population distribution. No curved head, lateral foam coupling, real cover membrane, mount, acoustic or comfort validation. Detached area in this model is a warning, not measured leakage.",
+  "sources": {
+    "V20_CSV_sha256": "ea6a4abd44eca1ac0c046d07f0e76cfe08403add688640800c4c074949b310c7"
+  }
+}

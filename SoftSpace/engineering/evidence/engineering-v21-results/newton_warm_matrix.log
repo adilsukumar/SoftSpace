@@ -1,0 +1,12 @@
+prepared child_large_outward 33925
+Newton iteration 0 residual 0.050000000007404066
+Newton iteration 1 residual 4.771309935000347e-11
+{"converged": true, "size": "child_large", "side_force_N": 2, "h": 1.9, "nodes": 33925, "seconds": 77.4559497833252, "linear_solver": "Semismooth Newton with direct LU and ideal-pivot rank update", "initial_source": "Saved direct-LU solution scaled by 0.95; same-branch equilibrium reproduction control", "relative_free_residual": 4.771309935000347e-11, "cup_mean_displacement_x_mm": 0.27117857601078965, "inner_max_residual": null, "factorizations": 1, "linear_system_calls": 1, "source_mesh_sha256": "ea56856b77d068f4f1a850ba9218cd9f8f75d9d38f4442410392769f86a60249", "direct_LU_control_relative_u_error": 1.8436646593143883e-09, "direct_LU_control_pass": true}
+prepared child_large_inward 33925
+Newton iteration 0 residual 0.010143597879855436
+Newton iteration 1 residual 0.009015342964631391
+Newton iteration 2 residual 0.008939464487532576
+Newton iteration 3 residual 0.008907414529072734
+Newton iteration 4 residual 0.008897647537751576
+Newton iteration 5 residual 0.008885547433831196
+Newton iteration 6 residual 0.008883422605087753

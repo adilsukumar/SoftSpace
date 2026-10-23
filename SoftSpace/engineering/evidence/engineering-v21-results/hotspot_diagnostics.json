@@ -1,0 +1,942 @@
+{
+  "review_date": "2026-10-24",
+  "cases": [
+    {
+      "size": "adult_small",
+      "direction": "outward",
+      "h": 2.3,
+      "component": "tongue",
+      "source": "engineering-v19-results\\quadratic-contact\\adult_small_h2.3.npz",
+      "source_sha256": "5688428784a096e328a8dc3461330bb13f20e10d6f86bd0ae34c0ba30d75f0b3",
+      "sampled_peak_MPa": 3.9026765371377885,
+      "peak_location": {
+        "xyz_mm": [
+          5.499808381868738,
+          -23.481473081670664,
+          61.76090994742668
+        ],
+        "element": 9238,
+        "barycentric": [
+          0.08872983346207416,
+          0.8872983346207417,
+          0.012701665379258308,
+          0.011270166537925829
+        ],
+        "Jacobian_condition_number": 16.37167429271075,
+        "Jacobian_determinant_mm3": 0.515376279441399,
+        "distance_to_nominal_bore_mm": 3.355002842007726,
+        "radial_distance_to_washer_edge_mm": 0.005002842007725938,
+        "radial_distance_to_preload_edge_mm": 0.49499715799227406,
+        "distance_to_fixture_plane_mm": 23.239090052573317,
+        "distance_to_fork_inner_plane_mm": 0.5185269183293357,
+        "distance_to_stop_plane_mm": 0.23909005257331728
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 1.2230102568268932,
+        "0.95": 1.4775840949995551,
+        "0.99": 1.8040597517589512,
+        "0.999": 2.068748338724199
+      },
+      "bulk_strain_energy_N_mm": 1.3602093063270138,
+      "quadrature_volume_mm3": 7090.476118352554
+    },
+    {
+      "size": "adult_small",
+      "direction": "outward",
+      "h": 2.3,
+      "component": "fork",
+      "source": "engineering-v19-results\\quadratic-contact\\adult_small_h2.3.npz",
+      "source_sha256": "5688428784a096e328a8dc3461330bb13f20e10d6f86bd0ae34c0ba30d75f0b3",
+      "sampled_peak_MPa": 3.539372945207114,
+      "peak_location": {
+        "xyz_mm": [
+          12.937780208377703,
+          -27.911270166537932,
+          61.98649862715759
+        ],
+        "element": 6283,
+        "barycentric": [
+          0.011270166537925827,
+          0.8872983346207417,
+          0.012701665379258308,
+          0.08872983346207416
+        ],
+        "Jacobian_condition_number": 1.8789078084638149,
+        "Jacobian_determinant_mm3": 1.0640237962220735,
+        "distance_to_nominal_bore_mm": 10.78778725313407,
+        "radial_distance_to_washer_edge_mm": 7.43778725313407,
+        "radial_distance_to_preload_edge_mm": 6.93778725313407,
+        "distance_to_fixture_plane_mm": 23.013501372842413,
+        "distance_to_fork_inner_plane_mm": 3.911270166537932,
+        "distance_to_stop_plane_mm": 0.013501372842412707
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 0.2964046745910761,
+        "0.95": 1.5252346449582863,
+        "0.99": 1.7879193958961346,
+        "0.999": 2.266603513845342
+      },
+      "bulk_strain_energy_N_mm": 0.37405559770063956,
+      "quadrature_volume_mm3": 6125.074530790743
+    },
+    {
+      "size": "adult_small",
+      "direction": "outward",
+      "h": 3.0,
+      "component": "tongue",
+      "source": "engineering-v19-results\\quadratic-contact\\adult_small_h3.0.npz",
+      "source_sha256": "7982b2546b5f90f7560c67559c780d93a214915dc1c114ac3d1ce0096d5efd2a",
+      "sampled_peak_MPa": 7.755264828618675,
+      "peak_location": {
+        "xyz_mm": [
+          5.17317823328833,
+          -23.470150394825914,
+          63.87401456962331
+        ],
+        "element": 4435,
+        "barycentric": [
+          0.011270166537925827,
+          0.8872983346207417,
+          0.012701665379258308,
+          0.08872983346207416
+        ],
+        "Jacobian_condition_number": 24.51842017006057,
+        "Jacobian_determinant_mm3": 0.5162349659073732,
+        "distance_to_nominal_bore_mm": 3.3521544544413344,
+        "radial_distance_to_washer_edge_mm": 0.0021544544413343303,
+        "radial_distance_to_preload_edge_mm": 0.49784554555866567,
+        "distance_to_fixture_plane_mm": 21.125985430376687,
+        "distance_to_fork_inner_plane_mm": 0.5298496051740855,
+        "distance_to_stop_plane_mm": 1.8740145696233128
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 1.2222335751239846,
+        "0.95": 1.4781952295161398,
+        "0.99": 1.7990468400555522,
+        "0.999": 2.0864704237288363
+      },
+      "bulk_strain_energy_N_mm": 1.3595861644664518,
+      "quadrature_volume_mm3": 7090.517663272631
+    },
+    {
+      "size": "adult_small",
+      "direction": "outward",
+      "h": 3.0,
+      "component": "fork",
+      "source": "engineering-v19-results\\quadratic-contact\\adult_small_h3.0.npz",
+      "source_sha256": "7982b2546b5f90f7560c67559c780d93a214915dc1c114ac3d1ce0096d5efd2a",
+      "sampled_peak_MPa": 4.838460579071502,
+      "peak_location": {
+        "xyz_mm": [
+          6.0937984203482785,
+          27.997137023973977,
+          61.86694526949107
+        ],
+        "element": 2343,
+        "barycentric": [
+          0.0014314988413324774,
+          0.8872983346207417,
+          0.09999999999999999,
+          0.011270166537925829
+        ],
+        "Jacobian_condition_number": 14030.666358609238,
+        "Jacobian_determinant_mm3": 0.0011799640400248926,
+        "distance_to_nominal_bore_mm": 3.9452508356219416,
+        "radial_distance_to_washer_edge_mm": 0.5952508356219415,
+        "radial_distance_to_preload_edge_mm": 0.09525083562194148,
+        "distance_to_fixture_plane_mm": 23.13305473050893,
+        "distance_to_fork_inner_plane_mm": 3.997137023973977,
+        "distance_to_stop_plane_mm": 0.13305473050893113
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 0.29856358001374744,
+        "0.95": 1.526170011320416,
+        "0.99": 1.7836919361135706,
+        "0.999": 2.265154060145696
+      },
+      "bulk_strain_energy_N_mm": 0.37362915435393734,
+      "quadrature_volume_mm3": 6125.094571592457
+    },
+    {
+      "size": "child_large",
+      "direction": "outward",
+      "h": 2.3,
+      "component": "tongue",
+      "source": "engineering-v19-results\\quadratic-contact\\child_large_h2.3.npz",
+      "source_sha256": "c6e9d2881812290de9fdd86a1f1157b9f7b106119cb815e74e3f865f9747ef65",
+      "sampled_peak_MPa": 3.677974292097773,
+      "peak_location": {
+        "xyz_mm": [
+          5.226938091577916,
+          13.338505572926692,
+          60.66919856620456
+        ],
+        "element": 4113,
+        "barycentric": [
+          0.6985685011586675,
+          0.1127016653792583,
+          0.09999999999999999,
+          0.08872983346207416
+        ],
+        "Jacobian_condition_number": 25.442185790412466,
+        "Jacobian_determinant_mm3": 0.7180285229395275,
+        "distance_to_nominal_bore_mm": 3.336994228774761,
+        "radial_distance_to_washer_edge_mm": 0.013005771225238938,
+        "radial_distance_to_preload_edge_mm": 0.5130057712252389,
+        "distance_to_fixture_plane_mm": 21.330801433795443,
+        "distance_to_fork_inner_plane_mm": 0.6614944270733076,
+        "distance_to_stop_plane_mm": 1.6691985662045568
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 1.235870142850507,
+        "0.95": 1.5142830655966577,
+        "0.99": 1.7753531285878152,
+        "0.999": 2.111383931204578
+      },
+      "bulk_strain_energy_N_mm": 0.8678245525413733,
+      "quadrature_volume_mm3": 4600.588746755051
+    },
+    {
+      "size": "child_large",
+      "direction": "outward",
+      "h": 2.3,
+      "component": "fork",
+      "source": "engineering-v19-results\\quadratic-contact\\child_large_h2.3.npz",
+      "source_sha256": "c6e9d2881812290de9fdd86a1f1157b9f7b106119cb815e74e3f865f9747ef65",
+      "sampled_peak_MPa": 3.4282313976435934,
+      "peak_location": {
+        "xyz_mm": [
+          5.173172777794863,
+          -14.025403330758518,
+          57.12595815627944
+        ],
+        "element": 3406,
+        "barycentric": [
+          0.011270166537925827,
+          0.8872983346207417,
+          0.012701665379258308,
+          0.08872983346207416
+        ],
+        "Jacobian_condition_number": 24.26277307822931,
+        "Jacobian_determinant_mm3": 0.4331315237611685,
+        "distance_to_nominal_bore_mm": 3.352158614665101,
+        "radial_distance_to_washer_edge_mm": 0.0021586146651007,
+        "radial_distance_to_preload_edge_mm": 0.4978413853348993,
+        "distance_to_fixture_plane_mm": 24.874041843720562,
+        "distance_to_fork_inner_plane_mm": 0.025403330758518194,
+        "distance_to_stop_plane_mm": 1.874041843720562
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 0.22044300333130973,
+        "0.95": 1.5262279499576603,
+        "0.99": 1.738813106971116,
+        "0.999": 2.1104514098347877
+      },
+      "bulk_strain_energy_N_mm": 0.3300957448110236,
+      "quadrature_volume_mm3": 5309.074569521305
+    },
+    {
+      "size": "child_large",
+      "direction": "outward",
+      "h": 3.0,
+      "component": "tongue",
+      "source": "engineering-v19-results\\quadratic-contact\\child_large_h3.0.npz",
+      "source_sha256": "e3b7d6fe20ebcac46c3a926badfb45192f18f38d8dc54dceae242587b83f1022",
+      "sampled_peak_MPa": 7.293701135088687,
+      "peak_location": {
+        "xyz_mm": [
+          5.173148805963123,
+          -13.471421252896668,
+          60.87404184372056
+        ],
+        "element": 2503,
+        "barycentric": [
+          0.011270166537925827,
+          0.8872983346207417,
+          0.012701665379258308,
+          0.08872983346207416
+        ],
+        "Jacobian_condition_number": 24.4846733510616,
+        "Jacobian_determinant_mm3": 0.4826854359943426,
+        "distance_to_nominal_bore_mm": 3.352136076166533,
+        "radial_distance_to_washer_edge_mm": 0.0021360761665327743,
+        "radial_distance_to_preload_edge_mm": 0.4978639238334672,
+        "distance_to_fixture_plane_mm": 21.125958156279438,
+        "distance_to_fork_inner_plane_mm": 0.5285787471033316,
+        "distance_to_stop_plane_mm": 1.874041843720562
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 1.2353239566009022,
+        "0.95": 1.5132074515185596,
+        "0.99": 1.7508987413935726,
+        "0.999": 2.0859325578033356
+      },
+      "bulk_strain_energy_N_mm": 0.8677093863226598,
+      "quadrature_volume_mm3": 4600.616862152404
+    },
+    {
+      "size": "child_large",
+      "direction": "outward",
+      "h": 3.0,
+      "component": "fork",
+      "source": "engineering-v19-results\\quadratic-contact\\child_large_h3.0.npz",
+      "source_sha256": "e3b7d6fe20ebcac46c3a926badfb45192f18f38d8dc54dceae242587b83f1022",
+      "sampled_peak_MPa": 3.6147998135697588,
+      "peak_location": {
+        "xyz_mm": [
+          12.995011004068276,
+          -15.785866835779409,
+          58.99857061292911
+        ],
+        "element": 3467,
+        "barycentric": [
+          0.0014314988413324774,
+          0.8872983346207417,
+          0.09999999999999999,
+          0.011270166537925829
+        ],
+        "Jacobian_condition_number": 6.574742272936342,
+        "Jacobian_determinant_mm3": 0.9995233084650507,
+        "distance_to_nominal_bore_mm": 10.845011082681037,
+        "radial_distance_to_washer_edge_mm": 7.495011082681037,
+        "radial_distance_to_preload_edge_mm": 6.995011082681037,
+        "distance_to_fixture_plane_mm": 23.001429387070893,
+        "distance_to_fork_inner_plane_mm": 1.7858668357794087,
+        "distance_to_stop_plane_mm": 0.0014293870708925738
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 0.2190658907028151,
+        "0.95": 1.5266861536321796,
+        "0.99": 1.7510313636990333,
+        "0.999": 2.114743418621988
+      },
+      "bulk_strain_energy_N_mm": 0.3302058909374512,
+      "quadrature_volume_mm3": 5309.094785853645
+    },
+    {
+      "size": "adult_small",
+      "direction": "inward",
+      "h": 2.3,
+      "component": "tongue",
+      "source": "engineering-v19-results\\quadratic-inward\\adult_small_h2.3.npz",
+      "source_sha256": "076f9524fd70a136c040d5cf9f9ea9632bda2962ce5b3fdf94421db40ed8d828",
+      "sampled_peak_MPa": 3.4298028685367328,
+      "peak_location": {
+        "xyz_mm": [
+          5.302221817934587,
+          -23.321926231953206,
+          63.65569545362063
+        ],
+        "element": 8089,
+        "barycentric": [
+          0.6985685011586675,
+          0.1127016653792583,
+          0.09999999999999999,
+          0.08872983346207416
+        ],
+        "Jacobian_condition_number": 25.522075790253588,
+        "Jacobian_determinant_mm3": 0.7988243392861654,
+        "distance_to_nominal_bore_mm": 3.4047172422834975,
+        "radial_distance_to_washer_edge_mm": 0.05471724228349739,
+        "radial_distance_to_preload_edge_mm": 0.4452827577165026,
+        "distance_to_fixture_plane_mm": 21.34430454637937,
+        "distance_to_fork_inner_plane_mm": 0.6780737680467936,
+        "distance_to_stop_plane_mm": 1.6556954536206305
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 1.1954911046485437,
+        "0.95": 1.4534734560458382,
+        "0.99": 1.7869431247450882,
+        "0.999": 2.0487184685157516
+      },
+      "bulk_strain_energy_N_mm": 1.328350647150157,
+      "quadrature_volume_mm3": 7090.476118352554
+    },
+    {
+      "size": "adult_small",
+      "direction": "inward",
+      "h": 2.3,
+      "component": "fork",
+      "source": "engineering-v19-results\\quadratic-inward\\adult_small_h2.3.npz",
+      "source_sha256": "076f9524fd70a136c040d5cf9f9ea9632bda2962ce5b3fdf94421db40ed8d828",
+      "sampled_peak_MPa": 4.465853011568221,
+      "peak_location": {
+        "xyz_mm": [
+          6.212976890207903,
+          24.011270166537926,
+          61.99719796248642
+        ],
+        "element": 5643,
+        "barycentric": [
+          0.0014314988413324774,
+          0.8872983346207417,
+          0.09999999999999999,
+          0.011270166537925829
+        ],
+        "Jacobian_condition_number": 4.400060531579546,
+        "Jacobian_determinant_mm3": 3.912872876974285,
+        "distance_to_nominal_bore_mm": 4.0629775220639335,
+        "radial_distance_to_washer_edge_mm": 0.7129775220639338,
+        "radial_distance_to_preload_edge_mm": 0.21297752206393383,
+        "distance_to_fixture_plane_mm": 23.002802037513582,
+        "distance_to_fork_inner_plane_mm": 0.01127016653792623,
+        "distance_to_stop_plane_mm": 0.002802037513582434
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 0.26715476881551287,
+        "0.95": 1.5465819585645806,
+        "0.99": 1.9731913361714746,
+        "0.999": 2.5191743539379496
+      },
+      "bulk_strain_energy_N_mm": 0.3970004286886788,
+      "quadrature_volume_mm3": 6125.074530790743
+    },
+    {
+      "size": "adult_small",
+      "direction": "inward",
+      "h": 3.0,
+      "component": "tongue",
+      "source": "engineering-v19-results\\quadratic-inward\\adult_small_h3.0.npz",
+      "source_sha256": "fb0f8553ca1487147fd4455d0fb0ff6f3487b281871b4a374d1940202a6f033e",
+      "sampled_peak_MPa": 8.035723600772723,
+      "peak_location": {
+        "xyz_mm": [
+          5.17317823328833,
+          -23.470150394825914,
+          63.87401456962331
+        ],
+        "element": 4435,
+        "barycentric": [
+          0.011270166537925827,
+          0.8872983346207417,
+          0.012701665379258308,
+          0.08872983346207416
+        ],
+        "Jacobian_condition_number": 24.51842017006057,
+        "Jacobian_determinant_mm3": 0.5162349659073732,
+        "distance_to_nominal_bore_mm": 3.3521544544413344,
+        "radial_distance_to_washer_edge_mm": 0.0021544544413343303,
+        "radial_distance_to_preload_edge_mm": 0.49784554555866567,
+        "distance_to_fixture_plane_mm": 21.125985430376687,
+        "distance_to_fork_inner_plane_mm": 0.5298496051740855,
+        "distance_to_stop_plane_mm": 1.8740145696233128
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 1.1951955308548996,
+        "0.95": 1.4517624256161994,
+        "0.99": 1.7720141442935509,
+        "0.999": 2.0720735712291103
+      },
+      "bulk_strain_energy_N_mm": 1.3277095113807738,
+      "quadrature_volume_mm3": 7090.517663272631
+    },
+    {
+      "size": "adult_small",
+      "direction": "inward",
+      "h": 3.0,
+      "component": "fork",
+      "source": "engineering-v19-results\\quadratic-inward\\adult_small_h3.0.npz",
+      "source_sha256": "fb0f8553ca1487147fd4455d0fb0ff6f3487b281871b4a374d1940202a6f033e",
+      "sampled_peak_MPa": 4.870437631039775,
+      "peak_location": {
+        "xyz_mm": [
+          6.0009179576944,
+          27.212965892751818,
+          62.963582344125875
+        ],
+        "element": 3245,
+        "barycentric": [
+          0.6985685011586675,
+          0.1127016653792583,
+          0.09999999999999999,
+          0.08872983346207416
+        ],
+        "Jacobian_condition_number": 3753.8928245746347,
+        "Jacobian_determinant_mm3": 0.0019052320611231746,
+        "distance_to_nominal_bore_mm": 3.9277880243465417,
+        "radial_distance_to_washer_edge_mm": 0.5777880243465416,
+        "radial_distance_to_preload_edge_mm": 0.07778802434654164,
+        "distance_to_fixture_plane_mm": 22.036417655874125,
+        "distance_to_fork_inner_plane_mm": 3.212965892751818,
+        "distance_to_stop_plane_mm": 0.9635823441258751
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 0.26695134173957813,
+        "0.95": 1.5490136076531207,
+        "0.99": 1.9824049336481693,
+        "0.999": 2.525443122310385
+      },
+      "bulk_strain_energy_N_mm": 0.3969128315546485,
+      "quadrature_volume_mm3": 6125.094571592457
+    },
+    {
+      "size": "child_large",
+      "direction": "inward",
+      "h": 2.3,
+      "component": "tongue",
+      "source": "engineering-v19-results\\quadratic-inward\\child_large_h2.3.npz",
+      "source_sha256": "b3435ebfcfb21bcfcf66f5b3384d1ccc5a157d9c8dcc95697916d3e8efadb505",
+      "sampled_peak_MPa": 3.8263878999901144,
+      "peak_location": {
+        "xyz_mm": [
+          5.295846764872348,
+          -13.318286436212391,
+          60.65621056785595
+        ],
+        "element": 4738,
+        "barycentric": [
+          0.6985685011586675,
+          0.1127016653792583,
+          0.09999999999999999,
+          0.08872983346207416
+        ],
+        "Jacobian_condition_number": 25.586443885846755,
+        "Jacobian_determinant_mm3": 0.8068532397075773,
+        "distance_to_nominal_bore_mm": 3.398786029582204,
+        "radial_distance_to_washer_edge_mm": 0.048786029582204016,
+        "radial_distance_to_preload_edge_mm": 0.451213970417796,
+        "distance_to_fixture_plane_mm": 21.34378943214405,
+        "distance_to_fork_inner_plane_mm": 0.6817135637876088,
+        "distance_to_stop_plane_mm": 1.6562105678559504
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 1.2208034011846194,
+        "0.95": 1.4979932275735837,
+        "0.99": 1.7579621390649713,
+        "0.999": 2.1246847139633704
+      },
+      "bulk_strain_energy_N_mm": 0.8541216465924354,
+      "quadrature_volume_mm3": 4600.588746755051
+    },
+    {
+      "size": "child_large",
+      "direction": "inward",
+      "h": 2.3,
+      "component": "fork",
+      "source": "engineering-v19-results\\quadratic-inward\\child_large_h2.3.npz",
+      "source_sha256": "b3435ebfcfb21bcfcf66f5b3384d1ccc5a157d9c8dcc95697916d3e8efadb505",
+      "sampled_peak_MPa": 4.726488071103115,
+      "peak_location": {
+        "xyz_mm": [
+          5.173172777794863,
+          -14.025403330758518,
+          57.12595815627944
+        ],
+        "element": 3406,
+        "barycentric": [
+          0.011270166537925827,
+          0.8872983346207417,
+          0.012701665379258308,
+          0.08872983346207416
+        ],
+        "Jacobian_condition_number": 24.26277307822931,
+        "Jacobian_determinant_mm3": 0.4331315237611685,
+        "distance_to_nominal_bore_mm": 3.352158614665101,
+        "radial_distance_to_washer_edge_mm": 0.0021586146651007,
+        "radial_distance_to_preload_edge_mm": 0.4978413853348993,
+        "distance_to_fixture_plane_mm": 24.874041843720562,
+        "distance_to_fork_inner_plane_mm": 0.025403330758518194,
+        "distance_to_stop_plane_mm": 1.874041843720562
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 0.20961014349718154,
+        "0.95": 1.5429849909284314,
+        "0.99": 1.8578107585493326,
+        "0.999": 2.2955800651788425
+      },
+      "bulk_strain_energy_N_mm": 0.3485532266455837,
+      "quadrature_volume_mm3": 5309.074569521305
+    },
+    {
+      "size": "child_large",
+      "direction": "inward",
+      "h": 3.0,
+      "component": "tongue",
+      "source": "engineering-v19-results\\quadratic-inward\\child_large_h3.0.npz",
+      "source_sha256": "2ab8321544e287cdf792c9a66bbaaa7d07f51fc2ba17e3af5eb980dc0f09c3bf",
+      "sampled_peak_MPa": 8.061782449551405,
+      "peak_location": {
+        "xyz_mm": [
+          5.173148805963123,
+          -13.471421252896668,
+          60.87404184372056
+        ],
+        "element": 2503,
+        "barycentric": [
+          0.011270166537925827,
+          0.8872983346207417,
+          0.012701665379258308,
+          0.08872983346207416
+        ],
+        "Jacobian_condition_number": 24.4846733510616,
+        "Jacobian_determinant_mm3": 0.4826854359943426,
+        "distance_to_nominal_bore_mm": 3.352136076166533,
+        "radial_distance_to_washer_edge_mm": 0.0021360761665327743,
+        "radial_distance_to_preload_edge_mm": 0.4978639238334672,
+        "distance_to_fixture_plane_mm": 21.125958156279438,
+        "distance_to_fork_inner_plane_mm": 0.5285787471033316,
+        "distance_to_stop_plane_mm": 1.874041843720562
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 1.218549333075629,
+        "0.95": 1.497894285143518,
+        "0.99": 1.7434389421388372,
+        "0.999": 2.0992577166497957
+      },
+      "bulk_strain_energy_N_mm": 0.8538642663823,
+      "quadrature_volume_mm3": 4600.616862152404
+    },
+    {
+      "size": "child_large",
+      "direction": "inward",
+      "h": 3.0,
+      "component": "fork",
+      "source": "engineering-v19-results\\quadratic-inward\\child_large_h3.0.npz",
+      "source_sha256": "2ab8321544e287cdf792c9a66bbaaa7d07f51fc2ba17e3af5eb980dc0f09c3bf",
+      "sampled_peak_MPa": 3.9603760475001915,
+      "peak_location": {
+        "xyz_mm": [
+          6.213595314539449,
+          14.011270166537926,
+          58.998141048314054
+        ],
+        "element": 3169,
+        "barycentric": [
+          0.0014314988413324774,
+          0.8872983346207417,
+          0.09999999999999999,
+          0.011270166537925829
+        ],
+        "Jacobian_condition_number": 2.961616522400135,
+        "Jacobian_determinant_mm3": 2.595911580873785,
+        "distance_to_nominal_bore_mm": 4.063595592615275,
+        "radial_distance_to_washer_edge_mm": 0.7135955926152748,
+        "radial_distance_to_preload_edge_mm": 0.21359559261527483,
+        "distance_to_fixture_plane_mm": 23.001858951685946,
+        "distance_to_fork_inner_plane_mm": 0.01127016653792623,
+        "distance_to_stop_plane_mm": 0.0018589516859464084
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 0.20856764999104327,
+        "0.95": 1.5491979608689062,
+        "0.99": 1.874233339768871,
+        "0.999": 2.3028242634901965
+      },
+      "bulk_strain_energy_N_mm": 0.3487966818998392,
+      "quadrature_volume_mm3": 5309.094785853645
+    },
+    {
+      "size": "adult_small",
+      "direction": "inward",
+      "h": 1.9,
+      "component": "tongue",
+      "source": "engineering-v21-results\\refinement\\adult_small_inward_h1.9.npz",
+      "source_sha256": "8fecd19bdc23069b63f30ba40463fc33082203b902dc547612d4ac10cf5a2d35",
+      "sampled_peak_MPa": 3.4235444789495144,
+      "peak_location": {
+        "xyz_mm": [
+          -1.854099113198698,
+          -7.883565785017655,
+          67.83948645002128
+        ],
+        "element": 14346,
+        "barycentric": [
+          0.011270166537925813,
+          0.1127016653792583,
+          0.7872983346207417,
+          0.08872983346207416
+        ],
+        "Jacobian_condition_number": 2.5356795138856465,
+        "Jacobian_determinant_mm3": 2.9242333995118384,
+        "distance_to_nominal_bore_mm": 3.976767950685448,
+        "radial_distance_to_washer_edge_mm": 0.6267679506854478,
+        "radial_distance_to_preload_edge_mm": 0.12676795068544777,
+        "distance_to_fixture_plane_mm": 17.160513549978717,
+        "distance_to_fork_inner_plane_mm": 16.116434214982345,
+        "distance_to_stop_plane_mm": 5.839486450021283
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 1.1975673197198904,
+        "0.95": 1.4502048996348889,
+        "0.99": 1.7851930010413835,
+        "0.999": 2.05066103819752
+      },
+      "bulk_strain_energy_N_mm": 1.3304807326055026,
+      "quadrature_volume_mm3": 7090.524063754141
+    },
+    {
+      "size": "adult_small",
+      "direction": "inward",
+      "h": 1.9,
+      "component": "fork",
+      "source": "engineering-v21-results\\refinement\\adult_small_inward_h1.9.npz",
+      "source_sha256": "8fecd19bdc23069b63f30ba40463fc33082203b902dc547612d4ac10cf5a2d35",
+      "sampled_peak_MPa": 5.729988838137727,
+      "peak_location": {
+        "xyz_mm": [
+          6.1063751744594885,
+          -24.011270166537926,
+          61.99025880664763
+        ],
+        "element": 9224,
+        "barycentric": [
+          0.08872983346207416,
+          0.8872983346207417,
+          0.012701665379258308,
+          0.011270166537925829
+        ],
+        "Jacobian_condition_number": 2.102426477537149,
+        "Jacobian_determinant_mm3": 0.766539069091438,
+        "distance_to_nominal_bore_mm": 3.956382944272581,
+        "radial_distance_to_washer_edge_mm": 0.606382944272581,
+        "radial_distance_to_preload_edge_mm": 0.10638294427258099,
+        "distance_to_fixture_plane_mm": 23.00974119335237,
+        "distance_to_fork_inner_plane_mm": 0.01127016653792623,
+        "distance_to_stop_plane_mm": 0.009741193352368782
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 0.2669479319903516,
+        "0.95": 1.5377617489263928,
+        "0.99": 1.978357259585831,
+        "0.999": 2.563624599856537
+      },
+      "bulk_strain_energy_N_mm": 0.39830951404596476,
+      "quadrature_volume_mm3": 6125.079074879106
+    },
+    {
+      "size": "adult_small",
+      "direction": "outward",
+      "h": 1.9,
+      "component": "tongue",
+      "source": "engineering-v21-results\\refinement\\adult_small_outward_h1.9.npz",
+      "source_sha256": "f37b1eef5cca08b47a4af26f0c37d9bc3d245e0360bae34cff71db22677b9ed7",
+      "sampled_peak_MPa": 3.7212975798359405,
+      "peak_location": {
+        "xyz_mm": [
+          1.870887905967174,
+          -7.985210915625977,
+          67.71776942610269
+        ],
+        "element": 14307,
+        "barycentric": [
+          0.0014314988413324774,
+          0.8872983346207417,
+          0.09999999999999999,
+          0.011270166537925829
+        ],
+        "Jacobian_condition_number": 2.519546807752297,
+        "Jacobian_determinant_mm3": 2.918848856562896,
+        "distance_to_nominal_bore_mm": 3.8660708744801986,
+        "radial_distance_to_washer_edge_mm": 0.5160708744801985,
+        "radial_distance_to_preload_edge_mm": 0.016070874480198505,
+        "distance_to_fixture_plane_mm": 17.28223057389731,
+        "distance_to_fork_inner_plane_mm": 16.014789084374023,
+        "distance_to_stop_plane_mm": 5.7177694261026915
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 1.2248523804074793,
+        "0.95": 1.4750241860641498,
+        "0.99": 1.8109987325192216,
+        "0.999": 2.090501397140316
+      },
+      "bulk_strain_energy_N_mm": 1.3626899738906704,
+      "quadrature_volume_mm3": 7090.524063754141
+    },
+    {
+      "size": "adult_small",
+      "direction": "outward",
+      "h": 1.9,
+      "component": "fork",
+      "source": "engineering-v21-results\\refinement\\adult_small_outward_h1.9.npz",
+      "source_sha256": "f37b1eef5cca08b47a4af26f0c37d9bc3d245e0360bae34cff71db22677b9ed7",
+      "sampled_peak_MPa": 4.513509754242308,
+      "peak_location": {
+        "xyz_mm": [
+          12.994642816471828,
+          -26.526028112141944,
+          61.99837688030332
+        ],
+        "element": 9600,
+        "barycentric": [
+          0.0014314988413324774,
+          0.8872983346207417,
+          0.09999999999999999,
+          0.011270166537925829
+        ],
+        "Jacobian_condition_number": 6.5431260693422875,
+        "Jacobian_determinant_mm3": 0.7566627693327738,
+        "distance_to_nominal_bore_mm": 10.844642917841199,
+        "radial_distance_to_washer_edge_mm": 7.494642917841199,
+        "radial_distance_to_preload_edge_mm": 6.994642917841199,
+        "distance_to_fixture_plane_mm": 23.00162311969668,
+        "distance_to_fork_inner_plane_mm": 2.526028112141944,
+        "distance_to_stop_plane_mm": 0.0016231196966813854
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 0.2972395844773617,
+        "0.95": 1.523014991616973,
+        "0.99": 1.7849964958274687,
+        "0.999": 2.3014572488298914
+      },
+      "bulk_strain_energy_N_mm": 0.3755251577066999,
+      "quadrature_volume_mm3": 6125.079074879106
+    },
+    {
+      "size": "child_large",
+      "direction": "inward",
+      "h": 1.9,
+      "component": "tongue",
+      "source": "engineering-v21-results\\refinement\\child_large_inward_h1.9.npz",
+      "source_sha256": "ce3dfdec60657f545d8a1e87887376b382b5244888b7259bee30aaabc1a09aec",
+      "sampled_peak_MPa": 3.704367511423076,
+      "peak_location": {
+        "xyz_mm": [
+          -1.8708879059670322,
+          7.985210872795344,
+          64.71776947000669
+        ],
+        "element": 8591,
+        "barycentric": [
+          0.0014314988413324774,
+          0.8872983346207417,
+          0.09999999999999999,
+          0.011270166537925829
+        ],
+        "Jacobian_condition_number": 2.519544621529694,
+        "Jacobian_determinant_mm3": 2.9188573098341464,
+        "distance_to_nominal_bore_mm": 3.8660709162072098,
+        "radial_distance_to_washer_edge_mm": 0.5160709162072097,
+        "radial_distance_to_preload_edge_mm": 0.016070916207209685,
+        "distance_to_fixture_plane_mm": 17.282230529993313,
+        "distance_to_fork_inner_plane_mm": 6.014789127204656,
+        "distance_to_stop_plane_mm": 5.717769470006687
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 1.223069223887593,
+        "0.95": 1.5045997784397598,
+        "0.99": 1.7624830776978853,
+        "0.999": 2.096143231869483
+      },
+      "bulk_strain_energy_N_mm": 0.8557386512613613,
+      "quadrature_volume_mm3": 4600.614281106007
+    },
+    {
+      "size": "child_large",
+      "direction": "inward",
+      "h": 1.9,
+      "component": "fork",
+      "source": "engineering-v21-results\\refinement\\child_large_inward_h1.9.npz",
+      "source_sha256": "ce3dfdec60657f545d8a1e87887376b382b5244888b7259bee30aaabc1a09aec",
+      "sampled_peak_MPa": 4.590036517122181,
+      "peak_location": {
+        "xyz_mm": [
+          6.105133580282933,
+          -14.011270166537926,
+          58.990258806647624
+        ],
+        "element": 9233,
+        "barycentric": [
+          0.08872983346207416,
+          0.8872983346207417,
+          0.012701665379258308,
+          0.011270166537925829
+        ],
+        "Jacobian_condition_number": 2.102426477536116,
+        "Jacobian_determinant_mm3": 0.7665390690926371,
+        "distance_to_nominal_bore_mm": 3.9551413516761618,
+        "radial_distance_to_washer_edge_mm": 0.6051413516761617,
+        "radial_distance_to_preload_edge_mm": 0.10514135167616168,
+        "distance_to_fixture_plane_mm": 23.009741193352376,
+        "distance_to_fork_inner_plane_mm": 0.01127016653792623,
+        "distance_to_stop_plane_mm": 0.009741193352375888
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 0.21154740211009293,
+        "0.95": 1.5380062231255711,
+        "0.99": 1.8703999308519195,
+        "0.999": 2.3223284201049985
+      },
+      "bulk_strain_energy_N_mm": 0.349828593464887,
+      "quadrature_volume_mm3": 5309.078877364212
+    },
+    {
+      "size": "child_large",
+      "direction": "outward",
+      "h": 1.9,
+      "component": "tongue",
+      "source": "engineering-v21-results\\refinement\\child_large_outward_h1.9.npz",
+      "source_sha256": "489412b274e4a69ab2e36e1fd51f475f1edc433d1f68c74008fe7e32e8292dca",
+      "sampled_peak_MPa": 3.727034503888839,
+      "peak_location": {
+        "xyz_mm": [
+          1.8701502292813459,
+          7.985210872795345,
+          64.72967770720949
+        ],
+        "element": 8249,
+        "barycentric": [
+          0.08872983346207416,
+          0.8872983346207417,
+          0.012701665379258308,
+          0.011270166537925829
+        ],
+        "Jacobian_condition_number": 3.5572671373663587,
+        "Jacobian_determinant_mm3": 1.8890588677348814,
+        "distance_to_nominal_bore_mm": 3.877160899509359,
+        "radial_distance_to_washer_edge_mm": 0.5271608995093588,
+        "radial_distance_to_preload_edge_mm": 0.02716089950935885,
+        "distance_to_fixture_plane_mm": 17.27032229279051,
+        "distance_to_fork_inner_plane_mm": 6.014789127204655,
+        "distance_to_stop_plane_mm": 5.72967770720949
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 1.2395507850071277,
+        "0.95": 1.5163586678717487,
+        "0.99": 1.7732454598467513,
+        "0.999": 2.0988323034531557
+      },
+      "bulk_strain_energy_N_mm": 0.8697924475999912,
+      "quadrature_volume_mm3": 4600.614281106007
+    },
+    {
+      "size": "child_large",
+      "direction": "outward",
+      "h": 1.9,
+      "component": "fork",
+      "source": "engineering-v21-results\\refinement\\child_large_outward_h1.9.npz",
+      "source_sha256": "489412b274e4a69ab2e36e1fd51f475f1edc433d1f68c74008fe7e32e8292dca",
+      "sampled_peak_MPa": 3.526098652700135,
+      "peak_location": {
+        "xyz_mm": [
+          3.055003378410378,
+          -17.819172666707072,
+          53.861957384234046
+        ],
+        "element": 6484,
+        "barycentric": [
+          0.08872983346207415,
+          0.1127016653792583,
+          0.7872983346207417,
+          0.011270166537925829
+        ],
+        "Jacobian_condition_number": 3.2978251112258774,
+        "Jacobian_determinant_mm3": 3.127756193500439,
+        "distance_to_nominal_bore_mm": 3.8276690744407955,
+        "radial_distance_to_washer_edge_mm": 0.4776690744407954,
+        "radial_distance_to_preload_edge_mm": 0.022330925559204573,
+        "distance_to_fixture_plane_mm": 28.138042615765954,
+        "distance_to_fork_inner_plane_mm": 3.819172666707072,
+        "distance_to_stop_plane_mm": 5.138042615765954
+      },
+      "volume_weighted_stress_quantiles_MPa": {
+        "0.5": 0.22080376040935745,
+        "0.95": 1.5245445325348896,
+        "0.99": 1.738372026949804,
+        "0.999": 2.1396559689910317
+      },
+      "bulk_strain_energy_N_mm": 0.3314191629888351,
+      "quadrature_volume_mm3": 5309.078877364212
+    }
+  ],
+  "scope": "Diagnostic postprocessing, not a strength pass. Distances are to nominal geometric features; proximity does not prove a singularity. Quantiles and energy are context only and do not replace failed peak comparisons. Positive determinants at 27 sampled points do not guarantee globally valid curved elements."
+}

@@ -1,19 +1,19 @@
 [
   {
     "file": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
-    "sha256": "712fd9d7f3de4bb798d7cc01f23c4fa3940f8b8d4622be665fff565ffbdf6946",
-    "approximate_pages": 82,
-    "images": 45,
-    "tables": 53,
+    "sha256": "84a31e4235e75be4ced2f79dbf2bcbc1173549e2c19487566e83749a7974995b",
+    "approximate_pages": 88,
+    "images": 46,
+    "tables": 59,
     "zip_integrity": "pass",
     "native_page_render": "unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure"
   },
   {
     "file": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
-    "sha256": "a65cb8a266f85db027ca269dfc99b81254e65d0ad62fbec29272d36187aa5f1e",
-    "approximate_pages": 58,
-    "images": 31,
-    "tables": 41,
+    "sha256": "2cb20e594b8920915c6366e8db3f42dcb7531bf162c7c8153ae08e004fa00910",
+    "approximate_pages": 64,
+    "images": 32,
+    "tables": 47,
     "zip_integrity": "pass",
     "native_page_render": "unverified: bundled LibreOffice missing; Word control returned unavailable controls and activation failure"
   }

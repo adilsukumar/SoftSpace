@@ -1,0 +1,66 @@
+{
+  "iteration": 9,
+  "residual": 6.909369268041524e-08,
+  "history": [
+    {
+      "iteration": 0,
+      "residual": 0.06514472646352772,
+      "relative_displacement_change": 1.0,
+      "active": 3185
+    },
+    {
+      "iteration": 1,
+      "residual": 0.07438146894014969,
+      "relative_displacement_change": 0.003922570993257798,
+      "active": 3101
+    },
+    {
+      "iteration": 2,
+      "residual": 0.046366875369802156,
+      "relative_displacement_change": 0.003651339013452963,
+      "active": 3044
+    },
+    {
+      "iteration": 3,
+      "residual": 0.01461159492511618,
+      "relative_displacement_change": 0.0006135212620129214,
+      "active": 3017
+    },
+    {
+      "iteration": 4,
+      "residual": 0.002748709994282844,
+      "relative_displacement_change": 6.602748481125787e-05,
+      "active": 3012
+    },
+    {
+      "iteration": 5,
+      "residual": 0.001344067090558784,
+      "relative_displacement_change": 6.963683188188038e-06,
+      "active": 3012
+    },
+    {
+      "iteration": 6,
+      "residual": 7.592249005019744e-05,
+      "relative_displacement_change": 4.9733650476583424e-06,
+      "active": 3012
+    },
+    {
+      "iteration": 7,
+      "residual": 1.0232363372605959e-05,
+      "relative_displacement_change": 1.9737617241483923e-07,
+      "active": 3012
+    },
+    {
+      "iteration": 8,
+      "residual": 9.813808497044541e-07,
+      "relative_displacement_change": 3.2010066520811874e-08,
+      "active": 3012
+    },
+    {
+      "iteration": 9,
+      "residual": 6.909369268041524e-08,
+      "relative_displacement_change": 4.273116849149343e-09,
+      "active": 3012
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "date": "2026-10-23",
+  "saved_solutions": 8,
+  "interior_points_per_element": 27,
+  "centroid_reproduction_pass": true,
+  "cases": [
+    {
+      "source": "engineering-v19-results/quadratic-contact/adult_small_h2.3.npz",
+      "sha256": "5688428784a096e328a8dc3461330bb13f20e10d6f86bd0ae34c0ba30d75f0b3",
+      "direction": "quadratic-contact",
+      "size": "adult_small",
+      "h": 2.3,
+      "components": [
+        {
+          "component": "tongue",
+          "centroid_peak_MPa": 2.118447757255964,
+          "interior_27_point_peak_MPa": 3.9026765371376477,
+          "volume_weighted_mean_MPa": 1.1023062913008883,
+          "peak_to_centroid_ratio": 1.8422340243088196,
+          "location": {
+            "element": 9238,
+            "barycentric": [
+              0.08872983346207416,
+              0.8872983346207417,
+              0.012701665379258308,
+              0.011270166537925829
+            ]
+          }
+        },
+        {
+          "component": "fork",
+          "centroid_peak_MPa": 2.4055168593476606,
+          "interior_27_point_peak_MPa": 3.539372945207117,
+          "volume_weighted_mean_MPa": 0.4627541775576442,
+          "peak_to_centroid_ratio": 1.4713565325694458,
+          "location": {
+            "element": 6283,
+            "barycentric": [
+              0.011270166537925827,
+              0.8872983346207417,
+              0.012701665379258308,
+              0.08872983346207416
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source": "engineering-v19-results/quadratic-contact/adult_small_h3.0.npz",
+      "sha256": "7982b2546b5f90f7560c67559c780d93a214915dc1c114ac3d1ce0096d5efd2a",
+      "direction": "quadratic-contact",
+      "size": "adult_small",
+      "h": 3.0,
+      "components": [
+        {
+          "component": "tongue",
+          "centroid_peak_MPa": 2.294500984589131,
+          "interior_27_point_peak_MPa": 7.755264828618395,
+          "volume_weighted_mean_MPa": 1.1015507859749554,
+          "peak_to_centroid_ratio": 3.3799352803533904,
+          "location": {
+            "element": 4435,
+            "barycentric": [
+              0.011270166537925827,
+              0.8872983346207417,
+              0.012701665379258308,
+              0.08872983346207416
+            ]
+          }
+        },
+        {
+          "component": "fork",
+          "centroid_peak_MPa": 2.541037920049777,
+          "interior_27_point_peak_MPa": 4.838460578996496,
+          "volume_weighted_mean_MPa": 0.46186788668666146,
+          "peak_to_centroid_ratio": 1.9041276561908662,
+          "location": {
+            "element": 2343,
+            "barycentric": [
+              0.0014314988413324774,
+              0.8872983346207417,
+              0.09999999999999999,
+              0.011270166537925829
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source": "engineering-v19-results/quadratic-contact/child_large_h2.3.npz",
+      "sha256": "c6e9d2881812290de9fdd86a1f1157b9f7b106119cb815e74e3f865f9747ef65",
+      "direction": "quadratic-contact",
+      "size": "child_large",
+      "h": 2.3,
+      "components": [
+        {
+          "component": "tongue",
+          "centroid_peak_MPa": 2.010971289847445,
+          "interior_27_point_peak_MPa": 3.6779742920978746,
+          "volume_weighted_mean_MPa": 1.0576737504575118,
+          "peak_to_centroid_ratio": 1.8289541529838997,
+          "location": {
+            "element": 4113,
+            "barycentric": [
+              0.6985685011586675,
+              0.1127016653792583,
+              0.09999999999999999,
+              0.08872983346207416
+            ]
+          }
+        },
+        {
+          "component": "fork",
+          "centroid_peak_MPa": 1.9009814346726346,
+          "interior_27_point_peak_MPa": 3.428231397643846,
+          "volume_weighted_mean_MPa": 0.44080396056680515,
+          "peak_to_centroid_ratio": 1.8034007776799867,
+          "location": {
+            "element": 3406,
+            "barycentric": [
+              0.011270166537925827,
+              0.8872983346207417,
+              0.012701665379258308,
+              0.08872983346207416
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source": "engineering-v19-results/quadratic-contact/child_large_h3.0.npz",
+      "sha256": "e3b7d6fe20ebcac46c3a926badfb45192f18f38d8dc54dceae242587b83f1022",
+      "direction": "quadratic-contact",
+      "size": "child_large",
+      "h": 3.0,
+      "components": [
+        {
+          "component": "tongue",
+          "centroid_peak_MPa": 2.105199877963474,
+          "interior_27_point_peak_MPa": 7.293701135088483,
+          "volume_weighted_mean_MPa": 1.0563257329244076,
+          "peak_to_centroid_ratio": 3.4646121783667665,
+          "location": {
+            "element": 2503,
+            "barycentric": [
+              0.011270166537925827,
+              0.8872983346207417,
+              0.012701665379258308,
+              0.08872983346207416
+            ]
+          }
+        },
+        {
+          "component": "fork",
+          "centroid_peak_MPa": 2.1650947551516575,
+          "interior_27_point_peak_MPa": 3.614799813570007,
+          "volume_weighted_mean_MPa": 0.44002460755488065,
+          "peak_to_centroid_ratio": 1.669580421350567,
+          "location": {
+            "element": 3467,
+            "barycentric": [
+              0.0014314988413324774,
+              0.8872983346207417,
+              0.09999999999999999,
+              0.011270166537925829
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source": "engineering-v19-results/quadratic-inward/adult_small_h2.3.npz",
+      "sha256": "076f9524fd70a136c040d5cf9f9ea9632bda2962ce5b3fdf94421db40ed8d828",
+      "direction": "quadratic-inward",
+      "size": "adult_small",
+      "h": 2.3,
+      "components": [
+        {
+          "component": "tongue",
+          "centroid_peak_MPa": 1.8978734774583788,
+          "interior_27_point_peak_MPa": 3.429802868536642,
+          "volume_weighted_mean_MPa": 1.0812248286883193,
+          "peak_to_centroid_ratio": 1.8071820430990029,
+          "location": {
+            "element": 8089,
+            "barycentric": [
+              0.6985685011586675,
+              0.1127016653792583,
+              0.09999999999999999,
+              0.08872983346207416
+            ]
+          }
+        },
+        {
+          "component": "fork",
+          "centroid_peak_MPa": 3.2864652362847657,
+          "interior_27_point_peak_MPa": 4.465853011568184,
+          "volume_weighted_mean_MPa": 0.4552044424925324,
+          "peak_to_centroid_ratio": 1.3588620875286284,
+          "location": {
+            "element": 5643,
+            "barycentric": [
+              0.0014314988413324774,
+              0.8872983346207417,
+              0.09999999999999999,
+              0.011270166537925829
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source": "engineering-v19-results/quadratic-inward/adult_small_h3.0.npz",
+      "sha256": "fb0f8553ca1487147fd4455d0fb0ff6f3487b281871b4a374d1940202a6f033e",
+      "direction": "quadratic-inward",
+      "size": "adult_small",
+      "h": 3.0,
+      "components": [
+        {
+          "component": "tongue",
+          "centroid_peak_MPa": 1.9789514472869458,
+          "interior_27_point_peak_MPa": 8.035723600772856,
+          "volume_weighted_mean_MPa": 1.0805230575794305,
+          "peak_to_centroid_ratio": 4.060596641615172,
+          "location": {
+            "element": 4435,
+            "barycentric": [
+              0.011270166537925827,
+              0.8872983346207417,
+              0.012701665379258308,
+              0.08872983346207416
+            ]
+          }
+        },
+        {
+          "component": "fork",
+          "centroid_peak_MPa": 3.3432381784365384,
+          "interior_27_point_peak_MPa": 4.870437631023984,
+          "volume_weighted_mean_MPa": 0.45434477749873525,
+          "peak_to_centroid_ratio": 1.4568024684683516,
+          "location": {
+            "element": 3245,
+            "barycentric": [
+              0.6985685011586675,
+              0.1127016653792583,
+              0.09999999999999999,
+              0.08872983346207416
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source": "engineering-v19-results/quadratic-inward/child_large_h2.3.npz",
+      "sha256": "b3435ebfcfb21bcfcf66f5b3384d1ccc5a157d9c8dcc95697916d3e8efadb505",
+      "direction": "quadratic-inward",
+      "size": "child_large",
+      "h": 2.3,
+      "components": [
+        {
+          "component": "tongue",
+          "centroid_peak_MPa": 2.1724526078232245,
+          "interior_27_point_peak_MPa": 3.826387899990137,
+          "volume_weighted_mean_MPa": 1.0396128049059228,
+          "peak_to_centroid_ratio": 1.7613216906140654,
+          "location": {
+            "element": 4738,
+            "barycentric": [
+              0.6985685011586675,
+              0.1127016653792583,
+              0.09999999999999999,
+              0.08872983346207416
+            ]
+          }
+        },
+        {
+          "component": "fork",
+          "centroid_peak_MPa": 2.363284292544891,
+          "interior_27_point_peak_MPa": 4.726488071103007,
+          "volume_weighted_mean_MPa": 0.4417374605380246,
+          "peak_to_centroid_ratio": 1.9999659313155724,
+          "location": {
+            "element": 3406,
+            "barycentric": [
+              0.011270166537925827,
+              0.8872983346207417,
+              0.012701665379258308,
+              0.08872983346207416
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source": "engineering-v19-results/quadratic-inward/child_large_h3.0.npz",
+      "sha256": "2ab8321544e287cdf792c9a66bbaaa7d07f51fc2ba17e3af5eb980dc0f09c3bf",
+      "direction": "quadratic-inward",
+      "size": "child_large",
+      "h": 3.0,
+      "components": [
+        {
+          "component": "tongue",
+          "centroid_peak_MPa": 2.1212687600410156,
+          "interior_27_point_peak_MPa": 8.061782449551343,
+          "volume_weighted_mean_MPa": 1.038245457246855,
+          "peak_to_centroid_ratio": 3.8004531068451057,
+          "location": {
+            "element": 2503,
+            "barycentric": [
+              0.011270166537925827,
+              0.8872983346207417,
+              0.012701665379258308,
+              0.08872983346207416
+            ]
+          }
+        },
+        {
+          "component": "fork",
+          "centroid_peak_MPa": 2.4461474462062194,
+          "interior_27_point_peak_MPa": 3.9603760475001373,
+          "volume_weighted_mean_MPa": 0.441005072885392,
+          "peak_to_centroid_ratio": 1.6190258905457096,
+          "location": {
+            "element": 3169,
+            "barycentric": [
+              0.0014314988413324774,
+              0.8872983346207417,
+              0.09999999999999999,
+              0.011270166537925829
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "mesh_comparisons": [
+    {
+      "direction": "quadratic-contact",
+      "size": "adult_small",
+      "component": "tongue",
+      "coarse_peak_MPa": 7.755264828618395,
+      "fine_peak_MPa": 3.9026765371376477,
+      "change_percent": 49.67706940534084,
+      "chosen_5_percent_comparison_pass": false
+    },
+    {
+      "direction": "quadratic-contact",
+      "size": "adult_small",
+      "component": "fork",
+      "coarse_peak_MPa": 4.838460578996496,
+      "fine_peak_MPa": 3.539372945207117,
+      "change_percent": 26.849193303933284,
+      "chosen_5_percent_comparison_pass": false
+    },
+    {
+      "direction": "quadratic-contact",
+      "size": "child_large",
+      "component": "tongue",
+      "coarse_peak_MPa": 7.293701135088483,
+      "fine_peak_MPa": 3.6779742920978746,
+      "change_percent": 49.5732794094907,
+      "chosen_5_percent_comparison_pass": false
+    },
+    {
+      "direction": "quadratic-contact",
+      "size": "child_large",
+      "component": "fork",
+      "coarse_peak_MPa": 3.614799813570007,
+      "fine_peak_MPa": 3.428231397643846,
+      "change_percent": 5.161237842985955,
+      "chosen_5_percent_comparison_pass": false
+    },
+    {
+      "direction": "quadratic-inward",
+      "size": "adult_small",
+      "component": "tongue",
+      "coarse_peak_MPa": 8.035723600772856,
+      "fine_peak_MPa": 3.429802868536642,
+      "change_percent": 57.31805822431757,
+      "chosen_5_percent_comparison_pass": false
+    },
+    {
+      "direction": "quadratic-inward",
+      "size": "adult_small",
+      "component": "fork",
+      "coarse_peak_MPa": 4.870437631023984,
+      "fine_peak_MPa": 4.465853011568184,
+      "change_percent": 8.306945907255948,
+      "chosen_5_percent_comparison_pass": false
+    },
+    {
+      "direction": "quadratic-inward",
+      "size": "child_large",
+      "component": "tongue",
+      "coarse_peak_MPa": 8.061782449551343,
+      "fine_peak_MPa": 3.826387899990137,
+      "change_percent": 52.53670110878414,
+      "chosen_5_percent_comparison_pass": false
+    },
+    {
+      "direction": "quadratic-inward",
+      "size": "child_large",
+      "component": "fork",
+      "coarse_peak_MPa": 3.9603760475001373,
+      "fine_peak_MPa": 4.726488071103007,
+      "change_percent": 19.344426246756385,
+      "chosen_5_percent_comparison_pass": false
+    }
+  ],
+  "all_peak_comparisons_pass": false,
+  "seconds": 6.441147327423096,
+  "scope": "Postprocessing saved V19 displacements at positive interior quadrature points using the same assumed isotropic PA66 E=3500 MPa nu=0.35. Not a new solve, certified material stress limit, converged surface/contact-edge stress, bolt bearing or fatigue result. V19 displacement comparisons cannot be used as stress convergence evidence."
+}

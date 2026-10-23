@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-23",
+  "trial_status": "equilibrium converged",
+  "nodes": 33925,
+  "comparisons": [
+    {
+      "component": "tongue",
+      "h2_3_peak_MPa": 3.6779742920978746,
+      "h1_9_peak_MPa": 3.727034589721011,
+      "change_percent": 1.3338945225512377,
+      "chosen_5_percent_comparison_pass": true,
+      "minimum_sampled_Jacobian": 0.19163018957997552
+    },
+    {
+      "component": "fork",
+      "h2_3_peak_MPa": 3.428231397643846,
+      "h1_9_peak_MPa": 3.52609867662156,
+      "change_percent": 2.8547454248559756,
+      "chosen_5_percent_comparison_pass": true,
+      "minimum_sampled_Jacobian": 0.0008190448518309636
+    }
+  ],
+  "all_peak_comparisons_pass": true,
+  "displacement_change_percent": 0.621193719938784,
+  "initial_mesh_failure": "Unoptimized 1.9 mm curved mesh had a nonpositive quadrature Jacobian and was rejected. High-order optimization was used before the new solve.",
+  "raw_solution_sha256": "6e7ab4a04ded53824f5d907f451e2526143ded1ffa3beabf2665365add75848b",
+  "scope": "One additional outward child-large mesh. Same assumed material, prescribed preload, ideal pivot and contact approximations. No all-size/all-load convergence or physical strength claim."
+}

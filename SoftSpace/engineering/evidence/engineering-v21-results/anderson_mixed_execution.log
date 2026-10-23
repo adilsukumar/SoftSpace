@@ -1,0 +1,16 @@
+prepared child_large_outward 33925
+child_large_outward 0 0.056260923955938145 1.0
+child_large_outward 1 0.06554723946472757 0.0032002076578124834
+child_large_outward 2 0.04217478205568862 0.0036995125209835066
+child_large_outward 3 0.01710504816238894 0.0005695520455144194
+child_large_outward 4 0.0038689514980905612 0.0001054549973231816
+child_large_outward 5 0.0006463416609921349 1.5381095665832668e-05
+child_large_outward 6 0.000282914081927526 7.491049967482685e-07
+child_large_outward 7 5.7671614603597186e-05 4.2670224670489666e-07
+child_large_outward 8 1.1566082029400033e-05 8.918846930483838e-08
+child_large_outward 9 2.313576240905667e-06 1.798813792169661e-08
+child_large_outward 10 4.626268863373776e-07 3.6021969217804134e-09
+child_large_outward 11 9.252704999116348e-08 7.19046268271744e-10
+{"converged": true, "size": "child_large", "side_force_N": 2, "h": 1.9, "nodes": 33925, "seconds": 845.1988234519958, "linear_solver": "Anderson accelerated original fixed-point contact equations with direct LU", "relative_free_residual": 9.252704999116348e-08, "cup_mean_displacement_x_mm": 0.2711785759977253, "inner_max_residual": null, "factorizations": 12, "linear_system_calls": 12, "source_mesh_sha256": "ea56856b77d068f4f1a850ba9218cd9f8f75d9d38f4442410392769f86a60249", "source_CAD": "${WORKSPACE}\\EarDefender_V19_child_large_ParallelDisc.step", "source_CAD_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557", "direct_LU_control_relative_u_error": 1.760779795063621e-09, "direct_LU_control_pass": true}
+prepared child_large_inward 33925
+child_large_inward 0 0.1269217170990264 1.0

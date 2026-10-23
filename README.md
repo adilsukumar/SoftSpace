@@ -42,7 +42,15 @@ This repository makes the work inspectable: actual CAD, illustrated reports, num
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-routes-mobile.svg"/><img src="assets/readme/section-routes.svg" width="100%" alt="TWO ROUTES THROUGH THE QUESTION. A passive headphone concept and replacement cushions."/></picture></p>
 
 
-## Latest pre prototype review
+## V21 software review on 24 October 2026
+
+**Software closure is not established.** The [new review and complete test register](SoftSpace/engineering/evidence/engineering-v21-results/README.md) adds 285 rigid motion samples, 126,360 assumed cushion-position scenarios, exact-area checks of every V20 row, and stresses recovered inside eight saved joint models. Both Word reports have the same update.
+
+All added motion samples passed, and six smaller carrying poses passed sampled paths. The wider cushion study found pressure increases when glasses miss the soft zones. Four new finer joint solves pass six of eight sampled stress comparisons; both adult fork checks still fail, changing about 28 percent. The original coarser failures and rejected mesh remain recorded. Stable displacement is not a strength pass.
+
+Further numerical stress review and material/mount inputs remain open. No final cushion winner, proven comfort, sound rating, Sony mounting fit or manufacturing release is claimed. V19 part shapes and the three V20 cushion bodies are unchanged; V21 adds six pose-only STEP exports. Do not interpret the prior small-sample plan as a finished-software or production approval.
+
+## Previous V20 pre prototype review
 
 **Small test samples are the next justified purchase.** SoftSpace keeps its V19 headphone geometry. SoftSpace Flex adds [three V20 reference pad bodies](SoftSpace%20Flex/CAD/V20-reference), using a published compatible-pad envelope of 100 x 80 x 30 mm. This is an aftermarket size, not a dimensioned Sony mounting drawing.
 

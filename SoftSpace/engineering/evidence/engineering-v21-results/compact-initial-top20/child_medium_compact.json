@@ -1,0 +1,2142 @@
+{
+  "size": "child_medium",
+  "source_sha256": "ab2a0c221b24772d61a8b1b63c2cbb3002bcee2f0a5bb42cf98d3690eca43b1c",
+  "date": "2026-10-23",
+  "candidate_count": 625,
+  "search_range_degrees": [
+    0,
+    120
+  ],
+  "search_increment_degrees": 5,
+  "trial_limit": 20,
+  "trials": [
+    {
+      "angles": [
+        85,
+        95
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        128.78403548358534
+      ],
+      "box_volume_mm3": 2070339.1077607984,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 5053.252306079648
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 214.93697900817224
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 214.035043367634
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 7.220380109672803
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 614.165178774716
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 13.897164404185384
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1162.0143272463572
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 50.73518805004878
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 111.07864964129435
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCup"
+          ],
+          "intersection_mm3": 661.4636868895647
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightLiner"
+          ],
+          "intersection_mm3": 596.1291271079435
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1112.9535644819844
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 51.876510122709064
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 114.51632087576743
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightCup"
+          ],
+          "intersection_mm3": 110.87965812148907
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightLiner"
+          ],
+          "intersection_mm3": 92.07457643043956
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        90,
+        95
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        128.78403548358534
+      ],
+      "box_volume_mm3": 2070339.1077607984,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1082.721150319799
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 126.25923847534541
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 13.549653424982955
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 123.54679232650776
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 5.077003321442936
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "CrownPad"
+          ],
+          "intersection_mm3": 8.526272325837592
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 611.0636404212419
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 13.291727213706897
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 2003.2223125396276
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 129.3777632149285
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 747.9532243172213
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCup"
+          ],
+          "intersection_mm3": 449.0547083342934
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightLiner"
+          ],
+          "intersection_mm3": 233.86223909903245
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1824.565559752295
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 54.96639673251744
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        95,
+        95
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        128.78403548358534
+      ],
+      "box_volume_mm3": 2070339.1077607984,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 38.63887555756104
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 154.51502549717014
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "Band"
+          ],
+          "intersection_mm3": 19.639612546438276
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "CrownPad"
+          ],
+          "intersection_mm3": 28.065803236097857
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 3394.0447408246564
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 111.53190524770758
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1433.5018070532765
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 68.55257320593527
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        100,
+        95
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        128.78403548358534
+      ],
+      "box_volume_mm3": 2070339.1077607984,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 325.6989863999951
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 1752.4735270175825
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "Band"
+          ],
+          "intersection_mm3": 44.605096479461054
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "CrownPad"
+          ],
+          "intersection_mm3": 161.47276481438786
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 2554.18453475693
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 88.29633413303254
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 607.9544188662006
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 43.476999146840654
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        105,
+        95
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        128.78403548358534
+      ],
+      "box_volume_mm3": 2070339.1077607984,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 877.7976732229389
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 3731.0087944057013
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "Band"
+          ],
+          "intersection_mm3": 67.55270337304364
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "CrownPad"
+          ],
+          "intersection_mm3": 116.78051125596448
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1214.2320440868016
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 84.46936919225598
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 3.7805825861522098
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 3.391896417868611
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        85,
+        90
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        128.99999999999858
+      ],
+      "box_volume_mm3": 2073810.9649870456,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1011.8443167494157
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 127.32915430371683
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 127.6157937353135
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 5.498507850266888
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 608.187804712774
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 15.09968376864563
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1960.623390436168
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 156.14972442084678
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 867.6333694117243
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCup"
+          ],
+          "intersection_mm3": 265.62567316501514
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightLiner"
+          ],
+          "intersection_mm3": 107.36086026666504
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1731.2337387894968
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 48.76575949663524
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        90,
+        90
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        128.99999999999858
+      ],
+      "box_volume_mm3": 2073810.9649870456,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 13.549653424982955
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "CrownPad"
+          ],
+          "intersection_mm3": 8.526272325837592
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 3542.0592499705353
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 113.47145302686756
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1363.2122472378
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 57.197140678665804
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        95,
+        90
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        128.99999999999858
+      ],
+      "box_volume_mm3": 2073810.9649870456,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 38.63887555756104
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 154.51502549717014
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "Band"
+          ],
+          "intersection_mm3": 19.639612546438276
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "CrownPad"
+          ],
+          "intersection_mm3": 28.065803236097857
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 2818.7760523697802
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 93.74621710851869
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 609.1220800874647
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 36.17103760408233
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        100,
+        90
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        128.99999999999858
+      ],
+      "box_volume_mm3": 2073810.9649870456,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 325.6989863999951
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 1752.4735270175825
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "Band"
+          ],
+          "intersection_mm3": 44.605096479461054
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "CrownPad"
+          ],
+          "intersection_mm3": 161.47276481438786
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1748.7782872623247
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 107.55393229524266
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 8.425772437725662
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 5.0461864412832025
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        105,
+        90
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        128.99999999999858
+      ],
+      "box_volume_mm3": 2073810.9649870456,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 877.7976732229389
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 3731.0087944057013
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "Band"
+          ],
+          "intersection_mm3": 67.55270337304364
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "CrownPad"
+          ],
+          "intersection_mm3": 116.78051125596448
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        85,
+        100
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        129.38706009594873
+      ],
+      "box_volume_mm3": 2080033.3639877462,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 8771.340094290543
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 282.0690771386254
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 279.64523933360033
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 9.72630236357816
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 608.3059528786384
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 13.060987004217358
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 484.0565909072153
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 32.606063839026085
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 112.86420914728035
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCup"
+          ],
+          "intersection_mm3": 807.2981727338505
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightLiner"
+          ],
+          "intersection_mm3": 737.9630989960741
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 400.7043811732723
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 33.7397129823766
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 118.95206309705053
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightCup"
+          ],
+          "intersection_mm3": 259.5563040508823
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightLiner"
+          ],
+          "intersection_mm3": 238.3882605736825
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        90,
+        100
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        129.38706009594873
+      ],
+      "box_volume_mm3": 2080033.3639877462,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 4555.660358741953
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 192.89060315404078
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 13.549653424982955
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 175.92221035852828
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 8.887289576201576
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "CrownPad"
+          ],
+          "intersection_mm3": 8.526272325837592
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 587.4374736902205
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 12.161232752272497
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1327.5645810315789
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 58.15185909341148
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 114.0444625368674
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCup"
+          ],
+          "intersection_mm3": 663.6260412567872
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightLiner"
+          ],
+          "intersection_mm3": 589.9421779874635
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1384.5823121677283
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 69.0164904323471
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 120.95200289437601
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightCup"
+          ],
+          "intersection_mm3": 117.89455354405919
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightLiner"
+          ],
+          "intersection_mm3": 92.39614975135096
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        95,
+        100
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        129.38706009594873
+      ],
+      "box_volume_mm3": 2080033.3639877462,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 865.5314055113625
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 105.04108684247143
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 38.63887555756104
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 154.51502549717014
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 75.58919371241494
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 4.569642786977918
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "Band"
+          ],
+          "intersection_mm3": 19.639612546438276
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "CrownPad"
+          ],
+          "intersection_mm3": 28.065803236097857
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 484.77968916423396
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 18.99743599320689
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 2533.301792385248
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 157.9127880079454
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 536.2567147152708
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCup"
+          ],
+          "intersection_mm3": 490.158345829129
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightLiner"
+          ],
+          "intersection_mm3": 301.68975758662134
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 2229.6813899389967
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 49.06074214989791
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        100,
+        100
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        129.38706009594873
+      ],
+      "box_volume_mm3": 2080033.3639877462,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 325.6989863999951
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 1752.4735270175825
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "Band"
+          ],
+          "intersection_mm3": 44.605096479461054
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "CrownPad"
+          ],
+          "intersection_mm3": 161.47276481438786
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 3389.9374614412445
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 122.03412807042542
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1639.668464388134
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 47.72505555345563
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        105,
+        100
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        129.38706009594873
+      ],
+      "box_volume_mm3": 2080033.3639877462,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 877.7976732229389
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 3731.0087944057013
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "Band"
+          ],
+          "intersection_mm3": 67.55270337304364
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "CrownPad"
+          ],
+          "intersection_mm3": 116.78051125596448
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 2224.922858226736
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 83.63376412300116
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 606.719552163046
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 35.029245648413095
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        85,
+        105
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        129.80448445567242
+      ],
+      "box_volume_mm3": 2086743.900532302,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 9096.545951484934
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 286.0387791526707
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 593.3473044454807
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightCup"
+          ],
+          "intersection_mm3": 231.94435875961165
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightLiner"
+          ],
+          "intersection_mm3": 117.7153137584215
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 264.0235188471281
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 14.710470437365235
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 13.4254672020934
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightCup"
+          ],
+          "intersection_mm3": 26.74785026076322
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightLiner"
+          ],
+          "intersection_mm3": 27.82687731711424
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 0.7923027964795111
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightCup"
+          ],
+          "intersection_mm3": 116.78936151084378
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightLiner"
+          ],
+          "intersection_mm3": 129.68679069067952
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 3.9037909147502097
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCup"
+          ],
+          "intersection_mm3": 1336.1200685505453
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightLiner"
+          ],
+          "intersection_mm3": 323.78429539222645
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightCup"
+          ],
+          "intersection_mm3": 424.3516333286724
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightLiner"
+          ],
+          "intersection_mm3": 300.9213590663777
+        },
+        {
+          "parts": [
+            "RightMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 6.1223381669440755
+        },
+        {
+          "parts": [
+            "RightContinuousCover",
+            "Band"
+          ],
+          "intersection_mm3": 7.487910225150678
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        90,
+        105
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        129.80448445567242
+      ],
+      "box_volume_mm3": 2086743.900532302,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 5727.275786132701
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 210.34748115721382
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 13.549653424982955
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 219.28054030739509
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 5.037231606484878
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "CrownPad"
+          ],
+          "intersection_mm3": 8.526272325837592
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 547.7451762565344
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 11.216500924918169
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 669.0156688687961
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 46.21602791868634
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 122.27030966875087
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCup"
+          ],
+          "intersection_mm3": 821.0271446211294
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightLiner"
+          ],
+          "intersection_mm3": 723.509928702497
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 562.1351364472398
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 31.32018664072416
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 147.09789102859958
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightCup"
+          ],
+          "intersection_mm3": 271.281717707735
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightLiner"
+          ],
+          "intersection_mm3": 245.2844563394971
+        },
+        {
+          "parts": [
+            "RightMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 6.1223381669440755
+        },
+        {
+          "parts": [
+            "RightContinuousCover",
+            "Band"
+          ],
+          "intersection_mm3": 7.487910225150678
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        95,
+        105
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        129.80448445567242
+      ],
+      "box_volume_mm3": 2086743.900532302,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 2079.237897113364
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 113.42509812681186
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 38.63887555756104
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 154.51502549717014
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 117.02964970403457
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 4.009247178678285
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "Band"
+          ],
+          "intersection_mm3": 19.639612546438276
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "CrownPad"
+          ],
+          "intersection_mm3": 28.065803236097857
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 383.0291613912832
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 10.211117085257204
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1789.6164158886213
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 61.533331053365394
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 125.05822882003916
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCup"
+          ],
+          "intersection_mm3": 663.4099408987602
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightLiner"
+          ],
+          "intersection_mm3": 577.6373445492266
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1471.0234981568976
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 41.42422673462184
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 151.61811887354023
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightCup"
+          ],
+          "intersection_mm3": 125.71931869152891
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightLiner"
+          ],
+          "intersection_mm3": 94.04989542496631
+        },
+        {
+          "parts": [
+            "RightMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 6.1223381669440755
+        },
+        {
+          "parts": [
+            "RightContinuousCover",
+            "Band"
+          ],
+          "intersection_mm3": 7.487910225150678
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        100,
+        105
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        129.80448445567242
+      ],
+      "box_volume_mm3": 2086743.900532302,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 260.39896421994547
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 38.50120245928345
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 325.6989863999951
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 1752.4735270175825
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 31.951788740438783
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 2.7675127941571582
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "Band"
+          ],
+          "intersection_mm3": 44.605096479461054
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "CrownPad"
+          ],
+          "intersection_mm3": 161.47276481438786
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 192.76292524734933
+        },
+        {
+          "parts": [
+            "LeftCarrier",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 8.259105711993445
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 3012.155604647028
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 111.24094474375529
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCarrier"
+          ],
+          "intersection_mm3": 369.6469545731764
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightCup"
+          ],
+          "intersection_mm3": 470.5468380507654
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightLiner"
+          ],
+          "intersection_mm3": 275.86730962484825
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1833.363854323101
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 27.39862684630981
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightCup"
+          ],
+          "intersection_mm3": 0.11563837871990104
+        },
+        {
+          "parts": [
+            "RightMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 6.1223381669440755
+        },
+        {
+          "parts": [
+            "RightContinuousCover",
+            "Band"
+          ],
+          "intersection_mm3": 7.487910225150678
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    },
+    {
+      "angles": [
+        105,
+        105
+      ],
+      "box_mm": [
+        208.10425879803,
+        77.25,
+        129.80448445567242
+      ],
+      "box_volume_mm3": 2086743.900532302,
+      "endpoint_pass": false,
+      "endpoint_overlaps": [
+        {
+          "parts": [
+            "LeftMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 877.7976732229389
+        },
+        {
+          "parts": [
+            "LeftMainFoam",
+            "CrownPad"
+          ],
+          "intersection_mm3": 3731.0087944057013
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "Band"
+          ],
+          "intersection_mm3": 67.55270337304364
+        },
+        {
+          "parts": [
+            "LeftContinuousCover",
+            "CrownPad"
+          ],
+          "intersection_mm3": 116.78051125596448
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 2844.1911130044145
+        },
+        {
+          "parts": [
+            "LeftCup",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 74.56364172659259
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightMainFoam"
+          ],
+          "intersection_mm3": 1125.6311674155959
+        },
+        {
+          "parts": [
+            "LeftLiner",
+            "RightContinuousCover"
+          ],
+          "intersection_mm3": 39.82666224756902
+        },
+        {
+          "parts": [
+            "RightMainFoam",
+            "Band"
+          ],
+          "intersection_mm3": 6.1223381669440755
+        },
+        {
+          "parts": [
+            "RightContinuousCover",
+            "Band"
+          ],
+          "intersection_mm3": 7.487910225150678
+        }
+      ],
+      "path_pass": false,
+      "samples": 0
+    }
+  ],
+  "chosen": null,
+  "original_fold_box_mm": [
+    227.5990366150466,
+    77.25,
+    187.11277496528686
+  ],
+  "nominal_box_mm": [
+    232.10425879803,
+    77.25,
+    183.62500000000003
+  ],
+  "extensions_mm": [
+    0,
+    30
+  ],
+  "seconds": 284.1041660308838,
+  "scope": "Finite 5 degree endpoint search over top 20 bounding-volume candidates, with 2.5 degree path samples for left-first folding. Original part geometry unchanged, only assembly locations. No continuous collision certificate, finger access, loaded motion, friction or actual bag fit qualification."
+}
