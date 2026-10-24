@@ -1,0 +1,9 @@
+# V24 finer reference mesh and source recovery
+
+Four new corrected reference fields use a global 1.5 mm target, following V23 at 1.9 mm. All numerical controls pass. Of 16 fixed 5 percent peak comparisons, 2 pass. Read stress_comparisons.csv; no failed comparison is deleted or replaced by a mean stress. The 125 point interior and 35 point boundary lattice are finite samples. This does not bound a global peak or qualify strength. Same CAD and assumed continuum parameters, not a new material or headset design.
+
+The primary geometry loaders now resolve relocated CAD by its recorded SHA256. The source audit covers 623 recorded references and 304 distinct path/hash pairs. Four old V12 versions were recovered exactly from existing ZIP members into source-archive, without replacing newer root files or editing old recorded paths. Seven loader controls passed, including rejection of a wrong hash. Other historical scripts were not all migrated.
+
+Run v24_finer_campaign.py then v24_review.py with the saved numerical dependencies. The model warm-starts by nearest-node mapping but requires the same final force residual and contact controls. The first execution attempt failed while comparing differently sized load vectors; its log is retained. The corrected check compares resultant loads; the prescribed load equation is unchanged. Source resolution checks use v24_path_audit.py and v24_path_controls.py. All original V23 raw fields remain unchanged.
+
+The current finer campaign is complete, but whole-product software sign off is not achieved. Detailed physical contact and edge design, material curves, cover and head geometry, exact Sony mounting and acoustic/thermal/durability inputs remain required. Wearer acceptance needs people. No device has been physically tested and no product benefit or manufacturing release is claimed.

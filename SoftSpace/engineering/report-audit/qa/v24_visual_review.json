@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-24",
+  "source_hashes": [
+    "a8b3d15e125d0c0ed6fe144fff1bcf90fd4a3e31b77de4931a9b7b3a872ba6c3",
+    "62f64da1635474d46528b097d613ede4da16ea847ed76ec1eb56df0fed61330d"
+  ],
+  "native_pages": [
+    100,
+    75
+  ],
+  "all_page_contact_sheets_reviewed": false,
+  "preserved_V23_pages_pixel_identical": 167,
+  "detailed_pages_reviewed": "Both updated title pages and three new V24 chapter bodies reviewed; matching companion bodies pixel compared. The other 167 previously reviewed pages are exactly pixel identical to V23.",
+  "new_body_comparisons": [
+    {
+      "main_page": 98,
+      "flex_page": 73,
+      "body_pixels_identical": true
+    },
+    {
+      "main_page": 99,
+      "flex_page": 74,
+      "body_pixels_identical": true
+    },
+    {
+      "main_page": 100,
+      "flex_page": 75,
+      "body_pixels_identical": true
+    }
+  ],
+  "scope": "Visual layout and semantic preservation review, not independent scientific validation."
+}

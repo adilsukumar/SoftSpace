@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-24",
+  "revision": "V24",
+  "finer_campaign_complete": true,
+  "new_equilibrium_fields": 4,
+  "all_numerical_controls_pass": true,
+  "stress_comparisons": 16,
+  "stress_comparison_passes": 2,
+  "whole_part_strength_demonstrated": false,
+  "all_product_software_testing_complete": false,
+  "CAD_shapes_changed": false,
+  "physical_tests": 0,
+  "verified_recorded_CAD_references": 623,
+  "distinct_recorded_CAD_paths_and_hashes": 304,
+  "scope": "Same isolated V19 CAD and corrected virtual spacer equations, new global 1.5 mm meshes. Fixed E3500 MPa nu0.35 preload140 N friction0.2 +/-2 N side force. Nearest-node warm interpolation is initialization only; final equilibrium gates still required. No strength or whole-product qualification."
+}

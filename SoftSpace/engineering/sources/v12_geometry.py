@@ -1,9 +1,10 @@
+from project_paths import verified_source
 from pathlib import Path
 import sys,json,hashlib
 P=Path(__file__).parent;sys.path.insert(0,str(P/'solver-libraries'));import gmsh
 O=P/'engineering-v12-results'
 def import_parts(row):
- source=Path(row['file']);assert hashlib.sha256(source.read_bytes()).hexdigest()==row['sha256']
+ source=verified_source(row)
  occ=gmsh.model.occ;occ.importShapes(str(source));occ.synchronize();solids=gmsh.model.getEntities(3);assert len(solids)==row.get('solid_count',32);parts={};used=set()
  for name,expected in row['part_bounds_mm'].items():
   # OCC STEP roundtrip changes loose BSpline bbox padding (up to 0.0052 mm observed).

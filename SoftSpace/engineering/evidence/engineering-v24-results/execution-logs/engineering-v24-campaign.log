@@ -1,0 +1,27 @@
+Prepared child_large_h1.5_outward 511.7963202238299
+child_large_h1.5_outward {'iteration': 0, 'relative_residual': 0.07912050507108984, 'linear_residual': 1.0134363496995903e-07, 'step': 1.0, 'gmres_iterations': 5}
+child_large_h1.5_outward {'iteration': 1, 'relative_residual': 0.022696152392489587, 'linear_residual': 8.38345492413142e-07, 'step': 1.0, 'gmres_iterations': 14}
+child_large_h1.5_outward {'iteration': 2, 'relative_residual': 0.00492655933351722, 'linear_residual': 2.694099332193461e-06, 'step': 1.0, 'gmres_iterations': 14}
+child_large_h1.5_outward {'iteration': 3, 'relative_residual': 0.0003934918498214006, 'linear_residual': 1.6113812529267535e-06, 'step': 1.0, 'gmres_iterations': 13}
+child_large_h1.5_outward {'iteration': 4, 'relative_residual': 6.703686968851961e-10, 'linear_residual': 1.7011504423139084e-06, 'step': 1.0, 'gmres_iterations': 13}
+Saved child_large_h1.5_outward 6.703686968851961e-10
+Prepared child_large_h1.5_inward 541.388510910436
+child_large_h1.5_inward {'iteration': 0, 'relative_residual': 0.056904271423496515, 'linear_residual': 1.4931644256413162e-07, 'step': 1.0, 'gmres_iterations': 7}
+child_large_h1.5_inward {'iteration': 1, 'relative_residual': 0.0011253861474005383, 'linear_residual': 1.1582438427208365e-06, 'step': 1.0, 'gmres_iterations': 11}
+child_large_h1.5_inward {'iteration': 2, 'relative_residual': 1.5548779788710435e-05, 'linear_residual': 7.930268267740535e-07, 'step': 1.0, 'gmres_iterations': 14}
+child_large_h1.5_inward {'iteration': 3, 'relative_residual': 7.125036724333172e-11, 'linear_residual': 1.9719737003395342e-06, 'step': 1.0, 'gmres_iterations': 12}
+Saved child_large_h1.5_inward 7.125036724333172e-11
+New mesh adult_small 59371
+Prepared adult_small_h1.5_outward 656.9761565213469
+adult_small_h1.5_outward {'iteration': 0, 'relative_residual': 0.07220812137882841, 'linear_residual': 6.58497845531371e-08, 'step': 1.0, 'gmres_iterations': 7}
+adult_small_h1.5_outward {'iteration': 1, 'relative_residual': 0.0021746371692956696, 'linear_residual': 3.970787032817211e-07, 'step': 1.0, 'gmres_iterations': 11}
+adult_small_h1.5_outward {'iteration': 2, 'relative_residual': 2.2129473066553928e-05, 'linear_residual': 1.4663537806306271e-06, 'step': 1.0, 'gmres_iterations': 11}
+adult_small_h1.5_outward {'iteration': 3, 'relative_residual': 8.444357637959997e-11, 'linear_residual': 2.985036472607656e-06, 'step': 1.0, 'gmres_iterations': 11}
+Saved adult_small_h1.5_outward 8.444357637959997e-11
+Prepared adult_small_h1.5_inward 693.1209095929858
+adult_small_h1.5_inward {'iteration': 0, 'relative_residual': 0.06582420382517545, 'linear_residual': 9.931543176995069e-08, 'step': 1.0, 'gmres_iterations': 7}
+adult_small_h1.5_inward {'iteration': 1, 'relative_residual': 0.001827714717072269, 'linear_residual': 7.120475305263857e-06, 'step': 1.0, 'gmres_iterations': 13}
+adult_small_h1.5_inward {'iteration': 2, 'relative_residual': 2.6388514527080778e-05, 'linear_residual': 2.6752655543359432e-06, 'step': 1.0, 'gmres_iterations': 14}
+adult_small_h1.5_inward {'iteration': 3, 'relative_residual': 1.6448810235402924e-10, 'linear_residual': 5.981025575085641e-07, 'step': 1.0, 'gmres_iterations': 13}
+Saved adult_small_h1.5_inward 1.6448810235402924e-10
+All four finer corrected reference cases complete

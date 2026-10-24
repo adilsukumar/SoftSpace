@@ -1,3 +1,4 @@
+from project_paths import verified_source
 """Independent motion audit without deep geometric copies.
 OCC deep-copying this imported fork produces an empty identical-solid common.
 Located original shapes and topology-only copies pass that positive control.
@@ -29,7 +30,7 @@ def rotate(s,x,z,degrees):
 def common(a,b):
  op=BRepAlgoAPI_Common(a,b);assert op.IsDone();return mass(op.Shape())
 def load(row):
- assert hashlib.sha256(Path(row['file']).read_bytes()).hexdigest()==row['sha256'];r=STEPControl_Reader();r.ReadFile(row['file']);r.TransferRoots();e=TopExp_Explorer(r.OneShape(),TopAbs_SOLID);solids=[]
+ source=verified_source(row);r=STEPControl_Reader();r.ReadFile(str(source));r.TransferRoots();e=TopExp_Explorer(r.OneShape(),TopAbs_SOLID);solids=[]
  while e.More():solids.append(e.Current());e.Next()
  assert len(solids)==row.get('solid_count',32);used=set();parts={};control=[];cached_bounds=[bounds(s) for s in solids];cached_mass=[mass(s) for s in solids]
  for name,b in row['part_bounds_mm'].items():

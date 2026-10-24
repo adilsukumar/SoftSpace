@@ -1,16 +1,16 @@
 {
   "updated": "24 October 2026",
-  "design_status": "V23 Corrected hinge checks across two size families",
+  "design_status": "V24 Finer child and adult joint calculations",
   "documents": [
     {
       "path": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
-      "sha256": "ab378105ae93b5245c1718a10fa2579a28b0e9bb9423358cbb54c68b2fff0cca",
-      "bytes": 10065431
+      "sha256": "a8b3d15e125d0c0ed6fe144fff1bcf90fd4a3e31b77de4931a9b7b3a872ba6c3",
+      "bytes": 10105765
     },
     {
       "path": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
-      "sha256": "89cec883bbe4ab46b4b6af3e16478ea6a12b1495613b8caaa364e9bbede5fc8f",
-      "bytes": 5555512
+      "sha256": "62f64da1635474d46528b097d613ede4da16ea847ed76ec1eb56df0fed61330d",
+      "bytes": 5595848
     }
   ],
   "market_checked": "2026-10-13",
@@ -20,32 +20,32 @@
     "approximate_layout_page_counts": [],
     "approximate_previews_match_current_documents": false,
     "native_Word_layout_verified": true,
-    "reason": "Native Word exports match current report hashes; all pages rendered, page bounds and blank/short page checks passed, all contact sheets reviewed, new chapters and title pages reviewed in detail.",
+    "reason": "Native Word exports match current report hashes; all pages rendered, page bounds and blank/short page checks passed, 167 preserved pages pixel matched to reviewed V23, new chapters and title pages reviewed in detail.",
     "checks": [
       {
         "document": "Ear_Defender_Project.docx",
-        "paragraphs": 661,
-        "tables": 66,
-        "embedded_images": 49,
+        "paragraphs": 678,
+        "tables": 69,
+        "embedded_images": 50,
         "source_links": 38,
         "structure_and_hashes": "pass"
       },
       {
         "document": "Glasses_Friendly_Headphone_Cushions.docx",
-        "paragraphs": 479,
-        "tables": 54,
-        "embedded_images": 35,
+        "paragraphs": 496,
+        "tables": 57,
+        "embedded_images": 36,
         "source_links": 25,
         "structure_and_hashes": "pass"
       }
     ],
     "native_Word_export_verified": true,
     "native_page_counts": [
-      97,
-      72
+      100,
+      75
     ],
     "native_blank_or_out_of_page_text_pages": 0,
-    "visual_review_scope": "Both title pages and all three shared new V23 chapters. New chapter bodies pixel compared between reports."
+    "visual_review_scope": "Both updated title pages and three new V24 chapter bodies reviewed; matching companion bodies pixel compared. The other 167 previously reviewed pages are exactly pixel identical to V23."
   },
   "latest_update": {
     "date": "2026-10-24",

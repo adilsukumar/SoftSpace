@@ -1,0 +1,19 @@
+{
+  "cases": [
+    {
+      "size": "child_large",
+      "solids": 42,
+      "source_sha256": "5b6c1004fae84fdd7b6849d831d570f60b0d5520697ab92ff4f7c2cd29ddaa9b",
+      "all_recorded_geometry_controls_pass": true,
+      "seconds": 2.284593343734741
+    },
+    {
+      "size": "adult_small",
+      "solids": 42,
+      "source_sha256": "035aa0b663212ab25ef478dd2c23e883bcdfd35df3525eacfb5977bd6042285c",
+      "all_recorded_geometry_controls_pass": true,
+      "seconds": 3.7603352069854736
+    }
+  ],
+  "scope": "Actual relocated primary OCP reader and its existing validity/self-common controls; no new motion path or whole-product clearance claim."
+}

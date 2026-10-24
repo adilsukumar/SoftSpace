@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-24",
+  "size": "adult_small",
+  "mesh_size_mm": 1.5,
+  "direction": "inward",
+  "converged": true,
+  "relative_residual": 1.6448810235402924e-10,
+  "independent_residual": 1.6448810235275037e-10,
+  "initial_residual": 693.1209095929858,
+  "force_balance_N": 1.4760705857955351e-10,
+  "moment_balance_Nmm": 1.164510258622315e-08,
+  "coulomb_excess_MPa": 2.220446049250313e-16,
+  "cup_displacement_mm": -0.35286214716236136,
+  "rigid_motion_controls": [
+    {
+      "kind": "translation",
+      "axis": 0,
+      "error": 1.0492908625314712e-15,
+      "passed": true
+    },
+    {
+      "kind": "translation",
+      "axis": 1,
+      "error": 1.1006820455072841e-15,
+      "passed": true
+    },
+    {
+      "kind": "translation",
+      "axis": 2,
+      "error": 1.4890432636915918e-15,
+      "passed": true
+    },
+    {
+      "kind": "rotation",
+      "axis": 0,
+      "error": 2.436766066704621e-14,
+      "passed": true
+    },
+    {
+      "kind": "rotation",
+      "axis": 1,
+      "error": 1.6542483857203282e-14,
+      "passed": true
+    },
+    {
+      "kind": "rotation",
+      "axis": 2,
+      "error": 2.7274010280060532e-14,
+      "passed": true
+    }
+  ],
+  "contact_derivative_errors": [
+    0.0003814779101785766,
+    1.5001076955802954e-05
+  ],
+  "history": [
+    {
+      "iteration": 0,
+      "relative_residual": 0.06582420382517545,
+      "linear_residual": 9.931543176995069e-08,
+      "step": 1.0,
+      "gmres_iterations": 7
+    },
+    {
+      "iteration": 1,
+      "relative_residual": 0.001827714717072269,
+      "linear_residual": 7.120475305263857e-06,
+      "step": 1.0,
+      "gmres_iterations": 13
+    },
+    {
+      "iteration": 2,
+      "relative_residual": 2.6388514527080778e-05,
+      "linear_residual": 2.6752655543359432e-06,
+      "step": 1.0,
+      "gmres_iterations": 14
+    },
+    {
+      "iteration": 3,
+      "relative_residual": 1.6448810235402924e-10,
+      "linear_residual": 5.981025575085641e-07,
+      "step": 1.0,
+      "gmres_iterations": 13
+    }
+  ],
+  "seconds": 289.50350308418274,
+  "source_mesh_sha256": "f49c9880d786f5e1d9c3dc04a1f5576142f8fd10c6c3dd88de59d422685e84f4",
+  "source_CAD_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d",
+  "warm_start_sha256": "4eb4598ed93060bfae483ccf7f63ba842814094405cd026c9ce16ae7b40b3538",
+  "script_sha256": "be1d59749b0123adfe869fb156066c642842ee2ab32b2cb8e6e4d304cbce0c5d",
+  "scope": "Corrected virtual 0.5 mm spacer reference. E3500 MPa nu0.35 preload140 N friction0.2 side force +/-2 N. Isolated V19 joint only; no physical strength, washer or product pass.",
+  "raw_sha256": "d7b8be81f0113d2bb42e1848436974baee7b50067da6721de58ee8ba71d4e561",
+  "stress": [
+    {
+      "component": "tongue",
+      "sampled_peaks_MPa": {
+        "interior125": 4.281416944146437,
+        "boundary35": 4.454064950368789
+      },
+      "minimum_sampled_Jacobian": 0.21556146248551586
+    },
+    {
+      "component": "fork",
+      "sampled_peaks_MPa": {
+        "interior125": 5.624099142472924,
+        "boundary35": 6.134046929504242
+      },
+      "minimum_sampled_Jacobian": 0.0008812102747709164
+    }
+  ]
+}

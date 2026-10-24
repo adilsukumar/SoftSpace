@@ -1,0 +1,12 @@
+New mesh child_large 45406
+Traceback (most recent call last):
+  File "${WORKSPACE}\v24_finer_campaign.py", line 69, in <module>
+    oldsplit=3*len(z['xt']);u=np.r_[z['u'][:oldsplit].reshape(-1,3)[cKDTree(z['xt']).query(m['xt'])[1]].ravel(),z['u'][oldsplit:].reshape(-1,3)[cKDTree(z['xf']).query(m['xf'])[1]].ravel()];u[m['fixed']]=0;F=m['FP']*140+m['Fc']*(2 if side=='outward' else -2);assert np.allclose(F,z['force'],atol=1e-10);scale=np.linalg.norm(F[free]);start=time.time();history=[];res,state=evaluate(u,F);initial=float(np.linalg.norm(res[free])/scale);print('Prepared',label,initial,flush=True)
+                                                                                                                                                                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "${WORKSPACE}\solver-libraries\numpy\_core\numeric.py", line 2376, in allclose
+    res = all(isclose(a, b, rtol=rtol, atol=atol, equal_nan=equal_nan))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "${WORKSPACE}\solver-libraries\numpy\_core\numeric.py", line 2507, in isclose
+    result = (less_equal(abs(x - y), atol + rtol * abs(y))
+                             ~~^~~
+ValueError: operands could not be broadcast together with shapes (136218,) (101775,) 

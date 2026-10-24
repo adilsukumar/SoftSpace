@@ -1,0 +1,1148 @@
+{
+  "archives_scanned": 30,
+  "exact_recoveries": [
+    {
+      "file": "EarDefender_V12_child_medium_Folded.step",
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2",
+      "recovered": "source-archive\\b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2\\EarDefender_V12_child_medium_Folded.step",
+      "archive": "EarDefenderProject\\EarDefender_V14_CAD_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Released.step",
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7",
+      "recovered": "source-archive\\811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7\\EarDefender_V12_child_medium_Released.step",
+      "archive": "EarDefenderProject\\EarDefender_V14_CAD_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Folded.step",
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf",
+      "recovered": "source-archive\\b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf\\EarDefender_V12_child_small_Folded.step",
+      "archive": "EarDefenderProject\\EarDefender_V14_CAD_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Released.step",
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765",
+      "recovered": "source-archive\\444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765\\EarDefender_V12_child_small_Released.step",
+      "archive": "EarDefenderProject\\EarDefender_V14_CAD_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Folded.step",
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2",
+      "recovered": "source-archive\\b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2\\EarDefender_V12_child_medium_Folded.step",
+      "archive": "EarDefenderProject\\EarDefender_V15_Experiments_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Released.step",
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7",
+      "recovered": "source-archive\\811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7\\EarDefender_V12_child_medium_Released.step",
+      "archive": "EarDefenderProject\\EarDefender_V15_Experiments_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Folded.step",
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf",
+      "recovered": "source-archive\\b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf\\EarDefender_V12_child_small_Folded.step",
+      "archive": "EarDefenderProject\\EarDefender_V15_Experiments_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Released.step",
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765",
+      "recovered": "source-archive\\444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765\\EarDefender_V12_child_small_Released.step",
+      "archive": "EarDefenderProject\\EarDefender_V15_Experiments_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Folded.step",
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2",
+      "recovered": "source-archive\\b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2\\EarDefender_V12_child_medium_Folded.step",
+      "archive": "EarDefenderProject\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Released.step",
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7",
+      "recovered": "source-archive\\811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7\\EarDefender_V12_child_medium_Released.step",
+      "archive": "EarDefenderProject\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Folded.step",
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf",
+      "recovered": "source-archive\\b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf\\EarDefender_V12_child_small_Folded.step",
+      "archive": "EarDefenderProject\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Released.step",
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765",
+      "recovered": "source-archive\\444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765\\EarDefender_V12_child_small_Released.step",
+      "archive": "EarDefenderProject\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Folded.step",
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2",
+      "recovered": "source-archive\\b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2\\EarDefender_V12_child_medium_Folded.step",
+      "archive": "EarDefenderProject\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Released.step",
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7",
+      "recovered": "source-archive\\811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7\\EarDefender_V12_child_medium_Released.step",
+      "archive": "EarDefenderProject\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Folded.step",
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf",
+      "recovered": "source-archive\\b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf\\EarDefender_V12_child_small_Folded.step",
+      "archive": "EarDefenderProject\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Released.step",
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765",
+      "recovered": "source-archive\\444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765\\EarDefender_V12_child_small_Released.step",
+      "archive": "EarDefenderProject\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Folded.step",
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2",
+      "recovered": "source-archive\\b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2\\EarDefender_V12_child_medium_Folded.step",
+      "archive": "EarDefenderProject\\EarDefender_V17_Loaded_Pin_Assessment.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Released.step",
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7",
+      "recovered": "source-archive\\811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7\\EarDefender_V12_child_medium_Released.step",
+      "archive": "EarDefenderProject\\EarDefender_V17_Loaded_Pin_Assessment.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Folded.step",
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf",
+      "recovered": "source-archive\\b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf\\EarDefender_V12_child_small_Folded.step",
+      "archive": "EarDefenderProject\\EarDefender_V17_Loaded_Pin_Assessment.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Released.step",
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765",
+      "recovered": "source-archive\\444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765\\EarDefender_V12_child_small_Released.step",
+      "archive": "EarDefenderProject\\EarDefender_V17_Loaded_Pin_Assessment.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Folded.step",
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2",
+      "recovered": "source-archive\\b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2\\EarDefender_V12_child_medium_Folded.step",
+      "archive": "EarDefenderProject\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Released.step",
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7",
+      "recovered": "source-archive\\811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7\\EarDefender_V12_child_medium_Released.step",
+      "archive": "EarDefenderProject\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Folded.step",
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf",
+      "recovered": "source-archive\\b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf\\EarDefender_V12_child_small_Folded.step",
+      "archive": "EarDefenderProject\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Released.step",
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765",
+      "recovered": "source-archive\\444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765\\EarDefender_V12_child_small_Released.step",
+      "archive": "EarDefenderProject\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Folded.step",
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2",
+      "recovered": "source-archive\\b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2\\EarDefender_V12_child_medium_Folded.step",
+      "archive": "EarDefenderProject\\EarDefender_V19_Inward_Extension_Handoff.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Released.step",
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7",
+      "recovered": "source-archive\\811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7\\EarDefender_V12_child_medium_Released.step",
+      "archive": "EarDefenderProject\\EarDefender_V19_Inward_Extension_Handoff.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Folded.step",
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf",
+      "recovered": "source-archive\\b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf\\EarDefender_V12_child_small_Folded.step",
+      "archive": "EarDefenderProject\\EarDefender_V19_Inward_Extension_Handoff.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Released.step",
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765",
+      "recovered": "source-archive\\444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765\\EarDefender_V12_child_small_Released.step",
+      "archive": "EarDefenderProject\\EarDefender_V19_Inward_Extension_Handoff.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Folded.step",
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2",
+      "recovered": "source-archive\\b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2\\EarDefender_V12_child_medium_Folded.step",
+      "archive": "EarDefenderProject\\EarDefender_V19_Prototype_Handoff.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Released.step",
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7",
+      "recovered": "source-archive\\811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7\\EarDefender_V12_child_medium_Released.step",
+      "archive": "EarDefenderProject\\EarDefender_V19_Prototype_Handoff.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Folded.step",
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf",
+      "recovered": "source-archive\\b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf\\EarDefender_V12_child_small_Folded.step",
+      "archive": "EarDefenderProject\\EarDefender_V19_Prototype_Handoff.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Released.step",
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765",
+      "recovered": "source-archive\\444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765\\EarDefender_V12_child_small_Released.step",
+      "archive": "EarDefenderProject\\EarDefender_V19_Prototype_Handoff.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Folded.step",
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2",
+      "recovered": "source-archive\\b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2\\EarDefender_V12_child_medium_Folded.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks_20261015_222736.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Released.step",
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7",
+      "recovered": "source-archive\\811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7\\EarDefender_V12_child_medium_Released.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks_20261015_222736.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Folded.step",
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf",
+      "recovered": "source-archive\\b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf\\EarDefender_V12_child_small_Folded.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks_20261015_222736.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Released.step",
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765",
+      "recovered": "source-archive\\444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765\\EarDefender_V12_child_small_Released.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks_20261015_222736.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Folded.step",
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2",
+      "recovered": "source-archive\\b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2\\EarDefender_V12_child_medium_Folded.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks_20261015_231506.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Released.step",
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7",
+      "recovered": "source-archive\\811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7\\EarDefender_V12_child_medium_Released.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks_20261015_231506.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Folded.step",
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf",
+      "recovered": "source-archive\\b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf\\EarDefender_V12_child_small_Folded.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks_20261015_231506.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Released.step",
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765",
+      "recovered": "source-archive\\444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765\\EarDefender_V12_child_small_Released.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks_20261015_231506.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Folded.step",
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2",
+      "recovered": "source-archive\\b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2\\EarDefender_V12_child_medium_Folded.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013716.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Released.step",
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7",
+      "recovered": "source-archive\\811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7\\EarDefender_V12_child_medium_Released.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013716.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Folded.step",
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf",
+      "recovered": "source-archive\\b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf\\EarDefender_V12_child_small_Folded.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013716.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Released.step",
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765",
+      "recovered": "source-archive\\444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765\\EarDefender_V12_child_small_Released.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013716.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Folded.step",
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2",
+      "recovered": "source-archive\\b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2\\EarDefender_V12_child_medium_Folded.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013833.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Released.step",
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7",
+      "recovered": "source-archive\\811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7\\EarDefender_V12_child_medium_Released.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013833.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Folded.step",
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf",
+      "recovered": "source-archive\\b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf\\EarDefender_V12_child_small_Folded.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013833.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Released.step",
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765",
+      "recovered": "source-archive\\444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765\\EarDefender_V12_child_small_Released.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013833.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Folded.step",
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2",
+      "recovered": "source-archive\\b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2\\EarDefender_V12_child_medium_Folded.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_095953.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Released.step",
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7",
+      "recovered": "source-archive\\811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7\\EarDefender_V12_child_medium_Released.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_095953.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Folded.step",
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf",
+      "recovered": "source-archive\\b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf\\EarDefender_V12_child_small_Folded.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_095953.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Released.step",
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765",
+      "recovered": "source-archive\\444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765\\EarDefender_V12_child_small_Released.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_095953.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Folded.step",
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2",
+      "recovered": "source-archive\\b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2\\EarDefender_V12_child_medium_Folded.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_101652.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Released.step",
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7",
+      "recovered": "source-archive\\811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7\\EarDefender_V12_child_medium_Released.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_101652.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Folded.step",
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf",
+      "recovered": "source-archive\\b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf\\EarDefender_V12_child_small_Folded.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_101652.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Released.step",
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765",
+      "recovered": "source-archive\\444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765\\EarDefender_V12_child_small_Released.step",
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_101652.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Folded.step",
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2",
+      "recovered": "source-archive\\b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2\\EarDefender_V12_child_medium_Folded.step",
+      "archive": "SoftSpace_Complete_V19_Research.zip",
+      "member": "SoftSpace/engineering/evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_medium_Released.step",
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7",
+      "recovered": "source-archive\\811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7\\EarDefender_V12_child_medium_Released.step",
+      "archive": "SoftSpace_Complete_V19_Research.zip",
+      "member": "SoftSpace/engineering/evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Folded.step",
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf",
+      "recovered": "source-archive\\b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf\\EarDefender_V12_child_small_Folded.step",
+      "archive": "SoftSpace_Complete_V19_Research.zip",
+      "member": "SoftSpace/engineering/evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step"
+    },
+    {
+      "file": "EarDefender_V12_child_small_Released.step",
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765",
+      "recovered": "source-archive\\444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765\\EarDefender_V12_child_small_Released.step",
+      "archive": "SoftSpace_Complete_V19_Research.zip",
+      "member": "SoftSpace/engineering/evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step"
+    }
+  ],
+  "candidate_trials": [
+    {
+      "archive": "EarDefenderProject\\EarDefender_V14_CAD_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": true,
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V14_CAD_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": true,
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V14_CAD_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": true,
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V14_CAD_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step",
+      "hash_matches": true,
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V14_CAD_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": false,
+      "sha256": "042db08341594a4dc8ee9a92b2d0f122213889fe3cc56c01d1032200cf56df55"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V14_CAD_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": false,
+      "sha256": "9442e4155c15c60f6255be2e965261fd96b464e5fa8c3f51193daccc86c6215a"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V14_CAD_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": false,
+      "sha256": "39474997fe051409cc983dd6dce35c4dad2abc0190c5e36159a16cca65a03146"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V14_CAD_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Released.step",
+      "hash_matches": false,
+      "sha256": "f591f3f93ce26b1bc8b9939cdca66a66ab1d1cdd00ad4002d868242d1d74c60b"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V15_Experiments_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": true,
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V15_Experiments_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": true,
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V15_Experiments_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": true,
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V15_Experiments_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step",
+      "hash_matches": true,
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V15_Experiments_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": false,
+      "sha256": "042db08341594a4dc8ee9a92b2d0f122213889fe3cc56c01d1032200cf56df55"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V15_Experiments_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": false,
+      "sha256": "9442e4155c15c60f6255be2e965261fd96b464e5fa8c3f51193daccc86c6215a"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V15_Experiments_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": false,
+      "sha256": "39474997fe051409cc983dd6dce35c4dad2abc0190c5e36159a16cca65a03146"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V15_Experiments_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Released.step",
+      "hash_matches": false,
+      "sha256": "f591f3f93ce26b1bc8b9939cdca66a66ab1d1cdd00ad4002d868242d1d74c60b"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": true,
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": true,
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": true,
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step",
+      "hash_matches": true,
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": false,
+      "sha256": "042db08341594a4dc8ee9a92b2d0f122213889fe3cc56c01d1032200cf56df55"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": false,
+      "sha256": "9442e4155c15c60f6255be2e965261fd96b464e5fa8c3f51193daccc86c6215a"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": false,
+      "sha256": "39474997fe051409cc983dd6dce35c4dad2abc0190c5e36159a16cca65a03146"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Released.step",
+      "hash_matches": false,
+      "sha256": "f591f3f93ce26b1bc8b9939cdca66a66ab1d1cdd00ad4002d868242d1d74c60b"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": true,
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": true,
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": true,
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step",
+      "hash_matches": true,
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": false,
+      "sha256": "042db08341594a4dc8ee9a92b2d0f122213889fe3cc56c01d1032200cf56df55"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": false,
+      "sha256": "9442e4155c15c60f6255be2e965261fd96b464e5fa8c3f51193daccc86c6215a"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": false,
+      "sha256": "39474997fe051409cc983dd6dce35c4dad2abc0190c5e36159a16cca65a03146"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Released.step",
+      "hash_matches": false,
+      "sha256": "f591f3f93ce26b1bc8b9939cdca66a66ab1d1cdd00ad4002d868242d1d74c60b"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V17_Loaded_Pin_Assessment.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": true,
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V17_Loaded_Pin_Assessment.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": true,
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V17_Loaded_Pin_Assessment.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": true,
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V17_Loaded_Pin_Assessment.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step",
+      "hash_matches": true,
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V17_Loaded_Pin_Assessment.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": false,
+      "sha256": "042db08341594a4dc8ee9a92b2d0f122213889fe3cc56c01d1032200cf56df55"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V17_Loaded_Pin_Assessment.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": false,
+      "sha256": "9442e4155c15c60f6255be2e965261fd96b464e5fa8c3f51193daccc86c6215a"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V17_Loaded_Pin_Assessment.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": false,
+      "sha256": "39474997fe051409cc983dd6dce35c4dad2abc0190c5e36159a16cca65a03146"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V17_Loaded_Pin_Assessment.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Released.step",
+      "hash_matches": false,
+      "sha256": "f591f3f93ce26b1bc8b9939cdca66a66ab1d1cdd00ad4002d868242d1d74c60b"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": true,
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": true,
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": true,
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step",
+      "hash_matches": true,
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": false,
+      "sha256": "042db08341594a4dc8ee9a92b2d0f122213889fe3cc56c01d1032200cf56df55"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": false,
+      "sha256": "9442e4155c15c60f6255be2e965261fd96b464e5fa8c3f51193daccc86c6215a"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": false,
+      "sha256": "39474997fe051409cc983dd6dce35c4dad2abc0190c5e36159a16cca65a03146"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Released.step",
+      "hash_matches": false,
+      "sha256": "f591f3f93ce26b1bc8b9939cdca66a66ab1d1cdd00ad4002d868242d1d74c60b"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V19_Inward_Extension_Handoff.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": true,
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V19_Inward_Extension_Handoff.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": true,
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V19_Inward_Extension_Handoff.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": true,
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V19_Inward_Extension_Handoff.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step",
+      "hash_matches": true,
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V19_Inward_Extension_Handoff.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": false,
+      "sha256": "042db08341594a4dc8ee9a92b2d0f122213889fe3cc56c01d1032200cf56df55"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V19_Inward_Extension_Handoff.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": false,
+      "sha256": "9442e4155c15c60f6255be2e965261fd96b464e5fa8c3f51193daccc86c6215a"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V19_Inward_Extension_Handoff.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": false,
+      "sha256": "39474997fe051409cc983dd6dce35c4dad2abc0190c5e36159a16cca65a03146"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V19_Inward_Extension_Handoff.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Released.step",
+      "hash_matches": false,
+      "sha256": "f591f3f93ce26b1bc8b9939cdca66a66ab1d1cdd00ad4002d868242d1d74c60b"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V19_Prototype_Handoff.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": true,
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V19_Prototype_Handoff.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": true,
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V19_Prototype_Handoff.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": true,
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V19_Prototype_Handoff.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step",
+      "hash_matches": true,
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V19_Prototype_Handoff.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": false,
+      "sha256": "042db08341594a4dc8ee9a92b2d0f122213889fe3cc56c01d1032200cf56df55"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V19_Prototype_Handoff.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": false,
+      "sha256": "9442e4155c15c60f6255be2e965261fd96b464e5fa8c3f51193daccc86c6215a"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V19_Prototype_Handoff.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": false,
+      "sha256": "39474997fe051409cc983dd6dce35c4dad2abc0190c5e36159a16cca65a03146"
+    },
+    {
+      "archive": "EarDefenderProject\\EarDefender_V19_Prototype_Handoff.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Released.step",
+      "hash_matches": false,
+      "sha256": "f591f3f93ce26b1bc8b9939cdca66a66ab1d1cdd00ad4002d868242d1d74c60b"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks_20261015_222736.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": true,
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks_20261015_222736.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": true,
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks_20261015_222736.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": true,
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks_20261015_222736.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step",
+      "hash_matches": true,
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks_20261015_222736.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": false,
+      "sha256": "042db08341594a4dc8ee9a92b2d0f122213889fe3cc56c01d1032200cf56df55"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks_20261015_222736.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": false,
+      "sha256": "9442e4155c15c60f6255be2e965261fd96b464e5fa8c3f51193daccc86c6215a"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks_20261015_222736.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": false,
+      "sha256": "39474997fe051409cc983dd6dce35c4dad2abc0190c5e36159a16cca65a03146"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V16_Indexed_CAD_and_Recorded_Checks_20261015_222736.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Released.step",
+      "hash_matches": false,
+      "sha256": "f591f3f93ce26b1bc8b9939cdca66a66ab1d1cdd00ad4002d868242d1d74c60b"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks_20261015_231506.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": true,
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks_20261015_231506.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": true,
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks_20261015_231506.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": true,
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks_20261015_231506.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step",
+      "hash_matches": true,
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks_20261015_231506.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": false,
+      "sha256": "042db08341594a4dc8ee9a92b2d0f122213889fe3cc56c01d1032200cf56df55"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks_20261015_231506.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": false,
+      "sha256": "9442e4155c15c60f6255be2e965261fd96b464e5fa8c3f51193daccc86c6215a"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks_20261015_231506.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": false,
+      "sha256": "39474997fe051409cc983dd6dce35c4dad2abc0190c5e36159a16cca65a03146"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V17_Entry_Pilots_and_Recorded_Checks_20261015_231506.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Released.step",
+      "hash_matches": false,
+      "sha256": "f591f3f93ce26b1bc8b9939cdca66a66ab1d1cdd00ad4002d868242d1d74c60b"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013716.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": true,
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013716.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": true,
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013716.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": true,
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013716.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step",
+      "hash_matches": true,
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013716.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": false,
+      "sha256": "042db08341594a4dc8ee9a92b2d0f122213889fe3cc56c01d1032200cf56df55"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013716.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": false,
+      "sha256": "9442e4155c15c60f6255be2e965261fd96b464e5fa8c3f51193daccc86c6215a"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013716.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": false,
+      "sha256": "39474997fe051409cc983dd6dce35c4dad2abc0190c5e36159a16cca65a03146"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013716.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Released.step",
+      "hash_matches": false,
+      "sha256": "f591f3f93ce26b1bc8b9939cdca66a66ab1d1cdd00ad4002d868242d1d74c60b"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013833.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": true,
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013833.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": true,
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013833.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": true,
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013833.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step",
+      "hash_matches": true,
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013833.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": false,
+      "sha256": "042db08341594a4dc8ee9a92b2d0f122213889fe3cc56c01d1032200cf56df55"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013833.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": false,
+      "sha256": "9442e4155c15c60f6255be2e965261fd96b464e5fa8c3f51193daccc86c6215a"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013833.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": false,
+      "sha256": "39474997fe051409cc983dd6dce35c4dad2abc0190c5e36159a16cca65a03146"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_013833.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Released.step",
+      "hash_matches": false,
+      "sha256": "f591f3f93ce26b1bc8b9939cdca66a66ab1d1cdd00ad4002d868242d1d74c60b"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_095953.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": true,
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_095953.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": true,
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_095953.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": true,
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_095953.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step",
+      "hash_matches": true,
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_095953.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": false,
+      "sha256": "042db08341594a4dc8ee9a92b2d0f122213889fe3cc56c01d1032200cf56df55"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_095953.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": false,
+      "sha256": "9442e4155c15c60f6255be2e965261fd96b464e5fa8c3f51193daccc86c6215a"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_095953.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": false,
+      "sha256": "39474997fe051409cc983dd6dce35c4dad2abc0190c5e36159a16cca65a03146"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_095953.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Released.step",
+      "hash_matches": false,
+      "sha256": "f591f3f93ce26b1bc8b9939cdca66a66ab1d1cdd00ad4002d868242d1d74c60b"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_101652.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": true,
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_101652.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": true,
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_101652.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": true,
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_101652.zip",
+      "member": "evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step",
+      "hash_matches": true,
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_101652.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": false,
+      "sha256": "042db08341594a4dc8ee9a92b2d0f122213889fe3cc56c01d1032200cf56df55"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_101652.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": false,
+      "sha256": "9442e4155c15c60f6255be2e965261fd96b464e5fa8c3f51193daccc86c6215a"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_101652.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": false,
+      "sha256": "39474997fe051409cc983dd6dce35c4dad2abc0190c5e36159a16cca65a03146"
+    },
+    {
+      "archive": "EarDefenderProject\\package-history\\EarDefender_V18_Digital_Prototype_and_Recorded_Checks_20261016_101652.zip",
+      "member": "CAD/V12-superseded-candidates/EarDefender_V12_child_small_Released.step",
+      "hash_matches": false,
+      "sha256": "f591f3f93ce26b1bc8b9939cdca66a66ab1d1cdd00ad4002d868242d1d74c60b"
+    },
+    {
+      "archive": "SoftSpace_Complete_V19_Research.zip",
+      "member": "SoftSpace/engineering/CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": false,
+      "sha256": "042db08341594a4dc8ee9a92b2d0f122213889fe3cc56c01d1032200cf56df55"
+    },
+    {
+      "archive": "SoftSpace_Complete_V19_Research.zip",
+      "member": "SoftSpace/engineering/CAD/V12-superseded-candidates/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": false,
+      "sha256": "9442e4155c15c60f6255be2e965261fd96b464e5fa8c3f51193daccc86c6215a"
+    },
+    {
+      "archive": "SoftSpace_Complete_V19_Research.zip",
+      "member": "SoftSpace/engineering/CAD/V12-superseded-candidates/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": false,
+      "sha256": "39474997fe051409cc983dd6dce35c4dad2abc0190c5e36159a16cca65a03146"
+    },
+    {
+      "archive": "SoftSpace_Complete_V19_Research.zip",
+      "member": "SoftSpace/engineering/CAD/V12-superseded-candidates/EarDefender_V12_child_small_Released.step",
+      "hash_matches": false,
+      "sha256": "f591f3f93ce26b1bc8b9939cdca66a66ab1d1cdd00ad4002d868242d1d74c60b"
+    },
+    {
+      "archive": "SoftSpace_Complete_V19_Research.zip",
+      "member": "SoftSpace/engineering/evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Folded.step",
+      "hash_matches": true,
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2"
+    },
+    {
+      "archive": "SoftSpace_Complete_V19_Research.zip",
+      "member": "SoftSpace/engineering/evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_medium_Released.step",
+      "hash_matches": true,
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7"
+    },
+    {
+      "archive": "SoftSpace_Complete_V19_Research.zip",
+      "member": "SoftSpace/engineering/evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Folded.step",
+      "hash_matches": true,
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf"
+    },
+    {
+      "archive": "SoftSpace_Complete_V19_Research.zip",
+      "member": "SoftSpace/engineering/evidence/engineering-v12-results/initial-dilation-exports/EarDefender_V12_child_small_Released.step",
+      "hash_matches": true,
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765"
+    }
+  ],
+  "scope": "Exact hash recovery only; no approximation or overwritten source accepted"
+}

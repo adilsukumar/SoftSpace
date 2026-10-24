@@ -1,0 +1,33 @@
+{
+  "controls": [
+    {
+      "case": "moved_current_child_large",
+      "passed": true
+    },
+    {
+      "case": "moved_current_adult_small",
+      "passed": true
+    },
+    {
+      "case": "exact_archived_EarDefender_V12_child_medium_Folded.step",
+      "passed": true
+    },
+    {
+      "case": "exact_archived_EarDefender_V12_child_medium_Released.step",
+      "passed": true
+    },
+    {
+      "case": "exact_archived_EarDefender_V12_child_small_Folded.step",
+      "passed": true
+    },
+    {
+      "case": "exact_archived_EarDefender_V12_child_small_Released.step",
+      "passed": true
+    },
+    {
+      "case": "wrong_hash_rejected",
+      "passed": true
+    }
+  ],
+  "all_pass": true
+}

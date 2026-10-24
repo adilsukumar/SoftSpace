@@ -1,0 +1,1834 @@
+{
+  "date": "2026-10-24",
+  "references": 623,
+  "unique_sources": 304,
+  "verified": 304,
+  "unresolved": [],
+  "sources": [
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10Local_adult_small.step",
+      "resolved": "OwnPassiveDefender_V10Local_adult_small.step",
+      "sha256": "e905cf77b9b8ac88a292dc7b46c6dc3a7f2dea34c5781a6a1667949372658f0e",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10Local_adult_small_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V10Local_adult_small_Extension_0.step",
+      "sha256": "fad1ba7ad44141010743c0d9bb9f8a49ce9d41ea6bd34f20c82eb64a7f19dc55",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10Local_adult_small_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V10Local_adult_small_Extension_30.step",
+      "sha256": "74a28405f0bb996b92cd34264716f15ec408c9d04e028308ac3012ce64877dcd",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10Local_child_small.step",
+      "resolved": "OwnPassiveDefender_V10Local_child_small.step",
+      "sha256": "a5f0d3d1312b34f38ddcd352d60f67ec52a479a28158b69f3086a7445d74c088",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10Local_child_small_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V10Local_child_small_Extension_0.step",
+      "sha256": "6c49f6ba668d25ef99e319088ce27aa2ce1f80aa213476affae780190a01124e",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10Local_child_small_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V10Local_child_small_Extension_30.step",
+      "sha256": "4139fa0773bf3f2d1d3341480e54478df3fb251b6fb5a6200eae7ee89b90f4d4",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10Local_child_medium.step",
+      "resolved": "OwnPassiveDefender_V10Local_child_medium.step",
+      "sha256": "56478788fee9b98109fcf2a5a08c029a1f760fd908848644342e6b81b350b496",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10Local_child_medium_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V10Local_child_medium_Extension_0.step",
+      "sha256": "4563cfaff36f8d9a5f6eff856cc087d3f65af8f6256aced119b6b17ecd13fb36",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10Local_child_medium_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V10Local_child_medium_Extension_30.step",
+      "sha256": "28069544f64f30a24b75ebfbc431dd4c91fa5b68dd526f519202b7bdaa953756",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10Local_child_large.step",
+      "resolved": "OwnPassiveDefender_V10Local_child_large.step",
+      "sha256": "344282cc773d1cda9307efd032ff012603c9b34661746f2c0ca185e5f198ac49",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10Local_child_large_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V10Local_child_large_Extension_0.step",
+      "sha256": "a9c3de1208b5463eaf06fc92c5deccf32af24f60359afc0a042c7e27df5bedc6",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10Local_child_large_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V10Local_child_large_Extension_30.step",
+      "sha256": "dce47a39e68f7f85de324c0e9e2c01b790c315f659701a2fb014f75a3787a78d",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10Local_adult_medium.step",
+      "resolved": "OwnPassiveDefender_V10Local_adult_medium.step",
+      "sha256": "e511e626656f3ac190aff2398bbe889db4e37031483a129f0441fedfe7bd9ac3",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10Local_adult_medium_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V10Local_adult_medium_Extension_0.step",
+      "sha256": "1be0b58ac3569df68ef452c29a9c3eaf53c6f34c719bc0c5ed0389558f262685",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10Local_adult_medium_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V10Local_adult_medium_Extension_30.step",
+      "sha256": "68c70a21eb72a26029d4a01ab666bb0f1a146b253742aac0a91c3ed7c4877a9f",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10Local_adult_large.step",
+      "resolved": "OwnPassiveDefender_V10Local_adult_large.step",
+      "sha256": "e08b5f2d7e3cb61825f89fc9d1f167da6ba8025886936f2c7f46d53ec48e98f3",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10Local_adult_large_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V10Local_adult_large_Extension_0.step",
+      "sha256": "bf1fbfc1110002092cbe3d88cdccd74621b99515f5dad77a45fbfba01cc0627f",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10Local_adult_large_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V10Local_adult_large_Extension_30.step",
+      "sha256": "110b0501ec8800443a5c2d56b92d092fd89661fa27cb20ed612008039501255e",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_child_small_20261013_215835.f3d",
+      "resolved": "OwnPassiveDefender_V10_child_small_20261013_215835.f3d",
+      "sha256": "17c9ae00357e6b2d932b7fc001e4ec74e4c7cddcede79474d0bac7b809a3de68",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_child_medium_20261013_215835.f3d",
+      "resolved": "OwnPassiveDefender_V10_child_medium_20261013_215835.f3d",
+      "sha256": "315c5747276122be01eab1f9e1ab4b5de38792d4ed5e24841ccaf87d0d0d6363",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_child_large_20261013_215835.f3d",
+      "resolved": "OwnPassiveDefender_V10_child_large_20261013_215835.f3d",
+      "sha256": "9be7cd943ea115773be8814aebab8773f008df7a1fd7025c7cbf8178cd4aceb2",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_adult_small_20261013_215835.f3d",
+      "resolved": "OwnPassiveDefender_V10_adult_small_20261013_215835.f3d",
+      "sha256": "a826841cbd1bd01c59806ee410c7dd1f64842e90511fcce21df1c74af541a349",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_adult_medium_20261013_215835.f3d",
+      "resolved": "OwnPassiveDefender_V10_adult_medium_20261013_215835.f3d",
+      "sha256": "acf9a17f77808ed9e5993359908c811f9955630310088e9b23fcb65557014a34",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_adult_large_20261013_215835.f3d",
+      "resolved": "OwnPassiveDefender_V10_adult_large_20261013_215835.f3d",
+      "sha256": "7e2972e25e1c64cb82118c8b33b3b35e9420d5ce0b0738741af15c3f410b46f4",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "resolved": "OwnPassiveDefender_V10_child_small_20261013_215835.step",
+      "sha256": "b228b1d59e2974f548cbcc7554799347bc6d6e65511bb27ca60485d88e0ddc42",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_child_small_20261013_215835_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V10_child_small_20261013_215835_Extension_0.step",
+      "sha256": "15fdd09d163ebe99f7b53a9df4e9764a2133add2f4d1ee7199b12c4793a77258",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_child_small_20261013_215835_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V10_child_small_20261013_215835_Extension_30.step",
+      "sha256": "2972acf68d8330ac7306cf2de201dcdcfdfe92992504264ec40a2236a798e7b6",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "resolved": "OwnPassiveDefender_V10_child_medium_20261013_215835.step",
+      "sha256": "d38b193d839747e0c2533398c8b6b2a97573cf9adef89a6804823ff1072d87cd",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_child_medium_20261013_215835_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V10_child_medium_20261013_215835_Extension_0.step",
+      "sha256": "2d0621e11c585574f6233544aa3aebdcc58c222b37eee944d90f4d2845c43a98",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_child_medium_20261013_215835_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V10_child_medium_20261013_215835_Extension_30.step",
+      "sha256": "93f824cbbd2a7ec43d3ee6400a664d0785a94282fa640ab5a9fb7573d23dc4df",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "resolved": "OwnPassiveDefender_V10_child_large_20261013_215835.step",
+      "sha256": "1998f5a67031b19756ab0a2bed3515fbcc4149e0efc493dafc9fd063d6781d38",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_child_large_20261013_215835_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V10_child_large_20261013_215835_Extension_0.step",
+      "sha256": "ec3bc833a19466574b32b814d24023211bdf3e81187150142b2706818954bc1e",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_child_large_20261013_215835_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V10_child_large_20261013_215835_Extension_30.step",
+      "sha256": "5b616d8a3a9ec7fd546c56f260563d93744cae7b9e5d14419969009108b9d0bd",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "resolved": "OwnPassiveDefender_V10_adult_small_20261013_215835.step",
+      "sha256": "98465ca23b00ebd2b0c3778168e29b1d7bf5ed5d155b4ede7dffb27ca69cd5b3",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_adult_small_20261013_215835_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V10_adult_small_20261013_215835_Extension_0.step",
+      "sha256": "6ffa923027fef27e0dd8effa9684a197286e720d057c61c9f632f35dff05cd38",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_adult_small_20261013_215835_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V10_adult_small_20261013_215835_Extension_30.step",
+      "sha256": "00f8ded54def525c3dd2df2a1bc14adae410e91b2b651e63a98a801789706758",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "resolved": "OwnPassiveDefender_V10_adult_medium_20261013_215835.step",
+      "sha256": "159047fbdd79fa9be193c1058f726d49e57aca68547bb4802d8e0a2174eec5c8",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_adult_medium_20261013_215835_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V10_adult_medium_20261013_215835_Extension_0.step",
+      "sha256": "45999ab37d93e0eedbaba9b7c277de5d1ccbb71be3d3fac6857bd7b78699b2df",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_adult_medium_20261013_215835_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V10_adult_medium_20261013_215835_Extension_30.step",
+      "sha256": "c0cf6ce547bf34fd40748c030bea35855cda9ee6971ec6d2053b7cb57a2c9367",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "resolved": "OwnPassiveDefender_V10_adult_large_20261013_215835.step",
+      "sha256": "12bf8512ea5ee52542817e8ba4982d091a0db578a7bd74954dd0234b6a137d91",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_adult_large_20261013_215835_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V10_adult_large_20261013_215835_Extension_0.step",
+      "sha256": "6eeeac200063a03ef9043ef607d625247b43ff0193c2855be8fc898a440f00cd",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V10_adult_large_20261013_215835_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V10_adult_large_20261013_215835_Extension_30.step",
+      "sha256": "fb4973b2a946cad7e5d812c990f4667f4eb8d75798a25f8ef01a3d7e40c47649",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "C:/Users/adils/Downloads/EarDefenderProject\\OwnPassiveDefender_V10_child_small_20261013_215835.f3d",
+      "resolved": "OwnPassiveDefender_V10_child_small_20261013_215835.f3d",
+      "sha256": "17c9ae00357e6b2d932b7fc001e4ec74e4c7cddcede79474d0bac7b809a3de68",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "C:/Users/adils/Downloads/EarDefenderProject\\OwnPassiveDefender_V10_child_medium_20261013_215835.f3d",
+      "resolved": "OwnPassiveDefender_V10_child_medium_20261013_215835.f3d",
+      "sha256": "315c5747276122be01eab1f9e1ab4b5de38792d4ed5e24841ccaf87d0d0d6363",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "C:/Users/adils/Downloads/EarDefenderProject\\OwnPassiveDefender_V10_child_large_20261013_215835.f3d",
+      "resolved": "OwnPassiveDefender_V10_child_large_20261013_215835.f3d",
+      "sha256": "9be7cd943ea115773be8814aebab8773f008df7a1fd7025c7cbf8178cd4aceb2",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "C:/Users/adils/Downloads/EarDefenderProject\\OwnPassiveDefender_V10_adult_small_20261013_215835.f3d",
+      "resolved": "OwnPassiveDefender_V10_adult_small_20261013_215835.f3d",
+      "sha256": "a826841cbd1bd01c59806ee410c7dd1f64842e90511fcce21df1c74af541a349",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "C:/Users/adils/Downloads/EarDefenderProject\\OwnPassiveDefender_V10_adult_medium_20261013_215835.f3d",
+      "resolved": "OwnPassiveDefender_V10_adult_medium_20261013_215835.f3d",
+      "sha256": "acf9a17f77808ed9e5993359908c811f9955630310088e9b23fcb65557014a34",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "C:/Users/adils/Downloads/EarDefenderProject\\OwnPassiveDefender_V10_adult_large_20261013_215835.f3d",
+      "resolved": "OwnPassiveDefender_V10_adult_large_20261013_215835.f3d",
+      "sha256": "7e2972e25e1c64cb82118c8b33b3b35e9420d5ce0b0738741af15c3f410b46f4",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_adult_small_20261013_164243_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V9_adult_small_20261013_164243_Extension_0.step",
+      "sha256": "005a931d3e102c7b1ceed7c11278d79abdd8c71331669e50d9bd1e6d00d031f4",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_child_small_20261013_180418_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V9_child_small_20261013_180418_Extension_0.step",
+      "sha256": "ff91f82cd5a285c8a910f3e9f1b656c7adb6de81b6af540c8a2fc1790c7858a2",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\FoldingCandidate_V11_adult_large.step",
+      "resolved": "FoldingCandidate_V11_adult_large.step",
+      "sha256": "698d972c6921ab0c719e1737c22e7b734534348eb8620fc27be91aaef8b9a124",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\FoldingCandidate_V11_adult_medium.step",
+      "resolved": "FoldingCandidate_V11_adult_medium.step",
+      "sha256": "2182fdcf6c26d91dbdc2d55cbc8625d5e611beb42028996bb64311171152e373",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\FoldingCandidate_V11_adult_small.step",
+      "resolved": "FoldingCandidate_V11_adult_small.step",
+      "sha256": "642c90117926278cc9dca2f450299e7e92be083f9e989f4724236b60e2db322e",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\FoldingCandidate_V11_child_large.step",
+      "resolved": "FoldingCandidate_V11_child_large.step",
+      "sha256": "e58481f4ce1df70a25a9598d29127b63eae23484e2ff3221f0aac6d8674f77ae",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\FoldingCandidate_V11_child_medium.step",
+      "resolved": "FoldingCandidate_V11_child_medium.step",
+      "sha256": "a34f9d5d3dd25a6e5e6c9b41fe1e837b5a88dee697b03967baf12dceec462fdd",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\FoldingCandidate_V11_child_small.step",
+      "resolved": "FoldingCandidate_V11_child_small.step",
+      "sha256": "24b17e7aaed6b450436b59a7fbffaaea2a930df7e96413b5813f980962a9b602",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_child_small_Latched.step",
+      "resolved": "EarDefender_V12_child_small_Latched.step",
+      "sha256": "105cf36bc7bbdc55cd789a2735ec288bbc7f0199ca1922b21af629b7846d4d71",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_child_medium_Latched.step",
+      "resolved": "EarDefender_V12_child_medium_Latched.step",
+      "sha256": "3abd35efec5094a6087786db9f2a8b583e9c64c6c26bf664282beb8a18d1b1f2",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_child_large_Latched.step",
+      "resolved": "EarDefender_V12_child_large_Latched.step",
+      "sha256": "e140223d2b2dc05a7a6cf10918ac9c042cfcb8134da37a47968e09bacc85aad5",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_adult_small_Latched.step",
+      "resolved": "EarDefender_V12_adult_small_Latched.step",
+      "sha256": "f8e015bce1e77e9b13c3dcbf51e4f4da2c7c184cf3388111283a5ed86a3419d0",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_adult_medium_Latched.step",
+      "resolved": "EarDefender_V12_adult_medium_Latched.step",
+      "sha256": "7affe57c39b80d0b75af2a0ee4222cfe850d1e7b0d125052e943972701bb5dd6",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_adult_large_Latched.step",
+      "resolved": "EarDefender_V12_adult_large_Latched.step",
+      "sha256": "b3c9126933a60d301aee7d2bf14300fb510ac840ccbd27f370099873a6fb9de7",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_child_small_Released.step",
+      "resolved": "source-archive\\444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765\\EarDefender_V12_child_small_Released.step",
+      "sha256": "444eb562ccbd052ab39d40dd08b2377a1b58cc8c83e0e5a0cb0e1792f0356765",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_child_small_Folded.step",
+      "resolved": "source-archive\\b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf\\EarDefender_V12_child_small_Folded.step",
+      "sha256": "b26ebbaff58063295d75ca84ca53ee6284fc3e0d411808e039ead38dc173cfbf",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_child_medium_Released.step",
+      "resolved": "source-archive\\811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7\\EarDefender_V12_child_medium_Released.step",
+      "sha256": "811fdf7f9cd7601847b3e7113fe67980064c854178edbe4a8e992a2f44492ae7",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_child_medium_Folded.step",
+      "resolved": "source-archive\\b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2\\EarDefender_V12_child_medium_Folded.step",
+      "sha256": "b939a8097d3a25efc63404439f8f9dbb94423d8763971b2d40f8d52e21fff1c2",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_child_small_Released.step",
+      "resolved": "EarDefender_V12_child_small_Released.step",
+      "sha256": "f591f3f93ce26b1bc8b9939cdca66a66ab1d1cdd00ad4002d868242d1d74c60b",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_child_small_Folded.step",
+      "resolved": "EarDefender_V12_child_small_Folded.step",
+      "sha256": "39474997fe051409cc983dd6dce35c4dad2abc0190c5e36159a16cca65a03146",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_child_medium_Released.step",
+      "resolved": "EarDefender_V12_child_medium_Released.step",
+      "sha256": "9442e4155c15c60f6255be2e965261fd96b464e5fa8c3f51193daccc86c6215a",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_child_medium_Folded.step",
+      "resolved": "EarDefender_V12_child_medium_Folded.step",
+      "sha256": "042db08341594a4dc8ee9a92b2d0f122213889fe3cc56c01d1032200cf56df55",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_child_large_Released.step",
+      "resolved": "EarDefender_V12_child_large_Released.step",
+      "sha256": "8d9aa868fd5732de641bf392c076a0f5e753789247840a5ed5d7101e2ffb2670",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_child_large_Folded.step",
+      "resolved": "EarDefender_V12_child_large_Folded.step",
+      "sha256": "827ffca6510b997166ee8065b09f9a4ab783c1a931cc969ee0f9263c0f4448e9",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_adult_small_Released.step",
+      "resolved": "EarDefender_V12_adult_small_Released.step",
+      "sha256": "94188c60a68b794cebbbea2aba275e6b6dff9c2a98e23d90f2be67ebe01b9218",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_adult_small_Folded.step",
+      "resolved": "EarDefender_V12_adult_small_Folded.step",
+      "sha256": "15612457f0c793ac1894584d94619daaafd3271c0f788ad5672b41f06dac5a15",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_adult_medium_Released.step",
+      "resolved": "EarDefender_V12_adult_medium_Released.step",
+      "sha256": "d81ef087c617b51dd078b5a54d0380d66dd2cdbd075e02dff57ce150a0a1f044",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_adult_medium_Folded.step",
+      "resolved": "EarDefender_V12_adult_medium_Folded.step",
+      "sha256": "b725c8703844191073a2c512f9764100f9d9af11a98bb4fea9b8b466a5ea45cd",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_adult_large_Released.step",
+      "resolved": "EarDefender_V12_adult_large_Released.step",
+      "sha256": "010468ef9f11d53b0858b3fa0a0fdb5c8621d234b3d72c66df6152ef02f1756b",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V12_adult_large_Folded.step",
+      "resolved": "EarDefender_V12_adult_large_Folded.step",
+      "sha256": "69e2e26ad488b1ea5383d7692a25278936f553d3236f8a8028fd9232bd379fa8",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V13_child_small_Latched.step",
+      "resolved": "EarDefender_V13_child_small_Latched.step",
+      "sha256": "109695a339e6942e04d22c85bb019eb25fb0f52dd09b661cb9f450b5d8b20e34",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V13_child_medium_Latched.step",
+      "resolved": "EarDefender_V13_child_medium_Latched.step",
+      "sha256": "b985b6cb4eaa966db930ae36dc5ef0f8373a04e7465145d4bf2716b1d15fa4f4",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V13_child_large_Latched.step",
+      "resolved": "EarDefender_V13_child_large_Latched.step",
+      "sha256": "3aa56263d77b3654312d96c3bf158c06b22816694a02a299ad66d4f154e67143",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V13_adult_small_Latched.step",
+      "resolved": "EarDefender_V13_adult_small_Latched.step",
+      "sha256": "f10f87c24aeccfeeef6d72270ab1219152ffc710ea679794674ea46cd8cf3952",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V13_adult_medium_Latched.step",
+      "resolved": "EarDefender_V13_adult_medium_Latched.step",
+      "sha256": "fb4d0c0f869b7e1937904c59c1b47946b30a054c030928c534ed5a1ba8ca69eb",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V13_adult_large_Latched.step",
+      "resolved": "EarDefender_V13_adult_large_Latched.step",
+      "sha256": "1130d7c4295e5cb78cffabe9aa1422d02900bbb8d0133cf8ebb3729c02b44393",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V13_child_small_Released.step",
+      "resolved": "EarDefender_V13_child_small_Released.step",
+      "sha256": "aab17c49007d1ee9be46e91ec2909da3e59550392ee6a4682c23c210247280ff",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V13_child_small_Folded.step",
+      "resolved": "EarDefender_V13_child_small_Folded.step",
+      "sha256": "76ed3771b0ade2afcdeed10bf59b1c78380e43c2c785e350fd14f684174509a4",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V13_child_medium_Released.step",
+      "resolved": "EarDefender_V13_child_medium_Released.step",
+      "sha256": "ff3b214b94bc3c57ef828824c45e105e49f4bab89b8d5755a026858541d1277b",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V13_child_medium_Folded.step",
+      "resolved": "EarDefender_V13_child_medium_Folded.step",
+      "sha256": "51f026fc3a7cfa3567e377bb71220d8d8cfc02516590376b12debfbed1f00323",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V13_child_large_Released.step",
+      "resolved": "EarDefender_V13_child_large_Released.step",
+      "sha256": "bdd0e6a63024199dea97e93ced3ca436336cf44a24d98059c0a52aa199abdfc0",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V13_child_large_Folded.step",
+      "resolved": "EarDefender_V13_child_large_Folded.step",
+      "sha256": "e848f397db0bb44233844035c5de0580d8ad7bd47291117df1a5ab0048a785f9",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V13_adult_small_Released.step",
+      "resolved": "EarDefender_V13_adult_small_Released.step",
+      "sha256": "e70fc3b4d284b68253824ec79355db961342f10524233cc32d3c8e53db61cbec",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V13_adult_small_Folded.step",
+      "resolved": "EarDefender_V13_adult_small_Folded.step",
+      "sha256": "eaca802c4e9ebc306c716e30e604a265cb8ce147ca38c71246a263958a39712c",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V13_adult_medium_Released.step",
+      "resolved": "EarDefender_V13_adult_medium_Released.step",
+      "sha256": "06b7f0f55ceaabfb7f8ee606c17b31a199f0a83dc62337f3e8b9561af96abc70",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V13_adult_medium_Folded.step",
+      "resolved": "EarDefender_V13_adult_medium_Folded.step",
+      "sha256": "ea32640c5eeafa15ad314f486d2fd613ed5d731bba4a72748e215131bad0bda3",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V13_adult_large_Released.step",
+      "resolved": "EarDefender_V13_adult_large_Released.step",
+      "sha256": "35a017641f3b8e98d0dd7a39094e2eeb2d277d30ec54cab3aded30efc86fb20e",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V13_adult_large_Folded.step",
+      "resolved": "EarDefender_V13_adult_large_Folded.step",
+      "sha256": "c372f90b4d4cc498873901164f2c0a55a9edd48567913fa0b020c27949e12369",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_child_small_Latched.step",
+      "resolved": "EarDefender_V14_child_small_Latched.step",
+      "sha256": "76c3bf039bb4155bbcfb6b982637f1eea2494c727119289ff7cade88f2b80e3c",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_child_medium_Latched.step",
+      "resolved": "EarDefender_V14_child_medium_Latched.step",
+      "sha256": "396d0ad3cd597de1dea05eed85a894507d375b4fe036a95e9e05370754e30477",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_child_large_Latched.step",
+      "resolved": "EarDefender_V14_child_large_Latched.step",
+      "sha256": "171a7479ee9e5dcb8d6c6814bbbbf87e185f9c94ab2a72293d5c36b76a139573",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_adult_small_Latched.step",
+      "resolved": "EarDefender_V14_adult_small_Latched.step",
+      "sha256": "833a19ab651d82411c211d2a396f405079728fcb87351a9b0cd3c627c2bed8fb",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_adult_medium_Latched.step",
+      "resolved": "EarDefender_V14_adult_medium_Latched.step",
+      "sha256": "20d17dde2d558568d489ad636a047374943dd13e728a6719dacae21293bd5a77",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_adult_large_Latched.step",
+      "resolved": "EarDefender_V14_adult_large_Latched.step",
+      "sha256": "a3ceb8b893e894b27deddd57d3370f5dffe2701de1982140760b65df2695af54",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_child_small_Released.step",
+      "resolved": "EarDefender_V14_child_small_Released.step",
+      "sha256": "b65c49a255fb9fbfb4196225ddba81ca2ff87720215f9f928e420ab00e8bf148",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_child_small_Folded.step",
+      "resolved": "EarDefender_V14_child_small_Folded.step",
+      "sha256": "14038a6ca6573e54da64b37da532d782829dcfc39d1d42434caf437f3454b9a4",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_child_medium_Released.step",
+      "resolved": "EarDefender_V14_child_medium_Released.step",
+      "sha256": "fd78ae2de9c283d5b90a19f69a5f91b434d20cdb6ce78aa1acc7120485915d30",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_child_medium_Folded.step",
+      "resolved": "EarDefender_V14_child_medium_Folded.step",
+      "sha256": "8f3849d7c7f7684f5a06266303558c787be49a6ac292b589a1100e30224db031",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_child_large_Released.step",
+      "resolved": "EarDefender_V14_child_large_Released.step",
+      "sha256": "11a22445fd3be529201fade39f4cf2093c64cd80db85f6dfdba28e1c5c69e93a",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_child_large_Folded.step",
+      "resolved": "EarDefender_V14_child_large_Folded.step",
+      "sha256": "a8736782346fadfb53ac2a0d698c7ed0ef8db50e005c4797860b2317c36d884b",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_adult_small_Released.step",
+      "resolved": "EarDefender_V14_adult_small_Released.step",
+      "sha256": "51587ff89b308d037daa6fc04b30ecc895a3248662ef8723891d4d867d070a4e",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_adult_small_Folded.step",
+      "resolved": "EarDefender_V14_adult_small_Folded.step",
+      "sha256": "0cd27045b5f7068ddd7fb62b43b2ff570743f6fc90d54a04ac5bc202566a36d0",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_adult_medium_Released.step",
+      "resolved": "EarDefender_V14_adult_medium_Released.step",
+      "sha256": "4846a6bcd739a2a2e3ffa6b6c409d3496c6dabb5dfbfcd1a4089d43ff8f22aa0",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_adult_medium_Folded.step",
+      "resolved": "EarDefender_V14_adult_medium_Folded.step",
+      "sha256": "c03435db4a1ad85c7acedf65af2847e1901daa68d2b4dd81b06992388d10cfcf",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_adult_large_Released.step",
+      "resolved": "EarDefender_V14_adult_large_Released.step",
+      "sha256": "0d8c9f33c12553d0ba8b5072bfed748410e9daf5c1f977bcec07bab5c652082d",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_adult_large_Folded.step",
+      "resolved": "EarDefender_V14_adult_large_Folded.step",
+      "sha256": "f2466177b0ba443959c58fb18d07592b309e9a20ad72c276a4b3d03a1fcfba1a",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V15_adult_small_RetentionCandidate.step",
+      "resolved": "EarDefender_V15_adult_small_RetentionCandidate.step",
+      "sha256": "c2665f11f9aa0fc9aa8d331624269f1fa14325dc6fdd6bc032cd972600644473",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V14_child_large_V15FoldExperiment.step",
+      "resolved": "EarDefender_V14_child_large_V15FoldExperiment.step",
+      "sha256": "3ac9e2ff4d29c3b2aabc939b9e8aa360df9370b743eb7dd368132f511479a319",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_adult_large_R16U2_IndexedRivetCandidate.step",
+      "resolved": "EarDefender_V16_adult_large_R16U2_IndexedRivetCandidate.step",
+      "sha256": "c8a1f1c51faa0580f5d3b8ed293a6b451a50446e5d2e897d8db4a9742c2e7584",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_adult_large_R16_IndexedRivetCandidate.step",
+      "resolved": "EarDefender_V16_adult_large_R16_IndexedRivetCandidate.step",
+      "sha256": "361b2ddf1042d317028386e5c83f31f2cb393c01ba8a4aadad0618d9f796aac8",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_adult_medium_R16U2_IndexedRivetCandidate.step",
+      "resolved": "EarDefender_V16_adult_medium_R16U2_IndexedRivetCandidate.step",
+      "sha256": "10d4d34cc275408471327daffb800af1b0a237c94c23c5e645d8e706e341fbf9",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_adult_medium_R16_IndexedRivetCandidate.step",
+      "resolved": "EarDefender_V16_adult_medium_R16_IndexedRivetCandidate.step",
+      "sha256": "f7752e86a0244884883d7f313bcc38026fe67181b522f0895bf12750f9f2124b",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_adult_small_R16U2_IndexedRivetCandidate.step",
+      "resolved": "EarDefender_V16_adult_small_R16U2_IndexedRivetCandidate.step",
+      "sha256": "7da5759463828c82bbc860dea56d65db871c83f0525bfde8f77003c85ef2d1d3",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_adult_small_R16U_IndexedRivetCandidate.step",
+      "resolved": "EarDefender_V16_adult_small_R16U_IndexedRivetCandidate.step",
+      "sha256": "dee0f464a893f6b5feb747555ce4be282464fdf9f7083190a77c88d9b53fa023",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_adult_small_R16_IndexedRivetCandidate.step",
+      "resolved": "EarDefender_V16_adult_small_R16_IndexedRivetCandidate.step",
+      "sha256": "a3cd204e53ec325507122cf5c286cf1410452b0d0d49fc075a7286c27c915c6a",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_child_large_IndexedRivetCandidate.step",
+      "resolved": "EarDefender_V16_child_large_IndexedRivetCandidate.step",
+      "sha256": "7746f946da05e8e52e84623f9cb9b4b9d613a4f574c247f815ba1145106db069",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_child_large_R16_IndexedRivetCandidate.step",
+      "resolved": "EarDefender_V16_child_large_R16_IndexedRivetCandidate.step",
+      "sha256": "bc0b786d667b51388d1baeebc03dd447b0e037786909f122a34fec1e7c60a0fc",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_child_medium_R16_IndexedRivetCandidate.step",
+      "resolved": "EarDefender_V16_child_medium_R16_IndexedRivetCandidate.step",
+      "sha256": "92382155eb7ca842683dad3481ede1a43339c5af94090703509f8bad189b863d",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_child_small_R16_IndexedRivetCandidate.step",
+      "resolved": "EarDefender_V16_child_small_R16_IndexedRivetCandidate.step",
+      "sha256": "83bfff72307d1b61e106d64def83392a0716c11e7a73ede73d3cfcb485d3b298",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_child_small_R16_Wear.step",
+      "resolved": "EarDefender_V16_child_small_R16_Wear.step",
+      "sha256": "0e6582c89228c3affe03c00440b2f46d86556ca38212e175cc9da04be31493c1",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_child_small_R16_Released.step",
+      "resolved": "EarDefender_V16_child_small_R16_Released.step",
+      "sha256": "fcb81afdc7d14fcd41a58569568b6d79d177562ddbd0c3400667ffc5151acb15",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_child_small_R16_FoldedEngaged.step",
+      "resolved": "EarDefender_V16_child_small_R16_FoldedEngaged.step",
+      "sha256": "f6d8370ae3c517bc5b431c2fb4bec7b2dc7fbaf19db95deb890b02698943132d",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_child_medium_R16_Wear.step",
+      "resolved": "EarDefender_V16_child_medium_R16_Wear.step",
+      "sha256": "757263ebb24161c8edab1ff46687dee019a842f2036bbd4b5ee1473422503bd0",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_child_medium_R16_Released.step",
+      "resolved": "EarDefender_V16_child_medium_R16_Released.step",
+      "sha256": "0e304f950477c66f5f12bb0e1e181c859f58bb15614f7f6ed5aed2a7bf2b334c",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_child_medium_R16_FoldedEngaged.step",
+      "resolved": "EarDefender_V16_child_medium_R16_FoldedEngaged.step",
+      "sha256": "499b61762c6350ee3b0919144dfeb6a76fa589f34b8fca885108583354626c75",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_child_large_R16_Wear.step",
+      "resolved": "EarDefender_V16_child_large_R16_Wear.step",
+      "sha256": "a9e0f90d5b29ac39f96f2e8082ee8a4dde57fb8a17f10a22acc18bdd940d5919",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_child_large_R16_Released.step",
+      "resolved": "EarDefender_V16_child_large_R16_Released.step",
+      "sha256": "4955c53c1bba1dc9b386acbd62958b484653b5371f5034ff48c4de84f7660fc9",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_child_large_R16_FoldedEngaged.step",
+      "resolved": "EarDefender_V16_child_large_R16_FoldedEngaged.step",
+      "sha256": "e803be5620d76738ff85308ae563c73a77530df7c1b25c5da87fa8a47499b3e4",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_adult_small_R16U2_Wear.step",
+      "resolved": "EarDefender_V16_adult_small_R16U2_Wear.step",
+      "sha256": "f6959fabc0c60d5428a352ddcfb39427fc0fcff078a8c4e368db27025ea132c6",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_adult_small_R16U2_Released.step",
+      "resolved": "EarDefender_V16_adult_small_R16U2_Released.step",
+      "sha256": "ed62cb01adb15095239b26a1bc590695b17111dceaece1334f2d1bbac205f7d8",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_adult_small_R16U2_FoldedEngaged.step",
+      "resolved": "EarDefender_V16_adult_small_R16U2_FoldedEngaged.step",
+      "sha256": "c5fd0423a96ec2a8271cb6ac3ac59c8b19e2dbdee44511198a6ee470a5e60d3c",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_adult_medium_R16U2_Wear.step",
+      "resolved": "EarDefender_V16_adult_medium_R16U2_Wear.step",
+      "sha256": "b69a86fba9a11453c16d6824fb84095bdd25b0bd1d2b59785c5d939f287526af",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_adult_medium_R16U2_Released.step",
+      "resolved": "EarDefender_V16_adult_medium_R16U2_Released.step",
+      "sha256": "224995beedb1958d3dab16227d7a57d814aba6e9ab008a83b07cb3f815b74355",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_adult_medium_R16U2_FoldedEngaged.step",
+      "resolved": "EarDefender_V16_adult_medium_R16U2_FoldedEngaged.step",
+      "sha256": "909d3672bddd844e7f469973ca3e5310d393925db066323b5636909690ceffde",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_adult_large_R16U2_Wear.step",
+      "resolved": "EarDefender_V16_adult_large_R16U2_Wear.step",
+      "sha256": "bf6933bff04a64a016b78fe8a1065f2e9aa27f8c34d7b5677e97035d9d4c8fad",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_adult_large_R16U2_Released.step",
+      "resolved": "EarDefender_V16_adult_large_R16U2_Released.step",
+      "sha256": "96b0fc984ceb5e7eda86615a0c18f427d1976996a52dfb1c1e5fb745e6475cf5",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V16_adult_large_R16U2_FoldedEngaged.step",
+      "resolved": "EarDefender_V16_adult_large_R16U2_FoldedEngaged.step",
+      "sha256": "0b3d69b5d50b79a08ed5dd7661c44aa7a97a9e9d2df8c1ff601e151bb46da06f",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V17_adult_small_Entry25_Pilot.step",
+      "resolved": "EarDefender_V17_adult_small_Entry25_Pilot.step",
+      "sha256": "5ec4ac21915e0367795dc3b95a95d11cf4ac45185b27ac66db145d560225667a",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V17_child_large_Entry25_Pilot.step",
+      "resolved": "EarDefender_V17_child_large_Entry25_Pilot.step",
+      "sha256": "7207ce4fdd19f9335d17ce8c8f6b49ee05e2aeaf20bd7ceaf96de39895074fe4",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_adult_large_FrictionStop.step",
+      "resolved": "EarDefender_V18_adult_large_FrictionStop.step",
+      "sha256": "b0b177bdd0c19ccdd031ac53d53a31b8574c5b8ad9018797e344c8a5998cec4b",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_adult_medium_FrictionStop.step",
+      "resolved": "EarDefender_V18_adult_medium_FrictionStop.step",
+      "sha256": "9f6848d3981fe2fb1e24f43f3f65b2e491838fe1e1a99d4c3fa986ef6f1a0217",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_adult_small_FrictionStop.step",
+      "resolved": "EarDefender_V18_adult_small_FrictionStop.step",
+      "sha256": "c5117d32b2a3243394cf90b3fb61ffa220a5ba1811dfa9fb668c07ee0aaf053d",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_child_large_FrictionStop.step",
+      "resolved": "EarDefender_V18_child_large_FrictionStop.step",
+      "sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_child_medium_FrictionStop.step",
+      "resolved": "EarDefender_V18_child_medium_FrictionStop.step",
+      "sha256": "aff177f6c54fe4069bc68a6788ccd49af2d7e6c19555e64ddb5c2800f0da6025",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_child_small_FrictionStop.step",
+      "resolved": "EarDefender_V18_child_small_FrictionStop.step",
+      "sha256": "2fb80f968c89336e6a292464d754ab9b8be3d2a3013144833502dee4ecf4d403",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_adult_large_Wear.step",
+      "resolved": "EarDefender_V18_adult_large_Wear.step",
+      "sha256": "1d85c7aea12c8c27fded5c3cc8550693a2bcebcfcccac54d5e7c062704c4ebed",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_adult_large_Retracted.step",
+      "resolved": "EarDefender_V18_adult_large_Retracted.step",
+      "sha256": "7e60c319c50f8a4fd5ed813ea98070688abbc49b44f257f8b8174c28cd4f3016",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_adult_large_Folded.step",
+      "resolved": "EarDefender_V18_adult_large_Folded.step",
+      "sha256": "b215179363f479c9afac87242740444078949dd247a4198af218b9a7489dddd3",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_adult_medium_Wear.step",
+      "resolved": "EarDefender_V18_adult_medium_Wear.step",
+      "sha256": "a39af6beff5dfe8bf6fa359f2784f25c0ace2402b9d2ef67c87d0dd678e84806",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_adult_medium_Retracted.step",
+      "resolved": "EarDefender_V18_adult_medium_Retracted.step",
+      "sha256": "bcfb489259077dba0b30e9286b1d67bc29c5bd9f32f5d567ab5f84bdcd3c2213",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_adult_medium_Folded.step",
+      "resolved": "EarDefender_V18_adult_medium_Folded.step",
+      "sha256": "eda04930a3e96b11ebd034b127b91a112ab17a15f7faf48e4809d78c080a2726",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_adult_small_Wear.step",
+      "resolved": "EarDefender_V18_adult_small_Wear.step",
+      "sha256": "bd48fb189aae9c650058a06eddb5398a305c2f45baab734eb179137d88c867a3",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_adult_small_Retracted.step",
+      "resolved": "EarDefender_V18_adult_small_Retracted.step",
+      "sha256": "f1659f2142abb16196f5d7de280e8fc4595185c70b7b399a7e87ffcbd2709473",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_adult_small_Folded.step",
+      "resolved": "EarDefender_V18_adult_small_Folded.step",
+      "sha256": "e5b13f083744f3550f6cfb5a4c07a0d666f41c905a82a8ce3de7a50817876544",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_child_large_Wear.step",
+      "resolved": "EarDefender_V18_child_large_Wear.step",
+      "sha256": "aa781abb2e36f5e38bc8a3966715f0c9b1c4b648f9083deb96106d2fb841202c",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_child_large_Retracted.step",
+      "resolved": "EarDefender_V18_child_large_Retracted.step",
+      "sha256": "fd0d73cd700e7ab456419e6e4f2d8954412f741bce0d325f6d6fc7240647a6e8",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_child_large_Folded.step",
+      "resolved": "EarDefender_V18_child_large_Folded.step",
+      "sha256": "fc38a5f8d5751aa408bde1bf5a19aea65cb3dfbcebac3813e6ce959bfb257900",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_child_medium_Wear.step",
+      "resolved": "EarDefender_V18_child_medium_Wear.step",
+      "sha256": "e20077bfde5aa07b6161fae1c25c18384b7d9648468e235406c003091edc02bf",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_child_medium_Retracted.step",
+      "resolved": "EarDefender_V18_child_medium_Retracted.step",
+      "sha256": "b8f03bcd609cd404e8cee09bf900530a225c823f994281c8817872031df8e632",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_child_medium_Folded.step",
+      "resolved": "EarDefender_V18_child_medium_Folded.step",
+      "sha256": "43993fa20703d7d785f01cfefd7fa6e4e10bc315eb454b1f2b2f3e963256b8ac",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_child_small_Wear.step",
+      "resolved": "EarDefender_V18_child_small_Wear.step",
+      "sha256": "f87dc66ebd49b6dc70a5d3a6989e2ac7f6a5aa8712bad3ae9c509527f6a4c15e",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_child_small_Retracted.step",
+      "resolved": "EarDefender_V18_child_small_Retracted.step",
+      "sha256": "acef0aa692740f0fbd3c8921359801e81ac46e7151673683b60fa50ceb48f502",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_child_small_Folded.step",
+      "resolved": "EarDefender_V18_child_small_Folded.step",
+      "sha256": "e854d15b89b984aef5ebf33948a7799aa2dc1b38d3efeff9dcf4d9660db0cece",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_adult_large_ParallelDisc.step",
+      "resolved": "EarDefender_V19_adult_large_ParallelDisc.step",
+      "sha256": "37e64cb5db8bb0d1054792d8e5816239113349b0eaea64571de431f724a0809c",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_adult_medium_ParallelDisc.step",
+      "resolved": "EarDefender_V19_adult_medium_ParallelDisc.step",
+      "sha256": "5ed910697659f100ea9561089f3906201b18923ff729232b34603923834c9b03",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_adult_small_ParallelDisc.step",
+      "resolved": "EarDefender_V19_adult_small_ParallelDisc.step",
+      "sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_child_large_ParallelDisc.step",
+      "resolved": "EarDefender_V19_child_large_ParallelDisc.step",
+      "sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_child_medium_ParallelDisc.step",
+      "resolved": "EarDefender_V19_child_medium_ParallelDisc.step",
+      "sha256": "7a7587f48d78b0015c48e488a87045d9719dfe870583308bb9e9af97453a315e",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_child_small_ParallelDisc.step",
+      "resolved": "EarDefender_V19_child_small_ParallelDisc.step",
+      "sha256": "d77c5f9919dae282e1235fc5265e82a5813f42acbf3c166d5b9167a3f18e9c98",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_adult_large_AssemblyPrototype.step",
+      "resolved": "EarDefender_V19_adult_large_AssemblyPrototype.step",
+      "sha256": "5d735cd7b2ef0a8e601480ad19ab7a00789b75e36ee7b994a36d89102add538a",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_adult_medium_AssemblyPrototype.step",
+      "resolved": "EarDefender_V19_adult_medium_AssemblyPrototype.step",
+      "sha256": "3ffa4d86f9949668a241b560246be93d0bb3acd3d63fe1f7340e55b55d819c4b",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_adult_small_AssemblyPrototype.step",
+      "resolved": "EarDefender_V19_adult_small_AssemblyPrototype.step",
+      "sha256": "035aa0b663212ab25ef478dd2c23e883bcdfd35df3525eacfb5977bd6042285c",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_child_large_AssemblyPrototype.step",
+      "resolved": "EarDefender_V19_child_large_AssemblyPrototype.step",
+      "sha256": "5b6c1004fae84fdd7b6849d831d570f60b0d5520697ab92ff4f7c2cd29ddaa9b",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_child_medium_AssemblyPrototype.step",
+      "resolved": "EarDefender_V19_child_medium_AssemblyPrototype.step",
+      "sha256": "ab2a0c221b24772d61a8b1b63c2cbb3002bcee2f0a5bb42cf98d3690eca43b1c",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_child_small_AssemblyPrototype.step",
+      "resolved": "EarDefender_V19_child_small_AssemblyPrototype.step",
+      "sha256": "1d5fd978aad75a4a4fcf0c4728c25d9b34fba0487c21064ab1da67380b88e467",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_adult_large_Wear.step",
+      "resolved": "EarDefender_V19_adult_large_Wear.step",
+      "sha256": "f8225e99a47873829e4697af3b7f1980f30bdf4ae165f710a49acd3e7308b1fc",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_adult_large_Retracted.step",
+      "resolved": "EarDefender_V19_adult_large_Retracted.step",
+      "sha256": "211de4c5f7a611d0cdc76da791d1c614047269ca0c013360a87a648ed82ff4d8",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_adult_large_Folded.step",
+      "resolved": "EarDefender_V19_adult_large_Folded.step",
+      "sha256": "105df8fbd6bd4653284bc5fe02fed58021f4b963d77415b73e8313a89ebc65b8",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_adult_medium_Wear.step",
+      "resolved": "EarDefender_V19_adult_medium_Wear.step",
+      "sha256": "8988588485d88ba7684a3b5fbffa95c963f356196d1bfc4ba63a1a2675314fbf",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_adult_medium_Retracted.step",
+      "resolved": "EarDefender_V19_adult_medium_Retracted.step",
+      "sha256": "0701932f6c417acdbad8ea883f3cc478aeabf890c27ae32eab93e7af4ecbeee7",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_adult_medium_Folded.step",
+      "resolved": "EarDefender_V19_adult_medium_Folded.step",
+      "sha256": "47fb59c3b767f713599dac7f178827da45751c52082375df568cff083ccdfa93",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_adult_small_Wear.step",
+      "resolved": "EarDefender_V19_adult_small_Wear.step",
+      "sha256": "a82039d76d4f660cbb3a9f60b4157c0e494b1ce9323f2b0148a1e7d2a9067019",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_adult_small_Retracted.step",
+      "resolved": "EarDefender_V19_adult_small_Retracted.step",
+      "sha256": "0d181cf329450b253df285fc26c1e48f4d80d82c883ed3fd80805bff61d8e1db",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_adult_small_Folded.step",
+      "resolved": "EarDefender_V19_adult_small_Folded.step",
+      "sha256": "ec0a783bcfcfd8b489510e1569c6d568784bb7ce6e98aa8bdd0f3108963e275f",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_child_large_Wear.step",
+      "resolved": "EarDefender_V19_child_large_Wear.step",
+      "sha256": "1f28fd3e4dfb15c9bdb197c5117baceaf3774730252262459d4809a08b41acc8",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_child_large_Retracted.step",
+      "resolved": "EarDefender_V19_child_large_Retracted.step",
+      "sha256": "084e3fe72a6ee64a94b190775fe4124e6964d52dc977bc74ab86efa6b0d42c62",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_child_large_Folded.step",
+      "resolved": "EarDefender_V19_child_large_Folded.step",
+      "sha256": "aa8e6ac6ff99d71ca1d0855473c2963e42faeb20df883db81fba0acc4e2db785",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_child_medium_Wear.step",
+      "resolved": "EarDefender_V19_child_medium_Wear.step",
+      "sha256": "8fafedd123e3ed0cd84433bf988f99ae36c8f9aa89b22d4425fd6f15fab03876",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_child_medium_Retracted.step",
+      "resolved": "EarDefender_V19_child_medium_Retracted.step",
+      "sha256": "bf38f3cd0cab359595802e073e2882945c6fd43a966ed184116419f6441a2434",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_child_medium_Folded.step",
+      "resolved": "EarDefender_V19_child_medium_Folded.step",
+      "sha256": "5513ed27184340e6badf6609b4b948bd2b79385973822711bd747fac5eda50a4",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_child_small_Wear.step",
+      "resolved": "EarDefender_V19_child_small_Wear.step",
+      "sha256": "71741340f27d1d7cf85890fe794dcc461cab4023a8d461ff139a2a2786b76fef",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_child_small_Retracted.step",
+      "resolved": "EarDefender_V19_child_small_Retracted.step",
+      "sha256": "581fe2081a62bd80d0183d54a13673d0bc37877bb15ea1b28a483aaf20ac3c3b",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_child_small_Folded.step",
+      "resolved": "EarDefender_V19_child_small_Folded.step",
+      "sha256": "ba28ee8fdb196f500ec95444475465ce7ff2ff9ed264b2586b69d9a26596056b",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "ReplacementCushion_V6_child_small_20261013_012708.step",
+      "resolved": "ReplacementCushion_V6_child_small_20261013_012708.step",
+      "sha256": "a56350687255f0c8a2efd757cfa609bd7106e01fe919ab6ad2e60f283186a689",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_child_small_20261013_012708.step",
+      "resolved": "OwnPassiveDefender_V6_child_small_20261013_012708.step",
+      "sha256": "79351ba5008721b8a358cad82f937916cd19a599f953742c7d80746a36c8a0af",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_child_small_20261013_012708.f3d",
+      "resolved": "OwnPassiveDefender_V6_child_small_20261013_012708.f3d",
+      "sha256": "e5fe3296b2a432e7702b3ad51020c4fd46cc4752644fced7f7b92fd2e525c0be",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "ReplacementCushion_V6_child_medium_20261013_012708.step",
+      "resolved": "ReplacementCushion_V6_child_medium_20261013_012708.step",
+      "sha256": "5ab873efa31153a139b989af6e14478cd9ccfb79ba60cee5eaf80f57149209e6",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_child_medium_20261013_012708.step",
+      "resolved": "OwnPassiveDefender_V6_child_medium_20261013_012708.step",
+      "sha256": "ddb3f22e7fced374e53b963fbd9ed1dbda842ad5b3c1ce13d8c7dfa83496b093",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_child_medium_20261013_012708.f3d",
+      "resolved": "OwnPassiveDefender_V6_child_medium_20261013_012708.f3d",
+      "sha256": "a2fbd8029ebaefff770180b55ff2aeb17335316c1d7453b47a4c6a41cfee7450",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "ReplacementCushion_V6_child_large_20261013_012708.step",
+      "resolved": "ReplacementCushion_V6_child_large_20261013_012708.step",
+      "sha256": "d7f3cf2e6987137a7cf2a74e52d16255031940089388da5eb1c275de30ef9c20",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_child_large_20261013_012708.step",
+      "resolved": "OwnPassiveDefender_V6_child_large_20261013_012708.step",
+      "sha256": "082529f7088a5726d2b0de5dff69116579d4f4f1a3958029ebdd2eb9ea91f09e",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_child_large_20261013_012708.f3d",
+      "resolved": "OwnPassiveDefender_V6_child_large_20261013_012708.f3d",
+      "sha256": "bedcda0d146d557c44e6addd82fb2f69c75a3e396896cac196063db9229ff1e8",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "ReplacementCushion_V6_adult_small_20261013_012708.step",
+      "resolved": "ReplacementCushion_V6_adult_small_20261013_012708.step",
+      "sha256": "46c139cd49c2e979891d4233c6a6f87deb66ec784e1dddc0c8c903f721c0da62",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_adult_small_20261013_012708.step",
+      "resolved": "OwnPassiveDefender_V6_adult_small_20261013_012708.step",
+      "sha256": "5caae80d252c9bf582441ba9915152dab731170146d915b02420ba858db9d45b",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_adult_small_20261013_012708.f3d",
+      "resolved": "OwnPassiveDefender_V6_adult_small_20261013_012708.f3d",
+      "sha256": "77c37097ca2fff63e177a862ca9b364b7e897272c97b21c3cffe93331ee1b64c",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "ReplacementCushion_V6_adult_medium_20261013_012708.step",
+      "resolved": "ReplacementCushion_V6_adult_medium_20261013_012708.step",
+      "sha256": "5a87b872aabfed50e8e3a7c8bd6de015f91bce47e907d48929c0091070cb8c05",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_adult_medium_20261013_012708.step",
+      "resolved": "OwnPassiveDefender_V6_adult_medium_20261013_012708.step",
+      "sha256": "86ce9e2c7e9cb17ccdbe74cbe462e10fa5a255d0ba59b8c3ed42652c6e818552",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_adult_medium_20261013_012708.f3d",
+      "resolved": "OwnPassiveDefender_V6_adult_medium_20261013_012708.f3d",
+      "sha256": "9080b09ea22f8a337643b0dc29676df8394399d1905e8eb875e398f268f64845",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "ReplacementCushion_V6_adult_large_20261013_012708.step",
+      "resolved": "ReplacementCushion_V6_adult_large_20261013_012708.step",
+      "sha256": "106726d452891daabeaff44532e734a6be7ea46ee9563bab84d89242a3b9a94e",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_adult_large_20261013_012708.step",
+      "resolved": "OwnPassiveDefender_V6_adult_large_20261013_012708.step",
+      "sha256": "c738e0498a8c189396df476a4aff237c02e38980417a6cb8652f758fac0be04d",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_adult_large_20261013_012708.f3d",
+      "resolved": "OwnPassiveDefender_V6_adult_large_20261013_012708.f3d",
+      "sha256": "313cbd303903e72bbc67a05c8ab97a48fa6b92718cf55e57c3d68dac3699cce5",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_child_small_20261013_012708_Extension_0_Verified.step",
+      "resolved": "OwnPassiveDefender_V6_child_small_20261013_012708_Extension_0_Verified.step",
+      "sha256": "7945f3d3b059a47863131cd0b75ca3ff9c59026ccbbd4f1e6a8f056c5f058859",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_child_small_20261013_012708_Extension_30_Verified.step",
+      "resolved": "OwnPassiveDefender_V6_child_small_20261013_012708_Extension_30_Verified.step",
+      "sha256": "f89b66666b29aa4ba55d62145ad1a3753814798d6b70f8c55ccf46140e443929",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_child_medium_20261013_012708_Extension_0_Verified.step",
+      "resolved": "OwnPassiveDefender_V6_child_medium_20261013_012708_Extension_0_Verified.step",
+      "sha256": "a467e5f7fca26492e2835e56b7bbd14e7a5ea5cfd4f0b30c4906fb4ce98bad3b",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_child_medium_20261013_012708_Extension_30_Verified.step",
+      "resolved": "OwnPassiveDefender_V6_child_medium_20261013_012708_Extension_30_Verified.step",
+      "sha256": "0c0f1ce44f391b41e6774ddddc104a95bd11239bd41510c52a79f0453015f8c3",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_child_large_20261013_012708_Extension_0_Verified.step",
+      "resolved": "OwnPassiveDefender_V6_child_large_20261013_012708_Extension_0_Verified.step",
+      "sha256": "23888fba3035448b651691dff81214de87d9e9d836cde1a421297e48f79b9f0d",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_child_large_20261013_012708_Extension_30_Verified.step",
+      "resolved": "OwnPassiveDefender_V6_child_large_20261013_012708_Extension_30_Verified.step",
+      "sha256": "d789c7f77d5c1596cc79a61388fa277b721a4139c2b642b291e673c8cb06c152",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_adult_small_20261013_012708_Extension_0_Verified.step",
+      "resolved": "OwnPassiveDefender_V6_adult_small_20261013_012708_Extension_0_Verified.step",
+      "sha256": "fb462f482793a13f66a86405b2ea5d952d691da02e90b565e39885cfd16e1cdd",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_adult_small_20261013_012708_Extension_30_Verified.step",
+      "resolved": "OwnPassiveDefender_V6_adult_small_20261013_012708_Extension_30_Verified.step",
+      "sha256": "009b8fab5a23bc22701a0ab54962901535fecfe8bb4efa62e718f15e277d6acc",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_adult_medium_20261013_012708_Extension_0_Verified.step",
+      "resolved": "OwnPassiveDefender_V6_adult_medium_20261013_012708_Extension_0_Verified.step",
+      "sha256": "2ccbcd623b850502799e52dd5529cf5b96591522446435dade9e99d66bcff95a",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_adult_medium_20261013_012708_Extension_30_Verified.step",
+      "resolved": "OwnPassiveDefender_V6_adult_medium_20261013_012708_Extension_30_Verified.step",
+      "sha256": "48b3bc85fc3083f08028b21651e159b6cd9c07066a1217d716c06087a600d8b0",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_adult_large_20261013_012708_Extension_0_Verified.step",
+      "resolved": "OwnPassiveDefender_V6_adult_large_20261013_012708_Extension_0_Verified.step",
+      "sha256": "6e2dc20969751f71f6cc95b8d007645313633c1ad4fa4b773edf7b950eeb9605",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "OwnPassiveDefender_V6_adult_large_20261013_012708_Extension_30_Verified.step",
+      "resolved": "OwnPassiveDefender_V6_adult_large_20261013_012708_Extension_30_Verified.step",
+      "sha256": "d0cbaeb6181ae425718265447e757e71fcefc7129d3f049bfbcd853e8e5fd8e5",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V7_child_small_20261013_130645.step",
+      "resolved": "OwnPassiveDefender_V7_child_small_20261013_130645.step",
+      "sha256": "6d3c52fd28c7200eb0371c043c988fc3da0e9a47f8b5873303a5dc9a309d4295",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V7_child_small_20261013_130645_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V7_child_small_20261013_130645_Extension_0.step",
+      "sha256": "68cd452ffde4c3660166708f596787e30e5f859bdf8836311f2d73c1255e3f8c",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V7_child_small_20261013_130645_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V7_child_small_20261013_130645_Extension_30.step",
+      "sha256": "5c1b16d7625d4999433af13e4511a1075feb93f3b6059e96e2fa21e314862f2a",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V7_child_medium_20261013_130645.step",
+      "resolved": "OwnPassiveDefender_V7_child_medium_20261013_130645.step",
+      "sha256": "8e7a3a7e65016d5bf5d8c397dcfc2c4b1d1eb15a1f97cbec8d16465428ef43a2",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V7_child_medium_20261013_130645_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V7_child_medium_20261013_130645_Extension_0.step",
+      "sha256": "3f134c17e71ef04d66bd8dc6acf61e670b2aad6556e42ea198f1041b33fcdc2d",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V7_child_medium_20261013_130645_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V7_child_medium_20261013_130645_Extension_30.step",
+      "sha256": "c75dd309ae627dcedbc5110cf3da66d0c0778eead95a53ac1065c12fe580e320",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V7_child_large_20261013_130645.step",
+      "resolved": "OwnPassiveDefender_V7_child_large_20261013_130645.step",
+      "sha256": "235c90a59e097e41b7ae4727bfcc2e3c1b1d976491a5df2f28b43c7823c3e4cb",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V7_child_large_20261013_130645_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V7_child_large_20261013_130645_Extension_0.step",
+      "sha256": "3de6100978ebbc2d8e19b8ac7c9d9f9b94a387c35c4b7a7c8a1a611d1af83a5c",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V7_child_large_20261013_130645_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V7_child_large_20261013_130645_Extension_30.step",
+      "sha256": "c48592c740a85d930b65fd1e29a09b38eea4de16bc88d510e5d84f8cc7cdf23c",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V7_adult_small_20261013_130645.step",
+      "resolved": "OwnPassiveDefender_V7_adult_small_20261013_130645.step",
+      "sha256": "d3dd1fcc001665904fe3bc4aef2d579869cc8a2d257894eecbab597db1527d62",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V7_adult_small_20261013_130645_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V7_adult_small_20261013_130645_Extension_0.step",
+      "sha256": "02c39815e685d9c81ab283c35c9a1bd93de2b4e2419cc8aac4ab38ab01e76c10",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V7_adult_small_20261013_130645_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V7_adult_small_20261013_130645_Extension_30.step",
+      "sha256": "f22f5bccd71ceefd5f0a81d1238e9a00b523095e7458891f8f5630331266867c",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V7_adult_medium_20261013_130645.step",
+      "resolved": "OwnPassiveDefender_V7_adult_medium_20261013_130645.step",
+      "sha256": "5aab11560beac38460d570053a46f7bed4ac8fa291753b80350b6d83e226b313",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V7_adult_medium_20261013_130645_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V7_adult_medium_20261013_130645_Extension_0.step",
+      "sha256": "15ef5ebb61a45539596a2e04595ec49e1993b875fd8328dc0514aa6b63a927fa",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V7_adult_medium_20261013_130645_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V7_adult_medium_20261013_130645_Extension_30.step",
+      "sha256": "0ab959043c292bc07271e7fefec99778bb08f6affb6cbd288a45748288b83873",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V7_adult_large_20261013_130645.step",
+      "resolved": "OwnPassiveDefender_V7_adult_large_20261013_130645.step",
+      "sha256": "180f63924bf79e17ef11303b1056506c6f3538f3e975fb9eca17d234b06c42c6",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V7_adult_large_20261013_130645_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V7_adult_large_20261013_130645_Extension_0.step",
+      "sha256": "7438caf178f0a622e1b198d6327b2c5c91bfec8fe1f94a2a66180d415ca03feb",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V7_adult_large_20261013_130645_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V7_adult_large_20261013_130645_Extension_30.step",
+      "sha256": "01bb35be9dc75ce494182147d9671f19353530c2b51b5589e3fa1897321606e7",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\ReplacementCushion_V8_child_small_20261013_133840.step",
+      "resolved": "ReplacementCushion_V8_child_small_20261013_133840.step",
+      "sha256": "b0a278512669e0e8b7b4188b8c8e5b430500d8bfbf427ffe39907d634bb8b55e",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V8_child_small_20261013_133840_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V8_child_small_20261013_133840_Extension_0.step",
+      "sha256": "e53096946c8352847e7d46d075ba321a456efadc10079addbdadd0d289635785",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V8_child_small_20261013_133840_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V8_child_small_20261013_133840_Extension_30.step",
+      "sha256": "134c90a82367d59db0b8ec9c69ddc9679936896ca3f428983df14e812c087005",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V8_child_small_20261013_133840.step",
+      "resolved": "OwnPassiveDefender_V8_child_small_20261013_133840.step",
+      "sha256": "819e05f4fa75d5b6a5e2657986ea9577bab74e425e66711244df23c231cb4155",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\ReplacementCushion_V8_child_medium_20261013_133840.step",
+      "resolved": "ReplacementCushion_V8_child_medium_20261013_133840.step",
+      "sha256": "957f41d469141ed734aecc6f0dc221aef4cde015c948d7f22df939fb59a75439",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V8_child_medium_20261013_133840_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V8_child_medium_20261013_133840_Extension_0.step",
+      "sha256": "4ec2aedbc9ea1a69ba23b11952fd0dddce56e3b9fbac1b21640f182ea65d3327",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V8_child_medium_20261013_133840_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V8_child_medium_20261013_133840_Extension_30.step",
+      "sha256": "c81faaabd977097b82e541e6ee7144be54bc7fb5ca5feb255f869b41516262fd",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V8_child_medium_20261013_133840.step",
+      "resolved": "OwnPassiveDefender_V8_child_medium_20261013_133840.step",
+      "sha256": "d969e6d0b4fd10ee638a9e2dca7bbbca50484924cbb9509bc913b2f1f49f97a7",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\ReplacementCushion_V8_child_large_20261013_133840.step",
+      "resolved": "ReplacementCushion_V8_child_large_20261013_133840.step",
+      "sha256": "308bcdc7f672c9e06b5102cf450566fdc7fe737f801d1d32d20f33c2edf096b7",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V8_child_large_20261013_133840_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V8_child_large_20261013_133840_Extension_0.step",
+      "sha256": "c4b143bead7557998ad4dbb58e0273609013f77ea452d61556ebd43fc6a05c04",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V8_child_large_20261013_133840_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V8_child_large_20261013_133840_Extension_30.step",
+      "sha256": "a6ef83119ee59fb6a1a3593269df687cd4b50420ccb6165bbf05674ad3113c8a",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V8_child_large_20261013_133840.step",
+      "resolved": "OwnPassiveDefender_V8_child_large_20261013_133840.step",
+      "sha256": "31ac581a13c2bd00fc3a528672a35837e0c2ebe3ae2d872f2f5490741ae6f8a8",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\ReplacementCushion_V8_adult_small_20261013_133840.step",
+      "resolved": "ReplacementCushion_V8_adult_small_20261013_133840.step",
+      "sha256": "6cea1f31ee217a2ae7d712197094bf717fec29c01f7ecff696835e8cf922403c",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V8_adult_small_20261013_133840_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V8_adult_small_20261013_133840_Extension_0.step",
+      "sha256": "81c00adf2d90a40bff5340b8004d540705e1795419f630159624966f3e993c28",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V8_adult_small_20261013_133840_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V8_adult_small_20261013_133840_Extension_30.step",
+      "sha256": "675e643654f0c811d4e6da4e0de6d26f42902619b96d3b91023043378ba4b661",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V8_adult_small_20261013_133840.step",
+      "resolved": "OwnPassiveDefender_V8_adult_small_20261013_133840.step",
+      "sha256": "b2d4060b3060af2076d480ac4b80bc48bbc2ef07941c38682db3d86bcc261aed",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\ReplacementCushion_V8_adult_medium_20261013_133840.step",
+      "resolved": "ReplacementCushion_V8_adult_medium_20261013_133840.step",
+      "sha256": "ad1a65b091798131f7981a3e5539064e6000165a4aaa2e673a723347c25cc7a4",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V8_adult_medium_20261013_133840_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V8_adult_medium_20261013_133840_Extension_0.step",
+      "sha256": "8776246f2b20fe94f5396a65dbc12f9ed09643c44b61407093da8919758bb0f1",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V8_adult_medium_20261013_133840_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V8_adult_medium_20261013_133840_Extension_30.step",
+      "sha256": "f09ce0fc5ae5325e8df56595318fb89717f852c77140ef8fd1d7a2171299d4ad",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V8_adult_medium_20261013_133840.step",
+      "resolved": "OwnPassiveDefender_V8_adult_medium_20261013_133840.step",
+      "sha256": "a7cad4c3a98bd1d461664d2f7fdbb2c71a741c7973e6865c3f221bb583f07d25",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\ReplacementCushion_V8_adult_large_20261013_133840.step",
+      "resolved": "ReplacementCushion_V8_adult_large_20261013_133840.step",
+      "sha256": "8d22d9eaab8369143d34124b4dd3ee93cc6a85785d5c662519550c5c4db073f3",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V8_adult_large_20261013_133840_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V8_adult_large_20261013_133840_Extension_0.step",
+      "sha256": "680f4605772248c8ba162d6f7b8236e104e9adc0db502d367db2818c093d7135",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V8_adult_large_20261013_133840_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V8_adult_large_20261013_133840_Extension_30.step",
+      "sha256": "644d82e963b5b84a607b927c130ad036adf2d3b2e494fb2f5c80c201a4284b97",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V8_adult_large_20261013_133840.step",
+      "resolved": "OwnPassiveDefender_V8_adult_large_20261013_133840.step",
+      "sha256": "e7778fe070a33607935f90f59b7430d83c7bd3cf6774ec9d44ee7e8d6fd39171",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_adult_small_20261013_164243.step",
+      "resolved": "OwnPassiveDefender_V9_adult_small_20261013_164243.step",
+      "sha256": "292e8679c63915f23879715bd962e54b9b212699741921a6686a395d2d57bd86",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_adult_small_20261013_164243_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V9_adult_small_20261013_164243_Extension_30.step",
+      "sha256": "7a8c13903b366f8e898d6f781cf8a6d847589b922c7e788aa1cdc6ff0516aa6e",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_child_small_20261013_180418.step",
+      "resolved": "OwnPassiveDefender_V9_child_small_20261013_180418.step",
+      "sha256": "a31862f9198f264f63dbef63d50956c5d5d02c39c80d641f213795311cc1c974",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_child_small_20261013_180418_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V9_child_small_20261013_180418_Extension_30.step",
+      "sha256": "d10ce163d4991c201306704964e474b5481d1110ba641e6aabaa1cdc34eb7334",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_child_medium_20261013_180418.step",
+      "resolved": "OwnPassiveDefender_V9_child_medium_20261013_180418.step",
+      "sha256": "597c14bb220eb407c67751c5979df17372fd8e6c16a97b6eaf32a51aa76598f3",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_child_medium_20261013_180418_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V9_child_medium_20261013_180418_Extension_0.step",
+      "sha256": "cda4615ed2c976fe6e6bbb442eea6259be07f3248ac682e973db481e88390520",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_child_medium_20261013_180418_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V9_child_medium_20261013_180418_Extension_30.step",
+      "sha256": "88ea09a5aab9276edc755ea1442384177c3897acff7093e95e46e3823e7e3665",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_child_large_20261013_180418.step",
+      "resolved": "OwnPassiveDefender_V9_child_large_20261013_180418.step",
+      "sha256": "da74d3b0d97c24f6cb7f37fba0894caf0cc43b1d2a29832d45585290ff983b3b",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_child_large_20261013_180418_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V9_child_large_20261013_180418_Extension_0.step",
+      "sha256": "d1629a6dafcfab9cac25a642c29c29138c010e2f3f067f335f20003b67ae5238",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_child_large_20261013_180418_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V9_child_large_20261013_180418_Extension_30.step",
+      "sha256": "d3d7e39ab26c0564fb1e6af263e943454a1d220104ebebafc0378ce0660496d7",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_adult_medium_20261013_180418.step",
+      "resolved": "OwnPassiveDefender_V9_adult_medium_20261013_180418.step",
+      "sha256": "a72ff41a0f131b7336330d57a6e157dfb49c3817d9b0faa88e4bf4d35029e51a",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_adult_medium_20261013_180418_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V9_adult_medium_20261013_180418_Extension_0.step",
+      "sha256": "50af2ac51963a11356ba1e9376671b644dde2d9b6fa290f8a00e004265ca8709",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_adult_medium_20261013_180418_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V9_adult_medium_20261013_180418_Extension_30.step",
+      "sha256": "bb9a9afe031fea5f439fa70710a3e8efcada238f15b44b77e213b5b6aab176ad",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_adult_large_20261013_180418.step",
+      "resolved": "OwnPassiveDefender_V9_adult_large_20261013_180418.step",
+      "sha256": "33b10b421558a927bfd80a40653a64577dd4f1e9ff4f56cf49bb7453814f4741",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_adult_large_20261013_180418_Extension_0.step",
+      "resolved": "OwnPassiveDefender_V9_adult_large_20261013_180418_Extension_0.step",
+      "sha256": "564543a7d3f6d5dd8162153d0e35274c1febd38f6a6f65250f989b8702e69e38",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_adult_large_20261013_180418_Extension_30.step",
+      "resolved": "OwnPassiveDefender_V9_adult_large_20261013_180418_Extension_30.step",
+      "sha256": "2dea67f21950387f4201e80d688bff903bb45b9ba9483526dfedc69002d07b50",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_adult_small_20261013_164243.f3d",
+      "resolved": "OwnPassiveDefender_V9_adult_small_20261013_164243.f3d",
+      "sha256": "589349e7a3fe076cd5a9f4fee272f7dd7b7f01abcd89dae290ccedcdd584338c",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_child_small_20261013_180418.f3d",
+      "resolved": "OwnPassiveDefender_V9_child_small_20261013_180418.f3d",
+      "sha256": "445bbb611f4c9445de8028f470887ca146946238aed768b1c6c0874b87668fc4",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_child_medium_20261013_180418.f3d",
+      "resolved": "OwnPassiveDefender_V9_child_medium_20261013_180418.f3d",
+      "sha256": "25656c6b9cc7b8e1f352342cf8d418ff75d338165631eb2c7cbbf3057fb49c5c",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_child_large_20261013_180418.f3d",
+      "resolved": "OwnPassiveDefender_V9_child_large_20261013_180418.f3d",
+      "sha256": "a213dcf781f1695df8d5870a9aa35a2578639c0c6733b55cacf04cc7bec8bb0c",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_adult_medium_20261013_180418.f3d",
+      "resolved": "OwnPassiveDefender_V9_adult_medium_20261013_180418.f3d",
+      "sha256": "5474d042b29149d63c99c8d3dce072f944d42a5c735c60ec40a283f5553134bf",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\OwnPassiveDefender_V9_adult_large_20261013_180418.f3d",
+      "resolved": "OwnPassiveDefender_V9_adult_large_20261013_180418.f3d",
+      "sha256": "7864bdafcd66ecb35032e7baf4c71e185cc6791577c7c70a04363f27d404b93a",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\engineering-v18-results\\rejected-first-stop\\EarDefender_V18_child_large_FrictionStop.step",
+      "resolved": "engineering-v18-results\\rejected-first-stop\\EarDefender_V18_child_large_FrictionStop.step",
+      "sha256": "6c9ad368f53ca7f5eb2fa359791eb09b1b54f6e45d94c3713a7062563ce5b094",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\engineering-v18-results\\superseded-disc-and-adult-clearance\\EarDefender_V18_adult_small_FrictionStop.step",
+      "resolved": "engineering-v18-results\\superseded-disc-and-adult-clearance\\EarDefender_V18_adult_small_FrictionStop.step",
+      "sha256": "e085c8f5f2aa9c95850731250ee0f4d5a28eede7312353d48732047bcf529199",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\engineering-v18-results\\superseded-disc-and-adult-clearance\\EarDefender_V18_child_large_FrictionStop.step",
+      "resolved": "engineering-v18-results\\superseded-disc-and-adult-clearance\\EarDefender_V18_child_large_FrictionStop.step",
+      "sha256": "002719df037acd971aa3ad8e7a042063277e9f6e86929a012d29ae65e07d29b5",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\engineering-v19-results\\rejected-thread-trials\\adult_HingeBolt_nominal.step",
+      "resolved": "engineering-v19-results\\rejected-thread-trials\\adult_HingeBolt_nominal.step",
+      "sha256": "9ee728d187e129267c0c8fa9c80d6c5e1b60f50572121f0e8ac723654844d5ea",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\engineering-v19-results\\rejected-thread-trials\\adult_HingeNut_nominal.step",
+      "resolved": "engineering-v19-results\\rejected-thread-trials\\adult_HingeNut_nominal.step",
+      "sha256": "4a31661e35465661a87635aff387f5208a835ffb60d08601e9af5e058435693b",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\engineering-v19-results\\rejected-thread-trials\\adult_JamNut_nominal.step",
+      "resolved": "engineering-v19-results\\rejected-thread-trials\\adult_JamNut_nominal.step",
+      "sha256": "2118f92da9ae2c10d1df59b042c417d19bdfe69df6b1cd42c0f5387618f59068",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\engineering-v19-results\\rejected-thread-trials\\child_HingeBolt_nominal.step",
+      "resolved": "engineering-v19-results\\rejected-thread-trials\\child_HingeBolt_nominal.step",
+      "sha256": "d02fa8b13daf290de33accf20af838da2935108bb122238195e9947b6475b157",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\engineering-v19-results\\rejected-thread-trials\\child_HingeNut_nominal.step",
+      "resolved": "engineering-v19-results\\rejected-thread-trials\\child_HingeNut_nominal.step",
+      "sha256": "d01ee224b1b8fc7b4220d2dfb6c4613b1bb0d19f97c9d52d38e94cdda18f2e5e",
+      "pass_result": true
+    },
+    {
+      "recorded_path": "${USER_HOME}\\Downloads\\EarDefenderProject\\engineering-v19-results\\rejected-thread-trials\\child_JamNut_nominal.step",
+      "resolved": "engineering-v19-results\\rejected-thread-trials\\child_JamNut_nominal.step",
+      "sha256": "b1c723798cfd3b284cadfec00d2f6094d5375f4035731d66ae9cf73660965e26",
+      "pass_result": true
+    }
+  ],
+  "scope": "Recorded file plus SHA256 CAD references only. Historical JSON paths retained; primary mesh and motion loaders resolve moved sources by verified hash. This does not claim every historical script was migrated or every source geometry is valid."
+}

@@ -73,6 +73,14 @@ Read [the bounded study and purchase recommendation](evidence/engineering-v20-re
 
 Read [the review, failures and remaining work](evidence/engineering-v21-results/README.md). New scripts run in a prepared workspace. Raw V19 solutions are unchanged. The four new finer equilibrium solves, stress recovery, hotspot diagnostics and six compact poses are recorded separately. Neither the older immutable release nor V20 closes these new issues.
 
+<!-- V24:BEGIN -->
+## V24 corrected joint verification
+
+Four new corrected virtual-spacer reference calculations use finer 1.5 mm target meshes on both joint families and load directions. Only 2 of 16 refined peak comparisons meet the fixed 5 percent limit. Their [raw results and stress comparisons](evidence/engineering-v24-results/README.md) retain every failed comparison. Numerical consistency does not establish reliable whole-part stress or physical strength.
+
+Primary CAD source loaders now resolve the moved workspace by recorded hashes. Four exact historical V12 sources are restored separately; all 304 recorded source path/hash pairs match. Both illustrated Word reports are updated together. Read the [remaining test register](evidence/engineering-v24-results/remaining_test_register.csv): actual material curves, detailed joints, Sony mounting, sound and heat inputs remain unresolved. This completed numerical campaign is **not all product software testing completed**. No physical validation or product performance claim is added.
+<!-- V24:END -->
+
 <!-- V23:BEGIN -->
 ## V23 corrected joint verification
 

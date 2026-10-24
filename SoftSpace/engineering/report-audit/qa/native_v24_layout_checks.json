@@ -1,0 +1,2828 @@
+{
+  "date": "2026-10-24",
+  "documents": [
+    {
+      "document": "Ear_Defender_Project",
+      "render_folder": "${WORKSPACE}\\documents\\qa\\native_v24_Ear_Defender_Project_a8b3d15e",
+      "source_sha256": "a8b3d15e125d0c0ed6fe144fff1bcf90fd4a3e31b77de4931a9b7b3a872ba6c3",
+      "native_pages": 100,
+      "blank_body_pages": [],
+      "short_text_pages": [],
+      "out_of_page_text_rectangles": 0,
+      "pages": [
+        {
+          "page": 1,
+          "characters": 2268,
+          "body_lines": 22,
+          "first_lines": [
+            "SoftSpace",
+            "Headphones for sound sensitive autistic people",
+            "Current update on 24 October 2026: V24 adds four finer joint reference calculations. All numerical consistency "
+          ],
+          "last_lines": [
+            "Competing WH-CH720N replacement pads are already listed by Crysendo and Geekria. The companion report ",
+            "records current and older indexed price evidence separately. Our softer glasses zone still needs a measured ",
+            "advantage; it is not enough to offer memory foam or claim local availability. [18, 19]"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 2,
+          "characters": 1865,
+          "body_lines": 21,
+          "first_lines": [
+            "What autistic people may need",
+            "There is no single headphone preference shared by all autistic people. Some are very sensitive to noise, touch or ",
+            "heat; others enjoy sound or firm pressure. Preferences can change with the environment. Our design choices must "
+          ],
+          "last_lines": [
+            "A small 2019 study followed six children aged 8 to 16 using in-ear and over-ear noise-attenuating headphones. It ",
+            "provides early evidence worth exploring, but its small sample cannot establish a universal winner or validate our ",
+            "product. [3]"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 3,
+          "characters": 1695,
+          "body_lines": 45,
+          "first_lines": [
+            "What the market already offers",
+            "People use child earmuffs, industrial hearing protection, ordinary ANC headphones and earplugs. A product does ",
+            "not need an autism label to be useful. Some are inexpensive; others add electronics, premium materials or specialist "
+          ],
+          "last_lines": [
+            "This is a selected sample from our 29-entry market review, not every product sold. Prices were checked on 13 ",
+            "October 2026 and are not guaranteed checkout prices. We cannot say all existing options are expensive. The ",
+            "opportunity must include a clear benefit beyond price."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 4,
+          "characters": 1896,
+          "body_lines": 43,
+          "first_lines": [
+            "Side by side with ordinary headphones",
+            "Seller photos identify the SYGA and Sony products. Our image is CAD. The photos do not establish a performance comparison.",
+            "Feature Passive market earmuffs Ordinary ANC audio headphones Our planned defender"
+          ],
+          "last_lines": [
+            "NRR and SNR are ratings from different hearing-protection test systems. An advertised ANC dB number or our cavity ",
+            "calculation cannot be compared directly with either. We need the same test setup for every product before ranking ",
+            "sound reduction. [14]"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 5,
+          "characters": 1804,
+          "body_lines": 30,
+          "first_lines": [
+            "Problems we want to address",
+            "Possible problem Our proposed change What would prove it helps",
+            "Pads squeeze a glasses "
+          ],
+          "last_lines": [
+            "safe, comfortable or certified.",
+            "V1 and V2 are the early screening stages described in the saved reports. Their pictures show the available cushion ",
+            "and cover snapshots. They should not be read as a fully tested V1 or V2 manufactured headset."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 6,
+          "characters": 1148,
+          "body_lines": 13,
+          "first_lines": [
+            "V1 First cushion and glasses zone",
+            "Saved cushion snapshot with simplified glasses arms. The original hand-built oval cushion came first; the saved file adds the frame ",
+            "references."
+          ],
+          "last_lines": [
+            "Real world meaning: This tested a simplified idea. It did not compare our pad with a real market headphone or ",
+            "prove pain relief.",
+            "Evidence files: cad_build_report.json; screening-results/report.md; screening-results/summary.json"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 7,
+          "characters": 1109,
+          "body_lines": 13,
+          "first_lines": [
+            "V2 Trying shapes and a continuous cover",
+            "Saved flat cover surface prototype. The shaped pads in this study were numerical candidates, not this exact CAD surface.",
+            "What changed: We compared flat and curved contact faces, smaller edge rounding, and ideal cup alignment. We "
+          ],
+          "last_lines": [
+            "Real world meaning: A perfectly matched synthetic head is easier to seal than a real head. The 100% result is not an ",
+            "airtight-pad claim.",
+            "Evidence files: shape-study-results/report.md; cover_prototype_report.json"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 8,
+          "characters": 1214,
+          "body_lines": 13,
+          "first_lines": [
+            "V3 Curved pads and a more complete defender",
+            "Actual saved adult V3 assembly. Colours only help distinguish parts. Surface triangles show the display mesh, not fabric texture.",
+            "What changed: We added curved adult and child pads, a solid cover envelope, carrier blanks, closed cups and a "
+          ],
+          "last_lines": [
+            "Real world meaning: A manufacturer can sell a finished headset; ours was still imported concept geometry with ",
+            "assumed material values.",
+            "Evidence files: cad_v3_report.json; engineering-v3-results/contact_summary.json; band_summary.json; coupled_summary.json"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 9,
+          "characters": 1212,
+          "body_lines": 12,
+          "first_lines": [
+            "V4 Cup movement and three height positions",
+            "Actual saved adult V4 assembly with pinned forks and crown padding. Surface triangles show the display mesh, not fabric texture.",
+            "What changed: We added pinned forks, retained pin placeholders, exterior cup bosses, 5 mm crown padding and "
+          ],
+          "last_lines": [
+            "Real world meaning: Movement clearance only means the selected CAD parts do not overlap at those positions. It ",
+            "says nothing about real joint friction or whether a child can adjust it safely.",
+            "Evidence files: cad_final_report.json; engineering-final-results/REVIEW.md"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 10,
+          "characters": 1369,
+          "body_lines": 16,
+          "first_lines": [
+            "V5 Six sizes and sliding adjustment",
+            "Actual saved adult medium V5 assembly. Each side has 30 mm of slider travel. Surface triangles show the display mesh, not fabric ",
+            "texture."
+          ],
+          "last_lines": [
+            "Real world meaning: No physical market headset was tested alongside these cases. The empty exports were an ",
+            "output failure and were corrected in V6.",
+            "Evidence files: cad_v5_report.json; engineering-v5-results/REVIEW.md"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 11,
+          "characters": 1228,
+          "body_lines": 13,
+          "first_lines": [
+            "V6 Cleaner geometry and checked exports",
+            "Actual saved adult medium V6 assembly after overlap corrections. Surface triangles show the display mesh, not fabric texture.",
+            "What changed: We moved the carrier behind the cover, cleared the cup seat, removed unused fork holes and "
+          ],
+          "last_lines": [
+            "Real world meaning: Passing a solver check is not the same as passing a commercial hearing-protection rating. The ",
+            "geometry still had no measured material data.",
+            "Evidence files: cad_v6_report.json; cad_v6_audit.json; engineering-v6-results/REVIEW.md"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 12,
+          "characters": 1444,
+          "body_lines": 16,
+          "first_lines": [
+            "V7 Rounded entries and a better acoustic calculation",
+            "Actual saved adult medium V7 assembly. The taller crown was later reconsidered. Surface triangles show the display mesh, not fabric ",
+            "texture."
+          ],
+          "last_lines": [
+            "Real world meaning: We did not prove a stronger or more comfortable product. The acoustic model still omitted ",
+            "real glasses leakage, porous liners and actual ear shapes.",
+            "Evidence files: cad_v7_report.json; engineering-v7-results/solid_v7_summary.json; acoustic_p2_summary.json; vertical_fit_summary.json"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 13,
+          "characters": 1439,
+          "body_lines": 16,
+          "first_lines": [
+            "V8 Lower crown foundation",
+            "Actual saved adult medium V8 assembly. This lower-crown design is the foundation for the later V9 and V10 revisions. Surface ",
+            "triangles show the display mesh, not fabric texture."
+          ],
+          "last_lines": [
+            "Real world meaning: The 54 cases predict 1.01 to 3.80 N per side and 3.49 to 5.87 mm maximum pad compression ",
+            "across the cases. These are calculations, not comfort limits. The design has not beaten any real headset.",
+            "Evidence files: cad_v8_report.json; cad_v8_audit.json; engineering-v8-results/REVIEW.md"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 14,
+          "characters": 2113,
+          "body_lines": 20,
+          "first_lines": [
+            "V9 Native corner refinement and digital checks",
+            "Actual native adult-small V9 STEP render. Its matching local Fusion archive has now been exported. Surface triangles show the ",
+            "display mesh, not fabric texture."
+          ],
+          "last_lines": [
+            "unchanged; no real leakage or wearer result has been added.",
+            "Evidence files: engineering-v9-results/native_verification.json; solid_v9_summary.json; numerical_audit.json; nominal_force_screen.json; ",
+            "export_audit.json; engineering-v9-local-results/summary.json; engineering-v9-results/all_pose_pairs.json"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 15,
+          "characters": 1350,
+          "body_lines": 19,
+          "first_lines": [
+            "V9 structural comparison across sizes",
+            "Change between the last two meshes. This does not measure comfort or prove physical strength.",
+            "Size Last mesh mm Stress change Guide change"
+          ],
+          "last_lines": [
+            "This force screen combines a linear 3D band calculation with a scalar pad calculation. It assumes an ideal mounting ",
+            "offset and does not solve the whole worn assembly, scalp contact or slider locking. The earlier V8 force screen ",
+            "covers other extension settings using a different beam model; its numbers are not V9 measurements."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 16,
+          "characters": 1326,
+          "body_lines": 15,
+          "first_lines": [
+            "V10 Guide and knob clearance candidates",
+            "Actual adult-small V10 native Fusion STEP export. Surface triangles show the display mesh, not fabric texture.",
+            "What changed: We shortened the guide bottoms by 2 mm and moved the clamp bores and knobs upward by 4 mm. "
+          ],
+          "last_lines": [
+            "Real world meaning: This revision addresses actual CAD interference, not autistic sensory acceptance or glasses ",
+            "sealing. Those remain separate test questions.",
+            "Evidence files: engineering-v10-results/cad_local_report.json; all_pose_pairs.json"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 17,
+          "characters": 809,
+          "body_lines": 9,
+          "first_lines": [
+            "Why the shortest setting changed",
+            "Sections cut from the actual saved V9 and V10 STEP files. Red shows intersecting material. The CAD slices are 0.2 mm thick; these are ",
+            "not physical measurements."
+          ],
+          "last_lines": [
+            "0.4 mm. The approximately 0.22 mm minimum gap would then have no guaranteed clearance. This is an example ",
+            "tolerance budget, not a measured factory capability or a proved jam. Roughness, heat, loads and friction still need ",
+            "checks."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 18,
+          "characters": 2947,
+          "body_lines": 35,
+          "first_lines": [
+            "V10 structural results across sizes",
+            "Size Final mesh mm Stress change Displacement change Stress check",
+            "adult small 1.5 3.72% 0.017% Pass"
+          ],
+          "last_lines": [
+            "The clamp tips also reach their sliding tongues in 84 checked left and right positions across the intended 0 to 30 mm ",
+            "range. This is geometric contact only. Actual threads, torque, friction, holding force, stop retention and wear remain ",
+            "untested."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 19,
+          "characters": 2543,
+          "body_lines": 30,
+          "first_lines": [
+            "V10 actual width band results",
+            "A separate adult-small calculation keeps the actual full front-to-rear width and its single front clamp bore. Guide ",
+            "compliance is 1.552 mm per N; two meshes differ by 0.03%. This meets the chosen 5% displacement comparison. "
+          ],
+          "last_lines": [
+            "3.72 N per side and maximum pad compression of 4.14 to 5.86 mm. The older quarter-model screen is kept for ",
+            "comparison. These are different ideal models, not measured forces. Material, cover, head and mounting ",
+            "assumptions remain; guide moments, pin bearing, friction and sensory acceptance are not solved."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 20,
+          "characters": 722,
+          "body_lines": 7,
+          "first_lines": [
+            "What the numerical comparisons show",
+            "Saved numerical results. The two band fixtures have different restraints and loading. This is not a measured headphone comparison.",
+            "The left plot keeps the adult-medium stress history, including changes above our chosen limit before the final "
+          ],
+          "last_lines": [
+            "The right plot compares guide compliance: how far the guide moves for one newton in each ideal fixture. Higher ",
+            "compliance means a more flexible response under that fixture. The values use an assumed elastic modulus of 2000 ",
+            "MPa. They do not rank comfort, real band force or sound reduction."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 21,
+          "characters": 1245,
+          "body_lines": 16,
+          "first_lines": [
+            "V10 conditional material requirements",
+            "We also scaled the ideal band stress to the predicted nominal-setting force in 36 cases. Under these assumptions, a ",
+            "material strength of at least 28.61 MPa would be needed for a margin of 3 across those cases. This is a conditional "
+          ],
+          "last_lines": [
+            "before the final 0.243% comparison. The calculation does not include measured yield strength, fatigue, creep, print ",
+            "defects, pin bearing, clamp torque, drop impacts or full worn contact. We have not chosen a material from this table ",
+            "or proved that a prototype is strong enough. Each fixture retains its own force and modelling assumptions."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 22,
+          "characters": 1747,
+          "body_lines": 20,
+          "first_lines": [
+            "Current results in plain English",
+            "Question Current answer",
+            "Can the saved CAD be opened as solids All 24 V8 and 18 V9 STEP exports passed. V10 has 18 local STEP poses with 28 "
+          ],
+          "last_lines": [
+            "comparisons passed, but later adjustment checks found clashes. V10 fixes those clashes. 6 of 6 recorded stress ",
+            "comparisons pass 5%. The actual-width fixture result and any remaining refinement limits are recorded in the V10 ",
+            "section. Measured material strength and a full worn-assembly test are still missing."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 23,
+          "characters": 1597,
+          "body_lines": 25,
+          "first_lines": [
+            "How we will compare real products",
+            "Test Compare under the same conditions Current status",
+            "Outside noise reduction Our defender, budget earmuff and selected ANC model; with and "
+          ],
+          "last_lines": [
+            "The wearer should be free to remove the device and say what feels wrong. Child fit, retention, small parts and pinch ",
+            "points need their own assessment. Success should include useful noise reduction and willingness to wear, not just a ",
+            "high dB number."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 24,
+          "characters": 1645,
+          "body_lines": 27,
+          "first_lines": [
+            "Sources and project records",
+            "[1] Sensory differences and individual needs",
+            "[2] Williams and colleagues 2021 sound sensitivity review"
+          ],
+          "last_lines": [
+            "EarDefender_V8_Review_and_Simulations.zip retains earlier evidence. ",
+            "EarDefender_V10_Native_CAD_and_Recorded_Checks.zip contains the current native candidates and recorded V10 ",
+            "checks. These packages are not finished product validation."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 25,
+          "characters": 2560,
+          "body_lines": 49,
+          "first_lines": [
+            "What we update next",
+            "Next priorities are selecting and measuring real materials, extending the joint and worn-fit model, finishing ",
+            "retention and manufacturing details, and measuring sound reduction with glasses. No comfort or attenuation claim "
+          ],
+          "last_lines": [
+            "material, pivot clearance, CAD stack and handling load ",
+            "screens. Retention risk and missing physical inputs are ",
+            "recorded."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 26,
+          "characters": 700,
+          "body_lines": 9,
+          "first_lines": [
+            "Update date Design status Change to this document",
+            "16 October 2026 V19 prototype handoff",
+            "Six sizes revised. Added two disc springs, longer pin "
+          ],
+          "last_lines": [
+            "Both project documents share the same evidence date and design status. After a meaningful design or test change, ",
+            "update both: replace obsolete results, add failures as well as passes, refresh pictures and explain the effect on the ",
+            "other product route. Preserve earlier document editions. The documents do not update while no work is being run."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 27,
+          "characters": 1919,
+          "body_lines": 22,
+          "first_lines": [
+            "Additional travel and tolerance checks",
+            "We checked 42 standalone V10 poses: all six sizes at 0, 5, 10, 15, 20, 25 and 30 mm extension. All sampled poses ",
+            "passed the nominal rigid-body overlap check at a 0.01 cubic mm threshold. This covers more positions than the "
+          ],
+          "last_lines": [
+            "not been changed by this test.",
+            "Native Word page layout remains unverified. These results are separate from real comfort, sensory acceptance, ",
+            "sound reduction and leakage tests."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 28,
+          "characters": 1842,
+          "body_lines": 35,
+          "first_lines": [
+            "Tests that still need inputs or physical samples",
+            "Test group What is still needed Current outcome",
+            "Foam and cover Compression and recovery curves, cover stretch, friction and "
+          ],
+          "last_lines": [
+            "Shared update on 14 October 2026: added intermediate slider positions and the expanded tolerance budget to both ",
+            "reports. Earlier failures remain recorded. Source records: intermediate_travel_audit.json and ",
+            "tolerance_budget_expanded.json."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 29,
+          "characters": 2749,
+          "body_lines": 43,
+          "first_lines": [
+            "Slider stop contact and unfinished validation",
+            "The native V10 slider already has an outboard shoulder that obstructs the guide during overtravel. We removed the ",
+            "two clamp knobs in the numerical model to represent an unlocked assembly, then imposed six axial positions from "
+          ],
+          "last_lines": [
+            "Shared update on 14 October 2026: added stop geometry and overtravel evidence to both reports. Sources: ",
+            "overtravel_audit.json and stop_onset_audit.json. The CAD revision remains V10; no geometry was edited in this ",
+            "batch."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 30,
+          "characters": 2409,
+          "body_lines": 22,
+          "first_lines": [
+            "V11 Material and folding study",
+            "We expanded the search after the request to consider ordinary and unusual materials, folding and resistance to ",
+            "breakage. The current native CAD is still V10. V11 records material calculations and folding poses made from those "
+          ],
+          "last_lines": [
+            "removable washable textile sleeve, melamine acoustic liner.",
+            "The aim is to identify useful combinations, not to find an unusual material at any cost. No Indian supplier prices, ",
+            "production yield or novelty search has been completed. Comfortable, cheap and hard to break remain design goals."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 31,
+          "characters": 2374,
+          "body_lines": 37,
+          "first_lines": [
+            "Specific band material calculations",
+            "Published material reference Modulus MPa Yield or proof MPa",
+            "TECARAN ABS grey 1700 32.0"
+          ],
+          "last_lines": [
+            "Material data pc",
+            "Material data pp",
+            "Material data steel301"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 32,
+          "characters": 2160,
+          "body_lines": 30,
+          "first_lines": [
+            "Cushion and cover material findings",
+            "Published foam reference Reference point Flat ring force N",
+            "PORON 4701 30 240 kg/m3 25 percent compression 89.5"
+          ],
+          "last_lines": [
+            "Material data etpu",
+            "Material data film",
+            "Material data spacer"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 33,
+          "characters": 1745,
+          "body_lines": 20,
+          "first_lines": [
+            "Folding results across six sizes",
+            "Size Best sampled angles Envelope change",
+            "adult large 75 and 60 degrees 23.5 percent smaller"
+          ],
+          "last_lines": [
+            "Rigid when worn and foldable for carrying require a controlled joint. The saved model still lacks a validated angular ",
+            "latch, rotation stops, friction specification and protection against pinching. The earlier intact-band stress results do ",
+            "not certify these joints. No drop, repeated folding or bag compression pass is claimed."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 34,
+          "characters": 1603,
+          "body_lines": 17,
+          "first_lines": [
+            "Folding CAD and the next durability checks",
+            "Actual adult medium STEP geometry before and after an exploratory fold. Views fit each shape independently. The triangles are",
+            "display tessellation, not the cover texture. This is not a manufactured headset or a native Fusion hinge simulation."
+          ],
+          "last_lines": [
+            "Both living reports were updated together with the 70 family register, grade calculations, foam point screens and ",
+            "folding passes and failures. Primary local records are in engineering-v11-results. The Sony pad geometry and its ",
+            "untested compatibility status are unchanged."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 35,
+          "characters": 1315,
+          "body_lines": 12,
+          "first_lines": [
+            "V12 Folding lock and wider guides",
+            "V12 adds a folding lock candidate in all six sizes. The fixed tongue has a blind hole. A captive pin in the fork engages ",
+            "this hole in the worn position and pulls back by 6 mm to allow folding. The fork crossbar is offset to clear the new "
+          ],
+          "last_lines": [
+            "worn-force estimates are not automatically V12 results.",
+            "Actual V12 adult small STEP surfaces. Transparent blue shows the fork and housing; green is the tongue and orange is the pin. The ",
+            "two views show engagement and nominal release. The larger assembly is cropped and colours do not specify materials."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 36,
+          "characters": 2213,
+          "body_lines": 24,
+          "first_lines": [
+            "V12 Motion checks and CAD reliability",
+            "A positive control exposed a problem in the first motion-check method: two deep geometric copies of the same ",
+            "imported fork returned an empty intersection. A clearance pass from that method alone is not reliable. The original "
+          ],
+          "last_lines": [
+            "assembly or servicing process. A split housing or removable retained cap and head must be designed and checked ",
+            "before manufacturing release. Finger access, pinching, release under load, unintentional unlocking, threads and ",
+            "fastener loosening remain open."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 37,
+          "characters": 1426,
+          "body_lines": 18,
+          "first_lines": [
+            "V12 Folding size and carrying limits",
+            "Size Folded box mm Box volume change",
+            "child small 218.4 by 79.6 by 185.4 3.3 percent smaller"
+          ],
+          "last_lines": [
+            "These V12 numbers replace any attempt to carry the older V11 packing percentages straight into the new revision. ",
+            "V11 used a different loose bounding-box calculation. Neither study compares a physical market headphone or ",
+            "proves transport survival."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 38,
+          "characters": 529,
+          "body_lines": 5,
+          "first_lines": [
+            "V12 Nominal and folded CAD",
+            "Actual child medium and adult medium STEP surfaces. Nominal and folded views use the same display scale within each row. ",
+            "Triangles are display tessellation, not cover texture. Colours do not select production materials."
+          ],
+          "last_lines": [
+            "Triangles are display tessellation, not cover texture. Colours do not select production materials.",
+            "The child example stays almost the same size in the box-volume comparison. The adult fold gives a clearer packing ",
+            "change. Both still need hand-access, assembly, tolerance, loaded-joint and real carrying-case checks."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 39,
+          "characters": 946,
+          "body_lines": 9,
+          "first_lines": [
+            "V12 Assembly and servicing are still open",
+            "Section curves through the actual saved CAD. The blue housing captures the orange pin collar. This explains nominal retention, but it ",
+            "also shows why we need a defined way to assemble and service the parts. The spring itself is not drawn."
+          ],
+          "last_lines": [
+            "Before ordering a prototype, revise the housing into parts that can be assembled, define a retained cap and pin ",
+            "head, and check their attachment, tolerances, release stroke and folding path. That revised joint must receive its ",
+            "own load analysis. V12 is not released for manufacture."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 40,
+          "characters": 2127,
+          "body_lines": 26,
+          "first_lines": [
+            "V12 Fork structural calculations",
+            "Fixture Fine displacement ",
+            "mm"
+          ],
+          "last_lines": [
+            "life or drop survival. Corner stresses can still depend on ideal restraints, load distribution and geometry detail. The ",
+            "complete assembled lock still needs its own contact and load analysis. These results apply to the two simulated ",
+            "right-fork examples; they are not automatically six complete assembly results."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 41,
+          "characters": 1191,
+          "body_lines": 15,
+          "first_lines": [
+            "V12 Band calculations for the wider guides",
+            "Size Fine compliance mm per N Stress mesh change Chosen comparison",
+            "child small 1.737 0.85 percent Pass"
+          ],
+          "last_lines": [
+            "comparison does not bound a local corner stress or prove a finished material or worn headband force. The model ",
+            "omits scalp contact, actual clamp friction, the tongue, cup and folding lock. The earlier V10 equations and physical ",
+            "limits remain in their own revision history."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 42,
+          "characters": 2225,
+          "body_lines": 32,
+          "first_lines": [
+            "V12 Pin spring and remaining release work",
+            "Calculation Result What it does not prove",
+            "Lock pin 36 ideal cases with 2.19 to 2.21 mm "
+          ],
+          "last_lines": [
+            "Both living Word reports were updated together on 14 October 2026. V12 adds local CAD and component evidence ",
+            "while preserving earlier failures and revision limits. It is not a finished commercial headset or an exhaustive test of ",
+            "every material formulation."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 43,
+          "characters": 1458,
+          "body_lines": 15,
+          "first_lines": [
+            "V13 Assembly failure and V14 rear cap",
+            "V13 tried a removable side cap. The first cap also clashed with a screw head; a clearance recess corrected that clash. ",
+            "The later assembly check found a more basic problem: the fixed spring guide obstructed radial insertion. Forty eight "
+          ],
+          "last_lines": [
+            "need design and qualification.",
+            "Sections through saved V14 CAD. Colours identify parts and do not select materials. The exploded offsets explain assembly; they are ",
+            "not a physical assembly trial."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 44,
+          "characters": 2124,
+          "body_lines": 27,
+          "first_lines": [
+            "V14 Recorded checks and open work",
+            "Check Current record Scope or missing input",
+            "Saved candidate sizes 6 of six Local STEP files with 44 solids per assembly"
+          ],
+          "last_lines": [
+            "change. The selector was corrected against the saved surface bounds. A subsequent structural solve and a STEP ",
+            "export ran out of allocation space on the laptop. Those attempts are failures, not accepted results. Reruns use ",
+            "separate sequential processes; only completed and checked records appear as passes here."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 45,
+          "characters": 1202,
+          "body_lines": 13,
+          "first_lines": [
+            "V14 Ideal fork fixture results",
+            "Size Fine displacement mm Fine sampled stress MPa Mesh comparison",
+            "adult small 0.1147 12.99 Pass"
+          ],
+          "last_lines": [
+            "A numerical refinement pass establishes consistency of this fixture only. It cannot establish comfort, resistance to ",
+            "breakage, a material winner or superiority over market products. Final grades, production geometry and measured ",
+            "material behaviour remain required."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 46,
+          "characters": 900,
+          "body_lines": 12,
+          "first_lines": [
+            "V14 Folding size and carrying result",
+            "Size Folded box mm Change from nominal box",
+            "child small 218.4 by 81.6 by 185.4 0.86 percent smaller"
+          ],
+          "last_lines": [
+            "small improves by less than 1 percent. Child medium and large become about 1 to 1.5 percent larger. The child ",
+            "folding mechanism therefore fails our intended useful packing goal. Adult examples give about 12 to 23 percent ",
+            "reduction. None is a physical carrying case or transport survival test."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 47,
+          "characters": 1284,
+          "body_lines": 13,
+          "first_lines": [
+            "V14 Nominal and folded CAD",
+            "Saved V14 nominal surfaces shown with the recorded rigid folding transforms. Display scale is the same within each size row. Colours ",
+            "do not select materials."
+          ],
+          "last_lines": [
+            "The digital review remains separate from product validation. The 70 material families are a register with limited ",
+            "reference calculations, not every material tested. We have no final supplier quote, measured Sony interface, ",
+            "manufactured prototype, matched competitor laboratory test or wearer study. V14 is not a manufacturing release."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 48,
+          "characters": 1724,
+          "body_lines": 19,
+          "first_lines": [
+            "V15 Knob retention experiment",
+            "V15 is one adult small retention pilot. It adds an intended M2 threaded metal knob and a separate hex jam nut to ",
+            "the V14 release stem. The earlier knob only had an unretained matching bore. Countertightening the nut against "
+          ],
+          "last_lines": [
+            "gauges, coating, final material grade, real wrench access and a controlled tightening process are still required. The ",
+            "smooth thread envelopes in the STEP file cannot replace these details.",
+            "Bossard metric thread dimensions and tolerances"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 49,
+          "characters": 1654,
+          "body_lines": 18,
+          "first_lines": [
+            "V15 Child packing search",
+            "Size Boxes ranked Endpoints checked Best recorded fold against retracted unfolded",
+            "child small 30625 65 0.51 percent larger"
+          ],
+          "last_lines": [
+            "The fold search holds both release pins 6 mm back, as in the earlier V14 motion study. It does not show that a real ",
+            "spring would hold that state after we let go, or that the cups latch safely for storage. A stable released or folded ",
+            "storage mechanism remains a design task. A clear displayed fold is not yet a usable carrying mode."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 50,
+          "characters": 2374,
+          "body_lines": 24,
+          "first_lines": [
+            "V15 Child large folding sequence",
+            "The improved child large endpoint has 27 recorded adjustment, release and folding samples. The complete sampled ",
+            "sequence passed. With the headband fixed, the left slider goes to 0 mm and the right to 20 mm. Both release pins "
+          ],
+          "last_lines": [
+            "At the V15 stage, V14 was the latest six size CAD candidate and V15 was a local STEP experiment for one size. The ",
+            "later V16 section records the next changes. Native editable Fusion archives remain V10. Real material data, ",
+            "complete joint analysis and physical comfort, acoustic and durability work are still needed."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 51,
+          "characters": 1367,
+          "body_lines": 14,
+          "first_lines": [
+            "V16 Indexed folding and rivet retention",
+            "Project status: V16 indexed folding candidates with V10 native archives.",
+            "V16 adds holes for the wearing and folded positions. The locking pins can return into the folded holes instead of "
+          ],
+          "last_lines": [
+            "The rivet shaft is 0.8 mm across, in a nominal 0.85 mm cross hole. Its formed heads are 1.2 mm across and sit in ",
+            "recesses. The knob bore is 2.3 mm around the 2.2 mm stem. These dimensions define positive geometric capture. ",
+            "Actual tolerances, metal grade, riveting tools, forming strain, wear and proof loads remain unqualified."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 52,
+          "characters": 1357,
+          "body_lines": 18,
+          "first_lines": [
+            "V16 Recorded checks and packing",
+            "Size Sampled sequence checks Folded box against retracted unfolded",
+            "child small 39 4.88 percent smaller"
+          ],
+          "last_lines": [
+            "The 18 selected wear, released and folded engaged STEP exports passed independent reimport checks for solid ",
+            "count, validity and volume. Folded boxes were also compared with the audited poses. Native editable Fusion ",
+            "archives remain V10; V16 is local STEP work."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 53,
+          "characters": 589,
+          "body_lines": 6,
+          "first_lines": [
+            "V16 Retracted and folded CAD",
+            "Actual selected child large and adult small surfaces with the checked rigid folding transforms. Equal scale within each row. Pins are ",
+            "geometrically engaged in the folded holes."
+          ],
+          "last_lines": [
+            "The packing figures compare a folded box with the same headset fully retracted and unfolded. They are not bag-fit ",
+            "or travel tests. V16 removes the held-release requirement in the checked geometry, but real spring return, finger ",
+            "clearance, stops outside the indexed positions and voluntary handling still need work."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 54,
+          "characters": 3195,
+          "body_lines": 34,
+          "first_lines": [
+            "V16 Component and material calculations",
+            "Fixture Fine displacement mm Fine sampled stress MPa Mesh comparison",
+            "Child large lower plate 0.5689 9.42 Pass"
+          ],
+          "last_lines": [
+            "The new screen records 45 nominal plate-load cases and 15 cross-drilled stem pull cases. The plate calculation uses ",
+            "bearing and a minimum-ligament proxy with chosen peak multipliers. The stem calculation uses its central ",
+            "remaining area and an assumed multiplier. Neither is a complete joint stress model or a qualified material rating."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 55,
+          "characters": 2075,
+          "body_lines": 21,
+          "first_lines": [
+            "V16 Cushion data and physical test records",
+            "Two published thin PORON battery-pad curves add more compression information than a single stiffness number. ",
+            "Only 12 of 36 assumed flat-area load cases fall within their published 20 to 70 percent strain range. We leave the "
+          ],
+          "last_lines": [
+            "feedback. Production cost requires real quotes including forming, tooling, assembly, inspection, scrap, packaging ",
+            "and distribution. The product remains a prototype candidate, with complete joint strength, actual materials, ",
+            "manufacturing tolerances and physical validation unfinished."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 56,
+          "characters": 2413,
+          "body_lines": 29,
+          "first_lines": [
+            "V16 Joint clearance and manufacturing errors",
+            "The 2.3 mm index hole and 2.2 mm pin leave only 0.05 mm of radial clearance. A nominal geometry pass is ",
+            "therefore not enough to establish reliable assembly or spring return. Both documents now record this "
+          ],
+          "last_lines": [
+            "chamfer, a guided or compliant pin and tighter alignment control are candidates to compare. None is selected or ",
+            "qualified here. We still need real manufacturing capability, spring return force, friction, contamination and cycle ",
+            "measurements before approving tolerances."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 57,
+          "characters": 1413,
+          "body_lines": 20,
+          "first_lines": [
+            "V17 Pin entry trials",
+            "Project status: V17 two size entry pilots with V16 six size candidates and V10 native archives.",
+            "V16 exposed a small clearance budget at the locking index. V17 changes only the child large and adult small pilots. "
+          ],
+          "last_lines": [
+            "size.",
+            "Actual sections through the wearing pin axes. The picture shows the local entry and straight land, not spring centering or a measured ",
+            "return force."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 58,
+          "characters": 2289,
+          "body_lines": 26,
+          "first_lines": [
+            "V17 Recorded geometry and component checks",
+            "Pilot Sequence samples Valid solids",
+            "child large 31 46"
+          ],
+          "last_lines": [
+            "V17 has two local STEP pilots only. V16 remains the latest six size CAD candidate and native Fusion archives remain ",
+            "V10. Previous whole-headset and material screens do not automatically transfer to the changed plates. Physical ",
+            "sound reduction, wearer comfort, sensory acceptance, durability and cost remain unvalidated."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 59,
+          "characters": 1954,
+          "body_lines": 22,
+          "first_lines": [
+            "V17 Loaded pin contact and spring return",
+            "The latch is on hold for production. Unloaded geometry and component mesh passes do not establish reliable pin ",
+            "return when the joint carries a sideways load. The new calculation bends a 2.2 mm pin against two guides with a "
+          ],
+          "last_lines": [
+            "predicted factory yield. Sliding drag is estimated from static guide reactions; no actual withdrawal or return path, ",
+            "surface pressure, collar, cross hole or chamfer centering is solved. The result identifies a risk to measure, not a ",
+            "proven failure in a real product."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 60,
+          "characters": 2858,
+          "body_lines": 39,
+          "first_lines": [
+            "V17 Spring trade offs and completion decision",
+            "The 300 alternative spring designs vary wire diameter, coil diameter, active turns and free length. The screen also ",
+            "includes assumed dimensional errors, a 10 percent rate range, 1.5 mm permanent length loss, a 0.5 mm reserve "
+          ],
+          "last_lines": [
+            "assessment is complete; the whole product is not. The next step is to measure pin return and guide drag with actual ",
+            "parts, then decide whether to change the spring, guide or latch architecture. Material calibration and Sony ",
+            "mounting measurements must precede model specific and physical performance claims."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 61,
+          "characters": 1027,
+          "body_lines": 11,
+          "first_lines": [
+            "V18 A different folding hinge",
+            "Project status: V18 six size passive hinge candidates with V10 native archives.",
+            "V18 is our latest six size local STEP candidate. It replaces the sliding locking pin with a passive friction hinge and a "
+          ],
+          "last_lines": [
+            "The stop supports outward cup rotation at the wearing angle. Folding inward moves the fork away from that stop. ",
+            "Friction is intended to hold the chosen angle. This is not a positive lock against every load direction, and an inward ",
+            "force can still fold the cup. We must test unwanted folding and handling before calling it suitable for a wearer."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 62,
+          "characters": 1685,
+          "body_lines": 22,
+          "first_lines": [
+            "V18 Geometry and rejected trials",
+            "Size Pose ",
+            "samples Retracted box mm Folded box mm"
+          ],
+          "last_lines": [
+            "Folding is available, but its packing benefit varies. The band and protruding sliders limit the envelope, and the ",
+            "smallest child version has only a small bounding box reduction. A box comparison is not a carrying test or an ",
+            "optimised travel design. The rigid surfaces also do not represent actual fabric texture."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 63,
+          "characters": 1393,
+          "body_lines": 15,
+          "first_lines": [
+            "V18 Torque and the wearing stop",
+            "Sections of actual saved hinge and stop solids. The spring is at a reference catalogue height; the nut and bolt use thread envelopes.",
+            "Each hinge has two friction washers, backup washers, a disc spring, a bolt and a nut. The two stop patches total 32 "
+          ],
+          "last_lines": [
+            "comparisons, not comfort or dexterity thresholds for autistic people. We have no spring force curve from which to ",
+            "infer the correct nut position or installed height. The CAD spring height therefore remains a catalogue reference ",
+            "pose."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 64,
+          "characters": 1567,
+          "body_lines": 17,
+          "first_lines": [
+            "V18 What the numerical checks mean",
+            "Maximum static gravity moment over orientation for each assumed density scenario. This is not a measured mass or hinge holding ",
+            "result."
+          ],
+          "last_lines": [
+            "The two tongue and fork shapes in each size family were checked for equal geometry after translation. That allows a ",
+            "listed component fixture to be shared within its family. A Boolean equality query did not establish child band ",
+            "identity, so we independently reran the band fixtures for every size instead of transferring an old result."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 65,
+          "characters": 2410,
+          "body_lines": 36,
+          "first_lines": [
+            "V18 Headband checks and the next decision",
+            "Band fixture Guide movement mm Sampled stress MPa Last stress change",
+            "adult small 2.798 2.52 3.78%"
+          ],
+          "last_lines": [
+            "universal fit, market superiority or lowest price claim is supported. Supplier quotes and verified production ",
+            "processes are still needed. Both reports retain the earlier results and failures and will be updated together when ",
+            "measured evidence is added."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 66,
+          "characters": 1366,
+          "body_lines": 16,
+          "first_lines": [
+            "V18 Final component checks",
+            "The fork between the cup and folding hinge now has its own component test. This adds evidence for a part that was ",
+            "missing from the earlier V18 fixtures. It does not replace the complete joint, worn fit or acoustic tests."
+          ],
+          "last_lines": [
+            "The material is still assumed: elastic modulus 2000 MPa and Poisson ratio 0.35. Straight sided quadratic tetrahedra ",
+            "approximate the curved surfaces. Actual bearing pressure, bolt preload, washer friction, guide flexibility and stop ",
+            "contact are not solved. Numerical support reactions are not real pressure measurements."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 67,
+          "characters": 2641,
+          "body_lines": 43,
+          "first_lines": [
+            "V18 Testing decision and remaining inputs",
+            "The current V18 component assessment is recorded. There are now 30 saved solver array audits across the band, ",
+            "tongue stop and fork fixtures. Source hashes, work and energy, force balance, fixed displacements, finite values, "
+          ],
+          "last_lines": [
+            "Both reports share this decision. The separate Sony WH CH720N cushion remains a generic candidate until the ",
+            "original pad and mount are measured. No acoustic or comfort advantage over market products has been ",
+            "demonstrated."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 68,
+          "characters": 2583,
+          "body_lines": 33,
+          "first_lines": [
+            "V18 Final material and clearance screens",
+            "This is the final bounded screen on the current V18 geometry. It adds 500 material and load comparisons, 288 pivot ",
+            "clearance scenarios and 216 equivalent acceleration comparisons. These are calculated scenarios, not 1004 physical "
+          ],
+          "last_lines": [
+            "nut outward as the reference disc spring relaxes gives about 3.01 mm overlap between the nominal solid envelopes. ",
+            "This is not a thread engagement or bolt strength pass. Real thread ends, shoulder length, locking, tolerances and ",
+            "calibrated spring position still need an assembly design and proof."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 69,
+          "characters": 2068,
+          "body_lines": 22,
+          "first_lines": [
+            "V18 Retention result and end of screening",
+            "Calculated demand under equivalent static acceleration and the proposed unmeasured hinge torque targets. This is not a drop or ",
+            "impact simulation."
+          ],
+          "last_lines": [
+            "to select and measure actual material samples and make a bench assembly, then calibrate the models against it. ",
+            "More arbitrary inputs would not measure sound reduction, leakage, comfort or material life. There is no ",
+            "manufacturing release or demonstrated advantage over market headphones."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 70,
+          "characters": 1148,
+          "body_lines": 11,
+          "first_lines": [
+            "V19 Prototype assembly and next decision",
+            "Project status: V19 six size assembly prototype with conditional joint calculations and V10 native archives.",
+            "V19 keeps the six adjustable sizes and changes the hinge hardware. Each hinge now has two nested disc springs, a "
+          ],
+          "last_lines": [
+            "disconnected solids and the Boolean operation lost its core. We kept the failed trial and excluded it from the final ",
+            "assemblies. Current fasteners use cosmetic thread envelopes and proposed M4 x 0.7 drawing callouts. Thread ",
+            "strength, drive, runout, tolerances and effective locking still need supplier and bench review."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 71,
+          "characters": 1375,
+          "body_lines": 18,
+          "first_lines": [
+            "V19 Folding and holding tradeoff",
+            "Saved V19 retracted and folded surfaces. Sampled collision checks do not establish continuous motion clearance, wrench access or ",
+            "handling strength."
+          ],
+          "last_lines": [
+            "tools and remeasure hinge torque after locking. The disc reference position is not a measured assembly setting. A ",
+            "nominal radial clearance budget leaves 0.06 mm after chosen diameter, axis and growth errors. Supplier capability ",
+            "has not been demonstrated."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 72,
+          "characters": 1414,
+          "body_lines": 15,
+          "first_lines": [
+            "V19 Retention and folding effort",
+            "Equivalent static moment comparison. The torque lines are chosen targets, not measured hinge properties. This is not a drop or ",
+            "shake simulation."
+          ],
+          "last_lines": [
+            "000600B data. Real spring variation, friction, settling and plastic creep can change the assembly. Set torque by ",
+            "measurement, not by copying a nut position from the drawing.",
+            "SCHNORR disc spring stacking guidance"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 73,
+          "characters": 1230,
+          "body_lines": 12,
+          "first_lines": [
+            "V19 Coupled joint calculation and limits",
+            "Solved displacement at the chosen outward 2 N fixture load. This model is a numerical development study; the final refinement result ",
+            "and gate are stated below."
+          ],
+          "last_lines": [
+            "bearing clearance, bolt bending, thread load, disc spring deformation, guide contact or the full worn headset. The ",
+            "reference elastic modulus is 3500 MPa for TECAMID 66 natural and Poisson ratio 0.35 is assumed. This is a reference ",
+            "material calculation, not a qualified part grade or a prediction of long-term performance."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 74,
+          "characters": 1255,
+          "body_lines": 18,
+          "first_lines": [
+            "V19 Joint convergence and scope",
+            "Family and mesh change Displacement change Chosen 5 percent comparison",
+            "child large 3.0 to 2.0 mm 45.5% Fail"
+          ],
+          "last_lines": [
+            "adult refinement showed about 1.3 GB free on the 16 GB laptop. This is a bounded study limit, not a proven ",
+            "hardware maximum. Further joint refinement or a different solver remains computer work if the numerical limit is ",
+            "not met; it is not being relabelled as completed physical testing."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 75,
+          "characters": 1601,
+          "body_lines": 18,
+          "first_lines": [
+            "V19 Material finding and prototype records",
+            "We checked additional published foam reference points rather than inventing a winning new material. PORON ",
+            "4701-30 lists typical 25 percent compression pressures of 21, 35 and 62 kPa for its three density options. Under "
+          ],
+          "last_lines": [
+            "notes, blank material and test records, a Sony measurement form, a supplier quotation form and a measured-input ",
+            "readiness checker. No supplier was contacted and no quotation was obtained. The PDF is a prototype dimensional ",
+            "review, not a complete production drawing. Inputs remain blank because we have not measured a real sample."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 76,
+          "characters": 1653,
+          "body_lines": 20,
+          "first_lines": [
+            "V19 What we can conclude now",
+            "Workstream Current decision",
+            "Six sizes adjustment folding and saved STEP poses Recorded finite geometry checks completed"
+          ],
+          "last_lines": [
+            "dimensions. Build a bench hinge and pad sample, compare measurements with the models, then revise the CAD and ",
+            "make a complete fixture prototype. Voluntary wearer feedback is needed before any claim about autistic users. ",
+            "Both living reports must continue to update together when real measurements or new revisions arrive."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 77,
+          "characters": 2783,
+          "body_lines": 29,
+          "first_lines": [
+            "V19 Higher order joint model",
+            "The first linear solid joint model still changed by about 6 percent at the finest mesh comparison. A separate model ",
+            "variant aligns the washer boundary and preload footprint with the mesh, then uses quadratic solid elements. Its "
+          ],
+          "last_lines": [
+            "bench prototype proposal, while collecting actual material curves and joint measurements for calibration. Exact ",
+            "Sony fit, real sound reduction, music leakage, heat, durability and sensory acceptance still need the measurements ",
+            "and sample tests listed in both reports."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 78,
+          "characters": 1782,
+          "body_lines": 22,
+          "first_lines": [
+            "V19 Inward joint load comparison",
+            "We extended the higher order joint calculation to a 2 N inward load. The four cases reuse exactly the saved child ",
+            "large and adult small meshes from the outward study. The assumed PA66 elastic reference, ideal pivot, 140 N "
+          ],
+          "last_lines": [
+            "The Sony WH CH720N replacement cushion is unchanged. No model-specific fit, pressure, sound isolation, playback ",
+            "leakage or ANC pass is added. Real pad and mounting measurements, material curves and fixture measurements ",
+            "remain the next inputs for both product routes."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 79,
+          "characters": 1600,
+          "body_lines": 18,
+          "first_lines": [
+            "V20 Internet dimensions and cushion candidates",
+            "Update on 21 October 2026. We can start buying small test samples, but both products remain unproven. SoftSpace ",
+            "keeps its V19 headphone design. SoftSpace Flex now has three V20 pad body candidates based on a published "
+          ],
+          "last_lines": [
+            "unknown",
+            "All three exported STEP bodies reimported with positive volumes and the expected part counts. This is a file and ",
+            "geometry check, not a mounting, sealing or comfort pass. The earlier generic V8 cushion remains in the history."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 80,
+          "characters": 1689,
+          "body_lines": 20,
+          "first_lines": [
+            "V20 What the cushion calculations show",
+            "We compared 11,664 paired cases with different assumed foam stiffness, cover stiffness, force, glasses thickness, ",
+            "position and zone size. This simple model treats areas of foam as separate compressible columns. It does not "
+          ],
+          "last_lines": [
+            "Twelve selected rows were checked by a separately written scalar calculation with exact ellipse-strip areas. All ",
+            "stayed within the chosen 1 percent comparison. Force balance and a uniform-pressure reference also passed. These ",
+            "checks support the implementation, not the realism of its assumed material law."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 81,
+          "characters": 1585,
+          "body_lines": 16,
+          "first_lines": [
+            "V20 Headphone checks and remaining risks",
+            "All eight saved V19 higher-order joint solutions passed a fresh equation reassembly, file hash, force-balance and ",
+            "saved-array audit. This repeats the same model rather than using an independent physical experiment or a different "
+          ],
+          "last_lines": [
+            "heat, fatigue and durability remain open. Replacing missing material curves or mounting dimensions with assumed ",
+            "numbers would not finish or validate those models. Native editable Fusion files remain V10; current headset ",
+            "geometry remains V19 STEP."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 82,
+          "characters": 2320,
+          "body_lines": 32,
+          "first_lines": [
+            "V20 What to buy for the first prototypes",
+            "Recommendation: proceed with inexpensive learning samples, not a batch of finished headphones or production ",
+            "tooling. Computer checks have narrowed some choices and found failures. We cannot put a credible success "
+          ],
+          "last_lines": [
+            "Claims we cannot support yet include proven benefit for autistic users, clinically tested comfort, a verified Sony fit, ",
+            "zero leakage, a quantified chance of success, a certified noise rating or superiority over other headphones. No ",
+            "funding application was submitted."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 83,
+          "characters": 1117,
+          "body_lines": 12,
+          "first_lines": [
+            "V20 Source evidence and audit trail",
+            "The screenshots below record the sources checked on 21 October 2026. They support dimensions and the mounting ",
+            "approach, not our product performance. Screenshots and attractive CAD pictures are supporting illustrations; raw "
+          ],
+          "last_lines": [
+            "CAD_verification.json, contact_summary.json, contact_controls.json, verification.json, saved_audit_rerun.json, ",
+            "scenario CSVs and the source screenshots. Source scripts are v20_preprototype_screen.py, verify_v20_screen.py ",
+            "and build_v20_flex_reference.py. The first ellipse build error is preserved in CAD_build_trials.json."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 84,
+          "characters": 1558,
+          "body_lines": 21,
+          "first_lines": [
+            "V21 Additional software review",
+            "24 October 2026 review of calculations from 23 and 24 October. The added checks found useful passes and ",
+            "important failures. All possible software work is not finished. The first joint peak-stress comparisons failed; the "
+          ],
+          "last_lines": [
+            "deformation or continuous motion between samples.",
+            "The test register now separates completed finite checks, failed numerical comparisons, missing measurements and ",
+            "tests that need people. A large number of calculations is not a probability that either product will work."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 85,
+          "characters": 1489,
+          "body_lines": 20,
+          "first_lines": [
+            "V21 Glasses positions change the result",
+            "The exact-area calculation checked all 11,664 old cushion rows. 334 differed by more than the chosen 1 percent ",
+            "comparison, with a maximum difference of 3.35 percent. The earlier 12 selected comparisons were correct, but they "
+          ],
+          "last_lines": [
+            "pressure elsewhere and four showed model detachment. There is no final winner. This taller zone is a numerical ",
+            "alternative only; the three V20 STEP bodies are unchanged. Model detachment does not directly predict sound ",
+            "leakage."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 86,
+          "characters": 2030,
+          "body_lines": 26,
+          "first_lines": [
+            "V21 The first joint stress comparison failed",
+            "We recovered stresses at 27 interior points in each element of eight saved joint solutions. The old centre-point ",
+            "values were reproduced. Peak stress changed substantially between the two existing meshes. All eight comparisons "
+          ],
+          "last_lines": [
+            "An extra 1.9 mm child large mesh trial has 33925 nodes. Trial status: equilibrium converged. The first unoptimized ",
+            "curved mesh had an invalid element and was rejected. The saved trial and failure log document the correction ",
+            "attempt; no result here is a full product-strength pass."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 87,
+          "characters": 1989,
+          "body_lines": 23,
+          "first_lines": [
+            "V21 Finer joint results",
+            "We added optimized 1.9 mm meshes for the child large and adult small representative joints, under outward and ",
+            "inward loads. The table compares the new interior-point peaks with the 2.3 mm results. The failed earlier "
+          ],
+          "last_lines": [
+            "singularity. Quantiles do not replace failed peak checks. The rejected mesh and stopped solver experiments are ",
+            "retained. A stopped experiment has no equilibrium pass. The final accepted route and raw solutions are identified in ",
+            "refinement/matrix_review.json and solver_experiments.json."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 88,
+          "characters": 2120,
+          "body_lines": 27,
+          "first_lines": [
+            "V21 What is still open",
+            "Topic Current evidence and remaining work",
+            "Peak joint stress Read the finer comparison page for the current status. Surface peaks, real material "
+          ],
+          "last_lines": [
+            "Evidence: engineering-v21-results contains the motion logs, exact-area comparisons, wider position cases, separate ",
+            "scalar controls, stress recovery, mechanical limits and the complete test scope register. The two reports use the ",
+            "same evidence snapshot. No new market-price check or physical test was performed on this date."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 89,
+          "characters": 1327,
+          "body_lines": 21,
+          "first_lines": [
+            "V21 Carrying poses",
+            "The old fold reduced the child medium bounding volume by less than 0.1 percent. We therefore searched additional ",
+            "positions of the existing parts. This changes the assembly pose only; the headband, cups and cushions were not "
+          ],
+          "last_lines": [
+            "This is a finite geometric carrying check. It does not prove a continuous path, finger safety, friction holding, loaded ",
+            "clearance or real bag fit. If a size has no selected candidate, its existing V19 pose remains the reference. The ",
+            "complete search trials and source hashes are saved."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 90,
+          "characters": 1498,
+          "body_lines": 14,
+          "first_lines": [
+            "V22 How reliable are the stress numbers",
+            "24 October 2026. We checked the saved joint results more deeply before relying on them. The material properties, ",
+            "loads and CAD are unchanged. A second method of calculating strain matched the original method. Increasing "
+          ],
+          "last_lines": [
+            "The additional 35 point set includes element corners, edges and faces. Seven of its eight comparisons exceed 5 ",
+            "percent. These are sampled values, not a proof of the largest stress everywhere. No global stress, material strength, ",
+            "hinge life or break resistance pass is established. We have kept the earlier results and explained their limits."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 91,
+          "characters": 1777,
+          "body_lines": 20,
+          "first_lines": [
+            "V22 Targeted adult fork refinement",
+            "The adult fork had two recorded stress hotspots. We generated a mesh with a 0.9 mm local target around them, ",
+            "keeping the earlier tongue mesh and the same CAD. This mesh has 46,413 nodes. Both load directions use the same "
+          ],
+          "last_lines": [
+            "We did not change the CAD or raise the allowable stress to make a test pass. We also did not use average stress to ",
+            "replace a peak criterion. Further model or design changes need to state the actual contact and edge geometry, ",
+            "material and production process being represented."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 92,
+          "characters": 1929,
+          "body_lines": 23,
+          "first_lines": [
+            "V22 Contact consistency and correction",
+            "A rigid motion test moves the entire joint together. It should create no relative slip. The original friction interface ",
+            "passed common translations and rotation about the intended hinge axis, but failed rotations about the other two "
+          ],
+          "last_lines": [
+            "The earlier stress fields remain saved with their original interface identified. The corrected reference remains ",
+            "conditional. Complete spacer contact, actual edge shape, material properties, preload and manufactured tolerances ",
+            "must be specified before treating it as the intended product."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 93,
+          "characters": 1606,
+          "body_lines": 20,
+          "first_lines": [
+            "V22 A simpler cushion control",
+            "We also checked a simpler option: make the entire foam pad softer, rather than adding a soft patch near the glasses ",
+            "arm. We ran 25,272 assumed cases using the same exact area foam model as V21. The glasses arm still acts on one "
+          ],
+          "last_lines": [
+            "The earlier 100 mm strip is not this whole pad control. That strip changes the arm facing half of the annulus. The ",
+            "new control changes both halves. Pad shape and mounting CAD are unchanged. No sound leakage, noise reduction, ",
+            "heat, durability or sensory acceptance result is added."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 94,
+          "characters": 2059,
+          "body_lines": 32,
+          "first_lines": [
+            "V22 Computer test status and next inputs",
+            "Area What this means now",
+            "Six size CAD and folding Finite geometry checks and smaller carrying poses are saved. Continuous motion, finger "
+          ],
+          "last_lines": [
+            "Both documents use the same update. SoftSpace keeps V19 part geometry with V21 carrying poses. SoftSpace Flex ",
+            "keeps its three V20 reference bodies. There is no new physical test, success probability, sound rating, market price ",
+            "check or proof of benefit for autistic users in this update."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 95,
+          "characters": 1487,
+          "body_lines": 20,
+          "first_lines": [
+            "V23 Corrected hinge checks across two size families",
+            "24 October 2026. The new campaign runs the corrected virtual spacer model on both the child large and adult small ",
+            "isolated joints. Each uses two mesh sizes and two load directions, giving eight new equilibrium calculations. The "
+          ],
+          "last_lines": [
+            "The fixed assumptions are stiffness 3500 MPa, Poisson ratio 0.35, preload 140 N, friction coefficient 0.2 and side ",
+            "force plus or minus 2 N. The virtual spacer is 0.5 mm. Actual washer contact, threads, production tolerances, ",
+            "material history and complete headset loads are still missing from this reference model."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 96,
+          "characters": 1314,
+          "body_lines": 13,
+          "first_lines": [
+            "V23 What the stronger stress check shows",
+            "Same corrected reference equations and the same stress sampling methods on both meshes. The dashed line is our chosen ",
+            "comparison limit, not a safety standard."
+          ],
+          "last_lines": [
+            "The new raw fields, source hashes, solver histories, numerical controls and every comparison are saved in ",
+            "engineering v23 results. The older raw fields are preserved. This is a completed numerical campaign with unresolved ",
+            "design conclusions, not a finished headphone or a physical test."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 97,
+          "characters": 1691,
+          "body_lines": 26,
+          "first_lines": [
+            "V23 Software status and the remaining inputs",
+            "Area Current conclusion What is needed next",
+            "Corrected hinge equations Eight new solves and numerical checks "
+          ],
+          "last_lines": [
+            "software testing complete. Missing material and interface inputs must be supplied before realistic full product ",
+            "simulations can be completed. Inventing those values would give misleading confidence. The remaining test register ",
+            "separates those input gaps from completed checks and from tests that require people."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 98,
+          "characters": 1367,
+          "body_lines": 17,
+          "first_lines": [
+            "V24 Finer child and adult joint calculations",
+            "24 October 2026. We added a finer 1.5 mm target mesh for both isolated joint families. There are four new ",
+            "equilibrium calculations, covering outward and inward loads on child large and adult small. The V19 part shapes and "
+          ],
+          "last_lines": [
+            "The assumptions remain stiffness 3500 MPa, Poisson ratio 0.35, preload 140 N, friction 0.2 and a side force of plus ",
+            "or minus 2 N. The virtual spacer is 0.5 mm. This model still omits a resolved real washer, bolt, material history, full ",
+            "headset loading and worn contact. The complete raw fields, histories and hashes are saved."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 99,
+          "characters": 1293,
+          "body_lines": 13,
+          "first_lines": [
+            "V24 Do the finer stress predictions agree",
+            "Same corrected reference equations and stress sampling sets on 1.9 mm and 1.5 mm target meshes. The dashed line is our chosen 5 ",
+            "percent comparison limit, not a product safety standard."
+          ],
+          "last_lines": [
+            "Further useful work needs the intended physical edge, contact, spacer and fastener details to be defined and ",
+            "represented. More fine meshes of an incomplete contact idealization cannot prove the finished device is strong, ",
+            "comfortable or quiet. No CAD shape or final material is selected by these calculations."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 100,
+          "characters": 1923,
+          "body_lines": 23,
+          "first_lines": [
+            "V24 Restored records and the remaining software gates",
+            "Moving to D revealed that the main CAD readers still followed old C drive paths. They now resolve a source using its ",
+            "recorded hash. An audit matched all 623 recorded references, covering 304 distinct path and hash pairs. Four older "
+          ],
+          "last_lines": [
+            "checks add no Sony fit, pain relief, sound leakage, ANC or cooling result. This finer numerical campaign is complete, ",
+            "but full product software sign off is not achieved. The test register records failed and missing requirements ",
+            "explicitly."
+          ],
+          "text_rectangles_outside_physical_page": []
+        }
+      ]
+    },
+    {
+      "document": "Glasses_Friendly_Headphone_Cushions",
+      "render_folder": "${WORKSPACE}\\documents\\qa\\native_v24_Glasses_Friendly_Headphone_Cushions_62f64da1",
+      "source_sha256": "62f64da1635474d46528b097d613ede4da16ea847ed76ec1eb56df0fed61330d",
+      "native_pages": 75,
+      "blank_body_pages": [],
+      "short_text_pages": [],
+      "out_of_page_text_rectangles": 0,
+      "pages": [
+        {
+          "page": 1,
+          "characters": 1982,
+          "body_lines": 20,
+          "first_lines": [
+            "SoftSpace Flex",
+            "Affordable replacement pads for compatible headphones in India",
+            "Current update on 24 October 2026: V24 adds four finer joint reference calculations. All numerical consistency "
+          ],
+          "last_lines": [
+            "measured Sony cushion benefit. The last chapters record the finding and the available data screening decision.",
+            "This document covers the market gap, the cushion design, the work completed and the tests still needed. Read ",
+            "SoftSpace Project for the full standalone-headband history."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 2,
+          "characters": 1179,
+          "body_lines": 12,
+          "first_lines": [
+            "The glasses problem and our proposed fix",
+            "A glasses arm sits between the cushion and the side of the head. It can concentrate pressure and lift the pad. The ",
+            "amount depends on the frame, the headphone force and the pad. A softer area may help the pad conform, but it "
+          ],
+          "last_lines": [
+            "airtight seal: folds, seams, arm shape, mounting leaks and uneven force can still cause gaps.",
+            "For replacement pads we do not design the host headband. We still need to measure its force and cup shape ",
+            "because those affect the new cushion. A design that works on one headphone can fail on another."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 3,
+          "characters": 1603,
+          "body_lines": 19,
+          "first_lines": [
+            "First target Sony WH CH720N",
+            "We selected Sony WH-CH720N. Sony explains that its pad edge fits into a housing groove, with top and bottom slots ",
+            "and arrows aligned. This confirms replaceable pads; the instructions give no manufacturing dimensions for our "
+          ],
+          "last_lines": [
+            "the original pad, new uniform pad and new soft-zone pad on this same headphone. Check seating, pressure, ",
+            "incoming noise with ANC off and on, outgoing music and frequency response. All host-specific results are still ",
+            "untested."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 4,
+          "characters": 1416,
+          "body_lines": 32,
+          "first_lines": [
+            "WH CH720N replacement pad comparison",
+            "Option What is advertised or planned Price evidence What remains unknown",
+            "Crysendo [18]"
+          ],
+          "last_lines": [
+            "Replacement pads already have competing listings. Our proposed advantage must be lower pressure around real ",
+            "glasses while keeping fit and sound acceptable at a useful cost. A memory-foam label or replacement-pad label ",
+            "alone does not establish that advantage. We have not proved our cushion is better."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 5,
+          "characters": 1677,
+          "body_lines": 47,
+          "first_lines": [
+            "What already exists and the Indian gap",
+            "Option What already exists Price or access Our possible contribution",
+            "Turtle Beach "
+          ],
+          "last_lines": [
+            "We should choose a small set of popular removable-pad models, measure their mounts and ask users what they ",
+            "would pay. We should not promise one cushion for every brand or call our pad the cheapest before getting ",
+            "production quotes."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 6,
+          "characters": 1601,
+          "body_lines": 29,
+          "first_lines": [
+            "Budget ranges and compatibility",
+            "Examples of a child earmuff, an ordinary ANC headphone and our CAD. Replacement-pad fit for these market models has not been ",
+            "tested."
+          ],
+          "last_lines": [
+            "Must measure bass, response, ",
+            "isolation and leakage",
+            "Benchmark for our comparison Benchmark for specialist benefits Benefits remain unproven"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 7,
+          "characters": 1453,
+          "body_lines": 32,
+          "first_lines": [
+            "Our development so far",
+            "Saved cushion and cover geometry from early stages and V8. Colours are illustrative.",
+            "Stage Pad work and evidence Main limitation"
+          ],
+          "last_lines": [
+            "selected for pad route",
+            "Generic pad unchanged; host ",
+            "measurements and leakage results missing"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 8,
+          "characters": 1475,
+          "body_lines": 25,
+          "first_lines": [
+            "Which cushion checks passed and failed",
+            "Check Recorded outcome What it tells us",
+            "Simple compression and force "
+          ],
+          "last_lines": [
+            "Early V1 outputs showed lower frame pressure after reducing local stiffness. That reduction was partly built into the ",
+            "assumed model and is not evidence that our actual pad prevents headaches. Later cover models added coupling and ",
+            "revealed unstable point pressures. We should use the latest evidence rather than advertise the early percentage."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 9,
+          "characters": 1121,
+          "body_lines": 12,
+          "first_lines": [
+            "Noise getting in and music getting out",
+            "Two separate questions. Incoming noise and outgoing playback must each be measured. Diagram is conceptual.",
+            "For our passive defender there is no music driver, so outgoing music leakage is not a current product function. For a "
+          ],
+          "last_lines": [
+            "Zero leakage is not a result we can promise. Our working goal is to avoid a meaningful loss of isolation or increase in ",
+            "playback leakage compared with the original pad, while improving comfort. We will choose a numerical acceptance ",
+            "limit only after measuring the original pad and agreeing on the use case."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 10,
+          "characters": 1565,
+          "body_lines": 25,
+          "first_lines": [
+            "The tests needed on each supported model",
+            "Test Comparison and method Status",
+            "Mount fit Original and new pads on the exact headphone; clips, lip, pull-off, cup "
+          ],
+          "last_lines": [
+            "Use the same headphone, frame position, test signal, fixture and inside-cup playback level. Matching only the ",
+            "volume-slider setting may be misleading because pad changes can alter the sound level at the ear. Repeat the fit ",
+            "several times and show the range of results."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 11,
+          "characters": 3125,
+          "body_lines": 49,
+          "first_lines": [
+            "What is still missing and what comes next",
+            "We need real foam compression and recovery curves, cover stretch and friction, frame shapes, head geometry and ",
+            "measured forces from the host headphones. We also need a finished seam, bond and mounting design. The "
+          ],
+          "last_lines": [
+            "and physical benefit remain untested.",
+            "15 October 2026 V17 two size entry pilots Larger index holes and entry cones tested on child large and adult ",
+            "small. V16 remains the six size candidate."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 12,
+          "characters": 834,
+          "body_lines": 14,
+          "first_lines": [
+            "Update date Shared evidence status Change to this document",
+            "16 October 2026 V18 passive hinge and ",
+            "wearing stop"
+          ],
+          "last_lines": [
+            "Update this document whenever pad geometry, materials, host-model fit or sound results change. Also update ",
+            "SoftSpace Project so both reports stay consistent. Record failures and replace obsolete claims; do not only append ",
+            "good results."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 13,
+          "characters": 2080,
+          "body_lines": 21,
+          "first_lines": [
+            "Latest shared CAD and simulation results",
+            "V10 corrects the guide and knob clashes found in the standalone V9 shortest setting. All 18 native V10 STEP poses ",
+            "passed the all-body overlap audit. Six saved Fusion archives reopened with 28 solids in each V10 component. This is "
+          ],
+          "last_lines": [
+            "skirt and groove dimensions open. Host fit, retention, incoming noise, outgoing playback, frequency response, ANC ",
+            "behaviour and wearer comfort remain untested. Both reports will be updated when those dimensions or results ",
+            "arrive."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 14,
+          "characters": 1311,
+          "body_lines": 19,
+          "first_lines": [
+            "Sources and project records",
+            "[5] SYGA Indian child earmuff listing",
+            "[8] Sony WH CH720N Indian store price"
+          ],
+          "last_lines": [
+            "engineering-v3-results/contact_summary.json; engineering-final-results/REVIEW.md; engineering-v5-",
+            "results/REVIEW.md; cad_v8_report.json; cad_v8_audit.json; engineering-v8-results/STEP_verification.json; ",
+            "engineering-v7-results/acoustic_p2_summary.json. The named files are saved in EarDefenderProject."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 15,
+          "characters": 2093,
+          "body_lines": 23,
+          "first_lines": [
+            "Additional travel and tolerance checks",
+            "We checked 42 standalone V10 poses: all six sizes at 0, 5, 10, 15, 20, 25 and 30 mm extension. All sampled poses ",
+            "passed the nominal rigid-body overlap check at a 0.01 cubic mm threshold. This covers more positions than the "
+          ],
+          "last_lines": [
+            "For the Sony replacement cushion, the pad geometry and host fit remain unchanged. These standalone headband ",
+            "checks do not measure the Sony clamp force or validate our pad. Native Word page layout remains unverified. ",
+            "These results are separate from real comfort, sensory acceptance, sound reduction and leakage tests."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 16,
+          "characters": 1842,
+          "body_lines": 35,
+          "first_lines": [
+            "Tests that still need inputs or physical samples",
+            "Test group What is still needed Current outcome",
+            "Foam and cover Compression and recovery curves, cover stretch, friction and "
+          ],
+          "last_lines": [
+            "Shared update on 14 October 2026: added intermediate slider positions and the expanded tolerance budget to both ",
+            "reports. Earlier failures remain recorded. Source records: intermediate_travel_audit.json and ",
+            "tolerance_budget_expanded.json."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 17,
+          "characters": 2749,
+          "body_lines": 43,
+          "first_lines": [
+            "Slider stop contact and unfinished validation",
+            "The native V10 slider already has an outboard shoulder that obstructs the guide during overtravel. We removed the ",
+            "two clamp knobs in the numerical model to represent an unlocked assembly, then imposed six axial positions from "
+          ],
+          "last_lines": [
+            "Shared update on 14 October 2026: added stop geometry and overtravel evidence to both reports. Sources: ",
+            "overtravel_audit.json and stop_onset_audit.json. The CAD revision remains V10; no geometry was edited in this ",
+            "batch."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 18,
+          "characters": 1847,
+          "body_lines": 17,
+          "first_lines": [
+            "V11 Material and folding study",
+            "We expanded the search after the request to consider ordinary and unusual materials, folding and resistance to ",
+            "breakage. The current native CAD is still V10. V11 records material calculations and folding poses made from those "
+          ],
+          "last_lines": [
+            "removable washable textile sleeve, melamine acoustic liner.",
+            "The aim is to identify useful combinations, not to find an unusual material at any cost. No Indian supplier prices, ",
+            "production yield or novelty search has been completed. Comfortable, cheap and hard to break remain design goals."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 19,
+          "characters": 2160,
+          "body_lines": 30,
+          "first_lines": [
+            "Cushion and cover material findings",
+            "Published foam reference Reference point Flat ring force N",
+            "PORON 4701 30 240 kg/m3 25 percent compression 89.5"
+          ],
+          "last_lines": [
+            "Material data etpu",
+            "Material data film",
+            "Material data spacer"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 20,
+          "characters": 1984,
+          "body_lines": 23,
+          "first_lines": [
+            "Folding results across six sizes",
+            "Size Best sampled angles Envelope change",
+            "adult large 75 and 60 degrees 23.5 percent smaller"
+          ],
+          "last_lines": [
+            "This folding study belongs to our standalone defender. It does not make the Sony WH-CH720N foldable or change ",
+            "its original headband. Replacement pad compatibility and sound tests still need the Sony measurements and ",
+            "physical samples."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 21,
+          "characters": 1603,
+          "body_lines": 17,
+          "first_lines": [
+            "Folding CAD and the next durability checks",
+            "Actual adult medium STEP geometry before and after an exploratory fold. Views fit each shape independently. The triangles are",
+            "display tessellation, not the cover texture. This is not a manufactured headset or a native Fusion hinge simulation."
+          ],
+          "last_lines": [
+            "Both living reports were updated together with the 70 family register, grade calculations, foam point screens and ",
+            "folding passes and failures. Primary local records are in engineering-v11-results. The Sony pad geometry and its ",
+            "untested compatibility status are unchanged."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 22,
+          "characters": 1066,
+          "body_lines": 11,
+          "first_lines": [
+            "V12 Shared progress and the Sony pad",
+            "The standalone defender now has six V12 STEP candidates with wider guide channels, an offset fork and a captive ",
+            "folding-lock pin. The independent audit records 216 passing rigid samples and all 18 STEP files pass solid-count and "
+          ],
+          "last_lines": [
+            "portability still needs work. The two fork fixtures pass the chosen mesh comparisons, but the complete lock, its cap ",
+            "and fastening design, fatigue and drops are unvalidated. The main Ear Defender Project report contains the full V12 ",
+            "band, pin, spring and failure records."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 23,
+          "characters": 2129,
+          "body_lines": 26,
+          "first_lines": [
+            "V12 Replacement pad conclusions remain open",
+            "Question for our Sony pad Current result What is needed",
+            "Does it fit the mount Not established Deferred original pad and groove measurements"
+          ],
+          "last_lines": [
+            "Affordable Indian supply and a useful glasses zone remain goals. Model-specific measurements and matched ",
+            "original-pad tests come before a benefit claim or a price promise. The market review remains dated 13 October; this ",
+            "engineering update adds no new supplier quote, stock confirmation or competitor test."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 24,
+          "characters": 2694,
+          "body_lines": 27,
+          "first_lines": [
+            "V13 Assembly failure and V14 rear cap",
+            "V13 tried a removable side cap. The first cap also clashed with a screw head; a clearance recess corrected that clash. ",
+            "The later assembly check found a more basic problem: the fixed spring guide obstructed radial insertion. Forty eight "
+          ],
+          "last_lines": [
+            "Both reports share the same revision and limits. V14 is local STEP work; the newest native Fusion archives remain ",
+            "V10. The main project report contains the detailed new checks and retained failures. Earlier market prices remain a ",
+            "dated comparison, not a new quote or proof that our design is better."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 25,
+          "characters": 2077,
+          "body_lines": 23,
+          "first_lines": [
+            "V15 Knob retention experiment",
+            "V15 is one adult small retention pilot. It adds an intended M2 threaded metal knob and a separate hex jam nut to ",
+            "the V14 release stem. The earlier knob only had an unretained matching bore. Countertightening the nut against "
+          ],
+          "last_lines": [
+            "unchanged. Its original mounting dimensions remain deferred by the user; fit, retention, pressure, incoming noise, ",
+            "outgoing music and ANC effects remain untested. The separate pad product does not inherit a benefit from this ",
+            "knob change."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 26,
+          "characters": 2652,
+          "body_lines": 28,
+          "first_lines": [
+            "V15 Shared packing and retention limits",
+            "Size Boxes ranked Endpoints checked Best recorded fold against retracted unfolded",
+            "child small 30625 65 0.51 percent larger"
+          ],
+          "last_lines": [
+            "pinch, physical handling and durability limits remain open.",
+            "The 2 new STEP reimports passed solid count, validity and volume checks. The improved child large export also ",
+            "matched the intended box dimensions. These checks cover storage of the geometry, not a physical product."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 27,
+          "characters": 1242,
+          "body_lines": 12,
+          "first_lines": [
+            "V15 Remaining retention and product tests",
+            "The retention screen calculates 72 assumed combinations of root diameter, tightening torque, nut factor and ",
+            "external pull. A simple solid rod model gives required yield strengths from 28.6 to 254.0 MPa for a chosen factor of "
+          ],
+          "last_lines": [
+            "At the V15 stage, V14 was the latest six size CAD candidate and V15 was a local STEP experiment for one size. The ",
+            "later V16 section records the next changes. Native editable Fusion archives remain V10. Real material data, ",
+            "complete joint analysis and physical comfort, acoustic and durability work are still needed."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 28,
+          "characters": 1367,
+          "body_lines": 14,
+          "first_lines": [
+            "V16 Indexed folding and rivet retention",
+            "Project status: V16 indexed folding candidates with V10 native archives.",
+            "V16 adds holes for the wearing and folded positions. The locking pins can return into the folded holes instead of "
+          ],
+          "last_lines": [
+            "The rivet shaft is 0.8 mm across, in a nominal 0.85 mm cross hole. Its formed heads are 1.2 mm across and sit in ",
+            "recesses. The knob bore is 2.3 mm around the 2.2 mm stem. These dimensions define positive geometric capture. ",
+            "Actual tolerances, metal grade, riveting tools, forming strain, wear and proof loads remain unqualified."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 29,
+          "characters": 2846,
+          "body_lines": 34,
+          "first_lines": [
+            "V16 Recorded checks and packing",
+            "Size Sampled sequence checks Folded box against retracted unfolded",
+            "child small 39 4.88 percent smaller"
+          ],
+          "last_lines": [
+            "other 24 without a predicted strain. These 0.85 to 3 mm grades cannot establish the behaviour of our shaped 20 ",
+            "mm cushion, cover, glasses seal or wearer comfort.",
+            "Rogers published compression curves"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 30,
+          "characters": 1867,
+          "body_lines": 18,
+          "first_lines": [
+            "Manufacturer reference data for thin sheets. No low-pressure extrapolation or manufactured headphone result is claimed.",
+            "Seven blank CSV record templates are prepared for Sony measurements, foam and cover calibration, band and joint ",
+            "measurements, acoustic comparisons, wearer feedback, durability and supplier quotes. Their result cells are empty. "
+          ],
+          "last_lines": [
+            "feedback. Production cost requires real quotes including forming, tooling, assembly, inspection, scrap, packaging ",
+            "and distribution. The product remains a prototype candidate, with complete joint strength, actual materials, ",
+            "manufacturing tolerances and physical validation unfinished."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 31,
+          "characters": 2578,
+          "body_lines": 31,
+          "first_lines": [
+            "V16 Joint clearance and manufacturing errors",
+            "The 2.3 mm index hole and 2.2 mm pin leave only 0.05 mm of radial clearance. A nominal geometry pass is ",
+            "therefore not enough to establish reliable assembly or spring return. Both documents now record this "
+          ],
+          "last_lines": [
+            "measurements before approving tolerances.",
+            "These are standalone defender joint checks. The Sony replacement cushion has no such joint; its mounting ",
+            "measurements and physical seal tests remain outstanding."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 32,
+          "characters": 1413,
+          "body_lines": 20,
+          "first_lines": [
+            "V17 Pin entry trials",
+            "Project status: V17 two size entry pilots with V16 six size candidates and V10 native archives.",
+            "V16 exposed a small clearance budget at the locking index. V17 changes only the child large and adult small pilots. "
+          ],
+          "last_lines": [
+            "size.",
+            "Actual sections through the wearing pin axes. The picture shows the local entry and straight land, not spring centering or a measured ",
+            "return force."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 33,
+          "characters": 2519,
+          "body_lines": 29,
+          "first_lines": [
+            "V17 Recorded geometry and component checks",
+            "Pilot Sequence samples Valid solids",
+            "child large 31 46"
+          ],
+          "last_lines": [
+            "The Sony WH CH720N replacement cushion is unchanged. These pin-entry trials concern the separate standalone ",
+            "defender. Sony mounting measurements and actual fit, seal, pressure, leakage and ANC comparisons remain ",
+            "outstanding."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 34,
+          "characters": 1954,
+          "body_lines": 22,
+          "first_lines": [
+            "V17 Loaded pin contact and spring return",
+            "The latch is on hold for production. Unloaded geometry and component mesh passes do not establish reliable pin ",
+            "return when the joint carries a sideways load. The new calculation bends a 2.2 mm pin against two guides with a "
+          ],
+          "last_lines": [
+            "predicted factory yield. Sliding drag is estimated from static guide reactions; no actual withdrawal or return path, ",
+            "surface pressure, collar, cross hole or chamfer centering is solved. The result identifies a risk to measure, not a ",
+            "proven failure in a real product."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 35,
+          "characters": 3077,
+          "body_lines": 41,
+          "first_lines": [
+            "V17 Spring trade offs and completion decision",
+            "The 300 alternative spring designs vary wire diameter, coil diameter, active turns and free length. The screen also ",
+            "includes assumed dimensional errors, a 10 percent rate range, 1.5 mm permanent length loss, a 0.5 mm reserve "
+          ],
+          "last_lines": [
+            "mounting measurements must precede model specific and physical performance claims.",
+            "The production hold above concerns the standalone latch. The replacement cushion remains a separate candidate ",
+            "and still needs Sony mounting measurements, calibrated pad materials and physical fit and acoustic tests."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 36,
+          "characters": 1295,
+          "body_lines": 14,
+          "first_lines": [
+            "V18 A different folding hinge",
+            "Project status: V18 six size passive hinge candidates with V10 native archives.",
+            "V18 is our latest six size local STEP candidate. It replaces the sliding locking pin with a passive friction hinge and a "
+          ],
+          "last_lines": [
+            "This change is for the standalone defender. The separate Sony WH CH720N pad is unchanged. Its carrier is still ",
+            "generic, and its mounting measurements are deferred. No Sony fit, seal, bass, ANC, outgoing leakage or glasses ",
+            "comfort pass is added by the hinge work."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 37,
+          "characters": 1685,
+          "body_lines": 22,
+          "first_lines": [
+            "V18 Geometry and rejected trials",
+            "Size Pose ",
+            "samples Retracted box mm Folded box mm"
+          ],
+          "last_lines": [
+            "Folding is available, but its packing benefit varies. The band and protruding sliders limit the envelope, and the ",
+            "smallest child version has only a small bounding box reduction. A box comparison is not a carrying test or an ",
+            "optimised travel design. The rigid surfaces also do not represent actual fabric texture."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 38,
+          "characters": 1393,
+          "body_lines": 15,
+          "first_lines": [
+            "V18 Torque and the wearing stop",
+            "Sections of actual saved hinge and stop solids. The spring is at a reference catalogue height; the nut and bolt use thread envelopes.",
+            "Each hinge has two friction washers, backup washers, a disc spring, a bolt and a nut. The two stop patches total 32 "
+          ],
+          "last_lines": [
+            "comparisons, not comfort or dexterity thresholds for autistic people. We have no spring force curve from which to ",
+            "infer the correct nut position or installed height. The CAD spring height therefore remains a catalogue reference ",
+            "pose."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 39,
+          "characters": 1567,
+          "body_lines": 17,
+          "first_lines": [
+            "V18 What the numerical checks mean",
+            "Maximum static gravity moment over orientation for each assumed density scenario. This is not a measured mass or hinge holding ",
+            "result."
+          ],
+          "last_lines": [
+            "The two tongue and fork shapes in each size family were checked for equal geometry after translation. That allows a ",
+            "listed component fixture to be shared within its family. A Boolean equality query did not establish child band ",
+            "identity, so we independently reran the band fixtures for every size instead of transferring an old result."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 40,
+          "characters": 2410,
+          "body_lines": 36,
+          "first_lines": [
+            "V18 Headband checks and the next decision",
+            "Band fixture Guide movement mm Sampled stress MPa Last stress change",
+            "adult small 2.798 2.52 3.78%"
+          ],
+          "last_lines": [
+            "universal fit, market superiority or lowest price claim is supported. Supplier quotes and verified production ",
+            "processes are still needed. Both reports retain the earlier results and failures and will be updated together when ",
+            "measured evidence is added."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 41,
+          "characters": 1366,
+          "body_lines": 16,
+          "first_lines": [
+            "V18 Final component checks",
+            "The fork between the cup and folding hinge now has its own component test. This adds evidence for a part that was ",
+            "missing from the earlier V18 fixtures. It does not replace the complete joint, worn fit or acoustic tests."
+          ],
+          "last_lines": [
+            "The material is still assumed: elastic modulus 2000 MPa and Poisson ratio 0.35. Straight sided quadratic tetrahedra ",
+            "approximate the curved surfaces. Actual bearing pressure, bolt preload, washer friction, guide flexibility and stop ",
+            "contact are not solved. Numerical support reactions are not real pressure measurements."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 42,
+          "characters": 2648,
+          "body_lines": 42,
+          "first_lines": [
+            "V18 Testing decision and remaining inputs",
+            "The current V18 component assessment is recorded. There are now 30 saved solver array audits across the band, ",
+            "tongue stop and fork fixtures. Source hashes, work and energy, force balance, fixed displacements, finite values, "
+          ],
+          "last_lines": [
+            "finished or released product.",
+            "The Sony WH CH720N pad still needs the original mounting dimensions, which the user will measure later. The fork ",
+            "results concern the separate defender. They do not add a model specific fit, glasses pressure, ANC or leakage result."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 43,
+          "characters": 2583,
+          "body_lines": 33,
+          "first_lines": [
+            "V18 Final material and clearance screens",
+            "This is the final bounded screen on the current V18 geometry. It adds 500 material and load comparisons, 288 pivot ",
+            "clearance scenarios and 216 equivalent acceleration comparisons. These are calculated scenarios, not 1004 physical "
+          ],
+          "last_lines": [
+            "nut outward as the reference disc spring relaxes gives about 3.01 mm overlap between the nominal solid envelopes. ",
+            "This is not a thread engagement or bolt strength pass. Real thread ends, shoulder length, locking, tolerances and ",
+            "calibrated spring position still need an assembly design and proof."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 44,
+          "characters": 2296,
+          "body_lines": 24,
+          "first_lines": [
+            "V18 Retention result and end of screening",
+            "Calculated demand under equivalent static acceleration and the proposed unmeasured hinge torque targets. This is not a drop or ",
+            "impact simulation."
+          ],
+          "last_lines": [
+            "manufacturing release or demonstrated advantage over market headphones.",
+            "The Sony replacement pad geometry is unchanged. These standalone hinge and material comparisons do not prove ",
+            "that the replacement fits the Sony, reduces glasses pressure or preserves bass, ANC, isolation or outgoing leakage."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 45,
+          "characters": 1371,
+          "body_lines": 13,
+          "first_lines": [
+            "V19 Prototype assembly and next decision",
+            "Project status: V19 six size assembly prototype with conditional joint calculations and V10 native archives.",
+            "V19 keeps the six adjustable sizes and changes the hinge hardware. Each hinge now has two nested disc springs, a "
+          ],
+          "last_lines": [
+            "strength, drive, runout, tolerances and effective locking still need supplier and bench review.",
+            "This hinge change belongs to the standalone defender. The Sony WH CH720N replacement pad is unchanged. It has ",
+            "no model-specific fit or sound pass. The shared material and measurement findings below apply to both routes."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 46,
+          "characters": 1375,
+          "body_lines": 18,
+          "first_lines": [
+            "V19 Folding and holding tradeoff",
+            "Saved V19 retracted and folded surfaces. Sampled collision checks do not establish continuous motion clearance, wrench access or ",
+            "handling strength."
+          ],
+          "last_lines": [
+            "tools and remeasure hinge torque after locking. The disc reference position is not a measured assembly setting. A ",
+            "nominal radial clearance budget leaves 0.06 mm after chosen diameter, axis and growth errors. Supplier capability ",
+            "has not been demonstrated."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 47,
+          "characters": 1414,
+          "body_lines": 15,
+          "first_lines": [
+            "V19 Retention and folding effort",
+            "Equivalent static moment comparison. The torque lines are chosen targets, not measured hinge properties. This is not a drop or ",
+            "shake simulation."
+          ],
+          "last_lines": [
+            "000600B data. Real spring variation, friction, settling and plastic creep can change the assembly. Set torque by ",
+            "measurement, not by copying a nut position from the drawing.",
+            "SCHNORR disc spring stacking guidance"
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 48,
+          "characters": 1230,
+          "body_lines": 12,
+          "first_lines": [
+            "V19 Coupled joint calculation and limits",
+            "Solved displacement at the chosen outward 2 N fixture load. This model is a numerical development study; the final refinement result ",
+            "and gate are stated below."
+          ],
+          "last_lines": [
+            "bearing clearance, bolt bending, thread load, disc spring deformation, guide contact or the full worn headset. The ",
+            "reference elastic modulus is 3500 MPa for TECAMID 66 natural and Poisson ratio 0.35 is assumed. This is a reference ",
+            "material calculation, not a qualified part grade or a prediction of long-term performance."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 49,
+          "characters": 1255,
+          "body_lines": 18,
+          "first_lines": [
+            "V19 Joint convergence and scope",
+            "Family and mesh change Displacement change Chosen 5 percent comparison",
+            "child large 3.0 to 2.0 mm 45.5% Fail"
+          ],
+          "last_lines": [
+            "adult refinement showed about 1.3 GB free on the 16 GB laptop. This is a bounded study limit, not a proven ",
+            "hardware maximum. Further joint refinement or a different solver remains computer work if the numerical limit is ",
+            "not met; it is not being relabelled as completed physical testing."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 50,
+          "characters": 1601,
+          "body_lines": 18,
+          "first_lines": [
+            "V19 Material finding and prototype records",
+            "We checked additional published foam reference points rather than inventing a winning new material. PORON ",
+            "4701-30 lists typical 25 percent compression pressures of 21, 35 and 62 kPa for its three density options. Under "
+          ],
+          "last_lines": [
+            "notes, blank material and test records, a Sony measurement form, a supplier quotation form and a measured-input ",
+            "readiness checker. No supplier was contacted and no quotation was obtained. The PDF is a prototype dimensional ",
+            "review, not a complete production drawing. Inputs remain blank because we have not measured a real sample."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 51,
+          "characters": 1748,
+          "body_lines": 21,
+          "first_lines": [
+            "V19 What we can conclude now",
+            "Measurement guide only. The pictured oval is illustrative and is not the Sony mounting shape.",
+            "Workstream Current decision"
+          ],
+          "last_lines": [
+            "dimensions. Build a bench hinge and pad sample, compare measurements with the models, then revise the CAD and ",
+            "make a complete fixture prototype. Voluntary wearer feedback is needed before any claim about autistic users. ",
+            "Both living reports must continue to update together when real measurements or new revisions arrive."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 52,
+          "characters": 2783,
+          "body_lines": 29,
+          "first_lines": [
+            "V19 Higher order joint model",
+            "The first linear solid joint model still changed by about 6 percent at the finest mesh comparison. A separate model ",
+            "variant aligns the washer boundary and preload footprint with the mesh, then uses quadratic solid elements. Its "
+          ],
+          "last_lines": [
+            "bench prototype proposal, while collecting actual material curves and joint measurements for calibration. Exact ",
+            "Sony fit, real sound reduction, music leakage, heat, durability and sensory acceptance still need the measurements ",
+            "and sample tests listed in both reports."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 53,
+          "characters": 1782,
+          "body_lines": 22,
+          "first_lines": [
+            "V19 Inward joint load comparison",
+            "We extended the higher order joint calculation to a 2 N inward load. The four cases reuse exactly the saved child ",
+            "large and adult small meshes from the outward study. The assumed PA66 elastic reference, ideal pivot, 140 N "
+          ],
+          "last_lines": [
+            "The Sony WH CH720N replacement cushion is unchanged. No model-specific fit, pressure, sound isolation, playback ",
+            "leakage or ANC pass is added. Real pad and mounting measurements, material curves and fixture measurements ",
+            "remain the next inputs for both product routes."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 54,
+          "characters": 1600,
+          "body_lines": 18,
+          "first_lines": [
+            "V20 Internet dimensions and cushion candidates",
+            "Update on 21 October 2026. We can start buying small test samples, but both products remain unproven. SoftSpace ",
+            "keeps its V19 headphone design. SoftSpace Flex now has three V20 pad body candidates based on a published "
+          ],
+          "last_lines": [
+            "unknown",
+            "All three exported STEP bodies reimported with positive volumes and the expected part counts. This is a file and ",
+            "geometry check, not a mounting, sealing or comfort pass. The earlier generic V8 cushion remains in the history."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 55,
+          "characters": 1689,
+          "body_lines": 20,
+          "first_lines": [
+            "V20 What the cushion calculations show",
+            "We compared 11,664 paired cases with different assumed foam stiffness, cover stiffness, force, glasses thickness, ",
+            "position and zone size. This simple model treats areas of foam as separate compressible columns. It does not "
+          ],
+          "last_lines": [
+            "Twelve selected rows were checked by a separately written scalar calculation with exact ellipse-strip areas. All ",
+            "stayed within the chosen 1 percent comparison. Force balance and a uniform-pressure reference also passed. These ",
+            "checks support the implementation, not the realism of its assumed material law."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 56,
+          "characters": 1585,
+          "body_lines": 16,
+          "first_lines": [
+            "V20 Headphone checks and remaining risks",
+            "All eight saved V19 higher-order joint solutions passed a fresh equation reassembly, file hash, force-balance and ",
+            "saved-array audit. This repeats the same model rather than using an independent physical experiment or a different "
+          ],
+          "last_lines": [
+            "heat, fatigue and durability remain open. Replacing missing material curves or mounting dimensions with assumed ",
+            "numbers would not finish or validate those models. Native editable Fusion files remain V10; current headset ",
+            "geometry remains V19 STEP."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 57,
+          "characters": 2320,
+          "body_lines": 32,
+          "first_lines": [
+            "V20 What to buy for the first prototypes",
+            "Recommendation: proceed with inexpensive learning samples, not a batch of finished headphones or production ",
+            "tooling. Computer checks have narrowed some choices and found failures. We cannot put a credible success "
+          ],
+          "last_lines": [
+            "Claims we cannot support yet include proven benefit for autistic users, clinically tested comfort, a verified Sony fit, ",
+            "zero leakage, a quantified chance of success, a certified noise rating or superiority over other headphones. No ",
+            "funding application was submitted."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 58,
+          "characters": 1117,
+          "body_lines": 12,
+          "first_lines": [
+            "V20 Source evidence and audit trail",
+            "The screenshots below record the sources checked on 21 October 2026. They support dimensions and the mounting ",
+            "approach, not our product performance. Screenshots and attractive CAD pictures are supporting illustrations; raw "
+          ],
+          "last_lines": [
+            "CAD_verification.json, contact_summary.json, contact_controls.json, verification.json, saved_audit_rerun.json, ",
+            "scenario CSVs and the source screenshots. Source scripts are v20_preprototype_screen.py, verify_v20_screen.py ",
+            "and build_v20_flex_reference.py. The first ellipse build error is preserved in CAD_build_trials.json."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 59,
+          "characters": 1558,
+          "body_lines": 21,
+          "first_lines": [
+            "V21 Additional software review",
+            "24 October 2026 review of calculations from 23 and 24 October. The added checks found useful passes and ",
+            "important failures. All possible software work is not finished. The first joint peak-stress comparisons failed; the "
+          ],
+          "last_lines": [
+            "deformation or continuous motion between samples.",
+            "The test register now separates completed finite checks, failed numerical comparisons, missing measurements and ",
+            "tests that need people. A large number of calculations is not a probability that either product will work."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 60,
+          "characters": 1489,
+          "body_lines": 20,
+          "first_lines": [
+            "V21 Glasses positions change the result",
+            "The exact-area calculation checked all 11,664 old cushion rows. 334 differed by more than the chosen 1 percent ",
+            "comparison, with a maximum difference of 3.35 percent. The earlier 12 selected comparisons were correct, but they "
+          ],
+          "last_lines": [
+            "pressure elsewhere and four showed model detachment. There is no final winner. This taller zone is a numerical ",
+            "alternative only; the three V20 STEP bodies are unchanged. Model detachment does not directly predict sound ",
+            "leakage."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 61,
+          "characters": 2030,
+          "body_lines": 26,
+          "first_lines": [
+            "V21 The first joint stress comparison failed",
+            "We recovered stresses at 27 interior points in each element of eight saved joint solutions. The old centre-point ",
+            "values were reproduced. Peak stress changed substantially between the two existing meshes. All eight comparisons "
+          ],
+          "last_lines": [
+            "An extra 1.9 mm child large mesh trial has 33925 nodes. Trial status: equilibrium converged. The first unoptimized ",
+            "curved mesh had an invalid element and was rejected. The saved trial and failure log document the correction ",
+            "attempt; no result here is a full product-strength pass."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 62,
+          "characters": 1989,
+          "body_lines": 23,
+          "first_lines": [
+            "V21 Finer joint results",
+            "We added optimized 1.9 mm meshes for the child large and adult small representative joints, under outward and ",
+            "inward loads. The table compares the new interior-point peaks with the 2.3 mm results. The failed earlier "
+          ],
+          "last_lines": [
+            "singularity. Quantiles do not replace failed peak checks. The rejected mesh and stopped solver experiments are ",
+            "retained. A stopped experiment has no equilibrium pass. The final accepted route and raw solutions are identified in ",
+            "refinement/matrix_review.json and solver_experiments.json."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 63,
+          "characters": 2120,
+          "body_lines": 27,
+          "first_lines": [
+            "V21 What is still open",
+            "Topic Current evidence and remaining work",
+            "Peak joint stress Read the finer comparison page for the current status. Surface peaks, real material "
+          ],
+          "last_lines": [
+            "Evidence: engineering-v21-results contains the motion logs, exact-area comparisons, wider position cases, separate ",
+            "scalar controls, stress recovery, mechanical limits and the complete test scope register. The two reports use the ",
+            "same evidence snapshot. No new market-price check or physical test was performed on this date."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 64,
+          "characters": 1327,
+          "body_lines": 21,
+          "first_lines": [
+            "V21 Carrying poses",
+            "The old fold reduced the child medium bounding volume by less than 0.1 percent. We therefore searched additional ",
+            "positions of the existing parts. This changes the assembly pose only; the headband, cups and cushions were not "
+          ],
+          "last_lines": [
+            "This is a finite geometric carrying check. It does not prove a continuous path, finger safety, friction holding, loaded ",
+            "clearance or real bag fit. If a size has no selected candidate, its existing V19 pose remains the reference. The ",
+            "complete search trials and source hashes are saved."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 65,
+          "characters": 1498,
+          "body_lines": 14,
+          "first_lines": [
+            "V22 How reliable are the stress numbers",
+            "24 October 2026. We checked the saved joint results more deeply before relying on them. The material properties, ",
+            "loads and CAD are unchanged. A second method of calculating strain matched the original method. Increasing "
+          ],
+          "last_lines": [
+            "The additional 35 point set includes element corners, edges and faces. Seven of its eight comparisons exceed 5 ",
+            "percent. These are sampled values, not a proof of the largest stress everywhere. No global stress, material strength, ",
+            "hinge life or break resistance pass is established. We have kept the earlier results and explained their limits."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 66,
+          "characters": 1777,
+          "body_lines": 20,
+          "first_lines": [
+            "V22 Targeted adult fork refinement",
+            "The adult fork had two recorded stress hotspots. We generated a mesh with a 0.9 mm local target around them, ",
+            "keeping the earlier tongue mesh and the same CAD. This mesh has 46,413 nodes. Both load directions use the same "
+          ],
+          "last_lines": [
+            "We did not change the CAD or raise the allowable stress to make a test pass. We also did not use average stress to ",
+            "replace a peak criterion. Further model or design changes need to state the actual contact and edge geometry, ",
+            "material and production process being represented."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 67,
+          "characters": 1929,
+          "body_lines": 23,
+          "first_lines": [
+            "V22 Contact consistency and correction",
+            "A rigid motion test moves the entire joint together. It should create no relative slip. The original friction interface ",
+            "passed common translations and rotation about the intended hinge axis, but failed rotations about the other two "
+          ],
+          "last_lines": [
+            "The earlier stress fields remain saved with their original interface identified. The corrected reference remains ",
+            "conditional. Complete spacer contact, actual edge shape, material properties, preload and manufactured tolerances ",
+            "must be specified before treating it as the intended product."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 68,
+          "characters": 1606,
+          "body_lines": 20,
+          "first_lines": [
+            "V22 A simpler cushion control",
+            "We also checked a simpler option: make the entire foam pad softer, rather than adding a soft patch near the glasses ",
+            "arm. We ran 25,272 assumed cases using the same exact area foam model as V21. The glasses arm still acts on one "
+          ],
+          "last_lines": [
+            "The earlier 100 mm strip is not this whole pad control. That strip changes the arm facing half of the annulus. The ",
+            "new control changes both halves. Pad shape and mounting CAD are unchanged. No sound leakage, noise reduction, ",
+            "heat, durability or sensory acceptance result is added."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 69,
+          "characters": 2059,
+          "body_lines": 32,
+          "first_lines": [
+            "V22 Computer test status and next inputs",
+            "Area What this means now",
+            "Six size CAD and folding Finite geometry checks and smaller carrying poses are saved. Continuous motion, finger "
+          ],
+          "last_lines": [
+            "Both documents use the same update. SoftSpace keeps V19 part geometry with V21 carrying poses. SoftSpace Flex ",
+            "keeps its three V20 reference bodies. There is no new physical test, success probability, sound rating, market price ",
+            "check or proof of benefit for autistic users in this update."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 70,
+          "characters": 1487,
+          "body_lines": 20,
+          "first_lines": [
+            "V23 Corrected hinge checks across two size families",
+            "24 October 2026. The new campaign runs the corrected virtual spacer model on both the child large and adult small ",
+            "isolated joints. Each uses two mesh sizes and two load directions, giving eight new equilibrium calculations. The "
+          ],
+          "last_lines": [
+            "The fixed assumptions are stiffness 3500 MPa, Poisson ratio 0.35, preload 140 N, friction coefficient 0.2 and side ",
+            "force plus or minus 2 N. The virtual spacer is 0.5 mm. Actual washer contact, threads, production tolerances, ",
+            "material history and complete headset loads are still missing from this reference model."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 71,
+          "characters": 1314,
+          "body_lines": 13,
+          "first_lines": [
+            "V23 What the stronger stress check shows",
+            "Same corrected reference equations and the same stress sampling methods on both meshes. The dashed line is our chosen ",
+            "comparison limit, not a safety standard."
+          ],
+          "last_lines": [
+            "The new raw fields, source hashes, solver histories, numerical controls and every comparison are saved in ",
+            "engineering v23 results. The older raw fields are preserved. This is a completed numerical campaign with unresolved ",
+            "design conclusions, not a finished headphone or a physical test."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 72,
+          "characters": 1691,
+          "body_lines": 26,
+          "first_lines": [
+            "V23 Software status and the remaining inputs",
+            "Area Current conclusion What is needed next",
+            "Corrected hinge equations Eight new solves and numerical checks "
+          ],
+          "last_lines": [
+            "software testing complete. Missing material and interface inputs must be supplied before realistic full product ",
+            "simulations can be completed. Inventing those values would give misleading confidence. The remaining test register ",
+            "separates those input gaps from completed checks and from tests that require people."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 73,
+          "characters": 1367,
+          "body_lines": 17,
+          "first_lines": [
+            "V24 Finer child and adult joint calculations",
+            "24 October 2026. We added a finer 1.5 mm target mesh for both isolated joint families. There are four new ",
+            "equilibrium calculations, covering outward and inward loads on child large and adult small. The V19 part shapes and "
+          ],
+          "last_lines": [
+            "The assumptions remain stiffness 3500 MPa, Poisson ratio 0.35, preload 140 N, friction 0.2 and a side force of plus ",
+            "or minus 2 N. The virtual spacer is 0.5 mm. This model still omits a resolved real washer, bolt, material history, full ",
+            "headset loading and worn contact. The complete raw fields, histories and hashes are saved."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 74,
+          "characters": 1293,
+          "body_lines": 13,
+          "first_lines": [
+            "V24 Do the finer stress predictions agree",
+            "Same corrected reference equations and stress sampling sets on 1.9 mm and 1.5 mm target meshes. The dashed line is our chosen 5 ",
+            "percent comparison limit, not a product safety standard."
+          ],
+          "last_lines": [
+            "Further useful work needs the intended physical edge, contact, spacer and fastener details to be defined and ",
+            "represented. More fine meshes of an incomplete contact idealization cannot prove the finished device is strong, ",
+            "comfortable or quiet. No CAD shape or final material is selected by these calculations."
+          ],
+          "text_rectangles_outside_physical_page": []
+        },
+        {
+          "page": 75,
+          "characters": 1922,
+          "body_lines": 23,
+          "first_lines": [
+            "V24 Restored records and the remaining software gates",
+            "Moving to D revealed that the main CAD readers still followed old C drive paths. They now resolve a source using its ",
+            "recorded hash. An audit matched all 623 recorded references, covering 304 distinct path and hash pairs. Four older "
+          ],
+          "last_lines": [
+            "checks add no Sony fit, pain relief, sound leakage, ANC or cooling result. This finer numerical campaign is complete, ",
+            "but full product software sign off is not achieved. The test register records failed and missing requirements ",
+            "explicitly."
+          ],
+          "text_rectangles_outside_physical_page": []
+        }
+      ]
+    }
+  ],
+  "scope": "Native Word PDF export, all-page render, text rectangle and blank-page checks. Visual inspection is recorded separately; these automated checks do not verify scientific claims."
+}

@@ -42,6 +42,14 @@ This repository makes the work inspectable: actual CAD, illustrated reports, num
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-routes-mobile.svg"/><img src="assets/readme/section-routes.svg" width="100%" alt="TWO ROUTES THROUGH THE QUESTION. A passive headphone concept and replacement cushions."/></picture></p>
 
 
+<!-- V24:BEGIN -->
+## V24 corrected joint verification
+
+Four new corrected virtual-spacer reference calculations use finer 1.5 mm target meshes on both joint families and load directions. Only 2 of 16 refined peak comparisons meet the fixed 5 percent limit. Their [raw results and stress comparisons](SoftSpace/engineering/evidence/engineering-v24-results/README.md) retain every failed comparison. Numerical consistency does not establish reliable whole-part stress or physical strength.
+
+Primary CAD source loaders now resolve the moved workspace by recorded hashes. Four exact historical V12 sources are restored separately; all 304 recorded source path/hash pairs match. Both illustrated Word reports are updated together. Read the [remaining test register](SoftSpace/engineering/evidence/engineering-v24-results/remaining_test_register.csv): actual material curves, detailed joints, Sony mounting, sound and heat inputs remain unresolved. This completed numerical campaign is **not all product software testing completed**. No physical validation or product performance claim is added.
+<!-- V24:END -->
+
 <!-- V23:BEGIN -->
 ## V23 corrected joint verification
 
