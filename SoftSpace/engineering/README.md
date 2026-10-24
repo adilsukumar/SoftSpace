@@ -1,6 +1,6 @@
 # Engineering record
 
-[Project overview](../../README.md) Â· [SoftSpace](../README.md) Â· [SoftSpace Flex](../../SoftSpace%20Flex/README.md)
+[Project overview](../../README.md) Ã‚Â· [SoftSpace](../README.md) Ã‚Â· [SoftSpace Flex](../../SoftSpace%20Flex/README.md)
 
 This directory contains a curated snapshot of saved research files. The publication manifest records original source hashes and published hashes. Text-only machine paths were normalized to `${WORKSPACE}` or `${USER_HOME}`; CAD and numerical arrays remain unchanged. Old technical filenames are preserved to connect results with their source geometry.
 
@@ -72,6 +72,14 @@ Read [the bounded study and purchase recommendation](evidence/engineering-v20-re
 ## V21 additional software review
 
 Read [the review, failures and remaining work](evidence/engineering-v21-results/README.md). New scripts run in a prepared workspace. Raw V19 solutions are unchanged. The four new finer equilibrium solves, stress recovery, hotspot diagnostics and six compact poses are recorded separately. Neither the older immutable release nor V20 closes these new issues.
+
+<!-- V23:BEGIN -->
+## V23 corrected joint verification
+
+Eight new corrected virtual-spacer reference calculations cover two joint families, two meshes and both load directions. Their [raw results and stress comparisons](evidence/engineering-v23-results/README.md) retain every failed comparison. Numerical consistency does not establish reliable whole-part stress or physical strength.
+
+Both illustrated Word reports are updated together. Read the [remaining test register](evidence/engineering-v23-results/remaining_test_register.csv): actual material curves, detailed joints, Sony mounting, sound and heat inputs remain unresolved. This completed numerical campaign is **not all product software testing completed**. No physical validation or product performance claim is added.
+<!-- V23:END -->
 
 <!-- V22:BEGIN -->
 ## V22 numerical confidence checks

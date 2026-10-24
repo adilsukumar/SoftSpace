@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "${WORKSPACE}\v23_review.py", line 21, in <module>
+    path=P/'engineering-v22-results'/f'objective_spacer_{side}.npz';j=P/'engineering-v22-results'/f'objective_spacer_{side}.json';original=json.loads(j.read_text());assert original['converged'];summary=stress_summary(np.load(path));local.append(dict(direction=side,raw_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),stress=summary))
+                                                                                                                                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "v23_stress", line 30, in stress_summary
+NameError: name 'itertools' is not defined. Did you forget to import 'itertools'?

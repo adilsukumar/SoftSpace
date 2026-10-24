@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-24",
+  "revision": "V23",
+  "campaign_complete": true,
+  "corrected_equilibrium_cases": 8,
+  "all_numerical_controls_pass": true,
+  "rigid_controls": 24,
+  "mesh_comparisons": 24,
+  "mesh_comparison_passes": 10,
+  "whole_part_strength_demonstrated": false,
+  "all_product_software_testing_complete": false,
+  "physical_tests": 0,
+  "CAD_changed": false,
+  "scope": "Eight new corrected virtual-spacer reference solves across two isolated joint geometries, two meshes and two load directions. Two previously solved corrected local adult fields postprocessed separately. Finite stress sampling and pairwise mesh checks cannot bound stress everywhere. Parameters are assumptions, not calibrated manufactured materials."
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-24",
+  "unchanged_fields": 12,
+  "sha256": {
+    "engineering-v19-results\\quadratic-contact\\child_large_h2.3.npz": "c6e9d2881812290de9fdd86a1f1157b9f7b106119cb815e74e3f865f9747ef65",
+    "engineering-v19-results\\quadratic-inward\\child_large_h2.3.npz": "b3435ebfcfb21bcfcf66f5b3384d1ccc5a157d9c8dcc95697916d3e8efadb505",
+    "engineering-v21-results\\refinement\\child_large_outward_h1.9.npz": "489412b274e4a69ab2e36e1fd51f475f1edc433d1f68c74008fe7e32e8292dca",
+    "engineering-v21-results\\refinement\\child_large_inward_h1.9.npz": "ce3dfdec60657f545d8a1e87887376b382b5244888b7259bee30aaabc1a09aec",
+    "engineering-v19-results\\quadratic-contact\\adult_small_h2.3.npz": "5688428784a096e328a8dc3461330bb13f20e10d6f86bd0ae34c0ba30d75f0b3",
+    "engineering-v19-results\\quadratic-inward\\adult_small_h2.3.npz": "076f9524fd70a136c040d5cf9f9ea9632bda2962ce5b3fdf94421db40ed8d828",
+    "engineering-v21-results\\refinement\\adult_small_outward_h1.9.npz": "f37b1eef5cca08b47a4af26f0c37d9bc3d245e0360bae34cff71db22677b9ed7",
+    "engineering-v21-results\\refinement\\adult_small_inward_h1.9.npz": "8fecd19bdc23069b63f30ba40463fc33082203b902dc547612d4ac10cf5a2d35",
+    "engineering-v22-results\\adult_fork_local_0.9_outward.npz": "09577b6a69f497ad9bb60073c545c59305edfef15d34c1f973e41eb5463f0dad",
+    "engineering-v22-results\\adult_fork_local_0.9_inward.npz": "6b003315f60d63013d42ddfa67cf7d2cae47a4a8a2fa9569301b250116811065",
+    "engineering-v22-results\\objective_spacer_outward.npz": "c242a14369b40d87cc966cea0b80dd46557a0bd527e488aa03b32bd3dbd63681",
+    "engineering-v22-results\\objective_spacer_inward.npz": "d5078a47793d4bd6f5ebe4fe7d9f053c12eee3b359991ebcf6024527d8c1e83d"
+  }
+}

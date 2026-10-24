@@ -1,26 +1,26 @@
 {
+  "date": "2026-10-24",
+  "scope": "Native Word read-only export and pagination. Visual PDF review recorded separately.",
   "documents": [
     {
-      "word_version": "16.0",
-      "native_pages": 94,
-      "pdf_sha256": "a6ce2abace5f73877fea4e2072517f45b6012b4d2fce93e3bf5f74b7291d007b",
-      "source_sha256": "856c8231a1bc1478cbfa89a3ab58c6e92762330b128fe3ed03e6c141a946051a",
       "source_unchanged": true,
-      "pdf": "${WORKSPACE}\\documents\\qa\\native_v22_Ear_Defender_Project.pdf",
+      "native_pages": 97,
       "native_export": "pass",
-      "document": "Ear_Defender_Project"
+      "document": "Ear_Defender_Project",
+      "word_version": "16.0",
+      "source_sha256": "ab378105ae93b5245c1718a10fa2579a28b0e9bb9423358cbb54c68b2fff0cca",
+      "pdf_sha256": "746560f717d6212505e47aafd0c566b0a71c5def8852609f2c85d66a53b36a14",
+      "pdf": "${WORKSPACE}\\documents\\qa\\native_v23_Ear_Defender_Project.pdf"
     },
     {
-      "word_version": "16.0",
-      "native_pages": 69,
-      "pdf_sha256": "7ad3874b4f97f1aee263a9e68dc520109ba7c221fb76002d3eac64feeb901d4c",
-      "source_sha256": "e7c8d3dfb51f40795dcd55216453380e7bb1754a09899d6e38447b7328cf8f81",
       "source_unchanged": true,
-      "pdf": "${WORKSPACE}\\documents\\qa\\native_v22_Glasses_Friendly_Headphone_Cushions.pdf",
+      "native_pages": 72,
       "native_export": "pass",
-      "document": "Glasses_Friendly_Headphone_Cushions"
+      "document": "Glasses_Friendly_Headphone_Cushions",
+      "word_version": "16.0",
+      "source_sha256": "89cec883bbe4ab46b4b6af3e16478ea6a12b1495613b8caaa364e9bbede5fc8f",
+      "pdf_sha256": "519de2aabb53053bde8ef409fc26124debc48ec5b2f77918404584c9715ccf35",
+      "pdf": "${WORKSPACE}\\documents\\qa\\native_v23_Glasses_Friendly_Headphone_Cushions.pdf"
     }
-  ],
-  "date": "2026-10-24",
-  "scope": "Native Word read-only export and pagination. Visual PDF review recorded separately."
+  ]
 }

@@ -1,0 +1,18 @@
+[
+  {
+    "document": "Ear_Defender_Project.docx",
+    "before_sha256": "856c8231a1bc1478cbfa89a3ab58c6e92762330b128fe3ed03e6c141a946051a",
+    "all_old_paragraphs_preserved_except_current_summary": true,
+    "all_old_tables_preserved": true,
+    "all_old_images_preserved": true,
+    "backup": "${WORKSPACE}\\documents\\history\\Ear_Defender_Project_V22_before_V23_20261024_152419.docx"
+  },
+  {
+    "document": "Glasses_Friendly_Headphone_Cushions.docx",
+    "before_sha256": "e7c8d3dfb51f40795dcd55216453380e7bb1754a09899d6e38447b7328cf8f81",
+    "all_old_paragraphs_preserved_except_current_summary": true,
+    "all_old_tables_preserved": true,
+    "all_old_images_preserved": true,
+    "backup": "${WORKSPACE}\\documents\\history\\Glasses_Friendly_Headphone_Cushions_V22_before_V23_20261024_152419.docx"
+  }
+]

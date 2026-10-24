@@ -1,0 +1,33 @@
+Prepared child_large_h2.3_outward 0.0007829659181650486
+child_large_h2.3_outward {'iteration': 0, 'relative_residual': 1.0505697006981998e-05, 'linear_residual': 2.435441545720027e-06, 'step': 1.0, 'gmres_iterations': 8}
+child_large_h2.3_outward {'iteration': 1, 'relative_residual': 8.308516463903504e-11, 'linear_residual': 1.0985939531180562e-06, 'step': 1.0, 'gmres_iterations': 9}
+Saved child_large_h2.3_outward 8.308516463903504e-11
+Prepared child_large_h2.3_inward 0.0017454724354401764
+child_large_h2.3_inward {'iteration': 0, 'relative_residual': 1.0349082886312717e-05, 'linear_residual': 1.644286951841649e-06, 'step': 1.0, 'gmres_iterations': 11}
+child_large_h2.3_inward {'iteration': 1, 'relative_residual': 5.04998669057069e-11, 'linear_residual': 3.111045025110746e-06, 'step': 1.0, 'gmres_iterations': 11}
+Saved child_large_h2.3_inward 5.04998669057069e-11
+Prepared child_large_h1.9_outward 0.000770422841716741
+child_large_h1.9_outward {'iteration': 0, 'relative_residual': 2.3446073682750412e-07, 'linear_residual': 5.738284748467468e-06, 'step': 1.0, 'gmres_iterations': 9}
+child_large_h1.9_outward {'iteration': 1, 'relative_residual': 2.6473217151979838e-11, 'linear_residual': 7.035709209685114e-07, 'step': 1.0, 'gmres_iterations': 9}
+Saved child_large_h1.9_outward 2.6473217151979838e-11
+Prepared child_large_h1.9_inward 0.0005478101326578012
+child_large_h1.9_inward {'iteration': 0, 'relative_residual': 2.0543648431931326e-06, 'linear_residual': 8.252403041496619e-08, 'step': 1.0, 'gmres_iterations': 15}
+child_large_h1.9_inward {'iteration': 1, 'relative_residual': 3.8902904745278473e-11, 'linear_residual': 3.211236455637888e-06, 'step': 1.0, 'gmres_iterations': 12}
+Saved child_large_h1.9_inward 3.8902904745278473e-11
+Prepared adult_small_h2.3_outward 0.0009410997251004735
+adult_small_h2.3_outward {'iteration': 0, 'relative_residual': 6.9763003222446796e-06, 'linear_residual': 5.254723569620293e-06, 'step': 1.0, 'gmres_iterations': 9}
+adult_small_h2.3_outward {'iteration': 1, 'relative_residual': 4.879790940204951e-11, 'linear_residual': 1.993930094049938e-06, 'step': 1.0, 'gmres_iterations': 11}
+Saved adult_small_h2.3_outward 4.879790940204951e-11
+Prepared adult_small_h2.3_inward 0.0009278943761648399
+adult_small_h2.3_inward {'iteration': 0, 'relative_residual': 2.5258142623803422e-06, 'linear_residual': 3.856588873094706e-06, 'step': 1.0, 'gmres_iterations': 13}
+adult_small_h2.3_inward {'iteration': 1, 'relative_residual': 6.836138008701216e-11, 'linear_residual': 5.100984654764431e-06, 'step': 1.0, 'gmres_iterations': 14}
+Saved adult_small_h2.3_inward 6.836138008701216e-11
+Prepared adult_small_h1.9_outward 0.0003456948197833765
+adult_small_h1.9_outward {'iteration': 0, 'relative_residual': 2.0384334013950483e-06, 'linear_residual': 2.202179867910319e-06, 'step': 1.0, 'gmres_iterations': 11}
+adult_small_h1.9_outward {'iteration': 1, 'relative_residual': 4.047396462027287e-11, 'linear_residual': 1.2348679463762667e-06, 'step': 1.0, 'gmres_iterations': 11}
+Saved adult_small_h1.9_outward 4.047396462027287e-11
+Prepared adult_small_h1.9_inward 0.0010961148335847345
+adult_small_h1.9_inward {'iteration': 0, 'relative_residual': 1.1036648253037364e-05, 'linear_residual': 2.992506008498864e-06, 'step': 1.0, 'gmres_iterations': 11}
+adult_small_h1.9_inward {'iteration': 1, 'relative_residual': 4.8119603552563966e-11, 'linear_residual': 2.8197471183851183e-06, 'step': 1.0, 'gmres_iterations': 14}
+Saved adult_small_h1.9_inward 4.8119603552563966e-11
+All eight corrected reference cases complete

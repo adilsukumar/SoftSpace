@@ -2,7 +2,7 @@
 
 **An affordable passive over-ear headphone concept, with sound-sensitive autistic users in India as the first priority.**
 
-[Read the illustrated report](reports/SoftSpace_Report.docx) · [Open V19 CAD](CAD/V19) · [Browse engineering evidence](engineering/README.md) · [Back to the project](../README.md)
+[Read the illustrated report](reports/SoftSpace_Report.docx) Â· [Open V19 CAD](CAD/V19) Â· [Browse engineering evidence](engineering/README.md) Â· [Back to the project](../README.md)
 
 ![V19 saved child and adult STEP assemblies](media/V19_assemblies.png)
 
@@ -40,6 +40,14 @@ The [V20 evidence update](engineering/evidence/engineering-v20-results/README.md
 ## V21 software review
 
 The [additional software review](../SoftSpace/engineering/evidence/engineering-v21-results/README.md) records wider glasses-position pressure risks and failed joint peak-stress comparisons. Further software work remains. Both reports are updated. Six carrying pose STEP exports are added; part shapes are unchanged. Six finer stress checks pass and two adult fork checks still fail.
+
+<!-- V23:BEGIN -->
+## V23 corrected joint verification
+
+Eight new corrected virtual-spacer reference calculations cover two joint families, two meshes and both load directions. Their [raw results and stress comparisons](../SoftSpace/engineering/evidence/engineering-v23-results/README.md) retain every failed comparison. Numerical consistency does not establish reliable whole-part stress or physical strength.
+
+Both illustrated Word reports are updated together. Read the [remaining test register](../SoftSpace/engineering/evidence/engineering-v23-results/remaining_test_register.csv): actual material curves, detailed joints, Sony mounting, sound and heat inputs remain unresolved. This completed numerical campaign is **not all product software testing completed**. No physical validation or product performance claim is added.
+<!-- V23:END -->
 
 <!-- V22:BEGIN -->
 ## V22 update

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-24",
+  "source_hashes": [
+    "ab378105ae93b5245c1718a10fa2579a28b0e9bb9423358cbb54c68b2fff0cca",
+    "89cec883bbe4ab46b4b6af3e16478ea6a12b1495613b8caaa364e9bbede5fc8f"
+  ],
+  "native_pages": [
+    97,
+    72
+  ],
+  "all_page_contact_sheets_reviewed": true,
+  "detailed_pages_reviewed": "Both title pages and all three shared new V23 chapters. New chapter bodies pixel compared between reports.",
+  "new_body_comparisons": [
+    {
+      "main_page": 95,
+      "flex_page": 70,
+      "body_pixels_identical": true
+    },
+    {
+      "main_page": 96,
+      "flex_page": 71,
+      "body_pixels_identical": true
+    },
+    {
+      "main_page": 97,
+      "flex_page": 72,
+      "body_pixels_identical": true
+    }
+  ],
+  "scope": "Visual layout and semantic preservation review, not independent scientific validation."
+}

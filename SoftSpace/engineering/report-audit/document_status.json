@@ -1,94 +1,51 @@
 {
   "updated": "24 October 2026",
-  "design_status": "V19 six size assembly prototype with conditional joint calculations and V10 native archives",
+  "design_status": "V23 Corrected hinge checks across two size families",
   "documents": [
     {
       "path": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
-      "sha256": "856c8231a1bc1478cbfa89a3ab58c6e92762330b128fe3ed03e6c141a946051a",
-      "bytes": 10020625
+      "sha256": "ab378105ae93b5245c1718a10fa2579a28b0e9bb9423358cbb54c68b2fff0cca",
+      "bytes": 10065431
     },
     {
       "path": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
-      "sha256": "e7c8d3dfb51f40795dcd55216453380e7bb1754a09899d6e38447b7328cf8f81",
-      "bytes": 5510688
+      "sha256": "89cec883bbe4ab46b4b6af3e16478ea6a12b1495613b8caaa364e9bbede5fc8f",
+      "bytes": 5555512
     }
   ],
   "market_checked": "2026-10-13",
   "future_rule": "Update both documents after every meaningful project edit or new result; preserve user edits and history; do not silently regenerate over user edits.",
   "quality_check": {
     "structural_checks": "pass",
-    "approximate_layout_page_counts": [
-      93,
-      69
-    ],
-    "approximate_previews_match_current_documents": true,
+    "approximate_layout_page_counts": [],
+    "approximate_previews_match_current_documents": false,
     "native_Word_layout_verified": true,
-    "reason": "Native Word read-only PDF exports match the current DOCX hashes. All-page render, page bounds and blank-page checks completed. Visual review is recorded separately.",
+    "reason": "Native Word exports match current report hashes; all pages rendered, page bounds and blank/short page checks passed, all contact sheets reviewed, new chapters and title pages reviewed in detail.",
     "checks": [
       {
         "document": "Ear_Defender_Project.docx",
-        "paragraphs": 646,
-        "tables": 64,
-        "embedded_images": 48,
+        "paragraphs": 661,
+        "tables": 66,
+        "embedded_images": 49,
         "source_links": 38,
         "structure_and_hashes": "pass"
       },
       {
         "document": "Glasses_Friendly_Headphone_Cushions.docx",
-        "paragraphs": 464,
-        "tables": 52,
-        "embedded_images": 34,
+        "paragraphs": 479,
+        "tables": 54,
+        "embedded_images": 35,
         "source_links": 25,
         "structure_and_hashes": "pass"
       }
     ],
     "native_Word_export_verified": true,
     "native_page_counts": [
-      94,
-      69
+      97,
+      72
     ],
     "native_blank_or_out_of_page_text_pages": 0,
-    "native_visual_review": {
-      "date": "2026-10-24",
-      "source_hashes": [
-        "856c8231a1bc1478cbfa89a3ab58c6e92762330b128fe3ed03e6c141a946051a",
-        "e7c8d3dfb51f40795dcd55216453380e7bb1754a09899d6e38447b7328cf8f81"
-      ],
-      "native_export": "Word 16 read-only exports with unchanged DOCX sources",
-      "native_pages": [
-        94,
-        69
-      ],
-      "automated_layout": "All pages rendered; no blank body, short text page or text outside physical page bounds",
-      "visual_scope": "All-page native contact-sheet review and detailed new chapters, title pages and affected historical layout pages. This is layout review, not independent review of every scientific statement.",
-      "shared_V22_pages": [
-        {
-          "main_page": 90,
-          "Flex_page": 65,
-          "matching_native_body_image": true
-        },
-        {
-          "main_page": 91,
-          "Flex_page": 66,
-          "matching_native_body_image": true
-        },
-        {
-          "main_page": 92,
-          "Flex_page": 67,
-          "matching_native_body_image": true
-        },
-        {
-          "main_page": 93,
-          "Flex_page": 68,
-          "matching_native_body_image": true
-        },
-        {
-          "main_page": 94,
-          "Flex_page": 69,
-          "matching_native_body_image": true
-        }
-      ]
-    }
+    "visual_review_scope": "Both title pages and all three shared new V23 chapters. New chapter bodies pixel compared between reports."
   },
   "latest_update": {
     "date": "2026-10-24",
@@ -98,5 +55,6 @@
     "all_possible_software_complete": false,
     "manufacturing_release": false,
     "physical_tests": 0
-  }
+  },
+  "native_Word_layout_verified": true
 }
