@@ -1,0 +1,10 @@
+{
+  "partition_and_derivative_sum_error": 3.3306690738754696e-16,
+  "shape_derivative_finite_difference_error": 1.0807710282279004e-10,
+  "quadratic_face_to_Tet10_trace_error": 2.220446049250313e-16,
+  "old_linear_subtriangle_trace_difference": 0.3358085011499713,
+  "triangle_polynomial_moment_error": 1.1102230246251565e-16,
+  "curved_planar_inverse_mapping_error": 2.6186627866131573e-10,
+  "status": "pass",
+  "scope": "Interpolation and quadrature controls only. Old linear contact is a lower order approximation; this does not prove it caused the observed stress variation or validate real contact physics."
+}

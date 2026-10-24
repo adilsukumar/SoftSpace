@@ -1,0 +1,9 @@
+# V25 quadratic surface pilot
+
+Three child-large outward reference fields are complete. Both meshes use six-node quadratic face interpolation and consistent surface loads; a third calculation increases quadrature from 4 to 6 Gauss points per Duffy axis on the 1.9 mm mesh. Mathematical basis, projection, rigid-motion, derivative, equilibrium, force, moment and friction controls passed. All raw fields and failed stress comparisons are retained.
+
+Read stress_comparisons.csv and review_status.json. Mesh agreement still fails; this candidate does not close reliable peak prediction. It changes surface contact and consistent loads together, so it does not isolate contact as the cause of V24 differences. The chosen 5 percent pairwise gate is not a safety standard, a global peak bound or full convergence proof. No adult or inward expansion is claimed; expanding a failed pilot would not qualify the missing real joint details.
+
+Run v25_quadratic_contact.py, v25_contact_campaign.py, v25_quadrature_campaign.py and v25_review.py in that order using saved mesh and warm-field hashes. The quadratic face module is installed only in each worker process; earlier model files and raw results remain unchanged. The Q6 case intentionally reuses the Q4 field on identical nodes as a warm start and must independently reach equilibrium. MMD_AT_PLUS_A changes sparse factor ordering only.
+
+Manufacturer sources and simple conditional screens are in manufacturer_input_review.json. They improve input traceability but do not supply complete foam, cover, acoustic, thermal or durability laws. Sony's reviewed support article does not define mounting tolerances. Full product software validation remains open for both routes, with requirements listed in remaining_test_register.csv. Sensory acceptance still requires voluntary wearer testing. No purchase or manufacturing release is issued.

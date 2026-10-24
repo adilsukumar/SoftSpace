@@ -1,0 +1,12 @@
+Area,Status,Evidence,Limit
+Joint reference solve,V25 pilot completed,Three quadratic surface fields pass numerical controls,Child large outward reference only
+Refined stress reliability,Failed comparison remains open,0 of 4 quadratic surface mesh comparisons pass,Interpolation change did not close stress reliability
+Project source resolution,Completed for primary loaders,304 recorded path/hash pairs verified and seven loader controls,Other historical scripts not all migrated
+Historical CAD provenance,Four exact old versions restored,Archive members match saved SHA256 hashes,Historical current-root files kept unchanged
+CAD folding and adjustment,Earlier finite checks only,V19 shapes and V21 motion/packing records,No continuous motion or pinch qualification
+Full cushion/head contact,Input and model gated,Manufacturer foam point available; full foam and cover laws still missing,Need grade curves cover seams friction and worn geometry
+Sony mounting,Dimension gated,Public pad envelope only,Need exact skirt groove carrier and tolerances
+Sound heat creep fatigue drop cleaning,Input and design gated,No calibrated whole-product validation,Need material/assembly data and completed design
+Comfort and sensory acceptance,Requires people,No wearer test,Cannot be validated by software
+Complete product software sign off,Not achieved,No product readiness claim,Failed and missing requirements remain open
+Material condition,Candidate data sourced only,Named PA66 dry and conditioned typical values differ,Do not use E3500 as calibrated humid or creep data

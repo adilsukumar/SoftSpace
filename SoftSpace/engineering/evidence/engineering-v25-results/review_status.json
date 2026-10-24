@@ -1,0 +1,490 @@
+{
+  "date": "2026-10-24",
+  "revision": "V25",
+  "pilot_completed": true,
+  "new_equilibrium_fields": 3,
+  "CAD_shapes_changed": false,
+  "all_product_software_testing_complete": false,
+  "whole_part_strength_demonstrated": false,
+  "physical_tests": 0,
+  "mesh_passes": 0,
+  "quadrature_passes": 4,
+  "cases": [
+    {
+      "date": "2026-10-24",
+      "size": "child_large",
+      "mesh_size_mm": 1.9,
+      "direction": "outward",
+      "converged": true,
+      "relative_residual": 5.613737531494678e-10,
+      "independent_residual": 5.613737531493701e-10,
+      "initial_residual": 1.1448352515992624,
+      "force_balance_N": 7.461225367429444e-11,
+      "moment_balance_Nmm": 7.56127146719489e-09,
+      "coulomb_excess_MPa": 5.551115123125783e-17,
+      "cup_displacement_mm": 0.27118640854024195,
+      "rigid_motion_controls": [
+        {
+          "kind": "translation",
+          "axis": 0,
+          "error": 8.353743857682921e-16,
+          "passed": true
+        },
+        {
+          "kind": "translation",
+          "axis": 1,
+          "error": 1.1635657715114434e-15,
+          "passed": true
+        },
+        {
+          "kind": "translation",
+          "axis": 2,
+          "error": 8.847089727481716e-16,
+          "passed": true
+        },
+        {
+          "kind": "rotation",
+          "axis": 0,
+          "error": 9.636602626983404e-11,
+          "passed": true
+        },
+        {
+          "kind": "rotation",
+          "axis": 1,
+          "error": 9.63660268953629e-11,
+          "passed": true
+        },
+        {
+          "kind": "rotation",
+          "axis": 2,
+          "error": 9.530087830000866e-11,
+          "passed": true
+        }
+      ],
+      "contact_derivative_errors": [
+        4.987513501421699e-07,
+        3.936516142729085e-06
+      ],
+      "history": [
+        {
+          "iteration": 0,
+          "relative_residual": 0.0065942245004558435,
+          "linear_residual": 8.259845746862125e-07,
+          "step": 1.0,
+          "gmres_iterations": 7
+        },
+        {
+          "iteration": 1,
+          "relative_residual": 9.745978612260946e-05,
+          "linear_residual": 1.0449053138973127e-06,
+          "step": 1.0,
+          "gmres_iterations": 10
+        },
+        {
+          "iteration": 2,
+          "relative_residual": 5.613737531494678e-10,
+          "linear_residual": 3.101631936100162e-06,
+          "step": 1.0,
+          "gmres_iterations": 11
+        }
+      ],
+      "seconds": 60.21389818191528,
+      "source_mesh_sha256": "ea56856b77d068f4f1a850ba9218cd9f8f75d9d38f4442410392769f86a60249",
+      "source_CAD_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557",
+      "warm_start_sha256": "e8f492f24842367cb5268953382e687ca17b7204aa817caa5bded9b0c5b268cb",
+      "script_sha256": "890a9312361f02a1c0346d68f36676373e150379abdcc70fe70fec4d289a3bb2",
+      "contact_surface_statistics": {
+        "washer": [
+          {
+            "points": 1968,
+            "area_mm2": 80.50952360560592,
+            "maximum_projection_error_mm": 9.940533566192533e-11,
+            "minimum_quadrature_area_mm2": 0.0010977609866917855
+          },
+          {
+            "points": 1968,
+            "area_mm2": 80.50952185210701,
+            "maximum_projection_error_mm": 9.939150516762165e-11,
+            "minimum_quadrature_area_mm2": 0.0010995517409593649
+          }
+        ],
+        "stop": [
+          {
+            "points": 832,
+            "area_mm2": 31.999999999999993,
+            "maximum_projection_error_mm": 3.2827079198276557e-12,
+            "minimum_quadrature_area_mm2": 0.0021133987953227307
+          }
+        ]
+      },
+      "contact_formulation_sha256": "8c9d1253ac13fd8823d9ba2b16e41670b91b30485965e59f5232c95907f44c0e",
+      "scope": "Quadratic face candidate; corrected virtual 0.5 mm spacer reference. E3500 MPa nu0.35 preload140 N friction0.2 side force +/-2 N. Isolated V19 joint only; no physical strength, washer or product pass.",
+      "raw_sha256": "03aabc1213974236b98ad2e66dbaa7f0ed09c0393a82983193043f05d48837b7",
+      "stress": [
+        {
+          "component": "tongue",
+          "sampled_peaks_MPa": {
+            "interior125": 3.9028992491192365,
+            "boundary35": 4.016439827405027
+          },
+          "minimum_sampled_Jacobian": 0.1804613687949392
+        },
+        {
+          "component": "fork",
+          "sampled_peaks_MPa": {
+            "interior125": 4.875992198801502,
+            "boundary35": 8.133366632864195
+          },
+          "minimum_sampled_Jacobian": 0.0008154194693040804
+        }
+      ],
+      "numerical_controls_pass": true
+    },
+    {
+      "date": "2026-10-24",
+      "size": "child_large",
+      "mesh_size_mm": 1.5,
+      "direction": "outward",
+      "converged": true,
+      "relative_residual": 2.2294895642838726e-10,
+      "independent_residual": 2.229489564288978e-10,
+      "initial_residual": 1.0336979827868715,
+      "force_balance_N": 2.5332319922765655e-10,
+      "moment_balance_Nmm": 3.218259961137628e-09,
+      "coulomb_excess_MPa": 5.551115123125783e-17,
+      "cup_displacement_mm": 0.2717426334726883,
+      "rigid_motion_controls": [
+        {
+          "kind": "translation",
+          "axis": 0,
+          "error": 1.8715497901444778e-15,
+          "passed": true
+        },
+        {
+          "kind": "translation",
+          "axis": 1,
+          "error": 1.6330253121976668e-15,
+          "passed": true
+        },
+        {
+          "kind": "translation",
+          "axis": 2,
+          "error": 8.355810618074222e-16,
+          "passed": true
+        },
+        {
+          "kind": "rotation",
+          "axis": 0,
+          "error": 7.784378697195393e-11,
+          "passed": true
+        },
+        {
+          "kind": "rotation",
+          "axis": 1,
+          "error": 7.784378762473178e-11,
+          "passed": true
+        },
+        {
+          "kind": "rotation",
+          "axis": 2,
+          "error": 7.373235355601082e-11,
+          "passed": true
+        }
+      ],
+      "contact_derivative_errors": [
+        1.0235922496869147e-06,
+        6.880811931331828e-06
+      ],
+      "history": [
+        {
+          "iteration": 0,
+          "relative_residual": 0.00496010429847798,
+          "linear_residual": 4.802221229023339e-07,
+          "step": 1.0,
+          "gmres_iterations": 7
+        },
+        {
+          "iteration": 1,
+          "relative_residual": 7.418095878955095e-05,
+          "linear_residual": 1.1198006120969014e-06,
+          "step": 1.0,
+          "gmres_iterations": 10
+        },
+        {
+          "iteration": 2,
+          "relative_residual": 2.2294895642838726e-10,
+          "linear_residual": 2.801408592934638e-06,
+          "step": 1.0,
+          "gmres_iterations": 9
+        }
+      ],
+      "seconds": 1914.6351735591888,
+      "source_mesh_sha256": "7da76c905047d6eb79ed49f38ce5da7f344827443c4bfb826bd2d4a52c3f955e",
+      "source_CAD_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557",
+      "warm_start_sha256": "909eb856a1c7f9679490f20ac6aa9ee45326c34b566525aa26fd0573de171cd4",
+      "script_sha256": "890a9312361f02a1c0346d68f36676373e150379abdcc70fe70fec4d289a3bb2",
+      "contact_surface_statistics": {
+        "washer": [
+          {
+            "points": 1968,
+            "area_mm2": 80.50952360560592,
+            "maximum_projection_error_mm": 9.940533566192533e-11,
+            "minimum_quadrature_area_mm2": 0.0010977609866917855
+          },
+          {
+            "points": 1968,
+            "area_mm2": 80.50952185210701,
+            "maximum_projection_error_mm": 9.939150516762165e-11,
+            "minimum_quadrature_area_mm2": 0.0010995517409593649
+          },
+          {
+            "points": 2624,
+            "area_mm2": 80.5109537661415,
+            "maximum_projection_error_mm": 9.811911326460821e-11,
+            "minimum_quadrature_area_mm2": 0.0009741506915606263
+          },
+          {
+            "points": 2624,
+            "area_mm2": 80.51095376614144,
+            "maximum_projection_error_mm": 9.293031449951268e-11,
+            "minimum_quadrature_area_mm2": 0.0010153668567878164
+          }
+        ],
+        "stop": [
+          {
+            "points": 832,
+            "area_mm2": 31.999999999999993,
+            "maximum_projection_error_mm": 3.2827079198276557e-12,
+            "minimum_quadrature_area_mm2": 0.0021133987953227307
+          },
+          {
+            "points": 832,
+            "area_mm2": 31.999999999999996,
+            "maximum_projection_error_mm": 3.2809330058766683e-12,
+            "minimum_quadrature_area_mm2": 0.0021137145375040387
+          }
+        ]
+      },
+      "contact_formulation_sha256": "8c9d1253ac13fd8823d9ba2b16e41670b91b30485965e59f5232c95907f44c0e",
+      "scope": "Quadratic face candidate; corrected virtual 0.5 mm spacer reference. E3500 MPa nu0.35 preload140 N friction0.2 side force +/-2 N. Isolated V19 joint only; no physical strength, washer or product pass.",
+      "raw_sha256": "378e174b4a70ddb578a3336bb97837ea989f32b5b3deba60bd9be48d56d93323",
+      "stress": [
+        {
+          "component": "tongue",
+          "sampled_peaks_MPa": {
+            "interior125": 4.147916998937551,
+            "boundary35": 4.364538761372453
+          },
+          "minimum_sampled_Jacobian": 0.20587276567292848
+        },
+        {
+          "component": "fork",
+          "sampled_peaks_MPa": {
+            "interior125": 3.973434269770689,
+            "boundary35": 6.567612500704041
+          },
+          "minimum_sampled_Jacobian": 0.0005689684718630063
+        }
+      ],
+      "numerical_controls_pass": true
+    }
+  ],
+  "quadrature_case": {
+    "date": "2026-10-24",
+    "size": "child_large",
+    "mesh_size_mm": 1.9,
+    "direction": "outward",
+    "converged": true,
+    "relative_residual": 2.0463516436224307e-11,
+    "independent_residual": 2.0463516436114315e-11,
+    "initial_residual": 0.0020328733303811774,
+    "force_balance_N": 6.07452670641897e-10,
+    "moment_balance_Nmm": 3.790525440564271e-09,
+    "coulomb_excess_MPa": 5.551115123125783e-17,
+    "cup_displacement_mm": 0.2711874486265712,
+    "rigid_motion_controls": [
+      {
+        "kind": "translation",
+        "axis": 0,
+        "error": 7.744489999381848e-16,
+        "passed": true
+      },
+      {
+        "kind": "translation",
+        "axis": 1,
+        "error": 1.1635657715114434e-15,
+        "passed": true
+      },
+      {
+        "kind": "translation",
+        "axis": 2,
+        "error": 8.847089727481716e-16,
+        "passed": true
+      },
+      {
+        "kind": "rotation",
+        "axis": 0,
+        "error": 9.55495682575247e-11,
+        "passed": true
+      },
+      {
+        "kind": "rotation",
+        "axis": 1,
+        "error": 9.770291860440854e-11,
+        "passed": true
+      },
+      {
+        "kind": "rotation",
+        "axis": 2,
+        "error": 9.770291867217118e-11,
+        "passed": true
+      }
+    ],
+    "contact_derivative_errors": [
+      6.171837831116777e-07,
+      6.517261860544932e-06
+    ],
+    "history": [
+      {
+        "iteration": 0,
+        "relative_residual": 3.4954180556381597e-06,
+        "linear_residual": 9.08779799404903e-06,
+        "step": 1.0,
+        "gmres_iterations": 6
+      },
+      {
+        "iteration": 1,
+        "relative_residual": 2.0463516436224307e-11,
+        "linear_residual": 1.2479935064835867e-06,
+        "step": 1.0,
+        "gmres_iterations": 6
+      }
+    ],
+    "seconds": 113.22427558898926,
+    "source_mesh_sha256": "ea56856b77d068f4f1a850ba9218cd9f8f75d9d38f4442410392769f86a60249",
+    "source_CAD_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557",
+    "warm_start_sha256": "03aabc1213974236b98ad2e66dbaa7f0ed09c0393a82983193043f05d48837b7",
+    "script_sha256": "143cb8010f5f7df2ec5142b71f4964ba5a6e788aeeb3453f4efa45caafd3a0fa",
+    "contact_surface_statistics": {
+      "washer": [
+        {
+          "points": 4428,
+          "area_mm2": 80.50952360560592,
+          "maximum_projection_error_mm": 9.961804782664658e-11,
+          "minimum_quadrature_area_mm2": 0.0001294261514534519
+        },
+        {
+          "points": 4428,
+          "area_mm2": 80.50952185210697,
+          "maximum_projection_error_mm": 9.887890156913508e-11,
+          "minimum_quadrature_area_mm2": 0.0001296539017251645
+        }
+      ],
+      "stop": [
+        {
+          "points": 1872,
+          "area_mm2": 31.999999999999996,
+          "maximum_projection_error_mm": 3.632650170890562e-12,
+          "minimum_quadrature_area_mm2": 0.0002493075476054182
+        }
+      ]
+    },
+    "contact_formulation_sha256": "8c9d1253ac13fd8823d9ba2b16e41670b91b30485965e59f5232c95907f44c0e",
+    "scope": "Quadratic face candidate; corrected virtual 0.5 mm spacer reference. E3500 MPa nu0.35 preload140 N friction0.2 side force +/-2 N. Isolated V19 joint only; no physical strength, washer or product pass.",
+    "raw_sha256": "c11d3a0cf820d87b66a82c5c13aad21fc559a717996fe3137a928575021b8c46",
+    "stress": [
+      {
+        "component": "tongue",
+        "sampled_peaks_MPa": {
+          "interior125": 3.9028890959606013,
+          "boundary35": 4.0164296615298465
+        },
+        "minimum_sampled_Jacobian": 0.1804613687949392
+      },
+      {
+        "component": "fork",
+        "sampled_peaks_MPa": {
+          "interior125": 4.893575057447771,
+          "boundary35": 8.164682778532333
+        },
+        "minimum_sampled_Jacobian": 0.0008154194693040804
+      }
+    ],
+    "numerical_controls_pass": true
+  },
+  "comparisons": [
+    {
+      "comparison": "mesh refinement",
+      "component": "tongue",
+      "sampling": "interior125",
+      "old_peak_MPa": 3.9028992491192365,
+      "new_peak_MPa": 4.147916998937551,
+      "change_percent": 6.277839477245206,
+      "chosen_5_percent_pass": false
+    },
+    {
+      "comparison": "mesh refinement",
+      "component": "tongue",
+      "sampling": "boundary35",
+      "old_peak_MPa": 4.016439827405027,
+      "new_peak_MPa": 4.364538761372453,
+      "change_percent": 8.666852957494143,
+      "chosen_5_percent_pass": false
+    },
+    {
+      "comparison": "mesh refinement",
+      "component": "fork",
+      "sampling": "interior125",
+      "old_peak_MPa": 4.875992198801502,
+      "new_peak_MPa": 3.973434269770689,
+      "change_percent": 18.510241448964116,
+      "chosen_5_percent_pass": false
+    },
+    {
+      "comparison": "mesh refinement",
+      "component": "fork",
+      "sampling": "boundary35",
+      "old_peak_MPa": 8.133366632864195,
+      "new_peak_MPa": 6.567612500704041,
+      "change_percent": 19.25099657789271,
+      "chosen_5_percent_pass": false
+    },
+    {
+      "comparison": "quadrature refinement",
+      "component": "tongue",
+      "sampling": "interior125",
+      "old_peak_MPa": 3.9028992491192365,
+      "new_peak_MPa": 3.9028890959606013,
+      "change_percent": 0.0002601440105665098,
+      "chosen_5_percent_pass": true
+    },
+    {
+      "comparison": "quadrature refinement",
+      "component": "tongue",
+      "sampling": "boundary35",
+      "old_peak_MPa": 4.016439827405027,
+      "new_peak_MPa": 4.0164296615298465,
+      "change_percent": 0.00025310662222777225,
+      "chosen_5_percent_pass": true
+    },
+    {
+      "comparison": "quadrature refinement",
+      "component": "fork",
+      "sampling": "interior125",
+      "old_peak_MPa": 4.875992198801502,
+      "new_peak_MPa": 4.893575057447771,
+      "change_percent": 0.3606006312026455,
+      "chosen_5_percent_pass": true
+    },
+    {
+      "comparison": "quadrature refinement",
+      "component": "fork",
+      "sampling": "boundary35",
+      "old_peak_MPa": 8.133366632864195,
+      "new_peak_MPa": 8.164682778532333,
+      "change_percent": 0.3850330014830483,
+      "chosen_5_percent_pass": true
+    }
+  ],
+  "scope": "Child large outward isolated V19 joint only. Quadratic surface contact AND consistent surface loads replace linear subtriangles. Same continuum parameters and virtual spacer. Not a pure contact-only change, physical contact model, new CAD, material qualification or product validation."
+}

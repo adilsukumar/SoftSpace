@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-24",
+  "source_hashes": [
+    "e5117f3066ac6b0a7381a682ef74a41a31684d916dd723184156b254e5190c9c",
+    "9f564833cc4234f049fee9c580e5e85ebc947cd1cd249c2788a935dc0456b769"
+  ],
+  "native_pages": [
+    103,
+    78
+  ],
+  "all_page_contact_sheets_reviewed": false,
+  "preserved_V24_pages_pixel_identical": 173,
+  "detailed_pages_reviewed": "Both updated title pages and all three new V25 chapter bodies viewed; companion chapter bodies pixel matched. All 173 remaining pages are pixel identical to previously reviewed V24.",
+  "preserved": [
+    {
+      "document": "Ear_Defender_Project",
+      "pages": 99,
+      "pixel_identical_to_reviewed_V24": true
+    },
+    {
+      "document": "Glasses_Friendly_Headphone_Cushions",
+      "pages": 74,
+      "pixel_identical_to_reviewed_V24": true
+    }
+  ],
+  "new_body_comparisons": [
+    {
+      "main_page": 101,
+      "flex_page": 76,
+      "body_pixels_identical": true
+    },
+    {
+      "main_page": 102,
+      "flex_page": 77,
+      "body_pixels_identical": true
+    },
+    {
+      "main_page": 103,
+      "flex_page": 78,
+      "body_pixels_identical": true
+    }
+  ],
+  "scope": "Visual and semantic preservation checks, not independent scientific validation."
+}

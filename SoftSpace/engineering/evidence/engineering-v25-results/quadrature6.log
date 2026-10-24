@@ -1,0 +1,5 @@
+Prepared child_large_h1.9_outward 0.0020328733303811774
+child_large_h1.9_outward {'iteration': 0, 'relative_residual': 3.4954180556381597e-06, 'linear_residual': 9.08779799404903e-06, 'step': 1.0, 'gmres_iterations': 6}
+child_large_h1.9_outward {'iteration': 1, 'relative_residual': 2.0463516436224307e-11, 'linear_residual': 1.2479935064835867e-06, 'step': 1.0, 'gmres_iterations': 6}
+Saved child_large_h1.9_outward 2.0463516436224307e-11
+Quadratic contact pilot complete

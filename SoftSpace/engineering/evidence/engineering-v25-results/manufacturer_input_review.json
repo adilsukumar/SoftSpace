@@ -1,0 +1,44 @@
+{
+  "checked": "2026-10-24",
+  "sources": [
+    {
+      "name": "BASF Ultramid A3K uncoloured PA66 product information September 2026",
+      "url": "https://download.basf.com/p1/8a8082587fd4b608017fd64108ab6d3b/en/ULTRAMID%3Csup%3E%C2%AE%3Csup%3E_A3K_Product_Data_Sheet_Asia_PacificEurope_English.pdf",
+      "facts": "At 23 C tensile modulus dry/conditioned 3000/1100 MPa; yield stress 85/50 MPa; conditioned creep modulus at 1000 h and strain <=0.5% 700 MPa.",
+      "limit": "Typical grade values. No complete constitutive curve, fatigue law, manufactured-part qualification or equivalence to the assumed E3500 model."
+    },
+    {
+      "name": "Rogers PORON 4701-40 product page",
+      "url": "https://www.rogerscorp.com/elastomeric-material-solutions/poron-industrial-polyurethanes/poron-4701-40",
+      "facts": "4701-40-15 listed density 240 kg/m3 and typical 25% compression force deflection 41 kPa.",
+      "limit": "Product-page value only. Not mixed with ISO global sheet values. Not a full foam law or headphone comfort result."
+    },
+    {
+      "name": "Rogers global standards datasheet",
+      "url": "https://www.rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/poron/english/data-sheets/17-320-poron-4701-40-soft-global-standards-data-sheet.pdf",
+      "facts": "ISO 6916-1 compression measured at 25% deflection and 30 mm/min; typical values are not specification limits.",
+      "limit": "Different test conditions from product-page table; no substituted or combined curve."
+    },
+    {
+      "name": "Sony India WH-CH720N support article 00198705",
+      "url": "https://www.sony.co.in/electronics/support/wireless-headphones-bluetooth-headphones/wh-ch720n/articles/00198705",
+      "facts": "Replacement methods depend on model; article refers users to authorised service.",
+      "limit": "This reviewed article supplies no skirt/groove/carrier tolerances. Not a claim that dimensions cannot exist elsewhere."
+    }
+  ],
+  "calculations": [
+    {
+      "name": "Same linear beam geometry and imposed deflection modulus ratio",
+      "equation": "1100 / 3000",
+      "value": 0.36666666666666664,
+      "meaning": "Conditional linear force and stiffness ratio only. No assertion that a finished band behaves linearly or matches this grade."
+    },
+    {
+      "name": "Uniform reference foam compression force",
+      "equation": "0.041 N/mm2 * 1000 mm2",
+      "value_N": 41.0,
+      "meaning": "Illustrative 1000 mm2 coupon at the product-page 25% compression point. Not real pad contact area, head force, comfort or seal."
+    }
+  ],
+  "scope": "Candidate source and dimensional-analysis screen only; no final material selection, purchase recommendation or new physical validation."
+}

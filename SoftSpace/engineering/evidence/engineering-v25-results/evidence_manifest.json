@@ -1,0 +1,77 @@
+[
+  {
+    "path": "child_large_h1.5_outward.json",
+    "bytes": 4517,
+    "sha256": "612e203ecdc37289de54b3b8e0ddde23639046b82509a1b49c4b3d99a25ed21d"
+  },
+  {
+    "path": "child_large_h1.5_outward.npz",
+    "bytes": 2924661,
+    "sha256": "378e174b4a70ddb578a3336bb97837ea989f32b5b3deba60bd9be48d56d93323"
+  },
+  {
+    "path": "child_large_h1.9_outward.json",
+    "bytes": 3886,
+    "sha256": "40fb10560ab3cb21fe4998d6dc9773055f719d4bed4ad546c6542126897efb21"
+  },
+  {
+    "path": "child_large_h1.9_outward.npz",
+    "bytes": 2171802,
+    "sha256": "03aabc1213974236b98ad2e66dbaa7f0ed09c0393a82983193043f05d48837b7"
+  },
+  {
+    "path": "manufacturer_input_review.json",
+    "bytes": 2791,
+    "sha256": "9fa9e5fa63d470f4e80e9d2c5baa415e8bbb2d71b4ad81bf298eb57c5a90472e"
+  },
+  {
+    "path": "pilot.log",
+    "bytes": 1245,
+    "sha256": "964862b43bd86ce97d53b153b3283147eda5d78cd5bddd0717a91e555bf09fee"
+  },
+  {
+    "path": "quadratic_face_controls.json",
+    "bytes": 624,
+    "sha256": "63f330cb7993fd1ab8d8dd294bdc06f243bfd828d3528d3d17fc5449eb65ec53"
+  },
+  {
+    "path": "quadrature6.log",
+    "bytes": 478,
+    "sha256": "8ac44085ef7f8eba975ee4a1fa5b139fe5ca1fb869e381066d5a1002a5c66c39"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1889,
+    "sha256": "1f3f4fb4a4bedac9fd36ad52af057003011e76f0ab80f0a3e3ef04e7bd1354ed"
+  },
+  {
+    "path": "remaining_test_register.csv",
+    "bytes": 1573,
+    "sha256": "4b69b00b7c4fd5253b8882d323a1b219c3ddbf1e91772b4e3fe8b76af0fae36e"
+  },
+  {
+    "path": "reproduction_sources.json",
+    "bytes": 869,
+    "sha256": "a0b4582650ce4519054833d4a86b31672de959cc3d3aac4d56066d8f6f6304cd"
+  },
+  {
+    "path": "review_status.json",
+    "bytes": 16561,
+    "sha256": "3b917da42138e2df98f787bfec855e1f54df3e852a726689fd5c5e5aa924deac"
+  },
+  {
+    "path": "stress_comparisons.csv",
+    "bytes": 886,
+    "sha256": "df65b55ce0e861810065ea519aeddc7e0c067b9c59cc3767eeac0d8ba7df09ae"
+  },
+  {
+    "path": "quadrature6/child_large_h1.9_outward.json",
+    "bytes": 3704,
+    "sha256": "39cecb32b5d310da698e09e17d8b41b46b54d05d5781fc31f495c0198e2f09cd"
+  },
+  {
+    "path": "quadrature6/child_large_h1.9_outward.npz",
+    "bytes": 2282459,
+    "sha256": "c11d3a0cf820d87b66a82c5c13aad21fc559a717996fe3137a928575021b8c46"
+  }
+]

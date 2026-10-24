@@ -3,23 +3,23 @@
   "date": "2026-10-24",
   "documents": [
     {
-      "source_sha256": "a8b3d15e125d0c0ed6fe144fff1bcf90fd4a3e31b77de4931a9b7b3a872ba6c3",
-      "pdf": "${WORKSPACE}\\documents\\qa\\native_v24_Ear_Defender_Project.pdf",
-      "word_version": "16.0",
-      "pdf_sha256": "07cf0925fe5492945e990c6fc6c63a7988658b3937a47e39a55be1b116f71cb5",
-      "source_unchanged": true,
-      "native_pages": 100,
+      "source_sha256": "e5117f3066ac6b0a7381a682ef74a41a31684d916dd723184156b254e5190c9c",
+      "pdf_sha256": "2b718f4084a61d531a0674147cc87b705fd0ee42319ae99336d63a33c50d428c",
+      "native_pages": 103,
       "native_export": "pass",
+      "word_version": "16.0",
+      "pdf": "${WORKSPACE}\\documents\\qa\\native_v25_Ear_Defender_Project.pdf",
+      "source_unchanged": true,
       "document": "Ear_Defender_Project"
     },
     {
-      "source_sha256": "62f64da1635474d46528b097d613ede4da16ea847ed76ec1eb56df0fed61330d",
-      "pdf": "${WORKSPACE}\\documents\\qa\\native_v24_Glasses_Friendly_Headphone_Cushions.pdf",
-      "word_version": "16.0",
-      "pdf_sha256": "2aa6e4390b9951096197ed0d46bfc5c257cf571d0af84b3eb65223c1dc44b6a3",
-      "source_unchanged": true,
-      "native_pages": 75,
+      "source_sha256": "9f564833cc4234f049fee9c580e5e85ebc947cd1cd249c2788a935dc0456b769",
+      "pdf_sha256": "3a1ad0de4dc9ecef30c22e893f3c7778f44a5c8ade5ecbe84a1d0651888397f2",
+      "native_pages": 78,
       "native_export": "pass",
+      "word_version": "16.0",
+      "pdf": "${WORKSPACE}\\documents\\qa\\native_v25_Glasses_Friendly_Headphone_Cushions.pdf",
+      "source_unchanged": true,
       "document": "Glasses_Friendly_Headphone_Cushions"
     }
   ]
