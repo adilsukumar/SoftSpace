@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-24",
+  "trials": [
+    {
+      "name": "Initial contact operator extraction",
+      "status": "Rejected resource attempt",
+      "detail": "The old prepare helper materialized a dense rank-five pivot product and the adult audit exhausted memory while another solve was running. No result was accepted from that failed attempt."
+    },
+    {
+      "name": "Matrix-free pivot preparation",
+      "status": "Completed",
+      "detail": "G/T/C controls omit the unused bulk/pivot matrix. Actual corrected residual and Newton solver evaluate the same pivot penalty as five rank-one actions. Original model and candidate residuals were independently rechecked."
+    },
+    {
+      "name": "Native Word export",
+      "status": "Completed after sandbox permission change",
+      "detail": "Initial COM creation was denied in the sandbox. Authorized read-only hidden Word exports succeeded outside that sandbox, with unchanged source DOCX hashes."
+    }
+  ],
+  "scope": "Implementation/resource history. These are not product durability or physical passes."
+}

@@ -72,3 +72,10 @@ Read [the bounded study and purchase recommendation](evidence/engineering-v20-re
 ## V21 additional software review
 
 Read [the review, failures and remaining work](evidence/engineering-v21-results/README.md). New scripts run in a prepared workspace. Raw V19 solutions are unchanged. The four new finer equilibrium solves, stress recovery, hotspot diagnostics and six compact poses are recorded separately. Neither the older immutable release nor V20 closes these new issues.
+
+<!-- V22:BEGIN -->
+## V22 numerical confidence checks
+
+[V22 evidence and reproduction notes](evidence/engineering-v22-results/README.md) include raw fields, operator checks, material assumptions, targeted mesh comparisons and the full test register. The original contact model and proposed objective virtual-spacer reference are identified separately. Read the exact converged statuses and limits; no globally bounded stress or physical qualification is claimed.
+<!-- V22:END -->
+

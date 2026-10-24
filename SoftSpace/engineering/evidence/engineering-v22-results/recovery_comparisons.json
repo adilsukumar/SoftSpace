@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-24",
+  "cases": [
+    {
+      "size": "child_large",
+      "direction": "outward",
+      "component": "tongue",
+      "change_27_point_percent": 1.333892188874386,
+      "change_125_point_percent": 35.41541357359398,
+      "change_boundary_lattice_percent": 71.07888781082849
+    },
+    {
+      "size": "child_large",
+      "direction": "outward",
+      "component": "fork",
+      "change_27_point_percent": 2.8547447270712567,
+      "change_125_point_percent": 3.3099308289396445,
+      "change_boundary_lattice_percent": 75.8696619247722
+    },
+    {
+      "size": "child_large",
+      "direction": "inward",
+      "component": "tongue",
+      "change_27_point_percent": 3.1889184200962206,
+      "change_125_point_percent": 41.895210222702275,
+      "change_boundary_lattice_percent": 74.86642218931163
+    },
+    {
+      "size": "child_large",
+      "direction": "inward",
+      "component": "fork",
+      "change_27_point_percent": 2.8869543713690216,
+      "change_125_point_percent": 30.57063233049374,
+      "change_boundary_lattice_percent": 77.24718300634807
+    },
+    {
+      "size": "adult_small",
+      "direction": "outward",
+      "component": "tongue",
+      "change_27_point_percent": 4.647552918507536,
+      "change_125_point_percent": 21.0722601878631,
+      "change_boundary_lattice_percent": 60.41949886672191
+    },
+    {
+      "size": "adult_small",
+      "direction": "outward",
+      "component": "fork",
+      "change_27_point_percent": 27.522864194187036,
+      "change_125_point_percent": 0.957930899951509,
+      "change_boundary_lattice_percent": 3.9829958279976596
+    },
+    {
+      "size": "adult_small",
+      "direction": "inward",
+      "component": "tongue",
+      "change_27_point_percent": 0.18247082491978928,
+      "change_125_point_percent": 33.39499781998765,
+      "change_boundary_lattice_percent": 68.39489811529313
+    },
+    {
+      "size": "adult_small",
+      "direction": "inward",
+      "component": "fork",
+      "change_27_point_percent": 28.306704750355326,
+      "change_125_point_percent": 5.049763002595253,
+      "change_boundary_lattice_percent": 27.225451817315506
+    }
+  ],
+  "energy_order4_to5_max_change_percent": 3.9279960506455325e-05,
+  "nonpositive_Jacobian_lattice_cases": 0,
+  "tensor_control_max_error": 2.849803726334699e-14,
+  "all_27_point_checks_pass": false,
+  "all_125_point_checks_pass": false,
+  "all_boundary_lattice_checks_pass": false,
+  "scope": "2.3 versus 1.9 mm saved fields. Finite sampling, not global stress bounds or strength certification. Energy agreement does not imply peak agreement."
+}

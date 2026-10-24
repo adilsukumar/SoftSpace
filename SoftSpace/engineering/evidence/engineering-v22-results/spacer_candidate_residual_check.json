@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-24",
+  "complete": true,
+  "cases": [
+    {
+      "kind": "original",
+      "direction": "outward",
+      "global_force_balance_N": 2.5140085481540944e-10,
+      "global_moment_balance_N_mm": 0.06780576681550772,
+      "variants": [
+        {
+          "candidate_corrected": false,
+          "relative_equilibrium_residual": 4.694328781983783e-08,
+          "chosen_1e_7_equilibrium_check_pass": true,
+          "Coulomb_bound_error_MPa": 5.551115123125783e-17
+        },
+        {
+          "candidate_corrected": true,
+          "relative_equilibrium_residual": 0.00034458739989070875,
+          "chosen_1e_7_equilibrium_check_pass": false,
+          "Coulomb_bound_error_MPa": 5.551115123125783e-17
+        }
+      ],
+      "source_sha256": "09577b6a69f497ad9bb60073c545c59305edfef15d34c1f973e41eb5463f0dad"
+    },
+    {
+      "kind": "original",
+      "direction": "inward",
+      "global_force_balance_N": 1.4601550600931908e-10,
+      "global_moment_balance_N_mm": 0.05704950881674216,
+      "variants": [
+        {
+          "candidate_corrected": false,
+          "relative_equilibrium_residual": 3.6353918739094966e-08,
+          "chosen_1e_7_equilibrium_check_pass": true,
+          "Coulomb_bound_error_MPa": 1.1102230246251565e-16
+        },
+        {
+          "candidate_corrected": true,
+          "relative_equilibrium_residual": 0.0011215044690246242,
+          "chosen_1e_7_equilibrium_check_pass": false,
+          "Coulomb_bound_error_MPa": 2.220446049250313e-16
+        }
+      ],
+      "source_sha256": "6b003315f60d63013d42ddfa67cf7d2cae47a4a8a2fa9569301b250116811065"
+    },
+    {
+      "kind": "corrected",
+      "direction": "outward",
+      "global_force_balance_N": 5.486918634524902e-10,
+      "global_moment_balance_N_mm": 9.395607976255929e-09,
+      "variants": [
+        {
+          "candidate_corrected": false,
+          "relative_equilibrium_residual": 0.000597222386338141,
+          "chosen_1e_7_equilibrium_check_pass": false,
+          "Coulomb_bound_error_MPa": 1.1102230246251565e-16
+        },
+        {
+          "candidate_corrected": true,
+          "relative_equilibrium_residual": 2.690683409916761e-11,
+          "chosen_1e_7_equilibrium_check_pass": true,
+          "Coulomb_bound_error_MPa": 5.551115123125783e-17
+        }
+      ],
+      "source_sha256": "c242a14369b40d87cc966cea0b80dd46557a0bd527e488aa03b32bd3dbd63681"
+    },
+    {
+      "kind": "corrected",
+      "direction": "inward",
+      "global_force_balance_N": 6.838895742898484e-10,
+      "global_moment_balance_N_mm": 4.359206829621277e-09,
+      "variants": [
+        {
+          "candidate_corrected": false,
+          "relative_equilibrium_residual": 0.00046863940721758883,
+          "chosen_1e_7_equilibrium_check_pass": false,
+          "Coulomb_bound_error_MPa": 2.220446049250313e-16
+        },
+        {
+          "candidate_corrected": true,
+          "relative_equilibrium_residual": 3.0236150476373707e-11,
+          "chosen_1e_7_equilibrium_check_pass": true,
+          "Coulomb_bound_error_MPa": 2.220446049250313e-16
+        }
+      ],
+      "source_sha256": "d5078a47793d4bd6f5ebe4fe7d9f053c12eee3b359991ebcf6024527d8c1e83d"
+    }
+  ],
+  "candidate_corrected_fields_satisfy_residual": true,
+  "method": "Original pivot penalty evaluated as sum of five rank-one actions, avoiding dense C transpose C. Candidate mean bore rotation subtracts the finite separated-face offset from tangential slip.",
+  "scope": "Saved-field residual recheck only, no new solve. Candidate virtual-spacer mechanics are an idealization, not resolved actual washer contact. Failure means a corrected equilibrium solve is still needed; kinematic invariance alone is insufficient."
+}

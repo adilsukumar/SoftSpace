@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-24",
+  "cases": [
+    {
+      "direction": "outward",
+      "equilibrium_pass": true,
+      "relative_equilibrium_residual": 4.6943289682980554e-08,
+      "force_balance_N": 2.5140085481540944e-10,
+      "displacement_change_percent": 0.1918710116400657,
+      "fork_peak_125_change_percent": 2.3414723269933324,
+      "parts": [
+        {
+          "component": "tongue",
+          "peak_MPa": {
+            "27": 3.7319389031060686,
+            "125": 3.873030993128661
+          },
+          "boundary_lattice_sampled_peak_MPa": 3.9743776441731944,
+          "peak_change_from_V21_percent": {
+            "interior_27": 0.2859573318661157,
+            "interior_125": 0.6750351084694017,
+            "boundary_lattice": 0.21556439472543154
+          },
+          "chosen_5_percent_sampling_comparisons": {
+            "interior_27": true,
+            "interior_125": true,
+            "boundary_lattice": true
+          },
+          "bulk_energy_N_mm": {
+            "27": 1.363248884563078,
+            "125": 1.363250426055346
+          },
+          "nonpositive_35_point_lattice_Jacobians": 0,
+          "minimum_interior_Jacobian": 0.24546116289881809
+        },
+        {
+          "component": "fork",
+          "peak_MPa": {
+            "27": 4.970379907626213,
+            "125": 5.064522984047373
+          },
+          "boundary_lattice_sampled_peak_MPa": 8.323963595337336,
+          "peak_change_from_V21_percent": {
+            "interior_27": 10.122281290174051,
+            "interior_125": 2.3414723269933324,
+            "boundary_lattice": 4.075092329661145
+          },
+          "chosen_5_percent_sampling_comparisons": {
+            "interior_27": false,
+            "interior_125": true,
+            "boundary_lattice": true
+          },
+          "bulk_energy_N_mm": {
+            "27": 0.3772765215546833,
+            "125": 0.37727768772513615
+          },
+          "nonpositive_35_point_lattice_Jacobians": 0,
+          "minimum_interior_Jacobian": 0.0007817213637445259
+        }
+      ],
+      "raw_solution_sha256": "09577b6a69f497ad9bb60073c545c59305edfef15d34c1f973e41eb5463f0dad",
+      "source_CAD_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d"
+    },
+    {
+      "direction": "inward",
+      "equilibrium_pass": true,
+      "relative_equilibrium_residual": 3.635391841424758e-08,
+      "force_balance_N": 1.4601550600931908e-10,
+      "displacement_change_percent": 0.2672088020065688,
+      "fork_peak_125_change_percent": 5.438942621502818,
+      "parts": [
+        {
+          "component": "tongue",
+          "peak_MPa": {
+            "27": 3.423667617243795,
+            "125": 3.6646717206452464
+          },
+          "boundary_lattice_sampled_peak_MPa": 3.8381367137658615,
+          "peak_change_from_V21_percent": {
+            "interior_27": 0.00359680719925759,
+            "interior_125": 0.0033749421369577703,
+            "boundary_lattice": 0.0032106210482218955
+          },
+          "chosen_5_percent_sampling_comparisons": {
+            "interior_27": true,
+            "interior_125": true,
+            "boundary_lattice": true
+          },
+          "bulk_energy_N_mm": {
+            "27": 1.3310419210189113,
+            "125": 1.331043352655711
+          },
+          "nonpositive_35_point_lattice_Jacobians": 0,
+          "minimum_interior_Jacobian": 0.24546116289881809
+        },
+        {
+          "component": "fork",
+          "peak_MPa": {
+            "27": 5.754246816674634,
+            "125": 6.275377638166408
+          },
+          "boundary_lattice_sampled_peak_MPa": 6.824777132874946,
+          "peak_change_from_V21_percent": {
+            "interior_27": 0.42335123544283704,
+            "interior_125": 5.438942621502818,
+            "boundary_lattice": 2.309742335074194
+          },
+          "chosen_5_percent_sampling_comparisons": {
+            "interior_27": true,
+            "interior_125": false,
+            "boundary_lattice": true
+          },
+          "bulk_energy_N_mm": {
+            "27": 0.4003436253216796,
+            "125": 0.4003447585993551
+          },
+          "nonpositive_35_point_lattice_Jacobians": 0,
+          "minimum_interior_Jacobian": 0.0007817213637445259
+        }
+      ],
+      "raw_solution_sha256": "6b003315f60d63013d42ddfa67cf7d2cae47a4a8a2fa9569301b250116811065",
+      "source_CAD_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d"
+    }
+  ],
+  "scope": "V19 isolated fixture geometry, same assumed E 3500 MPa nu .35, preload 140 N friction .2 and side load plus/minus 2 N. Local 0.9 mm target near adult fork hotspots, V21 tongue mesh. No resolved fastener or whole headset."
+}

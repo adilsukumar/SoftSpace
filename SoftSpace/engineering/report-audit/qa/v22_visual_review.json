@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-24",
+  "source_hashes": [
+    "856c8231a1bc1478cbfa89a3ab58c6e92762330b128fe3ed03e6c141a946051a",
+    "e7c8d3dfb51f40795dcd55216453380e7bb1754a09899d6e38447b7328cf8f81"
+  ],
+  "native_export": "Word 16 read-only exports with unchanged DOCX sources",
+  "native_pages": [
+    94,
+    69
+  ],
+  "automated_layout": "All pages rendered; no blank body, short text page or text outside physical page bounds",
+  "visual_scope": "All-page native contact-sheet review and detailed new chapters, title pages and affected historical layout pages. This is layout review, not independent review of every scientific statement.",
+  "shared_V22_pages": [
+    {
+      "main_page": 90,
+      "Flex_page": 65,
+      "matching_native_body_image": true
+    },
+    {
+      "main_page": 91,
+      "Flex_page": 66,
+      "matching_native_body_image": true
+    },
+    {
+      "main_page": 92,
+      "Flex_page": 67,
+      "matching_native_body_image": true
+    },
+    {
+      "main_page": 93,
+      "Flex_page": 68,
+      "matching_native_body_image": true
+    },
+    {
+      "main_page": 94,
+      "Flex_page": 69,
+      "matching_native_body_image": true
+    }
+  ]
+}

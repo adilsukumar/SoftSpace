@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-24",
+  "fields": [
+    {
+      "direction": "outward",
+      "source_sha256": "09577b6a69f497ad9bb60073c545c59305edfef15d34c1f973e41eb5463f0dad",
+      "interior_sampled_peak_MPa": 5.064522984047373
+    },
+    {
+      "direction": "inward",
+      "source_sha256": "6b003315f60d63013d42ddfa67cf7d2cae47a4a8a2fa9569301b250116811065",
+      "interior_sampled_peak_MPa": 6.275377638166408
+    }
+  ],
+  "scope": "Calculated field visualization only, not measured surface stress or strength qualification."
+}

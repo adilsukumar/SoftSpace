@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-24",
+  "converged": true,
+  "reference_model": "Objective virtual spacer using mean bore rotation",
+  "relative_free_residual": 2.69068340991676e-11,
+  "initial_original_field_residual": 0.0003445873998907091,
+  "cup_mean_displacement_x_mm": 0.3455156475007748,
+  "seconds": 131.37344574928284,
+  "history": [
+    {
+      "iteration": 0,
+      "residual_before": 0.0003445873998907091,
+      "residual_after": 7.426818134845523e-07,
+      "step": 1.0,
+      "gmres_iterations": 9,
+      "relative_linear_residual": 8.04291538104733e-06
+    },
+    {
+      "iteration": 1,
+      "residual_before": 7.426818134845523e-07,
+      "residual_after": 2.69068340991676e-11,
+      "step": 1.0,
+      "gmres_iterations": 8,
+      "relative_linear_residual": 6.502863455889681e-06
+    }
+  ],
+  "contact_derivative_controls": [
+    {
+      "epsilon": 1e-06,
+      "relative_contact_derivative_error": 1.1553644647620182e-06
+    },
+    {
+      "epsilon": 1e-07,
+      "relative_contact_derivative_error": 8.99192720819803e-06
+    },
+    {
+      "epsilon": 1e-08,
+      "relative_contact_derivative_error": 9.504716682699939e-05
+    }
+  ],
+  "source_CAD_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d",
+  "warm_reference_sha256": "09577b6a69f497ad9bb60073c545c59305edfef15d34c1f973e41eb5463f0dad",
+  "executed_script_sha256": "f1023cd5cdfffb4f7688546bc876296f9d632dc65589daf6620189f484e841ee",
+  "scope": "A corrected mathematical reference model. It does not resolve an actual washer, thread, material history or whole headset. No strength or comfort validation."
+}

@@ -1,0 +1,78 @@
+{
+  "iteration": 11,
+  "residual": 3.635391841424758e-08,
+  "history": [
+    {
+      "iteration": 0,
+      "residual": 0.07045608267326775,
+      "relative_displacement_change": 0.0074470171755259065,
+      "active": 3624
+    },
+    {
+      "iteration": 1,
+      "residual": 0.03480516879871411,
+      "relative_displacement_change": 0.00014691368778480424,
+      "active": 3624
+    },
+    {
+      "iteration": 2,
+      "residual": 0.005635118027879701,
+      "relative_displacement_change": 0.00030412304532548057,
+      "active": 3624
+    },
+    {
+      "iteration": 3,
+      "residual": 0.0029680684928701396,
+      "relative_displacement_change": 0.00011297932746595313,
+      "active": 3624
+    },
+    {
+      "iteration": 4,
+      "residual": 0.0012431528812218793,
+      "relative_displacement_change": 9.972055158115529e-05,
+      "active": 3624
+    },
+    {
+      "iteration": 5,
+      "residual": 0.0003851587861967213,
+      "relative_displacement_change": 6.296645438089214e-05,
+      "active": 3624
+    },
+    {
+      "iteration": 6,
+      "residual": 0.00010696083699429777,
+      "relative_displacement_change": 2.269906972904023e-05,
+      "active": 3624
+    },
+    {
+      "iteration": 7,
+      "residual": 1.7681996097989437e-05,
+      "relative_displacement_change": 7.596651096233947e-06,
+      "active": 3624
+    },
+    {
+      "iteration": 8,
+      "residual": 3.004775616388041e-06,
+      "relative_displacement_change": 7.347899666428755e-07,
+      "active": 3624
+    },
+    {
+      "iteration": 9,
+      "residual": 5.965207919007927e-07,
+      "relative_displacement_change": 1.6075517437206514e-08,
+      "active": 3624
+    },
+    {
+      "iteration": 10,
+      "residual": 1.2676405051463952e-07,
+      "relative_displacement_change": 8.420530069396808e-09,
+      "active": 3624
+    },
+    {
+      "iteration": 11,
+      "residual": 3.635391841424758e-08,
+      "relative_displacement_change": 3.5130908595429976e-09,
+      "active": 3624
+    }
+  ]
+}

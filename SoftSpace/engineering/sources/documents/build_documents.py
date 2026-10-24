@@ -173,7 +173,8 @@ if (P/'engineering-v19-results'/'test_register.json').exists():REV='V19 six size
 def para(doc,text,style=None):
  p=doc.add_paragraph(text,style);return p
 def heading(doc,text):doc.add_heading(text,1)
-def new_page(doc,title):doc.add_page_break();heading(doc,title)
+def new_page(doc,title):
+ p=doc.add_heading(title,1);p.paragraph_format.page_break_before=True
 def label(doc,title,text):
  p=doc.add_paragraph();p.add_run(title+': ').bold=True;p.add_run(text)
 def picture(doc,name,caption,width=6.55):
@@ -234,6 +235,8 @@ def sources(doc,ids):
  for i in ids:link(doc,'['+str(i)+'] '+refs[i-1][0],refs[i-1][1])
  para(doc,'Web information was checked on 13 October 2026. Prices, coupons and stock can change. Links are evidence sources, not buying recommendations. CAD images were rendered from our saved STEP files; they are not manufactured product photos. SYGA and Sony photographs came from the linked seller pages and are used only to identify the compared products.')
 def save(doc,name):
+ from v22_layout import apply_layout
+ apply_layout(doc)
  dest=O/name
  if dest.exists():
   b=O/'history';b.mkdir(exist_ok=True);shutil.copy2(dest,b/(dest.stem+'_'+datetime.datetime.now().strftime('%Y%m%d_%H%M%S')+'.docx'))
@@ -241,7 +244,7 @@ def save(doc,name):
 
 def main_doc():
  d=setup('SoftSpace','Headphones for sound sensitive autistic people')
- para(d,'Current update on 24 October 2026: the V21 review adds folding, glasses-position and stress checks to the unchanged V19 headset and V20 cushion bodies. Six of eight finer stress checks pass, but the adult fork still fails two. All six sizes have a smaller sampled carrying pose. The wider cushion tests reveal pressure risks. All software work is not complete. Neither product is physically validated. See the final V21 chapter.')
+ para(d,'Current update on 24 October 2026: V22 checks stress integration, extra sampling points and targeted adult fork refinement. The earlier six stress passes applied only to 27 interior points; wider sampling does not establish stable peaks throughout the parts. Six smaller carrying poses are saved. Both products still need development. Read the final V22 chapters for the results and missing inputs.')
  para(d,'We are developing a low-cost passive over-ear defender for India. The aim is to make loud surroundings easier to manage while keeping the device comfortable, easy to remove and simple to use. Autistic users are our first priority; other sound-sensitive people may also find the idea useful.')
  if (I/'V19_hero.png').exists():picture(d,'V19_hero','V19 child large and adult small final local STEP prototype assemblies. Physical validation remains open.',5.7)
  elif (I/'V18_hero.png').exists():picture(d,'V18_hero','V18 passive hinge child large and adult small local STEP candidates. Physical validation remains open.',5.7)
@@ -411,11 +414,13 @@ def main_doc():
  add_v20(d,P,new_page,para,table,picture,link,False)
  from v21_review_section import add_v21
  add_v21(d,P,new_page,para,table,picture)
+ from v22_review_section import add_v22
+ add_v22(d,P,new_page,para,table,picture)
  return save(d,'Ear_Defender_Project.docx')
 
 def glasses_doc():
  d=setup('SoftSpace Flex','Affordable replacement pads for compatible headphones in India')
- para(d,'Current update on 24 October 2026: the V21 review finds pressure increases when glasses miss the 18 or 32 mm soft zones. No zone is a final winner. The shared headset passes six finer stress checks but still fails both adult fork checks. The V20 pad bodies are unchanged; exact Sony mounting fit, comfort, sealing and sound benefits remain unverified. See the final V21 chapter.')
+ para(d,'Current update on 24 October 2026: V22 examines how reliable the shared headset stress predictions are. Wider sampling limits the earlier interior point passes. The cushion study still finds pressure increases when glasses miss a soft zone. The three V20 pad bodies are unchanged. No final cushion winner, exact Sony mounting fit, comfort or sound benefit is established. Read the final V22 chapters.')
  para(d,'We want a replacement cushion that presses less on glasses arms while keeping a good seal. The user keeps their headphone and replaces its removable pads. We are developing the contact idea together with our passive ear defender, but this is a separate product route.')
  picture(d,'V20_flex_CAD','V20 uniform control and two soft-zone body candidates. Published aftermarket outside size; assumed opening and cover. The mounting skirt is not yet dimensioned or fit-verified.',6.55)
  label(d,'Current conclusion','The idea is worth investigating. We have not proved less pain, unchanged music, no sound leakage or universal compatibility. The pad needs tests on each supported headphone model.')
@@ -531,6 +536,8 @@ def glasses_doc():
  add_v20(d,P,new_page,para,table,picture,link,True)
  from v21_review_section import add_v21
  add_v21(d,P,new_page,para,table,picture)
+ from v22_review_section import add_v22
+ add_v22(d,P,new_page,para,table,picture)
  return save(d,'Glasses_Friendly_Headphone_Cushions.docx')
 
 if __name__=='__main__':

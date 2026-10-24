@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-24",
+  "scenarios": 25272,
+  "eligible_within_chosen_40_percent_compression": 22012,
+  "eligible_local_pressure_increases": 0,
+  "eligible_peak_pressure_increases": 0,
+  "eligible_detachment_cases": 4,
+  "eligible_local_pressure_change_range_percent": [
+    -71.90873495160682,
+    6.661338147750939e-14
+  ],
+  "equivalent_uniform_modulus_max_pressure_error_MPa": 0.0,
+  "maximum_force_residual_N": 7.105427357601002e-15,
+  "source_model_sha256": "c824cf8cdfeb6f7f6032169be8307f0a73f373fdf0a3fb8d6fef928d4b0b2ebc",
+  "source_geometry": "Same 80 by 100 mm outer and assumed 50 by 70 mm inner annulus, 30 mm thickness. Whole-annulus softness is assigned directly. The original strip function describes the positive-X half of the annulus where the glasses arm passes, so increasing strip height alone would not soften the other half.",
+  "CAD_changed": false,
+  "scope": "Assumed independent-column foam law and parallel cover stiffness only. Uniformly softer foam removes the patch placement boundary in this model, but increases compression and still needs actual material, cover, fit, acoustic, heat and durability inputs. No physical comfort, sealing or superiority claim."
+}

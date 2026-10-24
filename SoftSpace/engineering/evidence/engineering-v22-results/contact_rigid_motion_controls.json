@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-24",
+  "cases": [
+    {
+      "size": "child_large",
+      "cases": [
+        {
+          "kind": "translation",
+          "axis": "X",
+          "maximum_normal_operator_motion": 0.0,
+          "maximum_tangential_operator_motion": 1.1102230246251565e-16,
+          "maximum_relative_pivot_constraint_motion": 9.280770596475918e-17,
+          "chosen_1e_8_zero_motion_pass": true
+        },
+        {
+          "kind": "translation",
+          "axis": "Y",
+          "maximum_normal_operator_motion": 1.1102230246251565e-16,
+          "maximum_tangential_operator_motion": 0.0,
+          "maximum_relative_pivot_constraint_motion": 1.1635657715114434e-15,
+          "chosen_1e_8_zero_motion_pass": true
+        },
+        {
+          "kind": "translation",
+          "axis": "Z",
+          "maximum_normal_operator_motion": 1.1102230246251565e-16,
+          "maximum_tangential_operator_motion": 1.1102230246251565e-16,
+          "maximum_relative_pivot_constraint_motion": 8.847089727481716e-16,
+          "chosen_1e_8_zero_motion_pass": true
+        },
+        {
+          "kind": "rotation",
+          "axis": "X",
+          "maximum_normal_operator_motion": 1.3322676295501878e-14,
+          "maximum_tangential_operator_motion": 0.5000000000000018,
+          "maximum_relative_pivot_constraint_motion": 2.6015647969224176e-14,
+          "chosen_1e_8_zero_motion_pass": false
+        },
+        {
+          "kind": "rotation",
+          "axis": "Y",
+          "maximum_normal_operator_motion": 2.886579864025407e-15,
+          "maximum_tangential_operator_motion": 1.3322676295501878e-14,
+          "maximum_relative_pivot_constraint_motion": 5.545490824356014e-16,
+          "chosen_1e_8_zero_motion_pass": true
+        },
+        {
+          "kind": "rotation",
+          "axis": "Z",
+          "maximum_normal_operator_motion": 1.7763568394002505e-15,
+          "maximum_tangential_operator_motion": 0.5000000000000018,
+          "maximum_relative_pivot_constraint_motion": 4.3483013388494825e-15,
+          "chosen_1e_8_zero_motion_pass": false
+        }
+      ],
+      "corrected_candidate_cases": [
+        {
+          "kind": "translation",
+          "axis": "X",
+          "maximum_tangential_motion": 1.137294197619404e-16,
+          "chosen_1e_8_zero_motion_pass": true
+        },
+        {
+          "kind": "translation",
+          "axis": "Y",
+          "maximum_tangential_motion": 1.717359300558094e-18,
+          "chosen_1e_8_zero_motion_pass": true
+        },
+        {
+          "kind": "translation",
+          "axis": "Z",
+          "maximum_tangential_motion": 1.1283156483785084e-16,
+          "chosen_1e_8_zero_motion_pass": true
+        },
+        {
+          "kind": "rotation",
+          "axis": "X",
+          "maximum_tangential_motion": 6.439293542825908e-15,
+          "chosen_1e_8_zero_motion_pass": true
+        },
+        {
+          "kind": "rotation",
+          "axis": "Y",
+          "maximum_tangential_motion": 1.3323301824370342e-14,
+          "chosen_1e_8_zero_motion_pass": true
+        },
+        {
+          "kind": "rotation",
+          "axis": "Z",
+          "maximum_tangential_motion": 4.440892098500626e-15,
+          "chosen_1e_8_zero_motion_pass": true
+        }
+      ],
+      "source_mesh_sha256": "ea56856b77d068f4f1a850ba9218cd9f8f75d9d38f4442410392769f86a60249"
+    },
+    {
+      "size": "adult_small",
+      "cases": [
+        {
+          "kind": "translation",
+          "axis": "X",
+          "maximum_normal_operator_motion": 0.0,
+          "maximum_tangential_operator_motion": 1.1102230246251565e-16,
+          "maximum_relative_pivot_constraint_motion": 4.722784663346857e-16,
+          "chosen_1e_8_zero_motion_pass": true
+        },
+        {
+          "kind": "translation",
+          "axis": "Y",
+          "maximum_normal_operator_motion": 1.1102230246251565e-16,
+          "maximum_tangential_operator_motion": 0.0,
+          "maximum_relative_pivot_constraint_motion": 2.5220710936357804e-15,
+          "chosen_1e_8_zero_motion_pass": true
+        },
+        {
+          "kind": "translation",
+          "axis": "Z",
+          "maximum_normal_operator_motion": 1.1102230246251565e-16,
+          "maximum_tangential_operator_motion": 1.1102230246251565e-16,
+          "maximum_relative_pivot_constraint_motion": 3.3219954564955856e-16,
+          "chosen_1e_8_zero_motion_pass": true
+        },
+        {
+          "kind": "rotation",
+          "axis": "X",
+          "maximum_normal_operator_motion": 1.6542323066914832e-14,
+          "maximum_tangential_operator_motion": 0.5000000000000036,
+          "maximum_relative_pivot_constraint_motion": 1.7600504387260685e-14,
+          "chosen_1e_8_zero_motion_pass": false
+        },
+        {
+          "kind": "rotation",
+          "axis": "Y",
+          "maximum_normal_operator_motion": 3.3306690738754696e-15,
+          "maximum_tangential_operator_motion": 1.6542323066914832e-14,
+          "maximum_relative_pivot_constraint_motion": 1.1338586319853405e-15,
+          "chosen_1e_8_zero_motion_pass": true
+        },
+        {
+          "kind": "rotation",
+          "axis": "Z",
+          "maximum_normal_operator_motion": 1.7763568394002505e-15,
+          "maximum_tangential_operator_motion": 0.5000000000000036,
+          "maximum_relative_pivot_constraint_motion": 1.8229866807729575e-14,
+          "chosen_1e_8_zero_motion_pass": false
+        }
+      ],
+      "corrected_candidate_cases": [
+        {
+          "kind": "translation",
+          "axis": "X",
+          "maximum_tangential_motion": 1.1233859166254884e-16,
+          "chosen_1e_8_zero_motion_pass": true
+        },
+        {
+          "kind": "translation",
+          "axis": "Y",
+          "maximum_tangential_motion": 1.9873510524954022e-19,
+          "chosen_1e_8_zero_motion_pass": true
+        },
+        {
+          "kind": "translation",
+          "axis": "Z",
+          "maximum_tangential_motion": 1.1318393054390863e-16,
+          "chosen_1e_8_zero_motion_pass": true
+        },
+        {
+          "kind": "rotation",
+          "axis": "X",
+          "maximum_tangential_motion": 4.551914400963142e-15,
+          "chosen_1e_8_zero_motion_pass": true
+        },
+        {
+          "kind": "rotation",
+          "axis": "Y",
+          "maximum_tangential_motion": 1.654150673064011e-14,
+          "chosen_1e_8_zero_motion_pass": true
+        },
+        {
+          "kind": "rotation",
+          "axis": "Z",
+          "maximum_tangential_motion": 3.885780586188048e-15,
+          "chosen_1e_8_zero_motion_pass": true
+        }
+      ],
+      "source_mesh_sha256": "007670db33a2e29951fcb555b143306ab0210fb5b0ee3d5f87fd583da0248631"
+    }
+  ],
+  "complete": true,
+  "corrected_candidate_all_rigid_motion_checks_pass": true,
+  "all_common_rigid_motion_checks_pass": false,
+  "units": "Translations in mm per mm of common translation; rotations in mm per radian of infinitesimal common rotation. Rotation basis is a linearized invariance test, not an imposed finite movement.",
+  "scope": "Contact and pivot operators only. Bulk stiffness replaced by zero solely to obtain operators cheaply; no FE equilibrium result. A failure indicates the virtual separated-face friction kinematics are not generally objective, not that physical parts broke. Actual washer/spacer contact is not resolved. The candidate subtracts the 0.5 mm separated-face offset cross the mean best-fit bore rotation. Candidate kinematic checks do not establish equilibrium, stress or physical washer behaviour."
+}

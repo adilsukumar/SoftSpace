@@ -42,6 +42,16 @@ This repository makes the work inspectable: actual CAD, illustrated reports, num
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-routes-mobile.svg"/><img src="assets/readme/section-routes.svg" width="100%" alt="TWO ROUTES THROUGH THE QUESTION. A passive headphone concept and replacement cushions."/></picture></p>
 
 
+<!-- V22:BEGIN -->
+## V22 numerical confidence review
+
+The [V22 results and test register](SoftSpace/engineering/evidence/engineering-v22-results/README.md) add higher-order integration, wider stress recovery, adaptive mesh quality, two targeted adult fork runs, contact rigid-motion controls and a corrected virtual-spacer reference. The earlier six stress passes applied only to 27 interior points; they do not establish reliable whole-part peaks. Exact corrected equilibrium statuses and failures remain in the saved records.
+
+A whole-pad softer-foam control adds 25,272 assumed cases. In the 22,012 within the chosen compression range, none increases local or peak pressure in the reduced model; four show model detachment. This is a comparison candidate, not a selected material or a comfort, seal or acoustic result.
+
+Both Word reports are updated together. Native Word exports and layout checks now supplement the earlier approximate previews. Part shapes stay at V19 for SoftSpace and V20 for Flex, with V21 carrying poses. **All possible software testing and product validation are not complete.** Actual material curves, mounting geometry, detailed contact and whole-product sound/heat/life models remain open.
+<!-- V22:END -->
+
 ## V21 software review on 24 October 2026
 
 **Software closure is not established.** The [new review and complete test register](SoftSpace/engineering/evidence/engineering-v21-results/README.md) adds 285 rigid motion samples, 126,360 assumed cushion-position scenarios, exact-area checks of every V20 row, and stresses recovered inside eight saved joint models. Both Word reports have the same update.

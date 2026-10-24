@@ -1,0 +1,445 @@
+{
+  "date": "2026-10-24",
+  "executed_V22_checks_complete": true,
+  "all_possible_software_testing_complete": false,
+  "physical_tests": 0,
+  "CAD_changed": false,
+  "targeted_cases": [
+    {
+      "direction": "outward",
+      "equilibrium_pass": true,
+      "relative_equilibrium_residual": 4.6943289682980554e-08,
+      "force_balance_N": 2.5140085481540944e-10,
+      "displacement_change_percent": 0.1918710116400657,
+      "fork_peak_125_change_percent": 2.3414723269933324,
+      "parts": [
+        {
+          "component": "tongue",
+          "peak_MPa": {
+            "27": 3.7319389031060686,
+            "125": 3.873030993128661
+          },
+          "boundary_lattice_sampled_peak_MPa": 3.9743776441731944,
+          "peak_change_from_V21_percent": {
+            "interior_27": 0.2859573318661157,
+            "interior_125": 0.6750351084694017,
+            "boundary_lattice": 0.21556439472543154
+          },
+          "chosen_5_percent_sampling_comparisons": {
+            "interior_27": true,
+            "interior_125": true,
+            "boundary_lattice": true
+          },
+          "bulk_energy_N_mm": {
+            "27": 1.363248884563078,
+            "125": 1.363250426055346
+          },
+          "nonpositive_35_point_lattice_Jacobians": 0,
+          "minimum_interior_Jacobian": 0.24546116289881809
+        },
+        {
+          "component": "fork",
+          "peak_MPa": {
+            "27": 4.970379907626213,
+            "125": 5.064522984047373
+          },
+          "boundary_lattice_sampled_peak_MPa": 8.323963595337336,
+          "peak_change_from_V21_percent": {
+            "interior_27": 10.122281290174051,
+            "interior_125": 2.3414723269933324,
+            "boundary_lattice": 4.075092329661145
+          },
+          "chosen_5_percent_sampling_comparisons": {
+            "interior_27": false,
+            "interior_125": true,
+            "boundary_lattice": true
+          },
+          "bulk_energy_N_mm": {
+            "27": 0.3772765215546833,
+            "125": 0.37727768772513615
+          },
+          "nonpositive_35_point_lattice_Jacobians": 0,
+          "minimum_interior_Jacobian": 0.0007817213637445259
+        }
+      ],
+      "raw_solution_sha256": "09577b6a69f497ad9bb60073c545c59305edfef15d34c1f973e41eb5463f0dad",
+      "source_CAD_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d"
+    },
+    {
+      "direction": "inward",
+      "equilibrium_pass": true,
+      "relative_equilibrium_residual": 3.635391841424758e-08,
+      "force_balance_N": 1.4601550600931908e-10,
+      "displacement_change_percent": 0.2672088020065688,
+      "fork_peak_125_change_percent": 5.438942621502818,
+      "parts": [
+        {
+          "component": "tongue",
+          "peak_MPa": {
+            "27": 3.423667617243795,
+            "125": 3.6646717206452464
+          },
+          "boundary_lattice_sampled_peak_MPa": 3.8381367137658615,
+          "peak_change_from_V21_percent": {
+            "interior_27": 0.00359680719925759,
+            "interior_125": 0.0033749421369577703,
+            "boundary_lattice": 0.0032106210482218955
+          },
+          "chosen_5_percent_sampling_comparisons": {
+            "interior_27": true,
+            "interior_125": true,
+            "boundary_lattice": true
+          },
+          "bulk_energy_N_mm": {
+            "27": 1.3310419210189113,
+            "125": 1.331043352655711
+          },
+          "nonpositive_35_point_lattice_Jacobians": 0,
+          "minimum_interior_Jacobian": 0.24546116289881809
+        },
+        {
+          "component": "fork",
+          "peak_MPa": {
+            "27": 5.754246816674634,
+            "125": 6.275377638166408
+          },
+          "boundary_lattice_sampled_peak_MPa": 6.824777132874946,
+          "peak_change_from_V21_percent": {
+            "interior_27": 0.42335123544283704,
+            "interior_125": 5.438942621502818,
+            "boundary_lattice": 2.309742335074194
+          },
+          "chosen_5_percent_sampling_comparisons": {
+            "interior_27": true,
+            "interior_125": false,
+            "boundary_lattice": true
+          },
+          "bulk_energy_N_mm": {
+            "27": 0.4003436253216796,
+            "125": 0.4003447585993551
+          },
+          "nonpositive_35_point_lattice_Jacobians": 0,
+          "minimum_interior_Jacobian": 0.0007817213637445259
+        }
+      ],
+      "raw_solution_sha256": "6b003315f60d63013d42ddfa67cf7d2cae47a4a8a2fa9569301b250116811065",
+      "source_CAD_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d"
+    }
+  ],
+  "targeted_all_sampling_comparisons_pass": false,
+  "targeted_plain_english": "Some targeted sampling comparisons still exceed the chosen 5 percent check. This does not close the wider child and adult stress sampling problem. Stable force balance and displacement do not establish part strength. The actual edge and contact geometry, bolt detail and manufactured material remain unqualified.",
+  "scope": "V19 isolated fixture geometry, same assumed E 3500 MPa nu .35, preload 140 N friction .2 and side load plus/minus 2 N. Local 0.9 mm target near adult fork hotspots, V21 tongue mesh. No resolved fastener or whole headset.",
+  "remaining_software_failure": "Stable whole-part peak stress not demonstrated across recovery sampling and meshes. Actual contact/edge geometry and targeted model revision remain open.",
+  "input_gates": [
+    "Named manufactured material grades and compression/time-dependent curves",
+    "Cover tension, seams, friction and worn head geometry",
+    "Sony skirt and groove dimensions",
+    "Acoustic seal and pad properties",
+    "Thermal and moisture properties of assembled materials",
+    "Complete fastener geometry, process tolerances and durability acceptance criteria"
+  ],
+  "human_tests": [
+    "Comfort",
+    "Sensory acceptance",
+    "Real handling and sound performance"
+  ],
+  "original_contact_all_rigid_motion_checks_pass": false,
+  "corrected_candidate_all_rigid_motion_checks_pass": true,
+  "adaptive_mesh_quality": {
+    "date": "2026-10-24",
+    "complete": true,
+    "cases": [
+      {
+        "size": "child_large",
+        "mesh": 2.3,
+        "component": "tongue",
+        "elements": 6221,
+        "minimum_adaptive_Jacobian": 0.18925472081124406,
+        "nonpositive_adaptive_Jacobians": 0,
+        "minimum_sampled_SICN": 0.034487679319103334,
+        "source_sha256": "c6e9d2881812290de9fdd86a1f1157b9f7b106119cb815e74e3f865f9747ef65"
+      },
+      {
+        "size": "child_large",
+        "mesh": 2.3,
+        "component": "fork",
+        "elements": 6588,
+        "minimum_adaptive_Jacobian": 0.0017010213116154767,
+        "nonpositive_adaptive_Jacobians": 0,
+        "minimum_sampled_SICN": 0.0008485986780236921,
+        "source_sha256": "c6e9d2881812290de9fdd86a1f1157b9f7b106119cb815e74e3f865f9747ef65"
+      },
+      {
+        "size": "adult_small",
+        "mesh": 2.3,
+        "component": "tongue",
+        "elements": 9683,
+        "minimum_adaptive_Jacobian": 0.22044549513744416,
+        "nonpositive_adaptive_Jacobians": 0,
+        "minimum_sampled_SICN": 0.03481162353971818,
+        "source_sha256": "5688428784a096e328a8dc3461330bb13f20e10d6f86bd0ae34c0ba30d75f0b3"
+      },
+      {
+        "size": "adult_small",
+        "mesh": 2.3,
+        "component": "fork",
+        "elements": 6731,
+        "minimum_adaptive_Jacobian": 0.0013790231701763674,
+        "nonpositive_adaptive_Jacobians": 0,
+        "minimum_sampled_SICN": 0.0006880300249744389,
+        "source_sha256": "5688428784a096e328a8dc3461330bb13f20e10d6f86bd0ae34c0ba30d75f0b3"
+      },
+      {
+        "size": "child_large",
+        "mesh": 1.9,
+        "component": "tongue",
+        "elements": 9099,
+        "minimum_adaptive_Jacobian": 0.18046136879493924,
+        "nonpositive_adaptive_Jacobians": 0,
+        "minimum_sampled_SICN": 0.2129892138469879,
+        "source_sha256": "ea56856b77d068f4f1a850ba9218cd9f8f75d9d38f4442410392769f86a60249"
+      },
+      {
+        "size": "child_large",
+        "mesh": 1.9,
+        "component": "fork",
+        "elements": 9817,
+        "minimum_adaptive_Jacobian": 0.0008154194693040805,
+        "nonpositive_adaptive_Jacobians": 0,
+        "minimum_sampled_SICN": 0.0011238073698148809,
+        "source_sha256": "ea56856b77d068f4f1a850ba9218cd9f8f75d9d38f4442410392769f86a60249"
+      },
+      {
+        "size": "adult_small",
+        "mesh": 1.9,
+        "component": "tongue",
+        "elements": 15080,
+        "minimum_adaptive_Jacobian": 0.23931874692447394,
+        "nonpositive_adaptive_Jacobians": 0,
+        "minimum_sampled_SICN": 0.20066020792845965,
+        "source_sha256": "007670db33a2e29951fcb555b143306ab0210fb5b0ee3d5f87fd583da0248631"
+      },
+      {
+        "size": "adult_small",
+        "mesh": 1.9,
+        "component": "fork",
+        "elements": 9893,
+        "minimum_adaptive_Jacobian": 0.0007240237072147327,
+        "nonpositive_adaptive_Jacobians": 0,
+        "minimum_sampled_SICN": 0.0009947009424126588,
+        "source_sha256": "007670db33a2e29951fcb555b143306ab0210fb5b0ee3d5f87fd583da0248631"
+      },
+      {
+        "size": "adult_small",
+        "mesh": "local0.9",
+        "component": "tongue",
+        "elements": 15080,
+        "minimum_adaptive_Jacobian": 0.23931874692447394,
+        "nonpositive_adaptive_Jacobians": 0,
+        "minimum_sampled_SICN": 0.20066020792845965,
+        "source_sha256": "58bf5c6193a45511b9a364a86f2e9bed72eb2260e2a4e95d6eb41e2b4044d2e5"
+      },
+      {
+        "size": "adult_small",
+        "mesh": "local0.9",
+        "component": "fork",
+        "elements": 11502,
+        "minimum_adaptive_Jacobian": 0.000780560354094761,
+        "nonpositive_adaptive_Jacobians": 0,
+        "minimum_sampled_SICN": 0.0012213118935229573,
+        "source_sha256": "58bf5c6193a45511b9a364a86f2e9bed72eb2260e2a4e95d6eb41e2b4044d2e5"
+      }
+    ],
+    "seconds": 0.5013597011566162,
+    "gmsh_version": "4.13.1",
+    "method": "Saved Tet10 node coordinates and connectivity reconstructed as discrete Gmsh mesh; minDetJac adaptive Jacobian and sampled minSICN.",
+    "scope": "Geometric element quality only. Positive adaptive minimum Jacobian does not establish accurate solution, stress, material or product strength."
+  },
+  "objective_spacer_cases": [
+    {
+      "direction": "outward",
+      "date": "2026-10-24",
+      "converged": true,
+      "reference_model": "Objective virtual spacer using mean bore rotation",
+      "relative_free_residual": 2.69068340991676e-11,
+      "initial_original_field_residual": 0.0003445873998907091,
+      "cup_mean_displacement_x_mm": 0.3455156475007748,
+      "seconds": 131.37344574928284,
+      "history": [
+        {
+          "iteration": 0,
+          "residual_before": 0.0003445873998907091,
+          "residual_after": 7.426818134845523e-07,
+          "step": 1.0,
+          "gmres_iterations": 9,
+          "relative_linear_residual": 8.04291538104733e-06
+        },
+        {
+          "iteration": 1,
+          "residual_before": 7.426818134845523e-07,
+          "residual_after": 2.69068340991676e-11,
+          "step": 1.0,
+          "gmres_iterations": 8,
+          "relative_linear_residual": 6.502863455889681e-06
+        }
+      ],
+      "contact_derivative_controls": [
+        {
+          "epsilon": 1e-06,
+          "relative_contact_derivative_error": 1.1553644647620182e-06
+        },
+        {
+          "epsilon": 1e-07,
+          "relative_contact_derivative_error": 8.99192720819803e-06
+        },
+        {
+          "epsilon": 1e-08,
+          "relative_contact_derivative_error": 9.504716682699939e-05
+        }
+      ],
+      "source_CAD_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d",
+      "warm_reference_sha256": "09577b6a69f497ad9bb60073c545c59305edfef15d34c1f973e41eb5463f0dad",
+      "executed_script_sha256": "f1023cd5cdfffb4f7688546bc876296f9d632dc65589daf6620189f484e841ee",
+      "scope": "A corrected mathematical reference model. It does not resolve an actual washer, thread, material history or whole headset. No strength or comfort validation."
+    },
+    {
+      "direction": "inward",
+      "date": "2026-10-24",
+      "converged": true,
+      "reference_model": "Objective virtual spacer using mean bore rotation",
+      "relative_free_residual": 3.02361504763737e-11,
+      "initial_original_field_residual": 0.001121504469024624,
+      "cup_mean_displacement_x_mm": -0.35317698572267503,
+      "seconds": 87.35738229751587,
+      "history": [
+        {
+          "iteration": 0,
+          "residual_before": 0.001121504469024624,
+          "residual_after": 3.201834599460888e-06,
+          "step": 1.0,
+          "gmres_iterations": 11,
+          "relative_linear_residual": 5.689095681694815e-06
+        },
+        {
+          "iteration": 1,
+          "residual_before": 3.201834599460888e-06,
+          "residual_after": 3.02361504763737e-11,
+          "step": 1.0,
+          "gmres_iterations": 13,
+          "relative_linear_residual": 6.081717626984326e-06
+        }
+      ],
+      "contact_derivative_controls": [
+        {
+          "epsilon": 1e-06,
+          "relative_contact_derivative_error": 1.0699660653042203e-06
+        },
+        {
+          "epsilon": 1e-07,
+          "relative_contact_derivative_error": 8.857798233327177e-06
+        },
+        {
+          "epsilon": 1e-08,
+          "relative_contact_derivative_error": 9.647373787668335e-05
+        }
+      ],
+      "source_CAD_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d",
+      "warm_reference_sha256": "6b003315f60d63013d42ddfa67cf7d2cae47a4a8a2fa9569301b250116811065",
+      "executed_script_sha256": "f1023cd5cdfffb4f7688546bc876296f9d632dc65589daf6620189f484e841ee",
+      "scope": "A corrected mathematical reference model. It does not resolve an actual washer, thread, material history or whole headset. No strength or comfort validation."
+    }
+  ],
+  "independent_corrected_field_audit": {
+    "date": "2026-10-24",
+    "complete": true,
+    "cases": [
+      {
+        "kind": "original",
+        "direction": "outward",
+        "global_force_balance_N": 2.5140085481540944e-10,
+        "global_moment_balance_N_mm": 0.06780576681550772,
+        "variants": [
+          {
+            "candidate_corrected": false,
+            "relative_equilibrium_residual": 4.694328781983783e-08,
+            "chosen_1e_7_equilibrium_check_pass": true,
+            "Coulomb_bound_error_MPa": 5.551115123125783e-17
+          },
+          {
+            "candidate_corrected": true,
+            "relative_equilibrium_residual": 0.00034458739989070875,
+            "chosen_1e_7_equilibrium_check_pass": false,
+            "Coulomb_bound_error_MPa": 5.551115123125783e-17
+          }
+        ],
+        "source_sha256": "09577b6a69f497ad9bb60073c545c59305edfef15d34c1f973e41eb5463f0dad"
+      },
+      {
+        "kind": "original",
+        "direction": "inward",
+        "global_force_balance_N": 1.4601550600931908e-10,
+        "global_moment_balance_N_mm": 0.05704950881674216,
+        "variants": [
+          {
+            "candidate_corrected": false,
+            "relative_equilibrium_residual": 3.6353918739094966e-08,
+            "chosen_1e_7_equilibrium_check_pass": true,
+            "Coulomb_bound_error_MPa": 1.1102230246251565e-16
+          },
+          {
+            "candidate_corrected": true,
+            "relative_equilibrium_residual": 0.0011215044690246242,
+            "chosen_1e_7_equilibrium_check_pass": false,
+            "Coulomb_bound_error_MPa": 2.220446049250313e-16
+          }
+        ],
+        "source_sha256": "6b003315f60d63013d42ddfa67cf7d2cae47a4a8a2fa9569301b250116811065"
+      },
+      {
+        "kind": "corrected",
+        "direction": "outward",
+        "global_force_balance_N": 5.486918634524902e-10,
+        "global_moment_balance_N_mm": 9.395607976255929e-09,
+        "variants": [
+          {
+            "candidate_corrected": false,
+            "relative_equilibrium_residual": 0.000597222386338141,
+            "chosen_1e_7_equilibrium_check_pass": false,
+            "Coulomb_bound_error_MPa": 1.1102230246251565e-16
+          },
+          {
+            "candidate_corrected": true,
+            "relative_equilibrium_residual": 2.690683409916761e-11,
+            "chosen_1e_7_equilibrium_check_pass": true,
+            "Coulomb_bound_error_MPa": 5.551115123125783e-17
+          }
+        ],
+        "source_sha256": "c242a14369b40d87cc966cea0b80dd46557a0bd527e488aa03b32bd3dbd63681"
+      },
+      {
+        "kind": "corrected",
+        "direction": "inward",
+        "global_force_balance_N": 6.838895742898484e-10,
+        "global_moment_balance_N_mm": 4.359206829621277e-09,
+        "variants": [
+          {
+            "candidate_corrected": false,
+            "relative_equilibrium_residual": 0.00046863940721758883,
+            "chosen_1e_7_equilibrium_check_pass": false,
+            "Coulomb_bound_error_MPa": 2.220446049250313e-16
+          },
+          {
+            "candidate_corrected": true,
+            "relative_equilibrium_residual": 3.0236150476373707e-11,
+            "chosen_1e_7_equilibrium_check_pass": true,
+            "Coulomb_bound_error_MPa": 2.220446049250313e-16
+          }
+        ],
+        "source_sha256": "d5078a47793d4bd6f5ebe4fe7d9f053c12eee3b359991ebcf6024527d8c1e83d"
+      }
+    ],
+    "candidate_corrected_fields_satisfy_residual": true,
+    "method": "Original pivot penalty evaluated as sum of five rank-one actions, avoiding dense C transpose C. Candidate mean bore rotation subtracts the finite separated-face offset from tangential slip.",
+    "scope": "Saved-field residual recheck only, no new solve. Candidate virtual-spacer mechanics are an idealization, not resolved actual washer contact. Failure means a corrected equilibrium solve is still needed; kinematic invariance alone is insufficient."
+  }
+}

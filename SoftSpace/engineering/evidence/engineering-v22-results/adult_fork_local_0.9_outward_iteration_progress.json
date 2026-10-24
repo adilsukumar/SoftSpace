@@ -1,0 +1,78 @@
+{
+  "iteration": 11,
+  "residual": 4.6943289682980554e-08,
+  "history": [
+    {
+      "iteration": 0,
+      "residual": 0.2214194198799798,
+      "relative_displacement_change": 0.00649054102818335,
+      "active": 3964
+    },
+    {
+      "iteration": 1,
+      "residual": 0.059456958154217004,
+      "relative_displacement_change": 0.0009441422076121984,
+      "active": 3864
+    },
+    {
+      "iteration": 2,
+      "residual": 0.0329344086973694,
+      "relative_displacement_change": 0.0004923040363958546,
+      "active": 3806
+    },
+    {
+      "iteration": 3,
+      "residual": 0.019488063449138688,
+      "relative_displacement_change": 0.00014533766636851142,
+      "active": 3786
+    },
+    {
+      "iteration": 4,
+      "residual": 0.012521336320939736,
+      "relative_displacement_change": 4.674896191389066e-05,
+      "active": 3785
+    },
+    {
+      "iteration": 5,
+      "residual": 0.008161647621672789,
+      "relative_displacement_change": 2.7578516184947646e-05,
+      "active": 3785
+    },
+    {
+      "iteration": 6,
+      "residual": 0.0009956433262350835,
+      "relative_displacement_change": 4.348705265061282e-05,
+      "active": 3785
+    },
+    {
+      "iteration": 7,
+      "residual": 0.0002148284763164063,
+      "relative_displacement_change": 4.018670821937987e-06,
+      "active": 3785
+    },
+    {
+      "iteration": 8,
+      "residual": 2.803735333531724e-05,
+      "relative_displacement_change": 1.0812705489391391e-06,
+      "active": 3785
+    },
+    {
+      "iteration": 9,
+      "residual": 2.6685271680823094e-06,
+      "relative_displacement_change": 1.785898398902689e-07,
+      "active": 3785
+    },
+    {
+      "iteration": 10,
+      "residual": 4.3673421984094794e-07,
+      "relative_displacement_change": 2.2543141723147173e-08,
+      "active": 3785
+    },
+    {
+      "iteration": 11,
+      "residual": 4.6943289682980554e-08,
+      "relative_displacement_change": 3.994728589012513e-09,
+      "active": 3785
+    }
+  ]
+}

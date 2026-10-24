@@ -4,13 +4,13 @@
   "documents": [
     {
       "path": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
-      "sha256": "84a31e4235e75be4ced2f79dbf2bcbc1173549e2c19487566e83749a7974995b",
-      "bytes": 9600773
+      "sha256": "856c8231a1bc1478cbfa89a3ab58c6e92762330b128fe3ed03e6c141a946051a",
+      "bytes": 10020625
     },
     {
       "path": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
-      "sha256": "2cb20e594b8920915c6366e8db3f42dcb7531bf162c7c8153ae08e004fa00910",
-      "bytes": 5090846
+      "sha256": "e7c8d3dfb51f40795dcd55216453380e7bb1754a09899d6e38447b7328cf8f81",
+      "bytes": 5510688
     }
   ],
   "market_checked": "2026-10-13",
@@ -18,87 +18,85 @@
   "quality_check": {
     "structural_checks": "pass",
     "approximate_layout_page_counts": [
-      88,
-      64
+      93,
+      69
     ],
     "approximate_previews_match_current_documents": true,
-    "native_Word_layout_verified": false,
-    "reason": "Bundled LibreOffice was unavailable in the recorded renderer check. Native desktop document control is not available for this batch. Approximate previews were used; native Word pagination remains unverified.",
+    "native_Word_layout_verified": true,
+    "reason": "Native Word read-only PDF exports match the current DOCX hashes. All-page render, page bounds and blank-page checks completed. Visual review is recorded separately.",
     "checks": [
       {
         "document": "Ear_Defender_Project.docx",
-        "paragraphs": 704,
-        "tables": 59,
-        "embedded_images": 46,
+        "paragraphs": 646,
+        "tables": 64,
+        "embedded_images": 48,
         "source_links": 38,
         "structure_and_hashes": "pass"
       },
       {
         "document": "Glasses_Friendly_Headphone_Cushions.docx",
-        "paragraphs": 496,
-        "tables": 47,
-        "embedded_images": 32,
+        "paragraphs": 464,
+        "tables": 52,
+        "embedded_images": 34,
         "source_links": 25,
         "structure_and_hashes": "pass"
       }
     ],
-    "approximate_preview_visual_review": {
+    "native_Word_export_verified": true,
+    "native_page_counts": [
+      94,
+      69
+    ],
+    "native_blank_or_out_of_page_text_pages": 0,
+    "native_visual_review": {
       "date": "2026-10-24",
-      "status": "Approximate changed/new page visual review with regression hashes; native pagination unverified",
-      "changed_prior_pages": [
-        "Ear_Defender_Project/page-1.png",
-        "Glasses_Friendly_Headphone_Cushions/page-1.png"
+      "source_hashes": [
+        "856c8231a1bc1478cbfa89a3ab58c6e92762330b128fe3ed03e6c141a946051a",
+        "e7c8d3dfb51f40795dcd55216453380e7bb1754a09899d6e38447b7328cf8f81"
       ],
-      "new_main_pages": [
-        83,
-        84,
-        85,
-        86,
-        87,
-        88
+      "native_export": "Word 16 read-only exports with unchanged DOCX sources",
+      "native_pages": [
+        94,
+        69
       ],
-      "shared_Flex_bodies": [
+      "automated_layout": "All pages rendered; no blank body, short text page or text outside physical page bounds",
+      "visual_scope": "All-page native contact-sheet review and detailed new chapters, title pages and affected historical layout pages. This is layout review, not independent review of every scientific statement.",
+      "shared_V22_pages": [
         {
-          "main_page": 83,
-          "flex_page": 59,
-          "identical_body": true
+          "main_page": 90,
+          "Flex_page": 65,
+          "matching_native_body_image": true
         },
         {
-          "main_page": 84,
-          "flex_page": 60,
-          "identical_body": true
+          "main_page": 91,
+          "Flex_page": 66,
+          "matching_native_body_image": true
         },
         {
-          "main_page": 85,
-          "flex_page": 61,
-          "identical_body": true
+          "main_page": 92,
+          "Flex_page": 67,
+          "matching_native_body_image": true
         },
         {
-          "main_page": 86,
-          "flex_page": 62,
-          "identical_body": true
+          "main_page": 93,
+          "Flex_page": 68,
+          "matching_native_body_image": true
         },
         {
-          "main_page": 87,
-          "flex_page": 63,
-          "identical_body": true
-        },
-        {
-          "main_page": 88,
-          "flex_page": 64,
-          "identical_body": true
+          "main_page": 94,
+          "Flex_page": 69,
+          "matching_native_body_image": true
         }
-      ],
-      "unchanged_prior_bodies": 138
+      ]
     }
   },
   "latest_update": {
     "date": "2026-10-24",
-    "review": "V21 additional computer checks",
-    "standalone_CAD": "V19 unchanged",
-    "Flex_CAD": "V20 unchanged",
-    "physical_measurements": 0,
+    "review": "V22 confidence checks, virtual-spacer correction, whole-pad control and native Word layout",
+    "standalone_CAD": "V19 part shapes and V21 carrying poses",
+    "Flex_CAD": "V20 reference bodies unchanged",
+    "all_possible_software_complete": false,
     "manufacturing_release": false,
-    "all_possible_software_complete": false
+    "physical_tests": 0
   }
 }

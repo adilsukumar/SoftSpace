@@ -27,3 +27,4 @@ Thumbs.db
 !/SoftSpace/engineering/evidence/engineering-v19-results/quadratic-contact/*.npz
 !/SoftSpace/engineering/evidence/engineering-v19-results/quadratic-inward/*.npz
 !/SoftSpace/engineering/evidence/engineering-v21-results/**/*.npz
+!/SoftSpace/engineering/evidence/engineering-v22-results/**/*.npz

@@ -29,6 +29,8 @@ for f in [O/'Ear_Defender_Project.docx',O/'Glasses_Friendly_Headphone_Cushions.d
     flows.append(Image(BytesIO(image),width=int(extent.get('cx'))/12700,height=int(extent.get('cy'))/12700));pics+=1;continue
    t=''.join(node.xpath('.//w:t/text()'));text.append(t)
    if not t:flows.append(Spacer(1,6));continue
+   
+   if p.paragraph_format.page_break_before:flows.append(PageBreak())
    st=p.style.name;size=28 if st=='Title' else (19 if st=='Heading 1' else (14 if st=='Subtitle' else (9 if st=='Caption' else 11)))
    if p.runs and p.runs[0].font.size:size=p.runs[0].font.size.pt
    ps=ParagraphStyle('p',fontName='CalibriBold' if st in ['Title','Heading 1'] else ('CalibriItalic' if st=='Caption' else 'Calibri'),fontSize=size,leading=size*1.12,spaceAfter=7,keepWithNext=st.startswith('Heading'))

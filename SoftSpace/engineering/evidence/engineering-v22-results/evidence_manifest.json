@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-24",
+  "files": [
+    {
+      "path": "adaptive_mesh_quality.json",
+      "bytes": 4103,
+      "sha256": "c9b931712ad424f612889ddccf3ad3d9caa54f6844dda68bf2e20f8d25e3ce8f"
+    },
+    {
+      "path": "adult_fork_local_0.9_inward.json",
+      "bytes": 2885,
+      "sha256": "d21edbe76a77ef1cbed1491189c37185f6d22d6a8d0dfbfb7d29619c7596ef6d"
+    },
+    {
+      "path": "adult_fork_local_0.9_inward.npz",
+      "bytes": 3022392,
+      "sha256": "6b003315f60d63013d42ddfa67cf7d2cae47a4a8a2fa9569301b250116811065"
+    },
+    {
+      "path": "adult_fork_local_0.9_inward_iteration_progress.json",
+      "bytes": 2055,
+      "sha256": "41040d9c344039a162a2a939842e6a25bd4dc495c9d3e9133fd0b7a7d8f4bda0"
+    },
+    {
+      "path": "adult_fork_local_0.9_mesh.json",
+      "bytes": 654,
+      "sha256": "40aea14fdda3859ed1a9c33880b4d6f2020eb45613ecf8e7e30f871e8ff38100"
+    },
+    {
+      "path": "adult_fork_local_0.9_mesh.npz",
+      "bytes": 1493705,
+      "sha256": "58bf5c6193a45511b9a364a86f2e9bed72eb2260e2a4e95d6eb41e2b4044d2e5"
+    },
+    {
+      "path": "adult_fork_local_0.9_outward.json",
+      "bytes": 2876,
+      "sha256": "6235b11cf2df6bc58b7ff0c1a7ebc53cb9290ac726bc3df43891a631c81d791e"
+    },
+    {
+      "path": "adult_fork_local_0.9_outward.npz",
+      "bytes": 3024428,
+      "sha256": "09577b6a69f497ad9bb60073c545c59305edfef15d34c1f973e41eb5463f0dad"
+    },
+    {
+      "path": "adult_fork_local_0.9_outward_iteration_progress.json",
+      "bytes": 2048,
+      "sha256": "da2b13abfb616d9b4f0a4c2ed1195c16ce487ad5bb4d82af4f9062dd8a748b3f"
+    },
+    {
+      "path": "contact_rigid_motion_controls.json",
+      "bytes": 7699,
+      "sha256": "8e7a08ad1e04bc1c5bb8c16d65d398df36fcb8b64c05b01bd6b88511a82245d4"
+    },
+    {
+      "path": "execution_trials.json",
+      "bytes": 1092,
+      "sha256": "55e17bfedb452d0a45fe6f63e6802b32d2fae7fccdc6a7bea2c4a882c5092d42"
+    },
+    {
+      "path": "field_plot_provenance.json",
+      "bytes": 538,
+      "sha256": "15091d7bad7a1365ae53afe9d7c4fa4fbc8ca241f3a8dac6713c642fc53780e5"
+    },
+    {
+      "path": "fork_field_inward.npz",
+      "bytes": 697451,
+      "sha256": "7fba9c28492a3c6a517182b0baa308c938757b6d907ffeffcbf7a632b3101fe6"
+    },
+    {
+      "path": "fork_field_outward.npz",
+      "bytes": 697278,
+      "sha256": "82117ba39f8c20b09682db07738284531d1ba5902750d1ab53c59f47b015ec01"
+    },
+    {
+      "path": "objective_spacer_inward.json",
+      "bytes": 1647,
+      "sha256": "2acf93ef5c506ea4abe036d5de7e164e3ed632ea635198598bf629ea03e2d209"
+    },
+    {
+      "path": "objective_spacer_inward.npz",
+      "bytes": 3012414,
+      "sha256": "d5078a47793d4bd6f5ebe4fe7d9f053c12eee3b359991ebcf6024527d8c1e83d"
+    },
+    {
+      "path": "objective_spacer_outward.json",
+      "bytes": 1644,
+      "sha256": "548837742b69ae34f7fecc2325eba163826a3b0d6b5081dc52f8ceea99d6c0ea"
+    },
+    {
+      "path": "objective_spacer_outward.npz",
+      "bytes": 3013242,
+      "sha256": "c242a14369b40d87cc966cea0b80dd46557a0bd527e488aa03b32bd3dbd63681"
+    },
+    {
+      "path": "quadrature_mesh_audit.json",
+      "bytes": 26272,
+      "sha256": "be24306dc615d5a81e17b9a8bfe92413222b7b5f787b080613fed4de2db40672"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4537,
+      "sha256": "d505a49925cbde41983df1cdeb87a2512d4877e7f659ac1d3a4714977000ecb7"
+    },
+    {
+      "path": "recovery_comparisons.json",
+      "bytes": 2680,
+      "sha256": "7eb6d640dce56c4aa726ae3d888a0308710075da8e7cac0d780ad3f9342d6ed6"
+    },
+    {
+      "path": "review_status.json",
+      "bytes": 18308,
+      "sha256": "338db74306fbb95d9f9bc4c326e77af582def426f9d6136fccb88c44ecba3421"
+    },
+    {
+      "path": "spacer_candidate_residual_check.json",
+      "bytes": 3802,
+      "sha256": "47596200e262f74467c74ef8c50b3db907a5ef89a1dce2cfb9d9ea48de6d0f96"
+    },
+    {
+      "path": "targeted_joint_review.json",
+      "bytes": 4802,
+      "sha256": "4707d2d86ab36faf0b4c321289de4ebab8fd0213cfc53d963940ce56ef9229d2"
+    },
+    {
+      "path": "test_scope_register.csv",
+      "bytes": 4876,
+      "sha256": "f08b03fcd2880892aa08259d131ff78f584d677a22eafac0bea96b914226ba7d"
+    },
+    {
+      "path": "uniform_softness_scenarios.csv",
+      "bytes": 2534579,
+      "sha256": "1afb1c85aab70d9ce1f7ba6f26325a1062de10febabfbc56dba24b9350a3f99f"
+    },
+    {
+      "path": "uniform_softness_summary.json",
+      "bytes": 1214,
+      "sha256": "f6d89a1a40bea3988b21acf7e11f0a93d2076e9491f5af15533ebc094d45b73d"
+    }
+  ],
+  "scope": "File integrity and preserved historical fields. Physical validity is not established by hashes."
+}

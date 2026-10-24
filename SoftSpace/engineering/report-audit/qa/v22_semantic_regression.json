@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-24",
+  "status": "pass",
+  "documents": [
+    {
+      "document": "Ear_Defender_Project",
+      "current_sha256": "856c8231a1bc1478cbfa89a3ab58c6e92762330b128fe3ed03e6c141a946051a",
+      "old_body_preserved_except_current_summary": true,
+      "old_table_texts_preserved": true,
+      "old_images_preserved": true,
+      "updated_summaries": 1
+    },
+    {
+      "document": "Glasses_Friendly_Headphone_Cushions",
+      "current_sha256": "e7c8d3dfb51f40795dcd55216453380e7bb1754a09899d6e38447b7328cf8f81",
+      "old_body_preserved_except_current_summary": true,
+      "old_table_texts_preserved": true,
+      "old_images_preserved": true,
+      "updated_summaries": 1
+    }
+  ]
+}

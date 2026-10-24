@@ -48,3 +48,10 @@ The six-size standalone folding design belongs to [SoftSpace](../SoftSpace/READM
 ## V21 software review
 
 The [additional software review](../SoftSpace/engineering/evidence/engineering-v21-results/README.md) records wider glasses-position pressure risks and failed joint peak-stress comparisons. Further software work remains. Both reports are updated. Six carrying pose STEP exports are added; part shapes are unchanged. Six finer stress checks pass and two adult fork checks still fail.
+
+<!-- V22:BEGIN -->
+## V22 update
+
+Read the [numerical confidence review](../SoftSpace/engineering/evidence/engineering-v22-results/README.md) and the updated Word report. New joint/model checks retain their failures; whole-pad softness is an added comparison control. Current geometry has no new physical, comfort, acoustic or manufacturing pass. Native Word pagination and layout were checked in this update.
+<!-- V22:END -->
+

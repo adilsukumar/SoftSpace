@@ -1,0 +1,90 @@
+{
+  "converged": true,
+  "date": "2026-10-24",
+  "size": "adult_small",
+  "side_force_N": 2,
+  "local_size_mm": 0.9,
+  "nodes": 46413,
+  "seconds": 1531.2221162319183,
+  "relative_free_residual": 4.6943289682980554e-08,
+  "cup_mean_displacement_x_mm": 0.34551560264507447,
+  "history": [
+    {
+      "iteration": 0,
+      "residual": 0.2214194198799798,
+      "relative_displacement_change": 0.00649054102818335,
+      "active": 3964
+    },
+    {
+      "iteration": 1,
+      "residual": 0.059456958154217004,
+      "relative_displacement_change": 0.0009441422076121984,
+      "active": 3864
+    },
+    {
+      "iteration": 2,
+      "residual": 0.0329344086973694,
+      "relative_displacement_change": 0.0004923040363958546,
+      "active": 3806
+    },
+    {
+      "iteration": 3,
+      "residual": 0.019488063449138688,
+      "relative_displacement_change": 0.00014533766636851142,
+      "active": 3786
+    },
+    {
+      "iteration": 4,
+      "residual": 0.012521336320939736,
+      "relative_displacement_change": 4.674896191389066e-05,
+      "active": 3785
+    },
+    {
+      "iteration": 5,
+      "residual": 0.008161647621672789,
+      "relative_displacement_change": 2.7578516184947646e-05,
+      "active": 3785
+    },
+    {
+      "iteration": 6,
+      "residual": 0.0009956433262350835,
+      "relative_displacement_change": 4.348705265061282e-05,
+      "active": 3785
+    },
+    {
+      "iteration": 7,
+      "residual": 0.0002148284763164063,
+      "relative_displacement_change": 4.018670821937987e-06,
+      "active": 3785
+    },
+    {
+      "iteration": 8,
+      "residual": 2.803735333531724e-05,
+      "relative_displacement_change": 1.0812705489391391e-06,
+      "active": 3785
+    },
+    {
+      "iteration": 9,
+      "residual": 2.6685271680823094e-06,
+      "relative_displacement_change": 1.785898398902689e-07,
+      "active": 3785
+    },
+    {
+      "iteration": 10,
+      "residual": 4.3673421984094794e-07,
+      "relative_displacement_change": 2.2543141723147173e-08,
+      "active": 3785
+    },
+    {
+      "iteration": 11,
+      "residual": 4.6943289682980554e-08,
+      "relative_displacement_change": 3.994728589012513e-09,
+      "active": 3785
+    }
+  ],
+  "source_mesh_sha256": "58bf5c6193a45511b9a364a86f2e9bed72eb2260e2a4e95d6eb41e2b4044d2e5",
+  "source_CAD_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d",
+  "executed_script_sha256": "ed8fea8492cd5658604cea2986c8a4e40fd4a89191ac09d799390f85251c203d",
+  "warm_start_reference_sha256": "f37b1eef5cca08b47a4af26f0c37d9bc3d245e0360bae34cff71db22677b9ed7",
+  "scope": "Targeted mesh refinement only; same idealized fixture physics. Warm displacement and friction initialize iteration, not acceptance. Exact final equilibrium gate below 1e-7; no strength or real material pass."
+}

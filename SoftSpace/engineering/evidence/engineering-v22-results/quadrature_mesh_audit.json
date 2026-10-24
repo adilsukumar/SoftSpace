@@ -1,0 +1,648 @@
+{
+  "date": "2026-10-24",
+  "complete": true,
+  "cases": [
+    {
+      "size": "child_large",
+      "h": 2.3,
+      "direction": "outward",
+      "component": "tongue",
+      "source": "engineering-v19-results/quadratic-contact/child_large_h2.3.npz",
+      "source_sha256": "c6e9d2881812290de9fdd86a1f1157b9f7b106119cb815e74e3f865f9747ef65",
+      "tensor_gradient_control_max_error": 9.100521985300203e-17,
+      "quadrature": [
+        {
+          "order": 3,
+          "points_per_element": 27,
+          "bulk_energy_N_mm": 0.8678245525413733,
+          "volume_mm3": 4600.588746755051,
+          "interior_sampled_peak_MPa": 3.6779742920977427,
+          "minimum_sampled_Jacobian_mm3": 0.2760898683834627
+        },
+        {
+          "order": 4,
+          "points_per_element": 64,
+          "bulk_energy_N_mm": 0.8678286755406321,
+          "volume_mm3": 4600.5887467550465,
+          "interior_sampled_peak_MPa": 4.854417187418054,
+          "minimum_sampled_Jacobian_mm3": 0.26950303357524147
+        },
+        {
+          "order": 5,
+          "points_per_element": 125,
+          "bulk_energy_N_mm": 0.8678287979053858,
+          "volume_mm3": 4600.58874675505,
+          "interior_sampled_peak_MPa": 6.038802729364702,
+          "minimum_sampled_Jacobian_mm3": 0.26602761459064134
+        }
+      ],
+      "energy_order4_to5_change_percent": 1.4100104905878652e-05,
+      "chosen_1_percent_energy_comparison_pass": true,
+      "Jacobian_35_point_lattice_minimum": 0.18925472081124425,
+      "elements_with_nonpositive_lattice_Jacobian": 0,
+      "lattice_including_boundary_sampled_peak_MPa": 13.877853688599584
+    },
+    {
+      "size": "child_large",
+      "h": 2.3,
+      "direction": "outward",
+      "component": "fork",
+      "source": "engineering-v19-results/quadratic-contact/child_large_h2.3.npz",
+      "source_sha256": "c6e9d2881812290de9fdd86a1f1157b9f7b106119cb815e74e3f865f9747ef65",
+      "tensor_gradient_control_max_error": 2.1316282072803006e-14,
+      "quadrature": [
+        {
+          "order": 3,
+          "points_per_element": 27,
+          "bulk_energy_N_mm": 0.3300957448110237,
+          "volume_mm3": 5309.074569521305,
+          "interior_sampled_peak_MPa": 3.4282313976440792,
+          "minimum_sampled_Jacobian_mm3": 0.0017010213117819042
+        },
+        {
+          "order": 4,
+          "points_per_element": 64,
+          "bulk_energy_N_mm": 0.3300989689452306,
+          "volume_mm3": 5309.074569521301,
+          "interior_sampled_peak_MPa": 3.892161387999443,
+          "minimum_sampled_Jacobian_mm3": 0.001701021311792501
+        },
+        {
+          "order": 5,
+          "points_per_element": 125,
+          "bulk_energy_N_mm": 0.33009903922227884,
+          "volume_mm3": 5309.074569521301,
+          "interior_sampled_peak_MPa": 4.2945513611927275,
+          "minimum_sampled_Jacobian_mm3": 0.001701021311777047
+        }
+      ],
+      "energy_order4_to5_change_percent": 2.128969032177963e-05,
+      "chosen_1_percent_energy_comparison_pass": true,
+      "Jacobian_35_point_lattice_minimum": 0.0017010213118304133,
+      "elements_with_nonpositive_lattice_Jacobian": 0,
+      "lattice_including_boundary_sampled_peak_MPa": 26.045605475344434
+    },
+    {
+      "size": "child_large",
+      "h": 2.3,
+      "direction": "inward",
+      "component": "tongue",
+      "source": "engineering-v19-results/quadratic-inward/child_large_h2.3.npz",
+      "source_sha256": "b3435ebfcfb21bcfcf66f5b3384d1ccc5a157d9c8dcc95697916d3e8efadb505",
+      "tensor_gradient_control_max_error": 8.435092901937224e-17,
+      "quadrature": [
+        {
+          "order": 3,
+          "points_per_element": 27,
+          "bulk_energy_N_mm": 0.8541216465924354,
+          "volume_mm3": 4600.588746755051,
+          "interior_sampled_peak_MPa": 3.826387899990203,
+          "minimum_sampled_Jacobian_mm3": 0.2760898683834627
+        },
+        {
+          "order": 4,
+          "points_per_element": 64,
+          "bulk_energy_N_mm": 0.8541257954630829,
+          "volume_mm3": 4600.5887467550465,
+          "interior_sampled_peak_MPa": 5.2105288236160545,
+          "minimum_sampled_Jacobian_mm3": 0.26950303357524147
+        },
+        {
+          "order": 5,
+          "points_per_element": 125,
+          "bulk_energy_N_mm": 0.8541259369953472,
+          "volume_mm3": 4600.58874675505,
+          "interior_sampled_peak_MPa": 6.577055166094906,
+          "minimum_sampled_Jacobian_mm3": 0.26602761459064134
+        }
+      ],
+      "energy_order4_to5_change_percent": 1.6570423833073278e-05,
+      "chosen_1_percent_energy_comparison_pass": true,
+      "Jacobian_35_point_lattice_minimum": 0.18925472081124425,
+      "elements_with_nonpositive_lattice_Jacobian": 0,
+      "lattice_including_boundary_sampled_peak_MPa": 15.572509862367376
+    },
+    {
+      "size": "child_large",
+      "h": 2.3,
+      "direction": "inward",
+      "component": "fork",
+      "source": "engineering-v19-results/quadratic-inward/child_large_h2.3.npz",
+      "source_sha256": "b3435ebfcfb21bcfcf66f5b3384d1ccc5a157d9c8dcc95697916d3e8efadb505",
+      "tensor_gradient_control_max_error": 1.4343533956059917e-14,
+      "quadrature": [
+        {
+          "order": 3,
+          "points_per_element": 27,
+          "bulk_energy_N_mm": 0.3485532266455837,
+          "volume_mm3": 5309.074569521305,
+          "interior_sampled_peak_MPa": 4.726488071103106,
+          "minimum_sampled_Jacobian_mm3": 0.0017010213117819042
+        },
+        {
+          "order": 4,
+          "points_per_element": 64,
+          "bulk_energy_N_mm": 0.3485568809913691,
+          "volume_mm3": 5309.074569521301,
+          "interior_sampled_peak_MPa": 5.952054878269805,
+          "minimum_sampled_Jacobian_mm3": 0.001701021311792501
+        },
+        {
+          "order": 5,
+          "points_per_element": 125,
+          "bulk_energy_N_mm": 0.3485570179043743,
+          "volume_mm3": 5309.074569521301,
+          "interior_sampled_peak_MPa": 6.847723592526016,
+          "minimum_sampled_Jacobian_mm3": 0.001701021311777047
+        }
+      ],
+      "energy_order4_to5_change_percent": 3.9279960506455325e-05,
+      "chosen_1_percent_energy_comparison_pass": true,
+      "Jacobian_35_point_lattice_minimum": 0.0017010213118304133,
+      "elements_with_nonpositive_lattice_Jacobian": 0,
+      "lattice_including_boundary_sampled_peak_MPa": 22.651581297379632
+    },
+    {
+      "size": "child_large",
+      "h": 1.9,
+      "direction": "outward",
+      "component": "tongue",
+      "source": "engineering-v21-results/refinement/child_large_outward_h1.9.npz",
+      "source_sha256": "489412b274e4a69ab2e36e1fd51f475f1edc433d1f68c74008fe7e32e8292dca",
+      "tensor_gradient_control_max_error": 8.543513119185775e-17,
+      "quadrature": [
+        {
+          "order": 3,
+          "points_per_element": 27,
+          "bulk_energy_N_mm": 0.8697924475999912,
+          "volume_mm3": 4600.614281106007,
+          "interior_sampled_peak_MPa": 3.7270345038888424,
+          "minimum_sampled_Jacobian_mm3": 0.19163018957997552
+        },
+        {
+          "order": 4,
+          "points_per_element": 64,
+          "bulk_energy_N_mm": 0.8697939235195548,
+          "volume_mm3": 4600.614281106005,
+          "interior_sampled_peak_MPa": 3.842712239319213,
+          "minimum_sampled_Jacobian_mm3": 0.1872000512753619
+        },
+        {
+          "order": 5,
+          "points_per_element": 125,
+          "bulk_energy_N_mm": 0.8697939279551292,
+          "volume_mm3": 4600.614281106002,
+          "interior_sampled_peak_MPa": 3.9001357678667117,
+          "minimum_sampled_Jacobian_mm3": 0.18496425014521703
+        }
+      ],
+      "energy_order4_to5_change_percent": 5.099569433397733e-07,
+      "chosen_1_percent_energy_comparison_pass": true,
+      "Jacobian_35_point_lattice_minimum": 0.1804613687949392,
+      "elements_with_nonpositive_lattice_Jacobian": 0,
+      "lattice_including_boundary_sampled_peak_MPa": 4.013629634728961
+    },
+    {
+      "size": "child_large",
+      "h": 1.9,
+      "direction": "outward",
+      "component": "fork",
+      "source": "engineering-v21-results/refinement/child_large_outward_h1.9.npz",
+      "source_sha256": "489412b274e4a69ab2e36e1fd51f475f1edc433d1f68c74008fe7e32e8292dca",
+      "tensor_gradient_control_max_error": 1.4210854715202004e-14,
+      "quadrature": [
+        {
+          "order": 3,
+          "points_per_element": 27,
+          "bulk_energy_N_mm": 0.3314191629888352,
+          "volume_mm3": 5309.078877364212,
+          "interior_sampled_peak_MPa": 3.526098652700125,
+          "minimum_sampled_Jacobian_mm3": 0.0008190448518309636
+        },
+        {
+          "order": 4,
+          "points_per_element": 64,
+          "bulk_energy_N_mm": 0.33142054460040904,
+          "volume_mm3": 5309.078877364207,
+          "interior_sampled_peak_MPa": 3.7493891446675978,
+          "minimum_sampled_Jacobian_mm3": 0.0008173307380187775
+        },
+        {
+          "order": 5,
+          "points_per_element": 125,
+          "bulk_energy_N_mm": 0.3314205555603548,
+          "volume_mm3": 5309.078877364202,
+          "interior_sampled_peak_MPa": 4.152404681723962,
+          "minimum_sampled_Jacobian_mm3": 0.0008165878962351088
+        }
+      ],
+      "energy_order4_to5_change_percent": 3.30696028338906e-06,
+      "chosen_1_percent_energy_comparison_pass": true,
+      "Jacobian_35_point_lattice_minimum": 0.0008154194693040804,
+      "elements_with_nonpositive_lattice_Jacobian": 0,
+      "lattice_including_boundary_sampled_peak_MPa": 6.284892654940656
+    },
+    {
+      "size": "child_large",
+      "h": 1.9,
+      "direction": "inward",
+      "component": "tongue",
+      "source": "engineering-v21-results/refinement/child_large_inward_h1.9.npz",
+      "source_sha256": "ce3dfdec60657f545d8a1e87887376b382b5244888b7259bee30aaabc1a09aec",
+      "tensor_gradient_control_max_error": 7.45931094670027e-17,
+      "quadrature": [
+        {
+          "order": 3,
+          "points_per_element": 27,
+          "bulk_energy_N_mm": 0.8557386512613611,
+          "volume_mm3": 4600.614281106007,
+          "interior_sampled_peak_MPa": 3.704367511423082,
+          "minimum_sampled_Jacobian_mm3": 0.19163018957997552
+        },
+        {
+          "order": 4,
+          "points_per_element": 64,
+          "bulk_energy_N_mm": 0.8557401222235408,
+          "volume_mm3": 4600.614281106005,
+          "interior_sampled_peak_MPa": 3.782378095464009,
+          "minimum_sampled_Jacobian_mm3": 0.1872000512753619
+        },
+        {
+          "order": 5,
+          "points_per_element": 125,
+          "bulk_energy_N_mm": 0.8557401268902911,
+          "volume_mm3": 4600.614281106002,
+          "interior_sampled_peak_MPa": 3.8215840777963455,
+          "minimum_sampled_Jacobian_mm3": 0.18496425014521703
+        }
+      ],
+      "energy_order4_to5_change_percent": 5.453466789262507e-07,
+      "chosen_1_percent_energy_comparison_pass": true,
+      "Jacobian_35_point_lattice_minimum": 0.1804613687949392,
+      "elements_with_nonpositive_lattice_Jacobian": 0,
+      "lattice_including_boundary_sampled_peak_MPa": 3.9139288833352235
+    },
+    {
+      "size": "child_large",
+      "h": 1.9,
+      "direction": "inward",
+      "component": "fork",
+      "source": "engineering-v21-results/refinement/child_large_inward_h1.9.npz",
+      "source_sha256": "ce3dfdec60657f545d8a1e87887376b382b5244888b7259bee30aaabc1a09aec",
+      "tensor_gradient_control_max_error": 1.0658141036401503e-14,
+      "quadrature": [
+        {
+          "order": 3,
+          "points_per_element": 27,
+          "bulk_energy_N_mm": 0.34982859346488704,
+          "volume_mm3": 5309.078877364212,
+          "interior_sampled_peak_MPa": 4.59003651712216,
+          "minimum_sampled_Jacobian_mm3": 0.0008190448518309636
+        },
+        {
+          "order": 4,
+          "points_per_element": 64,
+          "bulk_energy_N_mm": 0.34983008967404766,
+          "volume_mm3": 5309.078877364207,
+          "interior_sampled_peak_MPa": 4.699844209969873,
+          "minimum_sampled_Jacobian_mm3": 0.0008173307380187775
+        },
+        {
+          "order": 5,
+          "points_per_element": 125,
+          "bulk_energy_N_mm": 0.34983009630943745,
+          "volume_mm3": 5309.078877364202,
+          "interior_sampled_peak_MPa": 4.75433119004641,
+          "minimum_sampled_Jacobian_mm3": 0.0008165878962351088
+        }
+      ],
+      "energy_order4_to5_change_percent": 1.8967464487928964e-06,
+      "chosen_1_percent_energy_comparison_pass": true,
+      "Jacobian_35_point_lattice_minimum": 0.0008154194693040804,
+      "elements_with_nonpositive_lattice_Jacobian": 0,
+      "lattice_including_boundary_sampled_peak_MPa": 5.153872838761076
+    },
+    {
+      "size": "adult_small",
+      "h": 2.3,
+      "direction": "outward",
+      "component": "tongue",
+      "source": "engineering-v19-results/quadratic-contact/adult_small_h2.3.npz",
+      "source_sha256": "5688428784a096e328a8dc3461330bb13f20e10d6f86bd0ae34c0ba30d75f0b3",
+      "tensor_gradient_control_max_error": 8.847089727481716e-17,
+      "quadrature": [
+        {
+          "order": 3,
+          "points_per_element": 27,
+          "bulk_energy_N_mm": 1.360209306327014,
+          "volume_mm3": 7090.476118352554,
+          "interior_sampled_peak_MPa": 3.9026765371376193,
+          "minimum_sampled_Jacobian_mm3": 0.2477926510919516
+        },
+        {
+          "order": 4,
+          "points_per_element": 64,
+          "bulk_energy_N_mm": 1.360213253584555,
+          "volume_mm3": 7090.476118352551,
+          "interior_sampled_peak_MPa": 4.488013322922454,
+          "minimum_sampled_Jacobian_mm3": 0.2404491498693834
+        },
+        {
+          "order": 5,
+          "points_per_element": 125,
+          "bulk_energy_N_mm": 1.3602133559606224,
+          "volume_mm3": 7090.4761183525525,
+          "interior_sampled_peak_MPa": 4.874157024279749,
+          "minimum_sampled_Jacobian_mm3": 0.2364906742298545
+        }
+      ],
+      "energy_order4_to5_change_percent": 7.5264718235601435e-06,
+      "chosen_1_percent_energy_comparison_pass": true,
+      "Jacobian_35_point_lattice_minimum": 0.22044549513744469,
+      "elements_with_nonpositive_lattice_Jacobian": 0,
+      "lattice_including_boundary_sampled_peak_MPa": 10.019652646950197
+    },
+    {
+      "size": "adult_small",
+      "h": 2.3,
+      "direction": "outward",
+      "component": "fork",
+      "source": "engineering-v19-results/quadratic-contact/adult_small_h2.3.npz",
+      "source_sha256": "5688428784a096e328a8dc3461330bb13f20e10d6f86bd0ae34c0ba30d75f0b3",
+      "tensor_gradient_control_max_error": 2.849803726334699e-14,
+      "quadrature": [
+        {
+          "order": 3,
+          "points_per_element": 27,
+          "bulk_energy_N_mm": 0.37405559770063945,
+          "volume_mm3": 6125.074530790743,
+          "interior_sampled_peak_MPa": 3.5393729452071856,
+          "minimum_sampled_Jacobian_mm3": 0.0014835524323577323
+        },
+        {
+          "order": 4,
+          "points_per_element": 64,
+          "bulk_energy_N_mm": 0.3740587719893783,
+          "volume_mm3": 6125.074530790743,
+          "interior_sampled_peak_MPa": 3.84191416559554,
+          "minimum_sampled_Jacobian_mm3": 0.0014459102589890352
+        },
+        {
+          "order": 5,
+          "points_per_element": 125,
+          "bulk_energy_N_mm": 0.37405885167248637,
+          "volume_mm3": 6125.074530790737,
+          "interior_sampled_peak_MPa": 4.901696806200454,
+          "minimum_sampled_Jacobian_mm3": 0.001425115551222789
+        }
+      ],
+      "energy_order4_to5_change_percent": 2.1302296326908277e-05,
+      "chosen_1_percent_energy_comparison_pass": true,
+      "Jacobian_35_point_lattice_minimum": 0.001379023170176368,
+      "elements_with_nonpositive_lattice_Jacobian": 0,
+      "lattice_including_boundary_sampled_peak_MPa": 7.691677057912881
+    },
+    {
+      "size": "adult_small",
+      "h": 2.3,
+      "direction": "inward",
+      "component": "tongue",
+      "source": "engineering-v19-results/quadratic-inward/adult_small_h2.3.npz",
+      "source_sha256": "076f9524fd70a136c040d5cf9f9ea9632bda2962ce5b3fdf94421db40ed8d828",
+      "tensor_gradient_control_max_error": 8.001412032943023e-17,
+      "quadrature": [
+        {
+          "order": 3,
+          "points_per_element": 27,
+          "bulk_energy_N_mm": 1.328350647150157,
+          "volume_mm3": 7090.476118352554,
+          "interior_sampled_peak_MPa": 3.4298028685368482,
+          "minimum_sampled_Jacobian_mm3": 0.2477926510919516
+        },
+        {
+          "order": 4,
+          "points_per_element": 64,
+          "bulk_energy_N_mm": 1.3283545465859283,
+          "volume_mm3": 7090.476118352551,
+          "interior_sampled_peak_MPa": 4.473450603213577,
+          "minimum_sampled_Jacobian_mm3": 0.2404491498693834
+        },
+        {
+          "order": 5,
+          "points_per_element": 125,
+          "bulk_energy_N_mm": 1.3283546575373955,
+          "volume_mm3": 7090.4761183525525,
+          "interior_sampled_peak_MPa": 5.501911154307978,
+          "minimum_sampled_Jacobian_mm3": 0.2364906742298545
+        }
+      ],
+      "energy_order4_to5_change_percent": 8.352549207835125e-06,
+      "chosen_1_percent_energy_comparison_pass": true,
+      "Jacobian_35_point_lattice_minimum": 0.22044549513744469,
+      "elements_with_nonpositive_lattice_Jacobian": 0,
+      "lattice_including_boundary_sampled_peak_MPa": 12.143651691735483
+    },
+    {
+      "size": "adult_small",
+      "h": 2.3,
+      "direction": "inward",
+      "component": "fork",
+      "source": "engineering-v19-results/quadratic-inward/adult_small_h2.3.npz",
+      "source_sha256": "076f9524fd70a136c040d5cf9f9ea9632bda2962ce5b3fdf94421db40ed8d828",
+      "tensor_gradient_control_max_error": 1.4210854715202004e-14,
+      "quadrature": [
+        {
+          "order": 3,
+          "points_per_element": 27,
+          "bulk_energy_N_mm": 0.3970004286886788,
+          "volume_mm3": 6125.074530790743,
+          "interior_sampled_peak_MPa": 4.465853011568184,
+          "minimum_sampled_Jacobian_mm3": 0.0014835524323577323
+        },
+        {
+          "order": 4,
+          "points_per_element": 64,
+          "bulk_energy_N_mm": 0.39700446028910846,
+          "volume_mm3": 6125.074530790743,
+          "interior_sampled_peak_MPa": 5.424477967745289,
+          "minimum_sampled_Jacobian_mm3": 0.0014459102589890352
+        },
+        {
+          "order": 5,
+          "points_per_element": 125,
+          "bulk_energy_N_mm": 0.39700458851749393,
+          "volume_mm3": 6125.074530790737,
+          "interior_sampled_peak_MPa": 6.268198926513655,
+          "minimum_sampled_Jacobian_mm3": 0.001425115551222789
+        }
+      ],
+      "energy_order4_to5_change_percent": 3.229897855838715e-05,
+      "chosen_1_percent_energy_comparison_pass": true,
+      "Jacobian_35_point_lattice_minimum": 0.001379023170176368,
+      "elements_with_nonpositive_lattice_Jacobian": 0,
+      "lattice_including_boundary_sampled_peak_MPa": 9.166255636792789
+    },
+    {
+      "size": "adult_small",
+      "h": 1.9,
+      "direction": "outward",
+      "component": "tongue",
+      "source": "engineering-v21-results/refinement/adult_small_outward_h1.9.npz",
+      "source_sha256": "f37b1eef5cca08b47a4af26f0c37d9bc3d245e0360bae34cff71db22677b9ed7",
+      "tensor_gradient_control_max_error": 1.2544219135657286e-16,
+      "quadrature": [
+        {
+          "order": 3,
+          "points_per_element": 27,
+          "bulk_energy_N_mm": 1.3626899738906704,
+          "volume_mm3": 7090.524063754141,
+          "interior_sampled_peak_MPa": 3.721297579835971,
+          "minimum_sampled_Jacobian_mm3": 0.25288687146314986
+        },
+        {
+          "order": 4,
+          "points_per_element": 64,
+          "bulk_energy_N_mm": 1.3626915027889828,
+          "volume_mm3": 7090.5240637541365,
+          "interior_sampled_peak_MPa": 3.8046957807953015,
+          "minimum_sampled_Jacobian_mm3": 0.24815488009873307
+        },
+        {
+          "order": 5,
+          "points_per_element": 125,
+          "bulk_energy_N_mm": 1.3626915083752706,
+          "volume_mm3": 7090.524063754129,
+          "interior_sampled_peak_MPa": 3.847061974158515,
+          "minimum_sampled_Jacobian_mm3": 0.24546116289881809
+        }
+      ],
+      "energy_order4_to5_change_percent": 4.0994516670167513e-07,
+      "chosen_1_percent_energy_comparison_pass": true,
+      "Jacobian_35_point_lattice_minimum": 0.23931874692447397,
+      "elements_with_nonpositive_lattice_Jacobian": 0,
+      "lattice_including_boundary_sampled_peak_MPa": 3.9658287294766508
+    },
+    {
+      "size": "adult_small",
+      "h": 1.9,
+      "direction": "outward",
+      "component": "fork",
+      "source": "engineering-v21-results/refinement/adult_small_outward_h1.9.npz",
+      "source_sha256": "f37b1eef5cca08b47a4af26f0c37d9bc3d245e0360bae34cff71db22677b9ed7",
+      "tensor_gradient_control_max_error": 2.1316282072803006e-14,
+      "quadrature": [
+        {
+          "order": 3,
+          "points_per_element": 27,
+          "bulk_energy_N_mm": 0.37552515770669975,
+          "volume_mm3": 6125.079074879106,
+          "interior_sampled_peak_MPa": 4.5135097542423575,
+          "minimum_sampled_Jacobian_mm3": 0.0007751991328921523
+        },
+        {
+          "order": 4,
+          "points_per_element": 64,
+          "bulk_energy_N_mm": 0.37552651617153143,
+          "volume_mm3": 6125.079074879102,
+          "interior_sampled_peak_MPa": 4.575236616021183,
+          "minimum_sampled_Jacobian_mm3": 0.0007629080210902213
+        },
+        {
+          "order": 5,
+          "points_per_element": 125,
+          "bulk_energy_N_mm": 0.37552653637445443,
+          "volume_mm3": 6125.0790748791005,
+          "interior_sampled_peak_MPa": 4.948651674528985,
+          "minimum_sampled_Jacobian_mm3": 0.0007516230138072171
+        }
+      ],
+      "energy_order4_to5_change_percent": 5.379892531465202e-06,
+      "chosen_1_percent_energy_comparison_pass": true,
+      "Jacobian_35_point_lattice_minimum": 0.0007240237072147324,
+      "elements_with_nonpositive_lattice_Jacobian": 0,
+      "lattice_including_boundary_sampled_peak_MPa": 7.998036234232604
+    },
+    {
+      "size": "adult_small",
+      "h": 1.9,
+      "direction": "inward",
+      "component": "tongue",
+      "source": "engineering-v21-results/refinement/adult_small_inward_h1.9.npz",
+      "source_sha256": "8fecd19bdc23069b63f30ba40463fc33082203b902dc547612d4ac10cf5a2d35",
+      "tensor_gradient_control_max_error": 8.326672684688674e-17,
+      "quadrature": [
+        {
+          "order": 3,
+          "points_per_element": 27,
+          "bulk_energy_N_mm": 1.3304807326055026,
+          "volume_mm3": 7090.524063754141,
+          "interior_sampled_peak_MPa": 3.4235444789495064,
+          "minimum_sampled_Jacobian_mm3": 0.25288687146314986
+        },
+        {
+          "order": 4,
+          "points_per_element": 64,
+          "bulk_energy_N_mm": 1.3304821555667463,
+          "volume_mm3": 7090.5240637541365,
+          "interior_sampled_peak_MPa": 3.5816273834092676,
+          "minimum_sampled_Jacobian_mm3": 0.24815488009873307
+        },
+        {
+          "order": 5,
+          "points_per_element": 125,
+          "bulk_energy_N_mm": 1.3304821612020505,
+          "volume_mm3": 7090.524063754129,
+          "interior_sampled_peak_MPa": 3.6645480442691714,
+          "minimum_sampled_Jacobian_mm3": 0.24546116289881809
+        }
+      ],
+      "energy_order4_to5_change_percent": 4.2355352558587356e-07,
+      "chosen_1_percent_energy_comparison_pass": true,
+      "Jacobian_35_point_lattice_minimum": 0.23931874692447397,
+      "elements_with_nonpositive_lattice_Jacobian": 0,
+      "lattice_including_boundary_sampled_peak_MPa": 3.838013489696928
+    },
+    {
+      "size": "adult_small",
+      "h": 1.9,
+      "direction": "inward",
+      "component": "fork",
+      "source": "engineering-v21-results/refinement/adult_small_inward_h1.9.npz",
+      "source_sha256": "8fecd19bdc23069b63f30ba40463fc33082203b902dc547612d4ac10cf5a2d35",
+      "tensor_gradient_control_max_error": 1.4210854715202004e-14,
+      "quadrature": [
+        {
+          "order": 3,
+          "points_per_element": 27,
+          "bulk_energy_N_mm": 0.39830951404596476,
+          "volume_mm3": 6125.079074879106,
+          "interior_sampled_peak_MPa": 5.729988838137642,
+          "minimum_sampled_Jacobian_mm3": 0.0007751991328921523
+        },
+        {
+          "order": 4,
+          "points_per_element": 64,
+          "bulk_energy_N_mm": 0.39831094195290995,
+          "volume_mm3": 6125.079074879102,
+          "interior_sampled_peak_MPa": 5.877748648427465,
+          "minimum_sampled_Jacobian_mm3": 0.0007629080210902213
+        },
+        {
+          "order": 5,
+          "points_per_element": 125,
+          "bulk_energy_N_mm": 0.39831095347258966,
+          "volume_mm3": 6125.0790748791005,
+          "interior_sampled_peak_MPa": 5.951669736193495,
+          "minimum_sampled_Jacobian_mm3": 0.0007516230138072171
+        }
+      ],
+      "energy_order4_to5_change_percent": 2.892132378029544e-06,
+      "chosen_1_percent_energy_comparison_pass": true,
+      "Jacobian_35_point_lattice_minimum": 0.0007240237072147324,
+      "elements_with_nonpositive_lattice_Jacobian": 0,
+      "lattice_including_boundary_sampled_peak_MPa": 6.6707011249458015
+    }
+  ],
+  "seconds": 139.71196031570435,
+  "scope": "Saved-field postprocessing only. Energy sensitivity does not bound stiffness or peak error. A finite 35-point lattice includes vertices/edges/faces but is not a global curved-element positivity certificate. Peak values at different sampling sets are not convergence proof."
+}
