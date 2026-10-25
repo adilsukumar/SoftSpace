@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-25",
+  "review_complete": true,
+  "all_software_testing_complete": false,
+  "software_validation_passed": false,
+  "manufacturing_release": false,
+  "SoftSpace": "NOT APPROVED unresolved joint strength and full product models",
+  "SoftSpace_Flex": "NOT APPROVED unverified Sony mounting and full product models",
+  "accepted_V26_equilibrium_fields": 2,
+  "accepted_V26B_equilibrium_fields": 0,
+  "local_V26B_motion_samples": 25,
+  "credit_control": "No new physical-model sweeps or solver retries in this review; saved evidence reused",
+  "scope": "Completed evidence assessment, not completion of missing tests, a product pass, or proof of physical safety.",
+  "evidence": [
+    {
+      "path": "engineering-v26-results/review_status.json",
+      "sha256": "83360bc2c5d5ac1d6d27fb69c2eed04c608b9c90520314d48a0c4a207959ffdc",
+      "bytes": 12138
+    },
+    {
+      "path": "engineering-v26-results/stress_comparisons.csv",
+      "sha256": "2bc4f06fac140f08281717d605838590819b1524946278b83f56ac8651062838",
+      "bytes": 412
+    },
+    {
+      "path": "engineering-v26-results/local_motion_audit.json",
+      "sha256": "84fd8e228f36da252c5ec581442f085916b2aa1576dfa962a5640dc0326dffbd",
+      "bytes": 3584
+    },
+    {
+      "path": "engineering-v26-results/relieved/local_motion_audit.json",
+      "sha256": "f7514d37fed8af95dd8f4702180802144b5a72b13c016c3bee9ec33fc927f5de",
+      "bytes": 3547
+    },
+    {
+      "path": "engineering-v26-results/stronger_resource_stop.json",
+      "sha256": "f61fb85dcf90e85430fe9969b72e412d04aadbd8c0401ca70770191011c9f58a",
+      "bytes": 414
+    },
+    {
+      "path": "engineering-v20-results/design_parameters.json",
+      "sha256": "3ba1b8b1a7356930446d60624a9672306387b1fc85ed0662912e23185a66cef7",
+      "bytes": 768
+    },
+    {
+      "path": "engineering-v20-results/phase_status.json",
+      "sha256": "eaa232e657edc9bd3fc64daeff3ef9237a20740a1e7524398df1e4ab931faa47",
+      "bytes": 6972
+    },
+    {
+      "path": "engineering-v25-results/manufacturer_input_review.json",
+      "sha256": "9fa9e5fa63d470f4e80e9d2c5baa415e8bbb2d71b4ad81bf298eb57c5a90472e",
+      "bytes": 2791
+    },
+    {
+      "path": "engineering-v24-results/relocation_source_audit.json",
+      "sha256": "8d23c5557d4caa3bc5dd1f656f6e802f4bb65017d2f3c73bb19e8faac163da13",
+      "bytes": 100102
+    }
+  ]
+}

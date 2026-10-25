@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-25",
+  "source_hashes": [
+    "fc0cbb5b501f0800d1ad9450317aa13641a8cf28e169bfba6ab2dee42224ac09",
+    "a0b1d3062a289c4487c5638809ea7bff47a7b146dbafe0692aca48066cc74bca"
+  ],
+  "native_pages": [
+    107,
+    82
+  ],
+  "preserved_pages_pixel_identical": 185,
+  "scope": "Both updated title pages and the shared decision page visually reviewed. Companion decision bodies pixel identical. All 185 preserved pages exactly pixel identical to reviewed V26. All 189 pages rendered with no blank short or out of page text. Report QA is not product validation."
+}

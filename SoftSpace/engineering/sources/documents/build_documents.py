@@ -250,9 +250,11 @@ REV='V25 quadratic surface pilot with open product gates'
 
 REV='V26 local rounded joint trials with open product gates'
 
+REV='Evidence review complete with open product validation requirements'
+
 def main_doc():
  d=setup('SoftSpace','Headphones for sound sensitive autistic people')
- para(d,'Current update on 25 October 2026: V26 tests two rounded local joint candidates. A improves fork mesh agreement but fails tongue and folding checks. B fixes the sampled local folding obstruction; its exact stress status is recorded in the final chapters. Neither is approved for the full headset. Both products still have open software validation gates.')
+ para(d,'Current update on 25 October 2026: The evidence review is complete. Neither SoftSpace nor SoftSpace Flex has passed full software validation. Joint strength, complete product models and exact Sony mounting remain unresolved. The final Software validation decision page identifies what is established and what must still be done. No new simulation campaign or product pass is claimed.')
  para(d,'We are developing a low-cost passive over-ear defender for India. The aim is to make loud surroundings easier to manage while keeping the device comfortable, easy to remove and simple to use. Autistic users are our first priority; other sound-sensitive people may also find the idea useful.')
  if (I/'V19_hero.png').exists():picture(d,'V19_hero','V19 child large and adult small final local STEP prototype assemblies. Physical validation remains open.',5.7)
  elif (I/'V18_hero.png').exists():picture(d,'V18_hero','V18 passive hinge child large and adult small local STEP candidates. Physical validation remains open.',5.7)
@@ -432,11 +434,13 @@ def main_doc():
  add_v25(d,P,new_page,para,table,picture)
  from v26_review_section import add_v26
  add_v26(d,P,new_page,para,table,picture)
+ from validation_decision_section import add_validation_decision
+ add_validation_decision(d,P,new_page,para,table,picture)
  return save(d,'Ear_Defender_Project.docx')
 
 def glasses_doc():
  d=setup('SoftSpace Flex','Affordable replacement pads for compatible headphones in India')
- para(d,'Current update on 25 October 2026: V26 tests two rounded local joint candidates. A improves fork mesh agreement but fails tongue and folding checks. B fixes the sampled local folding obstruction; its exact stress status is recorded in the final chapters. Neither is approved for the full headset. Both products still have open software validation gates.')
+ para(d,'Current update on 25 October 2026: The evidence review is complete. Neither SoftSpace nor SoftSpace Flex has passed full software validation. Joint strength, complete product models and exact Sony mounting remain unresolved. The final Software validation decision page identifies what is established and what must still be done. No new simulation campaign or product pass is claimed.')
  para(d,'We want a replacement cushion that presses less on glasses arms while keeping a good seal. The user keeps their headphone and replaces its removable pads. We are developing the contact idea together with our passive ear defender, but this is a separate product route.')
  picture(d,'V20_flex_CAD','V20 uniform control and two soft-zone body candidates. Published aftermarket outside size; assumed opening and cover. The mounting skirt is not yet dimensioned or fit-verified.',6.55)
  label(d,'Current conclusion','The idea is worth investigating. We have not proved less pain, unchanged music, no sound leakage or universal compatibility. The pad needs tests on each supported headphone model.')
@@ -562,6 +566,8 @@ def glasses_doc():
  add_v25(d,P,new_page,para,table,picture)
  from v26_review_section import add_v26
  add_v26(d,P,new_page,para,table,picture)
+ from validation_decision_section import add_validation_decision
+ add_validation_decision(d,P,new_page,para,table,picture)
  return save(d,'Glasses_Friendly_Headphone_Cushions.docx')
 
 if __name__=='__main__':

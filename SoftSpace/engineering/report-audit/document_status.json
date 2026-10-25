@@ -1,16 +1,16 @@
 {
   "updated": "25 October 2026",
-  "design_status": "V26 Rounded local joint candidates",
+  "design_status": "Software validation decision",
   "documents": [
     {
       "path": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
-      "sha256": "86d949f64d9509100f5837504e48bb1ff3f256594efbc6dd26ce3fb246255f44",
-      "bytes": 10351492
+      "sha256": "fc0cbb5b501f0800d1ad9450317aa13641a8cf28e169bfba6ab2dee42224ac09",
+      "bytes": 10352642
     },
     {
       "path": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
-      "sha256": "56630e16fddf0b551df23e62167d2c5ef94d1bad77a787087085f4680d13777a",
-      "bytes": 5841547
+      "sha256": "a0b1d3062a289c4487c5638809ea7bff47a7b146dbafe0692aca48066cc74bca",
+      "bytes": 5842752
     }
   ],
   "market_checked": "2026-10-13",
@@ -20,20 +20,20 @@
     "approximate_layout_page_counts": [],
     "approximate_previews_match_current_documents": false,
     "native_Word_layout_verified": true,
-    "reason": "Native Word hashes match; all 187 pages rendered without blank short or out of page text. Updated pages visually checked, companion and preserved bodies pixel compared.",
+    "reason": "Both updated title pages and the shared decision page visually reviewed. Companion decision bodies pixel identical. All 185 preserved pages exactly pixel identical to reviewed V26. All 189 pages rendered with no blank short or out of page text. Report QA is not product validation.",
     "checks": [
       {
         "document": "Ear_Defender_Project.docx",
-        "paragraphs": 713,
-        "tables": 73,
+        "paragraphs": 720,
+        "tables": 75,
         "embedded_images": 53,
         "source_links": 38,
         "structure_and_hashes": "pass"
       },
       {
         "document": "Glasses_Friendly_Headphone_Cushions.docx",
-        "paragraphs": 531,
-        "tables": 61,
+        "paragraphs": 538,
+        "tables": 63,
         "embedded_images": 39,
         "source_links": 25,
         "structure_and_hashes": "pass"
@@ -41,11 +41,11 @@
     ],
     "native_Word_export_verified": true,
     "native_page_counts": [
-      106,
-      81
+      107,
+      82
     ],
     "native_blank_or_out_of_page_text_pages": 0,
-    "visual_review_scope": "Both updated title pages and three new V26 chapter bodies viewed. Companion bodies pixel matched. All 179 preserved body pages pixel identical to reviewed V25; header date intentionally changed."
+    "visual_review_scope": "Both updated title pages and the shared decision page visually reviewed. Companion decision bodies pixel identical. All 185 preserved pages exactly pixel identical to reviewed V26. All 189 pages rendered with no blank short or out of page text. Report QA is not product validation."
   },
   "latest_update": {
     "date": "2026-10-24",

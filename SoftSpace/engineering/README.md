@@ -73,6 +73,14 @@ Read [the bounded study and purchase recommendation](evidence/engineering-v20-re
 
 Read [the review, failures and remaining work](evidence/engineering-v21-results/README.md). New scripts run in a prepared workspace. Raw V19 solutions are unchanged. The four new finer equilibrium solves, stress recovery, hotspot diagnostics and six compact poses are recorded separately. Neither the older immutable release nor V20 closes these new issues.
 
+<!-- VALIDATION_DECISION:BEGIN -->
+## Software validation decision
+
+**Neither product has passed full software validation or is approved for manufacturing release.** The evidence assessment is complete; outstanding tests are not complete. SoftSpace has unresolved joint strength and full assembly validation. Flex lacks verified Sony mounting geometry. Both routes still need qualified inputs and complete contact, sound, heat and durability models; wearer acceptance needs people.
+
+The [decision and requirement register](evidence/validation-decision/README.md) identifies existing evidence, missing inputs and acceptance requirements. Both Word reports contain the same final decision. This review reused saved results and ran no new simulation campaign. Further computation should address a specific changed design or newly qualified input; repeated assumed runs cannot supply missing measurements or mounting dimensions.
+<!-- VALIDATION_DECISION:END -->
+
 <!-- V26:BEGIN -->
 ## V26 rounded local joint trials
 
