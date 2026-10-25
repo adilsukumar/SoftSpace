@@ -1,0 +1,5 @@
+Prepared child_large_h1.9_outward 157.82065986237683
+Refreshed ILU child_large_h1.9_outward 0 factor entries 92639626
+Linear check child_large_h1.9_outward 0 0 1.5220407053801718e-06 80
+child_large_h1.9_outward {'iteration': 0, 'relative_residual': 0.038369406113933566, 'linear_residual': 1.5220407053801718e-06, 'step': 1.0, 'gmres_iterations': 80}
+Refreshed ILU child_large_h1.9_outward 1 factor entries 92638521

@@ -1,0 +1,13 @@
+Prepared child_large_h1.9_outward 247.95845632727287
+child_large_h1.9_outward {'iteration': 0, 'relative_residual': 0.10571961533055871, 'linear_residual': 4.4471012131069346e-07, 'step': 1.0, 'gmres_iterations': 7}
+child_large_h1.9_outward {'iteration': 1, 'relative_residual': 0.04441616242842863, 'linear_residual': 3.743175585070521e-06, 'step': 1.0, 'gmres_iterations': 17}
+child_large_h1.9_outward {'iteration': 2, 'relative_residual': 0.0035820338243630766, 'linear_residual': 4.040196674550409e-06, 'step': 1.0, 'gmres_iterations': 17}
+child_large_h1.9_outward {'iteration': 3, 'relative_residual': 0.00043048888117124066, 'linear_residual': 1.6428424446986815e-06, 'step': 1.0, 'gmres_iterations': 18}
+child_large_h1.9_outward {'iteration': 4, 'relative_residual': 2.149769665129784e-06, 'linear_residual': 2.0778990903320606e-06, 'step': 1.0, 'gmres_iterations': 17}
+child_large_h1.9_outward {'iteration': 5, 'relative_residual': 1.1145412462989335e-11, 'linear_residual': 4.210611309049787e-06, 'step': 1.0, 'gmres_iterations': 17}
+Saved child_large_h1.9_outward 1.1145412462989335e-11
+Prepared child_large_h1.5_outward 307.3470554267122
+child_large_h1.5_outward {'iteration': 0, 'relative_residual': 0.00027531230722212556, 'linear_residual': 9.588814478728781e-08, 'step': 1.0, 'gmres_iterations': 5}
+child_large_h1.5_outward {'iteration': 1, 'relative_residual': 3.520768718880535e-09, 'linear_residual': 2.3746380840350703e-06, 'step': 1.0, 'gmres_iterations': 8}
+Saved child_large_h1.5_outward 3.520768718880535e-09
+Rounded joint pilot complete

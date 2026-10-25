@@ -1,0 +1,14 @@
+[
+  {
+    "file": "engineering-v25-results/child_large_h1.5_outward.npz",
+    "sha256": "378e174b4a70ddb578a3336bb97837ea989f32b5b3deba60bd9be48d56d93323"
+  },
+  {
+    "file": "engineering-v25-results/child_large_h1.9_outward.npz",
+    "sha256": "03aabc1213974236b98ad2e66dbaa7f0ed09c0393a82983193043f05d48837b7"
+  },
+  {
+    "file": "engineering-v25-results/quadrature6/child_large_h1.9_outward.npz",
+    "sha256": "c11d3a0cf820d87b66a82c5c13aad21fc559a717996fe3137a928575021b8c46"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "process_virtual_bytes": 8712499200,
+  "run": "Candidate B stronger refreshed ILU",
+  "status": "Stopped at operational elapsed-time cap during linear iteration; no accepted equilibrium field",
+  "date": "2026-10-25",
+  "elapsed_seconds": 312.8298214,
+  "scope": "Operational resource stop, not a proved mathematical divergence or physical design failure",
+  "process_working_set_bytes": 1182724096
+}

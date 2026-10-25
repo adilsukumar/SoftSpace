@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-24",
+  "size": "child_large",
+  "mesh_size_mm": 1.5,
+  "direction": "outward",
+  "converged": true,
+  "relative_residual": 3.520768718880535e-09,
+  "independent_residual": 3.5207687188805286e-09,
+  "initial_residual": 307.3470554267122,
+  "force_balance_N": 7.21494802815238e-11,
+  "moment_balance_Nmm": 1.411413772723712e-09,
+  "coulomb_excess_MPa": 5.551115123125783e-17,
+  "cup_displacement_mm": 0.26977566267748976,
+  "rigid_motion_controls": [
+    {
+      "kind": "translation",
+      "axis": 0,
+      "error": 8.391521527130463e-16,
+      "passed": true
+    },
+    {
+      "kind": "translation",
+      "axis": 1,
+      "error": 8.326672684688674e-16,
+      "passed": true
+    },
+    {
+      "kind": "translation",
+      "axis": 2,
+      "error": 8.371362142985811e-16,
+      "passed": true
+    },
+    {
+      "kind": "rotation",
+      "axis": 0,
+      "error": 7.036904392521137e-11,
+      "passed": true
+    },
+    {
+      "kind": "rotation",
+      "axis": 1,
+      "error": 7.373412854404498e-11,
+      "passed": true
+    },
+    {
+      "kind": "rotation",
+      "axis": 2,
+      "error": 7.373412991285022e-11,
+      "passed": true
+    }
+  ],
+  "contact_derivative_errors": [
+    2.1848741316737716e-07,
+    2.1997223293561976e-06
+  ],
+  "history": [
+    {
+      "iteration": 0,
+      "relative_residual": 0.00027531230722212556,
+      "linear_residual": 9.588814478728781e-08,
+      "step": 1.0,
+      "gmres_iterations": 5
+    },
+    {
+      "iteration": 1,
+      "relative_residual": 3.520768718880535e-09,
+      "linear_residual": 2.3746380840350703e-06,
+      "step": 1.0,
+      "gmres_iterations": 8
+    }
+  ],
+  "seconds": 791.1517560482025,
+  "source_mesh_sha256": "7a9a9ed79fcf5e36c39b91755b637840266f3b52a9ea6812f9a85c4267b1ac94",
+  "source_CAD_sha256": "11cf1d0880bbf59ed53a636c569420abba5b742d7789ae4d00c61fcbbe493f4e",
+  "warm_start_sha256": "378e174b4a70ddb578a3336bb97837ea989f32b5b3deba60bd9be48d56d93323",
+  "script_sha256": "f26922a02bf924ef6ec67013147fa0c980d2ed43fd9371692d7dcaa6d5a58b3a",
+  "contact_surface_statistics": {
+    "washer": [
+      {
+        "points": 1968,
+        "area_mm2": 80.50952706215752,
+        "maximum_projection_error_mm": 9.940533566192533e-11,
+        "minimum_quadrature_area_mm2": 0.0010977609866917846
+      },
+      {
+        "points": 1968,
+        "area_mm2": 80.50952185210699,
+        "maximum_projection_error_mm": 9.865095108107929e-11,
+        "minimum_quadrature_area_mm2": 0.001097895468678901
+      },
+      {
+        "points": 2624,
+        "area_mm2": 80.51095376614148,
+        "maximum_projection_error_mm": 9.292739906531505e-11,
+        "minimum_quadrature_area_mm2": 0.0009741506915606263
+      },
+      {
+        "points": 2624,
+        "area_mm2": 80.51095376614147,
+        "maximum_projection_error_mm": 8.819222116950553e-11,
+        "minimum_quadrature_area_mm2": 0.0010153668567878201
+      }
+    ],
+    "stop": [
+      {
+        "points": 832,
+        "area_mm2": 32.0,
+        "maximum_projection_error_mm": 3.2809330058766683e-12,
+        "minimum_quadrature_area_mm2": 0.0021133987953227385
+      },
+      {
+        "points": 832,
+        "area_mm2": 31.999999999999996,
+        "maximum_projection_error_mm": 3.282709361675212e-12,
+        "minimum_quadrature_area_mm2": 0.0021137145375040387
+      }
+    ]
+  },
+  "contact_formulation_sha256": "8c9d1253ac13fd8823d9ba2b16e41670b91b30485965e59f5232c95907f44c0e",
+  "scope": "V26 rounded isolated joint candidate; quadratic face scheme; corrected virtual 0.5 mm spacer reference. E3500 MPa nu0.35 preload140 N friction0.2 side force +/-2 N. Isolated V19 joint only; no physical strength, washer or product pass.",
+  "raw_sha256": "effdf5639534a238d7020bea56fa2bdd7c7b06ce08fd87dff4c2b6a17476a7cb",
+  "stress": [
+    {
+      "component": "tongue",
+      "sampled_peaks_MPa": {
+        "interior125": 5.583322448000419,
+        "boundary35": 9.001592687889465
+      },
+      "minimum_sampled_Jacobian": 0.0007386810177257008
+    },
+    {
+      "component": "fork",
+      "sampled_peaks_MPa": {
+        "interior125": 3.7129307659240802,
+        "boundary35": 3.742092863282125
+      },
+      "minimum_sampled_Jacobian": 0.04141946903553008
+    }
+  ]
+}

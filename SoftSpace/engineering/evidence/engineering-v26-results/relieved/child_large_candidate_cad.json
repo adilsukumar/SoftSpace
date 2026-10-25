@@ -1,0 +1,149 @@
+{
+  "revision": "V26B isolated rounded joint with relieved folding corner",
+  "size": "child_large",
+  "file": "${WORKSPACE}\\engineering-v26-results\\relieved\\child_large_RoundedJoint.step",
+  "sha256": "e4597baa52255a6d2e2573f7cb565b1fd5faa90f035046680a674e275d2b6723",
+  "source": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V18_child_large_FrictionStop.step",
+  "source_sha256": "83af728fd1b3c211f2f9cbc9717f988703a2d36eba285e92fc11b1e4f888463c",
+  "solid_count": 2,
+  "parts": {
+    "RightTongue": [
+      3,
+      32
+    ],
+    "RightFork": [
+      3,
+      33
+    ]
+  },
+  "part_bounds_mm": {
+    "RightTongue": [
+      -6.0000001499999716,
+      -18.00000015,
+      52.99999985,
+      12.000000149992028,
+      18.00000015,
+      82.00000015
+    ],
+    "RightFork": [
+      -6.000000099999972,
+      -18.0000001,
+      30.9999999,
+      23.00000009999203,
+      18.0000001,
+      69.0000001
+    ]
+  },
+  "part_volumes_mm3": {
+    "RightTongue": 4601.559877395762,
+    "RightFork": 5341.665642412271
+  },
+  "pivot_z_mm": 59.0,
+  "guide_bottom_mm": 82,
+  "fork_inner_halfspacing_mm": 14.0,
+  "fork_outer_halfspacing_mm": 18.0,
+  "fold_angles_deg": [
+    30,
+    60
+  ],
+  "fold_extension_mm": [
+    0,
+    20
+  ],
+  "hinge": {
+    "pin_diameter_mm": 4,
+    "bore_diameter_mm": 4.3,
+    "friction_washer_outer_radius_mm": 5.5,
+    "friction_washer_inner_radius_mm": 2.15,
+    "wearing_stop_radial_span_mm": [
+      8,
+      12
+    ],
+    "wearing_stop_total_contact_area_mm2": 32,
+    "disc_spring_reference": "SCHNORR 000600 B",
+    "disc_outer_diameter_mm": 8,
+    "disc_inner_diameter_mm": 4.2,
+    "disc_thickness_mm": 0.3,
+    "disc_free_height_mm": 0.55,
+    "disc_loaded_height_mm": 0.3625,
+    "catalogue_force_at_shortening_N": 118,
+    "catalogue_source": "https://www.schnorr-group.com/fileadmin/4_Downloads/Brochures/SCHNORR_Produktbroschuere_EN_2024-02.pdf",
+    "disc_count_per_hinge": 2,
+    "parallel_stack_loaded_height_mm": 0.6625,
+    "parallel_stack_free_height_mm": 0.85,
+    "nominal_catalogue_stack_force_N": 236,
+    "proposed_target_torque_Nmm": 160,
+    "proposed_minimum_torque_Nmm": 128,
+    "proposed_maximum_torque_Nmm": 192,
+    "bolt_underhead_length_mm": 43,
+    "planned_thread": "M4 x 0.7",
+    "planned_thread_length_mm": 6,
+    "nominal_bolt_tip_protrusion_mm": 2.1375
+  },
+  "manufacturing_release": false,
+  "limits": [
+    "Local STEP prototype,not a native Fusion feature tree or manufacturing release",
+    "Two nested same-orientation discs approximate a parallel stack at the published reference shortening",
+    "Torque must be calibrated directly; spring force curve,friction,creep and torque retention are unmeasured",
+    "Bolt and nut currently use thread envelopes pending prototype thread detail",
+    "Fork,tongue,band,pads and cup geometry unchanged from recorded V18 sources",
+    "No physical handling,comfort,acoustic,durability or Sony compatibility validation"
+  ],
+  "unchanged_flexible_part_names": [
+    "LeftMainFoam",
+    "LeftSoftGlassesZone",
+    "LeftContinuousCover",
+    "LeftCarrier",
+    "LeftCup",
+    "LeftLiner",
+    "LeftCupPin",
+    "LeftCupPinCap",
+    "RightMainFoam",
+    "RightSoftGlassesZone",
+    "RightContinuousCover",
+    "RightCarrier",
+    "RightCup",
+    "RightLiner",
+    "RightCupPin",
+    "RightCupPinCap",
+    "LeftSliderKnob",
+    "RightSliderKnob",
+    "Band",
+    "CrownPad",
+    "LeftFork",
+    "LeftTongue",
+    "LeftFrictionWasherRear",
+    "LeftFrictionWasherFront",
+    "LeftBackupWasherRear",
+    "LeftBackupWasherFront",
+    "RightFork",
+    "RightTongue",
+    "RightFrictionWasherRear",
+    "RightFrictionWasherFront",
+    "RightBackupWasherRear",
+    "RightBackupWasherFront"
+  ],
+  "source_CAD_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557",
+  "source_CAD_file": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_child_large_ParallelDisc.step",
+  "old_component_volumes_mm3": [
+    4600.625355850228,
+    5309.0795891226
+  ],
+  "new_component_volumes_mm3": [
+    4601.559877395762,
+    5341.665642412271
+  ],
+  "changes": [
+    {
+      "part": "tongue",
+      "fillet_radius_mm": 0.6,
+      "edges": 2
+    },
+    {
+      "part": "fork",
+      "fillet_radius_mm": 0.6,
+      "edges": 6
+    }
+  ],
+  "scope": "Isolated cropped joint only. Not integrated in full headset or manufacturing released. Added fork notch land from x6.001 to x7; radius0.6 transitions plus convex top corner relief after failed V26A motion."
+}

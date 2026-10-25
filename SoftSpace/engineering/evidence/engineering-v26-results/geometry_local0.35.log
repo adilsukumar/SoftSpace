@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "${WORKSPACE}\v26_geometry.py", line 42, in <module>
+    LOCAL_TARGET=float(sys.argv[2]) if len(sys.argv)>2 else None;install_mesh();h=float(sys.argv[1]) if len(sys.argv)>1 else 1.9;row,meshes=a.mesh('child_large',h,conforming=2,order=2,optimize_high_order=True);nodes=sum(len(x) for x,t in meshes);assert nodes<85000
+                                                                                                                                                                                                                                                             ^^^^^^^^^^^
+AssertionError

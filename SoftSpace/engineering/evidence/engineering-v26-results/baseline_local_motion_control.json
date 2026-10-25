@@ -1,0 +1,34 @@
+{
+  "source_CAD_sha256": "c2c31f2f17504eefd28c7cc16a09206ce3e1517111f1c0bc181b119388249557",
+  "samples": [
+    {
+      "angle_deg": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle_deg": 20,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle_deg": 22.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle_deg": 25,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle_deg": 27.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle_deg": 30,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle_deg": 60,
+      "intersection_mm3": 0.0
+    }
+  ],
+  "scope": "Original V19 ParallelDisc whole tongue and fork. Nominal local pose, no folding extension or assembly."
+}

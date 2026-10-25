@@ -31,3 +31,5 @@ Thumbs.db
 !/SoftSpace/engineering/evidence/engineering-v23-results/**/*.npz
 !/SoftSpace/engineering/evidence/engineering-v24-results/**/*.npz
 !/SoftSpace/engineering/evidence/engineering-v25-results/**/*.npz
+!/SoftSpace/engineering/evidence/engineering-v26-results/**/*.npz
+!/SoftSpace/engineering/evidence/engineering-v26-results/**/*.step

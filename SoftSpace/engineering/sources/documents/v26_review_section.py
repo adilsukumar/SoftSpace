@@ -1,0 +1,25 @@
+"""Shared V26 local geometry investigation for both living reports."""
+import json
+
+def add_v26(d,P,new_page,para,table,picture):
+ O=P/'engineering-v26-results'
+ if not (O/'review_status.json').exists():return
+ r=json.loads((O/'review_status.json').read_text());a=r['variant_A'];b=r['variant_B']
+ new_page(d,'V26 Rounded local joint candidates')
+ para(d,'25 October 2026. Full software validation is still open. We traced the old stress peaks to the fork notch beside its preload footprint and to a sharp tongue transition. The notch began at 6.001 mm beside a 6 mm radius footprint. That tiny separation produced very thin elements. This location is a useful clue, not proof of the cause of every stress change.')
+ picture(d,'V26_local_joint_candidates','Actual saved meshes of two local child joint candidates. Colours identify parts. These are not full headset releases or tested materials.',6.55)
+ para(d,'Candidate A widens the fork land to 7 mm and rounds selected transitions at 0.6 mm. Candidate B also rounds the top corner that blocked folding in A. Both are separate STEP files with two cropped joint parts. The main six size headset CAD and the Sony pad CAD remain unchanged.')
+ new_page(d,'V26 Strength comparisons retain failed checks')
+ picture(d,'V26_stress_comparisons','Sampled stress changes between 1.9 and 1.5 mm target meshes. The five percent line is our chosen numerical comparison, not a safety standard.',6.55)
+ para(d,'Candidate A has two accepted equilibrium fields. Its fork comparisons differ by about 1.6 to 2.5 percent and meet the chosen limit. Its tongue comparisons differ by about 10 to 12 percent and fail. Rounding therefore did not produce a strength pass for the whole joint. We have kept both interior and boundary sampling results.')
+ if b['mesh_comparisons_available']:
+  para(d,'Candidate B has two accepted equilibrium fields and '+str(b['mesh_passes'])+' of four mesh comparisons meet the chosen limit. Each accepted field met the original equilibrium, independent residual, contact derivative, force, moment, friction and common rigid motion checks. The raw fields and exact numerical values are saved in the evidence package.')
+ else:
+  para(d,'Candidate B has '+str(b['accepted_fields'])+' accepted equilibrium fields. A complete two mesh comparison is not available, so there is no accepted mesh agreement or strength result for B. Starting a solver or completing one Newton step is not a successful calculation.')
+ para(d,'All accepted calculations use the same reference assumptions: stiffness 3500 MPa, Poisson ratio 0.35, preload 140 N, friction 0.2 and outward force 2 N, with a virtual 0.5 mm spacer. They do not qualify an actual material, washer, bolt, full headset load or long term use. Finite sampled stresses do not bound the maximum everywhere in a part.')
+ new_page(d,'V26 Folding regression and the remaining gates')
+ table(d,['Check','Candidate A','Candidate B'],[['Independent STEP solids','Two valid solids','Two valid solids'],['Local folding samples','Fails at 25 and 27.5 degrees','Passes all 25 sampled positions'],['Outward wearing stop attempts','Blocking detected','Blocking detected'],['Whole headset promotion','Rejected','Not approved']],[2.7,2.1,2.1])
+ para(d,'The original V19 control had no interference at the two failing angles. Collision bounds located the added top corner in A. B rounds that corner and meets the chosen 0.01 cubic millimetre overlap check at 25 rigid positions from 0 to 60 degrees. Two negative angle attempts detect the wearing stop. These finite local checks do not establish continuous motion, manufacturing clearance, pinch safety or loaded full headset folding.')
+ para(d,'A broad local refinement exceeded the node guard. Two narrower meshes were saved, but their optional solver was stopped after A failed motion. B full factorisation was stopped under memory pressure. The first low memory solve and refreshed version failed the linear accuracy gate; neither is an accepted field. The stronger attempt was stopped at a five minute operational cap with about 8.7 GB committed and no accepted equilibrium field. That stop does not prove mathematical divergence or physical weakness. Failed logs and resource records remain in the package.')
+ table(d,['Area','Still required'],[['Joint and full assembly','Reliable stress checks for a motion compatible design detailed hardware and assembly loads'],['Cushion and Sony mount','Complete foam and cover inputs exact mounting geometry and tolerances'],['Sound heat and durability','Calibrated material data and completed assembly models'],['Comfort and sensory acceptance','Voluntary wearer testing']],[2.1,4.8])
+ para(d,'The tests found a useful local folding correction and a better fork mesh comparison. They do not prove that either product is comfortable, quiet, durable or compatible with the Sony mount. Neither local candidate has been promoted to the main headset. SoftSpace Flex gains no fit, pain relief, sound leakage or ANC result from this shared joint investigation.')

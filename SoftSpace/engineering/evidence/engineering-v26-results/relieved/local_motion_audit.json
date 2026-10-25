@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-25",
+  "source_CAD_sha256": "e4597baa52255a6d2e2573f7cb565b1fd5faa90f035046680a674e275d2b6723",
+  "solids": 2,
+  "validity_controls": [
+    {
+      "part": "RightTongue",
+      "valid": true,
+      "volume_mm3": 4601.559877395801,
+      "self_common_mm3": null,
+      "positive_common_control_performed": false,
+      "pass": true
+    },
+    {
+      "part": "RightFork",
+      "valid": true,
+      "volume_mm3": 5341.665642412268,
+      "self_common_mm3": 5341.665642412268,
+      "positive_common_control_performed": true,
+      "pass": true
+    }
+  ],
+  "folding_samples": [
+    {
+      "angle_deg": 0.0,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 2.5,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 5.0,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 7.5,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 10.0,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 12.5,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 15.0,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 17.5,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 20.0,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 22.5,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 25.0,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 27.5,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 30.0,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 32.5,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 35.0,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 37.5,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 40.0,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 42.5,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 45.0,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 47.5,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 50.0,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 52.5,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 55.0,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 57.5,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "angle_deg": 60.0,
+      "intersection_mm3": 0.0,
+      "passed": true
+    }
+  ],
+  "wearing_stop_samples": [
+    {
+      "angle_deg": -0.1,
+      "intersection_mm3": 0.5585059277400966,
+      "blocking_detected": true
+    },
+    {
+      "angle_deg": -1,
+      "intersection_mm3": 5.585620777025015,
+      "blocking_detected": true
+    }
+  ],
+  "sampled_local_motion_pass": true,
+  "stop_blocking_pass": true,
+  "scope": "Only cropped local tongue and fork under rigid nominal geometry. 25 discrete samples 0 to 60 degrees; no full headset folding, continuous collision, tolerances, loading or pinch qualification."
+}

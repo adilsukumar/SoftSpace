@@ -1,0 +1,7 @@
+Prepared child_large_h1.9_outward 157.82065986237683
+child_large_h1.9_outward {'iteration': 0, 'relative_residual': 0.038383483079142494, 'linear_residual': 3.4347952769443803e-06, 'step': 1.0, 'gmres_iterations': 60}
+Traceback (most recent call last):
+  File "${WORKSPACE}\v26_relief_iterative.py", line 80, in <module>
+    du,info=gmres(J,-res[free],M=M,rtol=1e-5,atol=1e-12,restart=60,maxiter=20,callback=tick,callback_type='pr_norm');linear=float(np.linalg.norm(matvec(du)+res[free])/max(np.linalg.norm(res[free]),1e-12));assert info==0 and linear<2e-5
+                                                                                                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-24",
+  "size": "child_large",
+  "mesh_size_mm": 1.9,
+  "direction": "outward",
+  "converged": true,
+  "relative_residual": 1.1145412462989335e-11,
+  "independent_residual": 1.1145412463017493e-11,
+  "initial_residual": 247.95845632727287,
+  "force_balance_N": 6.193220644318477e-11,
+  "moment_balance_Nmm": 2.5352734529003545e-09,
+  "coulomb_excess_MPa": 5.551115123125783e-17,
+  "cup_displacement_mm": 0.26937268433518485,
+  "rigid_motion_controls": [
+    {
+      "kind": "translation",
+      "axis": 0,
+      "error": 8.295772922772837e-16,
+      "passed": true
+    },
+    {
+      "kind": "translation",
+      "axis": 1,
+      "error": 3.20425110056366e-15,
+      "passed": true
+    },
+    {
+      "kind": "translation",
+      "axis": 2,
+      "error": 8.3094270938825765e-16,
+      "passed": true
+    },
+    {
+      "kind": "rotation",
+      "axis": 0,
+      "error": 9.801372213846804e-11,
+      "passed": true
+    },
+    {
+      "kind": "rotation",
+      "axis": 1,
+      "error": 9.801372195359648e-11,
+      "passed": true
+    },
+    {
+      "kind": "rotation",
+      "axis": 2,
+      "error": 9.530087830000866e-11,
+      "passed": true
+    }
+  ],
+  "contact_derivative_errors": [
+    1.4925556202175326e-07,
+    1.5564910736116024e-06
+  ],
+  "history": [
+    {
+      "iteration": 0,
+      "relative_residual": 0.10571961533055871,
+      "linear_residual": 4.4471012131069346e-07,
+      "step": 1.0,
+      "gmres_iterations": 7
+    },
+    {
+      "iteration": 1,
+      "relative_residual": 0.04441616242842863,
+      "linear_residual": 3.743175585070521e-06,
+      "step": 1.0,
+      "gmres_iterations": 17
+    },
+    {
+      "iteration": 2,
+      "relative_residual": 0.0035820338243630766,
+      "linear_residual": 4.040196674550409e-06,
+      "step": 1.0,
+      "gmres_iterations": 17
+    },
+    {
+      "iteration": 3,
+      "relative_residual": 0.00043048888117124066,
+      "linear_residual": 1.6428424446986815e-06,
+      "step": 1.0,
+      "gmres_iterations": 18
+    },
+    {
+      "iteration": 4,
+      "relative_residual": 2.149769665129784e-06,
+      "linear_residual": 2.0778990903320606e-06,
+      "step": 1.0,
+      "gmres_iterations": 17
+    },
+    {
+      "iteration": 5,
+      "relative_residual": 1.1145412462989335e-11,
+      "linear_residual": 4.210611309049787e-06,
+      "step": 1.0,
+      "gmres_iterations": 17
+    }
+  ],
+  "seconds": 431.4092400074005,
+  "source_mesh_sha256": "81108042882ea11cd9d02c13f46e328485ff41ce77e090e7ced4784480b5fa18",
+  "source_CAD_sha256": "11cf1d0880bbf59ed53a636c569420abba5b742d7789ae4d00c61fcbbe493f4e",
+  "warm_start_sha256": "03aabc1213974236b98ad2e66dbaa7f0ed09c0393a82983193043f05d48837b7",
+  "script_sha256": "f26922a02bf924ef6ec67013147fa0c980d2ed43fd9371692d7dcaa6d5a58b3a",
+  "contact_surface_statistics": {
+    "washer": [
+      {
+        "points": 1968,
+        "area_mm2": 80.50952706215752,
+        "maximum_projection_error_mm": 9.940533566192533e-11,
+        "minimum_quadrature_area_mm2": 0.0010977609866917846
+      },
+      {
+        "points": 1968,
+        "area_mm2": 80.50952185210699,
+        "maximum_projection_error_mm": 9.865095108107929e-11,
+        "minimum_quadrature_area_mm2": 0.001097895468678901
+      }
+    ],
+    "stop": [
+      {
+        "points": 832,
+        "area_mm2": 32.0,
+        "maximum_projection_error_mm": 3.2809330058766683e-12,
+        "minimum_quadrature_area_mm2": 0.0021133987953227385
+      }
+    ]
+  },
+  "contact_formulation_sha256": "8c9d1253ac13fd8823d9ba2b16e41670b91b30485965e59f5232c95907f44c0e",
+  "scope": "V26 rounded isolated joint candidate; quadratic face scheme; corrected virtual 0.5 mm spacer reference. E3500 MPa nu0.35 preload140 N friction0.2 side force +/-2 N. Isolated V19 joint only; no physical strength, washer or product pass.",
+  "raw_sha256": "464209e3c7ebf1744f4c9157cd3d89a1caecbb57c281fbbcfb2ad076f76519b7",
+  "stress": [
+    {
+      "component": "tongue",
+      "sampled_peaks_MPa": {
+        "interior125": 6.2041516375215355,
+        "boundary35": 8.026554661008701
+      },
+      "minimum_sampled_Jacobian": 0.004934012934863615
+    },
+    {
+      "component": "fork",
+      "sampled_peaks_MPa": {
+        "interior125": 3.6229289301895586,
+        "boundary35": 3.682695200303457
+      },
+      "minimum_sampled_Jacobian": 0.008972648142781887
+    }
+  ]
+}

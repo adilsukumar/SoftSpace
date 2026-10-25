@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-25",
+  "events": [
+    {
+      "run": "Broad local 0.35 mm mesh",
+      "status": "Resource guard rejected before saving/solving",
+      "evidence": "geometry_local0.35.log"
+    },
+    {
+      "run": "Narrow local 0.45 and 0.35 mm meshes",
+      "status": "Generated 79337 and 80820 nodes; equilibrium worker intentionally stopped after candidate A failed motion",
+      "evidence": "local_campaign.log"
+    },
+    {
+      "run": "Candidate B full LU preconditioner",
+      "status": "Stopped during factorisation; no equilibrium or stress result accepted",
+      "observed_process_virtual_memory_bytes": 12318797824,
+      "observed_free_physical_memory_KiB": 1432996,
+      "next_method": "Incomplete LU preconditioner; unchanged residual and balance gates"
+    },
+    {
+      "run": "Candidate B ILU with fixed initial preconditioner",
+      "status": "Linear solver gate failed; no accepted equilibrium field",
+      "evidence": "relief_iterative.log"
+    },
+    {
+      "run": "Candidate B refreshed ILU fill5",
+      "status": "Linear solver gate failed at second Newton step",
+      "gmres_info": 20,
+      "gmres_iterations": 1200,
+      "actual_linear_relative_residual": 4.405243512561317e-05,
+      "required_actual_linear_residual_below": 2e-05,
+      "evidence": "relief_refresh.log"
+    }
+  ]
+}

@@ -227,7 +227,7 @@ def setup(title,subtitle):
  d.styles['Title'].font.size=Pt(28);d.styles['Title'].font.bold=True;d.styles['Heading 1'].font.size=Pt(19);d.styles['Heading 1'].paragraph_format.space_after=Pt(10)
  d.styles['Heading 2'].font.size=Pt(13);d.styles['Caption'].font.size=Pt(9);d.styles['Caption'].font.italic=True
  d.core_properties.title=title;d.core_properties.subject=subtitle;d.core_properties.author='SoftSpace Project';d.core_properties.keywords='living project document simulation evidence V19'
- hp=s.header.paragraphs[0];hp.text='SOFTSPACE    |    24 October 2026';hp.runs[0].font.size=Pt(8)
+ hp=s.header.paragraphs[0];hp.text='SOFTSPACE    |    25 October 2026';hp.runs[0].font.size=Pt(8)
  fp=s.footer.paragraphs[0];fp.alignment=WD_ALIGN_PARAGRAPH.RIGHT;r=fp.add_run('Concept under development  |  ');r.font.size=Pt(8)
  fld=OxmlElement('w:fldSimple');fld.set(qn('w:instr'),'PAGE');fp._p.append(fld)
  d.add_paragraph(title,'Title');d.add_paragraph(subtitle,'Subtitle');return d
@@ -248,9 +248,11 @@ REV='V24 corrected reference checks with open product gates'
 
 REV='V25 quadratic surface pilot with open product gates'
 
+REV='V26 local rounded joint trials with open product gates'
+
 def main_doc():
  d=setup('SoftSpace','Headphones for sound sensitive autistic people')
- para(d,'Current update on 24 October 2026: V25 tests a quadratic surface calculation on the child large joint. Three solutions pass numerical consistency checks, but the mesh stress comparisons still fail. Manufacturer inputs improve traceability without validating materials or Sony mounting. Full software validation remains open for both products. Read the final V25 chapters.')
+ para(d,'Current update on 25 October 2026: V26 tests two rounded local joint candidates. A improves fork mesh agreement but fails tongue and folding checks. B fixes the sampled local folding obstruction; its exact stress status is recorded in the final chapters. Neither is approved for the full headset. Both products still have open software validation gates.')
  para(d,'We are developing a low-cost passive over-ear defender for India. The aim is to make loud surroundings easier to manage while keeping the device comfortable, easy to remove and simple to use. Autistic users are our first priority; other sound-sensitive people may also find the idea useful.')
  if (I/'V19_hero.png').exists():picture(d,'V19_hero','V19 child large and adult small final local STEP prototype assemblies. Physical validation remains open.',5.7)
  elif (I/'V18_hero.png').exists():picture(d,'V18_hero','V18 passive hinge child large and adult small local STEP candidates. Physical validation remains open.',5.7)
@@ -428,11 +430,13 @@ def main_doc():
  add_v24(d,P,new_page,para,table,picture)
  from v25_review_section import add_v25
  add_v25(d,P,new_page,para,table,picture)
+ from v26_review_section import add_v26
+ add_v26(d,P,new_page,para,table,picture)
  return save(d,'Ear_Defender_Project.docx')
 
 def glasses_doc():
  d=setup('SoftSpace Flex','Affordable replacement pads for compatible headphones in India')
- para(d,'Current update on 24 October 2026: V25 tests a quadratic surface calculation on the child large joint. Three solutions pass numerical consistency checks, but the mesh stress comparisons still fail. Manufacturer inputs improve traceability without validating materials or Sony mounting. Full software validation remains open for both products. Read the final V25 chapters.')
+ para(d,'Current update on 25 October 2026: V26 tests two rounded local joint candidates. A improves fork mesh agreement but fails tongue and folding checks. B fixes the sampled local folding obstruction; its exact stress status is recorded in the final chapters. Neither is approved for the full headset. Both products still have open software validation gates.')
  para(d,'We want a replacement cushion that presses less on glasses arms while keeping a good seal. The user keeps their headphone and replaces its removable pads. We are developing the contact idea together with our passive ear defender, but this is a separate product route.')
  picture(d,'V20_flex_CAD','V20 uniform control and two soft-zone body candidates. Published aftermarket outside size; assumed opening and cover. The mounting skirt is not yet dimensioned or fit-verified.',6.55)
  label(d,'Current conclusion','The idea is worth investigating. We have not proved less pain, unchanged music, no sound leakage or universal compatibility. The pad needs tests on each supported headphone model.')
@@ -556,6 +560,8 @@ def glasses_doc():
  add_v24(d,P,new_page,para,table,picture)
  from v25_review_section import add_v25
  add_v25(d,P,new_page,para,table,picture)
+ from v26_review_section import add_v26
+ add_v26(d,P,new_page,para,table,picture)
  return save(d,'Glasses_Friendly_Headphone_Cushions.docx')
 
 if __name__=='__main__':

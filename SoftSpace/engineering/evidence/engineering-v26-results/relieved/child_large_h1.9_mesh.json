@@ -1,0 +1,7 @@
+{
+  "nodes": 43662,
+  "source_CAD_sha256": "e4597baa52255a6d2e2573f7cb565b1fd5faa90f035046680a674e275d2b6723",
+  "raw_sha256": "c2b1ca5961e1e6d30c78750a4dfd8bc285fdb46df172c4c51cc3d4578e89e675",
+  "mesh_target_mm": 1.9,
+  "local_target_mm": null
+}
