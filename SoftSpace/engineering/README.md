@@ -73,6 +73,14 @@ Read [the bounded study and purchase recommendation](evidence/engineering-v20-re
 
 Read [the review, failures and remaining work](evidence/engineering-v21-results/README.md). New scripts run in a prepared workspace. Raw V19 solutions are unchanged. The four new finer equilibrium solves, stress recovery, hotspot diagnostics and six compact poses are recorded separately. Neither the older immutable release nor V20 closes these new issues.
 
+<!-- MATERIAL_LOADING:BEGIN -->
+## Named material loading screen 26 October 2026
+
+The [new material screen](evidence/material-screen-2026-10-26/README.md) uses source-checked loading points for eight named Confor grades rather than an assumed foam law. Of 1152 cases, 559 are solved within the published strain range and 593 are left outside the supported domain. Cases with higher local pressure are retained. One 8 N reference gives about 35 percent lower calculated glasses-strip pressure with CF-40M in a CF-42M ring; this is a simplified uncovered 12.7 mm reference, **not pain relief, seal, fit or product validation**.
+
+Both illustrated reports are updated together and native Word layouts checked. Grade availability and price in India are unverified. The loading-input gap has advanced; unloading, recovery, cover, mounting and full product gates remain open. Source URLs, hashes, extracted facts and all scenario results are published; manufacturer PDFs remain local for source checking.
+<!-- MATERIAL_LOADING:END -->
+
 <!-- VALIDATION_DECISION:BEGIN -->
 ## Software validation decision
 

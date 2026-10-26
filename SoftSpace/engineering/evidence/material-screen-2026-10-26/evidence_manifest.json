@@ -1,0 +1,52 @@
+[
+  {
+    "path": "example_comparison.json",
+    "bytes": 2488,
+    "sha256": "f60f5da6e9a4af42aa55b96b8d4ab8f6d88c70c737013b7b49f9f39c1c7a9f41"
+  },
+  {
+    "path": "gate_update.json",
+    "bytes": 796,
+    "sha256": "56430962c47040644b79d3a6f96723f9761b3b75560a2bf8a062154612a7998a"
+  },
+  {
+    "path": "material_curves.json",
+    "bytes": 3790,
+    "sha256": "ae0293e15324653121e11429cbcc8bc09b8875c9a2950647437cbc7b71be3093"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2283,
+    "sha256": "e2b8add82a1a2ef6b621847b8a44e8bc398142dbea55181fa097544b60999ca0"
+  },
+  {
+    "path": "reproduction_sources.json",
+    "bytes": 202,
+    "sha256": "e5a96d3ecfd84a5f82b80222e37ec08560c4da354e697aeed6895ef461f545c2"
+  },
+  {
+    "path": "rogers_comparison.json",
+    "bytes": 593,
+    "sha256": "89627fa2736d2f7a6b8195f19ee42ea5e0e08d96df9f3fa4a908417f1c8f75bc"
+  },
+  {
+    "path": "scenarios.csv",
+    "bytes": 244455,
+    "sha256": "59878eced24536fbf94f85f8546453a7fa34ed13e1ec2151abf73c3884d081a6"
+  },
+  {
+    "path": "sources.json",
+    "bytes": 1335,
+    "sha256": "39a6df903f789df04b1c02cd8100851eaa8cc38202535628559ea6b2aa2e3a58"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 1700,
+    "sha256": "3ec33af44b8ede1b7b48409cb0da6e5b5a632a1028f159a419b87f25c687a826"
+  },
+  {
+    "path": "uniform_bounds.json",
+    "bytes": 1664,
+    "sha256": "334559f1ab806955dd622a62b6efbbf7a84cd67c3ccfc5311faf4252a1ab92a8"
+  }
+]

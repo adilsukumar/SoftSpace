@@ -1,0 +1,22 @@
+"""Shared source-qualified material screen; does not approve either product."""
+import json,csv
+
+def add_material_screen(d,P,new_page,para,table,picture):
+ O=P/'material-screen-2026-10-26'
+ if not (O/'summary.json').exists():return
+ r=json.loads((O/'summary.json').read_text())
+ new_page(d,'Named foam loading screen')
+ para(d,'26 October 2026. We replaced an assumed foam law with published loading points for eight named Confor grades in a separate reference calculation. This partially closes the loading input gap. It does not select a final material or approve either product. The existing headset and Sony pad CAD are unchanged.')
+ picture(d,'Material_loading_screen_20261026','Source points and conditional calculations. The loading curves are typical inputs, not guaranteed material limits or wearer measurements.',6.55)
+ para(d,'Trelleborg lists eight compression points per grade from 10 to 80 percent strain. Its modified test uses a 12.7 mm specimen compressed at 5.1 mm per minute. We used that reference thickness and did not transfer the curve to the existing 30 mm pad. The sheet also supplies nominal density and typical thermal conductivity. These loading points do not supply unloading, long term recovery or a complete viscoelastic law.')
+ para(d,'The flat annulus has an outside size of 80 by 100 mm and an assumed opening of 50 by 70 mm. Independent columns represent an uncovered main region, a zone and a glasses strip. The forces, arm heights and geometry are declared sensitivity inputs. The model omits lateral foam coupling, cover tension and seams, skin, head shape and glasses bending.')
+ from build_documents import link
+ link(d,'Trelleborg Confor manufacturer data sheet','https://www.trelleborg.com/applied-technologies/-/media/applied-technologies/en/product-sheets/advanced-energy-control-materials/confor--technical-specs-form-2021.pdf?rev=05cf579e0c624552ab8f113f51c303b3')
+ new_page(d,'Named material results and remaining limits')
+ table(d,['Screen result','Count or check'],[['Grade pair force and arm cases',str(r['scenario_count'])],['Solved inside the sourced range',str(r['solved_within_source_domain'])],['Outside the supported common range',str(r['outside_supported_domain'])],['Paired local pressure decreases',str(r['paired_local_pressure_decreases'])],['Paired local pressure increases',str(r['paired_local_pressure_increases'])],['Paired identical results',str(r['paired_identical'])]],[4.6,2.3])
+ para(d,'These counts are not probabilities of comfort or real world success. We used shape preserving interpolation only inside the published strain interval. Cases outside that interval remain unsolved. All 64 entered source points matched a separate PDF text extraction after the source page was checked visually. Force balance, independent root solving, exact annular areas, equal material identity and uniform pressure controls passed.')
+ table(d,['At assumed 8 N and 1 mm arm height','Glasses strip mean pressure'],[['CF 42M throughout','2.78 kPa'],['CF 42M main and CF 40M zone','1.81 kPa'],['CF 40M throughout','2.69 kPa']],[4.6,2.3])
+ para(d,'The mixed example gives about 35 percent lower calculated strip pressure than uniform CF 42M. Pressure elsewhere also changes to carry the same total force. This is one conditional reference result, not a predicted pain reduction, final material choice or validation of the finished cushion. The uniform softer control is kept so that a zone is not compared only with a harder baseline.')
+ para(d,'A separate Rogers battery pad formulation has loading points too, but its listed thickness is 1.4 to 3 mm. On the same assumed annular area its typical 20 percent compression point would require about 143.5 N. That reference is not a head force recommendation or a result for a thick headphone pad. We did not combine its values with the different generic PORON data.')
+ link(d,'Rogers battery pad formulation data sheet','https://www.rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/poron/english/data-sheets/17-387-ideal-cfd-curves-for-battery-pad-applications-poron-4701-40-soft.pdf')
+ para(d,'Loading inputs are better traced, but full validation remains open. Cover and recovery data, real material and force variation, exact Sony mounting, actual worn contact and complete sound heat and durability models are still needed. The Sony manual index checked in this update supplied no new dimensioned mount source. Neither route gains a fit, no leakage, comfort, ANC or manufacturing pass from these calculations.')

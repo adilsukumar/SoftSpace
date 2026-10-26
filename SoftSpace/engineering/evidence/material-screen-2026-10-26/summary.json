@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-26",
+  "scenario_count": 1152,
+  "solved_within_source_domain": 559,
+  "outside_supported_domain": 593,
+  "paired_comparisons": 559,
+  "paired_local_pressure_increases": 292,
+  "paired_local_pressure_decreases": 195,
+  "paired_identical": 72,
+  "controls": {
+    "source_64_points_match_independent_PDF_text_parse": true,
+    "manual_page_visual_check": true,
+    "monotone_source_curves": true,
+    "no_extrapolation": true,
+    "exact_ellipse_area_sum_error_mm2": 4.547473508864641e-13,
+    "equal_material_identity_error_percent": 0.0,
+    "uniform_pressure_error_kPa": 7.105427357601002e-15,
+    "maximum_force_error_N": 3.552713678800501e-14,
+    "maximum_independent_closure_error_mm": 2.5135449277513544e-13
+  },
+  "geometry": {
+    "outer_mm": [
+      80,
+      100
+    ],
+    "assumed_opening_mm": [
+      50,
+      70
+    ],
+    "area_mm2": 3534.2917352885174,
+    "four_group_areas_mm2": [
+      3251.6383630104056,
+      204.75567295681662,
+      0.0,
+      77.89769932129542
+    ],
+    "zone_centre_mm": 15,
+    "zone_height_mm": 18,
+    "arm_centre_mm": 15,
+    "arm_width_mm": 5
+  },
+  "reference_thickness_mm": 12.7,
+  "assumed_forces_N": [
+    2,
+    4,
+    8,
+    12,
+    16,
+    24
+  ],
+  "assumed_arm_protrusions_mm": [
+    0,
+    0.5,
+    1
+  ],
+  "physical_measurements": 0,
+  "full_product_validation": false,
+  "scope": "Uncovered flat annulus independent-column reference with manufacturer loading points. Same 12.7 mm specimen thickness; not existing 30 mm CAD, worn head, membrane, skin, friction, glasses bending, actual headband force, leak, acoustics, comfort or Sony mounting validation."
+}

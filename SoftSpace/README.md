@@ -41,6 +41,14 @@ The [V20 evidence update](engineering/evidence/engineering-v20-results/README.md
 
 The [additional software review](../SoftSpace/engineering/evidence/engineering-v21-results/README.md) records wider glasses-position pressure risks and failed joint peak-stress comparisons. Further software work remains. Both reports are updated. Six carrying pose STEP exports are added; part shapes are unchanged. Six finer stress checks pass and two adult fork checks still fail.
 
+<!-- MATERIAL_LOADING:BEGIN -->
+## Named material loading screen 26 October 2026
+
+The [new material screen](../SoftSpace/engineering/evidence/material-screen-2026-10-26/README.md) uses source-checked loading points for eight named Confor grades rather than an assumed foam law. Of 1152 cases, 559 are solved within the published strain range and 593 are left outside the supported domain. Cases with higher local pressure are retained. One 8 N reference gives about 35 percent lower calculated glasses-strip pressure with CF-40M in a CF-42M ring; this is a simplified uncovered 12.7 mm reference, **not pain relief, seal, fit or product validation**.
+
+Both illustrated reports are updated together and native Word layouts checked. Grade availability and price in India are unverified. The loading-input gap has advanced; unloading, recovery, cover, mounting and full product gates remain open. Source URLs, hashes, extracted facts and all scenario results are published; manufacturer PDFs remain local for source checking.
+<!-- MATERIAL_LOADING:END -->
+
 <!-- VALIDATION_DECISION:BEGIN -->
 ## Software validation decision
 

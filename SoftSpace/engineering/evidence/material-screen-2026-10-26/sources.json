@@ -1,0 +1,24 @@
+[
+  {
+    "id": "Trelleborg_Confor",
+    "url": "https://www.trelleborg.com/applied-technologies/-/media/applied-technologies/en/product-sheets/advanced-energy-control-materials/confor--technical-specs-form-2021.pdf?rev=05cf579e0c624552ab8f113f51c303b3",
+    "checked": "2026-10-26",
+    "sha256": "991fb22f712b14e9d80e19cb2458896d254783710a4b925b76872b85e5c68f3f",
+    "bytes": 711046,
+    "redistribution": "PDF retained locally for source checking; publish source URL and extracted factual data only"
+  },
+  {
+    "id": "Rogers_4701_40_battery",
+    "url": "https://www.rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/poron/english/data-sheets/17-387-ideal-cfd-curves-for-battery-pad-applications-poron-4701-40-soft.pdf",
+    "checked": "2026-10-26",
+    "sha256": "c3af0ecefad716509846aa73e640b59788e2dc88e37c6e0c4ba3f996aeef7880",
+    "bytes": 666921,
+    "redistribution": "PDF retained locally for source checking; publish source URL and extracted factual data only"
+  },
+  {
+    "id": "Sony_manual_index",
+    "url": "https://www.sony.com/electronics/support/product/WH-CH720N/manuals",
+    "checked": "2026-10-26",
+    "scope": "Index lists help and reference guides. No new dimensioned mounting source retrieved. Not proof that drawings do not exist elsewhere."
+  }
+]

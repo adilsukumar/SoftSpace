@@ -1,0 +1,58 @@
+[
+  {
+    "grade": "CF-40M",
+    "force_at_10pct_N": 4.948008429403925,
+    "force_at_20pct_N": 6.3617251235193315,
+    "force_at_40pct_N": 8.12887099116359,
+    "thermal_conductivity_W_mK": 0.04
+  },
+  {
+    "grade": "CF-40AC",
+    "force_at_10pct_N": 5.301437602932776,
+    "force_at_20pct_N": 7.0685834705770345,
+    "force_at_40pct_N": 9.189158511750145,
+    "thermal_conductivity_W_mK": 0.04
+  },
+  {
+    "grade": "CF-42M",
+    "force_at_10pct_N": 7.4220126441058865,
+    "force_at_20pct_N": 9.89601685880785,
+    "force_at_40pct_N": 12.01659189998096,
+    "thermal_conductivity_W_mK": 0.04
+  },
+  {
+    "grade": "CF-42AC",
+    "force_at_10pct_N": 7.775441817634739,
+    "force_at_20pct_N": 10.2494460323367,
+    "force_at_40pct_N": 13.076879420567515,
+    "thermal_conductivity_W_mK": 0.04
+  },
+  {
+    "grade": "CF-45M",
+    "force_at_10pct_N": 10.956304379394403,
+    "force_at_20pct_N": 14.844025288211773,
+    "force_at_40pct_N": 17.671458676442587,
+    "thermal_conductivity_W_mK": 0.04
+  },
+  {
+    "grade": "CF-45AC",
+    "force_at_10pct_N": 13.783737767625219,
+    "force_at_20pct_N": 17.671458676442587,
+    "force_at_40pct_N": 20.852321238202254,
+    "thermal_conductivity_W_mK": 0.04
+  },
+  {
+    "grade": "CF-47M",
+    "force_at_10pct_N": 13.783737767625219,
+    "force_at_20pct_N": 19.7920337176157,
+    "force_at_40pct_N": 22.972896279375362,
+    "thermal_conductivity_W_mK": 0.04
+  },
+  {
+    "grade": "CF-47AC",
+    "force_at_10pct_N": 16.964600329384883,
+    "force_at_20pct_N": 24.38661297349077,
+    "force_at_40pct_N": 27.92090470877929,
+    "thermal_conductivity_W_mK": 0.04
+  }
+]

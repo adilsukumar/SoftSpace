@@ -1,16 +1,16 @@
 {
-  "updated": "25 October 2026",
-  "design_status": "Software validation decision",
+  "updated": "26 October 2026",
+  "design_status": "Named foam loading screen",
   "documents": [
     {
       "path": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
-      "sha256": "fc0cbb5b501f0800d1ad9450317aa13641a8cf28e169bfba6ab2dee42224ac09",
-      "bytes": 10352642
+      "sha256": "651c63f999e3c2a9621c9c6b6f3ab8ca7125c9eab58e413fe42899d1be6f9284",
+      "bytes": 10497685
     },
     {
       "path": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
-      "sha256": "a0b1d3062a289c4487c5638809ea7bff47a7b146dbafe0692aca48066cc74bca",
-      "bytes": 5842752
+      "sha256": "e87712d241ecd93e63aff9d4960ba09d06514ab0adb2a030095d12d4c34aa597",
+      "bytes": 5987796
     }
   ],
   "market_checked": "2026-10-13",
@@ -20,32 +20,32 @@
     "approximate_layout_page_counts": [],
     "approximate_previews_match_current_documents": false,
     "native_Word_layout_verified": true,
-    "reason": "Both updated title pages and the shared decision page visually reviewed. Companion decision bodies pixel identical. All 185 preserved pages exactly pixel identical to reviewed V26. All 189 pages rendered with no blank short or out of page text. Report QA is not product validation.",
+    "reason": "Both current title pages and two new material chapter bodies visually reviewed; companion bodies pixel matched. All 187 preserved body pages match reviewed prior edition; header date intentionally changed. All 193 pages rendered without blank short or out of page text. Report QA is not material or product validation.",
     "checks": [
       {
         "document": "Ear_Defender_Project.docx",
-        "paragraphs": 720,
-        "tables": 75,
-        "embedded_images": 53,
-        "source_links": 38,
+        "paragraphs": 735,
+        "tables": 77,
+        "embedded_images": 54,
+        "source_links": 40,
         "structure_and_hashes": "pass"
       },
       {
         "document": "Glasses_Friendly_Headphone_Cushions.docx",
-        "paragraphs": 538,
-        "tables": 63,
-        "embedded_images": 39,
-        "source_links": 25,
+        "paragraphs": 553,
+        "tables": 65,
+        "embedded_images": 40,
+        "source_links": 27,
         "structure_and_hashes": "pass"
       }
     ],
     "native_Word_export_verified": true,
     "native_page_counts": [
-      107,
-      82
+      109,
+      84
     ],
     "native_blank_or_out_of_page_text_pages": 0,
-    "visual_review_scope": "Both updated title pages and the shared decision page visually reviewed. Companion decision bodies pixel identical. All 185 preserved pages exactly pixel identical to reviewed V26. All 189 pages rendered with no blank short or out of page text. Report QA is not product validation."
+    "visual_review_scope": "Both current title pages and two new material chapter bodies visually reviewed; companion bodies pixel matched. All 187 preserved body pages match reviewed prior edition; header date intentionally changed. All 193 pages rendered without blank short or out of page text. Report QA is not material or product validation."
   },
   "latest_update": {
     "date": "2026-10-24",
@@ -56,5 +56,6 @@
     "manufacturing_release": false,
     "physical_tests": 0
   },
-  "native_Word_layout_verified": true
+  "native_Word_layout_verified": true,
+  "material_sources_checked": "2026-10-26"
 }

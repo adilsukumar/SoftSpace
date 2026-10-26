@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-26",
+  "loading_curve_input": "PARTIALLY RESOLVED eight named typical loading curves at source specimen conditions",
+  "still_missing": [
+    "Unloading recovery rate history aging and selected final material verification",
+    "Cover membrane seam friction and actual worn geometry",
+    "Exact Sony mount dimensions and tolerances",
+    "Accepted strength of motion compatible complete headset",
+    "Complete acoustic thermal moisture and durability inputs and models",
+    "Wearer comfort and sensory acceptance"
+  ],
+  "full_software_testing_complete": false,
+  "product_validation_passed": false,
+  "CAD_changed": false,
+  "scope": "This update advances a material-input gate, not product approval. Previous dated decisions remain historical evidence."
+}

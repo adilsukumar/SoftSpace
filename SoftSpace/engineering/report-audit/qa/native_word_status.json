@@ -1,26 +1,26 @@
 {
-  "scope": "Native Word read-only export and pagination. Visual PDF review recorded separately.",
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "documents": [
     {
-      "native_export": "pass",
-      "native_pages": 107,
-      "pdf_sha256": "e980673c9d9eae651aa8099a8c9eb74fb63d50fcd30db7a5a08e8794ad17e141",
-      "source_sha256": "fc0cbb5b501f0800d1ad9450317aa13641a8cf28e169bfba6ab2dee42224ac09",
-      "word_version": "16.0",
-      "document": "Ear_Defender_Project",
       "source_unchanged": true,
-      "pdf": "${WORKSPACE}\\documents\\qa\\native_decision_Ear_Defender_Project.pdf"
+      "word_version": "16.0",
+      "native_pages": 109,
+      "native_export": "pass",
+      "document": "Ear_Defender_Project",
+      "source_sha256": "651c63f999e3c2a9621c9c6b6f3ab8ca7125c9eab58e413fe42899d1be6f9284",
+      "pdf": "${WORKSPACE}\\documents\\qa\\native_material_Ear_Defender_Project.pdf",
+      "pdf_sha256": "51d004139b7b10ff62d2fd423878500256e7518f03635e870e53b416a4061fac"
     },
     {
-      "native_export": "pass",
-      "native_pages": 82,
-      "pdf_sha256": "d8f01220a82bfbf30afed66875c542e1807cdf0a44a5b164a8c3034c589904e5",
-      "source_sha256": "a0b1d3062a289c4487c5638809ea7bff47a7b146dbafe0692aca48066cc74bca",
-      "word_version": "16.0",
-      "document": "Glasses_Friendly_Headphone_Cushions",
       "source_unchanged": true,
-      "pdf": "${WORKSPACE}\\documents\\qa\\native_decision_Glasses_Friendly_Headphone_Cushions.pdf"
+      "word_version": "16.0",
+      "native_pages": 84,
+      "native_export": "pass",
+      "document": "Glasses_Friendly_Headphone_Cushions",
+      "source_sha256": "e87712d241ecd93e63aff9d4960ba09d06514ab0adb2a030095d12d4c34aa597",
+      "pdf": "${WORKSPACE}\\documents\\qa\\native_material_Glasses_Friendly_Headphone_Cushions.pdf",
+      "pdf_sha256": "8b2a79aea215e95bd26867568bdeb86defd1841ed900c70b3975c49813a69e0c"
     }
-  ]
+  ],
+  "scope": "Native Word read-only export and pagination. Visual PDF review recorded separately."
 }

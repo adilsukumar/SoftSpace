@@ -1,0 +1,201 @@
+{
+  "date": "2026-10-26",
+  "source": "Trelleborg_Confor",
+  "source_pdf_sha256": "991fb22f712b14e9d80e19cb2458896d254783710a4b925b76872b85e5c68f3f",
+  "grades": {
+    "CF-40M": {
+      "strain_fraction": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      "compression_stress_kPa": [
+        1.4,
+        1.8,
+        2.0,
+        2.3,
+        2.9,
+        3.5,
+        6.0,
+        16.0
+      ],
+      "density_kg_m3": 96,
+      "thermal_conductivity_W_mK": 0.04
+    },
+    "CF-40AC": {
+      "strain_fraction": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      "compression_stress_kPa": [
+        1.5,
+        2.0,
+        2.3,
+        2.6,
+        3.2,
+        4.4,
+        7.5,
+        20.0
+      ],
+      "density_kg_m3": 96,
+      "thermal_conductivity_W_mK": 0.04
+    },
+    "CF-42M": {
+      "strain_fraction": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      "compression_stress_kPa": [
+        2.1,
+        2.8,
+        3.0,
+        3.4,
+        4.1,
+        5.4,
+        8.8,
+        23.0
+      ],
+      "density_kg_m3": 96,
+      "thermal_conductivity_W_mK": 0.04
+    },
+    "CF-42AC": {
+      "strain_fraction": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      "compression_stress_kPa": [
+        2.2,
+        2.9,
+        3.2,
+        3.7,
+        4.4,
+        5.9,
+        9.8,
+        25.0
+      ],
+      "density_kg_m3": 96,
+      "thermal_conductivity_W_mK": 0.04
+    },
+    "CF-45M": {
+      "strain_fraction": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      "compression_stress_kPa": [
+        3.1,
+        4.2,
+        4.5,
+        5.0,
+        5.9,
+        7.7,
+        12.0,
+        32.0
+      ],
+      "density_kg_m3": 96,
+      "thermal_conductivity_W_mK": 0.04
+    },
+    "CF-45AC": {
+      "strain_fraction": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      "compression_stress_kPa": [
+        3.9,
+        5.0,
+        5.3,
+        5.9,
+        7.0,
+        9.1,
+        15.0,
+        36.0
+      ],
+      "density_kg_m3": 96,
+      "thermal_conductivity_W_mK": 0.04
+    },
+    "CF-47M": {
+      "strain_fraction": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      "compression_stress_kPa": [
+        3.9,
+        5.6,
+        5.9,
+        6.5,
+        7.6,
+        9.8,
+        16.0,
+        40.0
+      ],
+      "density_kg_m3": 96,
+      "thermal_conductivity_W_mK": 0.04
+    },
+    "CF-47AC": {
+      "strain_fraction": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      "compression_stress_kPa": [
+        4.8,
+        6.9,
+        7.2,
+        7.9,
+        9.3,
+        12.0,
+        20.0,
+        49.0
+      ],
+      "density_kg_m3": 96,
+      "thermal_conductivity_W_mK": 0.04
+    }
+  },
+  "method": "ASTM D3574C modified; 12.7 mm specimen; compression rate 5.1 mm/min. CFD temperature and humidity not separately specified on the CFD row.",
+  "scope": "Typical loading points only, not unloading, creep, complete viscoelastic law, cover, bonding, acoustic impedance or finished pad calibration. No extrapolation below10 or above80 percent. No equivalence to the existing 30 mm CAD assumed."
+}

@@ -1,0 +1,11 @@
+# Named foam loading screen 26 October 2026
+
+Eight Confor grades now have traceable tabulated loading points from the Trelleborg manufacturer sheet. The 64 entered values were visually checked and independently matched to PDF text. Density and thermal conductivity are retained as typical inputs. This supplies a loading curve input for a limited screen, not a complete calibrated viscoelastic material law.
+
+The calculation uses a flat uncovered annulus of outside 80 by 100 mm and assumed opening 50 by 70 mm, with a 12.7 mm reference thickness matching the source specimen. The soft zone and glasses strips are declared in summary.json. All 1152 grade-pair/force/protrusion cases are retained. PCHIP interpolation is allowed only at 10 to 80 percent compression. Requests outside the common supported strain window are flagged instead of extrapolated. Only cases with both baseline and zone solutions are compared. Numerical controls include force balance, independent root solving, exact areas, equal-material identity and uniform-pressure identity.
+
+The source is typical loading data for a modified specimen test at 5.1 mm/min, not guaranteed limits, unloading or recovery, dynamic behaviour, cover seams, friction, acoustic impedance, heat/moisture behaviour or actual pad fit. No equivalence to the existing 30 mm CAD is asserted. Forces are sensitivity inputs, not wearer recommendations. Grade-pair changes in local pressure are conditional model outputs, not comfort or pain-relief percentages.
+
+A separate Rogers battery-pad formulation has multi-point data but is supplied at 1.4 to 3 mm thickness and much higher listed compression stresses. It must not be silently used as the generic PORON curve or a thick headphone cushion. PDFs and page renders are retained locally for source QA; publish URLs, hashes and extracted factual inputs, not the manufacturer PDFs. Full product validation and Sony mounting remain open.
+
+Run fetch_material_sources.py to retrieve the exact official PDFs by hash, then named_material_screen.py in the saved numerical environment. If a source hash changes, review the new sheet rather than accepting new data silently. India availability and price have not been verified; no final foam grade or purchase recommendation is made.
