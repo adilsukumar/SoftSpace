@@ -1,0 +1,11 @@
+Prepared child_large_h1.9_outward 157.82065986237683
+Refreshed ILU child_large_h1.9_outward 0 factor entries 27784366
+Linear check child_large_h1.9_outward 0 0 8.461001799221317e-06 76
+child_large_h1.9_outward {'iteration': 0, 'relative_residual': 0.038428964770850955, 'linear_residual': 8.461001799221317e-06, 'step': 1.0, 'gmres_iterations': 76}
+Refreshed ILU child_large_h1.9_outward 1 factor entries 27784039
+Linear check child_large_h1.9_outward 1 8 0.0010150576678871828 320
+Traceback (most recent call last):
+  File "${WORKSPACE}\v26_relief_block.py", line 88, in <module>
+    du,info=gmres(J,-res[free],M=M,rtol=1e-5,atol=1e-12,restart=40,maxiter=8,callback=tick,callback_type='pr_norm');linear=float(np.linalg.norm(matvec(du)+res[free])/max(np.linalg.norm(res[free]),1e-12));print('Linear check',label,iteration,info,linear,count[0],flush=True);assert info==0 and linear<2e-5
+                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

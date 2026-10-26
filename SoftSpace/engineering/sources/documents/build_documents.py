@@ -440,6 +440,8 @@ def main_doc():
  add_validation_decision(d,P,new_page,para,table,picture)
  from material_screen_section import add_material_screen
  add_material_screen(d,P,new_page,para,table,picture)
+ from joint_block_section import add_joint_block_review
+ add_joint_block_review(d,P,new_page,para,table,picture)
  return save(d,'Ear_Defender_Project.docx')
 
 def glasses_doc():
@@ -574,6 +576,8 @@ def glasses_doc():
  add_validation_decision(d,P,new_page,para,table,picture)
  from material_screen_section import add_material_screen
  add_material_screen(d,P,new_page,para,table,picture)
+ from joint_block_section import add_joint_block_review
+ add_joint_block_review(d,P,new_page,para,table,picture)
  return save(d,'Glasses_Friendly_Headphone_Cushions.docx')
 
 if __name__=='__main__':

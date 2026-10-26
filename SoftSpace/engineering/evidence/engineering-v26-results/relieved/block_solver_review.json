@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-26",
+  "candidate": "V26B relieved isolated child joint",
+  "status": "LINEAR_SOLVE_FAILED",
+  "accepted_equilibrium": false,
+  "mesh_mm": 1.9,
+  "method": "Independent tongue and fork ILU blocks drop1e-4 fill3 with rank-five pivot correction; unchanged full contact Jacobian GMRES",
+  "first_factor_entries": 27784366,
+  "previous_factor_entries": 92639626,
+  "first_linear_relative_residual": 8.461001799221317e-06,
+  "first_Newton_relative_residual": 0.038428964770850955,
+  "second_factor_entries": 27784039,
+  "second_linear_relative_residual": 0.0010150576678871828,
+  "linear_acceptance_limit": 2e-05,
+  "second_gmres_info": 8,
+  "second_iterations": 320,
+  "interpretation": "Reduced stored factor entries by about 70 percent; failed actual linear accuracy gate at second Newton step. No accepted field, stress result, product pass or new assembly qualification.",
+  "script_sha256": "4cbc9f8d0f85fdc8e2eb2e66e36d6a03e9e15c39cde5995d948ec9fa562a4d7b",
+  "log_sha256": "ecbe90b42c895f228a217b52107a902daf248fd7c869914bf23bf5b75929ed7c"
+}

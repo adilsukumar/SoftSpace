@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-26",
+  "source_hashes": [
+    "7b3e1dabaa2da8e528382fee4ec476cf1a861f79c8a0aebd732bef3bf8505b0a",
+    "912019f6c5e8552c34fbc53379ee5695665e780b4fa045fd4edf464deba01a66"
+  ],
+  "native_pages": [
+    110,
+    85
+  ],
+  "preserved_pages_pixel_identical": 191,
+  "new_chapter_visually_reviewed": true,
+  "companion_chapter_bodies_pixel_identical": true,
+  "scope": "New chapter visually reviewed; 191 preserved pages exact pixel match; changed cover summaries reviewed separately. Automated all-page checks report no blank or short pages or out of page text. Document QA only."
+}

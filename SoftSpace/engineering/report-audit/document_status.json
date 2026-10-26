@@ -1,16 +1,16 @@
 {
   "updated": "26 October 2026",
-  "design_status": "Named foam loading screen",
+  "design_status": "Lower memory joint solver review",
   "documents": [
     {
       "path": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
-      "sha256": "651c63f999e3c2a9621c9c6b6f3ab8ca7125c9eab58e413fe42899d1be6f9284",
-      "bytes": 10497685
+      "sha256": "7b3e1dabaa2da8e528382fee4ec476cf1a861f79c8a0aebd732bef3bf8505b0a",
+      "bytes": 10498751
     },
     {
       "path": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
-      "sha256": "e87712d241ecd93e63aff9d4960ba09d06514ab0adb2a030095d12d4c34aa597",
-      "bytes": 5987796
+      "sha256": "912019f6c5e8552c34fbc53379ee5695665e780b4fa045fd4edf464deba01a66",
+      "bytes": 5988862
     }
   ],
   "market_checked": "2026-10-13",
@@ -20,20 +20,20 @@
     "approximate_layout_page_counts": [],
     "approximate_previews_match_current_documents": false,
     "native_Word_layout_verified": true,
-    "reason": "Both current title pages and two new material chapter bodies visually reviewed; companion bodies pixel matched. All 187 preserved body pages match reviewed prior edition; header date intentionally changed. All 193 pages rendered without blank short or out of page text. Report QA is not material or product validation.",
+    "reason": "New chapter visually reviewed; 191 preserved pages exact pixel match; changed cover summaries reviewed separately. Automated all-page checks report no blank or short pages or out of page text. Document QA only.",
     "checks": [
       {
         "document": "Ear_Defender_Project.docx",
-        "paragraphs": 735,
-        "tables": 77,
+        "paragraphs": 742,
+        "tables": 78,
         "embedded_images": 54,
         "source_links": 40,
         "structure_and_hashes": "pass"
       },
       {
         "document": "Glasses_Friendly_Headphone_Cushions.docx",
-        "paragraphs": 553,
-        "tables": 65,
+        "paragraphs": 560,
+        "tables": 66,
         "embedded_images": 40,
         "source_links": 27,
         "structure_and_hashes": "pass"
@@ -41,11 +41,10 @@
     ],
     "native_Word_export_verified": true,
     "native_page_counts": [
-      109,
-      84
+      110,
+      85
     ],
-    "native_blank_or_out_of_page_text_pages": 0,
-    "visual_review_scope": "Both current title pages and two new material chapter bodies visually reviewed; companion bodies pixel matched. All 187 preserved body pages match reviewed prior edition; header date intentionally changed. All 193 pages rendered without blank short or out of page text. Report QA is not material or product validation."
+    "native_blank_or_out_of_page_text_pages": 0
   },
   "latest_update": {
     "date": "2026-10-24",

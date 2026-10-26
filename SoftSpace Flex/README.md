@@ -49,6 +49,12 @@ The six-size standalone folding design belongs to [SoftSpace](../SoftSpace/READM
 
 The [additional software review](../SoftSpace/engineering/evidence/engineering-v21-results/README.md) records wider glasses-position pressure risks and failed joint peak-stress comparisons. Further software work remains. Both reports are updated. Six carrying pose STEP exports are added; part shapes are unchanged. Six finer stress checks pass and two adult fork checks still fail.
 
+<!-- BLOCK_SOLVER:BEGIN -->
+## Joint solver update 26 October 2026
+
+The lower memory V26B pilot reduced stored factor entries from 92.64 to 27.78 million. Its second linear solve failed the unchanged accuracy gate, so there is **no accepted new strength result**. Both reports retain this failure. Full headset validation and exact Sony replacement fit remain open.
+<!-- BLOCK_SOLVER:END -->
+
 <!-- MATERIAL_LOADING:BEGIN -->
 ## Named material loading screen 26 October 2026
 

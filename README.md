@@ -42,6 +42,12 @@ This repository makes the work inspectable: actual CAD, illustrated reports, num
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-routes-mobile.svg"/><img src="assets/readme/section-routes.svg" width="100%" alt="TWO ROUTES THROUGH THE QUESTION. A passive headphone concept and replacement cushions."/></picture></p>
 
 
+<!-- BLOCK_SOLVER:BEGIN -->
+## Joint solver update 26 October 2026
+
+The lower memory V26B pilot reduced stored factor entries from 92.64 to 27.78 million. Its second linear solve failed the unchanged accuracy gate, so there is **no accepted new strength result**. Both reports retain this failure. Full headset validation and exact Sony replacement fit remain open.
+<!-- BLOCK_SOLVER:END -->
+
 <!-- MATERIAL_LOADING:BEGIN -->
 ## Named material loading screen 26 October 2026
 

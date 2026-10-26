@@ -126,9 +126,9 @@
     {
       "path": "SoftSpace Flex/reports/SoftSpace_Flex_Report.docx",
       "source": "project:documents/Glasses_Friendly_Headphone_Cushions.docx",
-      "source_sha256": "e87712d241ecd93e63aff9d4960ba09d06514ab0adb2a030095d12d4c34aa597",
-      "published_sha256": "e87712d241ecd93e63aff9d4960ba09d06514ab0adb2a030095d12d4c34aa597",
-      "bytes": 5987796,
+      "source_sha256": "912019f6c5e8552c34fbc53379ee5695665e780b4fa045fd4edf464deba01a66",
+      "published_sha256": "912019f6c5e8552c34fbc53379ee5695665e780b4fa045fd4edf464deba01a66",
+      "bytes": 5988862,
       "text_paths_normalized": false
     },
     {
@@ -8700,6 +8700,14 @@
       "text_paths_normalized": false
     },
     {
+      "path": "SoftSpace/engineering/evidence/engineering-v26-results/relieved/block_solver_review.json",
+      "source": "project:engineering-v26-results/relieved/block_solver_review.json",
+      "source_sha256": "9e7173841aec4f7311503cf2afa4707ed99e75bf367a12ea9488390b9363fd9f",
+      "published_sha256": "c68d53afc8611d63ca03bd88dafbec09c3d3dea0afbf377871f6eb73c1844816",
+      "bytes": 1065,
+      "text_paths_normalized": false
+    },
+    {
       "path": "SoftSpace/engineering/evidence/engineering-v26-results/relieved/child_large_RoundedJoint.step",
       "source": "project:engineering-v26-results/relieved/child_large_RoundedJoint.step",
       "source_sha256": "e4597baa52255a6d2e2573f7cb565b1fd5faa90f035046680a674e275d2b6723",
@@ -8754,6 +8762,14 @@
       "published_sha256": "fe1506215a9c773dc6010343e552dc5f81f7cec7519c81a495526b1078c122c9",
       "bytes": 3383,
       "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v26-results/relieved/relief_block.log",
+      "source": "project:engineering-v26-results/relieved/relief_block.log",
+      "source_sha256": "ecbe90b42c895f228a217b52107a902daf248fd7c869914bf23bf5b75929ed7c",
+      "published_sha256": "ba770ab678a952d35b85957998700644233f56707329f7e96a63d549a10bff9c",
+      "bytes": 1206,
+      "text_paths_normalized": true
     },
     {
       "path": "SoftSpace/engineering/evidence/engineering-v26-results/remaining_test_register.csv",
@@ -10934,9 +10950,9 @@
     {
       "path": "SoftSpace/engineering/report-audit/document_status.json",
       "source": "project:documents/document_status.json",
-      "source_sha256": "4f36517687ae8d155025b4d67a8a596948a3d034e7152c4bad7f6a3eb8ed2278",
-      "published_sha256": "775328facd249ee9dcde262ccb6ccc58607b17a18f53719e94e9f9da8cd951ff",
-      "bytes": 2654,
+      "source_sha256": "dd40db5365a73ce373569d8e9ce2ad31303a1e8493fe1e64034b6baaed41a35a",
+      "published_sha256": "e90522698d073cdc12aab6501cb47972ecf0f381734c40b2ee7c1ed0dfff240e",
+      "bytes": 2204,
       "text_paths_normalized": true
     },
     {
@@ -10946,6 +10962,22 @@
       "published_sha256": "fe5eddabf7de21fedebca1e6fd5289a0b310b72f3f5071e7a42e2d88121d907f",
       "bytes": 600,
       "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/report-audit/qa/block_semantic_regression.json",
+      "source": "project:documents/qa/block_semantic_regression.json",
+      "source_sha256": "ea082bb51778e2bdef41851a4d333e8493291e4b6f7312d9c25c7a8176f34fce",
+      "published_sha256": "6a05056e5a32a673b8d3af70cc0203f7f4ec41915bae7bd29a3fb787fc4f4b51",
+      "bytes": 824,
+      "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/report-audit/qa/block_visual_review.json",
+      "source": "project:documents/qa/block_visual_review.json",
+      "source_sha256": "5c78ad83cd9ae59b59d86a37889e3d1f8000cec92cb4533005d5dbaa9991e057",
+      "published_sha256": "35e2a59764f28dc00f5018d7299c6a9af5f040c2873a6e3b255fb5dd43b82a55",
+      "bytes": 596,
+      "text_paths_normalized": false
     },
     {
       "path": "SoftSpace/engineering/report-audit/qa/checks.json",
@@ -10986,6 +11018,14 @@
       "published_sha256": "434b2c937689e499c85b258672673964faa10796d6d3d06b1828df120b58ca4b",
       "bytes": 616,
       "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/report-audit/qa/native_block_layout_checks.json",
+      "source": "project:documents/qa/native_block_layout_checks.json",
+      "source_sha256": "962edce8442f391ae19967df05f6a7b5df35d0c21d24f40be01299bc9db8fa9c",
+      "published_sha256": "7fa223e023c90505c1ce45acecaa4a69172e1232b8e70554447bda6e18ffa88d",
+      "bytes": 159936,
+      "text_paths_normalized": true
     },
     {
       "path": "SoftSpace/engineering/report-audit/qa/native_decision_layout_checks.json",
@@ -11046,9 +11086,9 @@
     {
       "path": "SoftSpace/engineering/report-audit/qa/native_word_status.json",
       "source": "project:documents/qa/native_word_status.json",
-      "source_sha256": "2e5abc56340dd9b10a356e68fb504d7ff4478390b436e9dae6a19222c33f01ba",
-      "published_sha256": "ced059924e76427617c7131d38a9f4fce9943db0d5d781f8e3164d58c05ee0c2",
-      "bytes": 1053,
+      "source_sha256": "711cca2075d15eeccee419560ab1dd4449a00afebb9871927e14746b221ca8b0",
+      "published_sha256": "a82945eedafbc4c6d5ff784f43cdc91367c6685b212cdf9af23b73e1e294fe94",
+      "bytes": 1047,
       "text_paths_normalized": true
     },
     {
@@ -11782,9 +11822,9 @@
     {
       "path": "SoftSpace/engineering/sources/documents/build_documents.py",
       "source": "project:documents/build_documents.py",
-      "source_sha256": "b4889d4c1975533ff61c1e1e78e92a10ff6fbfe99b9f70bd83d737815f76f91b",
-      "published_sha256": "b4889d4c1975533ff61c1e1e78e92a10ff6fbfe99b9f70bd83d737815f76f91b",
-      "bytes": 88205,
+      "source_sha256": "bbc4fe87e05e3eca9d44dbfa988763b3b1586d76879567cfb1c208bc0f2449c2",
+      "published_sha256": "fe93c41f4bb7938dd33dc4a2d5485ff3891a0d7dd92d7907883ce5edb11c8006",
+      "bytes": 88431,
       "text_paths_normalized": false
     },
     {
@@ -11809,6 +11849,14 @@
       "source_sha256": "7e04b3d47ddace09b688dd1eca582309da0a44df0198141d10ee03633d7cdd76",
       "published_sha256": "898ccf1e1db9dad9ae5436ca7c1a8d92aadb434983ae09a04716736690e13657",
       "bytes": 2592,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/sources/documents/check_native_word_layout_block.py",
+      "source": "project:documents/check_native_word_layout_block.py",
+      "source_sha256": "9f87730aed56ce9bd2db09747e4a2dde1810202bc4cbb19cc75962902e0dc1c1",
+      "published_sha256": "1cb947832847c8fa0edf8552b9f4448b8f29b0ac2e55fb08cee0e16534819410",
+      "bytes": 2596,
       "text_paths_normalized": false
     },
     {
@@ -11889,6 +11937,14 @@
       "source_sha256": "27aba2fda5cc67b102d9bf1085507d39f1a35655819a3d6e0337e85b7a634ff8",
       "published_sha256": "27aba2fda5cc67b102d9bf1085507d39f1a35655819a3d6e0337e85b7a634ff8",
       "bytes": 530,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/sources/documents/joint_block_section.py",
+      "source": "project:documents/joint_block_section.py",
+      "source_sha256": "bf26b241dfac3e151c2fabd3771ca065f97ec4ea29fcc55fb9b249c88cd3dde3",
+      "published_sha256": "531298ab3b5734cc8557f703071aa3cd5b2306dbe55564144feb143a08a88121",
+      "bytes": 2311,
       "text_paths_normalized": false
     },
     {
@@ -12102,9 +12158,9 @@
     {
       "path": "SoftSpace/engineering/sources/documents/verify_documents.py",
       "source": "project:documents/verify_documents.py",
-      "source_sha256": "8601ecc09e3c487fb92d19c9ccc8aab63d984a388018813354ba22bbe5528ad3",
-      "published_sha256": "4922f5c5ef15ed92bc1c3538dfcbae4bd7a0ce813f4fae77c35536ec46bcd416",
-      "bytes": 3101,
+      "source_sha256": "70fdff5460efa356da1c03b5290f03ff5ce22f7efd4224a00999ee855b6808c1",
+      "published_sha256": "a887b63b31de628b81a5174bd7633540a0e4a8a7c0b505f49646bccd0bb36b52",
+      "bytes": 3098,
       "text_paths_normalized": false
     },
     {
@@ -13452,6 +13508,14 @@
       "text_paths_normalized": false
     },
     {
+      "path": "SoftSpace/engineering/sources/update_block_reports.py",
+      "source": "project:update_block_reports.py",
+      "source_sha256": "9f1336e1b596d75843db17125d2748e9ff1f280c610e18ca324a99259c2d9e94",
+      "published_sha256": "47f133a0373e611a0078df74ce2706c02789563bec22a47111c8ab55b1fd41b6",
+      "bytes": 2992,
+      "text_paths_normalized": false
+    },
+    {
       "path": "SoftSpace/engineering/sources/update_material_reports.py",
       "source": "project:update_material_reports.py",
       "source_sha256": "1888c2d5d9e9b7b4c80b1a0f581183d8fc22a2f38355181a9ee41cb25c217be4",
@@ -14244,6 +14308,14 @@
       "text_paths_normalized": false
     },
     {
+      "path": "SoftSpace/engineering/sources/v26_relief_block.py",
+      "source": "project:v26_relief_block.py",
+      "source_sha256": "4cbc9f8d0f85fdc8e2eb2e66e36d6a03e9e15c39cde5995d948ec9fa562a4d7b",
+      "published_sha256": "aaf524fe0c367819b8696cb22703833059ce4d5d362cb88f1c30557218d54a08",
+      "bytes": 9622,
+      "text_paths_normalized": false
+    },
+    {
       "path": "SoftSpace/engineering/sources/v26_relief_campaign.py",
       "source": "project:v26_relief_campaign.py",
       "source_sha256": "67400ce9565fcc7aa1a5b57570c784b3e08414d6f231a5400c2ff3b26dc27200",
@@ -14558,9 +14630,9 @@
     {
       "path": "SoftSpace/reports/SoftSpace_Report.docx",
       "source": "project:documents/Ear_Defender_Project.docx",
-      "source_sha256": "651c63f999e3c2a9621c9c6b6f3ab8ca7125c9eab58e413fe42899d1be6f9284",
-      "published_sha256": "651c63f999e3c2a9621c9c6b6f3ab8ca7125c9eab58e413fe42899d1be6f9284",
-      "bytes": 10497685,
+      "source_sha256": "7b3e1dabaa2da8e528382fee4ec476cf1a861f79c8a0aebd732bef3bf8505b0a",
+      "published_sha256": "7b3e1dabaa2da8e528382fee4ec476cf1a861f79c8a0aebd732bef3bf8505b0a",
+      "bytes": 10498751,
       "text_paths_normalized": false
     }
   ],
@@ -14574,6 +14646,6 @@
   },
   "latest_update": {
     "date": "2026-10-26",
-    "scope": "Eight named foam loading curves, 1152 declared reference scenarios, data-domain exclusions, numerical controls and both reports. Partial loading-input improvement; no full product, material or Sony fit validation. Manufacturer PDFs retained only locally."
+    "scope": "Bounded body-block preconditioner pilot failed second actual linear accuracy gate. No accepted field or strength pass. Both reports updated and native layouts checked."
   }
 }
