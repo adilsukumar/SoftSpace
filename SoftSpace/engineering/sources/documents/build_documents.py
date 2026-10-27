@@ -227,8 +227,8 @@ def setup(title,subtitle):
  d.styles['Title'].font.size=Pt(28);d.styles['Title'].font.bold=True;d.styles['Heading 1'].font.size=Pt(19);d.styles['Heading 1'].paragraph_format.space_after=Pt(10)
  d.styles['Heading 2'].font.size=Pt(13);d.styles['Caption'].font.size=Pt(9);d.styles['Caption'].font.italic=True
  d.core_properties.title=title;d.core_properties.subject=subtitle;d.core_properties.author='SoftSpace Project';d.core_properties.keywords='living project document simulation evidence V19'
- hp=s.header.paragraphs[0];hp.text='SOFTSPACE    |    26 October 2026';hp.runs[0].font.size=Pt(8)
- fp=s.footer.paragraphs[0];fp.alignment=WD_ALIGN_PARAGRAPH.RIGHT;r=fp.add_run('Concept under development  |  ');r.font.size=Pt(8)
+ hp=s.header.paragraphs[0];hp.text='SOFTSPACE    |    27 October 2026';hp.runs[0].font.size=Pt(8)
+ fp=s.footer.paragraphs[0];fp.alignment=WD_ALIGN_PARAGRAPH.RIGHT;r=fp.add_run('Closed research archive  |  ');r.font.size=Pt(8)
  fld=OxmlElement('w:fldSimple');fld.set(qn('w:instr'),'PAGE');fp._p.append(fld)
  d.add_paragraph(title,'Title');d.add_paragraph(subtitle,'Subtitle');return d
 def sources(doc,ids):
@@ -256,7 +256,7 @@ REV='Named foam loading inputs with open product validation requirements'
 
 def main_doc():
  d=setup('SoftSpace','Headphones for sound sensitive autistic people')
- para(d,'Current update on 26 October 2026: A new reference screen uses published loading points for eight named foam grades. Of 1152 cases, 559 are solved within the sourced range and 593 remain outside it. Some pairings lower calculated glasses strip pressure and others increase it. This improves material input traceability; full software validation and Sony fit remain open. Read the final named material pages.')
+ para(d,'Project closed on 27 October 2026: Both ideas are retained as research projects. Latest V27 CAD and calculations are archived, including failures. No physical testing or ANC system was completed. Read the final closure pages; earlier development plans are historical.')
  para(d,'We are developing a low-cost passive over-ear defender for India. The aim is to make loud surroundings easier to manage while keeping the device comfortable, easy to remove and simple to use. Autistic users are our first priority; other sound-sensitive people may also find the idea useful.')
  if (I/'V19_hero.png').exists():picture(d,'V19_hero','V19 child large and adult small final local STEP prototype assemblies. Physical validation remains open.',5.7)
  elif (I/'V18_hero.png').exists():picture(d,'V18_hero','V18 passive hinge child large and adult small local STEP candidates. Physical validation remains open.',5.7)
@@ -442,11 +442,13 @@ def main_doc():
  add_material_screen(d,P,new_page,para,table,picture)
  from joint_block_section import add_joint_block_review
  add_joint_block_review(d,P,new_page,para,table,picture)
+ from project_closure_section import add_project_closure
+ add_project_closure(d,P,new_page,para,table,picture)
  return save(d,'Ear_Defender_Project.docx')
 
 def glasses_doc():
  d=setup('SoftSpace Flex','Affordable replacement pads for compatible headphones in India')
- para(d,'Current update on 26 October 2026: A new reference screen uses published loading points for eight named foam grades. Of 1152 cases, 559 are solved within the sourced range and 593 remain outside it. Some pairings lower calculated glasses strip pressure and others increase it. This improves material input traceability; full software validation and Sony fit remain open. Read the final named material pages.')
+ para(d,'Project closed on 27 October 2026: Both ideas are retained as research projects. Latest V27 CAD and calculations are archived, including failures. No physical testing or ANC system was completed. Read the final closure pages; earlier development plans are historical.')
  para(d,'We want a replacement cushion that presses less on glasses arms while keeping a good seal. The user keeps their headphone and replaces its removable pads. We are developing the contact idea together with our passive ear defender, but this is a separate product route.')
  picture(d,'V20_flex_CAD','V20 uniform control and two soft-zone body candidates. Published aftermarket outside size; assumed opening and cover. The mounting skirt is not yet dimensioned or fit-verified.',6.55)
  label(d,'Current conclusion','The idea is worth investigating. We have not proved less pain, unchanged music, no sound leakage or universal compatibility. The pad needs tests on each supported headphone model.')
@@ -578,6 +580,8 @@ def glasses_doc():
  add_material_screen(d,P,new_page,para,table,picture)
  from joint_block_section import add_joint_block_review
  add_joint_block_review(d,P,new_page,para,table,picture)
+ from project_closure_section import add_project_closure
+ add_project_closure(d,P,new_page,para,table,picture)
  return save(d,'Glasses_Friendly_Headphone_Cushions.docx')
 
 if __name__=='__main__':

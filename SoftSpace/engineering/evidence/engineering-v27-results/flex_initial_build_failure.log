@@ -1,0 +1,11 @@
+{'date': '2026-10-26', 'cases': 840, 'paired': 799, 'unpaired': 41, 'pressure_increase': 121, 'pressure_decrease': 678, 'same': 0, 'max_force_error_N': 5.311306949806749e-13, 'source_material_hash': 'ae0293e15324653121e11429cbcc8bc09b8875c9a2950647437cbc7b71be3093', 'scope': 'Typical sourced 12.7mm loading law, uncovered independent columns; broad alignment sensitivity, no acoustic or comfort prediction. Force per face is an assumption, not a wear recommendation.', 'zones': {'18': {'paired': 400, 'increases': 121, 'decreases': 279, 'min_change_percent': -35.07224211649632, 'max_change_percent': 6.193796905393589}, '32': {'paired': 399, 'increases': 0, 'decreases': 399, 'min_change_percent': -34.486935032332454, 'max_change_percent': -9.227476189730211}}}
+Traceback (most recent call last):
+  File "${WORKSPACE}\v27_flex_reference.py", line 40, in <module>
+    foam=ring(40,50,25,35,0,T);box=(3,occ.addBox(0,15-zh/2,-1,50,zh,T+2));zone,_=occ.intersect(occ.copy([foam]),[box]);assert len(zone)==1;main,_=occ.cut([foam],occ.copy(zone));assert len(main)==1
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "${WORKSPACE}\v27_flex_reference.py", line 39, in ring
+    outer=(2,occ.addDisk(0,0,z,a,b));inner=(2,occ.addDisk(0,0,z,c,d));faces,_=occ.cut([outer],[inner]);out=occ.extrude(faces,0,0,t);return [v for v in out if v[0]==3][0]
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "${WORKSPACE}\solver-libraries\gmsh.py", line 7237, in addDisk
+    raise Exception(logger.getLastError())
+Exception: Major radius rx should be larger than minor radius ry

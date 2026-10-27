@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-26",
+  "file": "${WORKSPACE}\\engineering-v27-results\\SoftSpace_Flex_V27_zone18.step",
+  "sha256": "d41c06ad081f7ad4909c1b11058d782747f40b94bb747026a1aa297e628b3ea5",
+  "solid_count": 3,
+  "parts": {
+    "CF42M_main": [
+      3,
+      1
+    ],
+    "CF40M_zone": [
+      3,
+      3
+    ],
+    "continuous_cover_reference": [
+      3,
+      4
+    ]
+  },
+  "part_bounds_mm": {
+    "CF42M_main": [
+      -50.000005,
+      -40.000005,
+      -5.600000000017254e-06,
+      50.000005,
+      40.000005,
+      12.700005599999999
+    ],
+    "CF40M_zone": [
+      9.79999499999998,
+      5.999995,
+      -5.600000000017254e-06,
+      49.43430483321297,
+      24.000005000000016,
+      12.700005599999999
+    ],
+    "continuous_cover_reference": [
+      -50.350005,
+      -40.350005,
+      -5.000000000360823e-06,
+      50.350005,
+      40.350005,
+      13.050004999999999
+    ]
+  },
+  "part_volumes_mm3": {
+    "CF42M_main": 40415.96000993303,
+    "CF40M_zone": 4469.545028231149,
+    "continuous_cover_reference": 3389.3728024621487
+  },
+  "foam_thickness_mm": 12.7,
+  "zone_height_mm": 18,
+  "source_material_hash": "ae0293e15324653121e11429cbcc8bc09b8875c9a2950647437cbc7b71be3093",
+  "mount": "Reuse a fitting donor WH-CH720N pad skirt; preserve its housing attachment. Donor interface is not dimensioned or included in STEP.",
+  "scope": "Bench foam and cover reference, 80x100 assumed face and 50x70 opening; not a verified Sony replacement. Sewing and trim-to-donor adaptation required. Closed nominal front membrane is not proof of acoustic sealing."
+}

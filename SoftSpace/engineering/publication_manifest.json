@@ -4,6 +4,22 @@
   "scope": "Curated research snapshot. Installed libraries, dependency wheels, temporary previews, personal credentials, duplicate ZIPs and old Word editions are excluded. Historical CAD names and failures are retained. Text machine paths become ${WORKSPACE} or ${USER_HOME}; numerical arrays and CAD remain byte-identical. Full historical CAD and earlier raw arrays are preserved in the separately verified complete research release bundle; normal Git retains current replay data and historical result summaries.",
   "records": [
     {
+      "path": "FINAL_SUMMARY.md",
+      "source": "project:project-closure-2026-10-27/README.md",
+      "source_sha256": "9f94484e869efe406d16e080a3f515c9a97e3e0ff6e370fe2846d8681d09b012",
+      "published_sha256": "c5d4a6fff4bbef20512aa4853d46041efb4d3ec46f96aeb84809d89c76574b16",
+      "bytes": 3865,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "PROJECT_STATUS.json",
+      "source": "project:project-closure-2026-10-27/final_status.json",
+      "source_sha256": "5f5423ffa8248ddfc9dec7956d5143628623429dc38532b94c336211a6336e78",
+      "published_sha256": "f1b873caf1b09279d76f00b129618378b1b0b82e8acb5d56761313709860e9bf",
+      "bytes": 2526,
+      "text_paths_normalized": false
+    },
+    {
       "path": "SoftSpace Flex/CAD/V20-reference/SoftSpace_Flex_V20_broad_soft_zone.step",
       "source": "project:engineering-v20-results/CAD/SoftSpace_Flex_V20_broad_soft_zone.step",
       "source_sha256": "66a788b678e1ddd8649818e58f08448d5c645e578f2588618280a758e68ef5d2",
@@ -25,6 +41,22 @@
       "source_sha256": "fefe29af6e30960164deb39c2bdcc9e5f263b70311cae4f33ffe81aee5e31248",
       "published_sha256": "fefe29af6e30960164deb39c2bdcc9e5f263b70311cae4f33ffe81aee5e31248",
       "bytes": 29303,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace Flex/CAD/V27-reference/SoftSpace_Flex_V27_zone18.step",
+      "source": "project:engineering-v27-results/SoftSpace_Flex_V27_zone18.step",
+      "source_sha256": "d41c06ad081f7ad4909c1b11058d782747f40b94bb747026a1aa297e628b3ea5",
+      "published_sha256": "d41c06ad081f7ad4909c1b11058d782747f40b94bb747026a1aa297e628b3ea5",
+      "bytes": 133330,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace Flex/CAD/V27-reference/SoftSpace_Flex_V27_zone32.step",
+      "source": "project:engineering-v27-results/SoftSpace_Flex_V27_zone32.step",
+      "source_sha256": "5ec32e47a1fc8d7010eab8d699f3eac0418eab7c868d6ebaf7f304af4ea4e384",
+      "published_sha256": "5ec32e47a1fc8d7010eab8d699f3eac0418eab7c868d6ebaf7f304af4ea4e384",
+      "bytes": 141201,
       "text_paths_normalized": false
     },
     {
@@ -116,6 +148,14 @@
       "text_paths_normalized": false
     },
     {
+      "path": "SoftSpace Flex/media/V27_alignment_sensitivity.png",
+      "source": "project:documents/images/V27_alignment_sensitivity.png",
+      "source_sha256": "48d552543d375732f0c94a57e558d1693f6a1eb40d2d69b004fcb824b2545dca",
+      "published_sha256": "48d552543d375732f0c94a57e558d1693f6a1eb40d2d69b004fcb824b2545dca",
+      "bytes": 84944,
+      "text_paths_normalized": false
+    },
+    {
       "path": "SoftSpace Flex/media/generic_cushion.png",
       "source": "project:documents/images/pad.png",
       "source_sha256": "93eac34a56dfb2675dfacc1e9343d85834250f9eeb7f8304d4c0c44680e393c0",
@@ -126,9 +166,9 @@
     {
       "path": "SoftSpace Flex/reports/SoftSpace_Flex_Report.docx",
       "source": "project:documents/Glasses_Friendly_Headphone_Cushions.docx",
-      "source_sha256": "912019f6c5e8552c34fbc53379ee5695665e780b4fa045fd4edf464deba01a66",
-      "published_sha256": "912019f6c5e8552c34fbc53379ee5695665e780b4fa045fd4edf464deba01a66",
-      "bytes": 5988862,
+      "source_sha256": "50574958df1b0e339436b9fef5e0daf53114a597fb621a0f04617c0357480062",
+      "published_sha256": "50574958df1b0e339436b9fef5e0daf53114a597fb621a0f04617c0357480062",
+      "bytes": 6231917,
       "text_paths_normalized": false
     },
     {
@@ -417,6 +457,54 @@
       "source_sha256": "41146ddfc5f18b6ac8da2cef36110cf75e723ef9458244541d780b3ec270e109",
       "published_sha256": "41146ddfc5f18b6ac8da2cef36110cf75e723ef9458244541d780b3ec270e109",
       "bytes": 1640540,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/CAD/V27/SoftSpace_V27_adult_large.step",
+      "source": "project:engineering-v27-results/SoftSpace_V27_adult_large.step",
+      "source_sha256": "daa9a05220f1ead63f370d31ebd3c4a3b6469d1c5cef210eeb316c246c4fddef",
+      "published_sha256": "daa9a05220f1ead63f370d31ebd3c4a3b6469d1c5cef210eeb316c246c4fddef",
+      "bytes": 1883119,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/CAD/V27/SoftSpace_V27_adult_medium.step",
+      "source": "project:engineering-v27-results/SoftSpace_V27_adult_medium.step",
+      "source_sha256": "afc83246bf494d51d65d16869f4fc236b9c94ca39d760a63e161c563b7a0ea91",
+      "published_sha256": "afc83246bf494d51d65d16869f4fc236b9c94ca39d760a63e161c563b7a0ea91",
+      "bytes": 1885132,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/CAD/V27/SoftSpace_V27_adult_small.step",
+      "source": "project:engineering-v27-results/SoftSpace_V27_adult_small.step",
+      "source_sha256": "632f6b358fd39df029569a00aff0291a1d520068757bab3a05a2bced912201af",
+      "published_sha256": "632f6b358fd39df029569a00aff0291a1d520068757bab3a05a2bced912201af",
+      "bytes": 1887625,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/CAD/V27/SoftSpace_V27_child_large.step",
+      "source": "project:engineering-v27-results/SoftSpace_V27_child_large.step",
+      "source_sha256": "1b487b9bf95aa01ecc83d52fc7b398b56dc85755bd4f7d70f30789a39b1a90df",
+      "published_sha256": "1b487b9bf95aa01ecc83d52fc7b398b56dc85755bd4f7d70f30789a39b1a90df",
+      "bytes": 1903557,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/CAD/V27/SoftSpace_V27_child_medium.step",
+      "source": "project:engineering-v27-results/SoftSpace_V27_child_medium.step",
+      "source_sha256": "b73de3d98eb1dd503223166d21c27113443c3a57188c0b63f945ad81983fee12",
+      "published_sha256": "b73de3d98eb1dd503223166d21c27113443c3a57188c0b63f945ad81983fee12",
+      "bytes": 1902462,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/CAD/V27/SoftSpace_V27_child_small.step",
+      "source": "project:engineering-v27-results/SoftSpace_V27_child_small.step",
+      "source_sha256": "e23a417f4a32843ced464e7b3e685a09780eee7d2e355dd6a383409fc0d4c57a",
+      "published_sha256": "e23a417f4a32843ced464e7b3e685a09780eee7d2e355dd6a383409fc0d4c57a",
+      "bytes": 1895560,
       "text_paths_normalized": false
     },
     {
@@ -8836,6 +8924,350 @@
       "text_paths_normalized": false
     },
     {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/README.md",
+      "source": "project:engineering-v27-results/README.md",
+      "source_sha256": "2f9f0a4adca84ebe7b0fb9ee3ee408ca41f9913099b313bdf1a1d04893791640",
+      "published_sha256": "b46d8348cda78da7f1bd9bd159086eb80ed05527e452ebae27f4f85701e1d36b",
+      "bytes": 1135,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/SoftSpace_Flex_V27_zone18.step",
+      "source": "project:engineering-v27-results/SoftSpace_Flex_V27_zone18.step",
+      "source_sha256": "d41c06ad081f7ad4909c1b11058d782747f40b94bb747026a1aa297e628b3ea5",
+      "published_sha256": "d41c06ad081f7ad4909c1b11058d782747f40b94bb747026a1aa297e628b3ea5",
+      "bytes": 133330,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/SoftSpace_Flex_V27_zone32.step",
+      "source": "project:engineering-v27-results/SoftSpace_Flex_V27_zone32.step",
+      "source_sha256": "5ec32e47a1fc8d7010eab8d699f3eac0418eab7c868d6ebaf7f304af4ea4e384",
+      "published_sha256": "5ec32e47a1fc8d7010eab8d699f3eac0418eab7c868d6ebaf7f304af4ea4e384",
+      "bytes": 141201,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/SoftSpace_V27_adult_large.step",
+      "source": "project:engineering-v27-results/SoftSpace_V27_adult_large.step",
+      "source_sha256": "daa9a05220f1ead63f370d31ebd3c4a3b6469d1c5cef210eeb316c246c4fddef",
+      "published_sha256": "daa9a05220f1ead63f370d31ebd3c4a3b6469d1c5cef210eeb316c246c4fddef",
+      "bytes": 1883119,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/SoftSpace_V27_adult_medium.step",
+      "source": "project:engineering-v27-results/SoftSpace_V27_adult_medium.step",
+      "source_sha256": "afc83246bf494d51d65d16869f4fc236b9c94ca39d760a63e161c563b7a0ea91",
+      "published_sha256": "afc83246bf494d51d65d16869f4fc236b9c94ca39d760a63e161c563b7a0ea91",
+      "bytes": 1885132,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/SoftSpace_V27_adult_small.step",
+      "source": "project:engineering-v27-results/SoftSpace_V27_adult_small.step",
+      "source_sha256": "632f6b358fd39df029569a00aff0291a1d520068757bab3a05a2bced912201af",
+      "published_sha256": "632f6b358fd39df029569a00aff0291a1d520068757bab3a05a2bced912201af",
+      "bytes": 1887625,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/SoftSpace_V27_child_large.step",
+      "source": "project:engineering-v27-results/SoftSpace_V27_child_large.step",
+      "source_sha256": "1b487b9bf95aa01ecc83d52fc7b398b56dc85755bd4f7d70f30789a39b1a90df",
+      "published_sha256": "1b487b9bf95aa01ecc83d52fc7b398b56dc85755bd4f7d70f30789a39b1a90df",
+      "bytes": 1903557,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/SoftSpace_V27_child_medium.step",
+      "source": "project:engineering-v27-results/SoftSpace_V27_child_medium.step",
+      "source_sha256": "b73de3d98eb1dd503223166d21c27113443c3a57188c0b63f945ad81983fee12",
+      "published_sha256": "b73de3d98eb1dd503223166d21c27113443c3a57188c0b63f945ad81983fee12",
+      "bytes": 1902462,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/SoftSpace_V27_child_small.step",
+      "source": "project:engineering-v27-results/SoftSpace_V27_child_small.step",
+      "source_sha256": "e23a417f4a32843ced464e7b3e685a09780eee7d2e355dd6a383409fc0d4c57a",
+      "published_sha256": "e23a417f4a32843ced464e7b3e685a09780eee7d2e355dd6a383409fc0d4c57a",
+      "bytes": 1895560,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/adult_large_cad_report.json",
+      "source": "project:engineering-v27-results/adult_large_cad_report.json",
+      "source_sha256": "ddc387f5d7e1eb12d6d43bd8c81cff34764cf1503ba29a121f01034e238cf6d6",
+      "published_sha256": "6374feae09a8e1499e44bffcfd0ac6995e438e2d67a19442316e6ad89e59ce62",
+      "bytes": 15270,
+      "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/adult_large_motion.log",
+      "source": "project:engineering-v27-results/adult_large_motion.log",
+      "source_sha256": "f8844b36e881dc12de9e57c82ef862fe83c8aa125d20d0b6faec35f0623ace03",
+      "published_sha256": "c7540d5a406b1efd1447a4cfc10a6fca7ffa63cf4cc4b64f6cd1e48956a1bbd1",
+      "bytes": 2526,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/adult_large_motion_audit.json",
+      "source": "project:engineering-v27-results/adult_large_motion_audit.json",
+      "source_sha256": "6e145ccb608722ee1863711ab3a6cea2750f0adea614a57d8dc1e58bdbf17031",
+      "published_sha256": "46b847b47ad084bf851d794ed652348a065dd18ed388a74f2d3342edc9afa5c2",
+      "bytes": 21709,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/adult_medium_cad_report.json",
+      "source": "project:engineering-v27-results/adult_medium_cad_report.json",
+      "source_sha256": "bb219b11606a14867a3e34aae4ef0fb1f347751a46fe9f60a3a494815f58deee",
+      "published_sha256": "c944c7b30b1a92aca62d7d5b8c34ba5bb589e1ec63fdc1af8ad9f6b5f7042c66",
+      "bytes": 15283,
+      "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/adult_medium_motion.log",
+      "source": "project:engineering-v27-results/adult_medium_motion.log",
+      "source_sha256": "f8844b36e881dc12de9e57c82ef862fe83c8aa125d20d0b6faec35f0623ace03",
+      "published_sha256": "c7540d5a406b1efd1447a4cfc10a6fca7ffa63cf4cc4b64f6cd1e48956a1bbd1",
+      "bytes": 2526,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/adult_medium_motion_audit.json",
+      "source": "project:engineering-v27-results/adult_medium_motion_audit.json",
+      "source_sha256": "70d1ca24e102f2642d46ddcf6885804e97a9c7df3768a6880ad41db24919aa5c",
+      "published_sha256": "0023a314990437d01e9fdcd1a97d28dccfbce0bf4cecc9c4821cae08404bba01",
+      "bytes": 21719,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/adult_small_cad_report.json",
+      "source": "project:engineering-v27-results/adult_small_cad_report.json",
+      "source_sha256": "3f02a7d743d51c7bcaef720f650b136e4c2395f27381a756ed1b6f755b546108",
+      "published_sha256": "6dd27f5ddedf3f692ef509ab38b262ac4a985b54839390a99056afa7fe831ac4",
+      "bytes": 15261,
+      "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/adult_small_motion.log",
+      "source": "project:engineering-v27-results/adult_small_motion.log",
+      "source_sha256": "2c3ec4aec9c27d30178653ebb553fde513c26e877ae2fc96c81fdb80dc085f7c",
+      "published_sha256": "6d844f855bff74715fb0b7f1b5887128d671898f56e68601c4e3648af8176bfc",
+      "bytes": 2313,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/adult_small_motion_audit.json",
+      "source": "project:engineering-v27-results/adult_small_motion_audit.json",
+      "source_sha256": "ae327a6604d4a84daf7b89de8436becf4b515681ac1df5ad08fe935ca5bfce65",
+      "published_sha256": "fa4d0acae3d7353d9900fdc8f9f6f080c5e9e6d86bbb8bb5aea5d1fdb0abb505",
+      "bytes": 20960,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/child_large_cad_report.json",
+      "source": "project:engineering-v27-results/child_large_cad_report.json",
+      "source_sha256": "f789b614b2f89dd331a8c4fdd59a9e4ddd4d066ecdae9018ee3e2a1e5a25734f",
+      "published_sha256": "60a7b5f90e97b5106126b2c27a0ec34e3b1553f50ab0fcc31c9d0c6354373df3",
+      "bytes": 15276,
+      "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/child_large_motion.log",
+      "source": "project:engineering-v27-results/child_large_motion.log",
+      "source_sha256": "895fa525e42d5230983bfdf4945de064372ae6d9d73d726481d8afa01e21eff7",
+      "published_sha256": "6f7909fda8432f8612cbdc6e6fb6f453ef4996ff09193d61c44ead7e7fcb0501",
+      "bytes": 1896,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/child_large_motion_audit.json",
+      "source": "project:engineering-v27-results/child_large_motion_audit.json",
+      "source_sha256": "2316bdea7947c0a3aef5c814d22eef716134a160f61bd61a51a4210bae62588a",
+      "published_sha256": "f50ba690598db3831e01e5dd73768165a4cee786c99c08bd596756f9ab4c1aeb",
+      "bytes": 18903,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/child_medium_cad_report.json",
+      "source": "project:engineering-v27-results/child_medium_cad_report.json",
+      "source_sha256": "a5e7c6e5148e463adc499820b58dbbaf8324ed868d6219a7322d13176ae7eaa5",
+      "published_sha256": "9015b7080d4358c3a55d6358b9520021a314ec7de63b5415a884435e640c130f",
+      "bytes": 15260,
+      "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/child_medium_motion.log",
+      "source": "project:engineering-v27-results/child_medium_motion.log",
+      "source_sha256": "8d77dbd4df59ae0b7f1c3a2dc661f00b2bf2754bc28119a617f754078751f443",
+      "published_sha256": "ed3db8b160b5e4f781c627f8dc82f26fa79306714ff7bd3d75f14de0a80f591d",
+      "bytes": 2103,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/child_medium_motion_audit.json",
+      "source": "project:engineering-v27-results/child_medium_motion_audit.json",
+      "source_sha256": "060f69d15a51174e2b6c0bbe674ff676479063369d5f80360b085e78dad3f505",
+      "published_sha256": "04cf63f323f1fadac36666da67b9b1c69f81ea6ff6523b9bdcd61c630d306049",
+      "bytes": 19900,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/child_small_cad_report.json",
+      "source": "project:engineering-v27-results/child_small_cad_report.json",
+      "source_sha256": "77f2b880d8e54d61c967b9ddb8f19ed2430abc40201ace6945aca1afa1d10691",
+      "published_sha256": "55977420d6ef71e6c2e535b64d9e33803ef73c9823f53dcfd45b860d1a0d1698",
+      "bytes": 15228,
+      "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/child_small_motion.log",
+      "source": "project:engineering-v27-results/child_small_motion.log",
+      "source_sha256": "2c3ec4aec9c27d30178653ebb553fde513c26e877ae2fc96c81fdb80dc085f7c",
+      "published_sha256": "6d844f855bff74715fb0b7f1b5887128d671898f56e68601c4e3648af8176bfc",
+      "bytes": 2313,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/child_small_motion_audit.json",
+      "source": "project:engineering-v27-results/child_small_motion_audit.json",
+      "source_sha256": "66a952d755e073faf621fd080b9325af7b0cff180b012439e23120fef7b02b42",
+      "published_sha256": "eef94448c463a0a2186e0f947f6abcb8294254cfe624d9e82f4d1a57bc17b2a0",
+      "bytes": 20848,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/execution-logs/v27_build_full.log",
+      "source": "project:v27_build_full.log",
+      "source_sha256": "1207c28f272103d497440a93af068597b56165da9d9979a63dbd3e75642e7d20",
+      "published_sha256": "0f311d51604df5d8691ac95c1c895ee03f15d2cc0d88f25d3fe9442198e470f2",
+      "bytes": 3106,
+      "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/execution-logs/v27_figures.log",
+      "source": "project:v27_figures.log",
+      "source_sha256": "bd450035486330025a5fca7929c8837f45975ba9cc8e86c1fe03651615649bcd",
+      "published_sha256": "f87b955236a6e95e50223cf97803c72a7fdee4cea81a8d128641f1892141f2fb",
+      "bytes": 59,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/execution-logs/v27_flex_reference.log",
+      "source": "project:v27_flex_reference.log",
+      "source_sha256": "d058fe4eb602ba195ba2c5abdf0b5f4dc6f5697c4cd4bc62a0df67340e4c7a4b",
+      "published_sha256": "c9933b801ec118d39a793af493ea8c38b1cb391bdc57d9787379529c32ddbd71",
+      "bytes": 1776,
+      "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/flex_alignment_cases.json",
+      "source": "project:engineering-v27-results/flex_alignment_cases.json",
+      "source_sha256": "d5fa1921e446143fd6551868f1d1cac80cf76c27e2eb4f82b4f2dfcc55c11356",
+      "published_sha256": "a66e093828c7d027b73e2614256e75b39747a5fb1010c3673431f5c4c9b85cbf",
+      "bytes": 580170,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/flex_alignment_summary.json",
+      "source": "project:engineering-v27-results/flex_alignment_summary.json",
+      "source_sha256": "9944f9516c200154d99029b00d0f494afc93c812502637716d9377fc1cdb3948",
+      "published_sha256": "0705314a42d24b88961a49598b0bf3bbaf0c9f07f4a953f4a1dc1fb10b702001",
+      "bytes": 872,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/flex_geometry_audit.json",
+      "source": "project:engineering-v27-results/flex_geometry_audit.json",
+      "source_sha256": "0fb335cceea00f9f59270a6882e507b38c09b86c73f2a7fafaa6d25e8fea1ec9",
+      "published_sha256": "a6f9510c95772e1948378165a2b505b1fd75be61e144232b194158e1a8eecfab",
+      "bytes": 2730,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/flex_initial_build_failure.log",
+      "source": "project:engineering-v27-results/flex_initial_build_failure.log",
+      "source_sha256": "c24d008e23b718077107ef0f6cd7a4455e8fabf6a885fee1884e5cfc549f9af5",
+      "published_sha256": "20b95055cc60506ea088964ce017a1ca4fe887081221d6d4476e80bf6694d352",
+      "bytes": 1540,
+      "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/flex_zone18_cad_report.json",
+      "source": "project:engineering-v27-results/flex_zone18_cad_report.json",
+      "source_sha256": "47efd818e8d43eb5e42c6e8945deb4a1f40708028dc654d0815ddb34ac83cb4f",
+      "published_sha256": "f5f01fb2be45ff01f9450cedc93bcbaeafb616926150b83a8beb47bca7352d79",
+      "bytes": 1570,
+      "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/flex_zone32_cad_report.json",
+      "source": "project:engineering-v27-results/flex_zone32_cad_report.json",
+      "source_sha256": "a27104c33550da94ea253eaf997b5214e278a1a80934e8f98b53c186a1b519f1",
+      "published_sha256": "ca7de3f2e1685d709039a5d6d609cc79f8f42907605cf072d3037aefc0aeedcf",
+      "bytes": 1552,
+      "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/solver-trials/child_large_h1.9_outward_inexact_checkpoint.npz",
+      "source": "project:engineering-v26-results/relieved/child_large_h1.9_outward_inexact_checkpoint.npz",
+      "source_sha256": "1bb4f1971915387ce9a09a3614244581036aa0200bcc6f715430b32158fe8c2e",
+      "published_sha256": "1bb4f1971915387ce9a09a3614244581036aa0200bcc6f715430b32158fe8c2e",
+      "bytes": 997265,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/solver-trials/child_large_h1.9_outward_near_equilibrium_diagnostic.json",
+      "source": "project:engineering-v26-results/relieved/child_large_h1.9_outward_near_equilibrium_diagnostic.json",
+      "source_sha256": "f8b98f903e3cd6579add6958fb0115374615da1ab04afeb56a9115df64e1b9df",
+      "published_sha256": "b673e15cea317053e4da4bd4e3e96cbf8fb8ba7ebf9377b2d4898aae88cd9787",
+      "bytes": 3687,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/solver-trials/child_large_h1.9_outward_near_equilibrium_diagnostic.npz",
+      "source": "project:engineering-v26-results/relieved/child_large_h1.9_outward_near_equilibrium_diagnostic.npz",
+      "source_sha256": "ac5c2ef2109b8d3d1d23236d8b062a65e0aac8ba66ea0ff44fa9a2cb4d19057c",
+      "published_sha256": "ac5c2ef2109b8d3d1d23236d8b062a65e0aac8ba66ea0ff44fa9a2cb4d19057c",
+      "bytes": 3181432,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/solver-trials/coarse_newton.log",
+      "source": "project:engineering-v26-results/relieved/coarse_newton.log",
+      "source_sha256": "44e5a7a9f8b7a80357a6b892d7687fca4ba1cb6ae55e2f35ee51061b0dfc4ea0",
+      "published_sha256": "c4500a4bb5614b69d4c99b15757cc8020468672938893c1f1ae3802199975866",
+      "bytes": 1144,
+      "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/solver-trials/inexact_newton.log",
+      "source": "project:engineering-v26-results/relieved/inexact_newton.log",
+      "source_sha256": "e3ca3442c0bfbaa1fa44a79d70821ecd5c35ceb515375f916e419fa245485e94",
+      "published_sha256": "916a2c4b9dc14a032f5029d5686e12b34a7abbb5cd273111741f3374c95ee36b",
+      "bytes": 2672,
+      "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/solver-trials/near_equilibrium_diagnostic.log",
+      "source": "project:engineering-v26-results/relieved/near_equilibrium_diagnostic.log",
+      "source_sha256": "6859ededdfb9082b0274ce2fe6ae8081234c8a573b362ca7239d90fd0db8ef47",
+      "published_sha256": "6f83572c6705702e5c2e2a4661419e2b220840776a76fb746cd32a62c44b4542",
+      "bytes": 466,
+      "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/engineering-v27-results/solver-trials/polish_newton.log",
+      "source": "project:engineering-v26-results/relieved/polish_newton.log",
+      "source_sha256": "567374c79950a5f8d3ce37ef5986b1ad7e20f96e5a60d80a16b7c881e02a95b7",
+      "published_sha256": "987a0d8f48db5e06581e55760defb4b2cafbca5baf2ad7ef09fe4d10c14eebc6",
+      "bytes": 1113,
+      "text_paths_normalized": true
+    },
+    {
       "path": "SoftSpace/engineering/evidence/engineering-v3-results/band_cases.csv",
       "source": "project:engineering-v3-results/band_cases.csv",
       "source_sha256": "abdd842ed7937f4c196f068d6ec58fb1ccc9ec4be9efe21d35850b5d54b36e93",
@@ -10116,6 +10548,30 @@
       "text_paths_normalized": false
     },
     {
+      "path": "SoftSpace/engineering/evidence/project-closure-2026-10-27/README.md",
+      "source": "project:project-closure-2026-10-27/README.md",
+      "source_sha256": "9f94484e869efe406d16e080a3f515c9a97e3e0ff6e370fe2846d8681d09b012",
+      "published_sha256": "c5d4a6fff4bbef20512aa4853d46041efb4d3ec46f96aeb84809d89c76574b16",
+      "bytes": 3865,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/project-closure-2026-10-27/execution_note.md",
+      "source": "project:project-closure-2026-10-27/execution_note.md",
+      "source_sha256": "b9f8a18399a133c7c76a6d4da08f6bbbff81892cd0d60ffa018a551d91189fc2",
+      "published_sha256": "6623914881fc37b0b6e6a7e51f23ea57382effd61a44bfa3092710daa7e71758",
+      "bytes": 375,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/evidence/project-closure-2026-10-27/final_status.json",
+      "source": "project:project-closure-2026-10-27/final_status.json",
+      "source_sha256": "5f5423ffa8248ddfc9dec7956d5143628623429dc38532b94c336211a6336e78",
+      "published_sha256": "f1b873caf1b09279d76f00b129618378b1b0b82e8acb5d56761313709860e9bf",
+      "bytes": 2526,
+      "text_paths_normalized": false
+    },
+    {
       "path": "SoftSpace/engineering/evidence/screening-results/assumptions.json",
       "source": "project:screening-results/assumptions.json",
       "source_sha256": "6ba5f4569fc6d73c30f2555b28999e27220874a04983e58f95d1a07e83fa6a43",
@@ -10604,6 +11060,22 @@
       "text_paths_normalized": false
     },
     {
+      "path": "SoftSpace/engineering/figures/V27_alignment_sensitivity.png",
+      "source": "project:documents/images/V27_alignment_sensitivity.png",
+      "source_sha256": "48d552543d375732f0c94a57e558d1693f6a1eb40d2d69b004fcb824b2545dca",
+      "published_sha256": "48d552543d375732f0c94a57e558d1693f6a1eb40d2d69b004fcb824b2545dca",
+      "bytes": 84944,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/figures/V27_prototype_CAD.png",
+      "source": "project:documents/images/V27_prototype_CAD.png",
+      "source_sha256": "58ec4fb674345fb35d5fcdac8e373f2e71ace77a9f24a2aa8a113a4b72be1dc9",
+      "published_sha256": "58ec4fb674345fb35d5fcdac8e373f2e71ace77a9f24a2aa8a113a4b72be1dc9",
+      "bytes": 166837,
+      "text_paths_normalized": false
+    },
+    {
       "path": "SoftSpace/engineering/figures/V3.png",
       "source": "project:documents/images/V3.png",
       "source_sha256": "24441ec7d2b5ca5fb4bda1593716fbef3204c3b8c2308c34d6681db3c5e5f6e4",
@@ -10950,9 +11422,9 @@
     {
       "path": "SoftSpace/engineering/report-audit/document_status.json",
       "source": "project:documents/document_status.json",
-      "source_sha256": "dd40db5365a73ce373569d8e9ce2ad31303a1e8493fe1e64034b6baaed41a35a",
-      "published_sha256": "e90522698d073cdc12aab6501cb47972ecf0f381734c40b2ee7c1ed0dfff240e",
-      "bytes": 2204,
+      "source_sha256": "0e698bf69cbd34e511b56fae2d6cfcec7494785459654e1b0ca92deb33700c1b",
+      "published_sha256": "2a6e368b5a74ef4393185fdf25078cbe496b268778d8307d8546991f970276b2",
+      "bytes": 2317,
       "text_paths_normalized": true
     },
     {
@@ -10986,6 +11458,30 @@
       "published_sha256": "639558754855ba521bcfc4d92597bd5d9f210f7ed87dc5901d1aabc7b31af336",
       "bytes": 789,
       "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/report-audit/qa/closure_cover_changes.json",
+      "source": "project:documents/qa/closure_cover_changes.json",
+      "source_sha256": "9c722874c7b08c1c8a47001ec3fa61e9516977576d9d46e2cddfe477f0418cea",
+      "published_sha256": "89deeb5b28652837b59090e990f7176435b943cccbb580a07d70a2a11f6f59e0",
+      "bytes": 4988,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/report-audit/qa/closure_semantic_regression.json",
+      "source": "project:documents/qa/closure_semantic_regression.json",
+      "source_sha256": "940afac64c2d1b096be706eb19552c8fef732157929e303afdf7cdcf3d7ed2af",
+      "published_sha256": "1d49849afd9f9e93af21f97c3bda62c41dacd2bc80e79e976ecd556c3716d852",
+      "bytes": 1010,
+      "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/report-audit/qa/closure_visual_review.json",
+      "source": "project:documents/qa/closure_visual_review.json",
+      "source_sha256": "69c0c836bcc2ad91e9d859b68cd53b0cdf197c917c3de2e3cf4f885e9c597acd",
+      "published_sha256": "6f421ff0407d4ef91cfd8d2ca581954c141c3d2cb41c0fb4844b69f227c83058",
+      "bytes": 577,
+      "text_paths_normalized": false
     },
     {
       "path": "SoftSpace/engineering/report-audit/qa/decision_semantic_regression.json",
@@ -11025,6 +11521,14 @@
       "source_sha256": "962edce8442f391ae19967df05f6a7b5df35d0c21d24f40be01299bc9db8fa9c",
       "published_sha256": "7fa223e023c90505c1ce45acecaa4a69172e1232b8e70554447bda6e18ffa88d",
       "bytes": 159936,
+      "text_paths_normalized": true
+    },
+    {
+      "path": "SoftSpace/engineering/report-audit/qa/native_closure_layout_checks.json",
+      "source": "project:documents/qa/native_closure_layout_checks.json",
+      "source_sha256": "a31da1ad8fa38994ba573866a04bf80fa630d47ba7ea0f67224333e5377cc83b",
+      "published_sha256": "b08aa6f526c86db1a233e89dfcfaaed82158f4e91cf4fb9e5b9f64ff1d520c67",
+      "bytes": 154006,
       "text_paths_normalized": true
     },
     {
@@ -11086,9 +11590,9 @@
     {
       "path": "SoftSpace/engineering/report-audit/qa/native_word_status.json",
       "source": "project:documents/qa/native_word_status.json",
-      "source_sha256": "711cca2075d15eeccee419560ab1dd4449a00afebb9871927e14746b221ca8b0",
-      "published_sha256": "a82945eedafbc4c6d5ff784f43cdc91367c6685b212cdf9af23b73e1e294fe94",
-      "bytes": 1047,
+      "source_sha256": "f47a0dacb260bdac83178626df6c90e768b313603ffaab17f81767c7259fed50",
+      "published_sha256": "56a00bae8d958de78edac5257dd6f495dc705cc80a3ba2eebd1c6f655b705503",
+      "bytes": 1051,
       "text_paths_normalized": true
     },
     {
@@ -11684,6 +12188,14 @@
       "text_paths_normalized": false
     },
     {
+      "path": "SoftSpace/engineering/sources/close_project_reports.py",
+      "source": "project:close_project_reports.py",
+      "source_sha256": "437f3466c3b21ca9ffda9adc3b6ad686473ecb0e7e4cf1c3af01ec549db62d49",
+      "published_sha256": "204cd1ec33afe68e81f12147656c75b58b245030f574860b20061ba2d7288b7c",
+      "bytes": 9365,
+      "text_paths_normalized": false
+    },
+    {
       "path": "SoftSpace/engineering/sources/close_softspace_branding.py",
       "source": "project:close_softspace_branding.py",
       "source_sha256": "aae2855815a035cdd53c665a4d1cbd21e559f3888c5b6a4748c036cde7c40165",
@@ -11822,9 +12334,9 @@
     {
       "path": "SoftSpace/engineering/sources/documents/build_documents.py",
       "source": "project:documents/build_documents.py",
-      "source_sha256": "bbc4fe87e05e3eca9d44dbfa988763b3b1586d76879567cfb1c208bc0f2449c2",
-      "published_sha256": "fe93c41f4bb7938dd33dc4a2d5485ff3891a0d7dd92d7907883ce5edb11c8006",
-      "bytes": 88431,
+      "source_sha256": "a2385f4d61367ee89507f9a55895d35e054d5ffae7d1ad105df5bb300ef31502",
+      "published_sha256": "c72beab8a918531607a186a325fbed224f06638ebcbbdac0c3c393f8d676da64",
+      "bytes": 88371,
       "text_paths_normalized": false
     },
     {
@@ -11857,6 +12369,14 @@
       "source_sha256": "9f87730aed56ce9bd2db09747e4a2dde1810202bc4cbb19cc75962902e0dc1c1",
       "published_sha256": "1cb947832847c8fa0edf8552b9f4448b8f29b0ac2e55fb08cee0e16534819410",
       "bytes": 2596,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/sources/documents/check_native_word_layout_closure.py",
+      "source": "project:documents/check_native_word_layout_closure.py",
+      "source_sha256": "30f88d00cfd973c729f2bdfcba0be004b3f3b7b77492104fc380a390ffba5908",
+      "published_sha256": "9e36f961ae7d61ee4a93708dddd2cdb36f4208bc9ca85ecaf2b21199895f8373",
+      "bytes": 2600,
       "text_paths_normalized": false
     },
     {
@@ -11918,8 +12438,8 @@
     {
       "path": "SoftSpace/engineering/sources/documents/export_native_word.ps1",
       "source": "project:documents/export_native_word.ps1",
-      "source_sha256": "491cd0f9c0bf377e0a37197dc1943bf398c90b780f777766155cc93785198a2d",
-      "published_sha256": "7500c27cc92f413c8670138299280f8b32e825a896fd46cc23f550a7e8374ec4",
+      "source_sha256": "869976bedc8e2da485bca9e6801b9432dfd4d074a1f920525d35a539f1e5bbea",
+      "published_sha256": "523ee7abd748be33c5aea25b6df8e0e8513b5f1291d893ea6816b5978bc83556",
       "bytes": 1850,
       "text_paths_normalized": false
     },
@@ -11961,6 +12481,14 @@
       "source_sha256": "7865f8468f1d766a27e35ae1945b24c0fd0dac08956f95563edb3e5417ad9812",
       "published_sha256": "3d08a6a58cedd9f385207a1018b38d294e67915537dd57e44bad6aa119f7cd9c",
       "bytes": 4549,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/sources/documents/project_closure_section.py",
+      "source": "project:documents/project_closure_section.py",
+      "source_sha256": "206e9db2ae268d42fee345131b27721b1ed40b223c559f174115c7623cdb2e2d",
+      "published_sha256": "39921f4875a7edf403e5602557711790b0787bd2c16e0bbede20a4f94945afc2",
+      "bytes": 4907,
       "text_paths_normalized": false
     },
     {
@@ -12158,9 +12686,9 @@
     {
       "path": "SoftSpace/engineering/sources/documents/verify_documents.py",
       "source": "project:documents/verify_documents.py",
-      "source_sha256": "70fdff5460efa356da1c03b5290f03ff5ce22f7efd4224a00999ee855b6808c1",
-      "published_sha256": "a887b63b31de628b81a5174bd7633540a0e4a8a7c0b505f49646bccd0bb36b52",
-      "bytes": 3098,
+      "source_sha256": "3dab3d48b6b05809d4deea3316dc14417d6bcc4aa8f45fa184935988e44f4cd5",
+      "published_sha256": "2a5064c137b1f3926d045f7417d11dcb78a1aa218c9318d36823fe8e7d9ebd5c",
+      "bytes": 3100,
       "text_paths_normalized": false
     },
     {
@@ -14380,6 +14908,78 @@
       "text_paths_normalized": false
     },
     {
+      "path": "SoftSpace/engineering/sources/v27_build_full.py",
+      "source": "project:v27_build_full.py",
+      "source_sha256": "3fca51ff2e0cb1092993f8fa2f9ce50c2b266ffe2ac8e26c2eecdca38aacb41b",
+      "published_sha256": "cfe5de29ac7b2db4d3c64f65a9c4e589cfc4b1d035bd6aa6df95dd2607cc2fc0",
+      "bytes": 2480,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/sources/v27_coarse_joint.py",
+      "source": "project:v27_coarse_joint.py",
+      "source_sha256": "c3ae8d3a27aec7967470efe6e44e2f39b171e90a8dbb246b1da3488038791f91",
+      "published_sha256": "2d11330820986a41dacdaf77a9a06027715761b23bce6c36c2067381d112c0ce",
+      "bytes": 10939,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/sources/v27_figures.py",
+      "source": "project:v27_figures.py",
+      "source_sha256": "45d9e564cb232f9342843d2a07d7c7885940227650651cbeb296c628374100c0",
+      "published_sha256": "f540b0f1605c2cd782a7e6e1a3e883fa76ca35a3bbc03b0e87d7cf655c591f75",
+      "bytes": 3253,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/sources/v27_flex_audit.py",
+      "source": "project:v27_flex_audit.py",
+      "source_sha256": "365d2c4a433008f09bfa22fbfecfc8a67e5eb4aba967f40119bda27c794f8f29",
+      "published_sha256": "59036d0398488bfe89537e6e394cac6ea6e6fa59c144bd1aa5bfd81667f6ef15",
+      "bytes": 1037,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/sources/v27_flex_reference.py",
+      "source": "project:v27_flex_reference.py",
+      "source_sha256": "aa4ebadc288ab0c76fa045f550e0fff0f08daba72a2abdf73ae5a7f35a6b2d0e",
+      "published_sha256": "7b700dd30ba61b9916d758fdd667d5b0df0be519829ab586a424b672a9d9fb4e",
+      "bytes": 5696,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/sources/v27_full_motion.py",
+      "source": "project:v27_full_motion.py",
+      "source_sha256": "2b305b4e1e0746b2269ec209be653cbd5481b10e18778235d8c0d197c7ab5826",
+      "published_sha256": "df1555549e3319f7bd7da8d1b22360f3327c32eab02da8a1d9ee36e7ea095deb",
+      "bytes": 3006,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/sources/v27_inexact_joint.py",
+      "source": "project:v27_inexact_joint.py",
+      "source_sha256": "c92ca4c0a99213d79212014e76047acef746098ac8e757630700d8941cbd0d95",
+      "published_sha256": "1120034fa5ed6fa193e802beb8d9b50078a96992437393a1cea0d0055b18a0b0",
+      "bytes": 10077,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/sources/v27_joint_diagnostic.py",
+      "source": "project:v27_joint_diagnostic.py",
+      "source_sha256": "43aa966b25250f4e2ef34b5bdcbdbe160b9283582fa58bfc96e3d15a6d0500f9",
+      "published_sha256": "fb12800a16072dbb47f905f07d37699a41d8e3d240a3ab552752159a28b778db",
+      "bytes": 10933,
+      "text_paths_normalized": false
+    },
+    {
+      "path": "SoftSpace/engineering/sources/v27_polish_joint.py",
+      "source": "project:v27_polish_joint.py",
+      "source_sha256": "2a05fe35723a55a205ace0def9c49afc60c75d78bbe8876e91906e28a6339582",
+      "published_sha256": "fb2448ef480899f5afae4a065eb5108019f1b24a57394c963439f9cf165aaf3f",
+      "bytes": 10131,
+      "text_paths_normalized": false
+    },
+    {
       "path": "SoftSpace/engineering/sources/v8_material_sensitivity.py",
       "source": "project:v8_material_sensitivity.py",
       "source_sha256": "63da69a13a7684fa81f573e5c1106539c1fc7acf5a42e3c8bac1f40f59e35627",
@@ -14628,11 +15228,19 @@
       "text_paths_normalized": false
     },
     {
+      "path": "SoftSpace/media/V27_prototype_CAD.png",
+      "source": "project:documents/images/V27_prototype_CAD.png",
+      "source_sha256": "58ec4fb674345fb35d5fcdac8e373f2e71ace77a9f24a2aa8a113a4b72be1dc9",
+      "published_sha256": "58ec4fb674345fb35d5fcdac8e373f2e71ace77a9f24a2aa8a113a4b72be1dc9",
+      "bytes": 166837,
+      "text_paths_normalized": false
+    },
+    {
       "path": "SoftSpace/reports/SoftSpace_Report.docx",
       "source": "project:documents/Ear_Defender_Project.docx",
-      "source_sha256": "7b3e1dabaa2da8e528382fee4ec476cf1a861f79c8a0aebd732bef3bf8505b0a",
-      "published_sha256": "7b3e1dabaa2da8e528382fee4ec476cf1a861f79c8a0aebd732bef3bf8505b0a",
-      "bytes": 10498751,
+      "source_sha256": "32849075d51ef3c502dfa7a275e90400f30ca4bf49621868de83dc8cc1b0e477",
+      "published_sha256": "32849075d51ef3c502dfa7a275e90400f30ca4bf49621868de83dc8cc1b0e477",
+      "bytes": 10741774,
       "text_paths_normalized": false
     }
   ],
@@ -14645,7 +15253,8 @@
     "url": "https://github.com/adilsukumar/SoftSpace/releases/download/v19-research/SoftSpace_Complete_V19_Research.zip"
   },
   "latest_update": {
-    "date": "2026-10-26",
-    "scope": "Bounded body-block preconditioner pilot failed second actual linear accuracy gate. No accepted field or strength pass. Both reports updated and native layouts checked."
+    "date": "2026-10-27",
+    "status": "CLOSED_RESEARCH_PROJECT",
+    "scope": "Owner-directed closure; latest V27 saved CAD and evidence, failures, final reports and research context. No new simulations or physical validation."
   }
 }

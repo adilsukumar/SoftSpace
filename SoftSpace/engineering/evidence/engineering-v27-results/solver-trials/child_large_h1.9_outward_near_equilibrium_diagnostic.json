@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-26",
+  "solver_preconditioner": "Inexact Newton with independently checked relative forcing below 0.01; two body block ILU drop1e-4 fill3; final full nonlinear equilibrium and balance gates unchanged",
+  "size": "child_large",
+  "mesh_size_mm": 1.9,
+  "direction": "outward",
+  "converged": false,
+  "relative_residual": 7.535306956286708e-06,
+  "independent_residual": 7.535306956286708e-06,
+  "initial_residual": 7.535306956286708e-06,
+  "force_balance_N": 7.230466063033127e-11,
+  "moment_balance_Nmm": 2.5090937519095527e-09,
+  "coulomb_excess_MPa": 5.551115123125783e-17,
+  "cup_displacement_mm": 0.2694218366456104,
+  "rigid_motion_controls": [
+    {
+      "kind": "translation",
+      "axis": 0,
+      "error": 7.03576059175523e-16,
+      "passed": true
+    },
+    {
+      "kind": "translation",
+      "axis": 1,
+      "error": 2.6528258756375322e-15,
+      "passed": true
+    },
+    {
+      "kind": "translation",
+      "axis": 2,
+      "error": 7.060392309861385e-16,
+      "passed": true
+    },
+    {
+      "kind": "rotation",
+      "axis": 0,
+      "error": 9.636602626983404e-11,
+      "passed": true
+    },
+    {
+      "kind": "rotation",
+      "axis": 1,
+      "error": 9.63660268376621e-11,
+      "passed": true
+    },
+    {
+      "kind": "rotation",
+      "axis": 2,
+      "error": 9.530087830000866e-11,
+      "passed": true
+    }
+  ],
+  "contact_derivative_errors": [
+    1.5259378621825072e-05,
+    0.0001542138593361032
+  ],
+  "history": [],
+  "seconds": 0.15820050239562988,
+  "source_mesh_sha256": "c2b1ca5961e1e6d30c78750a4dfd8bc285fdb46df172c4c51cc3d4578e89e675",
+  "source_CAD_sha256": "e4597baa52255a6d2e2573f7cb565b1fd5faa90f035046680a674e275d2b6723",
+  "warm_start_sha256": "464209e3c7ebf1744f4c9157cd3d89a1caecbb57c281fbbcfb2ad076f76519b7",
+  "inexact_Newton_forcing_bound": 0.01,
+  "final_equilibrium_gate": 1e-07,
+  "script_sha256": "e5a03596d2e6f9591ae5fdee92ec46b109f9c590cdc36b8ef7e2cabd163eab05",
+  "contact_surface_statistics": {
+    "washer": [
+      {
+        "points": 1968,
+        "area_mm2": 80.50952185210697,
+        "maximum_projection_error_mm": 9.940533566192533e-11,
+        "minimum_quadrature_area_mm2": 0.0010977609866917846
+      },
+      {
+        "points": 1968,
+        "area_mm2": 80.50952185210699,
+        "maximum_projection_error_mm": 9.865095108107929e-11,
+        "minimum_quadrature_area_mm2": 0.0010995517409593649
+      }
+    ],
+    "stop": [
+      {
+        "points": 832,
+        "area_mm2": 31.99999999999999,
+        "maximum_projection_error_mm": 3.2809330058766683e-12,
+        "minimum_quadrature_area_mm2": 0.002113714537504051
+      }
+    ]
+  },
+  "contact_formulation_sha256": "8c9d1253ac13fd8823d9ba2b16e41670b91b30485965e59f5232c95907f44c0e",
+  "scope": "V26B relieved rounded isolated joint candidate; quadratic face scheme; corrected virtual 0.5 mm spacer reference. E3500 MPa nu0.35 preload140 N friction0.2 side force +/-2 N. Isolated V19 joint only; no physical strength, washer or product pass.",
+  "diagnostic_only": true,
+  "warning": "Checkpoint diagnostic, not an accepted equilibrium or strength result; final strict residual gate remains unmet.",
+  "raw_sha256": "ac5c2ef2109b8d3d1d23236d8b062a65e0aac8ba66ea0ff44fa9a2cb4d19057c",
+  "stress": [
+    {
+      "component": "tongue",
+      "sampled_peaks_MPa": {
+        "interior125": 6.128177901816448,
+        "boundary35": 9.5896016151508
+      },
+      "minimum_sampled_Jacobian": 0.005082513736492277
+    },
+    {
+      "component": "fork",
+      "sampled_peaks_MPa": {
+        "interior125": 5.298703052861745,
+        "boundary35": 6.62781018202799
+      },
+      "minimum_sampled_Jacobian": 0.01065552620913345
+    }
+  ]
+}

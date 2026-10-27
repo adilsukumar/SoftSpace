@@ -1,16 +1,16 @@
 {
-  "updated": "26 October 2026",
-  "design_status": "Lower memory joint solver review",
+  "updated": "27 October 2026",
+  "design_status": "Final saved CAD and project closure",
   "documents": [
     {
       "path": "${WORKSPACE}\\documents\\Ear_Defender_Project.docx",
-      "sha256": "7b3e1dabaa2da8e528382fee4ec476cf1a861f79c8a0aebd732bef3bf8505b0a",
-      "bytes": 10498751
+      "sha256": "32849075d51ef3c502dfa7a275e90400f30ca4bf49621868de83dc8cc1b0e477",
+      "bytes": 10741774
     },
     {
       "path": "${WORKSPACE}\\documents\\Glasses_Friendly_Headphone_Cushions.docx",
-      "sha256": "912019f6c5e8552c34fbc53379ee5695665e780b4fa045fd4edf464deba01a66",
-      "bytes": 5988862
+      "sha256": "50574958df1b0e339436b9fef5e0daf53114a597fb621a0f04617c0357480062",
+      "bytes": 6231917
     }
   ],
   "market_checked": "2026-10-13",
@@ -20,29 +20,29 @@
     "approximate_layout_page_counts": [],
     "approximate_previews_match_current_documents": false,
     "native_Word_layout_verified": true,
-    "reason": "New chapter visually reviewed; 191 preserved pages exact pixel match; changed cover summaries reviewed separately. Automated all-page checks report no blank or short pages or out of page text. Document QA only.",
+    "reason": "Both final covers and three closure chapter bodies visually reviewed. Companion chapter bodies pixel match. Prior body pages match reviewed prior edition, excluding changed header and footer. Automated all-page checks pass. Document QA only.",
     "checks": [
       {
         "document": "Ear_Defender_Project.docx",
-        "paragraphs": 742,
-        "tables": 78,
-        "embedded_images": 54,
-        "source_links": 40,
+        "paragraphs": 764,
+        "tables": 80,
+        "embedded_images": 56,
+        "source_links": 44,
         "structure_and_hashes": "pass"
       },
       {
         "document": "Glasses_Friendly_Headphone_Cushions.docx",
-        "paragraphs": 560,
-        "tables": 66,
-        "embedded_images": 40,
-        "source_links": 27,
+        "paragraphs": 582,
+        "tables": 68,
+        "embedded_images": 42,
+        "source_links": 31,
         "structure_and_hashes": "pass"
       }
     ],
     "native_Word_export_verified": true,
     "native_page_counts": [
-      110,
-      85
+      113,
+      88
     ],
     "native_blank_or_out_of_page_text_pages": 0
   },
@@ -56,5 +56,7 @@
     "physical_tests": 0
   },
   "native_Word_layout_verified": true,
-  "material_sources_checked": "2026-10-26"
+  "material_sources_checked": "2026-10-26",
+  "project_status": "CLOSED_RESEARCH_PROJECT",
+  "closure_date": "2026-10-27"
 }

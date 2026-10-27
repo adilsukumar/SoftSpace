@@ -1,3 +1,5 @@
+**Closed research archive, 27 October 2026.** The following notes preserve evidence conventions; they are not an active development roadmap. New engineering work requires an explicit owner request.
+
 # Contributing to SoftSpace
 
 This is a research prototype. Contributions should improve evidence, traceability or a concrete design problem.

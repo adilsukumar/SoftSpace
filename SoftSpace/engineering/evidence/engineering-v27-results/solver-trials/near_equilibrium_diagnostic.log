@@ -1,0 +1,7 @@
+Prepared child_large_h1.9_outward 7.535306956286708e-06
+Saved child_large_h1.9_outward 7.535306956286708e-06
+Traceback (most recent call last):
+  File "${WORKSPACE}\v27_joint_diagnostic.py", line 115, in <module>
+    out.write_text(json.dumps(result,indent=2));print('Saved',label,relative,flush=True);del factor;gc.collect()
+                                                                                             ^^^^^^
+NameError: name 'factor' is not defined

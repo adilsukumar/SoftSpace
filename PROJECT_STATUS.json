@@ -1,0 +1,67 @@
+{
+  "closed": "2026-10-27",
+  "status": "CLOSED_RESEARCH_PROJECT",
+  "reason": "Owner requested both ideas be finished as GitHub projects and left; no further product development.",
+  "project_packaging_complete": true,
+  "all_software_testing_complete": false,
+  "product_validation_passed": false,
+  "manufacturing_release": false,
+  "physical_tests": 0,
+  "ANC_system_implemented": false,
+  "latest_headset_CAD": "V27 six full STEP assemblies",
+  "latest_Flex_CAD": "V27 12.7mm foam references with 18mm and 32mm zones",
+  "headset_geometry": [
+    {
+      "size": "child_small",
+      "solids": 42,
+      "sampled_cases": 32,
+      "sampled_motion_pass": true,
+      "wearing_stop_pass": true,
+      "source_sha256": "e23a417f4a32843ced464e7b3e685a09780eee7d2e355dd6a383409fc0d4c57a"
+    },
+    {
+      "size": "child_medium",
+      "solids": 42,
+      "sampled_cases": 29,
+      "sampled_motion_pass": true,
+      "wearing_stop_pass": true,
+      "source_sha256": "b73de3d98eb1dd503223166d21c27113443c3a57188c0b63f945ad81983fee12"
+    },
+    {
+      "size": "child_large",
+      "solids": 42,
+      "sampled_cases": 26,
+      "sampled_motion_pass": true,
+      "wearing_stop_pass": true,
+      "source_sha256": "1b487b9bf95aa01ecc83d52fc7b398b56dc85755bd4f7d70f30789a39b1a90df"
+    },
+    {
+      "size": "adult_small",
+      "solids": 42,
+      "sampled_cases": 32,
+      "sampled_motion_pass": true,
+      "wearing_stop_pass": true,
+      "source_sha256": "632f6b358fd39df029569a00aff0291a1d520068757bab3a05a2bced912201af"
+    },
+    {
+      "size": "adult_medium",
+      "solids": 42,
+      "sampled_cases": 35,
+      "sampled_motion_pass": true,
+      "wearing_stop_pass": true,
+      "source_sha256": "afc83246bf494d51d65d16869f4fc236b9c94ca39d760a63e161c563b7a0ea91"
+    },
+    {
+      "size": "adult_large",
+      "solids": 42,
+      "sampled_cases": 35,
+      "sampled_motion_pass": true,
+      "wearing_stop_pass": true,
+      "source_sha256": "daa9a05220f1ead63f370d31ebd3c4a3b6469d1c5cef210eeb316c246c4fddef"
+    }
+  ],
+  "total_motion_cases": 189,
+  "SoftSpace": "Closed mechanical and passive acoustic concept; joint strength unresolved; no ANC electronics or demonstrated benefit for autistic users.",
+  "SoftSpace_Flex": "Closed replacement pad experiment; wider zone promising in a limited column model; no measured comfort, Sony mount, seal, audio or ANC pass.",
+  "scope": "Completion of documentation and archival publication, not completion of missing validation or a recommendation to manufacture."
+}

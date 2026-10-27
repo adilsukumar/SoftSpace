@@ -1,0 +1,23 @@
+Prepared child_large_h1.9_outward 157.82065986237683
+Refreshed ILU child_large_h1.9_outward 0 factor entries 27784366
+Inexact Newton forcing check child_large_h1.9_outward 0 0 8.461001799221317e-06 76
+child_large_h1.9_outward {'iteration': 0, 'relative_residual': 0.038428964770850955, 'linear_residual': 8.461001799221317e-06, 'step': 1.0, 'gmres_iterations': 76}
+Refreshed ILU child_large_h1.9_outward 1 factor entries 27784039
+Inexact Newton forcing check child_large_h1.9_outward 1 8 0.0010150576678871828 320
+child_large_h1.9_outward {'iteration': 1, 'relative_residual': 0.016817003968986353, 'linear_residual': 0.0010150576678871828, 'step': 1.0, 'gmres_iterations': 320}
+Refreshed ILU child_large_h1.9_outward 2 factor entries 27784288
+Inexact Newton forcing check child_large_h1.9_outward 2 8 0.0011469578647008048 320
+child_large_h1.9_outward {'iteration': 2, 'relative_residual': 0.004377821721957363, 'linear_residual': 0.0011469578647008048, 'step': 1.0, 'gmres_iterations': 320}
+Refreshed ILU child_large_h1.9_outward 3 factor entries 27784247
+Inexact Newton forcing check child_large_h1.9_outward 3 8 0.0030263229510418127 320
+child_large_h1.9_outward {'iteration': 3, 'relative_residual': 0.0007935586673949689, 'linear_residual': 0.0030263229510418127, 'step': 1.0, 'gmres_iterations': 320}
+Refreshed ILU child_large_h1.9_outward 4 factor entries 27784296
+Inexact Newton forcing check child_large_h1.9_outward 4 8 0.009494111913626263 320
+child_large_h1.9_outward {'iteration': 4, 'relative_residual': 7.535306956286708e-06, 'linear_residual': 0.009494111913626263, 'step': 1.0, 'gmres_iterations': 320}
+Refreshed ILU child_large_h1.9_outward 5 factor entries 27784545
+Inexact Newton forcing check child_large_h1.9_outward 5 8 0.5622174684411652 320
+Traceback (most recent call last):
+  File "${WORKSPACE}\v27_inexact_joint.py", line 88, in <module>
+    du,info=gmres(J,-res[free],M=M,rtol=1e-5,atol=1e-12,restart=40,maxiter=8,callback=tick,callback_type='pr_norm');linear=float(np.linalg.norm(matvec(du)+res[free])/max(np.linalg.norm(res[free]),1e-12));print('Inexact Newton forcing check',label,iteration,info,linear,count[0],flush=True);assert linear<0.01, 'Inexact Newton direction fails forcing bound 0.01; final equilibrium gate unchanged'
+                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^
+AssertionError: Inexact Newton direction fails forcing bound 0.01; final equilibrium gate unchanged

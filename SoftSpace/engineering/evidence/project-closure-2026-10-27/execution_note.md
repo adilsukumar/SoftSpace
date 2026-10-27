@@ -1,0 +1,1 @@
+The near-equilibrium field is explicitly diagnostic with converged=false. The original diagnostic saved its JSON and NPZ before a cleanup NameError. A later cleanup-only edit was not rerun and is not a new successful solve. No new simulations were run for closure. Full-to-local geometry correspondence was not checked because the launch failed to import the project module.

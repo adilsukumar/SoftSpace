@@ -20,7 +20,7 @@ for item in status['documents']:
 qa=json.loads((O/'qa'/'checks.json').read_text()) if (O/'qa'/'checks.json').exists() else []
 matched=all(any(q.get('sha256')==item['sha256'] for q in qa) for item in status['documents'])
 status['quality_check']={'structural_checks':'pass','approximate_layout_page_counts':[q['approximate_pages'] for q in qa] if matched else [],'approximate_previews_match_current_documents':matched,'native_Word_layout_verified':False,'reason':'Bundled LibreOffice was unavailable in the recorded renderer check. Native desktop document control is not available for this batch. Approximate previews were used; native Word pagination remains unverified.','checks':checks}
-native=O/'qa/native_word_status.json';layout=O/'qa/native_block_layout_checks.json'
+native=O/'qa/native_word_status.json';layout=O/'qa/native_closure_layout_checks.json'
 if native.exists() and layout.exists():
  n=json.loads(native.read_text(encoding='utf-8-sig'));l=json.loads(layout.read_text());native_match=all(any(r['source_sha256']==item['sha256'] for r in n['documents']) for item in status['documents']);layout_match=all(any(r['source_sha256']==item['sha256'] for r in l['documents']) for item in status['documents'])
  if native_match and layout_match:

@@ -1,0 +1,689 @@
+{
+  "revision": "V27 full assembly with V26B rounded relieved tongue and fork",
+  "size": "adult_small",
+  "file": "${WORKSPACE}\\engineering-v27-results\\SoftSpace_V27_adult_small.step",
+  "sha256": "632f6b358fd39df029569a00aff0291a1d520068757bab3a05a2bced912201af",
+  "source": "${USER_HOME}\\Downloads\\EarDefenderProject\\EarDefender_V19_adult_small_ParallelDisc.step",
+  "source_sha256": "70e52e5ab94faaadee4de40e8d7bf05fd1271d6458ba23706dfe36422012cc7d",
+  "solid_count": 42,
+  "parts": {
+    "LeftMainFoam": [
+      3,
+      1
+    ],
+    "LeftSoftGlassesZone": [
+      3,
+      2
+    ],
+    "LeftContinuousCover": [
+      3,
+      3
+    ],
+    "LeftCarrier": [
+      3,
+      4
+    ],
+    "LeftCup": [
+      3,
+      5
+    ],
+    "LeftLiner": [
+      3,
+      6
+    ],
+    "LeftCupPin": [
+      3,
+      7
+    ],
+    "LeftCupPinCap": [
+      3,
+      8
+    ],
+    "RightMainFoam": [
+      3,
+      9
+    ],
+    "RightSoftGlassesZone": [
+      3,
+      10
+    ],
+    "RightContinuousCover": [
+      3,
+      11
+    ],
+    "RightCarrier": [
+      3,
+      12
+    ],
+    "RightCup": [
+      3,
+      13
+    ],
+    "RightLiner": [
+      3,
+      14
+    ],
+    "RightCupPin": [
+      3,
+      15
+    ],
+    "RightCupPinCap": [
+      3,
+      16
+    ],
+    "LeftSliderKnob": [
+      3,
+      17
+    ],
+    "RightSliderKnob": [
+      3,
+      18
+    ],
+    "Band": [
+      3,
+      19
+    ],
+    "CrownPad": [
+      3,
+      20
+    ],
+    "LeftFork": [
+      3,
+      45
+    ],
+    "LeftTongue": [
+      3,
+      44
+    ],
+    "LeftFrictionWasherRear": [
+      3,
+      23
+    ],
+    "LeftFrictionWasherFront": [
+      3,
+      24
+    ],
+    "LeftBackupWasherRear": [
+      3,
+      25
+    ],
+    "LeftBackupWasherFront": [
+      3,
+      26
+    ],
+    "RightFork": [
+      3,
+      48
+    ],
+    "RightTongue": [
+      3,
+      47
+    ],
+    "RightFrictionWasherRear": [
+      3,
+      30
+    ],
+    "RightFrictionWasherFront": [
+      3,
+      31
+    ],
+    "RightBackupWasherRear": [
+      3,
+      32
+    ],
+    "RightBackupWasherFront": [
+      3,
+      33
+    ],
+    "LeftDiscSpringInner": [
+      3,
+      27
+    ],
+    "LeftDiscSpringOuter": [
+      3,
+      35
+    ],
+    "RightDiscSpringInner": [
+      3,
+      34
+    ],
+    "RightDiscSpringOuter": [
+      3,
+      36
+    ],
+    "LeftHingeBolt": [
+      3,
+      37
+    ],
+    "LeftHingeNut": [
+      3,
+      38
+    ],
+    "LeftJamNut": [
+      3,
+      39
+    ],
+    "RightHingeBolt": [
+      3,
+      40
+    ],
+    "RightHingeNut": [
+      3,
+      41
+    ],
+    "RightJamNut": [
+      3,
+      42
+    ]
+  },
+  "part_bounds_mm": {
+    "LeftMainFoam": [
+      -82.71882902839795,
+      -49.352692418057956,
+      -66.89079763497794,
+      -49.18756416899205,
+      52.74082759469995,
+      63.170085100885956
+    ],
+    "LeftSoftGlassesZone": [
+      -82.71064718935102,
+      -41.72240701155101,
+      -22.000504847881015,
+      -55.29375039602899,
+      -19.443291707918984,
+      -9.999495152462986
+    ],
+    "LeftContinuousCover": [
+      -82.91014244182,
+      -42.97637542217,
+      -52.700000100000004,
+      -48.88129256518,
+      43.085920865778,
+      52.949021564896
+    ],
+    "LeftCarrier": [
+      -84.11014244181999,
+      -44.0000001,
+      -54.0000001,
+      -82.91014224182001,
+      44.0000001,
+      54.0000001
+    ],
+    "LeftCup": [
+      -121.71014244179999,
+      -45.0000001,
+      -55.0000001,
+      -82.71014224182001,
+      45.0000001,
+      55.0000001
+    ],
+    "LeftLiner": [
+      -103.71014244179999,
+      -41.7500001,
+      -51.7500001,
+      -84.71014224182001,
+      41.7500001,
+      51.7500001
+    ],
+    "LeftCupPin": [
+      -120.95731904267717,
+      -15.0000001,
+      31.752823299122817,
+      -114.46296564092282,
+      14.0000001,
+      38.24717670087718
+    ],
+    "LeftCupPinCap": [
+      -120.95731904267717,
+      13.9999999,
+      31.752823299122817,
+      -114.46296564092282,
+      15.0000001,
+      38.24717670087718
+    ],
+    "RightMainFoam": [
+      49.18756416900147,
+      -52.740827594693535,
+      -66.89079763497352,
+      82.71882902839953,
+      49.35269241805953,
+      63.170085100881536
+    ],
+    "RightSoftGlassesZone": [
+      55.29375039603634,
+      19.443291707922118,
+      -22.00050484787966,
+      82.71064718935567,
+      41.72240701155166,
+      -9.999495152464336
+    ],
+    "RightContinuousCover": [
+      48.881292565189,
+      -43.08592086577,
+      -52.700000100000004,
+      82.910142441826,
+      42.976375422171,
+      52.949021564896
+    ],
+    "RightCarrier": [
+      82.91014224182601,
+      -44.0000001,
+      -54.0000001,
+      84.110142441826,
+      44.0000001,
+      54.0000001
+    ],
+    "RightCup": [
+      82.710142241826,
+      -45.0000001,
+      -55.0000001,
+      121.71014244182,
+      45.0000001,
+      55.0000001
+    ],
+    "RightLiner": [
+      84.710142241826,
+      -41.7500001,
+      -51.7500001,
+      103.71014244182,
+      41.7500001,
+      51.7500001
+    ],
+    "RightCupPin": [
+      114.46296564094283,
+      -15.0000001,
+      31.752823299122817,
+      120.95731904269718,
+      14.0000001,
+      38.24717670087718
+    ],
+    "RightCupPinCap": [
+      114.46296564094283,
+      13.9999999,
+      31.752823299122817,
+      120.95731904269718,
+      15.0000001,
+      38.24717670087718
+    ],
+    "LeftSliderKnob": [
+      -102.21014244182,
+      7.9999999,
+      94.4999999,
+      -93.21014224182001,
+      16.0000001,
+      103.5000001
+    ],
+    "RightSliderKnob": [
+      93.210142241826,
+      7.9999999,
+      94.4999999,
+      102.210142441826,
+      16.0000001,
+      103.5000001
+    ],
+    "Band": [
+      -101.71014244179999,
+      -14.0000001,
+      84.9999999,
+      101.71014244182,
+      14.0000001,
+      151.800000099991
+    ],
+    "CrownPad": [
+      -75.70235554050961,
+      -16.0000001,
+      118.8130359039738,
+      75.70235554054958,
+      16.0000001,
+      148.200000099991
+    ],
+    "LeftFork": [
+      -121.34744913769462,
+      -28.244800100000003,
+      30.7999999,
+      -91.7101422418045,
+      28.2448001,
+      77.70820403249405
+    ],
+    "LeftTongue": [
+      -166.17376398077292,
+      -28.0000001,
+      1.1932326105392062,
+      -29.246520702867095,
+      28.0000001,
+      167.2318108694764
+    ],
+    "LeftFrictionWasherRear": [
+      -103.21014244182,
+      -24.0000001,
+      56.4999999,
+      -92.21014224182001,
+      -23.4999999,
+      67.5000001
+    ],
+    "LeftFrictionWasherFront": [
+      -103.21014244182,
+      23.4999999,
+      56.4999999,
+      -92.21014224182001,
+      24.0000001,
+      67.5000001
+    ],
+    "LeftBackupWasherRear": [
+      -103.71014244182,
+      -28.5000001,
+      55.9999999,
+      -91.71014224182001,
+      -27.9999999,
+      68.0000001
+    ],
+    "LeftBackupWasherFront": [
+      -103.71014244182,
+      27.9999999,
+      55.9999999,
+      -91.71014224182001,
+      28.5000001,
+      68.0000001
+    ],
+    "RightFork": [
+      91.710142241826,
+      -28.0000001,
+      30.9999999,
+      120.71014244182,
+      28.0000001,
+      69.0000001
+    ],
+    "RightTongue": [
+      91.710142241826,
+      -28.0000001,
+      55.9999999,
+      109.71014244182,
+      28.0000001,
+      134.0000001
+    ],
+    "RightFrictionWasherRear": [
+      92.210142241826,
+      -24.0000001,
+      56.4999999,
+      103.210142441826,
+      -23.4999999,
+      67.5000001
+    ],
+    "RightFrictionWasherFront": [
+      92.210142241826,
+      23.4999999,
+      56.4999999,
+      103.210142441826,
+      24.0000001,
+      67.5000001
+    ],
+    "RightBackupWasherRear": [
+      91.710142241826,
+      -28.5000001,
+      55.9999999,
+      103.710142441826,
+      -27.9999999,
+      68.0000001
+    ],
+    "RightBackupWasherFront": [
+      91.710142241826,
+      27.9999999,
+      55.9999999,
+      103.710142441826,
+      28.5000001,
+      68.0000001
+    ],
+    "LeftDiscSpringInner": [
+      -101.71014244182,
+      28.4999999,
+      57.9999999,
+      -93.71014224182001,
+      28.862500100000002,
+      66.0000001
+    ],
+    "LeftDiscSpringOuter": [
+      -101.71014244182,
+      28.7999999,
+      57.9999999,
+      -93.71014224182001,
+      29.162500100000003,
+      66.0000001
+    ],
+    "RightDiscSpringInner": [
+      93.710142241826,
+      28.4999999,
+      57.9999999,
+      101.710142441826,
+      28.862500100000002,
+      66.0000001
+    ],
+    "RightDiscSpringOuter": [
+      93.710142241826,
+      28.7999999,
+      57.9999999,
+      101.710142441826,
+      29.162500100000003,
+      66.0000001
+    ],
+    "LeftHingeBolt": [
+      -101.21014244182,
+      -32.5000001,
+      58.4999999,
+      -94.21014224182001,
+      36.5000001,
+      65.5000001
+    ],
+    "LeftHingeNut": [
+      -101.7515943261483,
+      29.1624999,
+      58.4999999,
+      -93.66869035749171,
+      32.362500100000005,
+      65.5000001
+    ],
+    "LeftJamNut": [
+      -101.7515943261483,
+      32.36249989999999,
+      58.4999999,
+      -93.66869035749171,
+      34.5625001,
+      65.5000001
+    ],
+    "RightHingeBolt": [
+      94.210142241826,
+      -32.5000001,
+      58.4999999,
+      101.210142441826,
+      36.5000001,
+      65.5000001
+    ],
+    "RightHingeNut": [
+      93.66869035749771,
+      29.1624999,
+      58.4999999,
+      101.75159432615429,
+      32.362500100000005,
+      65.5000001
+    ],
+    "RightJamNut": [
+      93.66869035749771,
+      32.36249989999999,
+      58.4999999,
+      101.75159432615429,
+      34.5625001,
+      65.5000001
+    ]
+  },
+  "part_volumes_mm3": {
+    "LeftMainFoam": 99638.83712892835,
+    "LeftSoftGlassesZone": 5328.6694612045885,
+    "LeftContinuousCover": 4191.537987627687,
+    "LeftCarrier": 5427.174599099879,
+    "LeftCup": 43569.178749798455,
+    "LeftLiner": 16201.459355713341,
+    "LeftCupPin": 379.95474536996227,
+    "LeftCupPinCap": 14.110456357003121,
+    "RightMainFoam": 99638.83712891169,
+    "RightSoftGlassesZone": 5328.669461205543,
+    "RightContinuousCover": 4191.537987636306,
+    "RightCarrier": 5427.174599099938,
+    "RightCup": 43569.178749811195,
+    "RightLiner": 16201.459355725303,
+    "RightCupPin": 379.95474536996227,
+    "RightCupPinCap": 14.110456357003834,
+    "LeftSliderKnob": 221.6393617107653,
+    "RightSliderKnob": 221.6393617107653,
+    "Band": 26046.857147602444,
+    "CrownPad": 39850.61496861743,
+    "LeftFork": 6162.953984744835,
+    "LeftTongue": 10366.086836980214,
+    "LeftFrictionWasherRear": 40.2555828649371,
+    "LeftFrictionWasherFront": 40.2555828649371,
+    "LeftBackupWasherRear": 49.28766174400793,
+    "LeftBackupWasherFront": 49.28766174400793,
+    "RightFork": 6157.66564241227,
+    "RightTongue": 10327.478952713744,
+    "RightFrictionWasherRear": 40.2555828649371,
+    "RightFrictionWasherFront": 40.2555828649371,
+    "RightBackupWasherRear": 49.28766174400793,
+    "RightBackupWasherFront": 49.28766174400793,
+    "LeftDiscSpringInner": 10.92331765652315,
+    "LeftDiscSpringOuter": 10.92331765652315,
+    "RightDiscSpringInner": 10.923317656509324,
+    "RightDiscSpringOuter": 10.923317656509324,
+    "LeftHingeBolt": 970.7521299592344,
+    "LeftHingeNut": 93.54464530793076,
+    "LeftJamNut": 64.31194364920256,
+    "RightHingeBolt": 970.7521299592344,
+    "RightHingeNut": 93.54464530793076,
+    "RightJamNut": 64.31194364920256
+  },
+  "pivot_z_mm": 62.0,
+  "guide_bottom_mm": 85,
+  "fork_inner_halfspacing_mm": 24.0,
+  "fork_outer_halfspacing_mm": 28.0,
+  "fold_angles_deg": [
+    75,
+    45
+  ],
+  "fold_extension_mm": [
+    0,
+    30
+  ],
+  "hinge": {
+    "pin_diameter_mm": 4,
+    "bore_diameter_mm": 4.3,
+    "friction_washer_outer_radius_mm": 5.5,
+    "friction_washer_inner_radius_mm": 2.15,
+    "wearing_stop_radial_span_mm": [
+      8,
+      12
+    ],
+    "wearing_stop_total_contact_area_mm2": 32,
+    "disc_spring_reference": "SCHNORR 000600 B",
+    "disc_outer_diameter_mm": 8,
+    "disc_inner_diameter_mm": 4.2,
+    "disc_thickness_mm": 0.3,
+    "disc_free_height_mm": 0.55,
+    "disc_loaded_height_mm": 0.3625,
+    "catalogue_force_at_shortening_N": 118,
+    "catalogue_source": "https://www.schnorr-group.com/fileadmin/4_Downloads/Brochures/SCHNORR_Produktbroschuere_EN_2024-02.pdf",
+    "disc_count_per_hinge": 2,
+    "parallel_stack_loaded_height_mm": 0.6625,
+    "parallel_stack_free_height_mm": 0.85,
+    "nominal_catalogue_stack_force_N": 236,
+    "proposed_target_torque_Nmm": 160,
+    "proposed_minimum_torque_Nmm": 128,
+    "proposed_maximum_torque_Nmm": 192,
+    "bolt_underhead_length_mm": 65,
+    "planned_thread": "M4 x 0.7",
+    "planned_thread_length_mm": 6,
+    "nominal_bolt_tip_protrusion_mm": 2.1375,
+    "plain_shoulder_length_mm": 57,
+    "threaded_length_mm": 8,
+    "thread_pitch_mm": 0.7,
+    "primary_nut_height_mm": 3.2,
+    "jam_nut_height_mm": 2.2,
+    "nominal_tip_protrusion_mm": 1.9375
+  },
+  "manufacturing_release": false,
+  "limits": [
+    "Local STEP prototype,not a native Fusion feature tree or manufacturing release",
+    "Two nested same-orientation discs approximate a parallel stack at the published reference shortening",
+    "Torque must be calibrated directly; spring force curve,friction,creep and torque retention are unmeasured",
+    "Fork,tongue,band,pads and cup geometry unchanged from recorded V18 sources",
+    "No physical handling,comfort,acoustic,durability or Sony compatibility validation",
+    "Fasteners use cosmetic thread envelopes with proposed M4 x 0.7 drawing callouts; thread strength and tolerance classes are not qualified",
+    "Experimental exact helical bolt failed the one connected solid check and is excluded from the final assembly",
+    "Two nuts are proposed for countertightening; vibration locking and torque retention remain untested",
+    "Final pin and nuts changed only; flexible joint mesh still refers to the initial V19 CAD with identical fork and tongue"
+  ],
+  "unchanged_flexible_part_names": [
+    "LeftMainFoam",
+    "LeftSoftGlassesZone",
+    "LeftContinuousCover",
+    "LeftCarrier",
+    "LeftCup",
+    "LeftLiner",
+    "LeftCupPin",
+    "LeftCupPinCap",
+    "RightMainFoam",
+    "RightSoftGlassesZone",
+    "RightContinuousCover",
+    "RightCarrier",
+    "RightCup",
+    "RightLiner",
+    "RightCupPin",
+    "RightCupPinCap",
+    "LeftSliderKnob",
+    "RightSliderKnob",
+    "Band",
+    "CrownPad",
+    "LeftFork",
+    "LeftTongue",
+    "LeftFrictionWasherRear",
+    "LeftFrictionWasherFront",
+    "LeftBackupWasherRear",
+    "LeftBackupWasherFront",
+    "RightFork",
+    "RightTongue",
+    "RightFrictionWasherRear",
+    "RightFrictionWasherFront",
+    "RightBackupWasherRear",
+    "RightBackupWasherFront"
+  ],
+  "source_CAD_sha256": "035aa0b663212ab25ef478dd2c23e883bcdfd35df3525eacfb5977bd6042285c",
+  "prototype_changes": [
+    {
+      "side": "Left",
+      "changes": [
+        {
+          "part": "tongue",
+          "fillet_radius_mm": 0.6,
+          "edges": 2
+        },
+        {
+          "part": "fork",
+          "fillet_radius_mm": 0.6,
+          "edges": 6
+        }
+      ]
+    },
+    {
+      "side": "Right",
+      "changes": [
+        {
+          "part": "tongue",
+          "fillet_radius_mm": 0.6,
+          "edges": 2
+        },
+        {
+          "part": "fork",
+          "fillet_radius_mm": 0.6,
+          "edges": 6
+        }
+      ]
+    }
+  ],
+  "scope": "Prototype geometry candidate; motion and strength results separately required. Pads, band, cup, fastener envelopes unchanged from final V19."
+}

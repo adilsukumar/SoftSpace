@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-26",
+  "cases": 840,
+  "paired": 799,
+  "unpaired": 41,
+  "pressure_increase": 121,
+  "pressure_decrease": 678,
+  "same": 0,
+  "max_force_error_N": 5.311306949806749e-13,
+  "source_material_hash": "ae0293e15324653121e11429cbcc8bc09b8875c9a2950647437cbc7b71be3093",
+  "scope": "Typical sourced 12.7mm loading law, uncovered independent columns; broad alignment sensitivity, no acoustic or comfort prediction. Force per face is an assumption, not a wear recommendation.",
+  "zones": {
+    "18": {
+      "paired": 400,
+      "increases": 121,
+      "decreases": 279,
+      "min_change_percent": -35.07224211649632,
+      "max_change_percent": 6.193796905393589
+    },
+    "32": {
+      "paired": 399,
+      "increases": 0,
+      "decreases": 399,
+      "min_change_percent": -34.486935032332454,
+      "max_change_percent": -9.227476189730211
+    }
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "document": "Ear_Defender_Project.docx",
+    "before": "We are developing a low-cost passive over-ear defender for India. The aim is to make loud surroundings easier to manage while keeping the device comfortable, easy to remove and simple to use. Autistic users are our first priority; other sound-sensitive people may also find the idea useful.",
+    "after": "This archived project explored a low-cost passive over-ear headset for India. The aim was to make loud surroundings easier to manage while keeping the device comfortable, easy to remove and simple to use. Autistic users were the first priority; other sound-sensitive people may also find the idea useful."
+  },
+  {
+    "document": "Ear_Defender_Project.docx",
+    "before": "Where we are now: Six sizes and sliding adjustment are saved. Some geometry and numerical checks passed. Comfort, sensory acceptance and real sound reduction have not been proved.",
+    "after": "Historical V19 snapshot: Six sizes and sliding adjustment are saved. Some geometry and numerical checks passed. Comfort, sensory acceptance and real sound reduction have not been proved."
+  },
+  {
+    "document": "Glasses_Friendly_Headphone_Cushions.docx",
+    "before": "We want a replacement cushion that presses less on glasses arms while keeping a good seal. The user keeps their headphone and replaces its removable pads. We are developing the contact idea together with our passive ear defender, but this is a separate product route.",
+    "after": "This archived project explored a replacement cushion intended to press less on glasses arms while keeping a good seal. The proposed route kept the headphone and replaced its removable pads. We are developing the contact idea together with our passive ear defender, but this is a separate product route."
+  },
+  {
+    "document": "Glasses_Friendly_Headphone_Cushions.docx",
+    "before": "Current conclusion: The idea is worth investigating. We have not proved less pain, unchanged music, no sound leakage or universal compatibility. The pad needs tests on each supported headphone model.",
+    "after": "Historical V20 conclusion: The idea was worth investigating. We have not proved less pain, unchanged music, no sound leakage or universal compatibility. The pad needs tests on each supported headphone model."
+  },
+  {
+    "document": "Glasses_Friendly_Headphone_Cushions.docx",
+    "before": "The shared standalone design is now V19. Its revised assembly and conditional joint calculations are recorded in the final chapters, including failed trials and refinement limits. The new V20 pad bodies use a published aftermarket envelope, but exact Sony mounting dimensions are still missing. No fit, comfort or sound benefit is proved.",
+    "after": "The archive adds V27 full headset assemblies and two V27 cushion references after the earlier V19 and V20 work. The latest wider-zone calculation is conditional and does not establish Sony fit, comfort or acoustic performance. See the final closure pages."
+  },
+  {
+    "document": "Glasses_Friendly_Headphone_Cushions.docx",
+    "before": "The final standalone holding screen identifies a limited torque margin under assumed handling loads. This adds no measured Sony cushion benefit. The last chapters record the finding and the available data screening decision.",
+    "after": "Earlier holding screens and open-work lists remain part of the history. Both projects are now closed, with no physical tests or product validation claimed."
+  },
+  {
+    "document": "Ear_Defender_Project.docx",
+    "before": "V19 is our latest six size local STEP prototype. It adds a parallel disc spring pair, longer pin proposal and second nut. The coupled 3D joint calculation has recorded failed solves and mesh limits. This is a prototype handoff, not a finished product or complete validated simulation phase. Real materials, exact Sony mounting dimensions, acoustics and voluntary wearer feedback remain necessary. Native editable Fusion archives remain V10.",
+    "after": "V19 was an earlier six size STEP prototype. The final archive adds V27 full assemblies with revised joints and sampled motion checks. Joint strength remains unresolved. Native editable Fusion feature archives remain V10. Read the final closure pages for the latest saved work and limitations."
+  },
+  {
+    "document": "Glasses_Friendly_Headphone_Cushions.docx",
+    "before": "This archived project explored a replacement cushion intended to press less on glasses arms while keeping a good seal. The proposed route kept the headphone and replaced its removable pads. We are developing the contact idea together with our passive ear defender, but this is a separate product route.",
+    "after": "This archived project explored a replacement cushion intended to press less on glasses arms while keeping a good seal. The proposed route kept the headphone and replaced its removable pads. The cushion study was a separate route alongside the passive headset concept."
+  }
+]

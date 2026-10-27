@@ -1,0 +1,8 @@
+Prepared child_large_h1.9_outward 7.535306956286708e-06
+Refreshed ILU child_large_h1.9_outward 0 factor entries 46209284
+Inexact Newton forcing check child_large_h1.9_outward 0 20 0.17196923583396487 2000
+Traceback (most recent call last):
+  File "${WORKSPACE}\v27_polish_joint.py", line 88, in <module>
+    du,info=gmres(J,-res[free],M=M,rtol=1e-7,atol=1e-12,restart=100,maxiter=20,callback=tick,callback_type='pr_norm');linear=float(np.linalg.norm(matvec(du)+res[free])/max(np.linalg.norm(res[free]),1e-12));print('Inexact Newton forcing check',label,iteration,info,linear,count[0],flush=True);assert linear<0.01, 'Inexact Newton direction fails forcing bound 0.01; final equilibrium gate unchanged'
+                                                                                                                                                                                                                                                                                                           ^^^^^^^^^^^
+AssertionError: Inexact Newton direction fails forcing bound 0.01; final equilibrium gate unchanged

@@ -1,0 +1,92 @@
+[
+  {
+    "zone_height_mm": 18,
+    "source_CAD_sha256": "d41c06ad081f7ad4909c1b11058d782747f40b94bb747026a1aa297e628b3ea5",
+    "validity": [
+      {
+        "part": "CF42M_main",
+        "valid": true,
+        "volume_mm3": 40415.96000993575,
+        "self_common_mm3": null,
+        "positive_common_control_performed": false,
+        "pass": true
+      },
+      {
+        "part": "CF40M_zone",
+        "valid": true,
+        "volume_mm3": 4469.5450282295815,
+        "self_common_mm3": null,
+        "positive_common_control_performed": false,
+        "pass": true
+      },
+      {
+        "part": "continuous_cover_reference",
+        "valid": true,
+        "volume_mm3": 3389.372802464324,
+        "self_common_mm3": null,
+        "positive_common_control_performed": false,
+        "pass": true
+      }
+    ],
+    "pair_intersection_check": {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 3,
+      "bbox_dimensions_mm": [
+        100.7000002,
+        80.7000002,
+        13.0500001
+      ]
+    },
+    "cover_self_common_control_mm3": 3389.372802464324,
+    "cover_volume_mm3": 3389.372802464324,
+    "pass_geometry": true,
+    "scope": "Three valid solids, nominal nonoverlap and positive cover Boolean control. Continuous cover reference intentionally has no glasses slot. No worn sealing or Sony mount fit claim."
+  },
+  {
+    "zone_height_mm": 32,
+    "source_CAD_sha256": "5ec32e47a1fc8d7010eab8d699f3eac0418eab7c868d6ebaf7f304af4ea4e384",
+    "validity": [
+      {
+        "part": "CF42M_main",
+        "valid": true,
+        "volume_mm3": 35941.3295769701,
+        "self_common_mm3": null,
+        "positive_common_control_performed": false,
+        "pass": true
+      },
+      {
+        "part": "CF40M_zone",
+        "valid": true,
+        "volume_mm3": 8944.175461192315,
+        "self_common_mm3": null,
+        "positive_common_control_performed": false,
+        "pass": true
+      },
+      {
+        "part": "continuous_cover_reference",
+        "valid": true,
+        "volume_mm3": 3389.372802464324,
+        "self_common_mm3": null,
+        "positive_common_control_performed": false,
+        "pass": true
+      }
+    ],
+    "pair_intersection_check": {
+      "pass": true,
+      "overlaps": [],
+      "errors": [],
+      "boolean_count": 3,
+      "bbox_dimensions_mm": [
+        100.7000002,
+        80.7000002,
+        13.0500001
+      ]
+    },
+    "cover_self_common_control_mm3": 3389.372802464324,
+    "cover_volume_mm3": 3389.372802464324,
+    "pass_geometry": true,
+    "scope": "Three valid solids, nominal nonoverlap and positive cover Boolean control. Continuous cover reference intentionally has no glasses slot. No worn sealing or Sony mount fit claim."
+  }
+]
